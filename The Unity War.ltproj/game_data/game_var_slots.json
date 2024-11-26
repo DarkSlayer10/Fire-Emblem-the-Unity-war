@@ -1,0 +1,74 @@
+[
+    {
+        "nid": "_random_seed",
+        "desc": "Seed used by engine for RNG. Generated automatically at new game."
+    },
+    {
+        "nid": "_next_level_nid",
+        "desc": "Internal to engine. Do not modify using game_var."
+    },
+    {
+        "nid": "_goto_level",
+        "desc": "Can be set to the nid of your desired next level."
+    },
+    {
+        "nid": "_go_to_overworld_nid",
+        "desc": "Can be set to the nid of the overworld to go to next."
+    },
+    {
+        "nid": "_current_turnwheel_use",
+        "desc": "# of turnwheel uses left in level. Automatically sets to max upon winning level."
+    },
+    {
+        "nid": "_max_turnwheel_uses",
+        "desc": "Maximum number of turnwheel uses/level. Defaults to -1 (infinite)."
+    },
+    {
+        "nid": "_convoy",
+        "desc": "Player has access to convoy when set to True. (Default False)"
+    },
+    {
+        "nid": "_turnwheel",
+        "desc": "Player has access to turnwheel when set to True. (Default False)"
+    },
+    {
+        "nid": "_supports",
+        "desc": "Player can access support mechanics when True. (Default False)"
+    },
+    {
+        "nid": "_fatigue",
+        "desc": "0=off, 1=fatigued units can't be deployed, 2=fatigue/rested status, 3=your custom implementation"
+    },
+    {
+        "nid": "_prep_market",
+        "desc": "Player can access market from prep screen when True. (Default False)"
+    },
+    {
+        "nid": "_prep_music",
+        "desc": "Tracks NID of music in preps. Does not need to be set manually."
+    },
+    {
+        "nid": "_bexp_music",
+        "desc": "Tracks NID of music in bexp menu. Does not need to be set manually."
+    },
+    {
+        "nid": "_base_market",
+        "desc": "Player can access market from base screen when True. (Default False)"
+    },
+    {
+        "nid": "_base_bg_name",
+        "desc": "Tracks NID of background in base. Does not need to be set manually."
+    },
+    {
+        "nid": "_base_music",
+        "desc": "Tracks NID of music in base. Does not need to be set manually."
+    },
+    {
+        "nid": "_phase_music_fade_ms",
+        "desc": "Number of milliseconds phase music takes to fade in. Default 400."
+    },
+    {
+        "nid": "_last_choice",
+        "desc": "Holds the most recent choice made by the player using choice event."
+    }
+]

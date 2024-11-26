@@ -1,0 +1,713 @@
+[
+    {
+        "nid": "0",
+        "name": "Magvel",
+        "tilemap": "Magvel",
+        "music": "Distant Roads",
+        "overworld_nodes": [
+            {
+                "nid": "0",
+                "name": "Border Mulan",
+                "pos": [
+                    9,
+                    5
+                ],
+                "icon": "fort",
+                "level": "0",
+                "menu_options": []
+            },
+            {
+                "nid": "1",
+                "name": "New Location",
+                "pos": [
+                    9,
+                    3
+                ],
+                "icon": "tower",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "2",
+                "name": "Frelia Castle",
+                "pos": [
+                    5,
+                    4
+                ],
+                "icon": "castle",
+                "level": "1",
+                "menu_options": []
+            },
+            {
+                "nid": "3",
+                "name": "New Location",
+                "pos": [
+                    4,
+                    9
+                ],
+                "icon": "fort",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "4",
+                "name": "Borgo Ridge",
+                "pos": [
+                    7,
+                    9
+                ],
+                "icon": "fort",
+                "level": "3",
+                "menu_options": []
+            },
+            {
+                "nid": "5",
+                "name": "Ide",
+                "pos": [
+                    7,
+                    7
+                ],
+                "icon": "town",
+                "level": "2",
+                "menu_options": []
+            },
+            {
+                "nid": "6",
+                "name": "New Location",
+                "pos": [
+                    9,
+                    9
+                ],
+                "icon": "map_node",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "7",
+                "name": "New Location",
+                "pos": [
+                    9,
+                    11
+                ],
+                "icon": "town",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "8",
+                "name": "New Location",
+                "pos": [
+                    11,
+                    12
+                ],
+                "icon": "map_node",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "9",
+                "name": "New Location",
+                "pos": [
+                    13,
+                    13
+                ],
+                "icon": "citadel",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "10",
+                "name": "New Location",
+                "pos": [
+                    4,
+                    14
+                ],
+                "icon": "map_node",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "11",
+                "name": "New Location",
+                "pos": [
+                    9,
+                    15
+                ],
+                "icon": "town",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "12",
+                "name": "New Location",
+                "pos": [
+                    12,
+                    16
+                ],
+                "icon": "map_node",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "13",
+                "name": "New Location",
+                "pos": [
+                    16,
+                    16
+                ],
+                "icon": "cathedral",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "14",
+                "name": "New Location",
+                "pos": [
+                    19,
+                    12
+                ],
+                "icon": "pyramid",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "15",
+                "name": "New Location",
+                "pos": [
+                    19,
+                    8
+                ],
+                "icon": "map_node",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "16",
+                "name": "New Location",
+                "pos": [
+                    16,
+                    6
+                ],
+                "icon": "woods",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "17",
+                "name": "New Location",
+                "pos": [
+                    13,
+                    6
+                ],
+                "icon": "map_node",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "18",
+                "name": "New Location",
+                "pos": [
+                    13,
+                    3
+                ],
+                "icon": "town",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "19",
+                "name": "New Location",
+                "pos": [
+                    21,
+                    2
+                ],
+                "icon": "map_node",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "20",
+                "name": "New Location",
+                "pos": [
+                    19,
+                    5
+                ],
+                "icon": "forest_temple",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "21",
+                "name": "New Location",
+                "pos": [
+                    24,
+                    5
+                ],
+                "icon": "castle",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "22",
+                "name": "New Location",
+                "pos": [
+                    22,
+                    7
+                ],
+                "icon": "map_node",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "23",
+                "name": "New Location",
+                "pos": [
+                    22,
+                    10
+                ],
+                "icon": "map_node",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "24",
+                "name": "New Location",
+                "pos": [
+                    25,
+                    11
+                ],
+                "icon": "ruins",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "25",
+                "name": "New Location",
+                "pos": [
+                    13,
+                    9
+                ],
+                "icon": "palace",
+                "level": null,
+                "menu_options": []
+            }
+        ],
+        "map_paths": {
+            "(16, 6)-(13, 6)": [
+                [
+                    16,
+                    6
+                ],
+                [
+                    13,
+                    6
+                ]
+            ],
+            "(13, 6)-(13, 3)": [
+                [
+                    13,
+                    6
+                ],
+                [
+                    13,
+                    3
+                ]
+            ],
+            "(13, 3)-(21, 2)": [
+                [
+                    13,
+                    3
+                ],
+                [
+                    15,
+                    3
+                ],
+                [
+                    16,
+                    2
+                ],
+                [
+                    21,
+                    2
+                ]
+            ],
+            "(19, 5)-(24, 5)": [
+                [
+                    19,
+                    5
+                ],
+                [
+                    21,
+                    5
+                ],
+                [
+                    21,
+                    4
+                ],
+                [
+                    24,
+                    4
+                ],
+                [
+                    24,
+                    5
+                ]
+            ],
+            "(21, 2)-(24, 5)": [
+                [
+                    21,
+                    2
+                ],
+                [
+                    24,
+                    2
+                ],
+                [
+                    24,
+                    5
+                ]
+            ],
+            "(24, 5)-(22, 7)": [
+                [
+                    24,
+                    5
+                ],
+                [
+                    22,
+                    7
+                ]
+            ],
+            "(24, 5)-(25, 11)": [
+                [
+                    24,
+                    5
+                ],
+                [
+                    25,
+                    6
+                ],
+                [
+                    25,
+                    11
+                ]
+            ],
+            "(22, 7)-(22, 10)": [
+                [
+                    22,
+                    7
+                ],
+                [
+                    22,
+                    10
+                ]
+            ],
+            "(22, 10)-(19, 12)": [
+                [
+                    22,
+                    10
+                ],
+                [
+                    22,
+                    12
+                ],
+                [
+                    20,
+                    12
+                ],
+                [
+                    19,
+                    12
+                ]
+            ],
+            "(16, 16)-(12, 16)": [
+                [
+                    16,
+                    16
+                ],
+                [
+                    12,
+                    16
+                ]
+            ],
+            "(12, 16)-(9, 15)": [
+                [
+                    12,
+                    16
+                ],
+                [
+                    10,
+                    16
+                ],
+                [
+                    9,
+                    15
+                ]
+            ],
+            "(9, 15)-(4, 14)": [
+                [
+                    9,
+                    15
+                ],
+                [
+                    7,
+                    15
+                ],
+                [
+                    6,
+                    14
+                ],
+                [
+                    4,
+                    14
+                ]
+            ],
+            "(4, 14)-(4, 9)": [
+                [
+                    4,
+                    14
+                ],
+                [
+                    3,
+                    13
+                ],
+                [
+                    3,
+                    12
+                ],
+                [
+                    4,
+                    11
+                ],
+                [
+                    4,
+                    9
+                ]
+            ],
+            "(4, 9)-(5, 4)": [
+                [
+                    4,
+                    9
+                ],
+                [
+                    4,
+                    5
+                ],
+                [
+                    5,
+                    4
+                ]
+            ],
+            "(5, 4)-(7, 7)": [
+                [
+                    5,
+                    4
+                ],
+                [
+                    7,
+                    6
+                ],
+                [
+                    7,
+                    7
+                ]
+            ],
+            "(7, 7)-(7, 9)": [
+                [
+                    7,
+                    7
+                ],
+                [
+                    7,
+                    9
+                ]
+            ],
+            "(7, 9)-(9, 9)": [
+                [
+                    7,
+                    9
+                ],
+                [
+                    9,
+                    9
+                ]
+            ],
+            "(9, 9)-(9, 11)": [
+                [
+                    9,
+                    9
+                ],
+                [
+                    9,
+                    11
+                ]
+            ],
+            "(9, 11)-(11, 12)": [
+                [
+                    9,
+                    11
+                ],
+                [
+                    11,
+                    11
+                ],
+                [
+                    11,
+                    12
+                ]
+            ],
+            "(11, 12)-(13, 13)": [
+                [
+                    11,
+                    12
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    13,
+                    13
+                ]
+            ],
+            "(13, 13)-(16, 16)": [
+                [
+                    13,
+                    13
+                ],
+                [
+                    14,
+                    13
+                ],
+                [
+                    16,
+                    15
+                ],
+                [
+                    16,
+                    16
+                ]
+            ],
+            "(13, 9)-(19, 12)": [
+                [
+                    13,
+                    9
+                ],
+                [
+                    16,
+                    12
+                ],
+                [
+                    19,
+                    12
+                ]
+            ],
+            "(9, 5)-(13, 9)": [
+                [
+                    9,
+                    5
+                ],
+                [
+                    9,
+                    6
+                ],
+                [
+                    12,
+                    9
+                ],
+                [
+                    13,
+                    9
+                ]
+            ],
+            "(9, 5)-(5, 4)": [
+                [
+                    9,
+                    5
+                ],
+                [
+                    8,
+                    5
+                ],
+                [
+                    7,
+                    4
+                ],
+                [
+                    5,
+                    4
+                ]
+            ],
+            "(9, 3)-(9, 5)": [
+                [
+                    9,
+                    3
+                ],
+                [
+                    9,
+                    5
+                ]
+            ],
+            "(9, 5)-(13, 3)": [
+                [
+                    9,
+                    5
+                ],
+                [
+                    10,
+                    5
+                ],
+                [
+                    12,
+                    3
+                ],
+                [
+                    13,
+                    3
+                ]
+            ],
+            "(16, 6)-(19, 8)": [
+                [
+                    16,
+                    6
+                ],
+                [
+                    17,
+                    6
+                ],
+                [
+                    19,
+                    8
+                ]
+            ],
+            "(19, 8)-(19, 12)": [
+                [
+                    19,
+                    8
+                ],
+                [
+                    19,
+                    12
+                ]
+            ],
+            "(19, 12)-(16, 16)": [
+                [
+                    19,
+                    12
+                ],
+                [
+                    19,
+                    15
+                ],
+                [
+                    18,
+                    16
+                ],
+                [
+                    16,
+                    16
+                ]
+            ]
+        },
+        "border_tile_width": 0
+    }
+]

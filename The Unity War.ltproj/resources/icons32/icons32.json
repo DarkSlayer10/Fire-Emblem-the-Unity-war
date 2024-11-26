@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "BanditEmblem",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "BlankEmblem",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "ConfederacyEmblem",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "EmpireEmblem",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "KnightEmblem",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "MonsterEmblem",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "NeutralEmblem",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "ResistanceEmblem",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "TemplarEmblem",
+        "subicon_dict": {}
+    }
+]

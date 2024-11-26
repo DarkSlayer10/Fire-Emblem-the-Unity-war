@@ -1,0 +1,52 @@
+[
+    {
+        "nid": "Soldier",
+        "name": "Soldier",
+        "desc": "The army of Grado, the largest nation on the entire continent",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Cutthroat",
+        "name": "Cutthroat",
+        "desc": "A member of Bazba's Bandits, who roam this region.",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Bandit",
+        "name": "Bandit",
+        "desc": "One of the bandits who have laid claim to the Carcino territories.",
+        "icon_nid": "NeutralEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Wall",
+        "name": "Wall",
+        "desc": "",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Monster",
+        "name": "Monster",
+        "desc": "A grotesque creature created by magic and born in darkness.",
+        "icon_nid": "MonsterEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    }
+]

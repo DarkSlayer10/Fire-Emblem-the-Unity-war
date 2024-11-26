@@ -1,0 +1,569 @@
+[
+    {
+        "nid": "CritSpark",
+        "frame_x": 3,
+        "frame_y": 5,
+        "num_frames": 15,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": true
+    },
+    {
+        "nid": "BlueDot",
+        "frame_x": 1,
+        "frame_y": 8,
+        "num_frames": 8,
+        "speed": 80,
+        "frame_times": "5,5,5,5,5,5,5,5",
+        "use_frame_time": false
+    },
+    {
+        "nid": "RedDot",
+        "frame_x": 1,
+        "frame_y": 8,
+        "num_frames": 8,
+        "speed": 80,
+        "frame_times": "5,5,5,5,5,5,5,5",
+        "use_frame_time": false
+    },
+    {
+        "nid": "HitSpark",
+        "frame_x": 3,
+        "frame_y": 5,
+        "num_frames": 14,
+        "speed": 75,
+        "frame_times": "2,2,2,2,2,2,1,1,1,1,1,1,1,1",
+        "use_frame_time": true
+    },
+    {
+        "nid": "LevelUpArrow",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "LevelDownArrow",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "LevelUpBattle",
+        "frame_x": 5,
+        "frame_y": 11,
+        "num_frames": 52,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,10,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": true
+    },
+    {
+        "nid": "LevelUpMap",
+        "frame_x": 5,
+        "frame_y": 5,
+        "num_frames": 25,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,44",
+        "use_frame_time": true
+    },
+    {
+        "nid": "LevelUpNumber1",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "LevelUpNumber2",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "LevelUpNumber3",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "LevelUpNumber4",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "LevelUpNumber5",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "LevelUpNumber6",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "LevelUpNumber7",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "LevelDownNumber1",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "LevelDownNumber2",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "LevelDownNumber3",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "LevelDownNumber4",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "LevelDownNumber5",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "LevelDownNumber6",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "LevelDownNumber7",
+        "frame_x": 10,
+        "frame_y": 1,
+        "num_frames": 10,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapBigHealTrans",
+        "frame_x": 5,
+        "frame_y": 4,
+        "num_frames": 16,
+        "speed": 24,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapMediumHealTrans",
+        "frame_x": 5,
+        "frame_y": 4,
+        "num_frames": 16,
+        "speed": 24,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapMiss",
+        "frame_x": 1,
+        "frame_y": 13,
+        "num_frames": 13,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,10,3,3,3",
+        "use_frame_time": true
+    },
+    {
+        "nid": "MapNoDamage",
+        "frame_x": 1,
+        "frame_y": 12,
+        "num_frames": 12,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,10,3,3,3",
+        "use_frame_time": true
+    },
+    {
+        "nid": "MapGlancingHit",
+        "frame_x": 1,
+        "frame_y": 12,
+        "num_frames": 12,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,16,3,3,3",
+        "use_frame_time": true
+    },
+    {
+        "nid": "MapSmallHealTrans",
+        "frame_x": 5,
+        "frame_y": 4,
+        "num_frames": 16,
+        "speed": 24,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MissBlue",
+        "frame_x": 5,
+        "frame_y": 4,
+        "num_frames": 20,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,23",
+        "use_frame_time": true
+    },
+    {
+        "nid": "MissRed",
+        "frame_x": 5,
+        "frame_y": 4,
+        "num_frames": 20,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,23",
+        "use_frame_time": true
+    },
+    {
+        "nid": "MissGreen",
+        "frame_x": 5,
+        "frame_y": 4,
+        "num_frames": 20,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,23",
+        "use_frame_time": true
+    },
+    {
+        "nid": "MissPurple",
+        "frame_x": 5,
+        "frame_y": 4,
+        "num_frames": 20,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,23",
+        "use_frame_time": true
+    },
+    {
+        "nid": "NoDamageBlue",
+        "frame_x": 5,
+        "frame_y": 5,
+        "num_frames": 25,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,48",
+        "use_frame_time": true
+    },
+    {
+        "nid": "NoDamageRed",
+        "frame_x": 5,
+        "frame_y": 5,
+        "num_frames": 25,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,48",
+        "use_frame_time": true
+    },
+    {
+        "nid": "NoDamageGreen",
+        "frame_x": 5,
+        "frame_y": 5,
+        "num_frames": 25,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,48",
+        "use_frame_time": true
+    },
+    {
+        "nid": "NoDamagePurple",
+        "frame_x": 5,
+        "frame_y": 5,
+        "num_frames": 25,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,48",
+        "use_frame_time": true
+    },
+    {
+        "nid": "GlancingHitBlue",
+        "frame_x": 5,
+        "frame_y": 5,
+        "num_frames": 25,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,48",
+        "use_frame_time": true
+    },
+    {
+        "nid": "GlancingHitRed",
+        "frame_x": 5,
+        "frame_y": 5,
+        "num_frames": 25,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,48",
+        "use_frame_time": true
+    },
+    {
+        "nid": "GlancingHitGreen",
+        "frame_x": 5,
+        "frame_y": 5,
+        "num_frames": 25,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,48",
+        "use_frame_time": true
+    },
+    {
+        "nid": "StatUpSpark",
+        "frame_x": 11,
+        "frame_y": 1,
+        "num_frames": 11,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Snag",
+        "frame_x": 5,
+        "frame_y": 13,
+        "num_frames": 64,
+        "speed": 16,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapStun",
+        "frame_x": 5,
+        "frame_y": 2,
+        "num_frames": 7,
+        "speed": 150,
+        "frame_times": "9,9,9,9,9,9,9",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapStatDecrease",
+        "frame_x": 11,
+        "frame_y": 1,
+        "num_frames": 11,
+        "speed": 150,
+        "frame_times": "9,9,9,9,9,9,9,9,9,9,9",
+        "use_frame_time": false
+    },
+    {
+        "nid": "OverchargeAura",
+        "frame_x": 1,
+        "frame_y": 3,
+        "num_frames": 3,
+        "speed": 150,
+        "frame_times": "9,9,9",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Warp",
+        "frame_x": 18,
+        "frame_y": 1,
+        "num_frames": 18,
+        "speed": 25,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Swoosh",
+        "frame_x": 6,
+        "frame_y": 1,
+        "num_frames": 6,
+        "speed": 50,
+        "frame_times": "3,3,3,3,3,3",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapSpiritbane",
+        "frame_x": 5,
+        "frame_y": 4,
+        "num_frames": 20,
+        "speed": 24,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapSilence",
+        "frame_x": 4,
+        "frame_y": 1,
+        "num_frames": 4,
+        "speed": 150,
+        "frame_times": "9,9,9,9",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapProvoke",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 150,
+        "frame_times": "9,9,9",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapPoison",
+        "frame_x": 5,
+        "frame_y": 2,
+        "num_frames": 8,
+        "speed": 150,
+        "frame_times": "9,9,9,9,9,9,9,9",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapPoisonShock",
+        "frame_x": 5,
+        "frame_y": 2,
+        "num_frames": 9,
+        "speed": 48,
+        "frame_times": "3,3,3,3,3,3,3,3,3",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapFrostbite",
+        "frame_x": 11,
+        "frame_y": 1,
+        "num_frames": 11,
+        "speed": 150,
+        "frame_times": "9,9,9,9,9,9,9,9,9,9,9",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapFlying",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 150,
+        "frame_times": "9,9,9,9,9,9,9,9,9",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapBerserk",
+        "frame_x": 5,
+        "frame_y": 2,
+        "num_frames": 9,
+        "speed": 150,
+        "frame_times": "9,9,9,9,9,9,9,9,9",
+        "use_frame_time": false
+    },
+    {
+        "nid": "AOE_Blizzard",
+        "frame_x": 12,
+        "frame_y": 1,
+        "num_frames": 12,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "AOE_Fireball",
+        "frame_x": 12,
+        "frame_y": 1,
+        "num_frames": 12,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "AOE_Mend",
+        "frame_x": 12,
+        "frame_y": 1,
+        "num_frames": 12,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "AOE_Meteor",
+        "frame_x": 12,
+        "frame_y": 1,
+        "num_frames": 12,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "AOE_Sandblast",
+        "frame_x": 12,
+        "frame_y": 1,
+        "num_frames": 12,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "AOE_Rally",
+        "frame_x": 12,
+        "frame_y": 1,
+        "num_frames": 12,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "AOE_Reinforce",
+        "frame_x": 12,
+        "frame_y": 1,
+        "num_frames": 12,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "AOE_Wyrmsfire",
+        "frame_x": 12,
+        "frame_y": 1,
+        "num_frames": 12,
+        "speed": 32,
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapSurprise",
+        "frame_x": 5,
+        "frame_y": 2,
+        "num_frames": 10,
+        "speed": 75,
+        "frame_times": "1,1,1,1,2,2,2,2,2,30",
+        "use_frame_time": true
+    }
+]

@@ -1,0 +1,38 @@
+[
+    [
+        {
+            "nid": "player",
+            "map_sprite_palette": "map_sprite_blue",
+            "combat_variant_palette": "GenericBlue",
+            "combat_color": "blue",
+            "phase_change_sound_effect": null
+        },
+        {
+            "nid": "enemy",
+            "map_sprite_palette": "map_sprite_red",
+            "combat_variant_palette": "GenericRed",
+            "combat_color": "red",
+            "phase_change_sound_effect": null
+        },
+        {
+            "nid": "enemy2",
+            "map_sprite_palette": "map_sprite_purple",
+            "combat_variant_palette": "GenericPurple",
+            "combat_color": "purple",
+            "phase_change_sound_effect": null
+        },
+        {
+            "nid": "other",
+            "map_sprite_palette": "map_sprite_green",
+            "combat_variant_palette": "GenericGreen",
+            "combat_color": "green",
+            "phase_change_sound_effect": null
+        }
+    ],
+    [
+        [
+            "other",
+            "player"
+        ]
+    ]
+]
