@@ -120,5 +120,10 @@
         "nid": "COOL",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Queen Gambit",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

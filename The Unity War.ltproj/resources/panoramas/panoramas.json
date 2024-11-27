@@ -162,5 +162,9 @@
     [
         "combat_village",
         1
+    ],
+    [
+        "TempleEntrance",
+        1
     ]
 ]

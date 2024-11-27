@@ -1,0 +1,25 @@
+[
+    {
+        "name": "0 - Intro",
+        "trigger": "level_start",
+        "level_nid": "Z1",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_background;BlackBackground",
+            "transition;close",
+            "change_background;TempleEntrance",
+            "transition;open",
+            "add_portrait;Darkslayer;Left",
+            "speak;Darkslayer;\u2028Hey everyone, I'm Darkslayer, the\u2028main dev of the hack you're playing.{w}\u2028I hope y'all enjoy my rom, and please\u2028give any feedback if possible!{w}{c:expression;Darkslayer;Smile}\u2028Now, let's get this hack started!",
+            "remove_portrait;Darkslayer",
+            "transition;close",
+            "end_skip",
+            "change_background",
+            "center_cursor;20,1;immediate"
+        ],
+        "nid": "Z1 0 - Intro"
+    }
+]
