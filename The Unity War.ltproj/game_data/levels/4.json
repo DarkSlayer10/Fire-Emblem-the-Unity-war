@@ -89,7 +89,7 @@
                 "generic": false
             },
             {
-                "nid": "Vanessa",
+                "nid": "Maya",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -975,7 +975,7 @@
                     "Emma",
                     "Emily",
                     "Isabelle",
-                    "Vanessa",
+                    "Maya",
                     "Moulder",
                     "Ross",
                     "Colm",

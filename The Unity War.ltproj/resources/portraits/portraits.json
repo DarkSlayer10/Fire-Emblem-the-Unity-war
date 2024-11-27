@@ -1,53 +1,5 @@
 [
     {
-        "nid": "Eirika",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Seth",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Franz",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Gilliam",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Moulder",
         "blinking_offset": [
             24,
@@ -241,18 +193,6 @@
     },
     {
         "nid": "Amelia",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "L'arachel",
         "blinking_offset": [
             24,
             32
@@ -715,6 +655,18 @@
         ],
         "smiling_offset": [
             25,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Maya",
+        "blinking_offset": [
+            32,
+            16
+        ],
+        "smiling_offset": [
+            32,
             32
         ],
         "info_offset": 0
