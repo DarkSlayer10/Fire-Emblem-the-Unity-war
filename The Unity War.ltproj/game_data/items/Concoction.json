@@ -1,0 +1,49 @@
+[
+    {
+        "nid": "Concoction",
+        "name": "Concoction",
+        "desc": "A medicinal solution used\nfor healing minor wounds.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "value",
+                500
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "heal",
+                20
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ]
+        ]
+    }
+]

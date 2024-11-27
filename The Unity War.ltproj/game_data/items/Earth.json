@@ -2,11 +2,11 @@
     {
         "nid": "Earth",
         "name": "Earth ",
-        "desc": "",
-        "icon_nid": "Item Icons Fe Unity War 10-24-24.emulator.emulator.gba_63@3F_01458464",
+        "desc": "Emma only. Hits Def.",
+        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
         "icon_index": [
-            0,
-            0
+            10,
+            5
         ],
         "components": [
             [
@@ -14,16 +14,28 @@
                 null
             ],
             [
+                "weapon_type",
+                "Anima"
+            ],
+            [
                 "weapon_rank",
                 "E"
             ],
             [
-                "max_range",
-                2
+                "magic",
+                null
+            ],
+            [
+                "target_enemy",
+                null
             ],
             [
                 "min_range",
                 1
+            ],
+            [
+                "max_range",
+                2
             ],
             [
                 "hit",
@@ -34,8 +46,12 @@
                 7
             ],
             [
-                "item_tags",
-                []
+                "weight",
+                7
+            ],
+            [
+                "alternate_resist_formula",
+                "DEFENSE"
             ],
             [
                 "uses",
@@ -49,8 +65,10 @@
                 }
             ],
             [
-                "weight",
-                7
+                "prf_unit",
+                [
+                    "Emma"
+                ]
             ]
         ]
     }

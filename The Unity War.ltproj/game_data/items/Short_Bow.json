@@ -2,7 +2,7 @@
     {
         "nid": "Short_Bow",
         "name": "Short Bow",
-        "desc": "",
+        "desc": "Can attack at 1-2 range.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                5
+                6
             ],
             [
                 "hit",
-                85
+                90
             ],
             [
                 "weapon_type",
@@ -35,11 +35,11 @@
             ],
             [
                 "weapon_rank",
-                "D"
+                "E"
             ],
             [
                 "uses",
-                22
+                30
             ],
             [
                 "uses_options",
@@ -54,7 +54,7 @@
             ],
             [
                 "crit",
-                10
+                0
             ],
             [
                 "wexp",
@@ -62,7 +62,7 @@
             ],
             [
                 "value",
-                1760
+                1050
             ],
             [
                 "min_range",

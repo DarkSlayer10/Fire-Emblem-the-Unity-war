@@ -79,5 +79,9 @@
     {
         "nid": "skill_icons",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} All Icons LordGlenn Pack 1",
+        "subicon_dict": {}
     }
 ]

@@ -2,7 +2,7 @@
     {
         "nid": "Fire",
         "name": "Fire",
-        "desc": "",
+        "desc": "A tome that shoots fire.",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                560
+                450
             ],
             [
                 "target_enemy",
@@ -43,11 +43,11 @@
             ],
             [
                 "weight",
-                4
+                6
             ],
             [
                 "uses",
-                40
+                45
             ],
             [
                 "uses_options",

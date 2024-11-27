@@ -241,8 +241,8 @@
     "map_sprite_dark_red",
     "map_sprite_dark_green",
     "map_sprite_dark_wait",
-    "New_Palette",
-    "New_Palette_(1)",
-    "New_Palette_1",
-    "New_Palette_2"
+    "Marksman",
+    "Apprentice",
+    "Earth_fg",
+    "Earth_bg"
 ]

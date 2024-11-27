@@ -161,7 +161,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Rotten_Claw",
+                        "Slim_Sword",
                         false
                     ]
                 ],
@@ -185,7 +185,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Rotten_Claw",
+                        "Slim_Sword",
                         false
                     ]
                 ],
@@ -209,7 +209,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Rotten_Claw",
+                        "Slim_Sword",
                         false
                     ]
                 ],
@@ -233,7 +233,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Rotten_Claw",
+                        "Slim_Sword",
                         false
                     ]
                 ],
@@ -257,7 +257,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Rotten_Claw",
+                        "Slim_Sword",
                         false
                     ]
                 ],
@@ -281,7 +281,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Rotten_Claw",
+                        "Slim_Sword",
                         false
                     ]
                 ],
@@ -305,7 +305,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Rotten_Claw",
+                        "Slim_Sword",
                         false
                     ]
                 ],
@@ -329,7 +329,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Rotten_Claw",
+                        "Slim_Sword",
                         false
                     ]
                 ],
@@ -353,11 +353,11 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Fetid_Claw",
+                        "Slim_Sword",
                         false
                     ],
                     [
-                        "Vulnerary",
+                        "Concoction",
                         false
                     ]
                 ],
@@ -378,7 +378,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Rotten_Claw",
+                        "Slim_Sword",
                         false
                     ]
                 ],
@@ -399,7 +399,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Rotten_Claw",
+                        "Slim_Sword",
                         false
                     ]
                 ],
@@ -420,7 +420,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Rotten_Claw",
+                        "Slim_Sword",
                         false
                     ]
                 ],
@@ -441,7 +441,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Fetid_Claw",
+                        "Slim_Sword",
                         false
                     ]
                 ],
@@ -600,7 +600,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Evil_Eye",
+                        "Slim_Sword",
                         false
                     ]
                 ],
@@ -624,7 +624,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Evil_Eye",
+                        "Slim_Sword",
                         false
                     ]
                 ],
@@ -648,7 +648,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Evil_Eye",
+                        "Slim_Sword",
                         false
                     ]
                 ],
@@ -672,7 +672,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Evil_Eye",
+                        "Slim_Sword",
                         false
                     ]
                 ],

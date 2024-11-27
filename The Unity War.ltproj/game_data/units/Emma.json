@@ -54,6 +54,14 @@
             [
                 "Earth",
                 false
+            ],
+            [
+                "Heal",
+                false
+            ],
+            [
+                "Concoction",
+                false
             ]
         ],
         "learned_skills": [
