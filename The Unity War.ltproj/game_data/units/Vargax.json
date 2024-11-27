@@ -43,16 +43,7 @@
             "SKL": 0,
             "MAG": 0
         },
-        "starting_items": [
-            [
-                "Hatchet",
-                false
-            ],
-            [
-                "Concoction",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

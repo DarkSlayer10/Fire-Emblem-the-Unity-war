@@ -125,5 +125,10 @@
         "nid": "Queen Gambit",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Demon Castle",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

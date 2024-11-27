@@ -12183,10 +12183,145 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "stairs",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "18,7": [
+                        "Demon Castle",
+                        [
+                            7,
+                            5
+                        ]
+                    ],
+                    "18,8": [
+                        "Demon Castle",
+                        [
+                            7,
+                            5
+                        ]
+                    ],
+                    "18,9": [
+                        "Demon Castle",
+                        [
+                            7,
+                            5
+                        ]
+                    ],
+                    "18,10": [
+                        "Demon Castle",
+                        [
+                            7,
+                            5
+                        ]
+                    ],
+                    "20,7": [
+                        "Demon Castle",
+                        [
+                            8,
+                            5
+                        ]
+                    ],
+                    "20,8": [
+                        "Demon Castle",
+                        [
+                            8,
+                            5
+                        ]
+                    ],
+                    "20,9": [
+                        "Demon Castle",
+                        [
+                            8,
+                            5
+                        ]
+                    ],
+                    "20,10": [
+                        "Demon Castle",
+                        [
+                            8,
+                            5
+                        ]
+                    ],
+                    "19,7": [
+                        "Demon Castle",
+                        [
+                            9,
+                            5
+                        ]
+                    ],
+                    "19,8": [
+                        "Demon Castle",
+                        [
+                            9,
+                            5
+                        ]
+                    ],
+                    "19,9": [
+                        "Demon Castle",
+                        [
+                            9,
+                            5
+                        ]
+                    ],
+                    "19,10": [
+                        "Demon Castle",
+                        [
+                            9,
+                            5
+                        ]
+                    ],
+                    "18,11": [
+                        "Queen Gambit",
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "20,11": [
+                        "Queen Gambit",
+                        [
+                            11,
+                            15
+                        ]
+                    ],
+                    "19,11": [
+                        "Queen Gambit",
+                        [
+                            25,
+                            32
+                        ]
+                    ],
+                    "18,6": [
+                        "Queen Gambit",
+                        [
+                            13,
+                            1
+                        ]
+                    ],
+                    "19,6": [
+                        "Queen Gambit",
+                        [
+                            26,
+                            0
+                        ]
+                    ],
+                    "20,6": [
+                        "Queen Gambit",
+                        [
+                            26,
+                            0
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [
-            "Queen Gambit"
+            "Queen Gambit",
+            "Demon Castle"
         ]
     }
 ]
