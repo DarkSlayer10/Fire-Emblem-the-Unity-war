@@ -3,10 +3,10 @@
         "nid": "Earth",
         "name": "Earth ",
         "desc": "Emma only. Hits Def.",
-        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
+        "icon_nid": "InHouse and Filler Icons",
         "icon_index": [
-            10,
-            5
+            0,
+            0
         ],
         "components": [
             [

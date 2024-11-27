@@ -60,19 +60,6 @@
         "subicon_dict": {}
     },
     {
-        "nid": "Item Icons Fe Unity War 10-24-24.emulator.emulator.gba_63@3F_01458464",
-        "subicon_dict": {
-            "Item Icons Fe Unity War 10-24-24.emulator.emulator.gba_63@3F_01458464 0, 0": [
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "nid": "{ZessDynamite, Rainlash} All Icons",
-        "subicon_dict": {}
-    },
-    {
         "nid": "ZessDynamiteSkillsys",
         "subicon_dict": {}
     },
@@ -81,7 +68,7 @@
         "subicon_dict": {}
     },
     {
-        "nid": "{LordGlenn} All Icons LordGlenn Pack 1",
+        "nid": "InHouse and Filler Icons",
         "subicon_dict": {}
     }
 ]
