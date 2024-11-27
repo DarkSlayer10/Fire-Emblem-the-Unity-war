@@ -162,5 +162,9 @@
     {
         "nid": "Generic_Portrait_Wyvern_Rider",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Sorcerer",
+        "subicon_dict": {}
     }
 ]

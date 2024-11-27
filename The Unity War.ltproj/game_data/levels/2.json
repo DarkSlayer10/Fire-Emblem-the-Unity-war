@@ -105,7 +105,7 @@
                 "generic": false
             },
             {
-                "nid": "Ross",
+                "nid": "Vargax",
                 "team": "other",
                 "ai": "Guard",
                 "roam_ai": null,
@@ -485,7 +485,7 @@
             {
                 "nid": "RossGarcia",
                 "units": [
-                    "Ross",
+                    "Vargax",
                     "Garcia"
                 ],
                 "positions": {}

@@ -260,6 +260,32 @@
         ]
     },
     {
+        "nid": "Stone",
+        "name": "Stone",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            8
+        ]
+    },
+    {
+        "nid": "Monster",
+        "name": "Stone",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            8
+        ]
+    },
+    {
         "nid": "Default",
         "name": "Consumable",
         "force_melee_anim": false,

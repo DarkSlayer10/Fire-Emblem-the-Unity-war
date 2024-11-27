@@ -1,29 +1,5 @@
 [
     {
-        "nid": "Moulder",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Vanessa",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Garcia",
         "blinking_offset": [
             24,
@@ -680,6 +656,18 @@
         "smiling_offset": [
             24,
             32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Vargax",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
         ],
         "info_offset": 0
     }
