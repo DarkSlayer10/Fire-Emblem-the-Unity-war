@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Platonic_Light",
+        "name": "Platonic Light",
+        "desc": "",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "weapon_type",
+                "Light"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ]
+        ]
+    }
+]

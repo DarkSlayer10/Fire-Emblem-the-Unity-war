@@ -2,7 +2,7 @@
     {
         "nid": "Necromancer",
         "name": "Necromancer",
-        "desc": "??",
+        "desc": "A nercomancer that caused chaos\naround the land with reanimated corpses.",
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": "Shaman",
@@ -11,7 +11,7 @@
         "max_level": 20,
         "bases": {
             "HP": 18,
-            "STR": 0,
+            "STR": 9,
             "MAG": 9,
             "SKL": 4,
             "SPD": 5,
@@ -23,7 +23,7 @@
         },
         "growths": {
             "HP": 45,
-            "STR": 5,
+            "STR": 55,
             "MAG": 55,
             "SKL": 30,
             "SPD": 25,
@@ -96,12 +96,12 @@
                 251,
                 251
             ],
-            "Light": [
+            "Anima": [
                 false,
                 0,
                 251
             ],
-            "Anima": [
+            "Light": [
                 false,
                 0,
                 251

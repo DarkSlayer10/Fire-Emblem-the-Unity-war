@@ -53,7 +53,7 @@
                 "generic": false
             },
             {
-                "nid": "Gilliam",
+                "nid": "Isabelle",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -452,7 +452,7 @@
             {
                 "nid": "Rein",
                 "units": [
-                    "Gilliam",
+                    "Isabelle",
                     "Amon"
                 ],
                 "positions": {}

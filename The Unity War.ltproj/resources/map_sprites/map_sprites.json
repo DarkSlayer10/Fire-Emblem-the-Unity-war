@@ -52,7 +52,6 @@
     "Shaman",
     "Troubadour",
     "Valkyrie",
-    "Necromancer",
     "Manakete",
     "Revenant",
     "Entombed",
@@ -65,5 +64,6 @@
     "Invisible",
     "Marksman",
     "Apprentice",
-    "Slayer"
+    "Slayer",
+    "Necromancer"
 ]

@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Platonic_Sword",
+        "name": "Platonic Sword",
+        "desc": "",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "level_exp",
+                null
+            ]
+        ]
+    }
+]

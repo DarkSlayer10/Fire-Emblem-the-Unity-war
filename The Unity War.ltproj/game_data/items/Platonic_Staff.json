@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Platonic_Staff",
+        "name": "Platonic Staff",
+        "desc": "",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "magic",
+                null
+            ]
+        ]
+    }
+]

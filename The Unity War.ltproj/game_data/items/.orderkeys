@@ -136,5 +136,13 @@
     "Steal",
     "Refresh",
     "Summon",
-    "Summon_Soldier"
+    "Summon_Soldier",
+    "Platonic_Sword",
+    "Platonic_Lance",
+    "Platonic_Axe",
+    "Platonic_Bow",
+    "Platonic_Staff",
+    "Platonic_Anima",
+    "Platonic_Light",
+    "Platonic_Dark"
 ]

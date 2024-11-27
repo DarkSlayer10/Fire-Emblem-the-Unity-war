@@ -76,7 +76,7 @@
                 "generic": false
             },
             {
-                "nid": "Gilliam",
+                "nid": "Isabelle",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -974,7 +974,7 @@
                 "units": [
                     "Emma",
                     "Emily",
-                    "Gilliam",
+                    "Isabelle",
                     "Vanessa",
                     "Moulder",
                     "Ross",
