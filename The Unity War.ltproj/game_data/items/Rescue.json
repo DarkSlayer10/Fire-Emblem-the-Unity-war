@@ -1,0 +1,76 @@
+[
+    {
+        "nid": "Rescue",
+        "name": "Rescue",
+        "desc": "Bring an ally to a space adjacent to the user",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            10
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                1800
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "wexp",
+                7
+            ],
+            [
+                "sequence_item",
+                [
+                    "Rescue1",
+                    "Rescue2"
+                ]
+            ],
+            [
+                "no_ai",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_tile",
+                null
+            ]
+        ]
+    }
+]

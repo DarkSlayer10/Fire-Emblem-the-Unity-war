@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Rout (1)",
+        "trigger": "combat_end",
+        "level_nid": "DEBUG",
+        "condition": "len(game.get_enemy_units()) == 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "win_game"
+        ],
+        "nid": "DEBUG Rout (1)"
+    }
+]

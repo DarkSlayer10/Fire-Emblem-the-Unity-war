@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Village1",
+        "trigger": "Visit",
+        "level_nid": "2",
+        "condition": "region.nid == 'Village1' and unit.nid != 'Eirika'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;Town",
+            "transition;Open",
+            "add_portrait;{unit};Left;no_block",
+            "add_portrait;Selena;Right",
+            "speak;Selena;And who are you? You don't look like one of the local peasantry.{w}{clear}As you can see, these villagers have some bandit troubles.|I would like to help, but I have orders to follow...|I am required to quit this area at once.|I would ask you to aid them in this fight.|I will pay for your trouble, of course.",
+            "transition;Close",
+            "show_layer;Village1",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Red Gem",
+            "has_traded;{unit}"
+        ],
+        "nid": "2 Village1"
+    }
+]

@@ -1,0 +1,131 @@
+[
+    {
+        "nid": "Entombed",
+        "name": "Entombed",
+        "desc": "Reanimated corpses. They're not fast,\nbut their talons rend flesh with ease.",
+        "tier": 2,
+        "movement_group": "Regular",
+        "promotes_from": "Revenant",
+        "turns_into": [],
+        "tags": [
+            "Monster"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 35,
+            "STR": 3,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 1,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 6,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 40,
+            "MAG": 0,
+            "SKL": 25,
+            "SPD": 17,
+            "LCK": 50,
+            "DEF": 10,
+            "RES": 13,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 25,
+            "MAG": 20,
+            "SKL": 22,
+            "SPD": 21,
+            "LCK": 30,
+            "DEF": 24,
+            "RES": 22,
+            "CON": 25,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Entombed",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Entombed",
+        "combat_anim_nid": null,
+        "fields": []
+    }
+]

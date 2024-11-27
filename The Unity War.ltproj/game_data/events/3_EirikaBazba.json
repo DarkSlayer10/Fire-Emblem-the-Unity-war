@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Eirika/Bazba",
+        "trigger": "combat_start",
+        "level_nid": "3",
+        "condition": "check_pair('Bazba','Eirika')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Bazba;Left;no_block",
+            "add_portrait;Eirika;Right",
+            "speak;Bazba;Hah... You look like a pampered noble, not a soldier.|Who the heck are you supposed to be?",
+            "speak;Eirika;I am Princess Eirika.|Your crimes against the people of Renais end today!",
+            "speak;Bazba;You'll regret taking that tone with me.|I'm the mighty Bazba, after all!|The likes of you can hardly even scratch me.",
+            "remove_portrait;Bazba;no_block",
+            "remove_portrait;Eirika"
+        ],
+        "nid": "3 Eirika/Bazba"
+    }
+]

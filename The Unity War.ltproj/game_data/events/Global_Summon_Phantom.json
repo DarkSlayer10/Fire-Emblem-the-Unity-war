@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Summon Phantom",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.get_unit('Phantom')",
+            "    resurrect;Phantom",
+            "    remove_unit;Phantom;warp",
+            "    autolevel_to;Phantom;{e:unit.level}",
+            "else",
+            "    make_generic;Phantom;Fighter;{e:unit.level};player;;Monster;;Iron Axe",
+            "end",
+            "add_unit;phantom;{eval:target_pos};warp",
+            "wait;200",
+            ""
+        ],
+        "nid": "Global Summon Phantom"
+    }
+]

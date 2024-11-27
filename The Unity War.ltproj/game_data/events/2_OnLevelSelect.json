@@ -1,0 +1,26 @@
+[
+    {
+        "name": "OnLevelSelect",
+        "trigger": "level_select",
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "wait;500",
+            "move_cursor;Ide (5);2000",
+            "toggle_narration_mode;open;1500",
+            "wait;500",
+            "#add_portrait;Hayden;MidLeft;;;Middle",
+            "narrate;Narrator;King Hayden apologizes for being unable to spare soldiers.",
+            "remove_portrait;Hayden",
+            "toggle_narration_mode;close;1500",
+            "overworld_move_unit;Eirika's Group (Eirika);Ide (5);3;FLAG(no_block)",
+            "wait;1500",
+            "transition;close;1500",
+            "wait;500"
+        ],
+        "nid": "2 OnLevelSelect"
+    }
+]

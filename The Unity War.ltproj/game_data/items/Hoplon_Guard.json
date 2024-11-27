@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Hoplon_Guard",
+        "name": "Hoplon Guard",
+        "desc": "User is immune to critical attacks.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            18
+        ],
+        "components": [
+            [
+                "value",
+                5000
+            ],
+            [
+                "status_on_hold",
+                "Fort"
+            ]
+        ]
+    }
+]

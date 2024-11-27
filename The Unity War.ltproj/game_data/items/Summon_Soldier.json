@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Summon_Soldier",
+        "name": "Summon",
+        "desc": "Summons soldiers.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "event_on_hit",
+                "Global Summon Soldiers"
+            ],
+            [
+                "target_ally",
+                null
+            ]
+        ]
+    }
+]

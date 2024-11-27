@@ -1,0 +1,110 @@
+[
+    {
+        "nid": "Marisa",
+        "name": "Marisa",
+        "desc": "An aloof sword fighter from Jehanna. She\u2019s known as the Crimson Flash.",
+        "variant": null,
+        "level": 5,
+        "klass": "Myrmidon",
+        "tags": [],
+        "bases": {
+            "HP": 23,
+            "STR": 7,
+            "MAG": 4,
+            "SKL": 12,
+            "SPD": 13,
+            "LCK": 9,
+            "DEF": 4,
+            "RES": 3,
+            "CON": 5,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 30,
+            "MAG": 20,
+            "SKL": 55,
+            "SPD": 60,
+            "LCK": 50,
+            "DEF": 15,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "STR": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "RES": 0,
+            "MOV": 0,
+            "SKL": 0,
+            "MAG": 0
+        },
+        "starting_items": [
+            [
+                "Shamshir",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                31,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Marisa",
+        "affinity": "Ice",
+        "fields": []
+    }
+]

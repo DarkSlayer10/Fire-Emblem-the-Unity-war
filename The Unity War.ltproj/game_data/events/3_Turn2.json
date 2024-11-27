@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Turn2",
+        "trigger": "other_turn_change",
+        "level_nid": "3",
+        "condition": "game.turncount == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_unit;Placeholder;immediate",
+            "move_cursor;0,5",
+            "add_unit;Colm;0,5",
+            "flicker_cursor;Colm",
+            "add_portrait;Colm;Left",
+            "speak;Colm;And here we go!|Ha! And not a soul saw me. These bandits are easy picking.|I guess I might as well start with these chests here.",
+            "move_unit;Colm;2,4"
+        ],
+        "nid": "3 Turn2"
+    }
+]

@@ -1,0 +1,136 @@
+[
+    {
+        "nid": "Mage Knight",
+        "name": "Mage Knight",
+        "desc": "",
+        "tier": 2,
+        "movement_group": "Light Cav",
+        "promotes_from": "Mage",
+        "turns_into": [],
+        "tags": [
+            "Mounted"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 20,
+            "STR": 0,
+            "MAG": 4,
+            "SKL": 5,
+            "SPD": 6,
+            "LCK": 0,
+            "DEF": 5,
+            "RES": 6,
+            "CON": 8,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 5,
+            "MAG": 45,
+            "SKL": 30,
+            "SPD": 25,
+            "LCK": 15,
+            "DEF": 10,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 4,
+            "STR": 0,
+            "MAG": 2,
+            "SKL": 1,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 2,
+            "RES": 2,
+            "CON": 3,
+            "MOV": -99
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 25,
+            "SKL": 26,
+            "SPD": 25,
+            "LCK": 30,
+            "DEF": 24,
+            "RES": 28,
+            "CON": 25,
+            "MOV": 15
+        },
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                0,
+                0,
+                251
+            ],
+            "Staff": [
+                2,
+                31,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                2,
+                71,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Mage_Knight",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "MageKnight",
+        "combat_anim_nid": "Strategist",
+        "fields": []
+    }
+]

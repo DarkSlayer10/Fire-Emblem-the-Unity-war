@@ -1,0 +1,69 @@
+[
+    {
+        "nid": "Restore",
+        "name": "Restore",
+        "desc": "Removes all temporary statuses.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "exp",
+                20
+            ],
+            [
+                "value",
+                2000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "restore",
+                null
+            ]
+        ]
+    }
+]

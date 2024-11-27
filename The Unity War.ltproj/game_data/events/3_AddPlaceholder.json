@@ -1,0 +1,15 @@
+[
+    {
+        "name": "AddPlaceholder",
+        "trigger": "enemy_turn_change",
+        "level_nid": "3",
+        "condition": "game.turncount == 1",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_unit;Placeholder;16,15;immediate"
+        ],
+        "nid": "3 AddPlaceholder"
+    }
+]

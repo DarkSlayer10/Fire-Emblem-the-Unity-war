@@ -1,0 +1,50 @@
+[
+    {
+        "nid": "Goddess_Icon",
+        "name": "Goddess Icon",
+        "desc": "Permanently raises Luck by 2 points.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "permanent_stat_change",
+                [
+                    [
+                        "LCK",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                8000
+            ]
+        ]
+    }
+]

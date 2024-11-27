@@ -1,0 +1,17 @@
+[
+    {
+        "name": "EnemyTurn1",
+        "trigger": "enemy_turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Breguet;Left",
+            "speak;Breguet;Hm? Is that the princess of Renais?|Ha ha! It really is my lucky day! Fame and fortune ride to meet me!|Move on, you slugs!{br}Bring that girl to me!",
+            "remove_portrait;Breguet"
+        ],
+        "nid": "1 EnemyTurn1"
+    }
+]

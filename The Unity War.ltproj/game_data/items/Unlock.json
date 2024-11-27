@@ -1,0 +1,61 @@
+[
+    {
+        "nid": "Unlock",
+        "name": "Unlock",
+        "desc": "Opens locks.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            13
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1500
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                17
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "unlock_staff",
+                null
+            ]
+        ]
+    }
+]

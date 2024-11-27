@@ -1,0 +1,56 @@
+[
+    {
+        "nid": "Elysian_Whip",
+        "name": "Elysian Whip",
+        "desc": "Promotes flying classes.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            12
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "promote",
+                null
+            ],
+            [
+                "prf_class",
+                [
+                    "Pegasus_Knight",
+                    "Wyvern Rider"
+                ]
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.level >= 10"
+            ]
+        ]
+    }
+]

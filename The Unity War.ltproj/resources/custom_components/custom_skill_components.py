@@ -17,3 +17,8 @@ class DoNothing(SkillComponent):
 
     expose = ComponentType.Int
     value = 1
+
+class PersonalSkill(SkillComponent):
+    nid = 'personal_skill'
+    desc = "A filler for future organizational purposes."
+    tag = SkillTags.ATTRIBUTE

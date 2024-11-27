@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Blue_Gem",
+        "name": "Blue Gem",
+        "desc": "An expensive gem worth 5000 gold.",
+        "icon_nid": "Valuable",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "value",
+                10000
+            ]
+        ]
+    }
+]

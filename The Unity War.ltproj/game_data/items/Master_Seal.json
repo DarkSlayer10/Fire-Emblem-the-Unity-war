@@ -1,0 +1,69 @@
+[
+    {
+        "nid": "Master_Seal",
+        "name": "Master Seal",
+        "desc": "Promotes all normal classes",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                20000
+            ],
+            [
+                "prf_class",
+                [
+                    "Myrmidon",
+                    "Mercenary",
+                    "Thief",
+                    "Cavalier",
+                    "Pegasus_Knight",
+                    "Knight",
+                    "Fighter",
+                    "Pirate",
+                    "Archer",
+                    "Monk",
+                    "Cleric",
+                    "Mage",
+                    "Shaman",
+                    "Troubadour",
+                    "Wyvern Rider"
+                ]
+            ],
+            [
+                "promote",
+                null
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.level >= 10"
+            ]
+        ]
+    }
+]

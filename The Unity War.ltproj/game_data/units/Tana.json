@@ -1,0 +1,114 @@
+[
+    {
+        "nid": "Tana",
+        "name": "Tana",
+        "desc": "A young lady of Frelia. She is both cheery and sociable.",
+        "variant": null,
+        "level": 4,
+        "klass": "Pegasus_Knight",
+        "tags": [],
+        "bases": {
+            "HP": 20,
+            "STR": 7,
+            "MAG": 4,
+            "SKL": 9,
+            "SPD": 13,
+            "LCK": 8,
+            "DEF": 6,
+            "RES": 7,
+            "CON": 5,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 45,
+            "MAG": 25,
+            "SKL": 40,
+            "SPD": 65,
+            "LCK": 60,
+            "DEF": 20,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "STR": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "RES": 0,
+            "MOV": 0,
+            "SKL": 0,
+            "MAG": 0
+        },
+        "starting_items": [
+            [
+                "Heavy_Spear",
+                false
+            ],
+            [
+                "Javelin",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Tana",
+        "affinity": "Wind",
+        "fields": []
+    }
+]

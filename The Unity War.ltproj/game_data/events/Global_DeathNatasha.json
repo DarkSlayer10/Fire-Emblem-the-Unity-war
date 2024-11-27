@@ -1,0 +1,22 @@
+[
+    {
+        "name": "DeathNatasha",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Natasha'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Natasha;FarRight",
+            "if;game.level.nid == '5'",
+            "speak;Natasha;I can't let myself die here...|Someone has to hear my tale...",
+            "else",
+            "speak;Natasha;My fate is irrelevant...|The world must have... light.",
+            "end",
+            "expression;Natasha;CloseEyes",
+            "remove_portrait;Natasha"
+        ],
+        "nid": "Global DeathNatasha"
+    }
+]

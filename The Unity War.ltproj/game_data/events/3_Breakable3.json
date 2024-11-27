@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Breakable3",
+        "trigger": "unit_death",
+        "level_nid": "3",
+        "condition": "unit.nid == 'Wall3'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "map_anim;Snag;{position}",
+            "show_layer;Breakable3"
+        ],
+        "nid": "3 Breakable3"
+    }
+]

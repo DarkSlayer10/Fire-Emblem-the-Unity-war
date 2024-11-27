@@ -1,0 +1,33 @@
+[
+    {
+        "nid": "Chest_Key",
+        "name": "Chest Key",
+        "desc": "Opens chests.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "value",
+                300
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "can_unlock",
+                "region.nid.startswith('Chest')"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "name": "DeathFranz",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Franz'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Franz;FarRight",
+            "speak;Franz;I'm sorry, General Seth...",
+            "expression;Franz;CloseEyes",
+            "remove_portrait;Franz"
+        ],
+        "nid": "Global DeathFranz"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Chest4",
+        "trigger": "Chest",
+        "level_nid": "3",
+        "condition": "region.nid == 'Chest4'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "unlock;{unit}",
+            "show_layer;Chest4",
+            "give_item;{unit};Iron Sword"
+        ],
+        "nid": "3 Chest4"
+    }
+]

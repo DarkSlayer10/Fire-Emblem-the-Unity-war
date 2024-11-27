@@ -1,0 +1,76 @@
+[
+    {
+        "nid": "Warp",
+        "name": "Warp",
+        "desc": "Move an ally to another square.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                7500
+            ],
+            [
+                "exp",
+                85
+            ],
+            [
+                "wexp",
+                7
+            ],
+            [
+                "sequence_item",
+                [
+                    "Warp1",
+                    "Warp2"
+                ]
+            ],
+            [
+                "no_ai",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    }
+]

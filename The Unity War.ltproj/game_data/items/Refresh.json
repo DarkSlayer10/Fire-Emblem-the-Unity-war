@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "Refresh",
+        "name": "Refresh",
+        "desc": "Unit can move again.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            9
+        ],
+        "components": [
+            [
+                "map_cast_sfx",
+                "RefreshDanceMap"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "refresh",
+                null
+            ],
+            [
+                "exp",
+                11
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "spell",
+                null
+            ]
+        ]
+    }
+]

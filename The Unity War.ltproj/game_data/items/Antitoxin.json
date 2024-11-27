@@ -1,0 +1,49 @@
+[
+    {
+        "nid": "Antitoxin",
+        "name": "Antitoxin",
+        "desc": "Cures poison.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "value",
+                350
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    139,
+                    86
+                ]
+            ],
+            [
+                "restore_specific",
+                "Fort"
+            ]
+        ]
+    }
+]

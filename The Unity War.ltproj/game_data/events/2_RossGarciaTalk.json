@@ -1,0 +1,24 @@
+[
+    {
+        "name": "RossGarciaTalk",
+        "trigger": "on_talk",
+        "level_nid": "2",
+        "condition": "unit.nid == 'Ross' and unit2.nid == 'Garcia'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Ross;Left;no_block",
+            "add_portrait;Garcia;Right",
+            "bop_portrait;Ross",
+            "speak;Ross;Dad!",
+            "speak;Garcia;Ross?! Boy, what did I tell you!? What are you doing here?|Don't worry about me. Hurry up and get yourself to safety!",
+            "speak;Ross;Did you really think I could just run away while you fight, Dad?|You taught me that fighters fight for what's important to them!|There's no way I'm leaving!{br}I'm fighting just like you!",
+            "speak;Garcia;Ross...|All right, listen to me. We'll cut our way out of here together!",
+            "remove_portrait;Ross;no_block",
+            "remove_portrait;Garcia",
+            "change_team;Garcia;player"
+        ],
+        "nid": "2 RossGarciaTalk"
+    }
+]

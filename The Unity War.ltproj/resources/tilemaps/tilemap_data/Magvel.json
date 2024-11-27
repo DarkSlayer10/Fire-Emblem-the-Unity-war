@@ -1,0 +1,4223 @@
+[
+    {
+        "nid": "Magvel",
+        "size": [
+            30,
+            20
+        ],
+        "autotile_fps": 29,
+        "layers": [
+            {
+                "nid": "base",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "5,1": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            1
+                        ]
+                    ],
+                    "3,1": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "1,1": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            1
+                        ]
+                    ],
+                    "5,18": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            18
+                        ]
+                    ],
+                    "3,18": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            18
+                        ]
+                    ],
+                    "1,18": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            18
+                        ]
+                    ],
+                    "29,16": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            16
+                        ]
+                    ],
+                    "0,2": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            2
+                        ]
+                    ],
+                    "27,16": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            16
+                        ]
+                    ],
+                    "0,19": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            19
+                        ]
+                    ],
+                    "17,0": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            0
+                        ]
+                    ],
+                    "26,3": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            3
+                        ]
+                    ],
+                    "15,0": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            0
+                        ]
+                    ],
+                    "24,3": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            3
+                        ]
+                    ],
+                    "17,17": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            17
+                        ]
+                    ],
+                    "22,3": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            3
+                        ]
+                    ],
+                    "15,17": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            17
+                        ]
+                    ],
+                    "13,17": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            17
+                        ]
+                    ],
+                    "23,4": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            4
+                        ]
+                    ],
+                    "21,4": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            4
+                        ]
+                    ],
+                    "19,4": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            4
+                        ]
+                    ],
+                    "18,8": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            8
+                        ]
+                    ],
+                    "16,8": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            8
+                        ]
+                    ],
+                    "14,8": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            8
+                        ]
+                    ],
+                    "11,12": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            12
+                        ]
+                    ],
+                    "10,13": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            13
+                        ]
+                    ],
+                    "8,13": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            13
+                        ]
+                    ],
+                    "7,0": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            0
+                        ]
+                    ],
+                    "5,0": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            0
+                        ]
+                    ],
+                    "3,0": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            0
+                        ]
+                    ],
+                    "7,17": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            17
+                        ]
+                    ],
+                    "5,17": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            17
+                        ]
+                    ],
+                    "3,17": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            17
+                        ]
+                    ],
+                    "4,1": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            1
+                        ]
+                    ],
+                    "2,1": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            1
+                        ]
+                    ],
+                    "29,15": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            15
+                        ]
+                    ],
+                    "0,1": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "4,18": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            18
+                        ]
+                    ],
+                    "2,18": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            18
+                        ]
+                    ],
+                    "0,18": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            18
+                        ]
+                    ],
+                    "28,2": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            2
+                        ]
+                    ],
+                    "26,2": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            2
+                        ]
+                    ],
+                    "24,2": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            2
+                        ]
+                    ],
+                    "28,19": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            19
+                        ]
+                    ],
+                    "17,16": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            16
+                        ]
+                    ],
+                    "26,19": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            19
+                        ]
+                    ],
+                    "24,19": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            19
+                        ]
+                    ],
+                    "25,3": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            3
+                        ]
+                    ],
+                    "23,3": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            3
+                        ]
+                    ],
+                    "21,3": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            3
+                        ]
+                    ],
+                    "13,4": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            4
+                        ]
+                    ],
+                    "20,7": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            7
+                        ]
+                    ],
+                    "18,7": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            7
+                        ]
+                    ],
+                    "14,12": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            12
+                        ]
+                    ],
+                    "12,12": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            12
+                        ]
+                    ],
+                    "10,12": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            12
+                        ]
+                    ],
+                    "9,16": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            16
+                        ]
+                    ],
+                    "7,16": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            16
+                        ]
+                    ],
+                    "5,16": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            16
+                        ]
+                    ],
+                    "6,0": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            0
+                        ]
+                    ],
+                    "4,0": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "2,0": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            0
+                        ]
+                    ],
+                    "6,17": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            17
+                        ]
+                    ],
+                    "4,17": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            17
+                        ]
+                    ],
+                    "2,17": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            17
+                        ]
+                    ],
+                    "28,1": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            1
+                        ]
+                    ],
+                    "3,4": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            4
+                        ]
+                    ],
+                    "1,4": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "28,18": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            18
+                        ]
+                    ],
+                    "27,2": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            2
+                        ]
+                    ],
+                    "25,2": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            2
+                        ]
+                    ],
+                    "27,19": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            19
+                        ]
+                    ],
+                    "25,19": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            19
+                        ]
+                    ],
+                    "23,19": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            19
+                        ]
+                    ],
+                    "15,3": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            3
+                        ]
+                    ],
+                    "24,6": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            6
+                        ]
+                    ],
+                    "13,3": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            3
+                        ]
+                    ],
+                    "22,6": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            6
+                        ]
+                    ],
+                    "20,6": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            6
+                        ]
+                    ],
+                    "21,7": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            7
+                        ]
+                    ],
+                    "19,7": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            7
+                        ]
+                    ],
+                    "16,11": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            11
+                        ]
+                    ],
+                    "14,11": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            11
+                        ]
+                    ],
+                    "12,11": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            11
+                        ]
+                    ],
+                    "11,15": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            15
+                        ]
+                    ],
+                    "9,15": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            15
+                        ]
+                    ],
+                    "8,16": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            16
+                        ]
+                    ],
+                    "6,16": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            16
+                        ]
+                    ],
+                    "4,16": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            16
+                        ]
+                    ],
+                    "5,3": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            3
+                        ]
+                    ],
+                    "3,3": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            3
+                        ]
+                    ],
+                    "1,3": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            3
+                        ]
+                    ],
+                    "29,1": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            1
+                        ]
+                    ],
+                    "27,1": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            1
+                        ]
+                    ],
+                    "2,4": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            4
+                        ]
+                    ],
+                    "29,18": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            18
+                        ]
+                    ],
+                    "0,4": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "27,18": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            18
+                        ]
+                    ],
+                    "17,2": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            2
+                        ]
+                    ],
+                    "26,5": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            5
+                        ]
+                    ],
+                    "15,2": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            2
+                        ]
+                    ],
+                    "24,5": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            5
+                        ]
+                    ],
+                    "17,19": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            19
+                        ]
+                    ],
+                    "22,5": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            5
+                        ]
+                    ],
+                    "15,19": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            19
+                        ]
+                    ],
+                    "23,6": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            6
+                        ]
+                    ],
+                    "21,6": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            6
+                        ]
+                    ],
+                    "19,6": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            6
+                        ]
+                    ],
+                    "18,10": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            10
+                        ]
+                    ],
+                    "16,10": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            10
+                        ]
+                    ],
+                    "11,14": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "12,15": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            15
+                        ]
+                    ],
+                    "10,15": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "8,15": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            15
+                        ]
+                    ],
+                    "7,2": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            2
+                        ]
+                    ],
+                    "5,2": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            2
+                        ]
+                    ],
+                    "3,2": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            2
+                        ]
+                    ],
+                    "7,19": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            19
+                        ]
+                    ],
+                    "29,0": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            0
+                        ]
+                    ],
+                    "5,19": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            19
+                        ]
+                    ],
+                    "3,19": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            19
+                        ]
+                    ],
+                    "4,3": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            3
+                        ]
+                    ],
+                    "2,3": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "29,17": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            17
+                        ]
+                    ],
+                    "0,3": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "28,4": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            4
+                        ]
+                    ],
+                    "17,1": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            1
+                        ]
+                    ],
+                    "26,4": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            4
+                        ]
+                    ],
+                    "17,18": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            18
+                        ]
+                    ],
+                    "25,5": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            5
+                        ]
+                    ],
+                    "23,5": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            5
+                        ]
+                    ],
+                    "21,5": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            5
+                        ]
+                    ],
+                    "13,6": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            6
+                        ]
+                    ],
+                    "22,9": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            9
+                        ]
+                    ],
+                    "20,9": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            9
+                        ]
+                    ],
+                    "18,9": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            9
+                        ]
+                    ],
+                    "14,14": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            14
+                        ]
+                    ],
+                    "12,14": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            14
+                        ]
+                    ],
+                    "10,14": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            14
+                        ]
+                    ],
+                    "9,1": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            1
+                        ]
+                    ],
+                    "7,1": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            1
+                        ]
+                    ],
+                    "9,18": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            18
+                        ]
+                    ],
+                    "7,18": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            18
+                        ]
+                    ],
+                    "6,2": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            2
+                        ]
+                    ],
+                    "4,2": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            2
+                        ]
+                    ],
+                    "2,2": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            2
+                        ]
+                    ],
+                    "6,19": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            19
+                        ]
+                    ],
+                    "4,19": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            19
+                        ]
+                    ],
+                    "2,19": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            19
+                        ]
+                    ],
+                    "28,3": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            3
+                        ]
+                    ],
+                    "3,6": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            6
+                        ]
+                    ],
+                    "1,6": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "27,4": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            4
+                        ]
+                    ],
+                    "25,4": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            4
+                        ]
+                    ],
+                    "15,5": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            5
+                        ]
+                    ],
+                    "24,8": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            8
+                        ]
+                    ],
+                    "13,5": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            5
+                        ]
+                    ],
+                    "22,8": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            8
+                        ]
+                    ],
+                    "20,8": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            8
+                        ]
+                    ],
+                    "21,9": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            9
+                        ]
+                    ],
+                    "19,9": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            9
+                        ]
+                    ],
+                    "16,13": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            13
+                        ]
+                    ],
+                    "14,13": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            13
+                        ]
+                    ],
+                    "12,13": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            13
+                        ]
+                    ],
+                    "11,0": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            0
+                        ]
+                    ],
+                    "9,0": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            0
+                        ]
+                    ],
+                    "11,17": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            17
+                        ]
+                    ],
+                    "9,17": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            17
+                        ]
+                    ],
+                    "10,1": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            1
+                        ]
+                    ],
+                    "8,1": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            1
+                        ]
+                    ],
+                    "6,1": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "8,18": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            18
+                        ]
+                    ],
+                    "6,18": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            18
+                        ]
+                    ],
+                    "5,5": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            5
+                        ]
+                    ],
+                    "3,5": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            5
+                        ]
+                    ],
+                    "1,5": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "29,3": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            3
+                        ]
+                    ],
+                    "27,3": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            3
+                        ]
+                    ],
+                    "2,6": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "0,6": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            6
+                        ]
+                    ],
+                    "17,4": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            4
+                        ]
+                    ],
+                    "26,7": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            7
+                        ]
+                    ],
+                    "15,4": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            4
+                        ]
+                    ],
+                    "24,7": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            7
+                        ]
+                    ],
+                    "22,7": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            7
+                        ]
+                    ],
+                    "23,8": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            8
+                        ]
+                    ],
+                    "21,8": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            8
+                        ]
+                    ],
+                    "19,8": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            8
+                        ]
+                    ],
+                    "18,12": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            12
+                        ]
+                    ],
+                    "16,12": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            12
+                        ]
+                    ],
+                    "11,16": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            16
+                        ]
+                    ],
+                    "12,0": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            0
+                        ]
+                    ],
+                    "10,0": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            0
+                        ]
+                    ],
+                    "8,0": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            0
+                        ]
+                    ],
+                    "12,17": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            17
+                        ]
+                    ],
+                    "10,17": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            17
+                        ]
+                    ],
+                    "8,17": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            17
+                        ]
+                    ],
+                    "7,4": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            4
+                        ]
+                    ],
+                    "5,4": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            4
+                        ]
+                    ],
+                    "29,2": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            2
+                        ]
+                    ],
+                    "4,5": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            5
+                        ]
+                    ],
+                    "2,5": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            5
+                        ]
+                    ],
+                    "29,19": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            19
+                        ]
+                    ],
+                    "0,5": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "28,6": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            6
+                        ]
+                    ],
+                    "17,3": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            3
+                        ]
+                    ],
+                    "26,6": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            6
+                        ]
+                    ],
+                    "1,9": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "25,7": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            7
+                        ]
+                    ],
+                    "23,7": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            7
+                        ]
+                    ],
+                    "13,8": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            8
+                        ]
+                    ],
+                    "22,11": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            11
+                        ]
+                    ],
+                    "20,11": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            11
+                        ]
+                    ],
+                    "18,11": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            11
+                        ]
+                    ],
+                    "19,12": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            12
+                        ]
+                    ],
+                    "14,16": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            16
+                        ]
+                    ],
+                    "12,16": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            16
+                        ]
+                    ],
+                    "10,16": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            16
+                        ]
+                    ],
+                    "11,3": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            3
+                        ]
+                    ],
+                    "9,3": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            3
+                        ]
+                    ],
+                    "7,3": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            3
+                        ]
+                    ],
+                    "6,4": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            4
+                        ]
+                    ],
+                    "4,4": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            4
+                        ]
+                    ],
+                    "28,5": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            5
+                        ]
+                    ],
+                    "3,8": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            8
+                        ]
+                    ],
+                    "1,8": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "29,6": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            6
+                        ]
+                    ],
+                    "27,6": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            6
+                        ]
+                    ],
+                    "25,6": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            6
+                        ]
+                    ],
+                    "0,9": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            9
+                        ]
+                    ],
+                    "15,7": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            7
+                        ]
+                    ],
+                    "24,10": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            10
+                        ]
+                    ],
+                    "13,7": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            7
+                        ]
+                    ],
+                    "22,10": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            10
+                        ]
+                    ],
+                    "20,10": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            10
+                        ]
+                    ],
+                    "21,11": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            11
+                        ]
+                    ],
+                    "19,11": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            11
+                        ]
+                    ],
+                    "16,15": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            15
+                        ]
+                    ],
+                    "14,15": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            15
+                        ]
+                    ],
+                    "11,2": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            2
+                        ]
+                    ],
+                    "9,2": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            2
+                        ]
+                    ],
+                    "11,19": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            19
+                        ]
+                    ],
+                    "9,19": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            19
+                        ]
+                    ],
+                    "10,3": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            3
+                        ]
+                    ],
+                    "8,3": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            3
+                        ]
+                    ],
+                    "6,3": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            3
+                        ]
+                    ],
+                    "5,7": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            7
+                        ]
+                    ],
+                    "3,7": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            7
+                        ]
+                    ],
+                    "1,7": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "29,5": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            5
+                        ]
+                    ],
+                    "27,5": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            5
+                        ]
+                    ],
+                    "2,8": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            8
+                        ]
+                    ],
+                    "0,8": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            8
+                        ]
+                    ],
+                    "17,6": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            6
+                        ]
+                    ],
+                    "26,9": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            9
+                        ]
+                    ],
+                    "15,6": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            6
+                        ]
+                    ],
+                    "24,9": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            9
+                        ]
+                    ],
+                    "23,10": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            10
+                        ]
+                    ],
+                    "21,10": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            10
+                        ]
+                    ],
+                    "19,10": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            10
+                        ]
+                    ],
+                    "20,14": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            14
+                        ]
+                    ],
+                    "18,14": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            14
+                        ]
+                    ],
+                    "16,14": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            14
+                        ]
+                    ],
+                    "11,1": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            1
+                        ]
+                    ],
+                    "12,2": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            2
+                        ]
+                    ],
+                    "11,18": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            18
+                        ]
+                    ],
+                    "10,2": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            2
+                        ]
+                    ],
+                    "8,2": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            2
+                        ]
+                    ],
+                    "12,19": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            19
+                        ]
+                    ],
+                    "10,19": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            19
+                        ]
+                    ],
+                    "8,19": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            19
+                        ]
+                    ],
+                    "7,6": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            6
+                        ]
+                    ],
+                    "5,6": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            6
+                        ]
+                    ],
+                    "29,4": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            4
+                        ]
+                    ],
+                    "4,7": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            7
+                        ]
+                    ],
+                    "2,7": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            7
+                        ]
+                    ],
+                    "0,7": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            7
+                        ]
+                    ],
+                    "28,8": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            8
+                        ]
+                    ],
+                    "17,5": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            5
+                        ]
+                    ],
+                    "26,8": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            8
+                        ]
+                    ],
+                    "1,11": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            11
+                        ]
+                    ],
+                    "25,9": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            9
+                        ]
+                    ],
+                    "23,9": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            9
+                        ]
+                    ],
+                    "13,10": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            10
+                        ]
+                    ],
+                    "22,13": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            13
+                        ]
+                    ],
+                    "20,13": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            13
+                        ]
+                    ],
+                    "18,13": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            13
+                        ]
+                    ],
+                    "19,14": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            14
+                        ]
+                    ],
+                    "14,1": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            1
+                        ]
+                    ],
+                    "12,1": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            1
+                        ]
+                    ],
+                    "14,18": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            18
+                        ]
+                    ],
+                    "12,18": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            18
+                        ]
+                    ],
+                    "10,18": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            18
+                        ]
+                    ],
+                    "11,5": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            5
+                        ]
+                    ],
+                    "9,5": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            5
+                        ]
+                    ],
+                    "7,5": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            5
+                        ]
+                    ],
+                    "8,6": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            6
+                        ]
+                    ],
+                    "6,6": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            6
+                        ]
+                    ],
+                    "4,6": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "28,7": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            7
+                        ]
+                    ],
+                    "3,10": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            10
+                        ]
+                    ],
+                    "1,10": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "29,8": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            8
+                        ]
+                    ],
+                    "27,8": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            8
+                        ]
+                    ],
+                    "25,8": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            8
+                        ]
+                    ],
+                    "0,11": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            11
+                        ]
+                    ],
+                    "17,9": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            9
+                        ]
+                    ],
+                    "15,9": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            9
+                        ]
+                    ],
+                    "24,12": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            12
+                        ]
+                    ],
+                    "13,9": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            9
+                        ]
+                    ],
+                    "22,12": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            12
+                        ]
+                    ],
+                    "20,12": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            12
+                        ]
+                    ],
+                    "21,13": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            13
+                        ]
+                    ],
+                    "19,13": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            13
+                        ]
+                    ],
+                    "18,0": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            0
+                        ]
+                    ],
+                    "16,0": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            0
+                        ]
+                    ],
+                    "14,0": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            0
+                        ]
+                    ],
+                    "16,17": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            17
+                        ]
+                    ],
+                    "14,17": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            17
+                        ]
+                    ],
+                    "11,4": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            4
+                        ]
+                    ],
+                    "9,4": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            4
+                        ]
+                    ],
+                    "10,5": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            5
+                        ]
+                    ],
+                    "8,5": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            5
+                        ]
+                    ],
+                    "6,5": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            5
+                        ]
+                    ],
+                    "5,9": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            9
+                        ]
+                    ],
+                    "3,9": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            9
+                        ]
+                    ],
+                    "29,7": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            7
+                        ]
+                    ],
+                    "27,7": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            7
+                        ]
+                    ],
+                    "2,10": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            10
+                        ]
+                    ],
+                    "0,10": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            10
+                        ]
+                    ],
+                    "28,11": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            11
+                        ]
+                    ],
+                    "17,8": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            8
+                        ]
+                    ],
+                    "26,11": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            11
+                        ]
+                    ],
+                    "15,8": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            8
+                        ]
+                    ],
+                    "24,11": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            11
+                        ]
+                    ],
+                    "23,12": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            12
+                        ]
+                    ],
+                    "21,12": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            12
+                        ]
+                    ],
+                    "20,16": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            16
+                        ]
+                    ],
+                    "18,16": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            16
+                        ]
+                    ],
+                    "16,16": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            16
+                        ]
+                    ],
+                    "12,4": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            4
+                        ]
+                    ],
+                    "10,4": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            4
+                        ]
+                    ],
+                    "8,4": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            4
+                        ]
+                    ],
+                    "9,8": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            8
+                        ]
+                    ],
+                    "7,8": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            8
+                        ]
+                    ],
+                    "5,8": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            8
+                        ]
+                    ],
+                    "4,9": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            9
+                        ]
+                    ],
+                    "2,9": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            9
+                        ]
+                    ],
+                    "28,10": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            10
+                        ]
+                    ],
+                    "17,7": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            7
+                        ]
+                    ],
+                    "26,10": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            10
+                        ]
+                    ],
+                    "1,13": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            13
+                        ]
+                    ],
+                    "27,11": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            11
+                        ]
+                    ],
+                    "25,11": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            11
+                        ]
+                    ],
+                    "23,11": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            11
+                        ]
+                    ],
+                    "13,12": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            12
+                        ]
+                    ],
+                    "22,15": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            15
+                        ]
+                    ],
+                    "20,15": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            15
+                        ]
+                    ],
+                    "18,15": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            15
+                        ]
+                    ],
+                    "19,16": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            16
+                        ]
+                    ],
+                    "14,3": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            3
+                        ]
+                    ],
+                    "12,3": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            3
+                        ]
+                    ],
+                    "11,7": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            7
+                        ]
+                    ],
+                    "9,7": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            7
+                        ]
+                    ],
+                    "7,7": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            7
+                        ]
+                    ],
+                    "8,8": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            8
+                        ]
+                    ],
+                    "6,8": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            8
+                        ]
+                    ],
+                    "4,8": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            8
+                        ]
+                    ],
+                    "28,9": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            9
+                        ]
+                    ],
+                    "3,12": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            12
+                        ]
+                    ],
+                    "1,12": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            12
+                        ]
+                    ],
+                    "29,10": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            10
+                        ]
+                    ],
+                    "27,10": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            10
+                        ]
+                    ],
+                    "25,10": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            10
+                        ]
+                    ],
+                    "0,13": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            13
+                        ]
+                    ],
+                    "17,11": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            11
+                        ]
+                    ],
+                    "15,11": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            11
+                        ]
+                    ],
+                    "24,14": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            14
+                        ]
+                    ],
+                    "13,11": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            11
+                        ]
+                    ],
+                    "22,14": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            14
+                        ]
+                    ],
+                    "21,15": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            15
+                        ]
+                    ],
+                    "19,15": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            15
+                        ]
+                    ],
+                    "18,2": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            2
+                        ]
+                    ],
+                    "16,2": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            2
+                        ]
+                    ],
+                    "14,2": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            2
+                        ]
+                    ],
+                    "18,19": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            19
+                        ]
+                    ],
+                    "16,19": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "14,19": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            19
+                        ]
+                    ],
+                    "11,6": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            6
+                        ]
+                    ],
+                    "9,6": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            6
+                        ]
+                    ],
+                    "10,7": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            7
+                        ]
+                    ],
+                    "8,7": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            7
+                        ]
+                    ],
+                    "6,7": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            7
+                        ]
+                    ],
+                    "5,11": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            11
+                        ]
+                    ],
+                    "3,11": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            11
+                        ]
+                    ],
+                    "29,9": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            9
+                        ]
+                    ],
+                    "27,9": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            9
+                        ]
+                    ],
+                    "2,12": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            12
+                        ]
+                    ],
+                    "0,12": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            12
+                        ]
+                    ],
+                    "28,13": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            13
+                        ]
+                    ],
+                    "17,10": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            10
+                        ]
+                    ],
+                    "26,13": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            13
+                        ]
+                    ],
+                    "15,10": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            10
+                        ]
+                    ],
+                    "24,13": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            13
+                        ]
+                    ],
+                    "23,14": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            14
+                        ]
+                    ],
+                    "21,14": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            14
+                        ]
+                    ],
+                    "20,1": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            1
+                        ]
+                    ],
+                    "18,1": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            1
+                        ]
+                    ],
+                    "16,1": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            1
+                        ]
+                    ],
+                    "20,18": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            18
+                        ]
+                    ],
+                    "18,18": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            18
+                        ]
+                    ],
+                    "16,18": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            18
+                        ]
+                    ],
+                    "12,6": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            6
+                        ]
+                    ],
+                    "10,6": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            6
+                        ]
+                    ],
+                    "9,10": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            10
+                        ]
+                    ],
+                    "7,10": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            10
+                        ]
+                    ],
+                    "5,10": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            10
+                        ]
+                    ],
+                    "6,11": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            11
+                        ]
+                    ],
+                    "4,11": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            11
+                        ]
+                    ],
+                    "2,11": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            11
+                        ]
+                    ],
+                    "28,12": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            12
+                        ]
+                    ],
+                    "26,12": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            12
+                        ]
+                    ],
+                    "1,15": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            15
+                        ]
+                    ],
+                    "27,13": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            13
+                        ]
+                    ],
+                    "25,13": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            13
+                        ]
+                    ],
+                    "23,13": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            13
+                        ]
+                    ],
+                    "22,0": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            0
+                        ]
+                    ],
+                    "15,14": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            14
+                        ]
+                    ],
+                    "20,0": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            0
+                        ]
+                    ],
+                    "13,14": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            14
+                        ]
+                    ],
+                    "22,17": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            17
+                        ]
+                    ],
+                    "20,17": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            17
+                        ]
+                    ],
+                    "18,17": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            17
+                        ]
+                    ],
+                    "19,1": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            1
+                        ]
+                    ],
+                    "19,18": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            18
+                        ]
+                    ],
+                    "16,5": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            5
+                        ]
+                    ],
+                    "14,5": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            5
+                        ]
+                    ],
+                    "12,5": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            5
+                        ]
+                    ],
+                    "11,9": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            9
+                        ]
+                    ],
+                    "9,9": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            9
+                        ]
+                    ],
+                    "7,9": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            9
+                        ]
+                    ],
+                    "8,10": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            10
+                        ]
+                    ],
+                    "6,10": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            10
+                        ]
+                    ],
+                    "4,10": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            10
+                        ]
+                    ],
+                    "3,14": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            14
+                        ]
+                    ],
+                    "1,14": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            14
+                        ]
+                    ],
+                    "29,12": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            12
+                        ]
+                    ],
+                    "27,12": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            12
+                        ]
+                    ],
+                    "25,12": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            12
+                        ]
+                    ],
+                    "0,15": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            15
+                        ]
+                    ],
+                    "17,13": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            13
+                        ]
+                    ],
+                    "15,13": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            13
+                        ]
+                    ],
+                    "24,16": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            16
+                        ]
+                    ],
+                    "13,13": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            13
+                        ]
+                    ],
+                    "22,16": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            16
+                        ]
+                    ],
+                    "21,0": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            0
+                        ]
+                    ],
+                    "19,0": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            0
+                        ]
+                    ],
+                    "21,17": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            17
+                        ]
+                    ],
+                    "19,17": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            17
+                        ]
+                    ],
+                    "18,4": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            4
+                        ]
+                    ],
+                    "16,4": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            4
+                        ]
+                    ],
+                    "14,4": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            4
+                        ]
+                    ],
+                    "11,8": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            8
+                        ]
+                    ],
+                    "10,9": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            9
+                        ]
+                    ],
+                    "8,9": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            9
+                        ]
+                    ],
+                    "6,9": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            9
+                        ]
+                    ],
+                    "7,13": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            13
+                        ]
+                    ],
+                    "5,13": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            13
+                        ]
+                    ],
+                    "3,13": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            13
+                        ]
+                    ],
+                    "29,11": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            11
+                        ]
+                    ],
+                    "2,14": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            14
+                        ]
+                    ],
+                    "0,14": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            14
+                        ]
+                    ],
+                    "28,15": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            15
+                        ]
+                    ],
+                    "17,12": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            12
+                        ]
+                    ],
+                    "26,15": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            15
+                        ]
+                    ],
+                    "15,12": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            12
+                        ]
+                    ],
+                    "24,15": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            15
+                        ]
+                    ],
+                    "25,16": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            16
+                        ]
+                    ],
+                    "23,16": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            16
+                        ]
+                    ],
+                    "21,16": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            16
+                        ]
+                    ],
+                    "13,0": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            0
+                        ]
+                    ],
+                    "20,3": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            3
+                        ]
+                    ],
+                    "18,3": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            3
+                        ]
+                    ],
+                    "16,3": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            3
+                        ]
+                    ],
+                    "12,8": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            8
+                        ]
+                    ],
+                    "10,8": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            8
+                        ]
+                    ],
+                    "9,12": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            12
+                        ]
+                    ],
+                    "7,12": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            12
+                        ]
+                    ],
+                    "5,12": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            12
+                        ]
+                    ],
+                    "6,13": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            13
+                        ]
+                    ],
+                    "4,13": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            13
+                        ]
+                    ],
+                    "2,13": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            13
+                        ]
+                    ],
+                    "1,0": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "28,14": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            14
+                        ]
+                    ],
+                    "26,14": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            14
+                        ]
+                    ],
+                    "1,17": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            17
+                        ]
+                    ],
+                    "27,15": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            15
+                        ]
+                    ],
+                    "25,15": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            15
+                        ]
+                    ],
+                    "23,15": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            15
+                        ]
+                    ],
+                    "22,2": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            2
+                        ]
+                    ],
+                    "15,16": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            16
+                        ]
+                    ],
+                    "20,2": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            2
+                        ]
+                    ],
+                    "13,16": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            16
+                        ]
+                    ],
+                    "22,19": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            19
+                        ]
+                    ],
+                    "20,19": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            19
+                        ]
+                    ],
+                    "19,3": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            3
+                        ]
+                    ],
+                    "16,7": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            7
+                        ]
+                    ],
+                    "14,7": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            7
+                        ]
+                    ],
+                    "12,7": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            7
+                        ]
+                    ],
+                    "11,11": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            11
+                        ]
+                    ],
+                    "9,11": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            11
+                        ]
+                    ],
+                    "7,11": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            11
+                        ]
+                    ],
+                    "8,12": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            12
+                        ]
+                    ],
+                    "6,12": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            12
+                        ]
+                    ],
+                    "4,12": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            12
+                        ]
+                    ],
+                    "3,16": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            16
+                        ]
+                    ],
+                    "1,16": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            16
+                        ]
+                    ],
+                    "29,14": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            14
+                        ]
+                    ],
+                    "0,0": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            0
+                        ]
+                    ],
+                    "27,14": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            14
+                        ]
+                    ],
+                    "25,14": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            14
+                        ]
+                    ],
+                    "0,17": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            17
+                        ]
+                    ],
+                    "26,1": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            1
+                        ]
+                    ],
+                    "24,1": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            1
+                        ]
+                    ],
+                    "17,15": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            15
+                        ]
+                    ],
+                    "22,1": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            1
+                        ]
+                    ],
+                    "15,15": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            15
+                        ]
+                    ],
+                    "24,18": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            18
+                        ]
+                    ],
+                    "13,15": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            15
+                        ]
+                    ],
+                    "22,18": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            18
+                        ]
+                    ],
+                    "23,2": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            2
+                        ]
+                    ],
+                    "21,2": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            2
+                        ]
+                    ],
+                    "26,18": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            18
+                        ]
+                    ],
+                    "19,2": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            2
+                        ]
+                    ],
+                    "21,19": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            19
+                        ]
+                    ],
+                    "19,19": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            19
+                        ]
+                    ],
+                    "18,6": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            6
+                        ]
+                    ],
+                    "16,6": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            6
+                        ]
+                    ],
+                    "14,6": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            6
+                        ]
+                    ],
+                    "11,10": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            10
+                        ]
+                    ],
+                    "10,11": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            11
+                        ]
+                    ],
+                    "8,11": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            11
+                        ]
+                    ],
+                    "7,15": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            15
+                        ]
+                    ],
+                    "5,15": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            15
+                        ]
+                    ],
+                    "3,15": [
+                        "MagvelWorldMap",
+                        [
+                            3,
+                            15
+                        ]
+                    ],
+                    "29,13": [
+                        "MagvelWorldMap",
+                        [
+                            29,
+                            13
+                        ]
+                    ],
+                    "2,16": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            16
+                        ]
+                    ],
+                    "0,16": [
+                        "MagvelWorldMap",
+                        [
+                            0,
+                            16
+                        ]
+                    ],
+                    "28,0": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            0
+                        ]
+                    ],
+                    "26,0": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            0
+                        ]
+                    ],
+                    "24,0": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            0
+                        ]
+                    ],
+                    "28,17": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            17
+                        ]
+                    ],
+                    "17,14": [
+                        "MagvelWorldMap",
+                        [
+                            17,
+                            14
+                        ]
+                    ],
+                    "26,17": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            17
+                        ]
+                    ],
+                    "24,17": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            17
+                        ]
+                    ],
+                    "25,1": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            1
+                        ]
+                    ],
+                    "23,1": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            1
+                        ]
+                    ],
+                    "21,1": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            1
+                        ]
+                    ],
+                    "25,18": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            18
+                        ]
+                    ],
+                    "23,18": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            18
+                        ]
+                    ],
+                    "21,18": [
+                        "MagvelWorldMap",
+                        [
+                            21,
+                            18
+                        ]
+                    ],
+                    "13,2": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            2
+                        ]
+                    ],
+                    "20,5": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            5
+                        ]
+                    ],
+                    "13,19": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            19
+                        ]
+                    ],
+                    "18,5": [
+                        "MagvelWorldMap",
+                        [
+                            18,
+                            5
+                        ]
+                    ],
+                    "14,10": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            10
+                        ]
+                    ],
+                    "12,10": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            10
+                        ]
+                    ],
+                    "10,10": [
+                        "MagvelWorldMap",
+                        [
+                            10,
+                            10
+                        ]
+                    ],
+                    "9,14": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            14
+                        ]
+                    ],
+                    "7,14": [
+                        "MagvelWorldMap",
+                        [
+                            7,
+                            14
+                        ]
+                    ],
+                    "5,14": [
+                        "MagvelWorldMap",
+                        [
+                            5,
+                            14
+                        ]
+                    ],
+                    "6,15": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            15
+                        ]
+                    ],
+                    "4,15": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            15
+                        ]
+                    ],
+                    "2,15": [
+                        "MagvelWorldMap",
+                        [
+                            2,
+                            15
+                        ]
+                    ],
+                    "1,2": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            2
+                        ]
+                    ],
+                    "28,16": [
+                        "MagvelWorldMap",
+                        [
+                            28,
+                            16
+                        ]
+                    ],
+                    "26,16": [
+                        "MagvelWorldMap",
+                        [
+                            26,
+                            16
+                        ]
+                    ],
+                    "27,0": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            0
+                        ]
+                    ],
+                    "25,0": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            0
+                        ]
+                    ],
+                    "1,19": [
+                        "MagvelWorldMap",
+                        [
+                            1,
+                            19
+                        ]
+                    ],
+                    "23,0": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            0
+                        ]
+                    ],
+                    "27,17": [
+                        "MagvelWorldMap",
+                        [
+                            27,
+                            17
+                        ]
+                    ],
+                    "25,17": [
+                        "MagvelWorldMap",
+                        [
+                            25,
+                            17
+                        ]
+                    ],
+                    "23,17": [
+                        "MagvelWorldMap",
+                        [
+                            23,
+                            17
+                        ]
+                    ],
+                    "15,1": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            1
+                        ]
+                    ],
+                    "24,4": [
+                        "MagvelWorldMap",
+                        [
+                            24,
+                            4
+                        ]
+                    ],
+                    "13,1": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            1
+                        ]
+                    ],
+                    "22,4": [
+                        "MagvelWorldMap",
+                        [
+                            22,
+                            4
+                        ]
+                    ],
+                    "15,18": [
+                        "MagvelWorldMap",
+                        [
+                            15,
+                            18
+                        ]
+                    ],
+                    "20,4": [
+                        "MagvelWorldMap",
+                        [
+                            20,
+                            4
+                        ]
+                    ],
+                    "13,18": [
+                        "MagvelWorldMap",
+                        [
+                            13,
+                            18
+                        ]
+                    ],
+                    "19,5": [
+                        "MagvelWorldMap",
+                        [
+                            19,
+                            5
+                        ]
+                    ],
+                    "16,9": [
+                        "MagvelWorldMap",
+                        [
+                            16,
+                            9
+                        ]
+                    ],
+                    "14,9": [
+                        "MagvelWorldMap",
+                        [
+                            14,
+                            9
+                        ]
+                    ],
+                    "12,9": [
+                        "MagvelWorldMap",
+                        [
+                            12,
+                            9
+                        ]
+                    ],
+                    "11,13": [
+                        "MagvelWorldMap",
+                        [
+                            11,
+                            13
+                        ]
+                    ],
+                    "9,13": [
+                        "MagvelWorldMap",
+                        [
+                            9,
+                            13
+                        ]
+                    ],
+                    "8,14": [
+                        "MagvelWorldMap",
+                        [
+                            8,
+                            14
+                        ]
+                    ],
+                    "6,14": [
+                        "MagvelWorldMap",
+                        [
+                            6,
+                            14
+                        ]
+                    ],
+                    "4,14": [
+                        "MagvelWorldMap",
+                        [
+                            4,
+                            14
+                        ]
+                    ]
+                }
+            }
+        ],
+        "tilesets": [
+            "MagvelWorldMap"
+        ]
+    }
+]

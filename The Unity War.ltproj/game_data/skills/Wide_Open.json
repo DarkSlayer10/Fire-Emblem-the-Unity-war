@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Wide_Open",
+        "name": "Wide Open",
+        "desc": "Debuff opponent's Def by 4 after combat.\n(Recover 1/turn.)",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            4,
+            29
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "give_status_after_combat",
+                "Wide_Open_S"
+            ]
+        ]
+    }
+]

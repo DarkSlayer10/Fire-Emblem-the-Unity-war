@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Turn3",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;14,0",
+            "add_unit;L'arachel;13,0;immediate;stack",
+            "add_unit;Dozla;12,0;immediate;stack",
+            "add_unit;Rennac;14,0;immediate;stack",
+            "move_unit;L'arachel;;;closest;no_block",
+            "move_unit;Dozla;;;closest;no_block",
+            "move_unit;Rennac;;;closest",
+            "wait;50",
+            "flicker_cursor;L'arachel",
+            "add_portrait;L'arachel;Right",
+            "speak;L'arachel;Oh, my!|Those travelers are being besieged by the agents of evil!",
+            "add_portrait;Dozla;MidLeft",
+            "speak;Dozla;Ha ha ha! Right you are, Lady L'Arachel!",
+            "speak;L'Arachel;I cannot allow this to happen!{br}Come!|We must charge down these cliffs and rush to their aid!",
+            "add_portrait;Rennac;FarLeft",
+            "speak;Rennac;We charge down these cliffs, and the only thing we'll be rushing to is death.|How about we find us a nice, gentle path down, hm?",
+            "speak;L'arachel;Ah...Yes, well...Let us hurry nonetheless.|I simply cannot abide those wicked beasts running amok!",
+            "remove_portrait;L'arachel;no_block",
+            "remove_portrait;Dozla;no_block",
+            "remove_portrait;Rennac",
+            "remove_unit;Rennac",
+            "move_unit;L'arachel;14,2;;closest;no_block",
+            "move_unit;Dozla;14,1;;closest;no_block",
+            "remove_unit;L'arachel",
+            "remove_unit;Dozla"
+        ],
+        "nid": "4 Turn3"
+    }
+]

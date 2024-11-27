@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Village3",
+        "trigger": "Visit",
+        "level_nid": "5",
+        "condition": "region.nid == 'Village3'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;OldMan1;Left",
+            "speak;OldMan1;In my youth, I was a knight of some renown, I'll have you know.|I've even crossed blades with one of Grado's most famous generals, I have.|Ah, but I'm an old man now...|I'm starting to worry... What if I die without passing on my techniques?|So I decided to write down what I've learned in a book. I have it here.|You seem like a strong warrior. I'd be honored if you would accept it.",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Secret Book",
+            "show_layer;Village3",
+            "has_traded;{unit}"
+        ],
+        "nid": "5 Village3"
+    }
+]

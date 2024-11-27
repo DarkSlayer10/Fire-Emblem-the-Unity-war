@@ -1,0 +1,41 @@
+[
+    {
+        "nid": "Torch",
+        "name": "Torch",
+        "desc": "Increases user's sight range in fog of war",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "value",
+                500
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "usable",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Fort"
+            ]
+        ]
+    }
+]

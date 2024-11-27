@@ -16,14 +16,6 @@
         "growth_colors": false
     },
     {
-        "nid": "MAG",
-        "name": "Mag",
-        "maximum": 30,
-        "desc": "Magical power. Increases spell and staff effectiveness.",
-        "position": "left",
-        "growth_colors": false
-    },
-    {
         "nid": "SKL",
         "name": "Skill",
         "maximum": 30,
@@ -40,14 +32,6 @@
         "growth_colors": false
     },
     {
-        "nid": "LCK",
-        "name": "Luck",
-        "maximum": 30,
-        "desc": "Luck affects many things.",
-        "position": "right",
-        "growth_colors": false
-    },
-    {
         "nid": "DEF",
         "name": "Def",
         "maximum": 30,
@@ -60,6 +44,22 @@
         "name": "Res",
         "maximum": 30,
         "desc": "Reduces damage from magic.",
+        "position": "left",
+        "growth_colors": false
+    },
+    {
+        "nid": "LCK",
+        "name": "Luck",
+        "maximum": 30,
+        "desc": "Luck affects many things.",
+        "position": "right",
+        "growth_colors": false
+    },
+    {
+        "nid": "MAG",
+        "name": "Mag",
+        "maximum": 30,
+        "desc": "Magical power. Increases spell and staff effectiveness.",
         "position": "left",
         "growth_colors": false
     },

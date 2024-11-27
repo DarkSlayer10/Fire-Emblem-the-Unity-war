@@ -1,0 +1,62 @@
+[
+    {
+        "nid": "Poison_Claw",
+        "name": "Poison Claw",
+        "desc": "Poisons on contact",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            10
+        ],
+        "components": [
+            [
+                "status_on_hit",
+                "Fort"
+            ],
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    }
+]

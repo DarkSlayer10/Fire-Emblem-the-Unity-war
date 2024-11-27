@@ -1,0 +1,89 @@
+[
+    {
+        "nid": "Swordslayer",
+        "name": "Swordslayer",
+        "desc": "Reverses the weapon triangle. Effective against sword fighters",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            12
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                11
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "reaver",
+                null
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "value",
+                2000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Sword"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 22,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    }
+]

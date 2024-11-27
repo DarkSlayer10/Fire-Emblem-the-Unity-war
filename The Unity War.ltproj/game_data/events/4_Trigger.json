@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Trigger",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "any(game.level.regions.get('Trigger').contains(unit.position) for unit in game.get_units_in_party())",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;0,0",
+            "add_group;RevenantRein;0,0;immediate;stack",
+            "move_group;RevenantRein;RevenantRein"
+        ],
+        "nid": "4 Trigger"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathBone",
+        "trigger": "unit_death",
+        "level_nid": "2",
+        "condition": "unit.nid == \"Bone\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Bone;Left",
+            "speak;Bone;Urgh... Blast...",
+            "remove_portrait;Bone"
+        ],
+        "nid": "2 DeathBone"
+    }
+]

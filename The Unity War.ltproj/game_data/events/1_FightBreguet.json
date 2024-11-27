@@ -1,0 +1,17 @@
+[
+    {
+        "name": "FightBreguet",
+        "trigger": "combat_start",
+        "level_nid": "1",
+        "condition": "(unit.nid == \"Breguet\" and unit2.team == 'player') or (unit2.nid == \"Breguet\" and unit.team == 'player')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Breguet;Left",
+            "speak;Breguet;Bah, what a worthless lot of curs I've been assigned!",
+            "remove_portrait;Breguet"
+        ],
+        "nid": "1 FightBreguet"
+    }
+]

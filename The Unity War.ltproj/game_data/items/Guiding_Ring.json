@@ -1,0 +1,59 @@
+[
+    {
+        "nid": "Guiding_Ring",
+        "name": "Guiding Ring",
+        "desc": "Promotes magic-using classes.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            13
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "promote",
+                null
+            ],
+            [
+                "prf_class",
+                [
+                    "Monk",
+                    "Cleric",
+                    "Mage",
+                    "Shaman",
+                    "Troubadour"
+                ]
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.level >= 10"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Turn2",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;14,8",
+            "spawn_group;Turn2Rein;East;Turn2Rein"
+        ],
+        "nid": "4 Turn2"
+    }
+]

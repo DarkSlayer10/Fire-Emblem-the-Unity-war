@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Chest2",
+        "trigger": "Chest",
+        "level_nid": "3",
+        "condition": "region.nid == 'Chest2'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "unlock;{unit}",
+            "show_layer;Chest2",
+            "give_item;{unit};Iron Lance"
+        ],
+        "nid": "3 Chest2"
+    }
+]

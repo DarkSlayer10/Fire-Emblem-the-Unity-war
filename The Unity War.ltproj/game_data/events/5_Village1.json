@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Village1",
+        "trigger": "Visit",
+        "level_nid": "5",
+        "condition": "region.nid == 'Village1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Tethys;Left",
+            "speak;Tethys;Oh, hello.{br}Did you come to see me dance?|I'm sorry, but I just finished a few moments ago.{w}{clear}Oh, by the way...Would you be interested in one of these items?|A wealthy patron left me a small ransom in gifts after watching my performance.|You can sell one for gold if you'd like or use them to improve your skills.|I simply cannot carry all of this by myself, so please, take this one.|Wealth is useless if you can't use it to bring happiness to others, right?| Thanks for dropping by. Perhaps we'll meet again someday.",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Dragonshield",
+            "show_layer;Village1",
+            "has_traded;{unit}"
+        ],
+        "nid": "5 Village1"
+    }
+]

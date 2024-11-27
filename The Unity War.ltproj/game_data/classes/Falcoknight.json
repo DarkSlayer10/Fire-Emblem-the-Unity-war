@@ -1,0 +1,141 @@
+[
+    {
+        "nid": "Falcoknight",
+        "name": "Falcoknight",
+        "desc": "Veteran pegasus knights.",
+        "tier": 2,
+        "movement_group": "Light Cav",
+        "promotes_from": "Pegasus_Knight",
+        "turns_into": [],
+        "tags": [
+            "Mounted",
+            "Flying"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 20,
+            "STR": 6,
+            "MAG": 3,
+            "SKL": 7,
+            "SPD": 7,
+            "LCK": 0,
+            "DEF": 5,
+            "RES": 4,
+            "CON": 6,
+            "MOV": 8
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 30,
+            "MAG": 15,
+            "SKL": 30,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 12,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 5,
+            "STR": 2,
+            "MAG": 1,
+            "SKL": 0,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 2,
+            "RES": 2,
+            "CON": 1,
+            "MOV": -99
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 23,
+            "MAG": 20,
+            "SKL": 25,
+            "SPD": 28,
+            "LCK": 30,
+            "DEF": 23,
+            "RES": 26,
+            "CON": 25,
+            "MOV": 15
+        },
+        "learned_skills": [
+            [
+                1,
+                "Flying"
+            ],
+            [
+                1,
+                "Canto"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                1,
+                251
+            ],
+            "Lance": [
+                true,
+                40,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Falcoknight",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Falcoknight",
+        "combat_anim_nid": null,
+        "fields": []
+    }
+]

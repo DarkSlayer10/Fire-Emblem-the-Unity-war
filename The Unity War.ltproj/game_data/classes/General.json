@@ -1,0 +1,131 @@
+[
+    {
+        "nid": "General",
+        "name": "General",
+        "desc": "",
+        "tier": 2,
+        "movement_group": "Armors",
+        "promotes_from": "Knight",
+        "turns_into": [],
+        "tags": [
+            "Armor"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 21,
+            "STR": 8,
+            "MAG": 0,
+            "SKL": 5,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 13,
+            "RES": 4,
+            "CON": 11,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 30,
+            "MAG": 0,
+            "SKL": 25,
+            "SPD": 10,
+            "LCK": 20,
+            "DEF": 23,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 4,
+            "STR": 2,
+            "MAG": 0,
+            "SKL": 3,
+            "SPD": 3,
+            "LCK": 0,
+            "DEF": 3,
+            "RES": 3,
+            "CON": 2,
+            "MOV": -99
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 29,
+            "MAG": 22,
+            "SKL": 28,
+            "SPD": 25,
+            "LCK": 30,
+            "DEF": 30,
+            "RES": 26,
+            "CON": 25,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                2,
+                1,
+                251
+            ],
+            "Lance": [
+                2,
+                40,
+                251
+            ],
+            "Axe": [
+                2,
+                1,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_General",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "General",
+        "combat_anim_nid": "General",
+        "fields": []
+    }
+]

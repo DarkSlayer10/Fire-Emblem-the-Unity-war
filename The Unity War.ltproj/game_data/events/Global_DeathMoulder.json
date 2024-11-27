@@ -1,0 +1,18 @@
+[
+    {
+        "name": "DeathMoulder",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Moulder'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Moulder;FarRight",
+            "speak;Moulder;I am sorry. I believe this is as far as I go...",
+            "expression;Moulder;CloseEyes",
+            "remove_portrait;Moulder"
+        ],
+        "nid": "Global DeathMoulder"
+    }
+]

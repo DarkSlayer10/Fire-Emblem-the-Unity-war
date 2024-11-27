@@ -1,1 +1,16 @@
-{}
+{
+    "Avoid10": "Terrain",
+    "Avoid5": "Terrain",
+    "Canto": "General/Class Skills",
+    "Flying": "General/Class Skills",
+    "Forest": "Terrain",
+    "Fort": "Terrain",
+    "Locktouch": "General/Class Skills",
+    "Mountain": "Terrain",
+    "NoAvoid": "Terrain",
+    "Peak": "Terrain",
+    "Steal": "General/Class Skills",
+    "Throne": "Terrain",
+    "Wide_Open": "Personal Skills",
+    "Wide_Open_S": "Personal Skills"
+}

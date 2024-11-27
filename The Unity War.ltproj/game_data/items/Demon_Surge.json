@@ -1,0 +1,66 @@
+[
+    {
+        "nid": "Demon_Surge",
+        "name": "Demon Surge",
+        "desc": "",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                11
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ]
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Eirika/ONeill",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Eirika',\"O'Neill\")",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;O'Neill;Left;;;no_block",
+            "add_portrait;Eirika;Right",
+            "speak;O'Neill;How did you manage to take us on?!|You're just a little girl!",
+            "speak;Eirika;I fight for my country.{br}For my people!|{c:expression;Eirika;HalfCloseEyes}For their sakes I will defeat you!",
+            "bop;O'Neill;no_block",
+            "s;O'Neill;We'll see about that!",
+            "remove_portrait;O'Neill;no_block",
+            "remove_portrait;Eirika",
+            "change_music;player_phase;Grasp at Victory",
+            "show_combat_ui"
+        ],
+        "nid": "0 Eirika/ONeill"
+    }
+]

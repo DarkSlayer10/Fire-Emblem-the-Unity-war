@@ -1,0 +1,49 @@
+[
+    {
+        "nid": "Pure_Water",
+        "name": "Pure Water",
+        "desc": "Temporarily raises resistance.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "value",
+                900
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    187,
+                    255
+                ]
+            ],
+            [
+                "status_on_hit",
+                "Fort"
+            ]
+        ]
+    }
+]

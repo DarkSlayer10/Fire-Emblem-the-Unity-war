@@ -1,0 +1,77 @@
+[
+    {
+        "nid": "Stone",
+        "name": "Stone",
+        "desc": "Petrifies on hit",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            16
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "status_on_hit",
+                "Fort"
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "weapon",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ]
+        ]
+    }
+]

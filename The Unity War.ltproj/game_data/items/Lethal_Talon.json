@@ -1,0 +1,62 @@
+[
+    {
+        "nid": "Lethal_Talon",
+        "name": "Lethal Talon",
+        "desc": "Poisons on contact",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "status_on_hit",
+                "Fort"
+            ],
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                60
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    }
+]

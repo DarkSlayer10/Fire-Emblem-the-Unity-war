@@ -1,0 +1,61 @@
+[
+    {
+        "nid": "Latona",
+        "name": "Latona",
+        "desc": "Restores HP and condition of all allied units",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            15
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "heal",
+                99
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                10
+            ],
+            [
+                "restore",
+                null
+            ],
+            [
+                "all_allies_except_self_aoe",
+                null
+            ]
+        ]
+    }
+]

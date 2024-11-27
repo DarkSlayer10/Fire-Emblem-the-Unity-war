@@ -1,0 +1,66 @@
+[
+    {
+        "nid": "Shadowshot",
+        "name": "Shadowshot",
+        "desc": "",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                13
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "siege_weapon",
+                null
+            ]
+        ]
+    }
+]

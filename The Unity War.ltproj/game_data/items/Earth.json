@@ -1,0 +1,57 @@
+[
+    {
+        "nid": "Earth",
+        "name": "Earth ",
+        "desc": "",
+        "icon_nid": "Item Icons Fe Unity War 10-24-24.emulator.emulator.gba_63@3F_01458464",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "item_tags",
+                []
+            ],
+            [
+                "uses",
+                45
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                7
+            ]
+        ]
+    }
+]

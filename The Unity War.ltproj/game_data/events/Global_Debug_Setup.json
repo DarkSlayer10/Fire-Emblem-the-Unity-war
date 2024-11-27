@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Debug Setup",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "cf.SETTINGS['debug']",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Give access to the convoy",
+            "change_background;BlackBackground",
+            "game_var;_convoy;True"
+        ],
+        "nid": "Global Debug Setup"
+    }
+]

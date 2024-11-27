@@ -1,0 +1,114 @@
+[
+    {
+        "nid": "Vanessa",
+        "name": "Vanessa",
+        "desc": "A sincere, honest, and honourable pegasus knight of Frelia.",
+        "variant": "",
+        "level": 1,
+        "klass": "Pegasus_Knight",
+        "tags": [],
+        "bases": {
+            "HP": 17,
+            "STR": 5,
+            "MAG": 2,
+            "SKL": 7,
+            "SPD": 11,
+            "LCK": 4,
+            "DEF": 6,
+            "RES": 5,
+            "CON": 5,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 35,
+            "MAG": 20,
+            "SKL": 55,
+            "SPD": 60,
+            "LCK": 50,
+            "DEF": 20,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "STR": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "RES": 0,
+            "MOV": 0,
+            "SKL": 0,
+            "MAG": 0
+        },
+        "starting_items": [
+            [
+                "Slim_Lance",
+                false
+            ],
+            [
+                "Javelin",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Vanessa",
+        "affinity": "Anima",
+        "fields": []
+    }
+]

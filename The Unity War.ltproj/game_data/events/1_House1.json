@@ -1,0 +1,24 @@
+[
+    {
+        "name": "House1",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'House1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;Man1;Left;no_block",
+            "add_portrait;{unit};Right",
+            "speak;Man1;The rumors are true, aren't they? The Grado army's taken over the castle|It looks like they've seized the castle gate, too.|Smart work--the gate provides defense and heals wounds to boot.|They must be fierce warriors to have taken the gate. Watch yourself.",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "has_traded;{unit}"
+        ],
+        "nid": "1 House1"
+    }
+]

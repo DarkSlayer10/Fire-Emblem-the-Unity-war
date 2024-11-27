@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Wide_Open_S",
+        "name": "Wide Open",
+        "desc": "Def is debuffed by 4.\n(Recovers 1/turn.)",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            4,
+            29
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "DEF",
+                        "-1 * get_skill(unit, 'Wide_Open_S').data.get('turns') // 2"
+                    ]
+                ]
+            ],
+            [
+                "combined_time",
+                4
+            ]
+        ]
+    }
+]

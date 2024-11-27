@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Armory",
+        "trigger": "Armory",
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "shop;{unit};Iron Sword,Slim Sword,Iron Lance,Slim Lance,Iron Axe",
+            "transition;Open"
+        ],
+        "nid": "2 Armory"
+    }
+]

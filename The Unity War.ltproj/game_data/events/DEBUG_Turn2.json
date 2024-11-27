@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Turn2",
+        "trigger": "turn_change",
+        "level_nid": "DEBUG",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_team;Bone;player",
+            "game_var;EirikaSupport;True"
+        ],
+        "nid": "DEBUG Turn2"
+    }
+]

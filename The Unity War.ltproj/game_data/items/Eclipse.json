@@ -1,0 +1,81 @@
+[
+    {
+        "nid": "Eclipse",
+        "name": "Eclipse",
+        "desc": "Halve's the enemy's current HP",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "hit",
+                30
+            ],
+            [
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "wexp",
+                8
+            ],
+            [
+                "value",
+                4000
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "status_on_hit",
+                "Fort"
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "FightBazba",
+        "trigger": "combat_start",
+        "level_nid": "3",
+        "condition": "check_default('Bazba',['Eirika'])",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Bazba;Left",
+            "speak;Bazba;I'm the head of this bandit pack, the mighty Bazba!{w}{clear}Hope you've enjoyed your life, 'cuz it's about to end!",
+            "remove_portrait;Bazba"
+        ],
+        "nid": "3 FightBazba"
+    }
+]

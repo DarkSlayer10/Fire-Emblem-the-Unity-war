@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Rescue2",
+        "name": "Rescue",
+        "desc": "Rescues an ally.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            10
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "unload_unit",
+                null
+            ]
+        ]
+    }
+]

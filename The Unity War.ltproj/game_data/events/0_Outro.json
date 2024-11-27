@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 22,
+        "_source": [
+            "4,44,42,4transition;Close",
+            "change_background;Forest",
+            "transition;Open",
+            "add_portrait;Seth;Left;no_block",
+            "add_portrait;Eirika;Right",
+            "speak;Seth;Princess, are you injured?",
+            "speak;Eirika;What?|Oh, no...{br}I'm fine, Seth.",
+            "speak;Seth;But you look so pale...",
+            "speak;Eirika;I'm fine... Fine.|...This is war, isn't it?|It's not at all like the games I used to play with my brother or Lyon.|I never thought-- I didn't know it would be this...savage.|Are words useless? Is strength all that matters? It's so sad...|Why would the Grado Empire do this? To what end would they start a war?",
+            "speak;Seth;Princess...",
+            "speak;Eirika;...Don't worry, Seth. I won't give in to sorrow.|Let's get moving.|I'm not broken, and I won't stop until I see Renais restored.|I won't stop until I'm reunited with my father and brother.",
+            "transition;Close"
+        ],
+        "nid": "0 Outro"
+    }
+]

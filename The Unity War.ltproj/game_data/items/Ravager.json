@@ -1,0 +1,58 @@
+[
+    {
+        "nid": "Ravager",
+        "name": "Ravager",
+        "desc": "",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "status_on_equip",
+                "Fort"
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    }
+]

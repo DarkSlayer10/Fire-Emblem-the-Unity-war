@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Warp2",
+        "name": "Warp",
+        "desc": "Warps an ally.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "unload_unit",
+                null
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ]
+        ]
+    }
+]

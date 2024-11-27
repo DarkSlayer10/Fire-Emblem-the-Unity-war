@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Turn2",
+        "trigger": "turn_change",
+        "level_nid": "5",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;14,16",
+            "add_group;Brigand1;Brigand1",
+            "flicker_cursor;14,16",
+            "add_portrait;Bandit1;FarRight",
+            "speak;Bandit1;Look at this. Now's our chance!|C'mon, lads!|Let's join the fights and steal our way through this pathetic town!",
+            "remove_portrait;Bandit1"
+        ],
+        "nid": "5 Turn2"
+    }
+]
