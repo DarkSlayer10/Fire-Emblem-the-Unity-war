@@ -2,34 +2,36 @@
     {
         "nid": "Marksman",
         "name": "Marksman",
-        "desc": "",
+        "desc": "A hunter that uses a bow during combat.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "max_level": 20,
         "bases": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
+            "HP": 18,
+            "STR": 6,
+            "MAG": 1,
+            "SKL": 6,
+            "SPD": 7,
             "LCK": 0,
-            "DEF": 0,
+            "DEF": 6,
             "RES": 0,
-            "CON": 0,
-            "MOV": 0
+            "CON": 8,
+            "MOV": 5
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
+            "HP": 50,
+            "STR": 45,
+            "MAG": 10,
+            "SKL": 40,
+            "SPD": 50,
+            "LCK": 40,
+            "DEF": 35,
+            "RES": 15,
             "CON": 0,
             "MOV": 0
         },
@@ -59,13 +61,13 @@
         },
         "max_stats": {
             "HP": 60,
-            "STR": 30,
-            "MAG": 30,
-            "SKL": 30,
-            "SPD": 30,
-            "LCK": 30,
-            "DEF": 30,
-            "RES": 30,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "RES": 20,
             "CON": 25,
             "MOV": 15
         },
@@ -88,7 +90,7 @@
             ],
             "Bow": [
                 true,
-                0,
+                31,
                 null
             ],
             "Staff": [
@@ -123,7 +125,7 @@
             0
         ],
         "map_sprite_nid": "Marksman",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Marksman",
         "fields": []
     }
 ]

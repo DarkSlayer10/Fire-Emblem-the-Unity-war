@@ -1,9 +1,6 @@
 [
     "Citizen",
-    "Eirika_Lord",
-    "Eirika_Great_Lord",
-    "Ephraim_Lord",
-    "Ephraim_Great_Lord",
+    "Marksman",
     "Dancer",
     "Myrmidon",
     "Swordmaster",
@@ -54,6 +51,5 @@
     "Wall25",
     "Snag20",
     "Manakete",
-    "Apprentice",
-    "Marksman"
+    "Apprentice"
 ]

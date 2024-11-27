@@ -5,7 +5,7 @@
         "desc": "The prince of Renais. He is a man of great honour and bravery.",
         "variant": null,
         "level": 4,
-        "klass": "Ephraim_Lord",
+        "klass": "Citizen",
         "tags": [],
         "bases": {
             "HP": 23,
