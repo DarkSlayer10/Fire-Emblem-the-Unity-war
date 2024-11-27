@@ -9,6 +9,7 @@
         "turns_into": [],
         "tags": [
             "Mounted",
+            "Monster",
             "Female"
         ],
         "max_level": 20,
@@ -72,7 +73,12 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,

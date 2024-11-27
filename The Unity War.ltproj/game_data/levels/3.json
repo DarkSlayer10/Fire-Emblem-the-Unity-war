@@ -92,7 +92,7 @@
                 "generic": false
             },
             {
-                "nid": "Moulder",
+                "nid": "Lilith",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -619,7 +619,7 @@
                     "Amon",
                     "Isabelle",
                     "Maya",
-                    "Moulder",
+                    "Lilith",
                     "Ross",
                     "Neimi",
                     "Garcia"

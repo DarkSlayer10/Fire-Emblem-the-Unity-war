@@ -1,0 +1,137 @@
+[
+    {
+        "nid": "Bael_Queen",
+        "name": "Bael Queen",
+        "desc": "A variant Bael Queen species.\nHas access to swords and magic.",
+        "tier": 2,
+        "movement_group": "Regular",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Monster",
+            "Female"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 20,
+            "STR": 6,
+            "MAG": 6,
+            "SKL": 6,
+            "SPD": 7,
+            "LCK": 0,
+            "DEF": 6,
+            "RES": 5,
+            "CON": 25,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 45,
+            "MAG": 10,
+            "SKL": 40,
+            "SPD": 45,
+            "LCK": 40,
+            "DEF": 40,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 30,
+            "MAG": 26,
+            "SKL": 25,
+            "SPD": 28,
+            "LCK": 30,
+            "DEF": 26,
+            "RES": 24,
+            "CON": 25,
+            "MOV": 15
+        },
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                120,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                true,
+                120,
+                251
+            ],
+            "Anima": [
+                true,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                true,
+                120,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "BaelQueen",
+        "combat_anim_nid": "BaelQueen",
+        "fields": []
+    }
+]

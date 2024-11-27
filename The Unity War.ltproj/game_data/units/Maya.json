@@ -43,20 +43,7 @@
             "SKL": 0,
             "MAG": 0
         },
-        "starting_items": [
-            [
-                "Slim_Lance",
-                false
-            ],
-            [
-                "Javelin",
-                false
-            ],
-            [
-                "Concoction",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
