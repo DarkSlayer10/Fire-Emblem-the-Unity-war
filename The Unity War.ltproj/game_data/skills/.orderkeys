@@ -7,10 +7,13 @@
     "Avoid10",
     "NoAvoid",
     "Avoid5",
+    "Faithful",
+    "Faithful_A",
     "Wide_Open",
     "Wide_Open_S",
     "Canto",
     "Flying",
     "Steal",
-    "Locktouch"
+    "Locktouch",
+    "Supply"
 ]

@@ -1,0 +1,25 @@
+[
+    {
+        "nid": "Supply",
+        "name": "Supply",
+        "desc": "This unit has access to the magical convoy.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            2,
+            34
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Convoy",
+                    "AdjConvoy"
+                ]
+            ]
+        ]
+    }
+]

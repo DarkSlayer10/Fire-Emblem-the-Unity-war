@@ -6,7 +6,10 @@
         "variant": null,
         "level": 1,
         "klass": "Marksman",
-        "tags": [],
+        "tags": [
+            "Lord",
+            "Female"
+        ],
         "bases": {
             "HP": 8,
             "STR": 1,

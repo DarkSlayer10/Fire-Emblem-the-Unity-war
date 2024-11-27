@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Faithful",
+        "name": "Faithful",
+        "desc": "Grants +10 Hit/Avoid to all\nallies within three tiles.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            4,
+            42
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "aura",
+                "Faithful_A"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    }
+]

@@ -71,7 +71,12 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Supply"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -98,12 +103,12 @@
                 0,
                 null
             ],
-            "Light": [
+            "Anima": [
                 false,
                 0,
                 null
             ],
-            "Anima": [
+            "Light": [
                 false,
                 0,
                 null

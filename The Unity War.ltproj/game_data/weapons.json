@@ -143,45 +143,6 @@
         ]
     },
     {
-        "nid": "Light",
-        "name": "Light",
-        "force_melee_anim": false,
-        "rank_bonus": [],
-        "advantage": [
-            {
-                "weapon_type": "Dark",
-                "weapon_rank": "All",
-                "damage": "1",
-                "resist": "0",
-                "accuracy": "15",
-                "avoid": "0",
-                "crit": "0",
-                "dodge": "0",
-                "attack_speed": "0",
-                "defense_speed": "0"
-            }
-        ],
-        "disadvantage": [
-            {
-                "weapon_type": "Anima",
-                "weapon_rank": "All",
-                "damage": "-1",
-                "resist": "0",
-                "accuracy": "-15",
-                "avoid": "0",
-                "crit": "0",
-                "dodge": "0",
-                "attack_speed": "0",
-                "defense_speed": "0"
-            }
-        ],
-        "icon_nid": "wexp_icons",
-        "icon_index": [
-            0,
-            5
-        ]
-    },
-    {
         "nid": "Anima",
         "name": "Anima",
         "force_melee_anim": false,
@@ -218,6 +179,45 @@
         "icon_index": [
             0,
             6
+        ]
+    },
+    {
+        "nid": "Light",
+        "name": "Light",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Dark",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Anima",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            5
         ]
     },
     {
