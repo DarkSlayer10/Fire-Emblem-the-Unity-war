@@ -53,7 +53,7 @@
                 "generic": false
             },
             {
-                "nid": "Franz",
+                "nid": "Amon",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -616,7 +616,7 @@
                 "units": [
                     "Emma",
                     "Emily",
-                    "Franz",
+                    "Amon",
                     "Gilliam",
                     "Vanessa",
                     "Moulder",

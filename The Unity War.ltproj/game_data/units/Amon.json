@@ -1,35 +1,37 @@
 [
     {
-        "nid": "Franz",
-        "name": "Franz",
-        "desc": "An earnest and compassionate cavalier from Renais.",
+        "nid": "Amon",
+        "name": "Amon",
+        "desc": "The Demon Prince. He is kind\nand loves exploring new places.",
         "variant": null,
         "level": 1,
-        "klass": "Cavalier",
-        "tags": [],
+        "klass": "Slayer",
+        "tags": [
+            "Lord"
+        ],
         "bases": {
-            "HP": 20,
+            "HP": 19,
             "STR": 7,
-            "MAG": 3,
+            "MAG": 7,
             "SKL": 5,
-            "SPD": 7,
-            "LCK": 2,
-            "DEF": 6,
-            "CON": 9,
-            "MOV": 7,
-            "RES": 1
+            "SPD": 6,
+            "LCK": 8,
+            "DEF": 5,
+            "CON": 2,
+            "MOV": 0,
+            "RES": 7
         },
         "growths": {
-            "HP": 80,
-            "STR": 40,
-            "MAG": 20,
-            "SKL": 40,
-            "SPD": 50,
-            "LCK": 40,
-            "DEF": 25,
+            "HP": 75,
+            "STR": 50,
+            "MAG": 0,
+            "SKL": 55,
+            "SPD": 40,
+            "LCK": 70,
+            "DEF": 45,
             "CON": 0,
             "MOV": 0,
-            "RES": 20
+            "RES": 45
         },
         "stat_cap_modifiers": {
             "STR": 0,
@@ -43,40 +45,23 @@
             "SKL": 0,
             "MAG": 0
         },
-        "starting_items": [
-            [
-                "Iron_Sword",
-                false
-            ],
-            [
-                "Iron_Lance",
-                false
-            ],
-            [
-                "Concoction",
-                false
-            ],
-            [
-                "Concoction",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
                 true,
-                1,
+                71,
                 251
             ],
             "Lance": [
                 true,
-                31,
+                0,
                 251
             ],
             "Axe": [
                 false,
-                0,
+                71,
                 251
             ],
             "Bow": [
@@ -111,7 +96,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Franz",
+        "portrait_nid": "Amon",
         "affinity": "Light",
         "fields": []
     }

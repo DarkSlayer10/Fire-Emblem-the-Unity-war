@@ -19,7 +19,7 @@
             "LCK": 5,
             "DEF": 0,
             "CON": -1,
-            "MOV": 5,
+            "MOV": 0,
             "RES": 3
         },
         "growths": {

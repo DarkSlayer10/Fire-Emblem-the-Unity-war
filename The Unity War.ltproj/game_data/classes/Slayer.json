@@ -1,15 +1,13 @@
 [
     {
-        "nid": "Marksman",
-        "name": "Marksman",
-        "desc": "A hunter that uses a bow during combat.",
+        "nid": "Slayer",
+        "name": "Slayer",
+        "desc": "A Demon fighting for his kingdom.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [],
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "max_level": 20,
         "bases": {
             "HP": 18,
@@ -71,16 +69,11 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [
-            [
-                1,
-                "Supply"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
-                false,
-                0,
+                true,
+                30,
                 null
             ],
             "Lance": [
@@ -89,13 +82,13 @@
                 null
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                30,
                 null
             ],
             "Bow": [
-                true,
-                30,
+                false,
+                31,
                 null
             ],
             "Staff": [
@@ -129,8 +122,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "Marksman",
-        "combat_anim_nid": "Marksman",
+        "map_sprite_nid": "Slayer",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]
