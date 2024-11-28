@@ -130,5 +130,10 @@
         "nid": "Demon Castle",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Furry Castle",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

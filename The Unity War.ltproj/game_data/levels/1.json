@@ -4,7 +4,7 @@
         "name": "Ch. 1: Escape!",
         "tilemap": "Chapter 1",
         "bg_tilemap": null,
-        "party": "Eirika",
+        "party": "Emma",
         "music": {
             "player_phase": "Distant Roads",
             "enemy_phase": "Shadow of the Enemy",

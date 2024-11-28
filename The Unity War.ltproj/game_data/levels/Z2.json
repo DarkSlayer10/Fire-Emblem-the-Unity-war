@@ -1,0 +1,24 @@
+[
+    {
+        "nid": "Z2",
+        "name": "Cutscene",
+        "tilemap": "Family Savior",
+        "bg_tilemap": null,
+        "party": "Emma",
+        "music": {},
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [],
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    }
+]

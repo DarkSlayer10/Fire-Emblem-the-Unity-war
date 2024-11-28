@@ -1,20 +1,5 @@
 [
     {
-        "nid": "1",
-        "name": "Plain",
-        "color": [
-            192,
-            224,
-            48
-        ],
-        "minimap": "Grass",
-        "platform": "Plains",
-        "background": "combat_plains",
-        "mtype": "Normal",
-        "opaque": false,
-        "status": null
-    },
-    {
         "nid": "0",
         "name": "--",
         "color": [
@@ -26,6 +11,21 @@
         "platform": "Wall",
         "background": "BlackBackground",
         "mtype": "Fence",
+        "opaque": false,
+        "status": null
+    },
+    {
+        "nid": "1",
+        "name": "Plain",
+        "color": [
+            192,
+            224,
+            48
+        ],
+        "minimap": "Grass",
+        "platform": "Plains",
+        "background": "combat_plains",
+        "mtype": "Normal",
         "opaque": false,
         "status": null
     },

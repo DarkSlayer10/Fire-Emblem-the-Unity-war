@@ -4,7 +4,7 @@
         "name": "Ch. 4: Ancient Horrors",
         "tilemap": "Chapter 4",
         "bg_tilemap": null,
-        "party": "Eirika",
+        "party": "Emma",
         "music": {
             "player_phase": null,
             "enemy_phase": null,

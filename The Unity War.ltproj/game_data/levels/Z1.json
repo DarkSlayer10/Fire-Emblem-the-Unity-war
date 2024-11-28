@@ -4,7 +4,7 @@
         "name": "Cutscene",
         "tilemap": "Queen Gambit",
         "bg_tilemap": null,
-        "party": "Eirika",
+        "party": "Emma",
         "music": {},
         "objective": {
             "simple": "",
@@ -85,11 +85,6 @@
         ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

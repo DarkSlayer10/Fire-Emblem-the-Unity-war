@@ -4,7 +4,7 @@
         "name": "Prologue",
         "tilemap": "Prologue",
         "bg_tilemap": "Prologue",
-        "party": "Eirika",
+        "party": "Emma",
         "music": {
             "player_phase": "Distant Roads",
             "enemy_phase": "Shadow of the Enemy",

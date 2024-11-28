@@ -4,7 +4,7 @@
         "name": "Ch. 2: The Protected",
         "tilemap": "Chapter 2",
         "bg_tilemap": null,
-        "party": "Eirika",
+        "party": "Emma",
         "music": {
             "player_phase": "Distant Roads",
             "enemy_phase": "Shadow of the Enemy",

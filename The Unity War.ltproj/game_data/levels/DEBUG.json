@@ -4,7 +4,7 @@
         "name": "DEBUG",
         "tilemap": "Chapter 2",
         "bg_tilemap": null,
-        "party": "Eirika",
+        "party": "Emma",
         "music": {
             "player_phase": "Shadow of the Enemy",
             "enemy_phase": null,

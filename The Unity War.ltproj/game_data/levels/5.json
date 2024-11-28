@@ -4,7 +4,7 @@
         "name": "Ch. 5: The Empire's Reach",
         "tilemap": "Chapter 5",
         "bg_tilemap": null,
-        "party": "Eirika",
+        "party": "Emma",
         "music": {
             "player_phase": null,
             "enemy_phase": null,
