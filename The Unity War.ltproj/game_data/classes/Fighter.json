@@ -2,7 +2,7 @@
     {
         "nid": "Fighter",
         "name": "Fighter",
-        "desc": "Ruffians with great strength but\npoor defense.",
+        "desc": "Ruffians with great strength but\npoor defense. Equip: Axes.",
         "tier": 1,
         "movement_group": "Regular",
         "promotes_from": null,
@@ -13,25 +13,25 @@
         "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 20,
-            "STR": 5,
+            "HP": 24,
+            "STR": 7,
             "MAG": 0,
-            "SKL": 2,
-            "SPD": 4,
+            "SKL": 4,
+            "SPD": 2,
             "LCK": 0,
-            "DEF": 2,
+            "DEF": 6,
             "CON": 11,
             "MOV": 5,
-            "RES": 0
+            "RES": 2
         },
         "growths": {
-            "HP": 85,
+            "HP": 90,
             "STR": 55,
             "MAG": 0,
-            "SKL": 35,
+            "SKL": 45,
             "SPD": 30,
             "LCK": 15,
-            "DEF": 15,
+            "DEF": 20,
             "CON": 0,
             "MOV": 0,
             "RES": 15

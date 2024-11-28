@@ -12,18 +12,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Natasha",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Ephraim",
         "blinking_offset": [
             24,
@@ -661,6 +649,18 @@
     },
     {
         "nid": "Chidori",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sonia",
         "blinking_offset": [
             24,
             24
