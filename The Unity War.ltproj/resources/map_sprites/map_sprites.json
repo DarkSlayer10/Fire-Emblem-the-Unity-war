@@ -14,7 +14,6 @@
     "Assassin",
     "Rogue",
     "Soldier",
-    "Recruit",
     "Cavalier",
     "Paladin",
     "Great_Knight",
@@ -80,5 +79,6 @@
     "MageF",
     "Fighter",
     "Sister",
-    "FighterF"
+    "FighterF",
+    "Recruit"
 ]

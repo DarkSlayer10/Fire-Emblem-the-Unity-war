@@ -1,0 +1,101 @@
+[
+    {
+        "nid": "Marica",
+        "name": "Marica",
+        "desc": "A new recruit for the village guard.\nLikes teasing her friends but has \na kind spirit.",
+        "variant": null,
+        "level": 4,
+        "klass": "Recruit",
+        "tags": [],
+        "bases": {
+            "HP": 1,
+            "STR": 0,
+            "MAG": 2,
+            "SKL": -1,
+            "SPD": -5,
+            "LCK": 5,
+            "DEF": -2,
+            "RES": -2,
+            "CON": 2,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 40,
+            "MAG": 25,
+            "SKL": 45,
+            "SPD": 40,
+            "LCK": 40,
+            "DEF": 40,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "STR": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "RES": 0,
+            "MOV": 0,
+            "SKL": 0,
+            "MAG": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Marica",
+        "affinity": "Ice",
+        "fields": []
+    }
+]

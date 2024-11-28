@@ -2,7 +2,7 @@
     {
         "nid": "Recruit",
         "name": "Recruit",
-        "desc": "Mounted knights with superior movement.",
+        "desc": "Unproven knights with dreams\nof glory. Equip: Lances.",
         "tier": 1,
         "movement_group": "Regular",
         "promotes_from": null,
@@ -14,16 +14,16 @@
         "tags": [],
         "max_level": 10,
         "bases": {
-            "HP": 13,
-            "STR": 3,
+            "HP": 23,
+            "STR": 6,
             "MAG": 0,
-            "SKL": 1,
-            "SPD": 0,
+            "SKL": 6,
+            "SPD": 11,
             "LCK": 0,
-            "DEF": 0,
-            "RES": 1,
+            "DEF": 7,
+            "RES": 6,
             "CON": 6,
-            "MOV": 4
+            "MOV": 5
         },
         "growths": {
             "HP": 75,
@@ -63,13 +63,13 @@
         },
         "max_stats": {
             "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
+            "STR": 23,
+            "MAG": 23,
+            "SKL": 30,
+            "SPD": 29,
             "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
+            "DEF": 22,
+            "RES": 26,
             "CON": 20,
             "MOV": 15
         },
@@ -100,12 +100,12 @@
                 0,
                 251
             ],
-            "Light": [
+            "Anima": [
                 false,
                 0,
                 251
             ],
-            "Anima": [
+            "Light": [
                 false,
                 0,
                 251
@@ -114,6 +114,16 @@
                 false,
                 0,
                 251
+            ],
+            "Stone": [
+                false,
+                0,
+                null
+            ],
+            "Monster": [
+                false,
+                0,
+                null
             ],
             "Default": [
                 false,
@@ -127,7 +137,7 @@
             0
         ],
         "map_sprite_nid": "Recruit",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Recruit",
         "fields": []
     }
 ]
