@@ -165,10 +165,23 @@
     },
     {
         "nid": "Sorcerer",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "SorcererCard": [
+                0,
+                0
+            ],
+            "": [
+                0,
+                0
+            ]
+        }
     },
     {
         "nid": "MercCard",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "KhanCardd",
         "subicon_dict": {}
     }
 ]
