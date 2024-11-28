@@ -118,7 +118,7 @@
                 "generic": false
             },
             {
-                "nid": "Garcia",
+                "nid": "Naoki",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -622,7 +622,7 @@
                     "Lilith",
                     "Vargax",
                     "Neimi",
-                    "Garcia"
+                    "Naoki"
                 ],
                 "positions": {}
             }

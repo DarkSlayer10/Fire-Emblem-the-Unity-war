@@ -3,5 +3,10 @@
         "nid": "Emma",
         "name": "Emma's Group",
         "leader": "Emma"
+    },
+    {
+        "nid": "Naoki",
+        "name": "Naoki's Group",
+        "leader": "Emma"
     }
 ]

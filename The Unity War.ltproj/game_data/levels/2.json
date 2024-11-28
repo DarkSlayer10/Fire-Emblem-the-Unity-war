@@ -118,7 +118,7 @@
                 "generic": false
             },
             {
-                "nid": "Garcia",
+                "nid": "Naoki",
                 "team": "other",
                 "ai": "Defend",
                 "roam_ai": null,
@@ -486,7 +486,7 @@
                 "nid": "RossGarcia",
                 "units": [
                     "Vargax",
-                    "Garcia"
+                    "Naoki"
                 ],
                 "positions": {}
             },
