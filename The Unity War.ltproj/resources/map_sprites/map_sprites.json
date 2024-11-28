@@ -23,7 +23,6 @@
     "PegasusKnight",
     "Falcoknight",
     "Journeyman",
-    "Fighter",
     "Warrior",
     "Pirate",
     "Brigand",
@@ -73,5 +72,12 @@
     "Hanshi",
     "Nomad",
     "MercenaryF",
-    "Khan"
+    "Khan",
+    "Girl",
+    "Boy",
+    "Woman",
+    "ArcherF",
+    "MageF",
+    "Fighter",
+    "Sister"
 ]

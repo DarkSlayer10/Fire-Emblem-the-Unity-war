@@ -131,7 +131,7 @@
                 "generic": false
             },
             {
-                "nid": "Ismaire",
+                "nid": "Chidori",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -459,7 +459,7 @@
                 "nid": "Placeholder",
                 "variant": null,
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Civilian",
                 "faction": "Soldier",
                 "starting_items": [],
                 "starting_skills": [],
@@ -621,7 +621,7 @@
                     "Maya",
                     "Lilith",
                     "Vargax",
-                    "Ismaire",
+                    "Chidori",
                     "Naoki"
                 ],
                 "positions": {}

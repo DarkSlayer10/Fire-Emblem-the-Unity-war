@@ -98,20 +98,30 @@
                 0,
                 251
             ],
-            "Light": [
-                true,
-                1,
-                251
-            ],
             "Anima": [
                 false,
                 0,
+                251
+            ],
+            "Light": [
+                true,
+                1,
                 251
             ],
             "Dark": [
                 false,
                 0,
                 251
+            ],
+            "Stone": [
+                false,
+                0,
+                null
+            ],
+            "Monster": [
+                false,
+                0,
+                null
             ],
             "Default": [
                 false,

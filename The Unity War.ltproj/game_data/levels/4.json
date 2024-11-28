@@ -141,7 +141,7 @@
                 "generic": false
             },
             {
-                "nid": "Ismaire",
+                "nid": "Chidori",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -979,7 +979,7 @@
                     "Lilith",
                     "Vargax",
                     "Josh",
-                    "Ismaire"
+                    "Chidori"
                 ],
                 "positions": {}
             },

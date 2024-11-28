@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Citizen",
-        "name": "Citizen",
-        "desc": "An ordinary commoner.",
+        "nid": "Civilian_3",
+        "name": "Civilian",
+        "desc": "An innocent peasant lacking any\ncombat skills at all.",
         "tier": 0,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -132,7 +132,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Citizen",
+        "map_sprite_nid": "Woman",
         "combat_anim_nid": null,
         "fields": []
     }

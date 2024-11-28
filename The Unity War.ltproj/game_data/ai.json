@@ -551,7 +551,7 @@
                 "target": "Enemy",
                 "target_spec": [
                     "ID",
-                    "Natasha"
+                    "Lily"
                 ],
                 "view_range": -2,
                 "invert_targeting": true,

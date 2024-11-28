@@ -1,29 +1,5 @@
 [
     {
-        "nid": "Artur",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Lute",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Joshua",
         "blinking_offset": [
             24,
@@ -636,18 +612,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Ismaire",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Josh",
         "blinking_offset": [
             24,
@@ -680,6 +644,30 @@
         "smiling_offset": [
             24,
             32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lily",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Chidori",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
         ],
         "info_offset": 0
     }

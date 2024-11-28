@@ -183,5 +183,13 @@
     {
         "nid": "KhanCardd",
         "subicon_dict": {}
+    },
+    {
+        "nid": "ArcherCard",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "MageCard",
+        "subicon_dict": {}
     }
 ]

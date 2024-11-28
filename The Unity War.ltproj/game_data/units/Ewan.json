@@ -5,7 +5,7 @@
         "desc": "A sage-in-training from Jehanna. He reveres his teacher, Saleh.",
         "variant": null,
         "level": 1,
-        "klass": "Citizen",
+        "klass": "Civilian",
         "tags": [],
         "bases": {
             "HP": 15,
