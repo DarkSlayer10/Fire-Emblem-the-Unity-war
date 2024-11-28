@@ -131,7 +131,7 @@
                 "generic": false
             },
             {
-                "nid": "Neimi",
+                "nid": "Ismaire",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -621,7 +621,7 @@
                     "Maya",
                     "Lilith",
                     "Vargax",
-                    "Neimi",
+                    "Ismaire",
                     "Naoki"
                 ],
                 "positions": {}
