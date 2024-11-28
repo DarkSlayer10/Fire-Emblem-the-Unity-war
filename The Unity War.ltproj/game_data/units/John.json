@@ -1,9 +1,9 @@
 [
     {
-        "nid": "Lute",
-        "name": "Lute",
+        "nid": "John",
+        "name": "John",
         "desc": "Naoki's dad's retainer, sent to\nkeep her safe. Hates bandits.",
-        "variant": "Female",
+        "variant": "",
         "level": 1,
         "klass": "Khan",
         "tags": [],

@@ -83,5 +83,10 @@
         "Is a Transparent Enemy our Ally",
         true,
         false
+    ],
+    [
+        "Reunion",
+        false,
+        false
     ]
 ]

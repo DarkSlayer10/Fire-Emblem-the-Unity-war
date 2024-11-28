@@ -56,7 +56,7 @@
             "speak;Lilith;\u2028Yes, my queen!",
             "expression;Lilith;Smile",
             "multi_remove_portrait;Maya;Isabelle",
-            "speak;Lilith;\u2028My first mission with the prince{tgm}...{tgm}{w}\u2028Let's see how this goes, hehe{tgm}...",
+            "speak;Lilith;\u2028My first mission with the prince...{w}\u2028Let's see how this goes, hehe...;;;thought_bubble;no_talk",
             "remove_portrait;Lilith",
             "transition;close",
             "change_background",
@@ -84,7 +84,9 @@
             "remove_unit;Vargax;warp",
             "remove_unit;Isabelle;warp",
             "wait;1000",
+            "music_clear",
             "transition;close",
+            "skip_save;t",
             "win_game"
         ],
         "nid": "Z1 0 - Intro"
