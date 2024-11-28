@@ -1,0 +1,144 @@
+[
+    {
+        "nid": "Mercenary_F",
+        "name": "Mercenary",
+        "desc": "Well-balanced professional soldiers-\nfor-hire. Equip: Axes or swords.",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "Hero",
+            "Ranger"
+        ],
+        "tags": [
+            "Sword"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 19,
+            "STR": 6,
+            "MAG": 0,
+            "SKL": 6,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 3,
+            "RES": 1,
+            "CON": 8,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 83,
+            "STR": 50,
+            "MAG": 30,
+            "SKL": 47,
+            "SPD": 35,
+            "LCK": 34,
+            "DEF": 35,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "RES": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                33,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                true,
+                33,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Stone": [
+                false,
+                0,
+                null
+            ],
+            "Monster": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "MercCard",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "MercenaryF",
+        "combat_anim_nid": "MercenaryF",
+        "fields": []
+    }
+]

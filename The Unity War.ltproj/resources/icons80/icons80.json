@@ -166,5 +166,9 @@
     {
         "nid": "Sorcerer",
         "subicon_dict": {}
+    },
+    {
+        "nid": "MercCard",
+        "subicon_dict": {}
     }
 ]

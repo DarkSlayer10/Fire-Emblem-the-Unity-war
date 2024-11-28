@@ -2,7 +2,7 @@
     {
         "nid": "Mercenary",
         "name": "Mercenary",
-        "desc": "Professional soldiers for hire. Well-balanced, with superior abilities all around.",
+        "desc": "Well-balanced professional soldiers-\nfor-hire. Equip: Axes or swords.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -15,26 +15,26 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 18,
-            "STR": 4,
-            "MAG": 2,
-            "SKL": 8,
-            "SPD": 8,
+            "HP": 19,
+            "STR": 6,
+            "MAG": 0,
+            "SKL": 6,
+            "SPD": 5,
             "LCK": 0,
-            "DEF": 4,
-            "RES": 0,
-            "CON": 9,
+            "DEF": 3,
+            "RES": 1,
+            "CON": 8,
             "MOV": 5
         },
         "growths": {
-            "HP": 80,
-            "STR": 40,
-            "MAG": 20,
-            "SKL": 40,
-            "SPD": 32,
-            "LCK": 30,
-            "DEF": 18,
-            "RES": 30,
+            "HP": 83,
+            "STR": 50,
+            "MAG": 30,
+            "SKL": 47,
+            "SPD": 35,
+            "LCK": 34,
+            "DEF": 35,
+            "RES": 25,
             "CON": 0,
             "MOV": 0
         },
@@ -78,7 +78,7 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                31,
+                33,
                 251
             ],
             "Lance": [
@@ -87,8 +87,8 @@
                 251
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                33,
                 251
             ],
             "Bow": [
@@ -101,12 +101,12 @@
                 0,
                 251
             ],
-            "Light": [
+            "Anima": [
                 false,
                 0,
                 251
             ],
-            "Anima": [
+            "Light": [
                 false,
                 0,
                 251
@@ -115,6 +115,16 @@
                 false,
                 0,
                 251
+            ],
+            "Stone": [
+                false,
+                0,
+                null
+            ],
+            "Monster": [
+                false,
+                0,
+                null
             ],
             "Default": [
                 false,
