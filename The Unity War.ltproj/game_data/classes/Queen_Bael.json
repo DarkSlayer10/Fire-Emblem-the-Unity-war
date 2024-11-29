@@ -1,0 +1,147 @@
+[
+    {
+        "nid": "Queen_Bael",
+        "name": "Queen Bael",
+        "desc": "A bael with humanoid aspects.\nAttacks with talons and magic.",
+        "tier": 2,
+        "movement_group": "Regular",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Monster",
+            "Female"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 36,
+            "STR": 10,
+            "MAG": 10,
+            "SKL": 5,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 9,
+            "RES": 9,
+            "CON": 15,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 45,
+            "MAG": 45,
+            "SKL": 25,
+            "SPD": 20,
+            "LCK": 10,
+            "DEF": 21,
+            "RES": 17,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "max_stats": {
+            "HP": 80,
+            "STR": 28,
+            "MAG": 28,
+            "SKL": 28,
+            "SPD": 26,
+            "LCK": 30,
+            "DEF": 26,
+            "RES": 22,
+            "CON": 25,
+            "MOV": 15,
+            "LEAD": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                120,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                120,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                true,
+                80,
+                251
+            ],
+            "Stone": [
+                false,
+                0,
+                null
+            ],
+            "Monster": [
+                true,
+                80,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "QueenBael",
+        "combat_anim_nid": "QueenBael",
+        "fields": []
+    }
+]

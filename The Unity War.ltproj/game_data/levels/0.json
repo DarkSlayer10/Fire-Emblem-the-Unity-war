@@ -481,6 +481,161 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 2,
+                "klass": "Sword_Bonewalker",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Iron_Dagger",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 3,
+                "klass": "Mauthe_Doog",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Fiery_Fang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 2,
+                "klass": "Bow_Bonewalker",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Iron_Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 3,
+                "klass": "Sword_Bonewalker",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 2,
+                "klass": "Sword_Bonewalker",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ],
+                    [
+                        "Iron_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 3,
+                "klass": "Sword_Bonewalker",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 1,
+                "klass": "Queen_Bael",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Ghost_Wail",
+                        false
+                    ],
+                    [
+                        "Rotten_Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [],
@@ -507,6 +662,77 @@
                     "117"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "Turn4Move",
+                "units": [
+                    "119",
+                    "123",
+                    "121"
+                ],
+                "positions": {
+                    "119": [
+                        5,
+                        8
+                    ],
+                    "123": [
+                        6,
+                        9
+                    ],
+                    "121": [
+                        5,
+                        10
+                    ]
+                }
+            },
+            {
+                "nid": "Turn4",
+                "units": [
+                    "119",
+                    "121",
+                    "123"
+                ],
+                "positions": {
+                    "119": [
+                        5,
+                        9
+                    ],
+                    "121": [
+                        5,
+                        9
+                    ],
+                    "123": [
+                        5,
+                        9
+                    ]
+                }
+            },
+            {
+                "nid": "Turn4B",
+                "units": [
+                    "120",
+                    "122",
+                    "124",
+                    "125"
+                ],
+                "positions": {
+                    "120": [
+                        11,
+                        15
+                    ],
+                    "122": [
+                        9,
+                        3
+                    ],
+                    "124": [
+                        14,
+                        12
+                    ],
+                    "125": [
+                        0,
+                        0
+                    ]
+                }
             }
         ],
         "ai_groups": [

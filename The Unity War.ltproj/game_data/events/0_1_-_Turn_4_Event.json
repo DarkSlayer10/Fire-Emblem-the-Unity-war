@@ -1,0 +1,17 @@
+[
+    {
+        "name": "1 - Turn 4 Event",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_group;Turn4;Turn4;immediate;stack",
+            "move_group;Turn4Move;Turn4Move;normal;closest",
+            "add_group;Turn4B;Turn4B"
+        ],
+        "nid": "0 1 - Turn 4 Event"
+    }
+]

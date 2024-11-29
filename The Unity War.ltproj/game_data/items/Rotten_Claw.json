@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Rotten_Claw",
+        "name": "Rotten Claw",
+        "desc": "A sharpened, decayed claw.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Monster"
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ]
+        ]
+    }
+]

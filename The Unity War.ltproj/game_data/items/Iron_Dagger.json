@@ -1,0 +1,57 @@
+[
+    {
+        "nid": "Iron_Dagger",
+        "name": "Iron Dagger",
+        "desc": "A dagger made of iron.",
+        "icon_nid": "Batima_Daggers",
+        "icon_index": [
+            3,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Sword"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "value",
+                400
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                6
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ]
+        ]
+    }
+]

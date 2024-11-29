@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Platonic_Monster",
+        "name": "Platonic Monster",
+        "desc": "",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            12
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "weapon_type",
+                "Monster"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "level_exp",
+                null
+            ]
+        ]
+    }
+]

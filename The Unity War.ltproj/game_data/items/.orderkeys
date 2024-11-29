@@ -1,6 +1,7 @@
 [
     "Slim_Sword",
     "Iron_Sword",
+    "Iron_Dagger",
     "Steel_Sword",
     "Silver_Sword",
     "Iron_Blade",
@@ -104,6 +105,8 @@
     "Gleipnir",
     "Naglfar",
     "Evil_Eye",
+    "Fiery_Fang",
+    "Rotten_Claw",
     "Concoction",
     "Elixir",
     "Pure_Water",
@@ -144,5 +147,6 @@
     "Platonic_Staff",
     "Platonic_Anima",
     "Platonic_Light",
-    "Platonic_Dark"
+    "Platonic_Dark",
+    "Platonic_Monster"
 ]
