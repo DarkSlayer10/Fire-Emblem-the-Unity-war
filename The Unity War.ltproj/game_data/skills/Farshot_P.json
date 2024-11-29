@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Farshot_P",
+        "name": "<red>Farshot</>",
+        "desc": "",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            4,
+            24
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "display_skill_icon_in_combat",
+                null
+            ],
+            [
+                "hit",
+                -10
+            ],
+            [
+                "damage",
+                2
+            ],
+            [
+                "modify_maximum_range",
+                2
+            ]
+        ]
+    }
+]

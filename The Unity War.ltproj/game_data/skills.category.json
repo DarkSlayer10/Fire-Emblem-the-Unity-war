@@ -2,8 +2,11 @@
     "Avoid10": "Terrain",
     "Avoid5": "Terrain",
     "Canto": "Class and General Skills",
+    "Def_Down": "Statuses",
     "Faithful": "Personal Skills",
     "Faithful_A": "Personal Skills",
+    "Farshot": "Personal Skills",
+    "Farshot_P": "Personal Skills",
     "Flying": "Class and General Skills",
     "Forest": "Terrain",
     "Fort": "Terrain",
@@ -14,6 +17,5 @@
     "Steal": "Class and General Skills",
     "Supply": "Class and General Skills",
     "Throne": "Terrain",
-    "Wide_Open": "Personal Skills",
-    "Wide_Open_S": "Personal Skills"
+    "Wide_Open": "Personal Skills"
 }

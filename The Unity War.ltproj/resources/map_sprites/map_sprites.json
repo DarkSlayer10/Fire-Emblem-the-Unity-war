@@ -61,14 +61,11 @@
     "Arch_Mogall",
     "Invisible",
     "Marksman",
-    "Apprentice",
     "Slayer",
-    "Necromancer",
     "WindRunner",
     "BaelQueen",
     "Sorcerer",
     "Beastling",
-    "Hanshi",
     "Nomad",
     "MercenaryF",
     "Khan",
@@ -83,5 +80,8 @@
     "Recruit",
     "HeroF",
     "Cyclops",
-    "Watcher"
+    "Watcher",
+    "Apprentice",
+    "Hanshi",
+    "Necromancer"
 ]

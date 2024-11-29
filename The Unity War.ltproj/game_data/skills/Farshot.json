@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Farshot",
+        "name": "<red>Farshot</>",
+        "desc": "Attack with +2 maximum range\nand damage dealt, but -10 Hit.\nBow only. Consumes 3 durability.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            4,
+            24
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_art",
+                "Farshot_P"
+            ],
+            [
+                "drain_charge",
+                2
+            ],
+            [
+                "allowed_weapons",
+                "item_system.weapon_type(unit, item) == 'Bow'"
+            ]
+        ]
+    }
+]

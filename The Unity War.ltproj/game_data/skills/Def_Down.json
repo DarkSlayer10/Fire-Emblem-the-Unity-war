@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Wide_Open_S",
-        "name": "Wide Open",
+        "nid": "Def_Down",
+        "name": "Def Down",
         "desc": "Def is debuffed by 4.\n(Recovers 1/turn.)",
-        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_nid": "skill_icons",
         "icon_index": [
-            4,
-            29
+            11,
+            6
         ],
         "components": [
             [

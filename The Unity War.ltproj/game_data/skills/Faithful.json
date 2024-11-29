@@ -3,10 +3,10 @@
         "nid": "Faithful",
         "name": "Faithful",
         "desc": "Grants +10 Hit/Avoid to all\nallies within three tiles.",
-        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_nid": "ZessDynamiteSkillsys",
         "icon_index": [
             4,
-            42
+            81
         ],
         "components": [
             [

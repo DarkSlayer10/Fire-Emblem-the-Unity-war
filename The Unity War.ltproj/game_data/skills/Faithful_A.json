@@ -3,10 +3,10 @@
         "nid": "Faithful_A",
         "name": "Given Faith",
         "desc": "+10 Hit/Avoid.",
-        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_nid": "ZessDynamiteSkillsys",
         "icon_index": [
             4,
-            42
+            81
         ],
         "components": [
             [
