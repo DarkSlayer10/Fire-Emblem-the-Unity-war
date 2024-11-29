@@ -2,7 +2,7 @@
     {
         "nid": "Iron_Lance",
         "name": "Iron Lance",
-        "desc": "",
+        "desc": "A lance made of iron.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -35,7 +35,7 @@
             ],
             [
                 "hit",
-                80
+                90
             ],
             [
                 "crit",

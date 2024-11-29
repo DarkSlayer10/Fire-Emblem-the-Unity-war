@@ -2,7 +2,7 @@
     {
         "nid": "Hand_Axe",
         "name": "Hand Axe",
-        "desc": "",
+        "desc": "Doubles as ranged attack.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -27,11 +27,11 @@
             ],
             [
                 "damage",
-                7
+                8
             ],
             [
                 "hit",
-                60
+                65
             ],
             [
                 "crit",
@@ -43,7 +43,7 @@
             ],
             [
                 "uses",
-                20
+                40
             ],
             [
                 "uses_options",
@@ -66,7 +66,7 @@
             ],
             [
                 "value",
-                300
+                400
             ]
         ]
     }

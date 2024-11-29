@@ -2,7 +2,7 @@
     {
         "nid": "Steel_Axe",
         "name": "Steel Axe",
-        "desc": "",
+        "desc": "An axe made of steel.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                360
+                600
             ],
             [
                 "target_enemy",
@@ -31,11 +31,11 @@
             ],
             [
                 "damage",
-                11
+                12
             ],
             [
                 "hit",
-                65
+                70
             ],
             [
                 "crit",
@@ -43,7 +43,7 @@
             ],
             [
                 "weight",
-                15
+                14
             ],
             [
                 "uses",

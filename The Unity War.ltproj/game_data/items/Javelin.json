@@ -2,7 +2,7 @@
     {
         "nid": "Javelin",
         "name": "Javelin",
-        "desc": "",
+        "desc": "Doubles as ranged attack.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -35,7 +35,7 @@
             ],
             [
                 "hit",
-                65
+                75
             ],
             [
                 "crit",
@@ -43,7 +43,7 @@
             ],
             [
                 "weight",
-                11
+                8
             ],
             [
                 "level_exp",

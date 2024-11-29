@@ -103,5 +103,15 @@
         "Gaur Plain",
         true,
         false
+    ],
+    [
+        "Battle",
+        true,
+        false
+    ],
+    [
+        "Enemy Battle",
+        true,
+        false
     ]
 ]

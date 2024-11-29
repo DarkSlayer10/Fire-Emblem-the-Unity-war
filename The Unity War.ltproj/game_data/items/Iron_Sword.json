@@ -10,32 +10,24 @@
         ],
         "components": [
             [
-                "weapon",
-                null
+                "item_prefab",
+                "Platonic_Sword"
+            ],
+            [
+                "weapon_rank",
+                "E"
             ],
             [
                 "value",
-                460
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                450
             ],
             [
                 "damage",
-                5
+                6
             ],
             [
                 "hit",
-                90
+                100
             ],
             [
                 "crit",
@@ -47,7 +39,7 @@
             ],
             [
                 "uses",
-                46
+                45
             ],
             [
                 "uses_options",
@@ -55,18 +47,6 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "E"
             ]
         ]
     }

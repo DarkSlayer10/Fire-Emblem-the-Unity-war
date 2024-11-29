@@ -2,7 +2,7 @@
     {
         "nid": "Steel_Blade",
         "name": "Steel Blade",
-        "desc": "",
+        "desc": "A heavy blade made of steel.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                11
+                14
             ],
             [
                 "hit",
-                65
+                70
             ],
             [
                 "weapon_type",
@@ -39,7 +39,7 @@
             ],
             [
                 "uses",
-                25
+                30
             ],
             [
                 "uses_options",
@@ -62,7 +62,7 @@
             ],
             [
                 "value",
-                1000
+                1500
             ],
             [
                 "min_range",

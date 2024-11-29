@@ -43,7 +43,24 @@
             "SKL": 0,
             "MAG": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Steel_Blade",
+                false
+            ],
+            [
+                "Silver_Axe",
+                false
+            ],
+            [
+                "Hand_Axe",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
