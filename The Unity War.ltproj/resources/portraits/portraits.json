@@ -156,18 +156,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Marisa",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Saleh",
         "blinking_offset": [
             24,

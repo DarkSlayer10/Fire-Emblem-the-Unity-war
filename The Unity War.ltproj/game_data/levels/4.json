@@ -708,19 +708,6 @@
                 "generic": true
             },
             {
-                "nid": "L'arachel",
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    13,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Dozla",
                 "team": "other",
                 "ai": "None",
@@ -1000,14 +987,9 @@
             {
                 "nid": "LGang",
                 "units": [
-                    "L'arachel",
                     "Dozla"
                 ],
                 "positions": {
-                    "L'arachel": [
-                        10,
-                        5
-                    ],
                     "Dozla": [
                         11,
                         4
