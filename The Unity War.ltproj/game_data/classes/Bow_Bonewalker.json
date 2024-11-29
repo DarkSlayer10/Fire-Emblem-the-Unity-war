@@ -2,7 +2,7 @@
     {
         "nid": "Bow_Bonewalker",
         "name": "Bonewalker",
-        "desc": "A summoned phantom.",
+        "desc": "Dead warriors given will by dark magic.\nThey wield a variety of weapons.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -15,8 +15,8 @@
         "max_level": 20,
         "bases": {
             "HP": 18,
-            "STR": 4,
-            "MAG": 2,
+            "STR": 6,
+            "MAG": 0,
             "SKL": 3,
             "SPD": 2,
             "LCK": 0,
@@ -27,8 +27,8 @@
         },
         "growths": {
             "HP": 70,
-            "STR": 30,
-            "MAG": 15,
+            "STR": 50,
+            "MAG": 0,
             "SKL": 40,
             "SPD": 32,
             "LCK": 10,
@@ -100,12 +100,12 @@
                 0,
                 251
             ],
-            "Light": [
+            "Anima": [
                 false,
                 0,
                 251
             ],
-            "Anima": [
+            "Light": [
                 false,
                 0,
                 251
@@ -114,6 +114,16 @@
                 false,
                 0,
                 251
+            ],
+            "Stone": [
+                false,
+                0,
+                null
+            ],
+            "Monster": [
+                false,
+                0,
+                null
             ],
             "Default": [
                 false,
@@ -127,7 +137,7 @@
             0
         ],
         "map_sprite_nid": "Bow_Bonewalker",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Bonewalker",
         "fields": []
     }
 ]

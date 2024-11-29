@@ -37,6 +37,7 @@
             "transition;close",
             "change_background;Forest",
             "transition;open",
+            "music;Gaur Plain",
             "multi_add_portrait;Emma;Right;Emily;Left",
             "speak;Emma;\u2028Whre are you taking me, Emily?",
             "speak;Emily;\u2028This is an old path on the hunting trail!{w}\u2028I think I'm the only one who still uses it\u2028and I wanted to show you something.",
@@ -62,8 +63,12 @@
             "speak;Emma;\u2028Heh, well I'd love to, but do you think we\u2028can leave the village behind for a day?",
             "speak;Emily;\u2028I know our mother will try to stop us,{w}\u2028but if it means we can get out of that\u2028suffocating little village for a day,{w}\u2028get out here, and see the world with\u2028you, I don't care about the consequences.",
             "add_portrait;Man1;OffscreenLeft",
+            "music_clear;400",
             "speak;Man1;Heeeelp!!!! Aaaaahhhhh!!!!",
-            "multi_remove_portrait;Man1;Emma;Emily"
+            "multi_remove_portrait;Man1;Emma;Emily",
+            "transition;close",
+            "change_background",
+            "transition;open"
         ],
         "nid": "0 0 - Intro"
     }

@@ -91,7 +91,7 @@
             "speak;SoldierRed;\u2028My Queen!{w}\u2028The king of Wrisiam\u2028has sent a gift.",
             "speak;Chidori;\u2028A gift?{w} From Wrisiam?{w}\u2028This is a first{tgm}...",
             "multi_remove_portrait;SoldierRed;Chidori",
-            "music_clear",
+            "music_clear;400",
             "transition;close",
             "skip_save;t",
             "win_game"

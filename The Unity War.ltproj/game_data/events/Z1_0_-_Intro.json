@@ -86,7 +86,7 @@
             "remove_unit;Vargax;warp",
             "remove_unit;Isabelle;warp",
             "wait;1000",
-            "music_clear",
+            "music_clear;400",
             "transition;close",
             "skip_save;t",
             "win_game"

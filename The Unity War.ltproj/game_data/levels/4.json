@@ -158,7 +158,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Revenant",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",
@@ -182,7 +182,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Revenant",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",
@@ -206,7 +206,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Revenant",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",
@@ -230,7 +230,7 @@
                 "variant": null,
                 "level": 2,
                 "klass": "Revenant",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",
@@ -254,7 +254,7 @@
                 "variant": null,
                 "level": 2,
                 "klass": "Revenant",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",
@@ -278,7 +278,7 @@
                 "variant": null,
                 "level": 2,
                 "klass": "Revenant",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",
@@ -302,7 +302,7 @@
                 "variant": null,
                 "level": 3,
                 "klass": "Revenant",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",
@@ -326,7 +326,7 @@
                 "variant": null,
                 "level": 3,
                 "klass": "Revenant",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",
@@ -350,7 +350,7 @@
                 "variant": null,
                 "level": 2,
                 "klass": "Revenant",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",
@@ -375,7 +375,7 @@
                 "variant": null,
                 "level": 2,
                 "klass": "Revenant",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",
@@ -396,7 +396,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Revenant",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",
@@ -417,7 +417,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Revenant",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",
@@ -438,7 +438,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Entombed",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",
@@ -462,7 +462,7 @@
                 "variant": null,
                 "level": 2,
                 "klass": "Sword_Bonewalker",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Iron_Sword",
@@ -486,7 +486,7 @@
                 "variant": null,
                 "level": 3,
                 "klass": "Sword_Bonewalker",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Iron_Sword",
@@ -510,7 +510,7 @@
                 "variant": null,
                 "level": 3,
                 "klass": "Sword_Bonewalker",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Iron_Sword",
@@ -534,7 +534,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Sword_Bonewalker",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Iron_Lance",
@@ -555,7 +555,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Sword_Bonewalker",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Iron_Lance",
@@ -576,7 +576,7 @@
                 "variant": null,
                 "level": 2,
                 "klass": "Sword_Bonewalker",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Iron_Lance",
@@ -597,7 +597,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Mogall",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",
@@ -621,7 +621,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Mogall",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",
@@ -645,7 +645,7 @@
                 "variant": null,
                 "level": 2,
                 "klass": "Mogall",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",
@@ -669,7 +669,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Mogall",
-                "faction": "Monster",
+                "faction": "Demon",
                 "starting_items": [
                     [
                         "Slim_Sword",

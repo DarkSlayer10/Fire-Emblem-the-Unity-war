@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "Evil_Eye",
+        "name": "Evil Eye",
+        "desc": "",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Dark"
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    72,
+                    0,
+                    65
+                ]
+            ]
+        ]
+    }
+]

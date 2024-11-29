@@ -114,6 +114,16 @@
                 181,
                 251
             ],
+            "Stone": [
+                false,
+                0,
+                null
+            ],
+            "Monster": [
+                false,
+                0,
+                null
+            ],
             "Default": [
                 false,
                 0,

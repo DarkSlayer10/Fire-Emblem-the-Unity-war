@@ -98,5 +98,10 @@
         "Tension",
         false,
         false
+    ],
+    [
+        "Gaur Plain",
+        true,
+        false
     ]
 ]

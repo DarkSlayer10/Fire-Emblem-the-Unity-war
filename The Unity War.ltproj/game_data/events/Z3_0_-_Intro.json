@@ -93,7 +93,7 @@
             "move_unit;Emma;4,0",
             "remove_unit;Emma",
             "remove_unit;Emily",
-            "music_clear",
+            "music_clear;400",
             "center_cursor;9,3",
             "flicker_cursor;Sonia",
             "multi_add_portrait;SoldierBlue;Left;Sonia;Right",
@@ -112,6 +112,7 @@
             "multi_remove_portrait;Caroline;Sonia",
             "remove_unit;Caroline;fade;north",
             "transition;close",
+            "music_clear;400",
             "skip_save;t",
             "win_game"
         ],

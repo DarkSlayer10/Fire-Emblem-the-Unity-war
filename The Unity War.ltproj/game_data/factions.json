@@ -40,9 +40,9 @@
         ]
     },
     {
-        "nid": "Monster",
-        "name": "Monster",
-        "desc": "A grotesque creature created by magic and born in darkness.",
+        "nid": "Demon",
+        "name": "Demon",
+        "desc": "Wrisiam soldiers following\nthe kingdom's orders.",
         "icon_nid": "MonsterEmblem",
         "icon_index": [
             0,
