@@ -191,5 +191,9 @@
     {
         "nid": "MageCard",
         "subicon_dict": {}
+    },
+    {
+        "nid": "HeroFCard",
+        "subicon_dict": {}
     }
 ]

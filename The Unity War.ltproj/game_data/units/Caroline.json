@@ -1,0 +1,101 @@
+[
+    {
+        "nid": "Caroline",
+        "name": "Caroline",
+        "desc": "Emma's and Emily's adoptive mother.\nOverprotective of her children.",
+        "variant": null,
+        "level": 1,
+        "klass": "Hero_F",
+        "tags": [],
+        "bases": {
+            "HP": 10,
+            "STR": 5,
+            "MAG": 3,
+            "SKL": 6,
+            "SPD": 5,
+            "LCK": 16,
+            "DEF": 6,
+            "RES": 5,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 35,
+            "MAG": 5,
+            "SKL": 30,
+            "SPD": 40,
+            "LCK": 40,
+            "DEF": 30,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "STR": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "RES": 0,
+            "MOV": 0,
+            "SKL": 0,
+            "MAG": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                181,
+                251
+            ],
+            "Lance": [
+                true,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                121,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Caroline",
+        "affinity": "Anima",
+        "fields": []
+    }
+]
