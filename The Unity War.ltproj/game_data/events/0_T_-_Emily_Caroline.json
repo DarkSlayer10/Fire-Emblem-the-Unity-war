@@ -1,0 +1,27 @@
+[
+    {
+        "name": "T - Emily Caroline",
+        "trigger": "on_talk",
+        "level_nid": "0",
+        "condition": "check_pair('Emily', 'Caroline')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Emily;Left;Caroline;Right",
+            "bop_portrait;Caroline",
+            "speak;Caroline;Emily!",
+            "speak;Emily;\u2028Mom?!?!{c:wait;300}\u2028What're you doing out here?!",
+            "speak;Caroline;\u2028Looking for YOU and your sister!{c:wait;300}\u2028What're YOU doing out here?!",
+            "speak;Emily;\u2028Er- Is that really-",
+            "speak;Caroline;\u2028Emily.",
+            "speak;Emily;\u2028I just wanted to spend some sister time\u2028with Emma and go to a place I like{tgm}...{tgm}{w}\u2028Is that so bad?",
+            "speak;Caroline;\u2028It is when you're unsupervised!{w}\u2028I'm going to give it to SOnia for\u2028letting you go when we get back.{w}\u2028Don't think you're not in trouble\u2028either!",
+            "speak;Emily;\u2028How fun{tgm}...{tgm}",
+            "multi_remove_portrait;Emily;Caroline",
+            "remove_talk;Emily;Caroline",
+            "remove_talk;Caroline;Emily"
+        ],
+        "nid": "0 T - Emily Caroline"
+    }
+]

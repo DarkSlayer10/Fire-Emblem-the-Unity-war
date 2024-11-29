@@ -69,7 +69,8 @@
                     ]
                 ],
                 "starting_skills": [
-                    "Distant_Counter"
+                    "Distant_Counter",
+                    "Elite"
                 ],
                 "team": "enemy",
                 "ai": "Guard",

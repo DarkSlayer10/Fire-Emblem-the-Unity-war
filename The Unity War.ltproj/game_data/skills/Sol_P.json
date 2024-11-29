@@ -16,6 +16,10 @@
             [
                 "lifelink",
                 1.0
+            ],
+            [
+                "attack_speed",
+                -999
             ]
         ]
     }

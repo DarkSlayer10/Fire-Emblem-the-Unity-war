@@ -14,7 +14,10 @@
             "speak;Caroline;\u2028Emma!{w}\u2028Thank the stars\u2028I found you both!",
             "speak;Emma;\u2028Mom, we need your help!\u2028There's monsters and-",
             "speak;Caroline;\u2028I know, honey.{w}\u2028Come on, let's kill these\u2028monsters and head home.{w}\u2028Sonia and the others are\u2028fending them off right now.",
-            "speak;Emma;\u2028They're fighting monsters too?!{w}\u2028Then we have to hurry!"
+            "speak;Emma;\u2028They're fighting monsters too?!{w}\u2028Then we have to hurry!",
+            "multi_remove_portrait;Emma;Caroline",
+            "remove_talk;Emma;Caroline",
+            "remove_talk;Caroline;Emma"
         ],
         "nid": "0 T - Emma Caroline"
     }

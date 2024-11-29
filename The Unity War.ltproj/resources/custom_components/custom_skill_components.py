@@ -30,20 +30,22 @@ class CostUses(SkillComponent):
 
     expose = ComponentType.Int
     value = 2
-
+    
     ignore_conditional = True
 
     def condition(self, unit, item):
-        return item.data.get('uses', 999) > self.value
+        return item.data.get('uses', 999) >= self.value
             
     def on_hit(self, actions, playback, unit, item, target, item2, target_pos, mode, attack_info):
-        actions.append(action.SetObjData(item, 'uses', item.data['uses'] - self.value + 1))
+        if self.skill.data.get('active'):
+            actions.append(action.SetObjData(item, 'uses', item.data['uses'] - self.value + 1))
 
     def on_miss(self, actions, playback, unit, item, target, item2, target_pos, mode, attack_info):
-        if item.uses_options.lose_uses_on_miss():
-            actions.append(action.SetObjData(item, 'uses', item.data['uses'] - self.value + 1))
-        else:
-            actions.append(action.SetObjData(item, 'uses', item.data['uses'] - self.value))
+        if self.skill.data.get('active'):
+            if item.uses_options.lose_uses_on_miss():
+                actions.append(action.SetObjData(item, 'uses', item.data['uses'] - self.value + 1))
+            else:
+                actions.append(action.SetObjData(item, 'uses', item.data['uses'] - self.value))
 
 class StrikeTrigger(SkillComponent):
     nid = 'strike_trigger'
@@ -59,3 +61,14 @@ class StrikeTrigger(SkillComponent):
         if _did_something:
             action.do(action.TriggerCharge(unit, self.skill))
         _did_something = False
+        
+class EventBeforeCombat(SkillComponent):
+    nid = 'event_before_combat'
+    desc = 'Calls event before any combat'
+    tag = SkillTags.ADVANCED
+
+    expose = ComponentType.Event
+    value = ''
+
+    def start_combat(self, playback, unit: UnitObject, item, target: UnitObject, item2, mode):
+        game.events.trigger_specific_event(self.value, unit, target, unit.position, {'item': item, 'item2': item2, 'mode': mode})

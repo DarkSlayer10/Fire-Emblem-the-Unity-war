@@ -1,0 +1,27 @@
+[
+    {
+        "name": "W - Escape",
+        "trigger": "Escape",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;{unit};Right",
+            "if;unit.nid == 'Emily'",
+            "    speak;Emily;\u2028Demons{tgm}...{tgm}{w}\u2028What's going on{tgm}...?{tgm}",
+            "elif;unit.nid == 'Emma'",
+            "    speak;Emma;\u2028We gotta get to town, fast!",
+            "elif;unit.nid == 'Caroline'",
+            "    speak;Caroline;\u2028Stay safe, you two!{w}\u2028Don't let your guards\u2028down as we move!",
+            "end",
+            "remove_portrait;{unit}",
+            "remove_unit;{unit}",
+            "if;len(game.get_player_units()) == 0",
+            "    win_game",
+            "end"
+        ],
+        "nid": "0 W - Escape"
+    }
+]

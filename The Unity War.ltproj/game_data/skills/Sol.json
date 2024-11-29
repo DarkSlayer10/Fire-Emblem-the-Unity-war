@@ -28,6 +28,10 @@
             [
                 "allowed_weapons",
                 "item_system.damage(unit, item) is not None"
+            ],
+            [
+                "event_before_combat",
+                "Global A - Sol Proc"
             ]
         ]
     }
