@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Faithful",
-        "name": "Faithful",
-        "desc": "Grants +10 Hit/Avoid to all\nallies within three tiles.",
-        "icon_nid": "ZessDynamiteSkillsys",
+        "nid": "Leadership",
+        "name": "Leadership",
+        "desc": "Grants allies within 3 tiles +1 damage/\n-1 damage taken per leadership star.",
+        "icon_nid": "skill_icons",
         "icon_index": [
-            4,
-            81
+            6,
+            50
         ],
         "components": [
             [
@@ -19,7 +19,7 @@
             ],
             [
                 "aura",
-                "Faithful_A"
+                "Leadership_A"
             ],
             [
                 "aura_range",

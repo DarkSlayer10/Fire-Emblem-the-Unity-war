@@ -386,5 +386,9 @@
     {
         "nid": "Escape_desc",
         "text": "Flee from the battle."
+    },
+    {
+        "nid": "_attribution",
+        "text": "five guys burgers and fries"
     }
 ]

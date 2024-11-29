@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Sister_of_Flames",
+        "name": "Sister of Flames",
+        "desc": "+2 damage/AS when no allied units\nwithin 3 tiles (except Emma).",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            13,
+            42
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "damage",
+                2
+            ],
+            [
+                "attack_speed",
+                2
+            ],
+            [
+                "condition",
+                "len([x for x in get_allies_within_distance(unit.position, dist=3) if x.nid not in ['Emma', 'Emily']]) == 0"
+            ]
+        ]
+    }
+]

@@ -537,7 +537,10 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Elite",
+                    "Snipe"
+                ],
                 "team": "enemy",
                 "ai": "Pursue",
                 "roam_ai": null,
@@ -917,6 +920,11 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

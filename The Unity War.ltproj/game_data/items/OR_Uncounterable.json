@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "OR_Uncounterable",
+        "name": "OR Uncounterable",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "cannot_be_countered",
+                null
+            ]
+        ]
+    }
+]

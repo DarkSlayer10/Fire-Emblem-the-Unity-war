@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Leadership_A",
+        "name": "Leadership",
+        "desc": "+1 damage dealt/-1 damage taken\nper leadership star on Caroline.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            6,
+            50
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "u('Caroline').stats.get('LEAD')"
+            ],
+            [
+                "dynamic_resist",
+                "u('Caroline').stats.get('LEAD')"
+            ]
+        ]
+    }
+]

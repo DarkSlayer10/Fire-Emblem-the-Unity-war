@@ -9,15 +9,6 @@ from app.engine.game_state import game
 from app.engine.objects.unit import UnitObject
 from app.utilities import utils, static_random
 
-
-class DoNothing(SkillComponent):
-    nid = 'do_nothing'
-    desc = 'does nothing'
-    tag = SkillTags.CUSTOM
-
-    expose = ComponentType.Int
-    value = 1
-
 class PersonalSkill(SkillComponent):
     nid = 'personal_skill'
     desc = "A filler for future organizational purposes."
@@ -55,12 +46,12 @@ class StrikeTrigger(SkillComponent):
     _did_something = False
 
     def after_strike(self, actions, playback, unit, item, target, item2, mode, attack_info, strike):
-        _did_something = True
+        self._did_something = True
 
     def end_combat_unconditional(self, playback, unit, item, target, item2, mode):
-        if _did_something:
+        if self._did_something:
             action.do(action.TriggerCharge(unit, self.skill))
-        _did_something = False
+        self._did_something = False
         
 class EventBeforeCombat(SkillComponent):
     nid = 'event_before_combat'

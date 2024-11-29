@@ -1,0 +1,47 @@
+[
+    {
+        "nid": "Sister_of_Protection",
+        "name": "Sister of Protection",
+        "desc": "Grants self and Emily +2 Def/Res\nwhen Emily is within 3 tiles.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            7,
+            49
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "aura",
+                "Sister_of_Protection_A"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "DEF",
+                        "2 if any([x for x in get_allies_within_distance(unit.position, dist=3) if x.nid == 'Emily']) else 0"
+                    ],
+                    [
+                        "RES",
+                        "2 if any([x for x in get_allies_within_distance(unit.position, dist=3) if x.nid == 'Emily']) else 0"
+                    ]
+                ]
+            ]
+        ]
+    }
+]

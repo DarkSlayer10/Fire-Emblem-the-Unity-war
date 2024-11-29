@@ -14,6 +14,7 @@
             "    if;item_system.is_weapon(unit, item) and item_system.damage(unit, item) is not None and item.data.get('uses', 999) >= 2 and unit.get_hp() <= unit.get_max_hp() * 3 / 4",
             "        give_skill;{unit};Sol_P;;no_banner",
             "        set_skill_data;{unit};Sol;charge;{e:int(get_skill(unit, 'Sol').data.get('charge')) - 1}",
+            "        set_skill_data;{unit};Sol;active;True",
             "    end",
             "end"
         ],

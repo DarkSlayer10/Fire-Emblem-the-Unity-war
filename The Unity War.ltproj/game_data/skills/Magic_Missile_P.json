@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Magic_Missile_P",
+        "name": "Magic Missile",
+        "desc": "",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            4,
+            25
+        ],
+        "components": [
+            [
+                "display_skill_icon_in_combat",
+                null
+            ],
+            [
+                "dynamic_multiattacks",
+                "2"
+            ],
+            [
+                "attack_speed",
+                -999
+            ]
+        ]
+    }
+]

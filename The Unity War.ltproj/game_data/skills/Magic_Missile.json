@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Exploit",
-        "name": "<red>Exploit</>",
-        "desc": "Guaranteed critical against any\nunit with a debuff.\nConsumes 2 durability.",
-        "icon_nid": "skill_icons",
+        "nid": "Magic_Missile",
+        "name": "<red>Magic Missile</>",
+        "desc": "Strikes 3 times in a row.\nConsumes 2 durability per hit.",
+        "icon_nid": "ZessDynamiteSkillsys",
         "icon_index": [
             4,
-            43
+            25
         ],
         "components": [
             [
@@ -15,7 +15,7 @@
             ],
             [
                 "combat_art",
-                "Exploit_P"
+                "Magic_Missile_P"
             ],
             [
                 "drain_charge",

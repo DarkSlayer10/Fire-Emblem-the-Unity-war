@@ -84,7 +84,7 @@
             "for;BLUEY;[x.nid for x in game.get_player_units()]",
             "    remove_unit;{BLUEY};immediate",
             "endf",
-            "add_unit;101;15,15",
+            "add_unit;101;15,15;immediate;stack",
             "move_unit;101;15,3;no_follow",
             "flicker_cursor;101",
             "multi_add_portrait;SoldierRed;Right;Chidori;Left",
