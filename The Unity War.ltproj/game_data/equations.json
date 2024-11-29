@@ -102,5 +102,13 @@
     {
         "nid": "ZERO",
         "expression": "0"
+    },
+    {
+        "nid": "LEAD_HIT",
+        "expression": "2"
+    },
+    {
+        "nid": "LEAD_AVOID",
+        "expression": "1"
     }
 ]

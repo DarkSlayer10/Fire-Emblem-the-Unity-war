@@ -44,3 +44,18 @@ class CostUses(SkillComponent):
             actions.append(action.SetObjData(item, 'uses', item.data['uses'] - self.value + 1))
         else:
             actions.append(action.SetObjData(item, 'uses', item.data['uses'] - self.value))
+
+class StrikeTrigger(SkillComponent):
+    nid = 'strike_trigger'
+    desc = "Skill counts as using a charge after a strike."
+    tag = SkillTags.ADVANCED
+
+    _did_something = False
+
+    def after_strike(self, actions, playback, unit, item, target, item2, mode, attack_info, strike):
+        _did_something = True
+
+    def end_combat_unconditional(self, playback, unit, item, target, item2, mode):
+        if _did_something:
+            action.do(action.TriggerCharge(unit, self.skill))
+        _did_something = False

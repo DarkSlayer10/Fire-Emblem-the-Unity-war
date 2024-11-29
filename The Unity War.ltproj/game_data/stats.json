@@ -78,5 +78,13 @@
         "desc": "The distance you can move in one turn.",
         "position": "right",
         "growth_colors": false
+    },
+    {
+        "nid": "LEAD",
+        "name": "Lead",
+        "maximum": 10,
+        "desc": "Grants +2 Hit and +1 Avoid to army per star.",
+        "position": "right",
+        "growth_colors": false
     }
 ]

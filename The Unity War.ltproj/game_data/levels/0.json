@@ -68,7 +68,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Distant_Counter"
+                ],
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
@@ -507,6 +509,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Protector",
+        "name": "Protector",
+        "desc": "Emma/Emily deal +3 damage/\ntake -3 damage within 2 tiles.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            7,
+            49
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "aura",
+                "Protector_A"
+            ],
+            [
+                "aura_range",
+                2
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "name": "1 - Turn 2 Event",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "for;WAITERS;[x.nid for x in game.get_enemy_units() if x.ai == 'Defend']",
+            "    change_ai;{WAITERS};Pursue",
+            "endf",
+            "move_cursor;17,16",
+            "add_unit;Caroline;17,16;fade;stack",
+            "move_unit;Caroline;18,10;normal;closest",
+            "flicker_cursor;Caroline",
+            "add_portrait;Caroline;Right",
+            "bop_portrait;Caroline",
+            "speak;Caroline;\u2028Emma!!!",
+            "move_portrait;Caroline;Left",
+            "bop_portrait;Caroline",
+            "speak;Caroline;\u2028Emily!!!",
+            "speak;Caroline;\u2028You've both got a lot of nerve to\u2028come all the way out here without{tgm}...{tgm}{w}\u2028What the-",
+            "bop_portrait;Caroline",
+            "speak;Caroline;\u2028Demons?! Out here?!",
+            "bop_portrait;Caroline",
+            "speak;Caroline;\u2028Hold on, girls, I'm coming!",
+            "move_portrait;Caroline;OffscreenLeft",
+            "remove_portrait;Caroline"
+        ],
+        "nid": "0 1 - Turn 2 Event"
+    }
+]

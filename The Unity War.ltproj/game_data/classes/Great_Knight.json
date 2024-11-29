@@ -23,7 +23,8 @@
             "DEF": 11,
             "RES": 3,
             "CON": 13,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 70,
@@ -35,7 +36,8 @@
             "DEF": 21,
             "RES": 22,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -47,7 +49,8 @@
             "DEF": 0,
             "RES": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 3,
@@ -59,7 +62,8 @@
             "DEF": 2,
             "RES": 2,
             "CON": 4,
-            "MOV": -99
+            "MOV": -99,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -71,7 +75,8 @@
             "DEF": 29,
             "RES": 26,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [

@@ -20,7 +20,8 @@
             "DEF": 1,
             "CON": 0,
             "MOV": 0,
-            "RES": 2
+            "RES": 2,
+            "LEAD": 1
         },
         "growths": {
             "HP": 55,
@@ -32,7 +33,8 @@
             "DEF": 35,
             "CON": 0,
             "MOV": 0,
-            "RES": 40
+            "RES": 40,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "STR": 0,
@@ -44,7 +46,8 @@
             "RES": 0,
             "MOV": 0,
             "SKL": 0,
-            "MAG": 0
+            "MAG": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -68,6 +71,10 @@
             [
                 1,
                 "Faithful"
+            ],
+            [
+                1,
+                "Exploit"
             ]
         ],
         "unit_notes": [],

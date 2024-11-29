@@ -17,7 +17,8 @@
             "DEF": 8,
             "RES": 13,
             "CON": 8,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 50,
@@ -29,7 +30,8 @@
             "DEF": 30,
             "RES": 35,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "STR": 0,
@@ -41,7 +43,8 @@
             "RES": 0,
             "MOV": 0,
             "SKL": 0,
-            "MAG": 0
+            "MAG": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [

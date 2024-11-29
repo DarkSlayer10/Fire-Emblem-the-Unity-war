@@ -17,7 +17,8 @@
             "DEF": 6,
             "RES": 5,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 2
         },
         "growths": {
             "HP": 60,
@@ -29,7 +30,8 @@
             "DEF": 30,
             "RES": 25,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "STR": 0,
@@ -41,7 +43,8 @@
             "RES": 0,
             "MOV": 0,
             "SKL": 0,
-            "MAG": 0
+            "MAG": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -61,7 +64,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Protector"
+            ],
+            [
+                1,
+                "Sol"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [

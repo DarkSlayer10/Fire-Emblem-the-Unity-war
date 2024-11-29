@@ -17,7 +17,8 @@
             "DEF": 12,
             "CON": 2,
             "MOV": 0,
-            "RES": 9
+            "RES": 9,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -29,7 +30,8 @@
             "DEF": 45,
             "CON": 0,
             "MOV": 0,
-            "RES": 55
+            "RES": 55,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "STR": 0,
@@ -41,7 +43,8 @@
             "RES": 0,
             "MOV": 0,
             "SKL": 0,
-            "MAG": 0
+            "MAG": 0,
+            "LEAD": 0
         },
         "starting_items": [],
         "learned_skills": [],
