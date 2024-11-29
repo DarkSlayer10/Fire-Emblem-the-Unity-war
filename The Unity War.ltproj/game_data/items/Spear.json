@@ -2,7 +2,7 @@
     {
         "nid": "Spear",
         "name": "Spear",
-        "desc": "",
+        "desc": "Doubles as ranged attack.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                9000
+                12000
             ],
             [
                 "target_enemy",
@@ -27,7 +27,7 @@
             ],
             [
                 "max_range",
-                2
+                4
             ],
             [
                 "damage",
@@ -39,7 +39,7 @@
             ],
             [
                 "crit",
-                5
+                0
             ],
             [
                 "weight",
@@ -59,7 +59,7 @@
             ],
             [
                 "uses",
-                15
+                20
             ],
             [
                 "uses_options",

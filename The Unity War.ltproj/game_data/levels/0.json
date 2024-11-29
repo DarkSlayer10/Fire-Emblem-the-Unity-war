@@ -636,6 +636,111 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 18,
+                "klass": "Bow_Bonewalker",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Longbow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 18,
+                "klass": "Bow_Bonewalker",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Silver_Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 18,
+                "klass": "Sword_Bonewalker",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Killer_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 18,
+                "klass": "Sword_Bonewalker",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Spear",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 18,
+                "klass": "Mauthe_Doog",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Hellfang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [],
@@ -733,13 +838,40 @@
                         0
                     ]
                 }
+            },
+            {
+                "nid": "Turn8",
+                "units": [
+                    "126",
+                    "127",
+                    "128",
+                    "129",
+                    "130"
+                ],
+                "positions": {
+                    "126": [
+                        11,
+                        15
+                    ],
+                    "127": [
+                        0,
+                        2
+                    ],
+                    "128": [
+                        2,
+                        0
+                    ],
+                    "129": [
+                        0,
+                        10
+                    ],
+                    "130": [
+                        0,
+                        0
+                    ]
+                }
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Hellfang",
+        "name": "Hellfang",
+        "desc": "A long, daggerlike fang.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            13
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Monster"
+            ],
+            [
+                "damage",
+                13
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ]
+        ]
+    }
+]

@@ -229,7 +229,7 @@
     ],
     [
         "combat_art_category",
-        false
+        true
     ],
     [
         "reset_mana",

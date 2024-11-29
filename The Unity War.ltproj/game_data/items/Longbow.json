@@ -2,7 +2,7 @@
     {
         "nid": "Longbow",
         "name": "Longbow",
-        "desc": "",
+        "desc": "Extended attack range.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                5
+                9
             ],
             [
                 "hit",
-                65
+                70
             ],
             [
                 "weapon_type",
@@ -39,7 +39,7 @@
             ],
             [
                 "uses",
-                20
+                30
             ],
             [
                 "uses_options",
@@ -50,7 +50,7 @@
             ],
             [
                 "weight",
-                10
+                14
             ],
             [
                 "crit",
@@ -58,7 +58,7 @@
             ],
             [
                 "value",
-                2000
+                3000
             ],
             [
                 "min_range",
