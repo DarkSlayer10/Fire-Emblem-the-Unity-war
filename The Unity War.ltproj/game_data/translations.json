@@ -382,5 +382,9 @@
     {
         "nid": "Transfer_desc",
         "text": "Give paired unit to adjacent ally."
+    },
+    {
+        "nid": "Escape_desc",
+        "text": "Flee from the battle."
     }
 ]

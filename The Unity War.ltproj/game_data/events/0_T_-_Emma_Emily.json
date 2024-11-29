@@ -1,0 +1,25 @@
+[
+    {
+        "name": "T - Emma Emily",
+        "trigger": "on_talk",
+        "level_nid": "0",
+        "condition": "check_pair('Emma', 'Emily')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Emma;Left;Emily;Right",
+            "speak;Emma;\u2028Emily, are you alright?",
+            "speak;Emily;\u2028N-No{tgm}...{tgm}{w}\u2028I think it'd be\u2028weird if I was.",
+            "speak;Emma;\u2028Listen, I know that you're scared,{w}\u2028but we need to stop them before they\u2028kill us or get to our village.",
+            "speak;Emily;\u2028Y-yeah!{w} You're right!{w}\u2028I'll just have to{tgm}...{tgm}\u2028just have to do my best!",
+            "speak;Emma;\u2028Don't be scared, Sis.{w}\u2028I've got your back and\u2028you have mine.",
+            "speak;Emily;\u2028R-Right!",
+            "multi_remove_portrait;Emma;Emily",
+            "give_exp;{unit};25",
+            "remove_talk;Emma;Emily",
+            "remove_talk;Emily;Emma"
+        ],
+        "nid": "0 T - Emma Emily"
+    }
+]

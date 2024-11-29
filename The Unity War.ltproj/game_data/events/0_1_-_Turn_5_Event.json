@@ -1,15 +1,15 @@
 [
     {
-        "name": "1 - Turn 8 Event",
+        "name": "1 - Turn 5 Event",
         "trigger": "turn_change",
         "level_nid": "0",
-        "condition": "game.turncount == 8",
+        "condition": "game.turncount == 5",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_group;Turn8;Turn8"
+            "change_ai;118;PursueBoss"
         ],
-        "nid": "0 1 - Turn 8 Event"
+        "nid": "0 1 - Turn 5 Event"
     }
 ]

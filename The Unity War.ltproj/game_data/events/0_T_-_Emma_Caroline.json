@@ -1,0 +1,21 @@
+[
+    {
+        "name": "T - Emma Caroline",
+        "trigger": "on_talk",
+        "level_nid": "0",
+        "condition": "check_pair('Emma', 'Caroline')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Emma;Left",
+            "speak;Emma;Mom!",
+            "add_portrait;Caroline;Right",
+            "speak;Caroline;\u2028Emma!{w}\u2028Thank the stars\u2028I found you both!",
+            "speak;Emma;\u2028Mom, we need your help!\u2028There's monsters and-",
+            "speak;Caroline;\u2028I know, honey.{w}\u2028Come on, let's kill these\u2028monsters and head home.{w}\u2028Sonia and the others are\u2028fending them off right now.",
+            "speak;Emma;\u2028They're fighting monsters too?!{w}\u2028Then we have to hurry!"
+        ],
+        "nid": "0 T - Emma Caroline"
+    }
+]

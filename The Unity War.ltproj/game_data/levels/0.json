@@ -741,9 +741,48 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": null,
+                "level": 18,
+                "klass": "Mauthe_Doog",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Hellfang",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "Escape",
+                "region_type": "event",
+                "position": [
+                    17,
+                    16
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Escape",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
         "unit_groups": [
             {
                 "nid": "StartingGuys",
@@ -846,7 +885,8 @@
                     "127",
                     "128",
                     "129",
-                    "130"
+                    "130",
+                    "131"
                 ],
                 "positions": {
                     "126": [
@@ -868,6 +908,10 @@
                     "130": [
                         0,
                         0
+                    ],
+                    "131": [
+                        0,
+                        16
                     ]
                 }
             }
