@@ -1,0 +1,24 @@
+[
+    {
+        "name": "D - Emma Death",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Emma'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Emma;RightCorner",
+            "speak;Emma;Am I dying? {tgm}...{tgm} I'm sorry{tgm}...{tgm}\u2028I failed you all{tgm}...",
+            "expression;Emma;CloseEyes",
+            "speak;Emma;.....;no_talk",
+            "remove_portrait;Emma",
+            "add_portrait;Emily;LeftCorner",
+            "speak;Emily;\u2028EMMA NOOOOOO!!",
+            "remove_portrait;Emily",
+            "show_combat_ui"
+        ],
+        "nid": "Global D - Emma Death"
+    }
+]

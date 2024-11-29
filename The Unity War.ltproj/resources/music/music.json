@@ -113,5 +113,15 @@
         "Enemy Battle",
         true,
         false
+    ],
+    [
+        "Player Phase",
+        true,
+        false
+    ],
+    [
+        "Enemy Phase",
+        true,
+        false
     ]
 ]

@@ -1,18 +1,18 @@
 [
     {
         "nid": "0",
-        "name": "Prologue",
+        "name": "A Peace Broken",
         "tilemap": "Prologue",
         "bg_tilemap": "Prologue",
         "party": "Emma",
         "music": {
-            "player_phase": "Distant Roads",
-            "enemy_phase": "Shadow of the Enemy",
-            "other_phase": null,
+            "player_phase": "Player Phase",
+            "enemy_phase": "Enemy Phase",
+            "other_phase": "Player Phase",
             "enemy2_phase": null,
-            "player_battle": "Attack",
-            "enemy_battle": "Defense",
-            "other_battle": null,
+            "player_battle": "Battle",
+            "enemy_battle": "Enemy Battle",
+            "other_battle": "Battle",
             "enemy2_battle": null
         },
         "objective": {
@@ -42,6 +42,16 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Caroline",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
@@ -469,16 +479,6 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
-            },
-            {
-                "nid": "Caroline",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
             }
         ],
         "regions": [],

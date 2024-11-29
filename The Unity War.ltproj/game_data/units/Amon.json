@@ -3,7 +3,7 @@
         "nid": "Amon",
         "name": "Amon",
         "desc": "The Demon Prince. He is kind\nand loves exploring new places.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Slayer",
         "tags": [

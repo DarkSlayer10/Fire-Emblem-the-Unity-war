@@ -1,0 +1,19 @@
+[
+    {
+        "name": "D - Caroline Death",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Caroline'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Caroline;RightCorner",
+            "speak;Caroline;\u2028I{tgm}...{tgm}I can't die{tgm}...{w}\u2028while I'm{tgm}...{tgm}still needed{tgm}...{tgm}{w}\u2028I'll have to{tgm}...{tgm}pull back{tgm}...",
+            "remove_portrait;Caroline",
+            "show_combat_ui"
+        ],
+        "nid": "Global D - Caroline Death"
+    }
+]

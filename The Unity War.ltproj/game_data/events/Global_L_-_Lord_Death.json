@@ -1,0 +1,15 @@
+[
+    {
+        "name": "L - Lord Death",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "'Lord' in unit.tags",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "lose_game"
+        ],
+        "nid": "Global L - Lord Death"
+    }
+]

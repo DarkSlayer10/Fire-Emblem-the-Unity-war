@@ -7,9 +7,9 @@
         "party": "Emma",
         "music": {},
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Filler",
+            "win": "Filler",
+            "loss": "Filler"
         },
         "roam": false,
         "roam_unit": null,
