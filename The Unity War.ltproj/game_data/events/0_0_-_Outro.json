@@ -22,7 +22,7 @@
             "speak;Emma;\u2028I said we're fine, mom!{w}\u2028Emily wanted to take me\u2028for a surprise, that's it.{w}\u2028But, we saw that eyeball thing\u2028attach itself to a corpse{tgm}...",
             "speak;Caroline;\u2028Those monsters{tgm}...",
             "speak;Caroline;\u2028I saw a lot more of them on my way.{w}\u2028We need to head back home right now!{w}\u2028Marica and Sonia are handling them\u2028with Lily,{w} but we can't leave the\u2028village's safety up to chance.",
-            "add_portrait;Emma;FarRight",
+            "add_portrait;Emily;FarRight",
             "bop_portrait;Emily",
             "speak;Emily;\u2028Guys, look!{w}\u2028There's smoke coming from the village!{w}\u2028The demons are wrecking the place!",
             "speak;Emma;\u2028What!?! No, we have to stop them now!{w}\u2028We need to save Lily and help the rest!",
