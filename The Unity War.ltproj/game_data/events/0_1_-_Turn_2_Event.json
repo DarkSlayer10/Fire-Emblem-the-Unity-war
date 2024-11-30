@@ -8,7 +8,7 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "for;WAITERS;[x.nid for x in game.get_enemy_units() if x.ai == 'Defend' and x.nid != '118']",
+            "for;WAITERS;[x.nid for x in game.get_enemy_units() if x.ai == 'Defend' and x.nid not in ['101', '118']]",
             "    change_ai;{WAITERS};Pursue",
             "endf",
             "move_cursor;17,16",
@@ -27,10 +27,7 @@
             "bop_portrait;Caroline",
             "speak;Caroline;\u2028Hold on, girls, I'm coming!",
             "move_portrait;Caroline;OffscreenLeft",
-            "remove_portrait;Caroline",
-            "end_skip",
-            "flicker_cursor;101",
-            "speak;;\u2028Foes with this mark can\u2028use <red>combat arts</> and\u2028<blue>counter arts</>,{w} making\u2028them more dangerous\u2028than ordinary enemies.;;;hint"
+            "remove_portrait;Caroline"
         ],
         "nid": "0 1 - Turn 2 Event"
     }

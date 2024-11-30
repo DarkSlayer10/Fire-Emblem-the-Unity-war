@@ -10,20 +10,13 @@
         "_source": [
             "#pyev1",
             "",
-            "game.unregister_unit(u('Sonia'))",
-            "game.unregister_unit(u('Lily'))",
-            "game.unregister_unit(u('Marica'))",
-            "game.unregister_unit(u('Naoki'))",
-            "game.unregister_unit(u('Chidori'))",
-            "game.unregister_unit(u('John'))",
-            "game.unregister_unit(u('Nayzua'))",
-            "game.unregister_unit(u('Josh'))",
-            "game.unregister_unit(u('Amon'))",
-            "game.unregister_unit(u('Lilith'))",
-            "game.unregister_unit(u('Maya'))",
-            "game.unregister_unit(u('Vargax'))",
-            "game.unregister_unit(u('Isabelle'))",
-            ""
+            "for x in ['Sonia', 'Lily', 'Marica', 'Naoki', 'Chidori', 'John', 'Nayzua', 'Josh', 'Amon', 'Lilith', 'Maya', 'Vargax', 'Isabelle']:",
+            "    if u(x):",
+            "        for skill in u(x).skills:",
+            "            game.unregister_skill(skill)",
+            "        for item in u(x).items:",
+            "            game.unregister_item(item)",
+            "        game.unregister_unit(u(x))"
         ],
         "nid": "0 0 - Deregister"
     }

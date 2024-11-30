@@ -26,7 +26,7 @@
             "speak;Emily;\u2028Okay, but we don't have to\u2028be in a rush to get there.",
             "speak;Emma;\u2028You're no fun, Emily.",
             "speak;Emily;\u2028You better take that back, Em{tgm}...{tgm}{w}\u2028You know I can beat you\u2028in a fist fight.",
-            "speak;Emma;\u2028You can't just threaten to fight people\u2028when you hav a problem with them.",
+            "speak;Emma;\u2028You can't just threaten to fight people\u2028when you have a problem with them.",
             "expression;Emily;Smile",
             "speak;Emily;\u2028Hasn't failed me so far.",
             "multi_remove_portrait;Emma;Emily",

@@ -46,7 +46,20 @@
             "MAG": 0,
             "LEAD": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Javelin",
+                false
+            ],
+            [
+                "Trainee_Pike",
+                false
+            ],
+            [
+                "Axereaver",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

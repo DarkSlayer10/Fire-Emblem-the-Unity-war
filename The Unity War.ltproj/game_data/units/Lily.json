@@ -46,7 +46,24 @@
             "MAG": 0,
             "LEAD": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Lightning",
+                false
+            ],
+            [
+                "Shine",
+                false
+            ],
+            [
+                "Heal",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

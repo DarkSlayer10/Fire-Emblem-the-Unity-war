@@ -10,32 +10,24 @@
         ],
         "components": [
             [
-                "weapon",
-                null
+                "item_prefab",
+                "Platonic_Axe"
+            ],
+            [
+                "weapon_rank",
+                "E"
             ],
             [
                 "value",
                 270
             ],
             [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
                 "damage",
-                8
+                9
             ],
             [
                 "hit",
-                75
+                80
             ],
             [
                 "crit",
@@ -55,18 +47,6 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "weapon_type",
-                "Axe"
-            ],
-            [
-                "weapon_rank",
-                "E"
             ]
         ]
     }

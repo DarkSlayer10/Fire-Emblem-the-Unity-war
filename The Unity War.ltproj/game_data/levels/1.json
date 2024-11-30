@@ -1,8 +1,8 @@
 [
     {
         "nid": "1",
-        "name": "FILLER",
-        "tilemap": "Prologue",
+        "name": "Desperate Hopes",
+        "tilemap": "Desperate Hopes",
         "bg_tilemap": "Prologue",
         "party": "Emma",
         "music": {
@@ -16,9 +16,9 @@
             "enemy2_battle": null
         },
         "objective": {
-            "simple": "Defeat boss",
-            "win": "Defeat boss",
-            "loss": "Eirika dies"
+            "simple": "Rout",
+            "win": "Rout",
+            "loss": "Emma or Emily dies"
         },
         "roam": false,
         "roam_unit": "Eirika",
@@ -27,32 +27,41 @@
         "tags": [],
         "units": [
             {
-                "nid": "Emma",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Emily",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Caroline",
+                "nid": "Sonia",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    12,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Lily",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Marica",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    4
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -60,278 +69,11 @@
                 "nid": "101",
                 "variant": null,
                 "level": 2,
-                "klass": "Cyclops",
-                "faction": "Demon",
+                "klass": "Fighter",
+                "faction": "Reanimated",
                 "starting_items": [
                     [
-                        "Steel_Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "Distant_Counter",
-                    "Elite"
-                ],
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    17,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "102",
-                "variant": null,
-                "level": 2,
-                "klass": "Sword_Bonewalker",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Iron_Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "103",
-                "variant": null,
-                "level": 2,
-                "klass": "Sword_Bonewalker",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Iron_Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    18,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "104",
-                "variant": null,
-                "level": 1,
-                "klass": "Sword_Bonewalker",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Javelin",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    10,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "105",
-                "variant": null,
-                "level": 1,
-                "klass": "Sword_Bonewalker",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Javelin",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    7,
-                    16
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "106",
-                "variant": null,
-                "level": 1,
-                "klass": "Sword_Bonewalker",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Iron_Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    14,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "107",
-                "variant": null,
-                "level": 1,
-                "klass": "Sword_Bonewalker",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Iron_Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    7,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "108",
-                "variant": null,
-                "level": 1,
-                "klass": "Sword_Bonewalker",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Iron_Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "109",
-                "variant": null,
-                "level": 2,
-                "klass": "Sword_Bonewalker",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Iron_Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    10,
-                    3
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "110",
-                "variant": null,
-                "level": 1,
-                "klass": "Sword_Bonewalker",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Iron_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    5,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "111",
-                "variant": null,
-                "level": 2,
-                "klass": "Bow_Bonewalker",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Iron_Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    0
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "112",
-                "variant": null,
-                "level": 1,
-                "klass": "Mogall",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Evil_Eye",
+                        "Iron_Axe",
                         false
                     ]
                 ],
@@ -342,92 +84,20 @@
                 "ai_group": "",
                 "starting_position": [
                     16,
-                    13
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "113",
-                "variant": null,
-                "level": 2,
-                "klass": "Mogall",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Evil_Eye",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    16
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "114",
+                "nid": "102",
                 "variant": null,
                 "level": 1,
-                "klass": "Mogall",
-                "faction": "Demon",
+                "klass": "Fighter",
+                "faction": "Reanimated",
                 "starting_items": [
                     [
-                        "Evil_Eye",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    2,
-                    16
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "115",
-                "variant": null,
-                "level": 2,
-                "klass": "Mogall",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Evil_Eye",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    20,
-                    0
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "116",
-                "variant": null,
-                "level": 11,
-                "klass": "Mogall",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Ghost_Wail",
+                        "Iron_Axe",
                         false
                     ]
                 ],
@@ -437,152 +107,45 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    0,
-                    16
+                    15,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "117",
-                "variant": null,
-                "level": 1,
-                "klass": "Civilian",
-                "faction": "Mendhaven",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    1,
-                    16
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "118",
-                "variant": null,
-                "level": 1,
-                "klass": "Watcher",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Ghost_Wail",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "119",
-                "variant": null,
-                "level": 2,
-                "klass": "Sword_Bonewalker",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Iron_Dagger",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "120",
+                "nid": "103",
                 "variant": null,
                 "level": 3,
-                "klass": "Mauthe_Doog",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Fiery_Fang",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "121",
-                "variant": null,
-                "level": 2,
-                "klass": "Bow_Bonewalker",
-                "faction": "Demon",
+                "klass": "Archer_F",
+                "faction": "Reanimated",
                 "starting_items": [
                     [
                         "Iron_Bow",
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "Elite",
-                    "Snipe"
-                ],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "122",
-                "variant": null,
-                "level": 3,
-                "klass": "Sword_Bonewalker",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Javelin",
-                        false
-                    ]
-                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    0,
+                    1
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "123",
+                "nid": "104",
                 "variant": null,
                 "level": 2,
-                "klass": "Sword_Bonewalker",
-                "faction": "Demon",
+                "klass": "Archer_F",
+                "faction": "Reanimated",
                 "starting_items": [
                     [
-                        "Javelin",
-                        false
-                    ],
-                    [
-                        "Iron_Sword",
+                        "Iron_Bow",
                         false
                     ]
                 ],
@@ -591,42 +154,20 @@
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "124",
-                "variant": null,
-                "level": 3,
-                "klass": "Sword_Bonewalker",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Javelin",
-                        false
-                    ]
+                "starting_position": [
+                    0,
+                    15
                 ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "125",
+                "nid": "105",
                 "variant": null,
-                "level": 1,
-                "klass": "Queen_Bael",
+                "level": 2,
+                "klass": "Revenant",
                 "faction": "Demon",
                 "starting_items": [
-                    [
-                        "Ghost_Wail",
-                        false
-                    ],
                     [
                         "Rotten_Claw",
                         false
@@ -637,130 +178,28 @@
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    13,
+                    19
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "126",
+                "nid": "106",
                 "variant": null,
-                "level": 18,
-                "klass": "Bow_Bonewalker",
+                "level": 3,
+                "klass": "Revenant",
                 "faction": "Demon",
                 "starting_items": [
                     [
-                        "Longbow",
+                        "Rotten_Claw",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "127",
-                "variant": null,
-                "level": 18,
-                "klass": "Bow_Bonewalker",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Silver_Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "128",
-                "variant": null,
-                "level": 18,
-                "klass": "Sword_Bonewalker",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Killer_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "129",
-                "variant": null,
-                "level": 18,
-                "klass": "Sword_Bonewalker",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Spear",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "130",
-                "variant": null,
-                "level": 18,
-                "klass": "Mauthe_Doog",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Hellfang",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "131",
-                "variant": null,
-                "level": 18,
-                "klass": "Mauthe_Doog",
-                "faction": "Demon",
-                "starting_items": [
-                    [
-                        "Hellfang",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -772,134 +211,28 @@
         "unit_groups": [
             {
                 "nid": "StartingGuys",
-                "units": [
-                    "101",
-                    "102",
-                    "103",
-                    "104",
-                    "105",
-                    "106",
-                    "107",
-                    "108",
-                    "109",
-                    "110",
-                    "111",
-                    "112",
-                    "113",
-                    "114",
-                    "115",
-                    "116",
-                    "117"
-                ],
+                "units": [],
                 "positions": {}
             },
             {
                 "nid": "Turn4Move",
-                "units": [
-                    "119",
-                    "123",
-                    "121"
-                ],
-                "positions": {
-                    "119": [
-                        5,
-                        8
-                    ],
-                    "123": [
-                        6,
-                        9
-                    ],
-                    "121": [
-                        5,
-                        10
-                    ]
-                }
+                "units": [],
+                "positions": {}
             },
             {
                 "nid": "Turn4",
-                "units": [
-                    "119",
-                    "121",
-                    "123"
-                ],
-                "positions": {
-                    "119": [
-                        5,
-                        9
-                    ],
-                    "121": [
-                        5,
-                        9
-                    ],
-                    "123": [
-                        5,
-                        9
-                    ]
-                }
+                "units": [],
+                "positions": {}
             },
             {
                 "nid": "Turn4B",
-                "units": [
-                    "120",
-                    "122",
-                    "124",
-                    "125"
-                ],
-                "positions": {
-                    "120": [
-                        11,
-                        15
-                    ],
-                    "122": [
-                        9,
-                        3
-                    ],
-                    "124": [
-                        14,
-                        12
-                    ],
-                    "125": [
-                        0,
-                        0
-                    ]
-                }
+                "units": [],
+                "positions": {}
             },
             {
                 "nid": "Turn8",
-                "units": [
-                    "126",
-                    "127",
-                    "128",
-                    "129",
-                    "130",
-                    "131"
-                ],
-                "positions": {
-                    "126": [
-                        11,
-                        15
-                    ],
-                    "127": [
-                        0,
-                        2
-                    ],
-                    "128": [
-                        2,
-                        0
-                    ],
-                    "129": [
-                        0,
-                        10
-                    ],
-                    "130": [
-                        0,
-                        0
-                    ],
-                    "131": [
-                        0,
-                        16
-                    ]
-                }
+                "units": [],
+                "positions": {}
             }
         ],
         "ai_groups": []

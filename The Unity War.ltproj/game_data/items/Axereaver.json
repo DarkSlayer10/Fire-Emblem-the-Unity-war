@@ -2,7 +2,7 @@
     {
         "nid": "Axereaver",
         "name": "Axereaver",
-        "desc": "Reverses the weapon triangle.",
+        "desc": "Strong against axes.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                10
+                9
             ],
             [
                 "hit",
@@ -35,11 +35,11 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "D"
             ],
             [
                 "uses",
-                15
+                30
             ],
             [
                 "uses_options",
@@ -54,19 +54,15 @@
             ],
             [
                 "weight",
-                11
-            ],
-            [
-                "wexp",
-                2
+                10
             ],
             [
                 "crit",
-                5
+                0
             ],
             [
                 "value",
-                1950
+                3900
             ],
             [
                 "min_range",

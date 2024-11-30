@@ -68,12 +68,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "Distant_Counter",
-                    "Elite"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -537,10 +534,7 @@
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "Elite",
-                    "Snipe"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Pursue",
                 "roam_ai": null,

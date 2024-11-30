@@ -1,0 +1,64 @@
+[
+    {
+        "nid": "Trainee_Pike",
+        "name": "Trainee Pike",
+        "desc": "Marica's training lance.\nStrong against cavalry, armor.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Lance"
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "weight",
+                6
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "prf_unit",
+                [
+                    "Marica"
+                ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Horse",
+                        "Armor"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    }
+]

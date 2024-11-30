@@ -58728,6 +58728,14 @@
                         ]
                     ],
                     [
+                        "enemy_effect_with_offset",
+                        [
+                            "EarthB",
+                            50,
+                            0
+                        ]
+                    ],
+                    [
                         "enemy_tint",
                         [
                             8,
@@ -58742,14 +58750,6 @@
                     [
                         "spell_hit",
                         null
-                    ],
-                    [
-                        "enemy_effect_with_offset",
-                        [
-                            "EarthB",
-                            50,
-                            0
-                        ]
                     ],
                     [
                         "wait",
@@ -59979,7 +59979,7 @@
                     [
                         "frame",
                         [
-                            5,
+                            13,
                             "Spell_b_030"
                         ]
                     ],

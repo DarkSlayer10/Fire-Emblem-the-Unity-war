@@ -50,6 +50,16 @@
         ]
     },
     {
+        "nid": "Reanimated",
+        "name": "Reanimated",
+        "desc": "Corpses corrupted by demonic might.",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
         "nid": "Mendhaven",
         "name": "Mendhaven",
         "desc": "Residents of the town of Mendhaven.",

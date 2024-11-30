@@ -14,27 +14,27 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 25,
-            "STR": 2,
+            "HP": 26,
+            "STR": 4,
             "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
+            "SKL": 1,
+            "SPD": 1,
             "LCK": 0,
-            "DEF": 0,
+            "DEF": 1,
             "RES": 0,
-            "CON": 6,
-            "MOV": 4,
+            "CON": 7,
+            "MOV": 5,
             "LEAD": 0
         },
         "growths": {
-            "HP": 95,
-            "STR": 50,
+            "HP": 105,
+            "STR": 75,
             "MAG": 0,
-            "SKL": 30,
+            "SKL": 35,
             "SPD": 20,
-            "LCK": 10,
-            "DEF": 10,
-            "RES": 13,
+            "LCK": 20,
+            "DEF": 15,
+            "RES": 20,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -105,12 +105,12 @@
                 0,
                 251
             ],
-            "Light": [
+            "Anima": [
                 false,
                 0,
                 251
             ],
-            "Anima": [
+            "Light": [
                 false,
                 0,
                 251
@@ -119,6 +119,16 @@
                 false,
                 0,
                 251
+            ],
+            "Stone": [
+                false,
+                0,
+                null
+            ],
+            "Monster": [
+                true,
+                0,
+                null
             ],
             "Default": [
                 false,

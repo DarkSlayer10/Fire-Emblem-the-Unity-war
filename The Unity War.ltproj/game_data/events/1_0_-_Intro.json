@@ -1,0 +1,21 @@
+[
+    {
+        "name": "0 - Intro",
+        "trigger": "level_start",
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "chapter_title",
+            "change_background;BlackBackground",
+            "transition;close",
+            "change_background",
+            "add_weather;fire",
+            "transition;open",
+            ""
+        ],
+        "nid": "1 0 - Intro"
+    }
+]
