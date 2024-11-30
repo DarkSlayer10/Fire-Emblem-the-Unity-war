@@ -1,0 +1,30 @@
+[
+    {
+        "name": "0 - Deregister",
+        "trigger": "level_start",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 99,
+        "_source": [
+            "#pyev1",
+            "",
+            "game.unregister_unit(u('Sonia'))",
+            "game.unregister_unit(u('Lily'))",
+            "game.unregister_unit(u('Marica'))",
+            "game.unregister_unit(u('Naoki'))",
+            "game.unregister_unit(u('Chidori'))",
+            "game.unregister_unit(u('John'))",
+            "game.unregister_unit(u('Nayzua'))",
+            "game.unregister_unit(u('Josh'))",
+            "game.unregister_unit(u('Amon'))",
+            "game.unregister_unit(u('Lilith'))",
+            "game.unregister_unit(u('Maya'))",
+            "game.unregister_unit(u('Vargax'))",
+            "game.unregister_unit(u('Isabelle'))",
+            ""
+        ],
+        "nid": "0 0 - Deregister"
+    }
+]

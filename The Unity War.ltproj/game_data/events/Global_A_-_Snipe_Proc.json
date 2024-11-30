@@ -11,7 +11,7 @@
             "# Condition should always be checked",
             "if;(unit.team != 'player' or not skill_system.can_select(unit)) and unit.team == game.phase.get_current() and mode == 'attack'",
             "    # Condition specific to combat art",
-            "    if;item_system.weapon_type(unit, item) == 'Bow' and item_system.damage(unit, item) is not None and item.data.get('uses', 999) >= 4 and (compute_hit(unit, target, item, item2, mode, None) < 100 or combat_calcs.can_counterattack(unit2, item2, unit, item))",
+            "    if;item_system.weapon_type(unit, item) == 'Bow' and item_system.damage(unit, item) is not None and item.data.get('uses', 999) >= 4 and (combat_calcs.compute_hit(unit, target, item, item2, mode, None) < 100 or combat_calcs.can_counterattack(unit2, item2, unit, item))",
             "        give_skill;{unit};Snipe_P;;no_banner",
             "        set_skill_data;{unit};Snipe;charge;{e:int(get_skill(unit, 'Snipe').data.get('charge')) - 1}",
             "        set_skill_data;{unit};Snipe;active;True",

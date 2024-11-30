@@ -16,9 +16,9 @@
             "enemy2_battle": null
         },
         "objective": {
-            "simple": "Defeat boss",
-            "win": "Defeat boss",
-            "loss": "Eirika dies"
+            "simple": "Escape",
+            "win": "Escape",
+            "loss": "Emma or Emily dies"
         },
         "roam": false,
         "roam_unit": "Eirika",
@@ -902,6 +902,11 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

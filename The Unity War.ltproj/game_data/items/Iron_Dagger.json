@@ -22,7 +22,7 @@
                 400
             ],
             [
-                "min_range",
+                "max_range",
                 2
             ],
             [

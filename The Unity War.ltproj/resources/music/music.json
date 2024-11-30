@@ -20,11 +20,6 @@
         false
     ],
     [
-        "Main Theme",
-        false,
-        false
-    ],
-    [
         "Grasp at Victory",
         false,
         false
@@ -121,6 +116,16 @@
     ],
     [
         "Enemy Phase",
+        true,
+        false
+    ],
+    [
+        "Sorrow",
+        false,
+        false
+    ],
+    [
+        "Main Theme",
         true,
         false
     ]
