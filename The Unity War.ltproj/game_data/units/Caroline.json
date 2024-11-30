@@ -8,17 +8,17 @@
         "klass": "Hero_F",
         "tags": [],
         "bases": {
-            "HP": 10,
-            "STR": 5,
-            "MAG": 3,
-            "SKL": 6,
-            "SPD": 5,
+            "HP": 36,
+            "STR": 14,
+            "MAG": 9,
+            "SKL": 15,
+            "SPD": 15,
             "LCK": 16,
-            "DEF": 6,
-            "RES": 5,
-            "CON": 0,
-            "MOV": 0,
-            "LEAD": 2
+            "DEF": 12,
+            "RES": 8,
+            "CON": 10,
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,

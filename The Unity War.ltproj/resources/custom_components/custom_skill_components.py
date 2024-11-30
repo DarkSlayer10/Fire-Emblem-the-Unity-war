@@ -8,6 +8,7 @@ from app.engine import (action, banner, combat_calcs, engine, equations,
 from app.engine.game_state import game
 from app.engine.objects.unit import UnitObject
 from app.utilities import utils, static_random
+from app.utilities.enums import Strike
 
 class PersonalSkill(SkillComponent):
     nid = 'personal_skill'
@@ -27,16 +28,24 @@ class CostUses(SkillComponent):
     def condition(self, unit, item):
         return item.data.get('uses', 999) >= self.value
             
-    def on_hit(self, actions, playback, unit, item, target, item2, target_pos, mode, attack_info):
+    def after_strike(self, actions, playback, unit, item, target, item2, mode, attack_info, strike):
         if self.skill.data.get('active'):
-            actions.append(action.SetObjData(item, 'uses', item.data['uses'] - self.value + 1))
+            actions.append(action.SetObjData(item, 'uses', item.data['uses'] - self.value))
+            
+class CostUsesAlwaysOn(SkillComponent):
+    nid = 'cost_uses_always_on'
+    desc = "Skill costs alternate number of weapon uses. Unit must have at least that many uses. For non-combat art skills."
+    tag = SkillTags.CHARGE
 
-    def on_miss(self, actions, playback, unit, item, target, item2, target_pos, mode, attack_info):
-        if self.skill.data.get('active'):
-            if item.uses_options.lose_uses_on_miss():
-                actions.append(action.SetObjData(item, 'uses', item.data['uses'] - self.value + 1))
-            else:
-                actions.append(action.SetObjData(item, 'uses', item.data['uses'] - self.value))
+    expose = ComponentType.Int
+    value = 2
+    
+    def condition(self, unit, item):
+        return item.data.get('uses', 999) >= self.value
+            
+    def after_strike(self, actions, playback, unit, item, target, item2, mode, attack_info, strike):
+        actions.append(action.SetObjData(item, 'uses', item.data['uses'] - self.value))
+                
 
 class StrikeTrigger(SkillComponent):
     nid = 'strike_trigger'

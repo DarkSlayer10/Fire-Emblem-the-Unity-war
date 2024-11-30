@@ -11,16 +11,16 @@
             "Female"
         ],
         "bases": {
-            "HP": 8,
-            "STR": -5,
-            "MAG": 6,
-            "SKL": -1,
-            "SPD": -1,
+            "HP": 26,
+            "STR": 2,
+            "MAG": 7,
+            "SKL": 7,
+            "SPD": 8,
             "LCK": 6,
-            "DEF": 1,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 2,
+            "DEF": 6,
+            "CON": 8,
+            "MOV": 5,
+            "RES": 5,
             "LEAD": 1
         },
         "growths": {
@@ -126,7 +126,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Emma Png",
+        "portrait_nid": "Emma",
         "affinity": "Anima",
         "fields": []
     }

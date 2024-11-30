@@ -11,17 +11,17 @@
             "Female"
         ],
         "bases": {
-            "HP": 8,
-            "STR": 1,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 1,
+            "HP": 26,
+            "STR": 7,
+            "MAG": 1,
+            "SKL": 6,
+            "SPD": 8,
             "LCK": 5,
-            "DEF": 0,
-            "CON": -1,
-            "MOV": 0,
+            "DEF": 6,
+            "CON": 7,
+            "MOV": 5,
             "RES": 3,
-            "LEAD": 1
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,

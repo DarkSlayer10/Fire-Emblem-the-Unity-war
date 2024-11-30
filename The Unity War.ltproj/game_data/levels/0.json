@@ -768,25 +768,7 @@
                 "generic": true
             }
         ],
-        "regions": [
-            {
-                "nid": "Escape",
-                "region_type": "event",
-                "position": [
-                    17,
-                    16
-                ],
-                "size": [
-                    2,
-                    1
-                ],
-                "sub_nid": "Escape",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            }
-        ],
+        "regions": [],
         "unit_groups": [
             {
                 "nid": "StartingGuys",
@@ -920,11 +902,6 @@
                 }
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

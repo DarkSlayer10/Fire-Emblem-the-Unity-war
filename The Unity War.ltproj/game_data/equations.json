@@ -85,7 +85,7 @@
     },
     {
         "nid": "HEAL",
-        "expression": "MAG"
+        "expression": "10 + MAG"
     },
     {
         "nid": "CONSTITUTION",
@@ -94,10 +94,6 @@
     {
         "nid": "INITIATIVE",
         "expression": "SPD"
-    },
-    {
-        "nid": "MANA",
-        "expression": "20"
     },
     {
         "nid": "ZERO",

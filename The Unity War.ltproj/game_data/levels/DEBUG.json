@@ -27,19 +27,6 @@
         "tags": [],
         "units": [
             {
-                "nid": "Bone",
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    2,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Emma",
                 "team": "player",
                 "ai": "None",
@@ -127,15 +114,11 @@
                 "nid": "101",
                 "variant": null,
                 "level": 1,
-                "klass": "Shaman",
+                "klass": "Mercenary_F",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Ghost_Wail",
-                        false
-                    ],
-                    [
-                        "Luna",
+                        "Iron_Sword",
                         false
                     ]
                 ],
@@ -143,10 +126,10 @@
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     4,
-                    6
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true

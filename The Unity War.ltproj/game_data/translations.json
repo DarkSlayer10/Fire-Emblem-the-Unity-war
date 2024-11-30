@@ -390,5 +390,13 @@
     {
         "nid": "_attribution",
         "text": "five guys burgers and fries"
+    },
+    {
+        "nid": "Normal_desc",
+        "text": "The standard difficulty."
+    },
+    {
+        "nid": "Hard_desc",
+        "text": "A little bit more of a bite."
     }
 ]

@@ -133,7 +133,7 @@
     ],
     [
         "unit_stats_as_bonus",
-        true
+        false
     ],
     [
         "enemy_leveling",

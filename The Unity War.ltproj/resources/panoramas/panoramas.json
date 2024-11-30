@@ -8,10 +8,6 @@
         1
     ],
     [
-        "info_menu_background",
-        1
-    ],
-    [
         "Hill",
         1
     ],
@@ -173,6 +169,10 @@
     ],
     [
         "Halls",
+        1
+    ],
+    [
+        "info_menu_background",
         1
     ]
 ]

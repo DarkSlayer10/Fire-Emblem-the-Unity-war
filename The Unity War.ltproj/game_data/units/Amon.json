@@ -10,15 +10,15 @@
             "Lord"
         ],
         "bases": {
-            "HP": 19,
-            "STR": 7,
-            "MAG": 7,
-            "SKL": 5,
-            "SPD": 6,
+            "HP": 37,
+            "STR": 13,
+            "MAG": 8,
+            "SKL": 11,
+            "SPD": 13,
             "LCK": 8,
-            "DEF": 5,
-            "CON": 2,
-            "MOV": 0,
+            "DEF": 11,
+            "CON": 10,
+            "MOV": 5,
             "RES": 7,
             "LEAD": 0
         },
