@@ -101,12 +101,12 @@
                 31,
                 251
             ],
-            "Light": [
+            "Anima": [
                 true,
                 31,
                 251
             ],
-            "Anima": [
+            "Light": [
                 true,
                 31,
                 251
@@ -115,6 +115,16 @@
                 false,
                 0,
                 251
+            ],
+            "Stone": [
+                false,
+                0,
+                null
+            ],
+            "Monster": [
+                false,
+                0,
+                null
             ],
             "Default": [
                 false,

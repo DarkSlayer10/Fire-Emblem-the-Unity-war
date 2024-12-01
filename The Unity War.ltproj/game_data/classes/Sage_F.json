@@ -1,0 +1,144 @@
+[
+    {
+        "nid": "Sage_F",
+        "name": "Sage",
+        "desc": "Advanced scholars of magical codices.\nEquip: Anima, light, staves and swords,",
+        "tier": 2,
+        "movement_group": "Mages",
+        "promotes_from": "Mage_F",
+        "turns_into": [],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 27,
+            "STR": 7,
+            "MAG": 7,
+            "SKL": 6,
+            "SPD": 8,
+            "LCK": 0,
+            "DEF": 7,
+            "RES": 4,
+            "CON": 8,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 25,
+            "MAG": 60,
+            "SKL": 45,
+            "SPD": 45,
+            "LCK": 40,
+            "DEF": 40,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "promotion": {
+            "HP": 4,
+            "STR": 2,
+            "MAG": 2,
+            "SKL": 2,
+            "SPD": 1,
+            "LCK": 0,
+            "DEF": 3,
+            "RES": 3,
+            "CON": -97,
+            "MOV": -97,
+            "LEAD": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 26,
+            "MAG": 30,
+            "SKL": 28,
+            "SPD": 26,
+            "LCK": 30,
+            "DEF": 21,
+            "RES": 25,
+            "CON": 20,
+            "MOV": 15,
+            "LEAD": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                31,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                true,
+                31,
+                251
+            ],
+            "Anima": [
+                true,
+                71,
+                251
+            ],
+            "Light": [
+                true,
+                31,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Stone": [
+                false,
+                0,
+                null
+            ],
+            "Monster": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Sage",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "SageFemale",
+        "combat_anim_nid": "SageFemale",
+        "fields": []
+    }
+]

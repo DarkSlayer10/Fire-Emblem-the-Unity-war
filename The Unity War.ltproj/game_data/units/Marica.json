@@ -58,6 +58,14 @@
             [
                 "Axereaver",
                 false
+            ],
+            [
+                "Concoction",
+                false
+            ],
+            [
+                "Slim_Sword",
+                false
             ]
         ],
         "learned_skills": [],

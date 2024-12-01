@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Z - Turn Change Late",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "game.turncount > 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 99,
+        "_source": [
+            "for;WAITER;[x.nid for x in game.get_enemy_units() if x.ai == 'DefendWait']",
+            "    change_ai;{WAITER};Pursue",
+            "endf"
+        ],
+        "nid": "Global Z - Turn Change Late"
+    }
+]

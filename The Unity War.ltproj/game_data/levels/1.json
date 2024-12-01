@@ -66,6 +66,36 @@
                 "generic": false
             },
             {
+                "nid": "Emma",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Emily",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Caroline",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "101",
                 "variant": null,
                 "level": 2,
@@ -202,7 +232,302 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    12,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 3,
+                "klass": "Revenant",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Rotten_Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 2,
+                "klass": "Revenant",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Rotten_Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 3,
+                "klass": "Revenant",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Rotten_Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendWait",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 3,
+                "klass": "Revenant",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Rotten_Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendWait",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 2,
+                "klass": "Revenant",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Rotten_Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 2,
+                "klass": "Sword_Bonewalker",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 2,
+                "klass": "Sword_Bonewalker",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ],
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 2,
+                "klass": "Mage_F",
+                "faction": "Reanimated",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendWait",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 2,
+                "klass": "Mage_F",
+                "faction": "Reanimated",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 3,
+                "klass": "Soldier",
+                "faction": "Reanimated",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 2,
+                "klass": "Soldier",
+                "faction": "Reanimated",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 1,
+                "klass": "Sage_F",
+                "faction": "Reanimated",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    15
+                ],
                 "starting_traveler": null,
                 "generic": true
             }
@@ -210,31 +535,33 @@
         "regions": [],
         "unit_groups": [
             {
-                "nid": "StartingGuys",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "Turn4Move",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "Turn4",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "Turn4B",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "Turn8",
-                "units": [],
-                "positions": {}
+                "nid": "CutsceneA",
+                "units": [
+                    "Emma",
+                    "Emily",
+                    "Caroline"
+                ],
+                "positions": {
+                    "Emma": [
+                        1,
+                        5
+                    ],
+                    "Caroline": [
+                        2,
+                        6
+                    ],
+                    "Emily": [
+                        1,
+                        7
+                    ]
+                }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
