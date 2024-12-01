@@ -41,7 +41,7 @@
     {
         "nid": "Lance",
         "name": "Lance",
-        "force_melee_anim": false,
+        "force_melee_anim": true,
         "rank_bonus": [],
         "advantage": [
             {

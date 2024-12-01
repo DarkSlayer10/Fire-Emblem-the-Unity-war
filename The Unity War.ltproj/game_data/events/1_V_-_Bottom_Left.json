@@ -1,0 +1,24 @@
+[
+    {
+        "name": "V - Bottom Left",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'Visit_BottomLeft'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;House",
+            "transition;open",
+            "add_portrait;{unit};Right",
+            "speak;{unit};\u2028No one here{tgm}...{tgm}{w}\u2028I hope they got\u2028away safely{tgm}...",
+            "remove_portrait;{unit}",
+            "give_item;{unit};Short_Spear",
+            "transition;close",
+            "change_background",
+            "transition;open"
+        ],
+        "nid": "1 V - Bottom Left"
+    }
+]

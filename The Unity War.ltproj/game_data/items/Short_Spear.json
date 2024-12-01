@@ -2,7 +2,7 @@
     {
         "nid": "Short_Spear",
         "name": "Short Spear",
-        "desc": "",
+        "desc": "Doubles as ranged attack.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -27,7 +27,7 @@
             ],
             [
                 "hit",
-                60
+                80
             ],
             [
                 "weapon_type",
@@ -35,11 +35,11 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "D"
             ],
             [
                 "uses",
-                18
+                30
             ],
             [
                 "uses_options",
@@ -50,7 +50,7 @@
             ],
             [
                 "weight",
-                12
+                10
             ],
             [
                 "crit",
@@ -58,7 +58,7 @@
             ],
             [
                 "value",
-                900
+                1200
             ],
             [
                 "min_range",

@@ -1,0 +1,24 @@
+[
+    {
+        "name": "V - Armory",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'Visit_Clinic'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;Armory",
+            "transition;open",
+            "add_portrait;{unit};Right",
+            "speak;{unit};\u2028Looks like the place was emptied\u2028out to defend the village.{w}\u2028Hey, wait, there's a tome left.",
+            "remove_portrait;{unit}",
+            "give_item;{unit};Thunder",
+            "transition;close",
+            "change_background",
+            "transition;open"
+        ],
+        "nid": "1 V - Armory"
+    }
+]

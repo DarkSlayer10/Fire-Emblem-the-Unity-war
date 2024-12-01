@@ -551,11 +551,79 @@
                 "interrupt_move": false
             },
             {
+                "nid": "Visit_BottomLeft",
+                "region_type": "event",
+                "position": [
+                    1,
+                    13
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visit_Center",
+                "region_type": "event",
+                "position": [
+                    9,
+                    6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visit_TopRight",
+                "region_type": "event",
+                "position": [
+                    14,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
                 "nid": "Visit_Clinic",
                 "region_type": "event",
                 "position": [
                     13,
                     9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visit_Armory",
+                "region_type": "event",
+                "position": [
+                    7,
+                    10
                 ],
                 "size": [
                     1,
@@ -592,11 +660,6 @@
                 }
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

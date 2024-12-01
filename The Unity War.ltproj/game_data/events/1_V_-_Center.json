@@ -1,0 +1,24 @@
+[
+    {
+        "name": "V - Center",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'Visit_BottomLeft'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;House",
+            "transition;open",
+            "add_portrait;{unit};Right",
+            "speak;{unit};\u2028Looks like whoever was here left\u2028their bow behind when fleeing{tgm}...",
+            "remove_portrait;{unit}",
+            "give_item;{unit};Steel_Bow",
+            "transition;close",
+            "change_background",
+            "transition;open"
+        ],
+        "nid": "1 V - Center"
+    }
+]
