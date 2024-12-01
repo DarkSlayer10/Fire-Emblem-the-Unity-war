@@ -1,0 +1,28 @@
+[
+    {
+        "name": "T - Emma Emily",
+        "trigger": "on_talk",
+        "level_nid": "1",
+        "condition": "check_pair('Emma', 'Emily')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Emma;Left;Emily;Right",
+            "speak;Emma;...;no_talk",
+            "speak;Emily;\u2028Come on Emma, you\u2028can't stay quiet forever.{w}\u2028You'll have to talk to\u2028me eventually!",
+            "speak;Emma;...;no_talk",
+            "speak;Emily;\u2028Would saying that I'm\u2028sorry make you feel better?",
+            "speak;Emma;...{tgm}{w}\u2028No, not really.;no_talk",
+            "speak;Emily;\u2028Ugh, why do you\u2028have to be like that?{w}\u2028Pull yourself together\u2028already!",
+            "speak;Emma;...;no_talk",
+            "speak;Emily;\u2028Whatever.",
+            "speak;Emily;\u2028I'm going to actually act like I care\u2028about my hometown burning down.",
+            "speak;Emma;...;no_talk",
+            "multi_remove_portrait;Emma;Emily",
+            "remove_talk;Emma;Emily",
+            "remove_talk;Emily;Emma"
+        ],
+        "nid": "1 T - Emma Emily"
+    }
+]

@@ -100,7 +100,7 @@
             "add_portrait;Emma;MidRight",
             "speak;Emma;\u2028That eye thing{tgm}...{tgm}{c:wait;300}\u2028I-It just latched itself\u2028onto that corpse{tgm}...{tgm}{w}\u2028We need to get out of\u2028here and go home, NOW!",
             "add_portrait;Emily;FarRight",
-            "speak;Emily;\u2028We can't. Those things are\u2028blocking our path out of here{tgm}...{tgm}{w}\u2028It looks like we'll need to\u2028fight our way back.",
+            "speak;Emily;\u2028W-we can't. Those things are\u2028blocking our path out of here{tgm}...{tgm}{w}\u2028It looks like we'll need to\u2028f-fight our way back.",
             "multi_remove_portrait;Emma;Emily",
             "change_stats;118;HP,12,DEF,6,SPD,1,RES,6,MAG,5,SKL,7,LCK,7;immediate",
             "autolevel_to;101;-15;dynamic;hidden",

@@ -10,6 +10,9 @@
         "_source": [
             "for;WAITER;[x.nid for x in game.get_enemy_units() if x.ai == 'DefendWait']",
             "    change_ai;{WAITER};Pursue",
+            "endf",
+            "for;WAITER;[x.nid for x in game.get_enemy_units() if x.ai == 'DefendVillageWait']",
+            "    change_ai;{WAITER};PursueVillage",
             "endf"
         ],
         "nid": "Global Z - Turn Change Late"

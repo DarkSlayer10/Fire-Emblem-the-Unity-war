@@ -2,7 +2,7 @@
     {
         "nid": "Elfire",
         "name": "Elfire",
-        "desc": "",
+        "desc": "A tome that casts stronger fire magic.",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -31,7 +31,7 @@
             ],
             [
                 "hit",
-                85
+                80
             ],
             [
                 "crit",
@@ -67,7 +67,7 @@
             ],
             [
                 "value",
-                1200
+                1350
             ],
             [
                 "uses",

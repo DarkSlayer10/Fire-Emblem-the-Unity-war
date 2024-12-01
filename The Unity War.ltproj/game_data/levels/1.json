@@ -109,7 +109,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "DefendVillageWait",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -133,7 +133,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "DefendVillageWait",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -425,7 +425,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "DefendWait",
+                "ai": "DefendVillageWait",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -449,7 +449,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "DefendVillageWait",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -532,7 +532,42 @@
                 "generic": true
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "Visit_TopLeft",
+                "region_type": "event",
+                "position": [
+                    3,
+                    4
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visit_Clinic",
+                "region_type": "event",
+                "position": [
+                    13,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            }
+        ],
         "unit_groups": [
             {
                 "nid": "CutsceneA",

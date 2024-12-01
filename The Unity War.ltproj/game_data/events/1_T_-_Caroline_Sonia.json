@@ -1,0 +1,28 @@
+[
+    {
+        "name": "T - Caroline Sonia",
+        "trigger": "on_talk",
+        "level_nid": "1",
+        "condition": "check_pair('Sonia', 'Caroline')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Caroline;Left;Sonia;Right",
+            "speak;Caroline;Sonia, there you are!",
+            "expression;Sonia;Smile",
+            "speak;Sonia;\u2028Ah, Caroline!{w}\u2028There's my favorite\u2028battle fiend!",
+            "speak;Caroline;\u2028Ha!{w} I could say the same of you!{w}\u2028What's the situation here?{w} Is there\u2028anyone else who can lend a hand?",
+            "expression;Sonia;NoSmile",
+            "speak;Sonia;\u2028I'll be honest, we're on our last leg here.{w}\u2028Most of the women and children hid indoors\u2028while the men lent a sword,{w} but they're\u2028all gone{tgm}...{tgm}{w} The monsters just keep coming.",
+            "speak;Caroline;\u2028Just keep going strong for\u2028a little while longer.{w}\u2028They'll have to run out of\u2028forces at some point.",
+            "expression;Sonia;Smile",
+            "speak;Sonia;\u2028That's right!",
+            "speak;Sonia;\u2028We've gotten through worse\u2028together and come out stronger!",
+            "multi_remove_portrait;Sonia;Caroline",
+            "remove_talk;Sonia;Caroline",
+            "remove_talk;Caroline;Sonia"
+        ],
+        "nid": "1 T - Caroline Sonia"
+    }
+]

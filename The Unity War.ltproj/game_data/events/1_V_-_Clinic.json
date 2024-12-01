@@ -1,0 +1,25 @@
+[
+    {
+        "name": "V - Clinic",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'Visit_Clinic'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;House",
+            "transition;open",
+            "add_portrait;{unit};Right",
+            "speak;{unit};\u2028The clinic's seen better days{tgm}...{tgm}{w}\u2028Let's have a look around.",
+            "remove_portrait;{unit}",
+            "give_item;{unit};Angelic_Robe",
+            "give_exp;{unit};25",
+            "transition;close",
+            "change_background",
+            "transition;open"
+        ],
+        "nid": "1 V - Clinic"
+    }
+]

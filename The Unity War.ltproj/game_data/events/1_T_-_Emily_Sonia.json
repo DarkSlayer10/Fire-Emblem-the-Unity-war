@@ -1,0 +1,25 @@
+[
+    {
+        "name": "T - Emily Sonia",
+        "trigger": "on_talk",
+        "level_nid": "1",
+        "condition": "check_pair('Sonia', 'Emily')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Emily;Left;Sonia;Right",
+            "speak;Sonia;\u2028Well, look at this little girl fight!{w}\u2028I always love the fire in your eyes, kid!",
+            "speak;Emily;\u2028These bastards killed my friends{tgm}...{tgm}{w}\u2028I'm going to clean the streets\u2028with their blood{tgm}...",
+            "expression;Sonia;Smile",
+            "speak;Sonia;\u2028I love the spirit, I really do!{w}\u2028You remind me of myself at your age,\u2028but maybe dial it back a bit.{w}{c:expression;Sonia;NoSmile}\u2028You won't be any good if you don't put\u2028at least some thought into your attack.",
+            "speak;Emily;\u2028Now you're starting to\u2028sound like Emma and Mom.",
+            "speak;Sonia;\u2028Maybe they've got a point.{w}\u2028One day you'll find out that all arm\u2028and no head is going to end up messy.{w}\u2028Just keep your temper in check.",
+            "speak;Emily;\u2028Bleh, fine.",
+            "multi_remove_portrait;Emily;Sonia",
+            "remove_talk;Emily;Sonia",
+            "remove_talk;Sonia;Emily"
+        ],
+        "nid": "1 T - Emily Sonia"
+    }
+]

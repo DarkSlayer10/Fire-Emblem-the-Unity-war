@@ -1,0 +1,37 @@
+[
+    {
+        "name": "V - Top Left",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'Visit_TopLeft'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;House",
+            "transition;open",
+            "add_portrait;{unit};Right",
+            "speak;{unit};\u2028Our home{tgm}...{tgm}\u2028There's gotta be\u2028something here.",
+            "remove_portrait;{unit}",
+            "if;unit.nid == 'Emma'",
+            "    give_item;{unit};Elfire",
+            "elif;unit.nid == 'Emily'",
+            "    give_item;{unit};Short_Bow",
+            "elif;unit.nid == 'Caroline'",
+            "    give_item;{unit};Lancereaver",
+            "elif;unit.nid == 'Sonia'",
+            "    give_item;{unit};Swordreaver",
+            "elif;unit.nid == 'Lily'",
+            "    give_item;{unit};Divine",
+            "elif;unit.nid == 'Marica'",
+            "    give_item;{unit};Killer_Lance",
+            "end",
+            "give_exp;{unit};25",
+            "transition;close",
+            "change_background",
+            "transition;open"
+        ],
+        "nid": "1 V - Top Left"
+    }
+]

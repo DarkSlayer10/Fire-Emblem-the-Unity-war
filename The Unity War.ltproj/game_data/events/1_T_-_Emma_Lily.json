@@ -1,0 +1,25 @@
+[
+    {
+        "name": "T - Emma Lily",
+        "trigger": "on_talk",
+        "level_nid": "1",
+        "condition": "check_pair('Emma', 'Lily')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Emma;Left;Lily;Right",
+            "speak;Emma;\u2028I can't believe what's\u2028happened here{tgm}...{tgm}{w}\u2028It feels like one of my\u2028nightmares came to life{tgm}...",
+            "speak;Lily;\u2028Stay strong, Emma.{w}\u2028I know how you feel,\u2028but you need to focus.{w}\u2028There'll be time to mourn\u2028once the dust has settled.",
+            "speak;Emma;\u2028Yeah, you're right{tgm}...",
+            "speak;Lily;\u2028Remember what we talk about.{w}\u2028Be smart enough to survive today{tgm}...",
+            "speak;Emma;\u2028...{tgm}and strong enough\u2028to survive tomorrow.;no_talk",
+            "speak;Lily;\u2028That's right.{w}\u2028We can talk more after\u2028our work here is done.",
+            "speak;Emma;...;no_talk",
+            "multi_remove_portrait;Emma;Lily",
+            "remove_talk;Emma;Lily",
+            "remove_talk;Lily;Emma"
+        ],
+        "nid": "1 T - Emma Lily"
+    }
+]

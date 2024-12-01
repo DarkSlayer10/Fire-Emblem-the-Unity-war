@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                1800
+                3000
             ],
             [
                 "target_enemy",
@@ -31,15 +31,15 @@
             ],
             [
                 "damage",
-                9
+                7
             ],
             [
                 "hit",
-                75
+                80
             ],
             [
                 "crit",
-                5
+                0
             ],
             [
                 "weight",
@@ -55,11 +55,11 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "D"
             ],
             [
                 "uses",
-                15
+                25
             ],
             [
                 "uses_options",

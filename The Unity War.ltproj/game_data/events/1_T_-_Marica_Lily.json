@@ -1,0 +1,28 @@
+[
+    {
+        "name": "T - Marica Lily",
+        "trigger": "on_talk",
+        "level_nid": "1",
+        "condition": "check_pair('Marica', 'Lily')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Lily;Right;Marica;Left",
+            "speak;Marica;\u2028Gosh{tgm}...",
+            "speak;Marica;\u2028I haven't even been with the village\u2028guard for a month,{w} and the place has\u2028already been completely destroyed{tgm}...{tgm}{w}\u2028What a great recruit I ended up being{tgm}...",
+            "speak;Lily;...;no_talk",
+            "speak;Marica;\u2028What was the point of\u2028me joining anyway{tgm}...{tgm}?{w}\u2028I wasn't strong enough to\u2028help drive the monsters back{tgm}...{tgm}{w}\u2028I couldn't save anyone-",
+            "speak;Lily;Stop it.",
+            "speak;Lily;\u2028Talking yourself down\u2028isn't going to help anyone.{w}\u2028No amount of beating yourself up\u2028is going to turn back time,{w}\u2028so stop it.",
+            "speak;Marica;...{tgm}You're right.;no_talk",
+            "speak;Marica;\u2028Nobody would've wanted to\u2028see me drag my heels anyway.{w}\u2028I should keep my head held\u2028high for them!{w}\u2028Thanks for the talk, Lily.{w}\u2028Let's go avenge our friends!",
+            "speak;Lily;\u2028I meant that it would bring down\u2028her performance,{w} but whatever\u2028keeps her alive{tgm}...",
+            "multi_remove_portrait;Marica;Lily",
+            "remove_talk;Lily;Marica",
+            "remove_talk;Marica;Lily",
+            "give_exp;Lily;25"
+        ],
+        "nid": "1 T - Marica Lily"
+    }
+]

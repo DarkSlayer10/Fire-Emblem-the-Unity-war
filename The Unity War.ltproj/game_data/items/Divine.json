@@ -2,7 +2,7 @@
     {
         "nid": "Divine",
         "name": "Divine",
-        "desc": "",
+        "desc": "Heavier light magic.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                8
+                10
             ],
             [
                 "hit",
-                85
+                95
             ],
             [
                 "weapon_type",
@@ -43,7 +43,7 @@
             ],
             [
                 "uses",
-                25
+                30
             ],
             [
                 "uses_options",
@@ -54,15 +54,15 @@
             ],
             [
                 "weight",
-                12
+                8
             ],
             [
                 "crit",
-                10
+                0
             ],
             [
                 "value",
-                2500
+                2400
             ],
             [
                 "min_range",
