@@ -133,5 +133,15 @@
         "Player Phase 2",
         true,
         false
+    ],
+    [
+        "Into the Shadow of Triumph",
+        false,
+        false
+    ],
+    [
+        "Triumph",
+        false,
+        false
     ]
 ]

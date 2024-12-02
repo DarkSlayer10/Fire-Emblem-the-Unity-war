@@ -22,11 +22,11 @@
                 null
             ],
             [
-                "unit_tint",
+                "unit_flickering_tint",
                 [
-                    186,
-                    239,
-                    221
+                    145,
+                    218,
+                    212
                 ]
             ]
         ]

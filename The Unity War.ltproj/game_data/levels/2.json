@@ -1,7 +1,7 @@
 [
     {
-        "nid": "1",
-        "name": "Desperate Hopes",
+        "nid": "2",
+        "name": "FILLER",
         "tilemap": "Desperate Hopes",
         "bg_tilemap": "Prologue",
         "party": "Emma",
@@ -636,67 +636,7 @@
                 "interrupt_move": false
             }
         ],
-        "unit_groups": [
-            {
-                "nid": "CutsceneA",
-                "units": [
-                    "Emma",
-                    "Emily",
-                    "Caroline"
-                ],
-                "positions": {
-                    "Emma": [
-                        1,
-                        5
-                    ],
-                    "Caroline": [
-                        2,
-                        6
-                    ],
-                    "Emily": [
-                        1,
-                        7
-                    ]
-                }
-            },
-            {
-                "nid": "CutsceneB",
-                "units": [
-                    "Lily",
-                    "Marica",
-                    "Emma",
-                    "Emily",
-                    "Caroline",
-                    "Sonia"
-                ],
-                "positions": {
-                    "Lily": [
-                        11,
-                        5
-                    ],
-                    "Marica": [
-                        14,
-                        4
-                    ],
-                    "Emma": [
-                        12,
-                        4
-                    ],
-                    "Emily": [
-                        13,
-                        5
-                    ],
-                    "Caroline": [
-                        15,
-                        5
-                    ],
-                    "Sonia": [
-                        17,
-                        14
-                    ]
-                }
-            }
-        ],
+        "unit_groups": [],
         "ai_groups": []
     }
 ]
