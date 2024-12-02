@@ -32,6 +32,10 @@
             [
                 "max_range",
                 2
+            ],
+            [
+                "level_exp",
+                null
             ]
         ]
     }

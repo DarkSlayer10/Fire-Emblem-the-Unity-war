@@ -8,10 +8,10 @@
         "only_once": false,
         "priority": 99,
         "_source": [
-            "for;WAITER;[x.nid for x in game.get_enemy_units() if x.ai == 'DefendWait']",
+            "for;WAITER;[x.nid for x in game.get_enemy_units() if x.ai == 'PursueWait']",
             "    change_ai;{WAITER};Pursue",
             "endf",
-            "for;WAITER;[x.nid for x in game.get_enemy_units() if x.ai == 'DefendVillageWait']",
+            "for;WAITER;[x.nid for x in game.get_enemy_units() if x.ai == 'PursueVillageWait']",
             "    change_ai;{WAITER};PursueVillage",
             "endf"
         ],

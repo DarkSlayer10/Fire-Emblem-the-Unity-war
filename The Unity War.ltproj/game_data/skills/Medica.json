@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Medica",
+        "name": "Medica",
+        "desc": "+5 to healing granted.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            12,
+            37
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "empower_heal",
+                "5"
+            ]
+        ]
+    }
+]

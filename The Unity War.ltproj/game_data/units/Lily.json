@@ -64,7 +64,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Voice_of_Peace"
+            ],
+            [
+                1,
+                "Medica"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [

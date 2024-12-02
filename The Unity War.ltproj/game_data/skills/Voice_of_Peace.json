@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Voice_of_Peace",
+        "name": "Voice of Peace",
+        "desc": "Enemies within 3 tiles deal -2 damage.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            6,
+            38
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "aura",
+                "Voice_of_Peace_A"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "enemy"
+            ]
+        ]
+    }
+]

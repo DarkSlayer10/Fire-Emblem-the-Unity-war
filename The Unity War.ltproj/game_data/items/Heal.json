@@ -10,8 +10,8 @@
         ],
         "components": [
             [
-                "spell",
-                null
+                "item_prefab",
+                "Platonic_Staff"
             ],
             [
                 "value",
@@ -28,10 +28,6 @@
             [
                 "max_range",
                 1
-            ],
-            [
-                "weapon_type",
-                "Staff"
             ],
             [
                 "weapon_rank",

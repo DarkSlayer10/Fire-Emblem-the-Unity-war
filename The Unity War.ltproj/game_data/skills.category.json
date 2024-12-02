@@ -15,6 +15,7 @@
     "Locktouch": "Class and General Skills",
     "Magic_Missile": "Personal Skills",
     "Magic_Missile_P": "Personal Skills",
+    "Medica": "Personal Skills",
     "Mountain": "Terrain",
     "NoAvoid": "Terrain",
     "Peak": "Terrain",
@@ -27,5 +28,8 @@
     "Sol_P": "Class and General Skills",
     "Steal": "Class and General Skills",
     "Supply": "Class and General Skills",
-    "Throne": "Terrain"
+    "Throne": "Terrain",
+    "Voice_of_Peace": "Personal Skills",
+    "Voice_of_Peace_A": "Personal Skills",
+    "Wild_Blow": "Personal Skills"
 }
