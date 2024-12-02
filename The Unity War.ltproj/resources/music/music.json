@@ -128,5 +128,10 @@
         "Main Theme",
         true,
         false
+    ],
+    [
+        "Player Phase 2",
+        true,
+        false
     ]
 ]

@@ -11,6 +11,7 @@
             "chapter_title",
             "change_background;BlackBackground",
             "transition;close",
+            "enable_convoy;t",
             "change_background;TempleEntrance",
             "transition;open",
             "add_portrait;Darkslayer;Left",

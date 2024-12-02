@@ -2,7 +2,7 @@
     {
         "nid": "Wild_Blow",
         "name": "Wild Blow",
-        "desc": "When attacking, +3 damage/AS.\nWhen defending, -3 Def/Res/AS.",
+        "desc": "When attacking, +3 damage/AS.\nWhen defending, -3 damage taken/AS.",
         "icon_nid": "skill_icons",
         "icon_index": [
             0,
@@ -22,25 +22,16 @@
                 "3 if mode == 'attack' else 0"
             ],
             [
+                "dynamic_resist",
+                "-3 if mode != 'attack' else 0"
+            ],
+            [
                 "dynamic_attack_speed",
                 "3 if mode == 'attack' else -3"
             ],
             [
                 "dynamic_defense_speed",
                 "3 if mode == 'attack' else -3"
-            ],
-            [
-                "stat_change_expression",
-                [
-                    [
-                        "DEF",
-                        "-3 if mode != 'attack' else 0"
-                    ],
-                    [
-                        "RES",
-                        "-3 if mode != 'attack' else 0"
-                    ]
-                ]
             ]
         ]
     }

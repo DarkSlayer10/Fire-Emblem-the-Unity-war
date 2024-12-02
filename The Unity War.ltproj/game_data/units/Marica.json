@@ -64,11 +64,16 @@
                 false
             ],
             [
-                "Slim_Sword",
+                "Trainee_Seal",
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Beginners_Pride"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [

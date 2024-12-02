@@ -70,7 +70,8 @@
             "add_talk;Caroline;Sonia",
             "add_talk;Sonia;Caroline",
             "add_talk;Marica;Lily",
-            "add_talk;Lily;Marica"
+            "add_talk;Lily;Marica",
+            "autolevel_to;118;-7;hidden"
         ],
         "nid": "1 0 - Intro"
     }

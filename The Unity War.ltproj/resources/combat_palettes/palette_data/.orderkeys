@@ -125,7 +125,6 @@
     "Sage5_GenericBlue",
     "Cleric7_Prim",
     "Cleric7_Tamiko",
-    "Archer6_Nia",
     "Sniper6_GenericBlue",
     "Sniper6_Nia",
     "WindRings_Image",
@@ -254,7 +253,7 @@
     "MercenaryF",
     "Khan",
     "ArcherF",
-    "MageF",
+    "MageF_Red",
     "Sister",
     "FighterF",
     "Recruit",
@@ -274,5 +273,6 @@
     "CrimsonEyeCurtain_Image",
     "CrimsonEyeFlash_Image",
     "CrimsonEyeSpark_Image",
-    "CrimsonEyeSpheres_Image"
+    "CrimsonEyeSpheres_Image",
+    "New_Palette"
 ]

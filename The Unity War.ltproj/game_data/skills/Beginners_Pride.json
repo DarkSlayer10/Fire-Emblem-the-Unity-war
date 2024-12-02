@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Beginners_Pride",
+        "name": "Beginner's Pride",
+        "desc": "+2 damage when foe cannot counter.\n-2 damage taken when not countering.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            14,
+            42
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "2 if mode == 'attack' and not combat_calcs.can_counterattack(unit, item, unit2, item2) else 0"
+            ],
+            [
+                "dynamic_resist",
+                "2 if mode != 'attack' and not combat_calcs.can_counterattack(unit2, item2, unit, item) else 0"
+            ]
+        ]
+    }
+]
