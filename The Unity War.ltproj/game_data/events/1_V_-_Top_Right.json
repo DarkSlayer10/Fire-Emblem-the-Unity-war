@@ -17,7 +17,8 @@
             "give_exp;{unit};25",
             "transition;close",
             "change_background",
-            "transition;open"
+            "transition;open",
+            "show_layer;topright"
         ],
         "nid": "1 V - Top Right"
     }

@@ -3,7 +3,7 @@
         "name": "V - Center",
         "trigger": "Visit",
         "level_nid": "1",
-        "condition": "region.nid == 'Visit_BottomLeft'",
+        "condition": "region.nid == 'Visit_Center'",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -17,7 +17,8 @@
             "give_item;{unit};Steel_Bow",
             "transition;close",
             "change_background",
-            "transition;open"
+            "transition;open",
+            "show_layer;center"
         ],
         "nid": "1 V - Center"
     }

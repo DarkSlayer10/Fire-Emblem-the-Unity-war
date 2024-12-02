@@ -3,7 +3,7 @@
         "name": "V - Armory",
         "trigger": "Visit",
         "level_nid": "1",
-        "condition": "region.nid == 'Visit_Clinic'",
+        "condition": "region.nid == 'Visit_Armory'",
         "commands": [],
         "only_once": true,
         "priority": 20,
