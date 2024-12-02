@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Medica",
-        "name": "Medica",
-        "desc": "+5 to healing granted.",
+        "nid": "Vitalizer",
+        "name": "Vitalizer",
+        "desc": "When using staff on ally, target\nregains 30% max HP next turn.",
         "icon_nid": "skill_icons",
         "icon_index": [
             12,
@@ -18,8 +18,12 @@
                 null
             ],
             [
-                "empower_heal",
-                "5"
+                "give_ally_status_after_combat",
+                "Vitalizer_S"
+            ],
+            [
+                "condition",
+                "item_system.weapon_type(unit, item) == 'Staff'"
             ]
         ]
     }

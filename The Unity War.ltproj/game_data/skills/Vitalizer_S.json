@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Vitalizer_S",
+        "name": "Regenerate",
+        "desc": "Gain 30% HP at start of turn.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            12,
+            37
+        ],
+        "components": [
+            [
+                "regeneration",
+                0.3
+            ],
+            [
+                "time",
+                1
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ],
+            [
+                "unit_tint",
+                [
+                    186,
+                    239,
+                    221
+                ]
+            ]
+        ]
+    }
+]

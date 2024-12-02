@@ -658,6 +658,43 @@
                         7
                     ]
                 }
+            },
+            {
+                "nid": "CutsceneB",
+                "units": [
+                    "Lily",
+                    "Marica",
+                    "Emma",
+                    "Emily",
+                    "Caroline",
+                    "Sonia"
+                ],
+                "positions": {
+                    "Lily": [
+                        11,
+                        5
+                    ],
+                    "Marica": [
+                        14,
+                        4
+                    ],
+                    "Emma": [
+                        12,
+                        4
+                    ],
+                    "Emily": [
+                        13,
+                        5
+                    ],
+                    "Caroline": [
+                        15,
+                        5
+                    ],
+                    "Sonia": [
+                        14,
+                        6
+                    ]
+                }
             }
         ],
         "ai_groups": []

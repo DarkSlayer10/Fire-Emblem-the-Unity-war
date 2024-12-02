@@ -1,7 +1,7 @@
 [
     {
         "nid": "Beginners_Pride",
-        "name": "Beginner's Pride",
+        "name": "Beginner's \"Pride\"",
         "desc": "+2 damage when foe cannot counter.\n-2 damage taken when not countering.",
         "icon_nid": "skill_icons",
         "icon_index": [

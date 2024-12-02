@@ -25,6 +25,10 @@
             [
                 "combined_time",
                 4
+            ],
+            [
+                "lost_on_end_chapter",
+                null
             ]
         ]
     }

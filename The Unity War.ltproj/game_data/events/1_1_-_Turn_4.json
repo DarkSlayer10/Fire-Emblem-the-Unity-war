@@ -1,0 +1,15 @@
+[
+    {
+        "name": "1 - Turn 4",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_ai;118;Pursue"
+        ],
+        "nid": "1 1 - Turn 4"
+    }
+]

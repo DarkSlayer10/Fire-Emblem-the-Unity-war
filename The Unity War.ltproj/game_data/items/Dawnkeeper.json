@@ -1,11 +1,11 @@
 [
     {
-        "nid": "Fire",
-        "name": "Fire",
-        "desc": "A tome that shoots fire.",
-        "icon_nid": "Anima",
+        "nid": "Dawnkeeper",
+        "name": "Dawnkeeper",
+        "desc": "Emma only. Eff. vs Monsters.\nInvert wep. triangle.",
+        "icon_nid": "InHouse and Filler Icons",
         "icon_index": [
-            0,
+            3,
             0
         ],
         "components": [
@@ -14,24 +14,24 @@
                 "Platonic_Anima"
             ],
             [
-                "weapon_rank",
-                "E"
-            ],
-            [
                 "damage",
-                5
+                11
             ],
             [
                 "hit",
-                90
+                85
             ],
             [
                 "crit",
-                0
+                5
             ],
             [
                 "weight",
                 6
+            ],
+            [
+                "reaver",
+                null
             ],
             [
                 "uses",
@@ -51,6 +51,16 @@
                     96,
                     0
                 ]
+            ],
+            [
+                "prf_unit",
+                [
+                    "Emma"
+                ]
+            ],
+            [
+                "wexp",
+                2
             ]
         ]
     }

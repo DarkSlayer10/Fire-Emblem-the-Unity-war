@@ -22,7 +22,7 @@
             "change_background;VillageSunset",
             "transition;open",
             "multi_add_portrait;Sonia;Left;Marica;Right",
-            "speak;Marica;\u2028Shit{tgm}...{tgm} We're surrounded\u2028by the undead{tgm}...",
+            "speak;Sonia;\u2028Shit... We're surrounded\u2028by the undead...;;;thought_bubble;no_talk",
             "speak;Sonia;\u2028Don't worry guys, we just need to hold them\u2028off until Caroline comes back with the girls.",
             "speak;Marica;\u2028Yeah, you're right!{w}\u2028Let's send those undead\u2028back to their graves!{w}\u2028Caroline should be back\u2028at any moment!",
             "speak;Sonia;\u2028That's the spirit!{w}\u2028Lily, just stay behind me!",
