@@ -27,6 +27,29 @@
         "tags": [],
         "units": [
             {
+                "nid": "Barret",
+                "team": "enemy",
+                "ai": "PursueVillage",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Sydnie",
+                "team": "enemy",
+                "ai": "DefendBoss",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "101",
                 "variant": null,
                 "level": 3,
@@ -504,7 +527,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "PursueVillageWait",
+                "ai": "PursueWait",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [

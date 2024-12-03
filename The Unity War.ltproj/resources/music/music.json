@@ -148,5 +148,10 @@
         "Player Phase 2",
         true,
         false
+    ],
+    [
+        "A Moment of Pain",
+        false,
+        false
     ]
 ]

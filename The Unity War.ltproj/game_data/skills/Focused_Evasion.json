@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Focused_Evasion",
+        "name": "Focused Evasion",
+        "desc": "+30 avoid when unable to counter.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            4,
+            11
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "dynamic_avoid",
+                "30 if mode != 'attack' and not combat_calcs.can_counterattack(unit2, item2, unit, item) else 0"
+            ]
+        ]
+    }
+]

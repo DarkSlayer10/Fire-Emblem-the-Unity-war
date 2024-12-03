@@ -29,7 +29,13 @@
             "speak;Carson;\u2028She's not always like this.{w}\u2028She's just had a rough childhood\u2028and gets antsy around strangers.",
             "speak;Emma;\u2028I{tgm}...{tgm}know what it's like.{w}\u2028What happened to her?",
             "speak;Carson;\u2028I have no clue, honestly.{w}\u2028I asked her about it once but\u2028she didn't want to talk about it.{w}\u2028She's a tough oyster to open.",
-            "multi_remove_portrait;Emma;Carson"
+            "multi_remove_portrait;Emma;Carson",
+            "transition;close",
+            "music_clear;400",
+            "center_cursor;9,4;immediate",
+            "change_background",
+            "transition;open",
+            "add_unit;Barret;9,4"
         ],
         "nid": "2 0 - Intro"
     }

@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Swordbreaker",
+        "name": "Swordbreaker",
+        "desc": "+50 hit/avoid vs. swords.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            0,
+            28
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "dynamic_accuracy",
+                "50 if item_system.weapon_type(unit2, item2) == 'Sword' else 0"
+            ],
+            [
+                "dynamic_avoid",
+                "50 if item_system.weapon_type(unit2, item2) == 'Sword' else 0"
+            ]
+        ]
+    }
+]
