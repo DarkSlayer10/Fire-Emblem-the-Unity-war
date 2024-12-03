@@ -1,23 +1,23 @@
 [
     {
         "nid": "2",
-        "name": "FILLER",
+        "name": "Desperate Hopes",
         "tilemap": "Opportunity Rises",
         "bg_tilemap": "Prologue",
         "party": "Emma",
         "music": {
-            "player_phase": "Player Phase 2",
+            "player_phase": "Player Phase 3",
             "enemy_phase": "Enemy Phase",
-            "other_phase": "Player Phase",
+            "other_phase": null,
             "enemy2_phase": null,
             "player_battle": "Battle",
             "enemy_battle": "Enemy Battle",
-            "other_battle": "Battle",
+            "other_battle": null,
             "enemy2_battle": null
         },
         "objective": {
-            "simple": "Rout",
-            "win": "Rout",
+            "simple": "Defeat all bandits",
+            "win": "Defeat enemy",
             "loss": "Emma or Emily dies"
         },
         "roam": false,

@@ -6,9 +6,9 @@
         "bg_tilemap": "Prologue",
         "party": "Emma",
         "music": {
-            "player_phase": "Player Phase 2",
+            "player_phase": null,
             "enemy_phase": "Enemy Phase",
-            "other_phase": "Player Phase",
+            "other_phase": null,
             "enemy2_phase": null,
             "player_battle": "Battle",
             "enemy_battle": "Enemy Battle",

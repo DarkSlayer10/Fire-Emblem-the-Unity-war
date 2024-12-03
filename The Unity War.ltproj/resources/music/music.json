@@ -130,7 +130,7 @@
         false
     ],
     [
-        "Player Phase 2",
+        "Player Phase 3",
         true,
         false
     ],
@@ -142,6 +142,11 @@
     [
         "Triumph",
         false,
+        false
+    ],
+    [
+        "Player Phase 2",
+        true,
         false
     ]
 ]
