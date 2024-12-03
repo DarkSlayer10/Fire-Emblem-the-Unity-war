@@ -2,9 +2,9 @@
     {
         "nid": "Lancer",
         "name": "Lancer",
-        "desc": "Mounted knights wielding lances.",
+        "desc": "Lance-wielding cavalry.",
         "tier": 1,
-        "movement_group": "Heavy Cav",
+        "movement_group": "Light Cav",
         "promotes_from": null,
         "turns_into": [
             "Paladin",

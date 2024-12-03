@@ -265,5 +265,8 @@
     "Brigand",
     "SoldierF",
     "Pirate",
-    "Mercenary"
+    "Mercenary",
+    "Thug",
+    "Cavalier",
+    "CavalierF"
 ]
