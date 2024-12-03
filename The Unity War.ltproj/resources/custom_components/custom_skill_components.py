@@ -26,7 +26,7 @@ class CostUses(SkillComponent):
     ignore_conditional = True
 
     def condition(self, unit, item):
-        return item.data.get('uses', 999) >= self.value
+        return item and item.data.get('uses', 999) >= self.value
             
     def after_strike(self, actions, playback, unit, item, target, item2, mode, attack_info, strike):
         if self.skill.data.get('active'):

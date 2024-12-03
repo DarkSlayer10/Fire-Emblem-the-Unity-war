@@ -13,7 +13,10 @@
             "endf",
             "for;WAITER;[x.nid for x in game.get_enemy_units() if x.ai == 'PursueVillageWait']",
             "    change_ai;{WAITER};PursueVillage",
-            "endf"
+            "endf",
+            "if;u('Nicole') and u('Nicole').traveler",
+            "    set_current_hp;{e:u('Nicole').traveler};{e:u(u('Nicole').traveler).get_max_hp * 3 // 10}",
+            "end"
         ],
         "nid": "Global Z - Turn Change Late"
     }

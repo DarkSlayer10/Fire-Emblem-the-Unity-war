@@ -1,0 +1,71 @@
+[
+    {
+        "nid": "Carson",
+        "name": "Carson",
+        "desc": "A war veteran thief and devoted\nhusband to Nicole. Easily angered.",
+        "variant": null,
+        "level": 3,
+        "klass": "Thief",
+        "tags": [],
+        "bases": {
+            "HP": 24,
+            "STR": 9,
+            "SKL": 8,
+            "SPD": 9,
+            "DEF": 4,
+            "RES": 2,
+            "LCK": 8,
+            "MAG": 1,
+            "CON": 10,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 50,
+            "SKL": 50,
+            "SPD": 55,
+            "DEF": 35,
+            "RES": 20,
+            "LCK": 55,
+            "MAG": 5,
+            "CON": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Iron_Dagger",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ],
+            [
+                "Steel_Sword",
+                false
+            ],
+            [
+                "Body_Ring",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Borrowing"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                31,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Carson",
+        "affinity": "Anima",
+        "fields": []
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "A - Saving Grace",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_unit;{unit2}",
+            "pair_up;{unit2};{unit}",
+            "set_item_uses;{unit};{item};-1;additive"
+        ],
+        "nid": "Global A - Saving Grace"
+    }
+]

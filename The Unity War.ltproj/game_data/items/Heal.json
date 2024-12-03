@@ -35,7 +35,7 @@
             ],
             [
                 "uses",
-                30
+                40
             ],
             [
                 "uses_options",
@@ -50,7 +50,7 @@
             ],
             [
                 "wexp",
-                2
+                1
             ],
             [
                 "map_hit_add_blend",

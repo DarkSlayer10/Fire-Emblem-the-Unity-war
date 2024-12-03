@@ -2,7 +2,7 @@
     {
         "nid": "Thief",
         "name": "Thief",
-        "desc": "Expert in stealth and subterfuge. Possess weak attacks but many other skills.",
+        "desc": "Swift operatives wielding swords.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -15,13 +15,13 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 16,
-            "STR": 3,
-            "MAG": 3,
-            "SKL": 1,
+            "HP": 18,
+            "STR": 4,
+            "MAG": 1,
+            "SKL": 4,
             "SPD": 9,
             "LCK": 0,
-            "DEF": 2,
+            "DEF": 3,
             "RES": 0,
             "CON": 6,
             "MOV": 6,
@@ -29,7 +29,7 @@
         },
         "growths": {
             "HP": 50,
-            "STR": 5,
+            "STR": 50,
             "MAG": 5,
             "SKL": 45,
             "SPD": 40,
@@ -82,7 +82,7 @@
         "learned_skills": [
             [
                 1,
-                "Steal"
+                "Locktouch"
             ]
         ],
         "wexp_gain": {
@@ -111,12 +111,12 @@
                 0,
                 251
             ],
-            "Light": [
+            "Anima": [
                 false,
                 0,
                 251
             ],
-            "Anima": [
+            "Light": [
                 false,
                 0,
                 251
@@ -125,6 +125,16 @@
                 false,
                 0,
                 251
+            ],
+            "Stone": [
+                false,
+                0,
+                null
+            ],
+            "Monster": [
+                false,
+                0,
+                null
             ],
             "Default": [
                 false,

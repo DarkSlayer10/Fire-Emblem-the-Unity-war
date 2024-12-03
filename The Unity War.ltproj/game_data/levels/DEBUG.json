@@ -98,14 +98,14 @@
                 "generic": false
             },
             {
-                "nid": "Maya",
+                "nid": "Nicole",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    2,
-                    2
+                    4,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false

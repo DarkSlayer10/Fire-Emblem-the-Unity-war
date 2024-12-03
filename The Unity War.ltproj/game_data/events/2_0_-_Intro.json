@@ -1,0 +1,36 @@
+[
+    {
+        "name": "0 - Intro",
+        "trigger": "level_start",
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "chapter_title",
+            "change_background;BlackBackground",
+            "speak;;\u2028Emily and Emma head to\u2028their mother's hideout\u2028in the mountaintops.{w}\u2028On their way to a\u2028nearby village,{w} the\u2028small group comes\u2028across a married\u2028couple on patrol.;;;hint",
+            "transition;close",
+            "change_background;Clearing",
+            "transition;open",
+            "multi_add_portrait;Emma;Left;Nicole;FarRight;Carson;MidRight",
+            "speak;Emma;\u2028...and that's what happened to our village.{w}\u2028Right now, we're headed to one of my mother's\u2028hideouts to gather allies and supplies.",
+            "speak;Carson;\u2028Hmm{tgm}...{tgm} You should come back\u2028to our village to rest a spell.{w}\u2028If this demon army is on some kind\u2028of campaign, we'll need to prepare,{w}\u2028and you would be more than welcome\u2028after warning us in advance.",
+            "speak;Nicole;\u2028Um. Carson, sugar?",
+            "speak;Carson;\u2028Hm? Yes, Nicole?",
+            "speak;Nicole;\u2028I-I'm gonna scout ahead.{w}\u2028I-I just have a bad\u2028feelin' in my stomach.",
+            "speak;Carson;\u2028The last time you said that,\u2028you were just hungry, but{tgm}...{tgm}{w}\u2028Be careful, honey.",
+            "speak;Emma;\u2028We can wait for your return\u2028and then head into town.",
+            "speak;Nicole;\u2028Y-yes, Emma, th-that sounds good.{w}\u2028C-Carson, darlin'{tgm}...{tgm} I'll be back!",
+            "speak;Nicole;Alright, Nicole, don't be a scaredy cat...;;;thought_bubble;no_talk",
+            "remove_portrait;Nicole",
+            "speak;Emma;\u2028Why is she so nervous?{w}\u2028It seems like you're married\u2028to a bundle of nerves.",
+            "speak;Carson;\u2028She's not always like this.{w}\u2028She's just had a rough childhood\u2028and gets antsy around strangers.",
+            "speak;Emma;\u2028I{tgm}...{tgm}know what it's like.{w}\u2028What happened to her?",
+            "speak;Carson;\u2028I have no clue, honestly.{w}\u2028I asked her about it once but\u2028she didn't want to talk about it.{w}\u2028She's a tough oyster to open.",
+            "multi_remove_portrait;Emma;Carson"
+        ],
+        "nid": "2 0 - Intro"
+    }
+]

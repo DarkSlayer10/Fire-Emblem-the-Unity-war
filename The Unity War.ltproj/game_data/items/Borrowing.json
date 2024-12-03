@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "Borrowing",
+        "name": "\"Borrowing\"",
+        "desc": "Nab a weapon or item.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            5,
+            23
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "exp",
+                15
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "steal_plus",
+                null
+            ],
+            [
+                "map_hit_sfx",
+                "Unsheathe"
+            ]
+        ]
+    }
+]

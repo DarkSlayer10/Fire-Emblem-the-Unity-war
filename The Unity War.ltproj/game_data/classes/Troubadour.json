@@ -2,40 +2,41 @@
     {
         "nid": "Troubadour",
         "name": "Troubadour",
-        "desc": "Kind-hearted healers.",
+        "desc": "Maidens who wield staves from\nhorseback. Equip: Staves.",
         "tier": 1,
-        "movement_group": "Heavy Cav",
+        "movement_group": "Light Cav",
         "promotes_from": null,
         "turns_into": [
             "Valkyrie"
         ],
         "tags": [
             "Horse",
-            "Mounted"
+            "Mounted",
+            "Female"
         ],
         "max_level": 20,
         "bases": {
-            "HP": 15,
-            "STR": 0,
-            "MAG": 1,
+            "HP": 16,
+            "STR": 2,
+            "MAG": 0,
             "SKL": 1,
-            "SPD": 3,
+            "SPD": 0,
             "LCK": 0,
             "DEF": 2,
-            "RES": 5,
-            "CON": 5,
-            "MOV": 6,
+            "RES": 2,
+            "CON": 8,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
-            "HP": 50,
-            "STR": 0,
-            "MAG": 25,
-            "SKL": 35,
-            "SPD": 55,
-            "LCK": 45,
-            "DEF": 12,
-            "RES": 40,
+            "HP": 60,
+            "STR": 50,
+            "MAG": 45,
+            "SKL": 45,
+            "SPD": 50,
+            "LCK": 40,
+            "DEF": 50,
+            "RES": 30,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -111,12 +112,12 @@
                 31,
                 251
             ],
-            "Light": [
+            "Anima": [
                 false,
                 0,
                 251
             ],
-            "Anima": [
+            "Light": [
                 false,
                 0,
                 251
@@ -125,6 +126,16 @@
                 false,
                 0,
                 251
+            ],
+            "Stone": [
+                false,
+                0,
+                null
+            ],
+            "Monster": [
+                false,
+                0,
+                null
             ],
             "Default": [
                 false,
@@ -138,7 +149,7 @@
             0
         ],
         "map_sprite_nid": "Troubadour",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Troubadour",
         "fields": []
     }
 ]

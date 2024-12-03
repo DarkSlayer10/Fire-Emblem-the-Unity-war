@@ -261,7 +261,7 @@
     },
     {
         "nid": "Stone",
-        "name": "Stone",
+        "name": "Gauntlet",
         "force_melee_anim": false,
         "rank_bonus": [],
         "advantage": [],
@@ -274,7 +274,7 @@
     },
     {
         "nid": "Monster",
-        "name": "Stone",
+        "name": "Special",
         "force_melee_anim": false,
         "rank_bonus": [],
         "advantage": [],

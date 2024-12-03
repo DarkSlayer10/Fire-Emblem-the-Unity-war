@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Saving_Grace",
+        "name": "<red>Saving Grace</>",
+        "desc": "Rescues ally after staff use.\nConsumes 2 durability.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            7,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_art",
+                "Saving_Grace_P"
+            ],
+            [
+                "drain_charge",
+                2
+            ],
+            [
+                "allowed_weapons",
+                "item_system.weapon_type(unit, item) == 'Staff' and item.data.get('uses', 999) >= 2"
+            ]
+        ]
+    }
+]

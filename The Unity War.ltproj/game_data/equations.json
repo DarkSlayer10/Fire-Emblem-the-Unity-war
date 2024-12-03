@@ -88,6 +88,10 @@
         "expression": "10 + MAG"
     },
     {
+        "nid": "MEND",
+        "expression": "20 + MAG"
+    },
+    {
         "nid": "CONSTITUTION",
         "expression": "CON"
     },

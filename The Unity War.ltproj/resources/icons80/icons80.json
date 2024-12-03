@@ -199,5 +199,9 @@
     {
         "nid": "DoogCard",
         "subicon_dict": {}
+    },
+    {
+        "nid": "BrawlerCard",
+        "subicon_dict": {}
     }
 ]

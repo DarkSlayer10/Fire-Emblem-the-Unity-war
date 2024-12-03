@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Medica",
+        "name": "Medica",
+        "desc": "Ignore rescue penalties, rescued\nunit regains 30% HP per turn.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            2,
+            48
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "ignore_rescue_penalty",
+                null
+            ],
+            [
+                "condition",
+                "unit.traveler"
+            ]
+        ]
+    }
+]
