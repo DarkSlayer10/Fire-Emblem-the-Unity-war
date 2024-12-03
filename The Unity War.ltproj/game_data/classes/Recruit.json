@@ -7,7 +7,7 @@
         "movement_group": "Regular",
         "promotes_from": null,
         "turns_into": [
-            "Cavalier",
+            "Lancer",
             "Pegasus_Knight",
             "Knight"
         ],

@@ -108,6 +108,8 @@
     "Gleipnir",
     "Naglfar",
     "Evil_Eye",
+    "Iron_Claws",
+    "Steel_Claws",
     "Fiery_Fang",
     "Hellfang",
     "Rotten_Claw",
@@ -152,6 +154,7 @@
     "Platonic_Anima",
     "Platonic_Light",
     "Platonic_Dark",
+    "Platonic_Fist",
     "Platonic_Monster",
     "OR_Uncounterable"
 ]

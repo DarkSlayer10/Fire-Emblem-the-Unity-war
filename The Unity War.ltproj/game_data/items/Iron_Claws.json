@@ -1,0 +1,57 @@
+[
+    {
+        "nid": "Iron_Claws",
+        "name": "Iron Claws",
+        "desc": "Strikes twice consecutively.",
+        "icon_nid": "InHouse and Filler Icons",
+        "icon_index": [
+            4,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Fist"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "uses",
+                60
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                360
+            ],
+            [
+                "brave",
+                null
+            ]
+        ]
+    }
+]

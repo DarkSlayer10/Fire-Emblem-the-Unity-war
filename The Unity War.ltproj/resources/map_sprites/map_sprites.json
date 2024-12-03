@@ -23,8 +23,6 @@
     "Falcoknight",
     "Journeyman",
     "Warrior",
-    "Pirate",
-    "Brigand",
     "Berserker",
     "WyvernRider",
     "WyvernLord",
@@ -86,5 +84,8 @@
     "Necromancer",
     "MautheDoog",
     "QueenBael",
-    "Brawler"
+    "Brawler",
+    "Brigand",
+    "SoldierF",
+    "Pirate"
 ]

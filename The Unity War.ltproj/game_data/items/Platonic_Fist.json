@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Platonic_Fist",
+        "name": "Platonic Fist",
+        "desc": "",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            12
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "weapon_type",
+                "Stone"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "level_exp",
+                null
+            ]
+        ]
+    }
+]

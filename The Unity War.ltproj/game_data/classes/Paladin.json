@@ -5,7 +5,7 @@
         "desc": "A title earned only by those cavaliers whose lives have been dedicated to justice.",
         "tier": 2,
         "movement_group": "Heavy Cav",
-        "promotes_from": "Cavalier",
+        "promotes_from": "Lancer",
         "turns_into": [],
         "tags": [
             "Horse",

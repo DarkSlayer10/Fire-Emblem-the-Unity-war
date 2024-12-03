@@ -2,7 +2,7 @@
     {
         "nid": "Pirate",
         "name": "Pirate",
-        "desc": "Untrained but fanatical combatant.",
+        "desc": "Tough brawlers who call the\nsea their home. Equip: Axes.",
         "tier": 1,
         "movement_group": "Pirates",
         "promotes_from": null,
@@ -12,27 +12,27 @@
         "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 19,
-            "STR": 4,
+            "HP": 22,
+            "STR": 6,
             "MAG": 0,
-            "SKL": 2,
-            "SPD": 6,
+            "SKL": 5,
+            "SPD": 7,
             "LCK": 0,
-            "DEF": 3,
-            "RES": 0,
+            "DEF": 2,
+            "RES": 1,
             "CON": 10,
             "MOV": 5,
             "LEAD": 0
         },
         "growths": {
             "HP": 75,
-            "STR": 50,
+            "STR": 40,
             "MAG": 0,
-            "SKL": 35,
-            "SPD": 25,
-            "LCK": 15,
-            "DEF": 10,
-            "RES": 13,
+            "SKL": 55,
+            "SPD": 40,
+            "LCK": 30,
+            "DEF": 15,
+            "RES": 30,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -103,12 +103,12 @@
                 0,
                 251
             ],
-            "Light": [
+            "Anima": [
                 false,
                 0,
                 251
             ],
-            "Anima": [
+            "Light": [
                 false,
                 0,
                 251
@@ -117,6 +117,16 @@
                 false,
                 0,
                 251
+            ],
+            "Stone": [
+                false,
+                0,
+                null
+            ],
+            "Monster": [
+                false,
+                0,
+                null
             ],
             "Default": [
                 false,
@@ -130,7 +140,7 @@
             0
         ],
         "map_sprite_nid": "Pirate",
-        "combat_anim_nid": "Raider",
+        "combat_anim_nid": "Pirate",
         "fields": []
     }
 ]

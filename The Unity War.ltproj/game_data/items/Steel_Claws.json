@@ -1,0 +1,57 @@
+[
+    {
+        "nid": "Steel_Claws",
+        "name": "Steel Claws",
+        "desc": "Strikes twice consecutively.",
+        "icon_nid": "InHouse and Filler Icons",
+        "icon_index": [
+            5,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Fist"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "brave",
+                null
+            ]
+        ]
+    }
+]

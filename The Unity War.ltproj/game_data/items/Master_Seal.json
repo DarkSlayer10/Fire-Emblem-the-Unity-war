@@ -37,26 +37,6 @@
                 20000
             ],
             [
-                "prf_class",
-                [
-                    "Myrmidon",
-                    "Mercenary",
-                    "Thief",
-                    "Cavalier",
-                    "Pegasus_Knight",
-                    "Knight",
-                    "Fighter",
-                    "Pirate",
-                    "Archer",
-                    "Monk",
-                    "Cleric",
-                    "Mage",
-                    "Shaman",
-                    "Troubadour",
-                    "Wyvern Rider"
-                ]
-            ],
-            [
                 "promote",
                 null
             ],
