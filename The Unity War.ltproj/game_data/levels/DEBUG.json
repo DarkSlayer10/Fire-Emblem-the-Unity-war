@@ -2,7 +2,7 @@
     {
         "nid": "DEBUG",
         "name": "DEBUG",
-        "tilemap": "Chapter 2",
+        "tilemap": "DEBUG",
         "bg_tilemap": null,
         "party": "Emma",
         "music": {
