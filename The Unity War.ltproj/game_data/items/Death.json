@@ -1,0 +1,61 @@
+[
+    {
+        "nid": "Death",
+        "name": "Death",
+        "desc": "Improved critical hit rate.",
+        "icon_nid": "InHouse and Filler Icons",
+        "icon_index": [
+            6,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Dark"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                40
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    72,
+                    0,
+                    65
+                ]
+            ],
+            [
+                "value",
+                3000
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": true,
+                    "one_loss_per_combat": false
+                }
+            ]
+        ]
+    }
+]

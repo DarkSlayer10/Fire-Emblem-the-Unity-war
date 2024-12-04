@@ -22,8 +22,11 @@
     "Medica",
     "Saving_Grace",
     "Saving_Grace_P",
+    "Eviscerate",
+    "Piercing_Blow",
     "Focused_Evasion",
     "Swordbreaker",
+    "Close_Guard",
     "Canto",
     "Flying",
     "Locktouch",
@@ -36,5 +39,6 @@
     "Snipe_P",
     "Distant_Counter",
     "Elite",
-    "Def_Down"
+    "Def_Down",
+    "Pure_Water"
 ]

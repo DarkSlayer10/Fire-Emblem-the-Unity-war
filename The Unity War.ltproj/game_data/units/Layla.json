@@ -1,0 +1,72 @@
+[
+    {
+        "nid": "Layla",
+        "name": "Layla",
+        "desc": "A dark mage that loves her research,\nas well as an artistic party girl.",
+        "variant": null,
+        "level": 2,
+        "klass": "Dark_Mage",
+        "tags": [
+            "Female"
+        ],
+        "bases": {
+            "HP": 26,
+            "STR": 4,
+            "SKL": 8,
+            "SPD": 8,
+            "DEF": 5,
+            "RES": 6,
+            "LCK": 7,
+            "MAG": 8,
+            "CON": 8,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 5,
+            "SKL": 50,
+            "SPD": 55,
+            "DEF": 40,
+            "RES": 35,
+            "LCK": 50,
+            "MAG": 55
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Flux",
+                false
+            ],
+            [
+                "Death",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ],
+            [
+                "Pure_Water",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Eviscerate"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Dark": [
+                false,
+                31,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Layla",
+        "affinity": "Dark",
+        "fields": []
+    }
+]

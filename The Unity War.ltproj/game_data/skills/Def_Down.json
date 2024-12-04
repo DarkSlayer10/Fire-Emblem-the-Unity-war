@@ -18,7 +18,7 @@
                 [
                     [
                         "DEF",
-                        "-1 * get_skill(unit, 'Wide_Open_S').data.get('turns') // 2"
+                        "-1 * get_skill(unit, 'Def_Down').data.get('turns') // 2"
                     ]
                 ]
             ],

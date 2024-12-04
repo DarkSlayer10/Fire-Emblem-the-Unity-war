@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Close_Guard",
+        "name": "Close Guard",
+        "desc": "-6 damage taken in melee combat.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            13,
+            36
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "dynamic_resist",
+                "6 if utils.calculate_distance(unit.position, unit2.position) == 1 else 0"
+            ]
+        ]
+    }
+]

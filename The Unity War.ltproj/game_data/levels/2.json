@@ -27,6 +27,49 @@
         "tags": [],
         "units": [
             {
+                "nid": "Nicole",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Layla",
+                "team": "other",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Noah",
+                "team": "other",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Noelle",
+                "team": "other",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "Barret",
                 "team": "enemy",
                 "ai": "PursueVillage",
@@ -719,7 +762,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "PursueVillageWait",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -743,7 +786,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "PursueVillageWait",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -767,7 +810,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "PursueVillageWait",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -791,7 +834,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "PursueVillageWait",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -800,6 +843,76 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Emma",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Emily",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Caroline",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Sonia",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Lily",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Marica",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Carson",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -906,7 +1019,94 @@
                 "interrupt_move": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "CutsceneA",
+                "units": [
+                    "Layla",
+                    "Noah",
+                    "Noelle"
+                ],
+                "positions": {
+                    "Layla": [
+                        5,
+                        11
+                    ],
+                    "Noah": [
+                        5,
+                        11
+                    ],
+                    "Noelle": [
+                        5,
+                        11
+                    ]
+                }
+            },
+            {
+                "nid": "CutsceneAMove",
+                "units": [
+                    "Layla",
+                    "Noah",
+                    "Noelle"
+                ],
+                "positions": {
+                    "Layla": [
+                        6,
+                        14
+                    ],
+                    "Noah": [
+                        5,
+                        13
+                    ],
+                    "Noelle": [
+                        4,
+                        14
+                    ]
+                }
+            },
+            {
+                "nid": "CutsceneB",
+                "units": [
+                    "Emma",
+                    "Emily",
+                    "Caroline",
+                    "Sonia",
+                    "Lily",
+                    "Marica",
+                    "Carson"
+                ],
+                "positions": {
+                    "Emma": [
+                        6,
+                        20
+                    ],
+                    "Emily": [
+                        13,
+                        21
+                    ],
+                    "Caroline": [
+                        7,
+                        21
+                    ],
+                    "Sonia": [
+                        10,
+                        20
+                    ],
+                    "Lily": [
+                        9,
+                        21
+                    ],
+                    "Marica": [
+                        11,
+                        21
+                    ],
+                    "Carson": [
+                        12,
+                        20
+                    ]
+                }
+            }
+        ],
         "ai_groups": [
             {
                 "nid": "",

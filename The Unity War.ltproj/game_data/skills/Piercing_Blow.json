@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Piercing_Blow",
+        "name": "Piercing Blow",
+        "desc": "+30 crit when initiating combat\nagainst an injured foe.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            1,
+            18
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "dynamic_crit_accuracy",
+                "30 if unit2.get_hp() < unit2.get_max_hp() else 0"
+            ]
+        ]
+    }
+]

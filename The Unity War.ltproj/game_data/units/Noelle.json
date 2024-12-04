@@ -1,0 +1,78 @@
+[
+    {
+        "nid": "Noelle",
+        "name": "Noelle",
+        "desc": "Layla's older sister. Captain of the\nwyvern brigade of her city watch.",
+        "variant": null,
+        "level": 3,
+        "klass": "Wyvern_Rider_F",
+        "tags": [
+            "Female"
+        ],
+        "bases": {
+            "HP": 28,
+            "STR": 9,
+            "SKL": 9,
+            "SPD": 9,
+            "DEF": 8,
+            "RES": 5,
+            "LCK": 6,
+            "MAG": 4,
+            "CON": 10,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 50,
+            "SKL": 40,
+            "SPD": 40,
+            "DEF": 45,
+            "RES": 25,
+            "LCK": 35,
+            "MAG": 50,
+            "CON": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Iron_Axe",
+                false
+            ],
+            [
+                "Iron_Lance",
+                false
+            ],
+            [
+                "Javelin",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Close_Guard"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                31,
+                null
+            ],
+            "Axe": [
+                false,
+                31,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Noelle",
+        "affinity": "Thunder",
+        "fields": []
+    }
+]

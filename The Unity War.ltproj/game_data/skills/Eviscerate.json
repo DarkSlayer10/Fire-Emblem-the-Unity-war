@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Eviscerate",
+        "name": "Eviscerate",
+        "desc": "+30 crit if a critical hit would kill.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            4,
+            43
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "dynamic_crit_accuracy",
+                "30 if combat_calcs.compute_damage(unit, target, item, target.get_weapon(), 'attack', None) * 3 >= target.get_hp() else 0"
+            ]
+        ]
+    }
+]

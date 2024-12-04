@@ -42,7 +42,11 @@
             ],
             [
                 "status_on_hit",
-                "Fort"
+                "Pure_Water"
+            ],
+            [
+                "map_hit_sfx",
+                "PureWater"
             ]
         ]
     }

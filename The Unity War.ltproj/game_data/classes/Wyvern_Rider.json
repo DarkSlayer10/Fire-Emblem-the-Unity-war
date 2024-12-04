@@ -2,7 +2,7 @@
     {
         "nid": "Wyvern Rider",
         "name": "Wyvern Rider",
-        "desc": "",
+        "desc": "High-flying knights vulnerable only to\nbows and magic. Equip: Lances, axes.",
         "tier": 1,
         "movement_group": "Fliers",
         "promotes_from": null,
@@ -17,27 +17,27 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 20,
-            "STR": 7,
+            "HP": 24,
+            "STR": 6,
             "MAG": 0,
             "SKL": 5,
-            "SPD": 5,
+            "SPD": 4,
             "LCK": 0,
-            "DEF": 8,
-            "RES": 0,
+            "DEF": 4,
+            "RES": 1,
             "CON": 10,
             "MOV": 7,
             "LEAD": 0
         },
         "growths": {
-            "HP": 80,
+            "HP": 70,
             "STR": 45,
             "MAG": 5,
-            "SKL": 35,
+            "SKL": 30,
             "SPD": 30,
             "LCK": 25,
-            "DEF": 25,
-            "RES": 17,
+            "DEF": 35,
+            "RES": 10,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -103,8 +103,8 @@
                 251
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                31,
                 251
             ],
             "Bow": [
@@ -117,12 +117,12 @@
                 0,
                 251
             ],
-            "Light": [
+            "Anima": [
                 false,
                 0,
                 251
             ],
-            "Anima": [
+            "Light": [
                 false,
                 0,
                 251
@@ -131,6 +131,16 @@
                 false,
                 0,
                 251
+            ],
+            "Stone": [
+                false,
+                0,
+                null
+            ],
+            "Monster": [
+                false,
+                0,
+                null
             ],
             "Default": [
                 false,
@@ -144,7 +154,7 @@
             0
         ],
         "map_sprite_nid": "WyvernRider",
-        "combat_anim_nid": "Wyvern Knight",
+        "combat_anim_nid": "WyvernRider",
         "fields": []
     }
 ]
