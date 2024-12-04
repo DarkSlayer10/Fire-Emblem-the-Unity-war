@@ -45,11 +45,6 @@
         false
     ],
     [
-        "Combat Preparation",
-        false,
-        false
-    ],
-    [
         "Shops",
         false,
         false
@@ -152,6 +147,21 @@
     [
         "A Moment of Pain",
         false,
+        false
+    ],
+    [
+        "Preparations",
+        true,
+        false
+    ],
+    [
+        "Bandit Phase",
+        true,
+        false
+    ],
+    [
+        "Advance",
+        true,
         false
     ]
 ]

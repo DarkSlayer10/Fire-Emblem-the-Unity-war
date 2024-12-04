@@ -1,0 +1,19 @@
+[
+    {
+        "name": "D - Sonia Death",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Sonia'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Sonia;RightCorner",
+            "speak;Sonia;\u2028T-that{tgm}...{tgm}doesn't look good{tgm}...{tgm}{w}\u2028Caroline{tgm}...{tgm}I hope{tgm}...{tgm}you and{tgm}...{tgm}{w}{c:expression;Sonia;CloseEyes}\u2028the girls{tgm}...{tgm}will{tgm}...",
+            "remove_portrait;Sonia",
+            "show_combat_ui"
+        ],
+        "nid": "Global D - Sonia Death"
+    }
+]

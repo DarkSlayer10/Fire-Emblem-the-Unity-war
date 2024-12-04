@@ -1,0 +1,19 @@
+[
+    {
+        "name": "D - Marica Death",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Marica'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Marica;RightCorner",
+            "speak;Marica;\u2028I-I can't go on like this{tgm}...{tgm}{w}\u2028Some guardsman I am{tgm}...",
+            "remove_portrait;Marica",
+            "show_combat_ui"
+        ],
+        "nid": "Global D - Marica Death"
+    }
+]

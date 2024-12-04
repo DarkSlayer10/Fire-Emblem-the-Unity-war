@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Blade_of_the_Father",
+        "name": "Blade of the Father",
+        "desc": "Automatically doubles enemies\nadjacent to Layla or Noelle.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            4,
+            47
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "dynamic_attack_speed",
+                "999 if any([x for x in get_units_within_distance(unit2.position) and x.nid in ['Layla', 'Noelle']]) else 0"
+            ]
+        ]
+    }
+]

@@ -7,13 +7,13 @@
         "party": "Emma",
         "music": {
             "player_phase": "Player Phase 3",
-            "enemy_phase": "Enemy Phase",
+            "enemy_phase": "Bandit Phase",
             "other_phase": null,
-            "enemy2_phase": null,
+            "enemy2_phase": "Player Phase 3",
             "player_battle": "Battle",
             "enemy_battle": "Enemy Battle",
             "other_battle": null,
-            "enemy2_battle": null
+            "enemy2_battle": "Battle"
         },
         "objective": {
             "simple": "Defeat all bandits",
@@ -917,105 +917,122 @@
         ],
         "regions": [
             {
-                "nid": "Visit_TopLeft",
-                "region_type": "event",
+                "nid": "F_1",
+                "region_type": "formation",
                 "position": [
-                    3,
-                    4
+                    6,
+                    20
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
                 "interrupt_move": false
             },
             {
-                "nid": "Visit_BottomLeft",
-                "region_type": "event",
-                "position": [
-                    1,
-                    13
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Visit_Center",
-                "region_type": "event",
-                "position": [
-                    9,
-                    6
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Visit_TopRight",
-                "region_type": "event",
-                "position": [
-                    14,
-                    3
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Visit_Clinic",
-                "region_type": "event",
-                "position": [
-                    13,
-                    9
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Visit_Armory",
-                "region_type": "event",
+                "nid": "F_2",
+                "region_type": "formation",
                 "position": [
                     7,
-                    10
+                    21
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "F_3",
+                "region_type": "formation",
+                "position": [
+                    8,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "F_4",
+                "region_type": "formation",
+                "position": [
+                    9,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "F_5",
+                "region_type": "formation",
+                "position": [
+                    10,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "F_6",
+                "region_type": "formation",
+                "position": [
+                    11,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "F_7",
+                "region_type": "formation",
+                "position": [
+                    12,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
                 "interrupt_move": false
             }
         ],
@@ -1107,11 +1124,6 @@
                 }
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]
