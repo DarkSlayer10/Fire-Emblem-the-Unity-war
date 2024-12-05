@@ -18,7 +18,8 @@
             "transition;close",
             "change_background",
             "transition;open",
-            "show_layer;center"
+            "show_layer;center",
+            "has_attacked;{unit}"
         ],
         "nid": "1 V - Center"
     }

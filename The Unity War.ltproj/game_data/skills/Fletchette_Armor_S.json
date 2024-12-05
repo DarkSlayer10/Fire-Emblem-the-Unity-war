@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Fletchette_Armor_S",
+        "name": "Fletchette Armor",
+        "desc": "",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            0,
+            12
+        ],
+        "components": [
+            [
+                "display_skill_icon_in_combat",
+                null
+            ],
+            [
+                "aura",
+                "Fletchette_Armor_A"
+            ],
+            [
+                "aura_range",
+                99
+            ],
+            [
+                "aura_target",
+                "unit"
+            ]
+        ]
+    }
+]

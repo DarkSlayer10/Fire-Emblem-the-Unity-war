@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Fletchette_Armor_A",
+        "name": "Fletchette Armor",
+        "desc": "",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            0,
+            12
+        ],
+        "components": [
+            [
+                "lifelink",
+                -0.5
+            ]
+        ]
+    }
+]

@@ -18,7 +18,8 @@
             "give_exp;{unit};25",
             "transition;close",
             "change_background",
-            "transition;open"
+            "transition;open",
+            "has_attacked;{unit}"
         ],
         "nid": "1 V - Clinic"
     }

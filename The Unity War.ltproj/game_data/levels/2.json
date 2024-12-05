@@ -1034,6 +1034,176 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "topleft",
+                "region_type": "event",
+                "position": [
+                    5,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Wreck",
+                "condition": "not v('topleft') and unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "farleft",
+                "region_type": "event",
+                "position": [
+                    1,
+                    8
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Wreck",
+                "condition": "not v('farleft') and unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "centerleft",
+                "region_type": "event",
+                "position": [
+                    12,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Wreck",
+                "condition": "not v('centerleft') and unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "centerright",
+                "region_type": "event",
+                "position": [
+                    14,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Wreck",
+                "condition": "not v('centerright') and unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "bottomright",
+                "region_type": "event",
+                "position": [
+                    24,
+                    17
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Wreck",
+                "condition": "not v('bottomright') and unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visit_TopLeft",
+                "region_type": "event",
+                "position": [
+                    5,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "not v('topleft')",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visit_FarLeft",
+                "region_type": "event",
+                "position": [
+                    1,
+                    8
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "not v('farleft')",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visit_CenterLeft",
+                "region_type": "event",
+                "position": [
+                    12,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "not v('centerleft')",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visit_CenterRight",
+                "region_type": "event",
+                "position": [
+                    14,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "not v('centerright')",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visit_BottomRight",
+                "region_type": "event",
+                "position": [
+                    24,
+                    17
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "not v('bottomright')",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [

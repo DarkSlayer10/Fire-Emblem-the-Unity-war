@@ -15,6 +15,11 @@ class PersonalSkill(SkillComponent):
     desc = "A filler for future organizational purposes."
     tag = SkillTags.ATTRIBUTE
     
+class ReactiveArt(SkillComponent):
+    nid = 'reactive_art'
+    desc = "Used to denote skills that primarily trigger when defending."
+    tag = SkillTags.ATTRIBUTE
+    
 class CostUses(SkillComponent):
     nid = 'cost_uses'
     desc = "Skill costs alternate number of weapon uses. Unit must have at least that many uses."

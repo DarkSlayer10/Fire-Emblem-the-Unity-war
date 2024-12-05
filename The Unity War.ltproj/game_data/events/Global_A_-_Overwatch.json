@@ -1,0 +1,18 @@
+[
+    {
+        "name": "A - Overwatch",
+        "trigger": "unit_wait",
+        "level_nid": null,
+        "condition": "has_skill(unit, 'Overwatch_A') and get_skill(unit, 'Overwatch_A').parent_skill.data.get('charge') and u(get_skill(unit, 'Overwatch_A').parent_skill.owner_nid).get_weapon() and u(get_skill(unit, 'Overwatch_A').parent_skill.owner_nid).get_weapon().data.get('uses') >= 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "game_var;overwatch_parent;get_skill(unit, 'Overwatch_A').parent_skill.owner_nid",
+            "give_skill;{v:overwatch_parent};Overwatch_S;;no_banner",
+            "interact_unit;{v:overwatch_parent};{unit};--,end",
+            "set_skill_data;{v:overwatch_parent};Overwatch;charge;0"
+        ],
+        "nid": "Global A - Overwatch"
+    }
+]

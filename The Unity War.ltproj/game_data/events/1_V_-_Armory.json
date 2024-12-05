@@ -17,7 +17,8 @@
             "give_item;{unit};Thunder",
             "transition;close",
             "change_background",
-            "transition;open"
+            "transition;open",
+            "has_attacked;{unit}"
         ],
         "nid": "1 V - Armory"
     }

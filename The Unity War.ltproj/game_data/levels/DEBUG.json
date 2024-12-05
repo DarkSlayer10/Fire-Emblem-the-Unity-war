@@ -27,14 +27,14 @@
         "tags": [],
         "units": [
             {
-                "nid": "Emma",
+                "nid": "Noelle",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    2,
-                    6
+                    4,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -42,7 +42,7 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
@@ -61,9 +61,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Pursue",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     4,
                     9
@@ -72,64 +72,25 @@
                 "generic": true
             },
             {
-                "nid": "Emily",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    5,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Lilith",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    1,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Nicole",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "101",
+                "nid": "104",
                 "variant": null,
-                "level": 1,
-                "klass": "Mercenary_F",
+                "level": 5,
+                "klass": "Archer",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Iron_Bow",
                         false
                     ]
                 ],
                 "starting_skills": [],
-                "team": "player",
-                "ai": "None",
+                "team": "enemy",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    8
+                    5,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true

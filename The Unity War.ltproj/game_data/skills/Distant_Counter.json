@@ -3,14 +3,18 @@
         "nid": "Distant_Counter",
         "name": "<blue>Distant Counter</>",
         "desc": "Counterattack at any range.\nConsumes 4 durability.",
-        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_nid": "skill_icons",
         "icon_index": [
-            4,
-            31
+            8,
+            46
         ],
         "components": [
             [
                 "class_skill",
+                null
+            ],
+            [
+                "reactive_art",
                 null
             ],
             [

@@ -1,0 +1,44 @@
+[
+    {
+        "nid": "Fletchette_Armor",
+        "name": "Fletchette Armor",
+        "desc": "Negate bow effectiveness and reflect\n1/2 damage taken from bows.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            0,
+            12
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "drain_charge",
+                3
+            ],
+            [
+                "negate_tags",
+                [
+                    "Flying"
+                ]
+            ],
+            [
+                "defense_proc",
+                "Fletchette_Armor_S"
+            ],
+            [
+                "proc_rate",
+                "HUNDRED"
+            ],
+            [
+                "combat_condition",
+                "item_system.weapon_type(unit2, item2) == 'Bow'"
+            ]
+        ]
+    }
+]

@@ -18,7 +18,8 @@
             "transition;close",
             "change_background",
             "transition;open",
-            "show_layer;topright"
+            "show_layer;topright",
+            "has_attacked;{unit}"
         ],
         "nid": "1 V - Top Right"
     }

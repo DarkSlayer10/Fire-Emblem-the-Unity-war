@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "Overwatch",
+        "name": "<blue>Overwatch</>",
+        "desc": "Once per turn, when an enemy ends turn in\nmelee range, attack that enemy once.\nConsumes 2 durability.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            6,
+            39
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "reactive_art",
+                null
+            ],
+            [
+                "drain_charge",
+                1
+            ],
+            [
+                "upkeep_charge_increase",
+                1
+            ],
+            [
+                "aura",
+                "Overwatch_A"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "enemy"
+            ]
+        ]
+    }
+]

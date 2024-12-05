@@ -1,0 +1,19 @@
+[
+    {
+        "name": "V - Bandit Sack",
+        "trigger": "Wreck",
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;VillageDestroyed",
+            "show_layer;{e:region.nid}",
+            "alert;House destroyed!",
+            "level_var;{e:region.nid};True",
+            "has_finished;{unit}"
+        ],
+        "nid": "2 V - Bandit Sack"
+    }
+]

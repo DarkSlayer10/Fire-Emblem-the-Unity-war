@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Overwatch_A",
+        "name": "Overwatch",
+        "desc": "",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            6,
+            39
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]
