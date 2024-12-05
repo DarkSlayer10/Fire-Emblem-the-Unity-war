@@ -9,9 +9,12 @@
         "priority": 20,
         "_source": [
             "sound;VillageDestroyed",
+            "level_var;{e:region.nid};True",
+            "if;v('centerleft') and v('centerright')",
+            "    show_layer;centerboth;immediate",
+            "end",
             "show_layer;{e:region.nid}",
             "alert;House destroyed!",
-            "level_var;{e:region.nid};True",
             "has_finished;{unit}"
         ],
         "nid": "2 V - Bandit Sack"

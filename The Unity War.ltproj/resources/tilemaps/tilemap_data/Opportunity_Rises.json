@@ -4615,10 +4615,385 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "Visit_TopLeft",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "5,3": "0"
+                },
+                "sprite_grid": {
+                    "5,3": [
+                        "Chapter 2 Town",
+                        [
+                            5,
+                            8
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "Visit_FarLeft",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "1,8": "0"
+                },
+                "sprite_grid": {
+                    "1,8": [
+                        "Chapter 2 Town",
+                        [
+                            5,
+                            8
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "Visit_CenterLeft",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "12,9": "0"
+                },
+                "sprite_grid": {
+                    "12,9": [
+                        "Chapter 2 Town",
+                        [
+                            5,
+                            8
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "Visit_CenterRight",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "14,9": "0"
+                },
+                "sprite_grid": {
+                    "14,9": [
+                        "Chapter 2 Town",
+                        [
+                            5,
+                            8
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "Visit_BottomRight",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "24,17": "0"
+                },
+                "sprite_grid": {
+                    "24,17": [
+                        "Chapter 2 Town",
+                        [
+                            5,
+                            8
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "topleft",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "5,2": "Ruins",
+                    "5,3": "Ruins",
+                    "6,3": "Ruins",
+                    "6,2": "Ruins"
+                },
+                "sprite_grid": {
+                    "4,2": [
+                        "Town Tileset",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "4,3": [
+                        "Town Tileset",
+                        [
+                            3,
+                            24
+                        ]
+                    ],
+                    "6,2": [
+                        "Town Tileset",
+                        [
+                            6,
+                            23
+                        ]
+                    ],
+                    "6,3": [
+                        "Town Tileset",
+                        [
+                            6,
+                            24
+                        ]
+                    ],
+                    "5,2": [
+                        "Town Tileset",
+                        [
+                            5,
+                            23
+                        ]
+                    ],
+                    "5,3": [
+                        "Town Tileset",
+                        [
+                            5,
+                            24
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "farleft",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "6,3": "Ruins",
+                    "2,8": "Ruins",
+                    "2,7": "Ruins",
+                    "1,7": "Ruins",
+                    "1,8": "Ruins"
+                },
+                "sprite_grid": {
+                    "0,7": [
+                        "Town Tileset",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "0,8": [
+                        "Town Tileset",
+                        [
+                            3,
+                            24
+                        ]
+                    ],
+                    "1,7": [
+                        "Town Tileset",
+                        [
+                            5,
+                            23
+                        ]
+                    ],
+                    "1,8": [
+                        "Town Tileset",
+                        [
+                            5,
+                            24
+                        ]
+                    ],
+                    "2,7": [
+                        "Town Tileset",
+                        [
+                            6,
+                            23
+                        ]
+                    ],
+                    "2,8": [
+                        "Town Tileset",
+                        [
+                            6,
+                            24
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "centerleft",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "11,8": "Ruins",
+                    "11,9": "Ruins",
+                    "12,9": "Ruins",
+                    "12,8": "Ruins",
+                    "13,9": "Ruins",
+                    "13,8": "Ruins"
+                },
+                "sprite_grid": {
+                    "12,8": [
+                        "Town Tileset",
+                        [
+                            1,
+                            25
+                        ]
+                    ],
+                    "11,8": [
+                        "Town Tileset",
+                        [
+                            0,
+                            25
+                        ]
+                    ],
+                    "11,9": [
+                        "Town Tileset",
+                        [
+                            0,
+                            26
+                        ]
+                    ],
+                    "12,9": [
+                        "Town Tileset",
+                        [
+                            1,
+                            26
+                        ]
+                    ],
+                    "13,9": [
+                        "Town Tileset",
+                        [
+                            2,
+                            26
+                        ]
+                    ],
+                    "13,8": [
+                        "Town Tileset",
+                        [
+                            2,
+                            25
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "centerright",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "14,8": "Ruins",
+                    "14,9": "Ruins",
+                    "15,9": "0",
+                    "15,8": "0"
+                },
+                "sprite_grid": {
+                    "13,8": [
+                        "Town Tileset",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "13,9": [
+                        "Town Tileset",
+                        [
+                            3,
+                            24
+                        ]
+                    ],
+                    "14,8": [
+                        "Town Tileset",
+                        [
+                            5,
+                            23
+                        ]
+                    ],
+                    "14,9": [
+                        "Town Tileset",
+                        [
+                            5,
+                            24
+                        ]
+                    ],
+                    "15,8": [
+                        "Town Tileset",
+                        [
+                            1,
+                            23
+                        ]
+                    ],
+                    "15,9": [
+                        "Town Tileset",
+                        [
+                            1,
+                            24
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "centerboth",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "13,9": "Ruins",
+                    "13,8": "Ruins"
+                },
+                "sprite_grid": {
+                    "13,9": [
+                        "Town Tileset",
+                        [
+                            2,
+                            26
+                        ]
+                    ],
+                    "13,8": [
+                        "Town Tileset",
+                        [
+                            2,
+                            25
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "bottomright",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "23,17": "Ruins",
+                    "24,17": "Ruins",
+                    "24,16": "Ruins",
+                    "23,16": "Ruins"
+                },
+                "sprite_grid": {
+                    "23,16": [
+                        "Town Tileset",
+                        [
+                            4,
+                            23
+                        ]
+                    ],
+                    "23,17": [
+                        "Town Tileset",
+                        [
+                            4,
+                            24
+                        ]
+                    ],
+                    "24,16": [
+                        "Town Tileset",
+                        [
+                            5,
+                            23
+                        ]
+                    ],
+                    "24,17": [
+                        "Town Tileset",
+                        [
+                            5,
+                            24
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [
-            "Chapter 2 Town"
+            "Chapter 2 Town",
+            "Town Tileset"
         ]
     }
 ]

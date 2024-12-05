@@ -33,5 +33,10 @@
         "nid": "Chapter 2 Town",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Town Tileset",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
