@@ -1,0 +1,30 @@
+[
+    {
+        "name": "T - Layla Noelle",
+        "trigger": "on_talk",
+        "level_nid": "2",
+        "condition": "check_pair('Noelle', 'Layla')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;Mount Gale",
+            "multi_add_portrait;Layla;Left;Noelle;Right",
+            "speak;Layla;\u2028Noelle!!!",
+            "speak;Noelle;\u2028Layla? What is it?",
+            "bop_portrait;Noelle",
+            "speak;Noelle;\u2028Did one of the\u2028bandits get you?",
+            "speak;Layla;\u2028I'm fine, but I saw a group\u2028of people that can help us.{w}\u2028If we fight with them, we\u2028can take out these bandits.",
+            "speak;Noelle;\u2028Are you sure they\u2028won't backstab us?",
+            "bop_portrait;Layla",
+            "speak;Layla;\u2028Oh, er- I don't think so.",
+            "speak;Noelle;\u2028Hm{tgm}...{tgm} We don't have\u2028time for this.{w}\u2028I'll come with you and\u2028see this group for myself.",
+            "multi_remove_portrait;Layla;Noelle",
+            "change_team;Noelle;player",
+            "change_ai;Noelle;None",
+            "remove_talk;Layla;Noelle",
+            "give_exp;{unit};25"
+        ],
+        "nid": "2 T - Layla Noelle"
+    }
+]

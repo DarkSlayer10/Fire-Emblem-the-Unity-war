@@ -1,0 +1,27 @@
+[
+    {
+        "name": "T - Layla Noah",
+        "trigger": "on_talk",
+        "level_nid": "2",
+        "condition": "check_pair('Noah', 'Layla')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;Mount Gale",
+            "multi_add_portrait;Layla;Left;Noah;Right",
+            "bop_portrait;Layla",
+            "speak;Layla;\u2028Dad!",
+            "speak;Noah;\u2028What is it, Layla?",
+            "speak;Layla;\u2028There's this group of people who came into\u2028town, and they say they're here to save us.{w}\u2028Some men and women with swords and axes,{w}\u2028and a scary one with a bow.",
+            "speak;Noah;\u2028If they are here to help, maybe\u2028we can actually save the village.{w}\u2028Stay close to me. We don't know\u2028what their true motives are{tgm}...",
+            "speak;Layla;\u2028Fine, Dad{tgm}...",
+            "multi_remove_portrait;Layla;Noah",
+            "change_team;Noah;player",
+            "change_ai;Noah;None",
+            "remove_talk;Layla;Noah",
+            "give_exp;{unit};25"
+        ],
+        "nid": "2 T - Layla Noah"
+    }
+]

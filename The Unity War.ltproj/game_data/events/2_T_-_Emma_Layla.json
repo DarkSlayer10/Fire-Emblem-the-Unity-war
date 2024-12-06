@@ -1,0 +1,31 @@
+[
+    {
+        "name": "T - Emma Layla",
+        "trigger": "on_talk",
+        "level_nid": "2",
+        "condition": "check_pair('Emma', 'Layla')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;Mount Gale",
+            "multi_add_portrait;Emma;Left;Layla;Right",
+            "bop_portrait;Layla",
+            "speak;Layla;\u2028Agh! Who are you?!{w}\u2028Wait{tgm}...{tgm} You don't look\u2028like any of the bandits.",
+            "speak;Emma;\u2028Because I'm not one.{w}\u2028My group came to help\u2028exterminate these criminals.",
+            "speak;Layla;\u2028Well, if you're here to help{tgm}...{tgm}{w}\u2028My name is Layla. I'm a\u2028researcher of dark magic.",
+            "speak;Emma;\u2028I'm Emma, an elemental magic apprentice.{w}\u2028My friends and I are have come to warn\u2028other villages after ours was destroyed.",
+            "speak;Layla;\u2028You're from that other village!{w}\u2028The one that that woman said\u2028there was nothing left of!",
+            "speak;Emma;\u2028It was completely destroyed\u2028by demons{tgm}...{tgm}{w}but how\u2028do you know that?",
+            "speak;Layla;\u2028Wait, wait, demons?",
+            "speak;Emma;\u2028I know, it's surprising, and{tgm}...{tgm}\u2028there's a lot to go over.{w}\u2028Let's talk once this is all\u2028over with.",
+            "speak;Layla;\u2028Well, consider me your ally, then.{w}\u2028I'll tell my family what's going on.",
+            "multi_remove_portrait;Emma;Layla",
+            "change_team;Layla;player",
+            "change_ai;Layla;None",
+            "remove_talk;Emma;Layla",
+            "give_exp;{unit};25"
+        ],
+        "nid": "2 T - Emma Layla"
+    }
+]
