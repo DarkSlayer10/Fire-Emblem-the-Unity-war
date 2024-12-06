@@ -143,7 +143,14 @@
             "transition;open",
             "add_tag;Emma;Required",
             "add_tag;Emily;Required",
-            "prep;t;Preparations"
+            "prep;t;Preparations",
+            "add_talk;Emma;Layla",
+            "add_talk;Emma;Emily",
+            "add_talk;Emily;Emma",
+            "add_talk;Nicole;Carson",
+            "add_talk;Carson;Nicole",
+            "add_talk;Layla;Noelle",
+            "add_talk;Layla;Noah"
         ],
         "nid": "2 0 - Intro"
     }
