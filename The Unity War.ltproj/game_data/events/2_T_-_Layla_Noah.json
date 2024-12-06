@@ -20,7 +20,11 @@
             "change_team;Noah;player",
             "change_ai;Noah;None",
             "remove_talk;Layla;Noah",
-            "give_exp;{unit};25"
+            "add_talk;Noah;Nicole",
+            "add_talk;Noah;Marica",
+            "add_talk;Marica;Noah",
+            "give_exp;{unit};25",
+            "music_fade_back"
         ],
         "nid": "2 T - Layla Noah"
     }

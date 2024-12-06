@@ -24,7 +24,10 @@
             "change_team;Layla;player",
             "change_ai;Layla;None",
             "remove_talk;Emma;Layla",
-            "give_exp;{unit};25"
+            "add_talk;Sonia;Layla",
+            "add_talk;Layla;Sonia",
+            "give_exp;{unit};25",
+            "music_fade_back"
         ],
         "nid": "2 T - Emma Layla"
     }

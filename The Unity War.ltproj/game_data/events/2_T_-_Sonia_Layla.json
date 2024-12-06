@@ -1,0 +1,30 @@
+[
+    {
+        "name": "T - Sonia Layla",
+        "trigger": "on_talk",
+        "level_nid": "2",
+        "condition": "check_pair('Sonia', 'Layla')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Sonia;Left;Layla;Right",
+            "speak;Sonia;Hey, little lady!",
+            "bop_portrait;Layla",
+            "speak;Layla;Little lady?!",
+            "bop_portrait;Layla",
+            "speak;Layla;\u2028Who're you\u2028calling 'little lady'?!",
+            "speak;Sonia;\u2028I'm talking to you, little lady!{w}\u2028You shouldn't be in the\u2028middle of a battle like this!{w}\u2028You could get hurt.",
+            "speak;Layla;\u2028Hell no, I'm not going to hide,\u2028and I'm not a little lady!{w}\u2028I can use dark magic from\u2028beyond our world!",
+            "expression;Sonia;Smile",
+            "speak;Sonia;\u2028Hahaha!",
+            "speak;Sonia;\u2028When you say it like that,\u2028it sounds so adorable!{w}{c:expression;Sonia;NoSmile}\u2028Seriously, lie low somewhere\u2028while the big girls clean up.",
+            "remove_portrait;Sonia",
+            "speak;Layla;\u2028Hmph, I'll teach her not to\u2028talk down to me like that{tgm}...",
+            "remove_portrait;Layla",
+            "remove_talk;Layla;Sonia",
+            "remove_talk;Sonia;Layla"
+        ],
+        "nid": "2 T - Sonia Layla"
+    }
+]

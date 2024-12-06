@@ -1,0 +1,31 @@
+[
+    {
+        "name": "T - Lily Noelle",
+        "trigger": "on_talk",
+        "level_nid": "2",
+        "condition": "check_pair('Noelle', 'Lily')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Noelle;Left;Lily;Right",
+            "bop_portrait;Noelle",
+            "speak;Noelle;\u2028Hey, you're one of those\u2028mysterious travelers!",
+            "speak;Lily;\u2028Hm? Mysterious?{w}\u2028I don't think so.{w}\u2028I'm just trying to help.",
+            "speak;Noelle;\u2028What's your name?{w}\u2028Where do you come from?{w}\u2028Why are you here in\u2028the first place?",
+            "speak;Lily;\u2028Good heavens,\u2028you're too chatty.{w}\u2028Just let me do my\u2028thing here.",
+            "bop_portrait;Noelle",
+            "speak;Noelle;\u2028Wait!",
+            "speak;Lily;\u2028What is it?",
+            "speak;Noelle;\u2028Er-",
+            "speak;Noelle;\u2028Do you have a little\u2028more time to talk?",
+            "speak;Lily;No.",
+            "remove_portrait;Lily",
+            "wait;700",
+            "remove_portrait;Noelle",
+            "remove_talk;Lily;Noelle",
+            "remove_talk;Noelle;Lily"
+        ],
+        "nid": "2 T - Lily Noelle"
+    }
+]

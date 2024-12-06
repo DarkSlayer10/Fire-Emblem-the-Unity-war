@@ -23,7 +23,10 @@
             "change_team;Noelle;player",
             "change_ai;Noelle;None",
             "remove_talk;Layla;Noelle",
-            "give_exp;{unit};25"
+            "add_talk;Noelle;Lily",
+            "add_talk;Lily;Noelle",
+            "give_exp;{unit};25",
+            "music_fade_back"
         ],
         "nid": "2 T - Layla Noelle"
     }

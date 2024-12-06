@@ -1,0 +1,28 @@
+[
+    {
+        "name": "T - Noah Marica",
+        "trigger": "on_talk",
+        "level_nid": "2",
+        "condition": "check_pair('Noah', 'Marica')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Marica;Left;Noah;Right",
+            "bop_portrait;Noah",
+            "speak;Noah;\u2028Hey, you, recruit!{w}\u2028Scramble into line!",
+            "speak;Marica;\u2028Hm? Are you talking to me?",
+            "speak;Noah;\u2028Who else would I be talking to?",
+            "speak;Marica;\u2028Sorry, it's just that I've only had\u2028one captain, and her name is Sonia.",
+            "speak;Noah;\u2028Hm, where I come from,{w}\u2028you'd be washing the stables for a week if you\u2028gave a comment like that to an officer.",
+            "speak;Marica;\u2028Then it's a good thing that I'm not in\u2028the military and you're not my officer.",
+            "remove_portrait;Marica",
+            "speak;Noah;\u2028Hmph!{w} How rude{tgm}...",
+            "speak;Noah;\u2028So <bconvo>this</> is what our\u2028allies are like?{w}\u2028I'm not impressed.",
+            "remove_portrait;Noah",
+            "remove_talk;Marica;Noah",
+            "remove_talk;Noah;Marica"
+        ],
+        "nid": "2 T - Noah Marica"
+    }
+]
