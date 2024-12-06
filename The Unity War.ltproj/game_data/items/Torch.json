@@ -2,7 +2,7 @@
     {
         "nid": "Torch",
         "name": "Torch",
-        "desc": "Increases user's sight range in fog of war",
+        "desc": "A staff with burning pitch.\nGrows dimmer each turn.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,
@@ -15,7 +15,7 @@
             ],
             [
                 "uses",
-                5
+                10
             ],
             [
                 "uses_options",
@@ -34,7 +34,15 @@
             ],
             [
                 "status_on_hit",
-                "Fort"
+                "Torch"
+            ],
+            [
+                "hover_description",
+                "Lights an area."
+            ],
+            [
+                "map_hit_sfx",
+                "Torch"
             ]
         ]
     }

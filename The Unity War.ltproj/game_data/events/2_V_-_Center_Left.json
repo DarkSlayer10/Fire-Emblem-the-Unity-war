@@ -1,0 +1,27 @@
+[
+    {
+        "name": "V - Center Left",
+        "trigger": "Visit",
+        "level_nid": "2",
+        "condition": "region.nid == 'Visit_CenterLeft'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;House",
+            "transition;open",
+            "multi_add_portrait;Woman3;Left;{unit};Right",
+            "speak;Woman3;\u2028Our village is being destroyed!{w}\u2028Here, throw this at the bandits!",
+            "multi_remove_portrait;Woman3;{unit}",
+            "transition;close",
+            "change_background",
+            "transition;open",
+            "give_item;{unit};Hand_Axe",
+            "give_exp;{unit};25",
+            "has_attacked;{unit}",
+            "show_layer;Visit_CenterLeft"
+        ],
+        "nid": "2 V - Center Left"
+    }
+]

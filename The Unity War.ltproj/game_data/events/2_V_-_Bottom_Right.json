@@ -1,0 +1,29 @@
+[
+    {
+        "name": "V - Bottom Right",
+        "trigger": "Visit",
+        "level_nid": "2",
+        "condition": "region.nid == 'Visit_BottomRight'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;House",
+            "transition;open",
+            "multi_add_portrait;Man4;Left;{unit};Right",
+            "speak;Man4;\u2028You're here to save us?{w} My mighty thanks!{w}\u2028Here, take this tome and kick some bandits'\u2028behinds for me.",
+            "multi_remove_portrait;Man4;{unit}",
+            "transition;close",
+            "change_background",
+            "transition;open",
+            "give_item;{unit};Steel_Lance",
+            "give_exp;{unit};25",
+            "add_portrait;{unit};Right",
+            "speak;{unit};...Tome??;;;thought_bubble;no_talk",
+            "has_attacked;{unit}",
+            "show_layer;Visit_BottomRight"
+        ],
+        "nid": "2 V - Bottom Right"
+    }
+]

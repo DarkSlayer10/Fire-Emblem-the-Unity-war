@@ -18,6 +18,7 @@
             "transition;close",
             "change_background",
             "transition;open",
+            "give_exp;{unit};25",
             "has_attacked;{unit}"
         ],
         "nid": "1 V - Armory"

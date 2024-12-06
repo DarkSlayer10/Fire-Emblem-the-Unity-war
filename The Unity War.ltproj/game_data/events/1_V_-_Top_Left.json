@@ -27,10 +27,10 @@
             "elif;unit.nid == 'Marica'",
             "    give_item;{unit};Killer_Lance",
             "end",
-            "give_exp;{unit};25",
             "transition;close",
             "change_background",
             "transition;open",
+            "give_exp;{unit};25",
             "show_layer;topleft",
             "has_attacked;{unit}"
         ],

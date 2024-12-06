@@ -2,7 +2,7 @@
     {
         "nid": "Slim_Lance",
         "name": "Slim Lance",
-        "desc": "",
+        "desc": "Weak lance that's accurate.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                420
+                320
             ],
             [
                 "target_enemy",
@@ -35,11 +35,11 @@
             ],
             [
                 "hit",
-                85
+                100
             ],
             [
                 "crit",
-                5
+                0
             ],
             [
                 "weight",

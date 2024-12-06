@@ -15,10 +15,10 @@
             "speak;{unit};\u2028The clinic's seen better days{tgm}...{tgm}{w}\u2028Let's have a look around.",
             "remove_portrait;{unit}",
             "give_item;{unit};Angelic_Robe",
-            "give_exp;{unit};25",
             "transition;close",
             "change_background",
             "transition;open",
+            "give_exp;{unit};25",
             "has_attacked;{unit}"
         ],
         "nid": "1 V - Clinic"

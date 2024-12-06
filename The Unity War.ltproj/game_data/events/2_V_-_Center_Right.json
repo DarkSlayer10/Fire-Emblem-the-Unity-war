@@ -1,0 +1,27 @@
+[
+    {
+        "name": "V - Center Right",
+        "trigger": "Visit",
+        "level_nid": "2",
+        "condition": "region.nid == 'Visit_CenterRight'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;House",
+            "transition;open",
+            "multi_add_portrait;Woman2;Left;{unit};Right",
+            "speak;Woman2;\u2028The most wonderful man rescued me.{w}\u2028He was dressed like a mercenary, but\u2028he had an air of elegance about him{tgm}...{tgm}{w}\u2028Of course, that was just a nice\u2028dream I had last night.{w}\u2028I like to record all of my dreams\u2028in a book at my bedside.{w}\u2028You can have it. It might give you\u2028ideas on how to defeat bandits.",
+            "multi_remove_portrait;Woman2;{unit}",
+            "transition;close",
+            "change_background",
+            "transition;open",
+            "give_item;{unit};Secret_Book",
+            "give_exp;{unit};25",
+            "has_attacked;{unit}",
+            "show_layer;Visit_CenterRight"
+        ],
+        "nid": "2 V - Center Right"
+    }
+]

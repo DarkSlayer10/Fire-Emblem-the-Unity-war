@@ -1,6 +1,6 @@
 [
-    "Slim_Sword",
     "Iron_Sword",
+    "Slim_Sword",
     "Iron_Dagger",
     "Steel_Sword",
     "Silver_Sword",
@@ -35,6 +35,7 @@
     "Vidofnir",
     "Trainee_Pike",
     "Iron_Axe",
+    "Slim_Axe",
     "Steel_Axe",
     "Silver_Axe",
     "Poison_Axe",
@@ -120,6 +121,7 @@
     "Antitoxin",
     "Lockpick",
     "Chest_Key",
+    "Chest_Keys",
     "Door_Key",
     "Torch",
     "Dragonstone",

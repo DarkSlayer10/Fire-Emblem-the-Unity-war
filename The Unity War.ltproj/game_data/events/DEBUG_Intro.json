@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_money;1000;no_banner"
+        ],
+        "nid": "DEBUG Intro"
+    }
+]

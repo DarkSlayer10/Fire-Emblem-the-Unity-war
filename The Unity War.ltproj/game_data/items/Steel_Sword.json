@@ -2,7 +2,7 @@
     {
         "nid": "Steel_Sword",
         "name": "Steel Sword",
-        "desc": "",
+        "desc": "A sword that made of steel.",
         "icon_nid": "Sword",
         "icon_index": [
             0,

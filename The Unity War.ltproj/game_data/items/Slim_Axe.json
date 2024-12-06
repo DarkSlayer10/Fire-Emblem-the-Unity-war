@@ -1,17 +1,17 @@
 [
     {
-        "nid": "Iron_Sword",
-        "name": "Iron Sword",
-        "desc": "A sword made of iron.",
-        "icon_nid": "Sword",
+        "nid": "Slim_Axe",
+        "name": "Slim Axe",
+        "desc": "A weak, accurate axe.",
+        "icon_nid": "Axe",
         "icon_index": [
             0,
-            0
+            13
         ],
         "components": [
             [
                 "item_prefab",
-                "Platonic_Sword"
+                "Platonic_Axe"
             ],
             [
                 "weapon_rank",
@@ -19,27 +19,27 @@
             ],
             [
                 "value",
-                450
+                320
             ],
             [
                 "damage",
-                6
+                7
             ],
             [
                 "hit",
-                100
+                90
             ],
             [
                 "crit",
-                0
-            ],
-            [
-                "weight",
                 5
             ],
             [
+                "weight",
+                7
+            ],
+            [
                 "uses",
-                45
+                40
             ],
             [
                 "uses_options",

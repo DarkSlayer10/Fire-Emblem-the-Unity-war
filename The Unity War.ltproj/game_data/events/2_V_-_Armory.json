@@ -1,0 +1,15 @@
+[
+    {
+        "name": "V - Armory",
+        "trigger": "Armory",
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "shop;{unit};Iron_Sword,Slim_Sword,Steel_Sword,Iron_Dagger,Slim_Axe,Iron_Axe,Steel_Axe,Hand_Axe,Iron_Lance,Slim_Lance,Steel_Lance,Javelin,Iron_Bow,Steel_Bow,Short_Bow;armory"
+        ],
+        "nid": "2 V - Armory"
+    }
+]

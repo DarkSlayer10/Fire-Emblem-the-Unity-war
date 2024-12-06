@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Armory",
+        "trigger": "Armory",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "shop;{unit};Iron_Sword;armory"
+        ],
+        "nid": "DEBUG Armory"
+    }
+]

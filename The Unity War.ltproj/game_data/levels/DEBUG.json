@@ -113,23 +113,6 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
-            },
-            {
-                "nid": "Door1",
-                "region_type": "event",
-                "position": [
-                    4,
-                    2
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Door",
-                "condition": "unit.can_unlock(region)",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
             }
         ],
         "unit_groups": [],

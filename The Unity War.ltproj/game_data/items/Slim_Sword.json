@@ -2,7 +2,7 @@
     {
         "nid": "Slim_Sword",
         "name": "Slim Sword",
-        "desc": "",
+        "desc": "A sword that's weak but accurate.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                480
+                320
             ],
             [
                 "target_enemy",
@@ -31,15 +31,15 @@
             ],
             [
                 "damage",
-                3
+                4
             ],
             [
                 "hit",
-                100
+                110
             ],
             [
                 "crit",
-                5
+                0
             ],
             [
                 "weight",
@@ -47,7 +47,7 @@
             ],
             [
                 "uses",
-                30
+                40
             ],
             [
                 "uses_options",

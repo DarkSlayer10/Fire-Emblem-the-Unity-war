@@ -1,0 +1,15 @@
+[
+    {
+        "name": "V - Vendor",
+        "trigger": "Armory",
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "shop;{unit};Fire,Thunder,Lightning,Shine,Flux,Ghost_Wail,Elixir,Heal,Mend,Unlock,Chest_Keys,Concoction,Torch;vendor"
+        ],
+        "nid": "2 V - Vendor"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "V - Far Left",
+        "trigger": "Visit",
+        "level_nid": "2",
+        "condition": "region.nid == 'Visit_FarLeft'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;House",
+            "transition;open",
+            "multi_add_portrait;Man3;Left;{unit};Right",
+            "speak;Man3;\u2028Hm?{w} What is it?{w}\u2028What's all the ruck?{w}\u2028What? B-bandits?!{w}\u2028Close my front door!{w}\u2028Thank you for your warning.{w}\u2028Please, accept this small knife.",
+            "multi_remove_portrait;Man3;{unit}",
+            "transition;close",
+            "change_background",
+            "transition;open",
+            "give_item;{unit};Iron_Dagger",
+            "give_exp;{unit};25",
+            "has_attacked;{unit}",
+            "show_layer;Visit_FarLeft"
+        ],
+        "nid": "2 V - Far Left"
+    }
+]

@@ -14,10 +14,10 @@
             "add_portrait;{unit};Right",
             "speak;{unit};\u2028There's no one left{tgm}...{tgm}{w}\u2028Should we{tgm}...{tgm}take\u2028this with us?",
             "give_item;{unit};Blue_Gem",
-            "give_exp;{unit};25",
             "transition;close",
             "change_background",
             "transition;open",
+            "give_exp;{unit};25",
             "show_layer;topright",
             "has_attacked;{unit}"
         ],

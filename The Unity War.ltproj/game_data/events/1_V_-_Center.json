@@ -18,6 +18,7 @@
             "transition;close",
             "change_background",
             "transition;open",
+            "give_exp;{unit};25",
             "show_layer;center",
             "has_attacked;{unit}"
         ],
