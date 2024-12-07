@@ -1,0 +1,41 @@
+[
+    {
+        "name": "T - Nicole Carson",
+        "trigger": "on_talk",
+        "level_nid": "2",
+        "condition": "check_pair('Carson', 'Nicole')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Nicole;Left;Carson;Right",
+            "speak;Nicole;\u2028S-So, darlin', did I{tgm}...{tgm}do a\u2028good job of s-scoutin' the area?",
+            "speak;Carson;\u2028Nicole, honey, you did a great\u2028job! You surprised me, though.{w}\u2028You rarely do jobs like that.{w}\u2028Is everything alright?",
+            "speak;Nicole;\u2028Well{tgm}...{tgm}I figured this country girl\u2028needs to stop being a scaredy cat.{w}\u2028I don't wanna just turn tail when\u2028danger comes 'round the corner.",
+            "speak;Carson;\u2028Huh.{w} You've never told\u2028me you felt that way.{w}\u2028You know you don't have to do\u2028any fighting or reconnaissance.{w}\u2028That's my job.",
+            "speak;Nicole;\u2028Maybe it's that I don't wanna be\u2028known as just the village pumpkin.",
+            "speak;Carson;What?",
+            "speak;Carson;Pumpkin?",
+            "speak;Nicole;\u2028Er, I mean bumpkin.{w}\u2028All our neighbors think I'm\u2028one short of a baker's dozen.",
+            "speak;Carson;\u2028Honey, you know everyone\u2028in the town loves you.",
+            "speak;Nicole;\u2028Hun, there's a difference between\u2028lovin' and respectin' someone.",
+            "speak;Carson;\u2028But even if you can't fight, there's\u2028so many good things about you!",
+            "speak;Nicole;\u2028You really think so?",
+            "speak;Carson;\u2028With all my heart.",
+            "speak;Nicole;Aw, honey{tgm}...;no_talk",
+            "expression;Nicole;Smile",
+            "speak;Nicole;\u2028How was I ever blessed to\u2028marry such a good man?",
+            "expression;Nicole;NoSmile",
+            "speak;Nicole;\u2028*sniffle*{w}\u2028Oh, here comes the waterworks{tgm}...",
+            "speak;Carson;\u2028Dry those pretty eyes, Nicole.",
+            "expression;Carson;Smile",
+            "speak;Carson;\u2028We have a fight to win!",
+            "bop_portrait;Nicole",
+            "speak;Nicole;\u2028You can b-bet on my\u2028h-honor as a nurse!{w}\u2028I'll be ready with\u2028staff in hand!",
+            "multi_remove_portrait;Nicole;Carson",
+            "remove_talk;Nicole;Carson",
+            "remove_talk;Carson;Nicole"
+        ],
+        "nid": "2 T - Nicole Carson"
+    }
+]

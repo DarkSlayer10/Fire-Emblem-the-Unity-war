@@ -45,6 +45,8 @@ class StealPlus(Steal):
             return False
         if item_funcs.inventory_full(unit, def_item):
             return False
+        if defender and defender.get_weapon() and def_item.uid == defender.get_weapon().uid:
+            return False
         if item_system.is_weapon(defender, def_item) or item_system.is_spell(defender, def_item):
             return not def_item.weight or unit.get_stat('CON') >= def_item.weight.value
         return True

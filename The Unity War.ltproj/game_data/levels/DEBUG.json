@@ -61,12 +61,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "PursueConcotion",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    9
+                    3,
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true

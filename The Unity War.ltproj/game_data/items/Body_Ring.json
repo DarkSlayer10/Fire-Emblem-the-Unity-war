@@ -29,21 +29,16 @@
                 }
             ],
             [
-                "permanent_stat_change",
-                [
-                    [
-                        "CON",
-                        2
-                    ]
-                ]
-            ],
-            [
                 "usable_in_base",
                 null
             ],
             [
                 "value",
                 8000
+            ],
+            [
+                "event_after_combat_even_miss",
+                "Global I - Body Ring"
             ]
         ]
     }

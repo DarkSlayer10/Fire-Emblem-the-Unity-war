@@ -127,7 +127,7 @@
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
-                "condition": "unit.get_hp() < unit.get_max_hp() // 2"
+                "condition": "unit.get_hp() >= unit.get_max_hp() // 2"
             },
             {
                 "action": "Support",
@@ -362,6 +362,44 @@
                 "target": "None",
                 "target_spec": null,
                 "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "GuardConcoction",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -1,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "unit.get_hp() >= unit.get_max_hp() // 2"
+            },
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -1,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": "get_item(unit, 'Concoction')"
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -1,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,

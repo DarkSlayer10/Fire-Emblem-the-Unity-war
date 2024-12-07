@@ -2,7 +2,7 @@
     {
         "nid": "Dawn_Bringer",
         "name": "Dawn Bringer",
-        "desc": "<narrow-text>Emily only. Eff. vs Monsters, Beasts.</>",
+        "desc": "<nconvo>Emily only. Eff. vs Monsters, Beasts.</>",
         "icon_nid": "InHouse and Filler Icons",
         "icon_index": [
             2,

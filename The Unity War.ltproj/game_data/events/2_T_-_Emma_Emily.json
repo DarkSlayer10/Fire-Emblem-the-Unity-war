@@ -32,8 +32,9 @@
             "speak;Emily;\u2028Oh gosh, I might've\u2028dodged an arrow there...;;;thought_bubble;no_talk",
             "remove_portrait;Emily",
             "remove_talk;Emma;Emily",
-            "remove_talk;Emily;Emma",
-            "give_exp;{unit};25"
+            "change_team;Emily;player",
+            "change_ai;Emily;None",
+            "give_exp;Emily;25"
         ],
         "nid": "2 T - Emma Emily"
     }

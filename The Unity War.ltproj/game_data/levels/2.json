@@ -42,7 +42,7 @@
             {
                 "nid": "Layla",
                 "team": "other",
-                "ai": "Guard",
+                "ai": "GuardConcoction",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -52,7 +52,7 @@
             {
                 "nid": "Noah",
                 "team": "other",
-                "ai": "Guard",
+                "ai": "GuardConcoction",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -62,7 +62,7 @@
             {
                 "nid": "Noelle",
                 "team": "other",
-                "ai": "Guard",
+                "ai": "GuardConcoction",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -981,15 +981,15 @@
                 "nid": "135",
                 "variant": null,
                 "level": 4,
-                "klass": "Lancer",
+                "klass": "Fighter_F",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Javelin",
+                        "Hand_Axe",
                         false
                     ],
                     [
-                        "Axereaver",
+                        "Swordreaver",
                         false
                     ],
                     [
@@ -1515,10 +1515,6 @@
             }
         ],
         "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            },
             {
                 "nid": "A",
                 "trigger_threshold": 1

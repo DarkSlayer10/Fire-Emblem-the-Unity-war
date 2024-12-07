@@ -1,0 +1,17 @@
+[
+    {
+        "name": "I - Body Ring",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_stats;{unit};CON,2;immediate",
+            "sound;Item",
+            "alert;Con increased by 2!"
+        ],
+        "nid": "Global I - Body Ring"
+    }
+]
