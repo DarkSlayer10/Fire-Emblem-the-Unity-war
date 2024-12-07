@@ -1,7 +1,7 @@
 [
     {
         "name": "V - Vendor",
-        "trigger": "Armory",
+        "trigger": "Vendor",
         "level_nid": "2",
         "condition": "True",
         "commands": [],

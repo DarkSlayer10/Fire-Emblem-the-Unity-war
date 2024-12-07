@@ -8,9 +8,17 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "change_ai;Sydnie;PursueVillage",
-            "change_ai;101;PursueVillage",
-            "change_ai;102;PursueVillage"
+            "flicker_cursor;Sydnie",
+            "add_portrait;Sydnie;Right",
+            "speak;Sydnie;\u2028Putting up a fight, eh?{w}\u2028Better to swarm 'em all\u2028at once, then!",
+            "remove_portrait;Sydnie",
+            "for;ENEMY_GUY;[x.nid for x in game.get_enemy_units()]",
+            "    if;u(x).klass == 'Brawler'",
+            "        change_ai;{ENEMY_GUY};PursueVillage",
+            "    else",
+            "        change_ai;{ENEMY_GUY};Pursue",
+            "    end",
+            "endf"
         ],
         "nid": "2 1 - Turn 6"
     }

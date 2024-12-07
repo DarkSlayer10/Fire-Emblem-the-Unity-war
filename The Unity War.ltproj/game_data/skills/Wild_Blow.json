@@ -23,7 +23,7 @@
             ],
             [
                 "dynamic_resist",
-                "-3 if mode != 'attack' else 0"
+                "-3 if mode == 'attack' else 0"
             ],
             [
                 "dynamic_attack_speed",

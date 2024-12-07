@@ -19,7 +19,7 @@
             ],
             [
                 "dynamic_avoid",
-                "30 if mode != 'attack' and not combat_calcs.can_counterattack(unit2, item2, unit, item) else 0"
+                "30 if mode == 'attack' and not combat_calcs.can_counterattack(unit2, item2, unit, item) else 0"
             ]
         ]
     }

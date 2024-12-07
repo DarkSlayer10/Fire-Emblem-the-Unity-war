@@ -8,12 +8,12 @@
         "music": {
             "player_phase": "Player Phase 3",
             "enemy_phase": "Bandit Phase",
-            "other_phase": null,
-            "enemy2_phase": "Player Phase 3",
+            "other_phase": "Player Phase 3",
+            "enemy2_phase": null,
             "player_battle": "Battle",
             "enemy_battle": "Enemy Battle",
-            "other_battle": null,
-            "enemy2_battle": "Battle"
+            "other_battle": "Battle",
+            "enemy2_battle": null
         },
         "objective": {
             "simple": "Defeat all bandits",
