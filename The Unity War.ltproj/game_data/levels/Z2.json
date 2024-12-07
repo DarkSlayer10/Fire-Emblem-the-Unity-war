@@ -84,7 +84,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Mercenary_F",
-                "faction": "Soldier",
+                "faction": "Town_Guard",
                 "starting_items": [
                     [
                         "Slim_Sword",

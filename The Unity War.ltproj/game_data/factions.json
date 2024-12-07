@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Soldier",
-        "name": "Soldier",
-        "desc": "The army of Grado, the largest nation on the entire continent",
+        "nid": "Town_Guard",
+        "name": "Town Guard",
+        "desc": "A local guard for a town that\nprotect its citizens.",
         "icon_nid": "KnightEmblem",
         "icon_index": [
             0,

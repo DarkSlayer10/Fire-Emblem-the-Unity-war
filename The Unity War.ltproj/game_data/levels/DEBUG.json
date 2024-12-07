@@ -44,7 +44,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Soldier",
-                "faction": "Soldier",
+                "faction": "Town_Guard",
                 "starting_items": [
                     [
                         "Iron_Lance",
@@ -76,7 +76,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Archer",
-                "faction": "Soldier",
+                "faction": "Town_Guard",
                 "starting_items": [
                     [
                         "Iron_Bow",

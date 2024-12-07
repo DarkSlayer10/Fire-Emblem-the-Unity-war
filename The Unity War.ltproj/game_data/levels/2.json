@@ -84,7 +84,7 @@
                 "team": "enemy",
                 "ai": "DefendBoss",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "A",
                 "starting_position": [
                     9,
                     1
@@ -108,7 +108,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "A",
                 "starting_position": [
                     10,
                     1
@@ -132,7 +132,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "A",
                 "starting_position": [
                     8,
                     1
@@ -913,6 +913,148 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "132",
+                "variant": null,
+                "level": 4,
+                "klass": "Brawler",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron_Claws",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "PursueVillageWait",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "133",
+                "variant": null,
+                "level": 3,
+                "klass": "Brigand",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "PursueWait",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "134",
+                "variant": null,
+                "level": 3,
+                "klass": "Mercenary_F",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "PursueWait",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "135",
+                "variant": null,
+                "level": 4,
+                "klass": "Lancer",
+                "faction": "Town_Guard",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ],
+                    [
+                        "Axereaver",
+                        false
+                    ],
+                    [
+                        "Concoction",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "PursueConcotion",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "136",
+                "variant": null,
+                "level": 4,
+                "klass": "Archer_F",
+                "faction": "Town_Guard",
+                "starting_items": [
+                    [
+                        "Iron_Bow",
+                        false
+                    ],
+                    [
+                        "Concoction",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "PursueConcotion",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "137",
+                "variant": null,
+                "level": 4,
+                "klass": "Scout_F",
+                "faction": "Town_Guard",
+                "starting_items": [
+                    [
+                        "Iron_Sword",
+                        false
+                    ],
+                    [
+                        "Concoction",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "PursueConcotion",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1326,8 +1468,61 @@
                         20
                     ]
                 }
+            },
+            {
+                "nid": "ReinforcementEnemy",
+                "units": [
+                    "132",
+                    "133",
+                    "134"
+                ],
+                "positions": {
+                    "132": [
+                        20,
+                        1
+                    ],
+                    "133": [
+                        21,
+                        0
+                    ],
+                    "134": [
+                        22,
+                        1
+                    ]
+                }
+            },
+            {
+                "nid": "ReinforcementTown",
+                "units": [
+                    "135",
+                    "136",
+                    "137"
+                ],
+                "positions": {
+                    "137": [
+                        12,
+                        22
+                    ],
+                    "135": [
+                        13,
+                        22
+                    ],
+                    "136": [
+                        11,
+                        22
+                    ]
+                }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "A",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

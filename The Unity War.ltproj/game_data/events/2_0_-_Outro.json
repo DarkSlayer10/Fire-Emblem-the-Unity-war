@@ -1,0 +1,33 @@
+[
+    {
+        "name": "0 - Outro",
+        "trigger": "level_end",
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "if;not (u('Noah').dead or u('Layla').dead or u('Noelle').dead)",
+            "    transition;close",
+            "    change_background;Outskirts",
+            "    transition;open",
+            "    multi_add_portrait;Noah;MidRight;Noelle;FarRight;Emma;FarLeft;Caroline;MidLeft",
+            "    speak;Noah;\u2028Strangers, you helped save my daughters.{w}\u2028I owe you my thanks, and perhaps my life.{w}\u2028Girls, you should thank them too.",
+            "    speak;Noelle;\u2028Thank you for saving our village, travelers!{w}\u2028Is there any way we can repay you?",
+            "    speak;Emma;\u2028Payment wasn't our goal.{w}\u2028Helping people in need is\u2028just the right thing to do.",
+            "    speak;Caroline;\u2028...{tgm}Hold on a moment{tgm}...;no_talk",
+            "    speak;Caroline;\u2028Aren't you{tgm}...{tgm}the great Noah?{w}\u2028You fought for Sundar, didn't you?",
+            "    speak;Noah;...;no_talk",
+            "    speak;Noelle;\u2028...{tgm}How do you know my dad?;no_talk",
+            "    speak;Emma;\u2028Yeah, Mom, how do you know this man?",
+            "    speak;Caroline;\u2028I've never met him personally,{w}\u2028but I know he was a troop commander\u2028for Sundar around ten years ago.{w}\u2028They say he got badly injured from\u2028an ambush that wiped out his division,{w}\u2028and that he was quietly let go after.{w}\u2028Nobody knows where he'd retired to.",
+            "    speak;Noah;Nobody <bconvo>knew</> where he'd retired to.",
+            "    speak;Caroline;\u2028So you are him, then?",
+            "    speak;Noah;\u2028...{tgm}Yes, Sir Noah, 1st Cavalry Division.{w}\u2028You are right about who I am, ma'am.{w}\u2028Noelle, my daughter here, is in charge\u2028of the wyvern brigade defending this village.;no_talk",
+            "    speak;Emma;\u2028Wyvern brigade?{w}\u2028I don't see a wyvern brigade.",
+            "end"
+        ],
+        "nid": "2 0 - Outro"
+    }
+]

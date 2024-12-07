@@ -1,0 +1,17 @@
+[
+    {
+        "name": "1 - Turn 6",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.turncount == 6",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_ai;Sydnie;PursueVillage",
+            "change_ai;101;PursueVillage",
+            "change_ai;102;PursueVillage"
+        ],
+        "nid": "2 1 - Turn 6"
+    }
+]
