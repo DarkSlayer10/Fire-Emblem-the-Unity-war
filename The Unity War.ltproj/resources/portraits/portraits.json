@@ -442,5 +442,29 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Young Emily",
+        "blinking_offset": [
+            32,
+            40
+        ],
+        "smiling_offset": [
+            32,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Young Emma",
+        "blinking_offset": [
+            24,
+            40
+        ],
+        "smiling_offset": [
+            24,
+            56
+        ],
+        "info_offset": 0
     }
 ]

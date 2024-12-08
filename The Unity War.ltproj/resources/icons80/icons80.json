@@ -203,5 +203,9 @@
     {
         "nid": "BrawlerCard",
         "subicon_dict": {}
+    },
+    {
+        "nid": "MageKnightFCard",
+        "subicon_dict": {}
     }
 ]

@@ -38,5 +38,10 @@
         "nid": "Town Tileset",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Campsite",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

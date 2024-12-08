@@ -1,6 +1,6 @@
 [
     {
-        "nid": "Mage Knight",
+        "nid": "Mage_Knight",
         "name": "Mage Knight",
         "desc": "",
         "tier": 2,
@@ -108,20 +108,30 @@
                 31,
                 251
             ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
             "Anima": [
                 2,
                 71,
+                251
+            ],
+            "Light": [
+                false,
+                0,
                 251
             ],
             "Dark": [
                 false,
                 0,
                 251
+            ],
+            "Stone": [
+                false,
+                0,
+                null
+            ],
+            "Monster": [
+                false,
+                0,
+                null
             ],
             "Default": [
                 false,

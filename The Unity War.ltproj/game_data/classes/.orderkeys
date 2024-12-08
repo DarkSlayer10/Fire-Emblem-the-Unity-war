@@ -56,6 +56,7 @@
     "Dark_Mage",
     "Sorcerer",
     "Mage_Knight",
+    "Mage_Knight_F",
     "Troubadour",
     "Valkyrie",
     "Wyvern_Rider",
@@ -80,5 +81,6 @@
     "Cyclops",
     "Wall25",
     "Snag20",
-    "Manakete"
+    "Manakete",
+    "Tent"
 ]

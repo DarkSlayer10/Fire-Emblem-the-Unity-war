@@ -420,6 +420,21 @@
         "status": "Throne"
     },
     {
+        "nid": "39",
+        "name": "Sand",
+        "color": [
+            176,
+            169,
+            75
+        ],
+        "minimap": "Sand",
+        "platform": "Sand",
+        "background": "combat_sea",
+        "mtype": "Sand",
+        "opaque": false,
+        "status": null
+    },
+    {
         "nid": "Ruins",
         "name": "Ruins",
         "color": [
