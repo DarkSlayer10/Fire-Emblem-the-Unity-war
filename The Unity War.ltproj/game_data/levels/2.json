@@ -172,7 +172,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Hand_Axe",
+                        "Steel_Bow",
                         false
                     ]
                 ],
@@ -1517,6 +1517,10 @@
         "ai_groups": [
             {
                 "nid": "A",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
