@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Z - Tempfix",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 99,
+        "_source": [
+            "#pyev1",
+            "for x in game.get_all_units_in_party():",
+            "    if x.wexp.get('Gauntlet') is None:",
+            "        x.wexp['Gauntlet'] = 0",
+            "    if x.wexp.get('Special') is None:",
+            "        x.wexp['Special'] = 0"
+        ],
+        "nid": "Global Z - Tempfix"
+    }
+]

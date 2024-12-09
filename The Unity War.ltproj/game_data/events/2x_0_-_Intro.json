@@ -1,0 +1,20 @@
+[
+    {
+        "name": "0 - Intro",
+        "trigger": null,
+        "level_nid": "2x",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "chapter_title",
+            "change_background;BlackBackground",
+            "speak;;\u2028After a few rough days\u2028of walking,{w} Emma and\u2028the group start to slow\u2028down and talk of setting\u2028up camp on Mt. Blanca.{w}\u2028The mountain winds howl\u2028as though calling out\u2028to the wolves that stalk\u2028the nearby fortresses,{w}\u2028once used to defend the\u2028mountain in times of war.;;;hint",
+            "transition;close",
+            "change_background",
+            "transition;open"
+        ],
+        "nid": "2x 0 - Intro"
+    }
+]
