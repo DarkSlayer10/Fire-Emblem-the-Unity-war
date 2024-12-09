@@ -1,0 +1,22 @@
+[
+    {
+        "name": "B - Emily Sydnie",
+        "trigger": "combat_start",
+        "level_nid": "2",
+        "condition": "check_pair('Emily', 'Sydnie')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Sydnie;LeftCorner",
+            "speak;Sydnie;\u2028Bold, aren't you?{w}\u2028Shame you're not\u2028on our side.{w}\u2028An empty-headed\u2028girl like you?{w}\u2028Bet you'd make a\u2028great pillager.{w}\u2028Trust me, I'd know.",
+            "remove_portrait;Sydnie",
+            "add_portrait;Emily;RightCorner",
+            "speak;Emily;\u2028Let's see how empty your head\u2028gets after I spill your brains!",
+            "remove_portrait;Emily",
+            "show_combat_ui"
+        ],
+        "nid": "2 B - Emily Sydnie"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "B - Nicole Sydnie",
+        "trigger": "combat_start",
+        "level_nid": "2",
+        "condition": "check_pair('Nicole', 'Sydnie')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Sydnie;LeftCorner",
+            "speak;Sydnie;\u2028A medic?{w}\u2028I hear staves sell\u2028for a good amount{tgm}...",
+            "remove_portrait;Sydnie",
+            "add_portrait;Nicole;RightCorner",
+            "speak;Nicole;\u2028M-my husband and the watch'll\u2028set you right, wait and see!{w}\u2028'Course, if you wouldn't mind\u2028takin' it easy on lil' ol' me{tgm}...",
+            "remove_portrait;Nicole",
+            "show_combat_ui"
+        ],
+        "nid": "2 B - Nicole Sydnie"
+    }
+]

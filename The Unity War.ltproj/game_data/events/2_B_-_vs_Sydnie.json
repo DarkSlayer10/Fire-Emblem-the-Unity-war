@@ -1,0 +1,19 @@
+[
+    {
+        "name": "B - vs Sydnie",
+        "trigger": "combat_start",
+        "level_nid": "2",
+        "condition": "check_default('Sydnie', ['Emily, 'Noelle', 'Noah', 'Layla', 'Carson', 'Nicole'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Sydnie;LeftCorner",
+            "speak;Sydnie;\u2028Puttin' up a fight, eh?{w}\u2028Well, that's why boss\u2028pays me, I guess.",
+            "remove_portrait;Sydnie",
+            "show_combat_ui"
+        ],
+        "nid": "2 B - vs Sydnie"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "B - Layla Sydnie",
+        "trigger": "combat_start",
+        "level_nid": "2",
+        "condition": "check_pair('Layla', 'Sydnie')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Layla;RightCorner",
+            "speak;Layla;\u2028So, you're the one who's\u2028interruping my experiments?",
+            "remove_portrait;Layla",
+            "add_portrait;Sydnie;LeftCorner",
+            "speak;Sydnie;\u2028Aw, what a sassy\u2028lost child!{w}\u2028Those books of yours\u2028look like they'd sell{tgm}...",
+            "remove_portrait;Sydnie",
+            "show_combat_ui"
+        ],
+        "nid": "2 B - Layla Sydnie"
+    }
+]

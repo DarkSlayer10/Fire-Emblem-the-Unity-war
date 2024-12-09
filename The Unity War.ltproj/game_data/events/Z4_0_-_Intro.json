@@ -1,11 +1,11 @@
 [
     {
         "name": "0 - Intro",
-        "trigger": null,
+        "trigger": "level_start",
         "level_nid": "Z4",
         "condition": "True",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "change_background;BlackBackground",
@@ -49,6 +49,7 @@
             "expression;Emma;CloseEyes",
             "speak;Emma;Ugh{tgm}...",
             "remove_portrait;Emma",
+            "transition;close;5000;255,255,255",
             "skip_save;t",
             "win_game"
         ],

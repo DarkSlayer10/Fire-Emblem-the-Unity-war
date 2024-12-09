@@ -1,0 +1,25 @@
+[
+    {
+        "name": "B - Carson Sydnie",
+        "trigger": "combat_start",
+        "level_nid": "2",
+        "condition": "check_pair('Carson', 'Sydnie')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Carson;RightCorner",
+            "speak;Carson;\u2028You should've turned tail\u2028when we showed up.",
+            "remove_portrait;Carson",
+            "add_portrait;Sydnie;LeftCorner",
+            "speak;Sydnie;\u2028To run from what?{w}\u2028A thief with a\u2028skintight mask?{w}\u2028Eat my fists,{w}\u2028little man.",
+            "remove_portrait;Sydnie",
+            "add_portrait;Carson;RightCorner",
+            "speak;Carson;\u2028An unfortunate turn of phrase\u2028that will cost you your life.",
+            "remove_portrait;Carson",
+            "show_combat_ui"
+        ],
+        "nid": "2 B - Carson Sydnie"
+    }
+]

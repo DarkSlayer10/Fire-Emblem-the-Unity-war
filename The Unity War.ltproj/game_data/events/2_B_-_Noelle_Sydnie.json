@@ -1,0 +1,22 @@
+[
+    {
+        "name": "B - Noelle Sydnie",
+        "trigger": "combat_start",
+        "level_nid": "2",
+        "condition": "check_pair('Noelle', 'Sydnie')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Sydnie;LeftCorner",
+            "speak;Sydnie;\u2028A wyvern?{w}\u2028In this village?",
+            "remove_portrait;Sydnie",
+            "add_portrait;Noelle;RightCorner",
+            "speak;Noelle;\u2028See how good your\u2028fists do you now!",
+            "remove_portrait;Noelle",
+            "show_combat_ui"
+        ],
+        "nid": "2 B - Noelle Sydnie"
+    }
+]

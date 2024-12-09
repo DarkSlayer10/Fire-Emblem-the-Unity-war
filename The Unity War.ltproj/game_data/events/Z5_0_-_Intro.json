@@ -1,17 +1,17 @@
 [
     {
         "name": "0 - Intro",
-        "trigger": null,
+        "trigger": "level_start",
         "level_nid": "Z5",
         "condition": "True",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
-            "change_background;BlackBackground",
-            "transition;close",
+            "change_background;WhiteBackground",
+            "transition;close;;255,255,255",
             "change_background",
-            "transition;open;8000",
+            "transition;open;8000;255,255,255",
             "location_card;10 years ago",
             "transition;close",
             "change_background;Clearing",
@@ -63,7 +63,7 @@
             "end_skip",
             "move_unit;105;18,16",
             "interact_unit;Young_Selena;18,5;crit1,end",
-            "transition;close;8000",
+            "transition;close;8000;255,255,255",
             "skip_save;t",
             "win_game"
         ],
