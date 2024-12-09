@@ -123,17 +123,22 @@
                 0,
                 null
             ],
-            "Stone": [
-                false,
-                0,
-                null
-            ],
             "Monster": [
                 false,
                 0,
                 null
             ],
             "Default": [
+                false,
+                0,
+                null
+            ],
+            "Gauntlet": [
+                false,
+                0,
+                null
+            ],
+            "Special": [
                 false,
                 0,
                 null

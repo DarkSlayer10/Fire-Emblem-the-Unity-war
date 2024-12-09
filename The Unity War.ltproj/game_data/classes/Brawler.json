@@ -118,11 +118,6 @@
                 0,
                 251
             ],
-            "Stone": [
-                true,
-                1,
-                null
-            ],
             "Monster": [
                 false,
                 0,
@@ -132,6 +127,16 @@
                 false,
                 0,
                 251
+            ],
+            "Gauntlet": [
+                true,
+                1,
+                null
+            ],
+            "Special": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "BrawlerCard",

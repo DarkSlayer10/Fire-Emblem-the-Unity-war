@@ -121,11 +121,6 @@
                 0,
                 251
             ],
-            "Stone": [
-                false,
-                0,
-                null
-            ],
             "Monster": [
                 false,
                 0,
@@ -135,6 +130,16 @@
                 false,
                 0,
                 251
+            ],
+            "Gauntlet": [
+                false,
+                0,
+                null
+            ],
+            "Special": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "MercCard",

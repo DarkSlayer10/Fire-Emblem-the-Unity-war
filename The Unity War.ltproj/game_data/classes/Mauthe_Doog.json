@@ -118,11 +118,6 @@
                 0,
                 251
             ],
-            "Stone": [
-                false,
-                0,
-                null
-            ],
             "Monster": [
                 true,
                 31,
@@ -132,6 +127,16 @@
                 false,
                 0,
                 251
+            ],
+            "Gauntlet": [
+                false,
+                0,
+                null
+            ],
+            "Special": [
+                true,
+                31,
+                null
             ]
         },
         "icon_nid": "DoogCard",
