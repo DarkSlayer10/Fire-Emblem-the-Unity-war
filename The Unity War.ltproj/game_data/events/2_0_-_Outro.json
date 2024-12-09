@@ -10,6 +10,7 @@
         "_source": [
             "transition;close",
             "if;not (u('Noah').dead or u('Layla').dead or u('Noelle').dead)",
+            "    music;Triumph",
             "    change_background;Outskirts",
             "    transition;open",
             "    multi_add_portrait;Noah;MidRight;Noelle;FarRight;Emma;FarLeft;Caroline;MidLeft",
@@ -79,6 +80,8 @@
             "    multi_remove_portrait;Noelle;Noah;Emily;Caroline",
             "    end_skip",
             "    transition;close",
+            "else",
+            "    music;Into the Shadow of Triumph",
             "end",
             "change_background;VillageSunset",
             "transition;open",
@@ -97,6 +100,7 @@
             "speak;Emma;\u2028What would she even be able to\u2028do to help a situation like this?",
             "multi_remove_portrait;Emma;Man2",
             "end_skip",
+            "music_clear;400",
             "transition;close",
             "skip_save;t"
         ],

@@ -4,7 +4,7 @@
         "name": "Cutscene",
         "tilemap": "Camping Fun",
         "bg_tilemap": null,
-        "party": "Emma",
+        "party": "Junk",
         "music": {},
         "objective": {
             "simple": "",
@@ -102,10 +102,110 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Young_Emma",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Young_Emily",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Young_Selena",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 1,
+                "klass": "Revenant",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Rotten_Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 1,
+                "klass": "Shaman",
+                "faction": "Demon",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "Cutscene",
+                "units": [
+                    "Emma",
+                    "101",
+                    "102",
+                    "103",
+                    "104"
+                ],
+                "positions": {
+                    "101": [
+                        12,
+                        3
+                    ],
+                    "102": [
+                        8,
+                        9
+                    ],
+                    "103": [
+                        6,
+                        5
+                    ],
+                    "104": [
+                        7,
+                        5
+                    ],
+                    "Emma": [
+                        13,
+                        8
+                    ]
+                }
+            }
+        ],
         "ai_groups": []
     }
 ]

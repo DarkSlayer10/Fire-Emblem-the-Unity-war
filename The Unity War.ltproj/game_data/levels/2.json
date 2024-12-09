@@ -13,7 +13,8 @@
             "player_battle": "Battle",
             "enemy_battle": "Enemy Battle",
             "other_battle": "Battle",
-            "enemy2_battle": null
+            "enemy2_battle": null,
+            "boss_battle": "Boss Battle"
         },
         "objective": {
             "simple": "Defeat all bandits",

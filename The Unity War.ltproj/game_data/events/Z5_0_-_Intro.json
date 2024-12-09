@@ -12,6 +12,7 @@
             "transition;close;;255,255,255",
             "change_background",
             "transition;open;8000;255,255,255",
+            "music;Nature Sounds",
             "location_card;10 years ago",
             "transition;close",
             "change_background;Clearing",
@@ -39,6 +40,7 @@
             "expression;Selena;Smile",
             "speak;Selena;\u2028Sure thing, kiddo!{w}{c:expression;Selena;NoSmile}\u2028Wait, I hear something{tgm}...",
             "bop_portrait;Selena",
+            "music;Tension",
             "speak;Selena;\u2028Young Emma, watch out!!!",
             "bop_portrait;Young Emma",
             "speak;Young Emma;AHH!!!",
@@ -64,6 +66,7 @@
             "move_unit;105;18,16",
             "interact_unit;Young_Selena;18,5;crit1,end",
             "transition;close;8000;255,255,255",
+            "music_clear;400",
             "skip_save;t",
             "win_game"
         ],

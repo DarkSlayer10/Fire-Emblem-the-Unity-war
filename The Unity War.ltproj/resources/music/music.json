@@ -168,5 +168,15 @@
         "Mount Gale",
         true,
         false
+    ],
+    [
+        "Boss Battle",
+        true,
+        false
+    ],
+    [
+        "Nature Sounds",
+        false,
+        false
     ]
 ]
