@@ -1,6 +1,6 @@
 [
     {
-        "nid": "Z4",
+        "nid": "Z6",
         "name": "Cutscene",
         "tilemap": "Camping Fun",
         "bg_tilemap": null,
@@ -96,6 +96,22 @@
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 1,
+                "klass": "Shaman",
+                "faction": "Town_Guard",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",

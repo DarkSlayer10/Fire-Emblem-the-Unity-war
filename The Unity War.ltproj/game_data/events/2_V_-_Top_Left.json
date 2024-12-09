@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "if;unit.nid == 'Emma'",
+            "    game_var;met_selena;True",
             "    transition;close",
             "    change_background;Town",
             "    transition;open",

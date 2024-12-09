@@ -466,5 +466,17 @@
             56
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Fernando",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            32,
+            40
+        ],
+        "info_offset": 0
     }
 ]
