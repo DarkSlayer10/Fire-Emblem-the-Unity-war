@@ -5,11 +5,13 @@
         "tilemap": "Camping Fun",
         "bg_tilemap": null,
         "party": "Emma",
-        "music": {},
+        "music": {
+            "player_phase": "Duty"
+        },
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Talk",
+            "win": "Talk",
+            "loss": "--"
         },
         "roam": true,
         "roam_unit": "Emma",
@@ -213,15 +215,121 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Caroline",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Sonia",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Lily",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Marica",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Carson",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Nicole",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Noah",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Noelle",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Layla",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "Escape",
+                "region_type": "event",
+                "position": [
+                    4,
+                    5
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Escape",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
         "unit_groups": [
             {
                 "nid": "Cutscene",
                 "units": [
-                    "Emma",
-                    "Emily",
                     "101",
                     "102",
                     "103",
@@ -238,7 +346,8 @@
                 "nid": "CutsceneA",
                 "units": [
                     "Emma",
-                    "Emily"
+                    "Emily",
+                    "Caroline"
                 ],
                 "positions": {
                     "Emma": [
@@ -248,15 +357,76 @@
                     "Emily": [
                         9,
                         9
+                    ],
+                    "Caroline": [
+                        9,
+                        8
+                    ]
+                }
+            },
+            {
+                "nid": "CampsiteA",
+                "units": [
+                    "Caroline",
+                    "Sonia",
+                    "Lily",
+                    "Marica",
+                    "Carson",
+                    "Nicole",
+                    "Noah",
+                    "Noelle",
+                    "Layla",
+                    "Emily",
+                    "Emma"
+                ],
+                "positions": {
+                    "Caroline": [
+                        5,
+                        5
+                    ],
+                    "Sonia": [
+                        16,
+                        5
+                    ],
+                    "Marica": [
+                        14,
+                        5
+                    ],
+                    "Lily": [
+                        3,
+                        5
+                    ],
+                    "Carson": [
+                        10,
+                        7
+                    ],
+                    "Nicole": [
+                        15,
+                        0
+                    ],
+                    "Noah": [
+                        6,
+                        11
+                    ],
+                    "Noelle": [
+                        16,
+                        10
+                    ],
+                    "Layla": [
+                        14,
+                        10
+                    ],
+                    "Emily": [
+                        11,
+                        4
+                    ],
+                    "Emma": [
+                        12,
+                        4
                     ]
                 }
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

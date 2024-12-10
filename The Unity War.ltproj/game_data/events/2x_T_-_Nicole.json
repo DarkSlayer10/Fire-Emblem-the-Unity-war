@@ -1,0 +1,33 @@
+[
+    {
+        "name": "T - Nicole",
+        "trigger": "on_talk",
+        "level_nid": "2x",
+        "condition": "unit2.nid == 'Nicole' and not v('nicole_talk') == 2",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Nicole;Left;Emma;Right",
+            "speak;Emma;\u2028Nicole!{w}\u2028What're you doing all\u2028the way over here?",
+            "speak;Nicole;\u2028Oh!",
+            "speak;Nicole;\u2028Emma, hun, I didn't expect anyone to come\u2028over here just to talk to lil' ol' me.{w}\u2028There's a lot on my mind, and I was just\u2028eatin' a lil' snack while everyone unwound.{w}\u2028After all the walkin' around, I'm all tuckered\u2028out and about ready to hit the hay.",
+            "speak;Emma;\u2028I'm surprised you didn't ask\u2028Carson to come sit with you.",
+            "speak;Nicole;\u2028Ah, well, I don't like to let 'im\u2028see me when I'm so upset{tgm}...",
+            "speak;Emma;\u2028What're you so upset about?",
+            "speak;Nicole;\u2028Oh, it's{tgm}...{tgm}really nothin' I'm\u2028comfortable talkin' about{tgm}...{tgm}{w}\u2028I'll be okay, though, Emma.",
+            "speak;Emma;\u2028Are you sure?\u2028I'm here to listen.",
+            "speak;Nicole;\u2028You're such a sweet girl, but I think\u2028I just need to lay down for a spell.{w}\u2028I think I'll see you at dinner, dearie.",
+            "speak;Emma;\u2028Alright then, enjoy your nap!{w}\u2028Sweet dreams!",
+            "speak;Nicole;\u2028Oh, bless your soul.",
+            "multi_remove_portrait;Nicole;Emma",
+            "remove_unit;Nicole",
+            "inc_level_var;nicole_talk",
+            "remove_talk;Emma;Nicole",
+            "if;v('nicole_talk') == 2",
+            "    add_talk;Emma;Carson",
+            "end"
+        ],
+        "nid": "2x T - Nicole"
+    }
+]

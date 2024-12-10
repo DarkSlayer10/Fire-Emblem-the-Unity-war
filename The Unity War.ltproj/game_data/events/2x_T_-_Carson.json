@@ -1,0 +1,38 @@
+[
+    {
+        "name": "T - Carson",
+        "trigger": "on_talk",
+        "level_nid": "2x",
+        "condition": "unit2.nid == 'Carson' and not v('nicole_talk') == 2",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Carson;Left;Emma;Right",
+            "bop_portrait;Carson",
+            "speak;Carson;\u2028Oh, Emma!{w}\u2028Just the person I\u2028was looking for!",
+            "speak;Emma;\u2028You were looking for{tgm}...{tgm}me?",
+            "speak;Emma;What for?",
+            "speak;Carson;\u2028Well, you see, Nicole's been acting\u2028strange,{w} and I've been trying to\u2028figure out what's up with her.{w}\u2028I figured a woman such as yourself\u2028could help me with her more{tgm}...{tgm}{w}\u2028emotional aspects.",
+            "speak;Emma;\u2028Why me specifically?{w}\u2028You know there's a lot of\u2028women in our convoy, right?",
+            "speak;Carson;\u2028The rest just aren't nearly as{tgm}...",
+            "speak;Carson;\u2028How do I say it?",
+            "speak;Carson;\u2028You wear your heart on your sleeve while\u2028they wear it under an iron gauntlet.",
+            "speak;Emma;\u2028Ah, well, what do you expect when\u2028Mom is the one leading them?{w}\u2028I'm pretty sure she hides a\u2028dagger in her sleeping bag.",
+            "speak;Carson;\u2028I suppose that doesn't\u2028really surprise me.",
+            "speak;Emma;\u2028Anyway, what do you need to know?",
+            "speak;Carson;\u2028Well, how do you think I should handle\u2028it when Nicole gets emotional and{tgm}...{tgm}{w}\u2028starts to sob controllably?{w}\u2028I{tgm}...{tgm}feel lacking when I don't\u2028know how to console her.",
+            "speak;Emma;\u2028Oh dear. Well, most people need to\u2028cry when appropriate,{w} so stopping\u2028them isn't always the solution.{w}\u2028Just being besides Nicole is the best\u2028way for you to comfort her.",
+            "speak;Carson;\u2028Is{tgm}...{tgm}is that so?{w}\u2028That's much simpler than\u2028I would have thought{tgm}...{tgm}{w}\u2028Maybe a nice treat would\u2028also put her in a better mood{tgm}...",
+            "speak;Carson;\u2028Thanks, Emma!{w}\u2028I'll see you at dinner!",
+            "remove_portrait;Carson",
+            "speak;Emma;\u2028Oh, um, glad to help!",
+            "remove_portrait;Emma",
+            "inc_level_var;nicole_talk",
+            "if;v('nicole_talk') != 2",
+            "    remove_talk;Emma;Carson",
+            "end"
+        ],
+        "nid": "2x T - Carson"
+    }
+]

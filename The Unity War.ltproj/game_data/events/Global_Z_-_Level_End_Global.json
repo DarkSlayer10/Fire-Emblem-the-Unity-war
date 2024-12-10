@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Z - Level End Global",
+        "trigger": "level_end",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 1,
+        "_source": [
+            "for;RETREATED;[x.nid for x in game.get_all_units_in_party() if has_skill(x, 'Injured')]",
+            "    kill_unit;{RETREATED};immediate",
+            "endf"
+        ],
+        "nid": "Global Z - Level End Global"
+    }
+]

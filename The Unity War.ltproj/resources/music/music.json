@@ -178,5 +178,10 @@
         "Nature Sounds",
         false,
         false
+    ],
+    [
+        "Duty",
+        true,
+        false
     ]
 ]
