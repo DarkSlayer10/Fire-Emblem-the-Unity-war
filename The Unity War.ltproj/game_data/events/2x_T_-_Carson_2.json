@@ -3,7 +3,7 @@
         "name": "T - Carson 2",
         "trigger": "on_talk",
         "level_nid": "2x",
-        "condition": "unit2.nid == 'Carson' and v('nicole_talk') == 2",
+        "condition": "unit2.nid == 'Carson' and v('nicole_talk') == 2 and not v('night')",
         "commands": [],
         "only_once": true,
         "priority": 20,

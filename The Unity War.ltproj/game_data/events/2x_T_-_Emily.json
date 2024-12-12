@@ -1,0 +1,41 @@
+[
+    {
+        "name": "T - Emily",
+        "trigger": "on_talk",
+        "level_nid": "2x",
+        "condition": "unit2.nid == 'Emily' and not v('night')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Emily;Left;Emma;Right",
+            "bop_portrait;Emily",
+            "speak;Emily;\u2028Take thiiis!!!",
+            "bop_portrait;Emma",
+            "speak;Emma;\u2028Ahhh!!!",
+            "expression;Emma;Smile",
+            "speak;Emma;\u2028Emily, you got me good,\u2028but not good enough!!",
+            "expression;Emma;NoSmile",
+            "bop_portrait;Emma",
+            "speak;Emma;\u2028Take this!!!",
+            "speak;Emily;\u2028Nice try, but I can see your fire\u2028coming from a mile away!!",
+            "speak;Emma;\u2028Dodge this little spark then!",
+            "bop_portrait;Emily",
+            "speak;Emily;\u2028Ahhh!!! Haha!!!{w}\u2028I haven't had this much\u2028fun since we were kids!{w}\u2028We should do a little bit\u2028of sparring more often.",
+            "speak;Emma;\u2028Hehe, I have to admit\u2028that was pretty fun.",
+            "speak;Emma;\u2028Though, I feel like your 'blunt'\u2028arrows still hurt a bit too much{tgm}...",
+            "speak;Emily;\u2028I could say the same thing\u2028about your 'weakened' spells.",
+            "speak;Emma;\u2028Hmph, well, sometimes I don't\u2028know my own strength.",
+            "expression;Emily;Smile",
+            "speak;Emily;\u2028Heh, yeah yeah, Ms. Magic{tgm}...{tgm}{w}{c:expression;Emily;NoSmile}\u2028Hey, I think tonight's\u2028supposed to be a full moon.{w}\u2028Do you wanna watch it?{w}\u2028We can look at the stars like we\u2028used to when we were little!",
+            "bop_portrait;Emma",
+            "speak;Emma;\u2028That's a great idea!{w}\u2028Maybe we can even find\u2028someone else to join us, too.{w}\u2028It'd be a shame not to share\u2028the view with a friend or two.",
+            "bop_portrait;Emily",
+            "speak;Emily;\u2028Sounds like a plan!{w}\u2028I'll see if I can get\u2028anyone on board!",
+            "multi_remove_portrait;Emily;Emma",
+            "remove_talk;Emma;Emily",
+            ""
+        ],
+        "nid": "2x T - Emily"
+    }
+]

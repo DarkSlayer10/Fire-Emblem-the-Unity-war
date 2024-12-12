@@ -1,0 +1,39 @@
+[
+    {
+        "name": "T - Sonia",
+        "trigger": "on_talk",
+        "level_nid": "2x",
+        "condition": "unit2.nid == 'Sonia' and not v('nicole_talk') == 2 and not v('night')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Emma;Right;Sonia;Left",
+            "speak;Emma;Hey, Sonia!",
+            "speak;Sonia;\u2028Hey, kiddo!{w}\u2028How do you like the world\u2028outside the village?",
+            "expression;Emma;Smile",
+            "speak;Emma;\u2028I love it!",
+            "speak;Emma;\u2028Seeing so many cool landscapes along\u2028the way and meeting new people{tgm}...{tgm}{w}\u2028It's all just so exciting!",
+            "expression;Emma;NoSmile",
+            "speak;Emma;\u2028It's just{tgm}...{tgm}difficult to\u2028see all the suffering too.",
+            "speak;Sonia;\u2028Yeah{tgm}...{tgm} The world isn't all sunshine.{w}\u2028There's good and bad people who will do\u2028whatever they want if nobody stops them.",
+            "speak;Emma;\u2028Mom said some people are just that\u2028way, and that you can't change them.",
+            "speak;Sonia;\u2028Caroline's always been a bit of\u2028a cynic, but she's partially right.{w}\u2028You really can't change people's ways\u2028if they aren't willing to change.{w}\u2028It's like talking to a brick wall\u2028instead of a person{tgm}...{tgm}like Marica.",
+            "speak;Emma;\u2028I get that people will always steal, kill,\u2028anything to get the way they want, but{tgm}...{tgm}{w}\u2028I just don't get why they can't ask for\u2028what they want and sort it out that way.{w}\u2028Then they wouldn't need to hurt each other.",
+            "speak;Sonia;\u2028I wish the world could be that simple, kid,{w}\u2028but it's been a messed up, broken place\u2028for so long,{w} you'd have to set your sights\u2028on changing the entire human race.{w}\u2028I find that handling it person-by-person\u2028is better.{w} And, luckily for you,{w}\u2028I'm with you girls all the way to protect\u2028you and help you make good choices.",
+            "speak;Emma;\u2028I appreciate it, Sonia!{w}\u2028We all do.{w}\u2028You're my first friend I really\u2028made, and still my best one.{w}\u2028Consider your back covered by\u2028me, too.",
+            "speak;Sonia;\u2028I appreciate it kid, though I'm sure\u2028Caroline already has it covered.{w}\u2028Why, I remember the time you snuck\u2028up on my during one of my patrols,{w}\u2028jumped out at me from a bush, and\u2028tried to hit me with a stick.{w}\u2028Caroline thought you were a rabid\u2028beast!{w} After we made sure that her\u2028kick didn't hurt you too badly,{w}\u2028we all played around pretending\u2028to be swordsmasters.",
+            "speak;Emma;\u2028I remember that very well{tgm}...{tgm}\u2028and so does my spleen.{w}\u2028Mom was so mad that I\u2028interrupted your jobs.",
+            "speak;Sonia;\u2028Haha, that's true.{w}\u2028She was so enraged, I had to\u2028spend an hour talking her down.",
+            "speak;Emma;\u2028It's a wonder she let me off\u2028without any punishment.{w}\u2028I thought she was gonna make me run\u2028laps around town while carrying her.",
+            "speak;Sonia;\u2028Heh, you're a lucky kid, Emma.{w}\u2028Hey, I'm going to take a nap\u2028before dinner.{w} I'm starving and\u2028exhausted from all the traveling.",
+            "speak;Emma;\u2028Alright, I hope you can\u2028catch some sleep!",
+            "speak;Sonia;\u2028That makes two of us.{w}\u2028Don't get into any\u2028trouble I wouldn't cause.{w}\u2028I'll see you later.",
+            "speak;Emma;\u2028Have a good nap!",
+            "multi_remove_portrait;Emma;Sonia",
+            "remove_talk;Emma;Sonia",
+            "remove_unit;Sonia"
+        ],
+        "nid": "2x T - Sonia"
+    }
+]
