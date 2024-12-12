@@ -19,7 +19,17 @@
             "speak;Marica;\u2028It's about how you act,\u2028not the number.{w}\u2028Carry yourself like an adult\u2028and you'll be treated like one.",
             "speak;Emma;\u2028Hey, I always carry my tome\u2028with me no matter where I go!{w}\u2028Just try not to sharpen your lance\u2028so much it gets small and worthless.",
             "bop_portrait;Marica",
-            "speak;Marica;\u2028Wh- My lance isn't small!{w}\u2028You take that back, Emma!"
+            "speak;Marica;\u2028Wh- My lance isn't small!{w}\u2028You take that back, Emma!",
+            "speak;Emma;\u2028I don't see why I should, but{tgm}...{tgm}\u2028Fine, fine, I didn't mean it.",
+            "speak;Emma;\u2028Man, she's sensitive about\u2028that lance of hers.{w}\u2028It's actually kind of funny.;;;thought_bubble;no_talk",
+            "speak;Marica;\u2028Hmph, we'll leave it at that, then.{w}\u2028Sonia always told me there's no point\u2028holding a grudge against colleagues.",
+            "speak;Emma;\u2028How did you get into the\u2028village guard, anyway?",
+            "speak;Marica;\u2028I used to be a traveler. One day,\u2028while passing near Meadhaven,{w}\u2028Sonia found me training outside\u2028the village walls.{w} She said\u2028she saw the potential in me,{w}\u2028offered me a place to train with\u2028her and work with the guards.{w}\u2028Accepting her offer was one of\u2028the best decisions of my life.",
+            "speak;Emma;\u2028I remember being excited to meet you when\u2028Sonia said she found another apprentice.{w}\u2028You always do bring a certain amount\u2028of energy to a hunt or patrol shift.",
+            "speak;Marica;\u2028Oh, well, you're welcome.{w}\u2028If we're speaking candidly,\u2028I'm just happy to be here.{w}\u2028I{tgm}...{tgm}liked the village,\u2028and I want to keep everyone\u2028here safe.{w}\u2028Just remember not to get in my way\u2028when I'm trying to protect you.",
+            "speak;Emma;\u2028Oh, uh, I'll make sure to be\u2028more help than burden, then!",
+            "multi_remove_portrait;Emma;Marica",
+            "remove_talk;Emma;Marica"
         ],
         "nid": "2x T - Marica"
     }

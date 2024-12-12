@@ -1,0 +1,40 @@
+[
+    {
+        "name": "T - Layla",
+        "trigger": "on_talk",
+        "level_nid": "2x",
+        "condition": "unit2.nid == 'Layla' and not v('night')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Layla;Left;Emma;Right",
+            "speak;Emma;\u2028Hey Layla, what\u2028are you up to?",
+            "speak;Layla;\u2028Oh, hey Emma!{w}\u2028I am reading a book\u2028about the dark arts!{w}\u2028As a fellow magic scholar,\u2028I'm sure you'll appreciate it.",
+            "bop_portrait;Layla",
+            "speak;Layla;\u2028I've been doing some pretty heavy research lately\u2028about the process of reanimating corpses.",
+            "bop_portrait;Emma",
+            "speak;Emma;\u2028Wh-why would you want to know that?",
+            "speak;Layla;\u2028It's been an interest of mine for a while,{w}\u2028but this time Lily asked me to research it.{w}\u2028I want to figure out what causes them\u2028to move,{w} and Lily wants to know how\u2028to nullify the spell.",
+            "speak;Emma;\u2028And you think that's a good idea?{w}\u2028Aren' you a little young to be\u2028looking into the art of necromancy?",
+            "speak;Layla;\u2028I'm only- I mean, already 14, Emma.{w}\u2028That is practically an adult.{w}\u2028This is all I want to learn about.{w}\u2028It's all I'm interested in{tgm}...{tgm}{w}\u2028This, and my art.",
+            "speak;Emma;\u2028Oh, so you can draw as well?",
+            "speak;Emma;\u2028I think art school has a lower likelihood\u2028of accidentally evoking the apocalypse.;;;thought_bubble;no_talk",
+            "speak;Layla;Yes, I can.",
+            "bop_portrait;Layla",
+            "speak;Layla;\u2028I have to draw a lot of runes and\u2028diagrams in my notebooks,{w} and\u2028they're nothing that impressive,{w}\u2028but{tgm}...",
+            "move_portrait;Layla;MidRight",
+            "speak;Layla;\u2028Here, this is what I was drawing\u2028just before the bandits attacked.",
+            "bop_portrait;Emma",
+            "speak;Emma;\u2028This is actually a good drawing, Layla.{w}\u2028You've got a real talent for this!",
+            "speak;Layla;\u2028Yes, as opposed to fake talent.",
+            "move_portrait;Layla;Left",
+            "speak;Layla;\u2028Listen, I appreciate it, but I've\u2028got to get back to my research.{w}\u2028I'll talk to you later.",
+            "speak;Emma;\u2028Alright, but don't stay up all night with\u2028your head buried in a book, please.",
+            "speak;Layla;\u2028Yeah, yeah, I won't.",
+            "multi_remove_portrait;Emma;Layla",
+            "remove_talk;Emma;Layla"
+        ],
+        "nid": "2x T - Layla"
+    }
+]

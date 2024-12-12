@@ -34,7 +34,7 @@
             "speak;Emily;\u2028Sounds like a plan!{w}\u2028I'll see if I can get\u2028anyone on board!",
             "multi_remove_portrait;Emily;Emma",
             "remove_talk;Emma;Emily",
-            ""
+            "inc_level_var;dinner"
         ],
         "nid": "2x T - Emily"
     }

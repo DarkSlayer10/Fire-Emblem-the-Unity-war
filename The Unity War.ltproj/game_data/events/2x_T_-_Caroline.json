@@ -43,7 +43,8 @@
             "bop_portrait;Emma",
             "speak;Emma;Alright, Mom!",
             "multi_remove_portrait;Emma;Caroline",
-            "remove_talk;Emma;Caroline"
+            "remove_talk;Emma;Caroline",
+            "inc_level_var;dinner"
         ],
         "nid": "2x T - Caroline"
     }

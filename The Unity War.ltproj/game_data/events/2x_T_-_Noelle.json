@@ -1,0 +1,39 @@
+[
+    {
+        "name": "T - Noelle",
+        "trigger": "on_talk",
+        "level_nid": "2x",
+        "condition": "unit2.nid == 'Noelle' and not v('night')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Noelle;Right;Emma;Left",
+            "bop_portrait;Emma",
+            "speak;Emma;Aaa!",
+            "bop_portrait;Noelle",
+            "speak;Noelle;\u2028Whoa, easy, girl!{w}\u2028This is our ally!",
+            "speak;Emma;\u2028Good heavens, I thought that I was\u2028about to become an afternoon snack.{w}\u2028I guess your wyvern isn't adjusted\u2028to me yet, Noelle?",
+            "speak;Noelle;\u2028Yeah, unfortunately she isn't good with\u2028strangers, but she is the best girl though.{w}\u2028Did you have something you wanted to discuss?",
+            "speak;Emma;\u2028I want to get to know you better,{w}\u2028since we're going to be allies and all.{w}\u2028I heard that you were the captain of\u2028your wyvern brigade.",
+            "bop_portrait;Noelle",
+            "expression;Noelle;Smile",
+            "speak;Noelle;\u2028Hah, that's right, I was!",
+            "expression;Noelle;NoSmile",
+            "speak;Noelle;\u2028Dad used to be a captain of his own brigade,\u2028so I wanted to followin his footsteps.{w}\u2028Even if, you know, I'm still the only member{tgm}...",
+            "speak;Emma;\u2028It's still nice that you wanted to\u2028continue his legacy in a way.{w}\u2028Layla is your younger sister, right?",
+            "speak;Noelle;\u2028Oh, Layla? She's a whole\u20286 years younger than me.{w}\u2028We used to be close until she got\u2028into her research of the dark arts.{w}\u2028Every time I try to get close now,{w}\u2028she just pushes me away, so I try\u2028to leave her alone.",
+            "speak;Emma;\u2028I wish I could help you guys\u2028mend your relationship{tgm}...{tgm}{w}\u2028Um, Noelle{tgm}...{tgm}your wyvern is\u2028still growling at me.",
+            "speak;Noelle;\u2028Sorry about her, again.",
+            "bop_portrait;Noelle",
+            "speak;Noelle;\u2028C'mon, girl, let's go for a walk!{w}\u2028I'll talk to you at dinner, Emma!",
+            "speak;Emma;\u2028Heh, yeah.{w}\u2028Bye, Noelle!",
+            "speak;Emma;\u2028I'd best leave them alone unless\u2028I want to end up wyvern food.;;;thought_bubble;no_talk",
+            "multi_remove_portrait;Emma;Noelle",
+            "remove_talk;Emma;Noelle",
+            "move_unit;Noelle;8,12",
+            "remove_unit;Noelle"
+        ],
+        "nid": "2x T - Noelle"
+    }
+]

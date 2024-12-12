@@ -30,7 +30,8 @@
             "speak;Lily;\u2028I can sense there's something special\u2028about you. I just don't know what it is...{w}\u2028I can see it now, the realization of your\u2028strong potential for the mana of light...{w}\u2028One day soon.;;;thought_bubble;no_talk",
             "remove_portrait;Lily",
             "remove_talk;Emma;Lily",
-            "move_unit;Lily;2,3"
+            "move_unit;Lily;2,3",
+            "inc_level_var;dinner"
         ],
         "nid": "2x T - Lily"
     }

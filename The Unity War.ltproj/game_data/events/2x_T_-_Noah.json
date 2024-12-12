@@ -1,0 +1,43 @@
+[
+    {
+        "name": "T - Noah",
+        "trigger": "on_talk",
+        "level_nid": "2x",
+        "condition": "unit2.nid == 'Noah' and not v('night')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Emma;Left;Noah;Right",
+            "speak;Noah;\u2028Excuse me, Emma. Can I\u2028talk to you for a second?",
+            "speak;Emma;\u2028Oh, sure. Is there\u2028something on your mind?",
+            "expression;Noah;Smile",
+            "speak;Noah;\u2028Haha, no, I save the\u2028confessions for church.",
+            "expression;Noah;NoSmile",
+            "speak;Noah;\u2028I wanted to say my thanks\u2028for saving us in the village.{w}\u2028My daughters are strong, but I\u2028can't help but worry about them.",
+            "speak;Emma;\u2028Well, it was my sister that charged\u2028in like a mad lass to save you guys.{w}\u2028I'm just happy that we were able\u2028to make it in time.",
+            "speak;Noah;\u2028We weren't totally defenseless, just\u2028taken off guard and had to scramble.{w}\u2028Since we drove them off thoroughly,{w}\u2028I had time to grab my special lance\u2028from my house before we left.",
+            "multi_remove_portrait;Emma;Noah",
+            "give_item;Emma;Holy_Lance",
+            "speak;Emma;\u2028Ooh, that does look cool{tgm}...",
+            "speak;Noah;\u2028You should find someone in\u2028your group to give it to,{w}\u2028put it to some good use.",
+            "speak;Emma;\u2028But, isn't this lance\u2028special to you?{w}\u2028It looks so fancy.",
+            "speak;Noah;\u2028Hah, well, my lance-wielding days\u2028might be behind me, I'm afraid.{w}\u2028It was made by a good friend\u2028of mine from back in the day{tgm}...{tgm}{w}\u2028Perhaps, one day, I could get him to\u2028forge some weapons for your family!{w}\u2028Your mother's blade looks quite dull,{w}\u2028and Emily's bow looks about ready\u2028to fall apart.",
+            "speak;Emma;\u2028That really won't be-",
+            "speak;Noah;\u2028No, you'll find that when my mind\u2028is made up, there's no changing it.{w}\u2028My time with a team taught me to\u2028repay those who help you in full,{w}\u2028no matter the cost.{w}\u2028It was something my hardass of a\u2028military instructor drilled into me{tgm}...{tgm}{w}\u2028Though, I guess in the long run, it\u2028left me with more good than bad.",
+            "speak;Emma;\u2028Oh, that's right, you fought in\u2028the war years ago, correct?",
+            "speak;Noah;Yes. Yes I did.",
+            "speak;Noah;\u2028I lost too many friends in those bloody days.{w}\u2028When it was all over, I had to ride out to\u2028the homes of every dead many in my division,{w}\u2028so I could break the bad news to their families.{w}\u2028Do you have any idea how harrowing it is to\u2028be seen as the undertaker on horseback?{w}\u2028To walk into town and feel the dread,{w}\u2028hear their whispers as wives and children\u2028begged for me not to knock upon their doors?",
+            "speak;Emma;\u2028I-I couldn't{tgm}...",
+            "speak;Noah;...;no_talk",
+            "speak;Noah;\u2028I'm sorry, Emma.{w} I would love to\u2028talk more on other topics, but{tgm}...{tgm}{w}\u2028I've got something to do real quick,\u2028a surprise for my daughter.{w}\u2028If you wanted to hear about old times,{w}\u2028maybe we could talk about it later.",
+            "speak;Noah;\u2028O-Okay.{w} See you later.",
+            "remove_portrait;Noah",
+            "speak;Emma;Oh, Noah...;;;thought_bubble;no_talk",
+            "speak;Emma;\u2028I wish I knew how to heal you, but...\u2028These aren't the sorts of scars that\u2028healing magic can handle...;;;thought_bubble;no_talk",
+            "remove_portrait;Emma",
+            "remove_talk;Emma;Noah"
+        ],
+        "nid": "2x T - Noah"
+    }
+]
