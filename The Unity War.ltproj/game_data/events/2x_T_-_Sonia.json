@@ -3,7 +3,7 @@
         "name": "T - Sonia",
         "trigger": "on_talk",
         "level_nid": "2x",
-        "condition": "unit2.nid == 'Sonia' and not v('nicole_talk') == 2 and not v('night')",
+        "condition": "unit2.nid == 'Sonia' and not v('night')",
         "commands": [],
         "only_once": true,
         "priority": 20,

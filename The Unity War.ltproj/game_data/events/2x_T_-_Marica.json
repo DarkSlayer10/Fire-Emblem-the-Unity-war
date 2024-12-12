@@ -1,0 +1,26 @@
+[
+    {
+        "name": "T - Marica",
+        "trigger": "on_talk",
+        "level_nid": "2x",
+        "condition": "unit2.nid == 'Marica' and not v('night')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Emma;Right;Marica;Left",
+            "expression;Emma;Smile",
+            "speak;Emma;\u2028Hey, Marica!{w} I see you're keeping\u2028your lance as sharp as ever.",
+            "speak;Marica;\u2028I always gotta keep it sharp, Emma.{w}{c:expression;Marica;Smile}\u2028You never know if we're going\u2028to get attacked{tgm}...{tgm}{w}\u2028or if a little girl is going to\u2028keep annoying me.",
+            "expression;Emma;NoSmile",
+            "bop_portrait;Emma",
+            "speak;Emma;\u2028Wh- I'm not a little girl!{w}\u2028Our ages aren't even that\u2028far apart!",
+            "expression;Marica;NoSmile",
+            "speak;Marica;\u2028It's about how you act,\u2028not the number.{w}\u2028Carry yourself like an adult\u2028and you'll be treated like one.",
+            "speak;Emma;\u2028Hey, I always carry my tome\u2028with me no matter where I go!{w}\u2028Just try not to sharpen your lance\u2028so much it gets small and worthless.",
+            "bop_portrait;Marica",
+            "speak;Marica;\u2028Wh- My lance isn't small!{w}\u2028You take that back, Emma!"
+        ],
+        "nid": "2x T - Marica"
+    }
+]

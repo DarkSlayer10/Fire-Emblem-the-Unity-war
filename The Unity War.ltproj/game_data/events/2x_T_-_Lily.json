@@ -1,0 +1,37 @@
+[
+    {
+        "name": "T - Lily",
+        "trigger": "on_talk",
+        "level_nid": "2x",
+        "condition": "unit2.nid == 'Lily' and not v('night')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Lily;Left;Emma;Right",
+            "speak;Emma;\u2028Lily! What're you up to?",
+            "speak;Lily;\u2028Oh, hey Emma. I'm just looking over\u2028our food and medical supplies.{w}\u2028Your mother and I are supposed to\u2028be making dinner tonight,{w} and I'm\u2028making sure nothing's poisoned.",
+            "speak;Emma;\u2028How do you know\u2028if food is poisoned?{w}\u2028Like, with your magic?",
+            "expression;Lily;Smile",
+            "speak;Lily;\u2028You don't know all my tricks, Emma.{w}\u2028Simply put, I just hold the object\u2028and sense impurities using light magic.{w}\u2028If I find any poison, I can cleanse it.",
+            "speak;Emma;\u2028All my time training with you, and\u2028you never told me about this?",
+            "expression;Lily;NoSmile",
+            "speak;Lily;\u2028I just wanted to show you the basics\u2028of healing, not the advanced stuff.{w}\u2028The advanced healing spells are\u2028very hard to pull off,{w} especially\u2028when you don't have enough mana.{w}\u2028But, maybe one day, you'll be as\u2028strong as me.{w}\u2028Then, you'll be ready to learn.",
+            "speak;Emma;\u2028Hmph, I feel like I'm strong\u2028enough to learn now.",
+            "speak;Lily;\u2028Trust me, you're not.",
+            "speak;Emma;\u2028Well, you know all I've wanted for a long\u2028time is to become a better magic user,{w}\u2028so I feel like I'd be better off learning\u2028everything I can, right?",
+            "speak;Lily;\u2028Like I said, when the time\u2028is right, I'll show you.{w}\u2028Today is just, in fact,\u2028not that day.",
+            "speak;Emma;\u2028Hmph.",
+            "speak;Emma;\u2028Fine, I'll let you finish\u2028looking over the food.{w}\u2028Just don't eat everything.",
+            "speak;Lily;\u2028Don't lump me in with the likes of Marica\u2028or Sonia when they get hungry on watch.",
+            "speak;Emma;\u2028I'll make sure to tell\u2028them you said that.",
+            "remove_portrait;Emma",
+            "speak;Lily;\u2028Oh, Emma...",
+            "speak;Lily;\u2028I can sense there's something special\u2028about you. I just don't know what it is...{w}\u2028I can see it now, the realization of your\u2028strong potential for the mana of light...{w}\u2028One day soon.;;;thought_bubble;no_talk",
+            "remove_portrait;Lily",
+            "remove_talk;Emma;Lily",
+            "move_unit;Lily;2,3"
+        ],
+        "nid": "2x T - Lily"
+    }
+]
