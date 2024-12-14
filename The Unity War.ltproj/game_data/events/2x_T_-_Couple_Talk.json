@@ -1,0 +1,16 @@
+[
+    {
+        "name": "T - Couple Talk",
+        "trigger": "on_talk",
+        "level_nid": "2x",
+        "condition": "v('night') and unit.nid in ['Carson', 'Nicole']",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music_clear;400",
+            "win_game"
+        ],
+        "nid": "2x T - Couple Talk"
+    }
+]

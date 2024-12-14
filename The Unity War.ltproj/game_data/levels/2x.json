@@ -307,25 +307,7 @@
                 "generic": false
             }
         ],
-        "regions": [
-            {
-                "nid": "Escape",
-                "region_type": "event",
-                "position": [
-                    4,
-                    5
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Escape",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            }
-        ],
+        "regions": [],
         "unit_groups": [
             {
                 "nid": "Cutscene",

@@ -1,9 +1,9 @@
 [
     {
         "name": "W - Escape",
-        "trigger": "Escape",
+        "trigger": "on_region_interact",
         "level_nid": "0",
-        "condition": "True",
+        "condition": "region.nid == 'Escape'",
         "commands": [],
         "only_once": false,
         "priority": 20,

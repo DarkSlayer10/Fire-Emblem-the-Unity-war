@@ -32,7 +32,8 @@
             "multi_remove_portrait;Emma;Noelle",
             "remove_talk;Emma;Noelle",
             "move_unit;Noelle;8,12",
-            "remove_unit;Noelle"
+            "remove_unit;Noelle",
+            "inc_level_var;daughters_talk"
         ],
         "nid": "2x T - Noelle"
     }

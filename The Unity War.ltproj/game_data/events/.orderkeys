@@ -28,6 +28,7 @@
     "Global_A_-_Sol_Proc",
     "Global_A_-_Snipe_Proc",
     "0_W_-_Escape",
+    "2x_W_-_Dinner",
     "0_0_-_Deregister",
     "0_0_-_Outro",
     "Global_Z_-_Turn_Change_Late",
@@ -81,6 +82,10 @@
     "2x_T_-_Carson_2",
     "2x_T_-_Nicole",
     "2x_T_-_Sonia",
+    "2x_T_-_Guards_Talk",
+    "2x_T_-_Daughters_Talk",
+    "2x_T_-_Couple_Talk",
+    "2x_T_-_Family_Talk",
     "2x_T_-_Noah",
     "2x_T_-_Noelle",
     "2x_T_-_Layla",
@@ -88,5 +93,6 @@
     "2x_T_-_Lily",
     "2x_T_-_Emily",
     "2x_T_-_Caroline",
-    "Global_Z_-_Level_End_Global"
+    "Global_Z_-_Level_End_Global",
+    "2x_T_-_Dinner_Setup"
 ]

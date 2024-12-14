@@ -183,5 +183,10 @@
         "Duty",
         true,
         false
+    ],
+    [
+        "Sunset",
+        true,
+        false
     ]
 ]

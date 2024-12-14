@@ -36,7 +36,8 @@
             "speak;Emma;Oh, Noah...;;;thought_bubble;no_talk",
             "speak;Emma;\u2028I wish I knew how to heal you, but...\u2028These aren't the sorts of scars that\u2028healing magic can handle...;;;thought_bubble;no_talk",
             "remove_portrait;Emma",
-            "remove_talk;Emma;Noah"
+            "remove_talk;Emma;Noah",
+            "inc_level_var;daughters_talk"
         ],
         "nid": "2x T - Noah"
     }

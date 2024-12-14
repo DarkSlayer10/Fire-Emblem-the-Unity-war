@@ -29,7 +29,8 @@
             "speak;Marica;\u2028Oh, well, you're welcome.{w}\u2028If we're speaking candidly,\u2028I'm just happy to be here.{w}\u2028I{tgm}...{tgm}liked the village,\u2028and I want to keep everyone\u2028here safe.{w}\u2028Just remember not to get in my way\u2028when I'm trying to protect you.",
             "speak;Emma;\u2028Oh, uh, I'll make sure to be\u2028more help than burden, then!",
             "multi_remove_portrait;Emma;Marica",
-            "remove_talk;Emma;Marica"
+            "remove_talk;Emma;Marica",
+            "inc_level_var;guards_talk"
         ],
         "nid": "2x T - Marica"
     }

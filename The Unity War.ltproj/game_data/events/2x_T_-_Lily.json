@@ -31,6 +31,7 @@
             "remove_portrait;Lily",
             "remove_talk;Emma;Lily",
             "move_unit;Lily;2,3",
+            "inc_level_var;guards_talk",
             "inc_level_var;dinner"
         ],
         "nid": "2x T - Lily"

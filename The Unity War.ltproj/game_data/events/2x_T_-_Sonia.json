@@ -32,7 +32,8 @@
             "speak;Emma;\u2028Have a good nap!",
             "multi_remove_portrait;Emma;Sonia",
             "remove_talk;Emma;Sonia",
-            "remove_unit;Sonia"
+            "remove_unit;Sonia",
+            "inc_level_var;guards_talk"
         ],
         "nid": "2x T - Sonia"
     }

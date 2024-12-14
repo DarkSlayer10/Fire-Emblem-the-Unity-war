@@ -33,7 +33,8 @@
             "speak;Emma;\u2028Alright, but don't stay up all night with\u2028your head buried in a book, please.",
             "speak;Layla;\u2028Yeah, yeah, I won't.",
             "multi_remove_portrait;Emma;Layla",
-            "remove_talk;Emma;Layla"
+            "remove_talk;Emma;Layla",
+            "inc_level_var;daughters_talk"
         ],
         "nid": "2x T - Layla"
     }
