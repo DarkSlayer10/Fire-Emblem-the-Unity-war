@@ -22,6 +22,10 @@
             "if;v('yes_no') != 'Yes'",
             "    finish",
             "end",
+            "transition;close",
+            "change_background;ForestDark",
+            "transition;open",
+            "music;Sunset",
             "multi_add_portrait;Sonia;MidRight;Marica;FarRight;Lily;MidLeft;Emma;FarLeft",
             "expression;Emma;Smile",
             "speak;Emma;\u2028Man, the stars are so beautiful tonight.{w}\u2028It just blows my mind, how pretty the\u2028night sky can look.",
@@ -60,6 +64,7 @@
             "speak;Emma;Yeah{tgm}...",
             "speak;Emma;\u2028What more could you\u2028really ask for?",
             "multi_remove_portrait;Emma;Lily;Sonia;Marica",
+            "transition;close;2500",
             "music_clear;400",
             "win_game"
         ],
