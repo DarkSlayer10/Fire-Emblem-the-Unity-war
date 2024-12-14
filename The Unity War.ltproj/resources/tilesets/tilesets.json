@@ -43,5 +43,15 @@
         "nid": "Campsite",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Bandit Keep",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Mountainous",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

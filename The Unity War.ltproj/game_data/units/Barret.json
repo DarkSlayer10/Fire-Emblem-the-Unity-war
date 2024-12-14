@@ -50,7 +50,15 @@
         },
         "starting_items": [
             [
-                "Steel_Axe",
+                "Iron_Sword",
+                false
+            ],
+            [
+                "Steel_Sword",
+                false
+            ],
+            [
+                "Hand_Axe",
                 false
             ]
         ],
