@@ -41,11 +41,31 @@ class StealPlus(Steal):
     tag = ItemTags.SPECIAL
 
     def item_restrict(self, unit, item, defender, def_item) -> bool:
+        if unit.get_stat('SPD') <= defender.get_stat('SPD'):
+            return False
         if item_system.unstealable(defender, def_item):
             return False
         if item_funcs.inventory_full(unit, def_item):
             return False
         if defender and defender.get_weapon() and def_item.uid == defender.get_weapon().uid:
+            return False
+        if item_system.is_weapon(defender, def_item) or item_system.is_spell(defender, def_item):
+            return not def_item.weight or unit.get_stat('CON') >= def_item.weight.value
+        return True
+        
+class StealImpossible(Steal):
+    nid = 'steal_impossible'
+    desc = "Steal equipped items if Con > Wt"
+    tag = ItemTags.SPECIAL
+
+    def item_restrict(self, unit, item, defender, def_item) -> bool:
+        if unit.get_stat('SPD') <= defender.get_stat('SPD'):
+            return False
+        if item_system.unstealable(defender, def_item):
+            return False
+        if item_funcs.inventory_full(unit, def_item):
+            return False
+        if not defender or not defender.get_weapon() or def_item.uid != defender.get_weapon().uid:
             return False
         if item_system.is_weapon(defender, def_item) or item_system.is_spell(defender, def_item):
             return not def_item.weight or unit.get_stat('CON') >= def_item.weight.value

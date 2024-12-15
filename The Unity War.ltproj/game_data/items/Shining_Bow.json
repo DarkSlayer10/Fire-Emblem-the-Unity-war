@@ -1,0 +1,65 @@
+[
+    {
+        "nid": "Shining_Bow",
+        "name": "Shining Bow",
+        "desc": "A bow infused with magic.",
+        "icon_nid": "InHouse and Filler Icons",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Bow"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                1500
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "battle_cast_anim",
+                "Shine"
+            ]
+        ]
+    }
+]

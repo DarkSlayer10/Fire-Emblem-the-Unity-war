@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Outlaw_Steal",
+        "name": "Outlaw Steal",
+        "desc": "Can steal equipped weapons if\nweight < Con.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            12,
+            47
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "ability",
+                "Outlaw_Steal"
+            ],
+            [
+                "drain_charge",
+                1
+            ]
+        ]
+    }
+]

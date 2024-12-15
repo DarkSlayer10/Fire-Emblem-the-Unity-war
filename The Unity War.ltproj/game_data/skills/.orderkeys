@@ -26,6 +26,8 @@
     "Fletchette_Armor",
     "Fletchette_Armor_S",
     "Fletchette_Armor_A",
+    "Rulebreaker",
+    "Outlaw_Steal",
     "Focused_Evasion",
     "Swordbreaker",
     "Magic_Missile",
@@ -46,6 +48,7 @@
     "Supply",
     "Elite",
     "Def_Down",
+    "Poisoned",
     "Pure_Water",
     "Torch",
     "Injured"

@@ -2,7 +2,7 @@
     {
         "nid": "Poison_Bow",
         "name": "Poison Bow",
-        "desc": "Poisons on contact.",
+        "desc": "Coated in lethal poison.\n-20% Def on hit.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                4
+                7
             ],
             [
                 "hit",
-                65
+                110
             ],
             [
                 "weapon_type",
@@ -49,12 +49,12 @@
                 }
             ],
             [
-                "status_on_hit",
-                "Fort"
+                "status_after_combat_on_hit",
+                "Poisoned"
             ],
             [
                 "weight",
-                5
+                4
             ],
             [
                 "crit",
@@ -79,6 +79,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "value",
+                600
             ]
         ]
     }

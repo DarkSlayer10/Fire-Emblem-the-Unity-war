@@ -33,8 +33,38 @@
             "CON": 0
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
-        "learned_skills": [],
+        "starting_items": [
+            [
+                "Shining_Bow",
+                false
+            ],
+            [
+                "Killer_Bow",
+                false
+            ],
+            [
+                "Poison_Bow",
+                false
+            ],
+            [
+                "Iron_Dagger",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Outlaw_Steal"
+            ],
+            [
+                1,
+                "Rulebreaker"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Lance": [

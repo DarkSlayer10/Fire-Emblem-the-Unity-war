@@ -52,6 +52,10 @@
         "expression": "max(5, MAG//2)"
     },
     {
+        "nid": "WORSE_DEFENSE",
+        "expression": "min(DEF, RES)"
+    },
+    {
         "nid": "CRIT_ADD",
         "expression": "0"
     },

@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "Outlaw_Steal",
+        "name": "Outlaw Steal",
+        "desc": "Steal equipped weapon.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            12,
+            47
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "exp",
+                15
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "steal_impossible",
+                null
+            ],
+            [
+                "map_hit_sfx",
+                "Unsheathe"
+            ]
+        ]
+    }
+]

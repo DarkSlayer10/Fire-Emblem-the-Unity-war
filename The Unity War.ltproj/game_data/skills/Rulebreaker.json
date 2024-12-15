@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Rulebreaker",
+        "name": "Rulebreaker",
+        "desc": "Attacks always target the\nlower of foe's Def and Res.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            7,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "item_override",
+                "OR_Rulebreaker"
+            ]
+        ]
+    }
+]

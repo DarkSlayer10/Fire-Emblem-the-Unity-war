@@ -2,7 +2,7 @@
     {
         "nid": "Killer_Bow",
         "name": "Killer Bow",
-        "desc": "",
+        "desc": "Improves critical hit rate.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                9
+                10
             ],
             [
                 "hit",
-                75
+                100
             ],
             [
                 "weapon_type",
@@ -39,7 +39,7 @@
             ],
             [
                 "uses",
-                20
+                30
             ],
             [
                 "uses_options",
@@ -50,11 +50,11 @@
             ],
             [
                 "weight",
-                7
+                6
             ],
             [
                 "crit",
-                30
+                35
             ],
             [
                 "warning",
@@ -62,7 +62,7 @@
             ],
             [
                 "value",
-                1400
+                2100
             ],
             [
                 "min_range",
@@ -83,6 +83,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "wexp",
+                2
             ]
         ]
     }

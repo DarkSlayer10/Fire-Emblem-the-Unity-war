@@ -59,6 +59,7 @@
     "Silver_Bow",
     "Poison_Bow",
     "Killer_Bow",
+    "Shining_Bow",
     "Brave_Bow",
     "Longbow",
     "Nidhogg",
@@ -151,6 +152,7 @@
     "White_Gem",
     "Refresh",
     "Borrowing",
+    "Outlaw_Steal",
     "Shadowstep",
     "Platonic_Sword",
     "Platonic_Lance",
@@ -162,5 +164,6 @@
     "Platonic_Dark",
     "Platonic_Fist",
     "Platonic_Monster",
-    "OR_Uncounterable"
+    "OR_Uncounterable",
+    "OR_Rulebreaker"
 ]
