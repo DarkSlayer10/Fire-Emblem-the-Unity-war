@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Spur_Insight",
+        "name": "Spur Insight",
+        "desc": "Adjacent allies gain +25 hit.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            6,
+            28
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "aura",
+                "Spur_Insight_A"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    }
+]

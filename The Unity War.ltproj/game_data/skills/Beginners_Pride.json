@@ -2,7 +2,7 @@
     {
         "nid": "Beginners_Pride",
         "name": "Beginner's \"Pride\"",
-        "desc": "+2 damage dealt if foe cannot counter,\n-2 damage taken if unable to counter.",
+        "desc": "+3 damage dealt if foe cannot counter,\n-3 damage taken if unable to counter.",
         "icon_nid": "skill_icons",
         "icon_index": [
             14,
@@ -19,11 +19,11 @@
             ],
             [
                 "dynamic_damage",
-                "2 if mode == 'attack' and not combat_calcs.can_counterattack(unit, item, unit2, item2) else 0"
+                "3 if mode == 'attack' and not combat_calcs.can_counterattack(unit, item, unit2, item2) else 0"
             ],
             [
                 "dynamic_resist",
-                "2 if mode != 'attack' and not combat_calcs.can_counterattack(unit2, item2, unit, item) else 0"
+                "3 if mode != 'attack' and not combat_calcs.can_counterattack(unit2, item2, unit, item) else 0"
             ]
         ]
     }

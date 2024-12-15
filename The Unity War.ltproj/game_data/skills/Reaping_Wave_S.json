@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Reaping_Wave_S",
+        "name": "Reaping Wave",
+        "desc": "",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            0,
+            20
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stack",
+                6
+            ],
+            [
+                "dynamic_damage",
+                "1 if mode == 'attack' else 0"
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

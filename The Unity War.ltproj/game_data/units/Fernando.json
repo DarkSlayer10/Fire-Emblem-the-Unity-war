@@ -1,0 +1,75 @@
+[
+    {
+        "nid": "Fernando",
+        "name": "Fernando",
+        "desc": "One of Sarah's friends, and the\nlead tactician of the Defiants.",
+        "variant": null,
+        "level": 5,
+        "klass": "Shaman",
+        "tags": [],
+        "bases": {
+            "HP": 26,
+            "STR": 4,
+            "SKL": 11,
+            "SPD": 9,
+            "DEF": 6,
+            "RES": 8,
+            "LCK": 4,
+            "MAG": 10,
+            "CON": 10,
+            "MOV": 5,
+            "LEAD": 1
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 5,
+            "SKL": 75,
+            "SPD": 40,
+            "DEF": 55,
+            "RES": 50,
+            "LCK": 20,
+            "MAG": 50
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Flux",
+                false
+            ],
+            [
+                "Nosferatu",
+                false
+            ],
+            [
+                "Ghost_Wail",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Spur_Insight"
+            ],
+            [
+                1,
+                "Locktouch"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Dark": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Fernando",
+        "affinity": "Light",
+        "fields": []
+    }
+]

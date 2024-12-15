@@ -2,7 +2,7 @@
     {
         "nid": "Sister_of_Flames",
         "name": "Sister of Flames",
-        "desc": "+2 damage/AS when no allied units\nwithin 3 tiles (except Emma).",
+        "desc": "+3 damage/AS when no allied units\nwithin 3 tiles (except Emma).",
         "icon_nid": "skill_icons",
         "icon_index": [
             13,
@@ -19,11 +19,11 @@
             ],
             [
                 "damage",
-                2
+                3
             ],
             [
                 "attack_speed",
-                2
+                3
             ],
             [
                 "condition",

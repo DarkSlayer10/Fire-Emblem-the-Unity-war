@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Reaping_Wave",
+        "name": "Reaping Wave",
+        "desc": "For each foe defeated when initiating,\n+1 damage when initiating. Max +6.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            0,
+            20
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "gain_skill_after_active_kill",
+                "Reaping_Wave_S"
+            ]
+        ]
+    }
+]
