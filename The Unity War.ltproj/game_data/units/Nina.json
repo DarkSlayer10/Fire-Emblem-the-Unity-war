@@ -1,0 +1,66 @@
+[
+    {
+        "nid": "Nina",
+        "name": "Nina",
+        "desc": "One of Sarah's friends. She was\na feared outlaw before joining.",
+        "variant": null,
+        "level": 5,
+        "klass": "Outlaw",
+        "tags": [
+            "Female"
+        ],
+        "bases": {
+            "HP": 26,
+            "STR": 9,
+            "SKL": 8,
+            "SPD": 9,
+            "DEF": 9,
+            "RES": 3,
+            "LCK": 9,
+            "MAG": 8,
+            "CON": 9,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 50,
+            "SKL": 40,
+            "SPD": 50,
+            "DEF": 40,
+            "RES": 30,
+            "LCK": 65,
+            "MAG": 35,
+            "CON": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Sword": [
+                false,
+                31,
+                null
+            ],
+            "Bow": [
+                false,
+                31,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Nina",
+        "affinity": "Fire",
+        "fields": []
+    }
+]

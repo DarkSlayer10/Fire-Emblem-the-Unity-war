@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Shadowstep",
+        "name": "Shadowstep",
+        "desc": "Move next to any ally.\nCan attack afterwards.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            6,
+            26
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "ability",
+                "Shadowstep"
+            ],
+            [
+                "drain_charge",
+                3
+            ]
+        ]
+    }
+]

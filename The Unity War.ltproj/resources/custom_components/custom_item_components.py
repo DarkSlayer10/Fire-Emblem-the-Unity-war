@@ -94,3 +94,15 @@ Restricts which units or spaces can be targeted. These properties are accessible
             print("Could not evaluate %s (%s)" % (self.value, e))
             return True
         return False
+        
+            
+class EventOnHit(ItemComponent):
+    nid = 'event_on_hit'
+    desc = 'Calls event on a hit'
+    tag = ItemTags.SPECIAL
+
+    expose = ComponentType.Event
+    value = ''
+    
+    def on_hit(self, actions, playback, unit, item, target, item2, target_pos, mode, attack_info):
+        game.events.trigger_specific_event(self.value, unit, target, unit.position, {'item': item, 'item2': item2, 'mode': mode, 'target_pos': target_pos})

@@ -1,0 +1,50 @@
+[
+    {
+        "nid": "Shadowstep",
+        "name": "Shadowstep",
+        "desc": "Warp adjacent to an ally.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            6,
+            26
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_specific_tile",
+                "[target_system.get_adjacent_positions(unitx.position) for unitx in game.get_player_units() if unitx.nid != unit.nid]"
+            ],
+            [
+                "empty_tile_target_restrict",
+                null
+            ],
+            [
+                "traversable_tile_target_restrict",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "global_range",
+                null
+            ],
+            [
+                "map_hit_sfx",
+                "Flux1"
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "event_on_hit",
+                "Global A - Shadowstep"
+            ]
+        ]
+    }
+]
