@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Radiant_Weave",
+        "name": "Radiant Weave",
+        "desc": "After using staff, add Res to damage\nduring next initiated combat with light.\nAfter using light, +1 staff range for\nnext staff use.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "event_after_initiated_combat",
+                "Global A - Radiant Weave"
+            ]
+        ]
+    }
+]

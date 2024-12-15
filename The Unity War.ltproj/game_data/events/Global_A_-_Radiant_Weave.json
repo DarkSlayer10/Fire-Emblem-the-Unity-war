@@ -1,0 +1,21 @@
+[
+    {
+        "name": "A - Radiant Weave",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;item_system.weapon_type(unit, item) == 'Light'",
+            "    remove_skill;{unit};Radiant_Weave_Light;no_banner",
+            "    give_skill;{unit};Radiant_Weave_Staff;no_banner",
+            "elif;item_system.weapon_type(unit, item) == 'Staff'",
+            "    remove_skill;{unit};Radiant_Weave_Staff;no_banner",
+            "    give_skill;{unit};Radiant_Weave_Light;no_banner",
+            "end"
+        ],
+        "nid": "Global A - Radiant Weave"
+    }
+]

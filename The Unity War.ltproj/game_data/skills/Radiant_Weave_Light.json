@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Radiant_Weave_Light",
+        "name": "Radiant Weave - Light",
+        "desc": "Add Res to damage when initiating\ncombat with light magic.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "unit.get_stat('RES') if mode == 'attack' and item_system.weapon_type(unit, item) == 'Light' else 0"
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

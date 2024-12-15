@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Radiant_Weave_Staff",
+        "name": "Radiant Weave - Staff",
+        "desc": "+1 staff range for one staff use.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": [
+            [
+                "eval_max_range",
+                "1 if item_system.weapon_type(unit, item) == 'Staff'"
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

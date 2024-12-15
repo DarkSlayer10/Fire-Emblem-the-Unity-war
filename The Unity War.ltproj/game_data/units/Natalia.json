@@ -1,0 +1,54 @@
+[
+    {
+        "nid": "Natalia",
+        "name": "Natalia",
+        "desc": "A sassy cleric with a grudge\nagainst all bandits.",
+        "variant": null,
+        "level": 5,
+        "klass": "Cleric",
+        "tags": [],
+        "bases": {
+            "HP": 24,
+            "STR": 3,
+            "SKL": 7,
+            "SPD": 7,
+            "DEF": 4,
+            "RES": 10,
+            "LCK": 5,
+            "MAG": 7,
+            "CON": 7,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 5,
+            "SKL": 50,
+            "SPD": 50,
+            "DEF": 30,
+            "RES": 35,
+            "LCK": 60,
+            "MAG": 70
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Staff": [
+                false,
+                31,
+                null
+            ],
+            "Light": [
+                false,
+                31,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Natalia",
+        "affinity": "Wind",
+        "fields": []
+    }
+]
