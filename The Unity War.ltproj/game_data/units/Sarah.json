@@ -1,0 +1,76 @@
+[
+    {
+        "nid": "Sarah",
+        "name": "Sarah",
+        "desc": "Leader of the Defiants, but\ndoubts her own qualifications.\nTough but scared of failure.",
+        "variant": null,
+        "level": 5,
+        "klass": "Samurai",
+        "tags": [
+            "Female"
+        ],
+        "bases": {
+            "HP": 27,
+            "STR": 10,
+            "SKL": 9,
+            "SPD": 11,
+            "DEF": 7,
+            "RES": 4,
+            "LCK": 8,
+            "MAG": 1,
+            "CON": 8,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 50,
+            "SKL": 55,
+            "SPD": 60,
+            "DEF": 30,
+            "RES": 25,
+            "LCK": 50,
+            "MAG": 5
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Lancereaver",
+                false
+            ],
+            [
+                "Armorslayer",
+                false
+            ],
+            [
+                "Killing_Edge",
+                false
+            ],
+            [
+                "Iron_Dagger",
+                false
+            ],
+            [
+                "Slim_Sword",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Iai"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Sarah",
+        "affinity": "Wind",
+        "fields": []
+    }
+]

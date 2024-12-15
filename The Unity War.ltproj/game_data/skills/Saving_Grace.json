@@ -2,7 +2,7 @@
     {
         "nid": "Saving_Grace",
         "name": "<red>Saving Grace</>",
-        "desc": "Rescues ally after staff use.\nConsumes 2 durability.",
+        "desc": "Rescues ally after staff use.\nConsumes 2 durability. 1-2 Rng.",
         "icon_nid": "ZessDynamiteSkillsys",
         "icon_index": [
             7,

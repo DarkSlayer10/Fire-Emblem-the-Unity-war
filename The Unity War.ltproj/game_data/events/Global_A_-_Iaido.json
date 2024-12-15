@@ -1,0 +1,19 @@
+[
+    {
+        "name": "A - Iaido",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;v('iai_sarah')",
+            "    level_var;iai_sarah;v('iai_sarah') + [item.nid]",
+            "else",
+            "    level_var;iai_sarah;[item.nid]",
+            "end"
+        ],
+        "nid": "Global A - Iaido"
+    }
+]

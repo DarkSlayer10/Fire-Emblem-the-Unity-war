@@ -2,7 +2,7 @@
     {
         "nid": "Medica",
         "name": "Medica",
-        "desc": "Ignore rescue penalties, rescued\nunit regains 30% HP per turn.",
+        "desc": "Ignore rescue penalties, restore 30% HP\nto allies within 2 tiles of target after staff.",
         "icon_nid": "skill_icons",
         "icon_index": [
             2,
@@ -22,8 +22,8 @@
                 null
             ],
             [
-                "condition",
-                "unit.traveler"
+                "event_after_initiated_combat",
+                "Global A - Medica"
             ]
         ]
     }

@@ -16,6 +16,10 @@
             [
                 "event_after_initiated_combat",
                 "Global A - Saving Grace"
+            ],
+            [
+                "limit_maximum_range",
+                2
             ]
         ]
     }

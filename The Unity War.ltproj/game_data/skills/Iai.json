@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Iai",
+        "name": "Iai",
+        "desc": "When initiating with a sword type for\nthe first time each chapter, doubles strikes.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            3,
+            42
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "all_brave",
+                null
+            ],
+            [
+                "combat_condition",
+                "mode == 'attack' and item_system.weapon_type(unit, item) == 'Sword' and(not v('iai_sarah') or item.nid not in v('iai_sarah'))"
+            ],
+            [
+                "event_after_initiated_combat",
+                "Global A - Iaido"
+            ]
+        ]
+    }
+]
