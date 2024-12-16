@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Rattling_A",
+        "name": "Rattled",
+        "desc": "-5 avoid/crit. Stacks.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            6,
+            16
+        ],
+        "components": [
+            [
+                "stack",
+                999
+            ],
+            [
+                "avoid",
+                -5
+            ],
+            [
+                "crit",
+                -5
+            ]
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Z - Difficulty Hard",
+        "trigger": "phase_change",
+        "level_nid": null,
+        "condition": "game.current_mode.nid == 'Hard'",
+        "commands": [],
+        "only_once": false,
+        "priority": 1,
+        "_source": [
+            "for;ENEMY_UNIT;[x.nid for x in game.get_enemy_units()]",
+            "    if;'Bonewalker' in u('{ENEMY_UNIT}').klass or 'Wight' in u('{ENEMY_UNIT}').klass",
+            "        give_skill;{ENEMY_UNIT};Rattling;;no_banner",
+            "    end",
+            "    if;u('{ENEMY_UNIT}').klass in ['Mauthe_Doog']",
+            "        give_skill;{ENEMY_UNIT};Pack_Tactics;;no_banner",
+            "    end",
+            "    if;u('{ENEMY_UNIT}').klass in ['Mogall', 'Arch_Mogall', 'Watcher']",
+            "        give_skill;{ENEMY_UNIT};Evilest_Eye;;no_banner",
+            "    end",
+            "    if;u('{ENEMY_UNIT}').klass in ['Cyclops']",
+            "        give_skill;{ENEMY_UNIT};Wounded_Strength;;no_banner",
+            "    end",
+            "    if;'Bael' in u('{ENEMY_UNIT}').klass",
+            "        give_skill;{ENEMY_UNIT};Potent_Venom;;no_banner",
+            "    end",
+            "endf"
+        ],
+        "nid": "Global Z - Difficulty Hard"
+    }
+]

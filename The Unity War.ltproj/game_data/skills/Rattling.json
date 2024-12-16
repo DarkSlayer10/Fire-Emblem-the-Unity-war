@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Rattling",
+        "name": "Rattling",
+        "desc": "-5 avoid/crit to foes\nwithin 3 tiles. Stacks.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            6,
+            16
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Rattling"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "enemy"
+            ]
+        ]
+    }
+]

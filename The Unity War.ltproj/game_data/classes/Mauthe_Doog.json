@@ -118,7 +118,12 @@
                 0,
                 251
             ],
-            "Monster": [
+            "Gauntlet": [
+                false,
+                0,
+                null
+            ],
+            "Special": [
                 true,
                 31,
                 null
@@ -128,12 +133,7 @@
                 0,
                 251
             ],
-            "Gauntlet": [
-                false,
-                0,
-                null
-            ],
-            "Special": [
+            "Monster": [
                 true,
                 31,
                 null

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Potent_Venom",
+        "name": "Potent Venom",
+        "desc": "Poisons foes after combat.\n(-20% Def for 4 turns.)",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "give_status_after_combat",
+                "Poisoned"
+            ]
+        ]
+    }
+]

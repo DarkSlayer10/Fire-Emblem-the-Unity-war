@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Pack_Tactics",
+        "name": "Pack Tactics",
+        "desc": "+15 hit/crit when within 3 tiles\nof an ally with Pack Tactics.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "eval_hit",
+                "15 if any([has_skill(x, 'Pack_Tactics') for x in get_units_within_distance(unit.position, dist=3, team=unit.team)]) else 0"
+            ],
+            [
+                "eval_crit",
+                "15 if any([has_skill(x, 'Pack_Tactics') for x in get_units_within_distance(unit.position, dist=3, team=unit.team)]) else 0"
+            ]
+        ]
+    }
+]

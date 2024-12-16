@@ -16,6 +16,10 @@
             [
                 "item_override",
                 "OR_Death_Knell"
+            ],
+            [
+                "attack_speed",
+                -999
             ]
         ]
     }
