@@ -2,7 +2,7 @@
     {
         "nid": "Spur_Insight_A",
         "name": "Insight",
-        "desc": "+25 hit.",
+        "desc": "+15 hit.",
         "icon_nid": "ZessDynamiteSkillsys",
         "icon_index": [
             6,
@@ -11,7 +11,7 @@
         "components": [
             [
                 "hit",
-                25
+                15
             ]
         ]
     }

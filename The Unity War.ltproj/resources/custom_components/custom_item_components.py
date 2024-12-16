@@ -10,6 +10,7 @@ from app.engine.objects.unit import UnitObject
 from app.utilities import utils, static_random
 
 from app.engine.item_components.hit_components import Steal
+from app.engine.combat import playback as pb
 
 
 class DoNothing(ItemComponent):
@@ -126,3 +127,18 @@ class EventOnHit(ItemComponent):
     
     def on_hit(self, actions, playback, unit, item, target, item2, target_pos, mode, attack_info):
         game.events.trigger_specific_event(self.value, unit, target, unit.position, {'item': item, 'item2': item2, 'mode': mode, 'target_pos': target_pos})
+        
+class SuperEclipse(ItemComponent):
+    nid = 'super_eclipse'
+    desc = "Target loses all but 1 HP on hit"
+    tag = ItemTags.EXTRA
+
+    def on_hit(self, actions, playback, unit, item, target, item2, target_pos, mode, attack_info):
+        true_damage = damage = target.get_hp() - 1
+        actions.append(action.ChangeHP(target, -damage))
+
+        # For animation
+        playback.append(pb.DamageHit(unit, item, target, damage, true_damage))
+        if true_damage == 0:
+            playback.append(pb.HitSound('No Damage'))
+            playback.append(pb.HitAnim('MapNoDamage', target))

@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Death_Knell",
+        "name": "<red>Death Knell</>",
+        "desc": "Lowers foe's HP to 1.\nConsumes 3 durability.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            5,
+            17
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_art",
+                "Death_Knell_P"
+            ],
+            [
+                "drain_charge",
+                2
+            ],
+            [
+                "cost_uses",
+                3
+            ],
+            [
+                "allowed_weapons",
+                "item_system.damage(unit, item) is not None"
+            ],
+            [
+                "event_before_combat",
+                "Global A - Death Knell Proc"
+            ]
+        ]
+    }
+]

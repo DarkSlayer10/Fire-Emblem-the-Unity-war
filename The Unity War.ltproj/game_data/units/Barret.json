@@ -65,7 +65,11 @@
         "learned_skills": [
             [
                 1,
-                "Swordbreaker"
+                "Distant_Counter"
+            ],
+            [
+                1,
+                "Death_Knell"
             ]
         ],
         "unit_notes": [],

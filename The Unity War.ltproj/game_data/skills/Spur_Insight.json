@@ -2,7 +2,7 @@
     {
         "nid": "Spur_Insight",
         "name": "Spur Insight",
-        "desc": "Adjacent allies gain +25 hit.",
+        "desc": "Adjacent allies gain +15 hit.",
         "icon_nid": "ZessDynamiteSkillsys",
         "icon_index": [
             6,

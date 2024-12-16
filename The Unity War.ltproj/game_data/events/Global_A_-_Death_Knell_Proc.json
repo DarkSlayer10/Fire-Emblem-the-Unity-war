@@ -1,0 +1,23 @@
+[
+    {
+        "name": "A - Death Knell Proc",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Condition should always be checked",
+            "if;(unit.team != 'player' or not skill_system.can_select(unit)) and unit.team == game.phase.get_current() and mode == 'attack'",
+            "    # Condition specific to combat art",
+            "    if;item_system.is_weapon(unit, item) and item_system.damage(unit, item) is not None and unit2.get_hp() > 1 and (2 if unit.get_stat('SPD') >= unit2.get_stat('SPD') + 4 else 1) * combat_calcs.compute_damage(unit, target, item, target.get_weapon(), \"attack\", (0, 0)) < unit2.get_hp()",
+            "        give_skill;{unit};Death_Knell_P;;no_banner",
+            "        set_skill_data;{unit};Death_Knell;charge;{e:int(get_skill(unit, 'Death_Knell').data.get('charge')) - 1}",
+            "        set_skill_data;{unit};Death_Knell;active;True",
+            "    end",
+            "end"
+        ],
+        "nid": "Global A - Death Knell Proc"
+    }
+]
