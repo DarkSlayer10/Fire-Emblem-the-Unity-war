@@ -5,8 +5,10 @@
         "desc": "A sassy cleric with a grudge\nagainst all bandits.",
         "variant": null,
         "level": 5,
-        "klass": "Cleric",
-        "tags": [],
+        "klass": "Cleric_F",
+        "tags": [
+            "Female"
+        ],
         "bases": {
             "HP": 24,
             "STR": 3,
@@ -16,7 +18,7 @@
             "RES": 10,
             "LCK": 5,
             "MAG": 7,
-            "CON": 7,
+            "CON": 6,
             "MOV": 5,
             "LEAD": 0
         },
@@ -31,8 +33,22 @@
             "MAG": 70
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
-        "learned_skills": [],
+        "starting_items": [
+            [
+                "Heal",
+                false
+            ],
+            [
+                "Shine",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Radiant_Weave"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Staff": [
