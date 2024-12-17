@@ -4703,7 +4703,7 @@
             },
             {
                 "nid": "topleft",
-                "visible": true,
+                "visible": false,
                 "foreground": false,
                 "terrain_grid": {
                     "5,2": "Ruins",
@@ -4758,7 +4758,7 @@
             },
             {
                 "nid": "farleft",
-                "visible": true,
+                "visible": false,
                 "foreground": false,
                 "terrain_grid": {
                     "6,3": "Ruins",
@@ -4821,8 +4821,8 @@
                     "11,9": "Ruins",
                     "12,9": "Ruins",
                     "12,8": "Ruins",
-                    "13,9": "Ruins",
-                    "13,8": "Ruins"
+                    "13,9": "0",
+                    "13,8": "0"
                 },
                 "sprite_grid": {
                     "12,8": [
@@ -4951,7 +4951,7 @@
             },
             {
                 "nid": "bottomright",
-                "visible": true,
+                "visible": false,
                 "foreground": false,
                 "terrain_grid": {
                     "23,17": "Ruins",

@@ -40,7 +40,7 @@
             "        give_skill;{ENEMY_UNIT};The_Rot;;no_banner",
             "    end",
             "    if;u('{ENEMY_UNIT}').klass in ['Brawler']",
-            "        give_skill;{ENEMY_UNIT};Lethal_Pursuit;;no_banner",
+            "        give_skill;{ENEMY_UNIT};Pass;;no_banner",
             "    end",
             "    if;u('{ENEMY_UNIT}').klass in ['Pirate']",
             "        give_skill;{ENEMY_UNIT};Bilgewater;;no_banner",
