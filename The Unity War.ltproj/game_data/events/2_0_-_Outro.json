@@ -112,7 +112,7 @@
             "    bop_portrait;Emily",
             "    speak;Emily;\u2028*sniffle*{w}\u2028I-I-I didn't mean to\u2028make you feel like that{tgm}...",
             "    speak;Emma;\u2028Oh, Emily{tgm}...",
-            "    speak;Emma;\u2028Let's just focus on fighting\u2028our way through the village.{w}\u2028But Emily, remember this{tgm}...{tgm}{w}\u2028Next time you charge in\u2028by yourself{tgm}...{tgm}{w}\u2028You. Will. Feel. My. Magic.{w}\u2028You understand me?",
+            "    speak;Emma;\u2028Things worked out this time,\u2028so I'm just glad you're safe.{w}\u2028But Emily, remember this{tgm}...{tgm}{w}\u2028Next time you charge in\u2028by yourself{tgm}...{tgm}{w}\u2028You. Will. Feel. My. Magic.{w}\u2028You understand me?",
             "    bop_portrait;Emily",
             "    speak;Emily;\u2028You don't have\u2028to tell me twice!",
             "    remove_portrait;Emma",

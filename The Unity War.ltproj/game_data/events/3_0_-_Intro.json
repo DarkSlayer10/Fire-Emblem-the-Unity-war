@@ -128,9 +128,25 @@
             "remove_portrait;Nina",
             "speak;Caroline;Tch.",
             "remove_portrait;Caroline",
+            "remove_unit;Nina;swoosh",
+            "flicker_cursor;Barret",
+            "add_portrait;Barret;Right",
+            "speak;Barret;\u2028Well, lookie there, it looks\u2028like we've got guests!{w}\u2028Let's give 'em a warm welcome lads!{w}\u2028You see a stranger, give 'em the\u2028gift of an axe to the neck!{w}\u2028And bring out the gir.{w}\u2028We need a medic, and she'll make\u2028nice fodder if nothing else.",
+            "add_portrait;Natalia;Left",
+            "speak;Natalia;\u2028Ngh, I shall never fight for you!{w}\u2028You brutes killed my sisters!",
+            "speak;Barret;\u2028You best remember, little missy, that I spared\u2028you alone out of those little church mice.{w}\u2028I, or anyone here, could kill you without\u2028a second thought!{w} But I'm bein' nice.{w}\u2028Lettin' you live, so as to make peace with\u2028the heavens and all.{w} But it's your choice.{w}\u2028Fight or die.",
+            "speak;Natalia;...;no_talk",
+            "speak;Barret;\u2028If you don't mind wastin' the{tgm}...{tgm}\u2028noble sacrifices of your sisters,{w}\u2028I'm more than willin' to put you\u2028to the blade right now.",
+            "speak;Natalia;\u2028Fine{tgm}...{tgm}I'll do it.{w}\u2028Consider{tgm}...{tgm}\u2028Consider my staff yours.",
+            "speak;Barret;Hmph, good girl.",
+            "remove_portrait;Barret",
+            "speak;Natalia;\u2028Heavens help me, may these\u2028intruders smite this man{tgm}...;;;thought_bubble;no_talk",
+            "remove_portrait;Natalia",
+            "end_skip",
             "if;game.current_mode.nid == 'Hard'",
             "    trigger_script;Global Z - Difficulty Hard",
-            "end"
+            "end",
+            "prep;t;Preparations"
         ],
         "nid": "3 0 - Intro"
     }
