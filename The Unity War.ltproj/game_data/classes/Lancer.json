@@ -89,7 +89,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                1,
+                0,
                 251
             ],
             "Lance": [

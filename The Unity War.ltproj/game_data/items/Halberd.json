@@ -2,7 +2,7 @@
     {
         "nid": "Halberd",
         "name": "Halberd",
-        "desc": "Effective against horseback units",
+        "desc": "Effective against cavalry.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                10
+                11
             ],
             [
                 "hit",
-                60
+                70
             ],
             [
                 "weapon_type",
@@ -39,7 +39,7 @@
             ],
             [
                 "uses",
-                18
+                30
             ],
             [
                 "uses_options",
@@ -50,7 +50,7 @@
             ],
             [
                 "weight",
-                15
+                12
             ],
             [
                 "crit",
@@ -58,7 +58,7 @@
             ],
             [
                 "value",
-                810
+                1350
             ],
             [
                 "min_range",

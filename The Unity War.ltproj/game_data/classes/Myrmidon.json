@@ -2,7 +2,7 @@
     {
         "nid": "Myrmidon",
         "name": "Myrmidon",
-        "desc": "Swordfighters with superior speed and skill.",
+        "desc": "Talented swordsmen skilled in swift\nkilling strokes. Equip: Swords.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,

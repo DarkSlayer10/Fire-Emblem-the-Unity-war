@@ -36,6 +36,10 @@
             [
                 "map_hit_sfx",
                 "Unsheathe"
+            ],
+            [
+                "eval_target_restrict_2",
+                "'Boss' not in unit2.tags"
             ]
         ]
     }

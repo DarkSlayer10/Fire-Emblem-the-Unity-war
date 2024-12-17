@@ -207,5 +207,18 @@
     {
         "nid": "MageKnightFCard",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Portrait Editor Unity War.gba_234@EA Myrmidon_01C274A8",
+        "subicon_dict": {
+            "MyrmidonFCard": [
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "PirateFCard",
+        "subicon_dict": {}
     }
 ]
