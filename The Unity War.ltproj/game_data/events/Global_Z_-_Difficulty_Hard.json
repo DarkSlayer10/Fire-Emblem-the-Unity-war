@@ -63,6 +63,12 @@
             "    if;'Mercenary' in u('{ENEMY_UNIT}').klass",
             "        give_skill;{ENEMY_UNIT};Wary_Stance;;no_banner",
             "    end",
+            "    if;'Myrmidon' in u('{ENEMY_UNIT}').klass",
+            "        give_skill;{ENEMY_UNIT};Fluid_Motion;;no_banner",
+            "    end",
+            "    if;'Thief' in u('{ENEMY_UNIT}').klass",
+            "        give_skill;{ENEMY_UNIT};Mug;;no_banner",
+            "    end",
             "endf"
         ],
         "nid": "Global Z - Difficulty Hard"

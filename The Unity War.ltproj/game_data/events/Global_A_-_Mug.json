@@ -1,0 +1,27 @@
+[
+    {
+        "name": "A - Mug",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.get_stat('SPD') <= defender.get_stat('SPD')",
+            "    finish",
+            "end",
+            "if;len(unit.items) == 5",
+            "    finish",
+            "end",
+            "level_var;mug_items;[x.uid for x in unit2.items if not (item_system.unstealable(unit2, x) or item_system.is_weapon(unit2, x) or item_system.is_spell(unit2, x))]",
+            "if;not v('mug_items')",
+            "    finish",
+            "end",
+            "move_item;{unit2};{unit};{e:game.get_random_choice(v('mug_items'))}",
+            "sound;ItemBreak",
+            "alert;{e:unit2.name} was mugged!"
+        ],
+        "nid": "Global A - Mug"
+    }
+]

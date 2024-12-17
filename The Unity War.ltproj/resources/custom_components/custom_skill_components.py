@@ -77,3 +77,14 @@ class EventBeforeCombat(SkillComponent):
 
     def start_combat(self, playback, unit: UnitObject, item, target: UnitObject, item2, mode):
         game.events.trigger_specific_event(self.value, unit, target, unit.position, {'item': item, 'item2': item2, 'mode': mode})
+        
+class EventAfterCombat(SkillComponent):
+    nid = 'event_after_combat'
+    desc = 'calls event after combat'
+    tag = SkillTags.ADVANCED
+
+    expose = ComponentType.Event
+    value = ''
+
+    def end_combat(self, playback, unit: UnitObject, item, target: UnitObject, item2, mode):
+        game.events.trigger_specific_event(self.value, unit, target, unit.position, {'item': item, 'item2': item2, 'mode': mode})

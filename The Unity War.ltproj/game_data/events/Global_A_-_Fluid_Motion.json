@@ -1,0 +1,19 @@
+[
+    {
+        "name": "A - Fluid Motion",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;mode == 'attack'",
+            "    give_skill;{unit};Dodgy;;no_banner",
+            "else",
+            "    remove_skill;{unit};Dodgy;;no_banner",
+            "end"
+        ],
+        "nid": "Global A - Fluid Motion"
+    }
+]

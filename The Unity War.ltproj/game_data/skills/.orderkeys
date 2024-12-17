@@ -75,11 +75,14 @@
     "Momentum",
     "Voidstep",
     "Exploit",
+    "Fluid_Motion",
+    "Mug",
     "Elite",
     "Def_Down",
     "Poisoned",
     "Rot",
     "Pure_Water",
     "Torch",
+    "Dodgy",
     "Injured"
 ]

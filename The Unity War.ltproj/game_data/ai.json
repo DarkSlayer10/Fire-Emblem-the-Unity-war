@@ -775,24 +775,24 @@
         "nid": "Thief",
         "behaviours": [
             {
-                "action": "Steal",
-                "target": "Enemy",
-                "target_spec": null,
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Chest",
                 "view_range": -2,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
-                "condition": ""
+                "condition": "not len(unit.items) == 5"
             },
             {
                 "action": "Interact",
                 "target": "Event",
                 "target_spec": "Door",
-                "view_range": -4,
+                "view_range": -2,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
-                "condition": ""
+                "condition": "not len(unit.items) == 5"
             },
             {
                 "action": "Interact",
@@ -802,40 +802,12 @@
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
-                "condition": ""
-            }
-        ],
-        "priority": 12,
-        "offense_bias": 2.0,
-        "roam_ai": false
-    },
-    {
-        "nid": "SimpleThief",
-        "behaviours": [
-            {
-                "action": "Steal",
-                "target": "Enemy",
-                "target_spec": null,
-                "view_range": -2,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
+                "condition": "not len(unit.items) == 5"
             },
             {
-                "action": "Attack",
-                "target": "Enemy",
-                "target_spec": "Door",
-                "view_range": -2,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": "Chest",
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "EscapeThief",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,

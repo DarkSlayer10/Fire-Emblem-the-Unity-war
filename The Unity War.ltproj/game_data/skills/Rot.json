@@ -20,6 +20,10 @@
             [
                 "resist",
                 -2
+            ],
+            [
+                "lost_on_end_chapter",
+                null
             ]
         ]
     }

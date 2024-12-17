@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Mug",
+        "name": "Mug",
+        "desc": "After melee combat, steal non-weapon,\nnon-staff item if faster than target.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            12,
+            32
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "event_after_combat",
+                "Global A - Mug"
+            ],
+            [
+                "combat_condition",
+                "item_system.check_enemy(unit, unit2) and utils.calculate_distance(unit.position, target.position) == 1"
+            ]
+        ]
+    }
+]
