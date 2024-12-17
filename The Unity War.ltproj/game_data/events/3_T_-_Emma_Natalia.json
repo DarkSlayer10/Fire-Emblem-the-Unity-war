@@ -1,0 +1,31 @@
+[
+    {
+        "name": "T - Emma Natalia",
+        "trigger": "on_talk",
+        "level_nid": "3",
+        "condition": "check_pair('Emma', 'Natalia')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;Mount Gale",
+            "multi_add_portrait;Emma;Right;Natalia;Left",
+            "speak;Natalia;\u2028Who{tgm}...{tgm}\u2028Who are you?",
+            "speak;Emma;\u2028My name's Emma, and\u2028I'd like you to step aside.{w}\u2028I don't want to hurt a healer\u2028like you if I don't have to.",
+            "speak;Natalia;\u2028So it's true?{w}\u2028Are you hear to kill\u2028the bandit leader?",
+            "speak;Emma;\u2028Only if my mother doesn't get\u2028her hands on him first, yes.{w}\u2028Why are you here helping them?",
+            "speak;Natalia;\u2028This fiend killed my church sisters\u2028and kidnapped me!{w}\u2028He's been hanging my life and their\u2028deaths above my head to compel me.{w}\u2028Please, let me come with you!{w}\u2028I want to get out of this place.",
+            "speak;Emma;\u2028Of course you're welcome to join us.",
+            "bop_portrait;Natalia",
+            "speak;Natalia;\u2028Thank you!",
+            "speak;Natalia;\u2028I'm not completely defenseless,{w}\u2028but I fight best from the reargurad.{w}\u2028Let's drive these bandits out.",
+            "multi_remove_portrait;Natalia;Emma",
+            "change_ai;Natalia;None",
+            "change_team;Natalia;player",
+            "music_fade_back",
+            "remove_talk;Emma;Natalia",
+            "remove_talk;Sarah;Natalia"
+        ],
+        "nid": "3 T - Emma Natalia"
+    }
+]

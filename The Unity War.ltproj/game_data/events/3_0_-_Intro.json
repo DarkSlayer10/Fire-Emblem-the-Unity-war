@@ -146,6 +146,8 @@
             "if;game.current_mode.nid == 'Hard'",
             "    trigger_script;Global Z - Difficulty Hard",
             "end",
+            "add_talk;Emma;Natalia",
+            "add_talk;Sarah;Natalia",
             "prep;t;Preparations"
         ],
         "nid": "3 0 - Intro"

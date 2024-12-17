@@ -1,0 +1,29 @@
+[
+    {
+        "name": "T - Sarah Nataliaa",
+        "trigger": "on_talk",
+        "level_nid": "3",
+        "condition": "check_pair('Sarah', 'Natalia')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;Mount Gale",
+            "multi_add_portrait;Natalia;Right;Sarah;Left",
+            "speak;Sarah;\u2028Wait, I know you{tgm}...",
+            "speak;Sarah;\u2028You're one of the light mages I\u2028saw at that village last week.",
+            "speak;Natalia;\u2028And you were the merc leader that\u2028helped us with our food situation.{w}\u2028Funny to see each other like this.",
+            "speak;Sarah;\u2028What happened?{w}\u2028What path could possibly\u2028have led you here?",
+            "speak;Natalia;\u2028The day after you left, more bandits\u2028came back and destroyed my home.{w}\u2028My sisters were killed, and I was\u2028spared only to be kidnapped.",
+            "speak;Sarah;\u2028You don't have to worry about\u2028fighitng with them anymore.{w}\u2028Come with us and you'll never\u2028fight for the wrong people again.",
+            "speak;Natalia;\u2028You have my thanks, mercenary{tgm}...{tgm}{w}\u2028I shall repay you for this.",
+            "multi_remove_portrait;Sarah;Natalia",
+            "change_ai;Natalia;None",
+            "change_team;Natalia;player",
+            "music_fade_back",
+            "remove_talk;Emma;Natalia",
+            "remove_talk;Sarah;Natalia"
+        ],
+        "nid": "3 T - Sarah Nataliaa"
+    }
+]
