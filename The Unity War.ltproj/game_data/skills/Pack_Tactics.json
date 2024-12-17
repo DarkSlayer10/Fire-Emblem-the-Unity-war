@@ -15,11 +15,11 @@
             ],
             [
                 "eval_hit",
-                "15 if any([has_skill(x, 'Pack_Tactics') for x in get_units_within_distance(unit.position, dist=3, team=unit.team)]) else 0"
+                "15 if any([has_skill(x, 'Pack_Tactics') for x in get_units_within_distance(unit.position, dist=3, team=unit.team) if x.nid != unit.nid]) else 0"
             ],
             [
                 "eval_crit",
-                "15 if any([has_skill(x, 'Pack_Tactics') for x in get_units_within_distance(unit.position, dist=3, team=unit.team)]) else 0"
+                "15 if any([has_skill(x, 'Pack_Tactics') for x in get_units_within_distance(unit.position, dist=3, team=unit.team) if x.nid != unit.nid]) else 0"
             ]
         ]
     }

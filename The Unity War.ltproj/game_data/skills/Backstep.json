@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Backstep",
+        "name": "Backstep",
+        "desc": "Move 1 tile after acting.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            5,
+            23
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "canter",
+                1
+            ]
+        ]
+    }
+]

@@ -108,7 +108,10 @@
             "speak;Nina;Hell yeah!\u2028Let's go!",
             "speak;Emma;\u2028Oh boy, now there's two of them...;;;thought_bubble;no_talk",
             "multi_remove_portrait;Emma;Nina;Caroline",
-            "end_skip"
+            "end_skip",
+            "if;game.current_mode.nid == 'Hard'",
+            "    trigger_script;Global Z - Difficulty Hard",
+            "end"
         ],
         "nid": "3 0 - Intro"
     }

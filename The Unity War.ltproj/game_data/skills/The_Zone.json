@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "The_Zone",
+        "name": "The Zone",
+        "desc": "+5 damage dealt when\nno allies within 3 tiles.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            7,
+            21
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "eval_damage",
+                "5 if not any([x for x in get_units_within_distance(unit.position, dist=3, team=unit.team) if x.nid != unit.nid]) else 0"
+            ]
+        ]
+    }
+]

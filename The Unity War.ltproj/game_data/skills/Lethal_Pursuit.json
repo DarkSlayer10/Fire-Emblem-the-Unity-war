@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Lethal_Pursuit",
+        "name": "Lethal Pursuit",
+        "desc": "When making follow-up attacks,\ncritical rate is quadrupled.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            14,
+            27
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "pcc_static",
+                4.0
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Wary_Stance",
+        "name": "Wary Stance",
+        "desc": "Cannot be doubled when defending.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            4,
+            32
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_defense_speed",
+                "999 if mode == 'attack' else 0"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Rot",
+        "name": "Rot",
+        "desc": "+2 damage taken. Stacks.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            9,
+            30
+        ],
+        "components": [
+            [
+                "stack",
+                999
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "resist",
+                -2
+            ]
+        ]
+    }
+]

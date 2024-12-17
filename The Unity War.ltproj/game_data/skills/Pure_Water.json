@@ -10,10 +10,6 @@
         ],
         "components": [
             [
-                "negative",
-                null
-            ],
-            [
                 "stat_change_expression",
                 [
                     [

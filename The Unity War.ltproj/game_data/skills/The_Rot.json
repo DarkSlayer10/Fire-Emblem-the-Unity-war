@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "The_Rot",
+        "name": "The Rot",
+        "desc": "Inflict Rot on hit after combat.\n(+2 damage taken, stacks.)",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            14,
+            30
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "give_status_after_combat_on_hit",
+                "Rot"
+            ],
+            [
+                "combat_condition",
+                "item_system.check_enemy(unit, unit2)"
+            ]
+        ]
+    }
+]

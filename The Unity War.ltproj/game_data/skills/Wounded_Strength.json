@@ -2,7 +2,7 @@
     {
         "nid": "Wounded_Strength",
         "name": "Wounded Strength",
-        "desc": "+1 damage dealt for\nevery 5 HP missing.",
+        "desc": "For every 5 HP missing, +1 damage.\nUpdates mid-combat.",
         "icon_nid": "skill_icons",
         "icon_index": [
             9,
