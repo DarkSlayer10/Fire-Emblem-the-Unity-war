@@ -1,0 +1,16 @@
+[
+    {
+        "name": "M - Door 3",
+        "trigger": "Door",
+        "level_nid": "3",
+        "condition": "region.nid == 'Door_3'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "show_layer;door_topright"
+        ],
+        "nid": "3 M - Door 3"
+    }
+]

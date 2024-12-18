@@ -1,6 +1,6 @@
 [
     {
-        "name": "T - Sarah Nataliaa",
+        "name": "T - Sarah Natalia",
         "trigger": "on_talk",
         "level_nid": "3",
         "condition": "check_pair('Sarah', 'Natalia')",
@@ -24,6 +24,6 @@
             "remove_talk;Emma;Natalia",
             "remove_talk;Sarah;Natalia"
         ],
-        "nid": "3 T - Sarah Nataliaa"
+        "nid": "3 T - Sarah Natalia"
     }
 ]

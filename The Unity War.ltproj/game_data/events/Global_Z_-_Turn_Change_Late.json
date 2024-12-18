@@ -13,6 +13,14 @@
             "endf",
             "for;WAITER;[x.nid for x in game.get_enemy_units() if x.ai == 'PursueVillageWait']",
             "    change_ai;{WAITER};PursueVillage",
+            "endf",
+            "for;TORCH_REGION;[x.nid for x in game.level.regions if 'torch' in x.nid]",
+            "    level_var;torch_range;game.level.regions.get('{TORCH_REGION}').sub_nid",
+            "    level_var;torch_position;game.level.regions.get('{TORCH_REGION}').position",
+            "    remove_region;{TORCH_REGION}",
+            "    if;int(v('torch_range')) > 1",
+            "        add_region;{TORCH_REGION};{v:torch_position};1,1;vision;{e:int(v('torch_range')) - 1}",
+            "    end",
             "endf"
         ],
         "nid": "Global Z - Turn Change Late"

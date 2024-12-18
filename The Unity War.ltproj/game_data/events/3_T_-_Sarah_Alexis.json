@@ -1,0 +1,32 @@
+[
+    {
+        "name": "T - Sarah Alexis",
+        "trigger": "on_talk",
+        "level_nid": "3",
+        "condition": "check_pair('Sarah', 'Alexis')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Alexis;Left;Sarah;Right",
+            "bop_portrait;Alexis",
+            "speak;Alexis;\u2028Wow, Sarah, this plan's\u2028going off without a hitch!",
+            "speak;Sarah;\u2028I'm glad you're so{tgm}...",
+            "speak;Sarah;Enthusiastic.",
+            "speak;Alexis;\u2028Enthusiastic?",
+            "bop_portrait;Alexis",
+            "expression;Alexis;Smile",
+            "speak;Alexis;\u2028I'm <bconvo>PSYCHED!</>",
+            "speak;Sarah;\u2028Make sure all that energy\u2028goes towards the enemies.{w}\u2028Take care not to hit the\u2028allies Nina got to help us.",
+            "expression;Alexis;NoSmile",
+            "bop_portrait;Alexis",
+            "speak;Alexis;\u2028I'll try, boss!{w}\u2028You know how deaf I get when\u2028I've got a good rhythm going!",
+            "speak;Sarah;\u2028Yes{tgm}...{tgm}\u2028I'm painfully aware.",
+            "multi_remove_portrait;Alexis;Sarah",
+            "remove_talk;Alexis;Sarah",
+            "remove_talk;Sarah;Alexis",
+            "give_exp;{unit};25"
+        ],
+        "nid": "3 T - Sarah Alexis"
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "nid": "Torch_Staff",
+        "name": "Torch",
+        "desc": "Lights an area.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "value",
+                3000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "exp",
+                15
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "event_on_hit",
+                "Global I - Torch"
+            ],
+            [
+                "never_use_battle_animation",
+                null
+            ],
+            [
+                "map_hit_sfx",
+                "Torch"
+            ],
+            [
+                "ignore_fog_of_war",
+                null
+            ]
+        ]
+    }
+]

@@ -6,11 +6,11 @@
         "bg_tilemap": null,
         "party": "Emma",
         "music": {
-            "player_phase": "Shadow of the Enemy",
+            "player_phase": null,
             "enemy_phase": null,
             "other_phase": null,
             "enemy2_phase": null,
-            "player_battle": "Attack",
+            "player_battle": null,
             "enemy_battle": null,
             "other_battle": null,
             "enemy2_battle": null
@@ -27,7 +27,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Noelle",
+                "nid": "Emma",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -40,62 +40,6 @@
                 "generic": false
             },
             {
-                "nid": "103",
-                "variant": null,
-                "level": 5,
-                "klass": "Soldier",
-                "faction": "Town_Guard",
-                "starting_items": [
-                    [
-                        "Iron_Lance",
-                        false
-                    ],
-                    [
-                        "Slim_Lance",
-                        false
-                    ],
-                    [
-                        "Concoction",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "PursueConcotion",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "104",
-                "variant": null,
-                "level": 5,
-                "klass": "Archer",
-                "faction": "Town_Guard",
-                "starting_items": [
-                    [
-                        "Iron_Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    5,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "Carson",
                 "team": "player",
                 "ai": "None",
@@ -104,19 +48,6 @@
                 "starting_position": [
                     3,
                     4
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Barret",
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    9
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -142,6 +73,11 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

@@ -1,0 +1,36 @@
+[
+    {
+        "name": "T - Nina Noelle",
+        "trigger": "on_talk",
+        "level_nid": "3",
+        "condition": "check_pair('Nina', 'Noelle')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Nina;Left;Noelle;Right",
+            "bop_portrait;Noelle",
+            "speak;Noelle;\u2028Hey, stop there!",
+            "speak;Nina;Huh?",
+            "speak;Noelle;\u2028I saw you steal\u2028something just now.",
+            "speak;Nina;No you didn't.",
+            "bop_portrait;Noelle",
+            "speak;Noelle;\u2028I absolutely did!",
+            "speak;Nina;\u2028Check your eyes, woman.{w}\u2028I didn't steal anything.",
+            "speak;Noelle;\u2028So this is the one they\u2028call the Lawbreaker{tgm}...",
+            "speak;Nina;So you've heard of me?",
+            "speak;Noelle;\u2028My father told me stories of when you would\u2028sneak into the castle he was stationed at.{w}\u2028He spoek of you always made fools of them,{w}\u2028how you could enter and exit the treasury\u2028like you owned the place.",
+            "speak;Nina;Heh, guilty as charged{tgm}...",
+            "bop_portrait;Nina",
+            "speak;Nina;\u2028Wait, no I'm not!{w}\u2028You can't prove\u2028I stole anything!",
+            "move_portrait;Nina;OffscreenLeft",
+            "speak;Noelle;\u2028Hey, wait!{w}\u2028Come back here!",
+            "move_portrait;Noelle;OffscreenLeft",
+            "multi_remove_portrait;Nina;Noelle",
+            "remove_talk;{unit};{unit2}",
+            "remove_talk;{unit2};{unit}",
+            "give_exp;{unit};25"
+        ],
+        "nid": "3 T - Nina Noelle"
+    }
+]

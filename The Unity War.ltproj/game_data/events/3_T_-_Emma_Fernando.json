@@ -1,0 +1,36 @@
+[
+    {
+        "name": "T - Emma Fernando",
+        "trigger": "on_talk",
+        "level_nid": "3",
+        "condition": "check_pair('Emma', 'Fernando')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Emma;Left;Fernando;Right",
+            "bop_portrait;Emma",
+            "speak;Emma;\u2028Hey, you!{w} Wait!",
+            "speak;Fernando;\u2028Hm?",
+            "speak;Fernando;\u2028Oh, you're one of those recruits\u2028Nina convinced to join us, right?{w}\u2028I'm glad to have you in our ranks.{w}\u2028Power in numbers and all.",
+            "speak;Emma;\u2028Wh- Hold on,\u2028I'm not a recruit for anyone.{w}\u2028I've got a bone to pick with you!",
+            "speak;Fernando;\u2028Funny, because I don't think\u2028I've seen your face before.",
+            "bop_portrait;Emma",
+            "speak;Emma;\u2028No, no!",
+            "speak;Emma;\u2028You're not getting away from me!{w}\u2028Some moons ago, you ran into me\u2028in the middle of the night,{w}\u2028before leaving without any\u2028explanation.",
+            "speak;Fernando;Hm{tgm}...",
+            "speak;Fernando;\u2028Nope, don't recall.",
+            "speak;Emma;\u2028Don't play dumb with me!{w}\u2028I want an apology.",
+            "speak;Fernando;\u2028I think you've mistaken\u2028me for another.{w}\u2028Personally, I'm going back\u2028to the battle at hand.",
+            "bop_portrait;Emma",
+            "speak;Emma;\u2028Hey, wait!",
+            "speak;Emma;\u2028We're not done with this talk yet!",
+            "speak;Fernando;\u2028Actually, I do believe we are.",
+            "multi_remove_portrait;Emma;Fernando",
+            "remove_talk;Emma;Fernando",
+            "remove_talk;Fernando;Emma",
+            "give_exp;{unit};25"
+        ],
+        "nid": "3 T - Emma Fernando"
+    }
+]

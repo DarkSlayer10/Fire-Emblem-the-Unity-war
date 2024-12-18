@@ -1,0 +1,27 @@
+[
+    {
+        "name": "T - Sarah Caroline",
+        "trigger": "on_talk",
+        "level_nid": "3",
+        "condition": "check_pair('Sarah', 'Caroline')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Caroline;Right",
+            "speak;Caroline;\u2028Hey, you!",
+            "add_portrait;Sarah;Left",
+            "speak;Caroline;\u2028You're the leader that\u2028Nina reported to, right?{w}\u2028The leader of The Defiants?",
+            "speak;Sarah;\u2028That's right, I'm her.{w}\u2028And I assume you're the Caroline\u2028that Nina told me about.",
+            "speak;Caroline;\u2028That's me.{w} I was hoping\u2028go get a word in.{w}\u2028Maybe ask a question\u2028or two while I'm at it.",
+            "speak;Sarah;\u2028Trust me, I'd love to chat too,{w}\u2028but we should really wait for\u2028after we're done here.{w}\u2028Then we'll have all the time\u2028in the world.",
+            "speak;Caroline;\u2028Fine, but make sure your strikes go through\u2028these bandits and not my safehouse walls.{w}\u2028My house, my rules, and any scratches on\u2028the floor get carved into their makers.",
+            "speak;Sarah;\u2028Heh, I'll pass the message.{w}\u2028I look forward to talking afterwards.",
+            "multi_remove_portrait;Caroline;Sarah",
+            "remove_talk;{unit};{unit2}",
+            "remove_talk;{unit2};{unit}",
+            "give_exp;{unit};25"
+        ],
+        "nid": "3 T - Sarah Caroline"
+    }
+]

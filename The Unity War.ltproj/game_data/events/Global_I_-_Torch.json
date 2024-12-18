@@ -1,0 +1,16 @@
+[
+    {
+        "name": "I - Torch",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "inc_level_var;torch_region",
+            "add_region;torch_{v:torch_region};{e:target_pos};1,1;vision;7"
+        ],
+        "nid": "Global I - Torch"
+    }
+]

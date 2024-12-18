@@ -1,17 +1,17 @@
 [
     {
-        "nid": "Fire",
-        "name": "Fire",
-        "desc": "A tome that shoots fire.",
-        "icon_nid": "Anima",
+        "nid": "Holy_Axe",
+        "name": "Holy Axe",
+        "desc": "Effective vs. Demons.",
+        "icon_nid": "InHouse and Filler Icons",
         "icon_index": [
-            0,
+            10,
             0
         ],
         "components": [
             [
                 "item_prefab",
-                "Platonic_Anima"
+                "Platonic_Axe"
             ],
             [
                 "weapon_rank",
@@ -19,11 +19,11 @@
             ],
             [
                 "value",
-                450
+                1000
             ],
             [
                 "damage",
-                5
+                10
             ],
             [
                 "hit",
@@ -35,11 +35,11 @@
             ],
             [
                 "weight",
-                6
+                10
             ],
             [
                 "uses",
-                45
+                40
             ],
             [
                 "uses_options",
@@ -49,12 +49,16 @@
                 }
             ],
             [
-                "map_hit_add_blend",
-                [
-                    224,
-                    96,
-                    0
-                ]
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     }

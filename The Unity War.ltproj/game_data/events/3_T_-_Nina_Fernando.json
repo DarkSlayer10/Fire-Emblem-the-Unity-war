@@ -1,0 +1,31 @@
+[
+    {
+        "name": "T - Nina Fernando",
+        "trigger": "on_talk",
+        "level_nid": "3",
+        "condition": "check_pair('Nina', 'Fernando')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Nina;Left;Fernando;Right",
+            "bop_portrait;Nina",
+            "speak;Nina;Fernando!",
+            "bop_portrait;Fernando",
+            "speak;Fernando;\u2028Nina!",
+            "speak;Fernando;\u2028I'm glad that you're here, and I\u2028see you've brought reinforcements.",
+            "speak;Nina;\u2028They were a last minute addition\u2028to the plan,{w} but these are the\u2028people Sarah was talking about.{w}\u2028The ones she wanted to\u2028permanently join us.",
+            "bop_portrait;Fernando",
+            "speak;Fernando;\u2028Well I'll be damned!{w}\u2028That'd be a massive\u2028addition to our numbers.{w}\u2028For now, though, let's\u2028take care of these bandits.{w}\u2028Their leader is predictably\u2028well fortified and guarded,{w}\u2028but we should be able to\u2028lure them out in one strike.",
+            "speak;Nina;\u2028And you're sure it will work?",
+            "speak;Fernando;\u2028Have my strategies ever failed you?{w}\u2028Now, let's show these bandits\u2028who The Defiants really are,{w}\u2028and why they shouldn't cross us!",
+            "bop_portrait;Nina",
+            "speak;Nina;\u2028Yeah!{w} Let's do it!",
+            "multi_remove_portrait;Nina;Fernando",
+            "remove_talk;Nina;Fernando",
+            "remove_talk;Fernando;Nina",
+            "give_exp;{unit};25"
+        ],
+        "nid": "3 T - Nina Fernando"
+    }
+]

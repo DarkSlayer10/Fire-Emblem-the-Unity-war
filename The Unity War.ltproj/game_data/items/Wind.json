@@ -1,11 +1,11 @@
 [
     {
-        "nid": "Fire",
-        "name": "Fire",
-        "desc": "A tome that shoots fire.",
-        "icon_nid": "Anima",
+        "nid": "Wind",
+        "name": "Wind",
+        "desc": "Basic wind magic.",
+        "icon_nid": "InHouse and Filler Icons",
         "icon_index": [
-            0,
+            9,
             0
         ],
         "components": [
@@ -19,7 +19,7 @@
             ],
             [
                 "value",
-                450
+                800
             ],
             [
                 "damage",
@@ -35,11 +35,11 @@
             ],
             [
                 "weight",
-                6
+                4
             ],
             [
                 "uses",
-                45
+                40
             ],
             [
                 "uses_options",
@@ -55,6 +55,18 @@
                     96,
                     0
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     }

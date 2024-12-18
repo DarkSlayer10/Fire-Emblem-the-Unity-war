@@ -60,6 +60,7 @@
     "Heavy_Spear": "Lances",
     "Hellfang": "Monster",
     "Hero_Crest": "Items",
+    "Holy_Axe": "Axes",
     "Holy_Lance": "Lances",
     "Hoplon_Guard": "Items",
     "Horseslayer": "Lances",
@@ -156,6 +157,7 @@
     "Thunder": "Anima",
     "Tomahawk": "Axes",
     "Torch": "Items",
+    "Torch_Staff": "Staves",
     "Toxin_Lance": "Lances",
     "Trade": "Staves",
     "Trainee_Pike": "Lances",
@@ -166,6 +168,7 @@
     "Warp1": "Staves",
     "Warp2": "Staves",
     "White_Gem": "Items",
+    "Wind": "Anima",
     "Wind_Sword": "Swords",
     "Wyrmslayer": "Swords",
     "Zanbato": "Swords"

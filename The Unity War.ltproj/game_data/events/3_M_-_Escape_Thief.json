@@ -1,0 +1,15 @@
+[
+    {
+        "name": "M - Escape Thief",
+        "trigger": "EscapeThief",
+        "level_nid": "3",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_unit;{unit}"
+        ],
+        "nid": "3 M - Escape Thief"
+    }
+]
