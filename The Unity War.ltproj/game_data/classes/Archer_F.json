@@ -27,12 +27,12 @@
         },
         "growths": {
             "HP": 70,
-            "STR": 35,
+            "STR": 45,
             "MAG": 40,
             "SKL": 55,
             "SPD": 32,
             "LCK": 35,
-            "DEF": 20,
+            "DEF": 25,
             "RES": 20,
             "CON": 0,
             "MOV": 0,
@@ -119,7 +119,12 @@
                 0,
                 251
             ],
-            "Monster": [
+            "Gauntlet": [
+                false,
+                0,
+                null
+            ],
+            "Special": [
                 false,
                 0,
                 null
@@ -129,12 +134,7 @@
                 0,
                 251
             ],
-            "Gauntlet": [
-                false,
-                0,
-                null
-            ],
-            "Special": [
+            "Monster": [
                 false,
                 0,
                 null

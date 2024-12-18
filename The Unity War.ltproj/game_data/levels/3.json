@@ -6,7 +6,11 @@
         "bg_tilemap": null,
         "party": "Emma",
         "music": {
-            "player_phase": "Duty"
+            "player_phase": "Player Phase 3",
+            "enemy_phase": "Bandit Phase",
+            "player_battle": "Battle",
+            "enemy_battle": "Enemy Battle",
+            "boss_battle": "Boss Battle"
         },
         "objective": {
             "simple": "Seize the throne",
@@ -1604,26 +1608,48 @@
         ],
         "unit_groups": [
             {
-                "nid": "Cutscene",
-                "units": [],
-                "positions": {}
+                "nid": "Defiants",
+                "units": [
+                    "Nina",
+                    "Sarah"
+                ],
+                "positions": {
+                    "Nina": [
+                        20,
+                        18
+                    ],
+                    "Sarah": [
+                        19,
+                        18
+                    ],
+                    "Fernando": [
+                        1,
+                        13
+                    ],
+                    "Alexis": [
+                        1,
+                        14
+                    ]
+                }
             },
             {
-                "nid": "CutsceneA",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "CampsiteA",
-                "units": [],
-                "positions": {}
+                "nid": "Defiants2",
+                "units": [
+                    "Fernando",
+                    "Alexis"
+                ],
+                "positions": {
+                    "Fernando": [
+                        1,
+                        13
+                    ],
+                    "Alexis": [
+                        1,
+                        14
+                    ]
+                }
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

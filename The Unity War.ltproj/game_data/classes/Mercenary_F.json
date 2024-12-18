@@ -32,10 +32,10 @@
             "STR": 50,
             "MAG": 30,
             "SKL": 47,
-            "SPD": 35,
+            "SPD": 40,
             "LCK": 34,
             "DEF": 35,
-            "RES": 25,
+            "RES": 35,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -121,7 +121,12 @@
                 0,
                 251
             ],
-            "Monster": [
+            "Gauntlet": [
+                false,
+                0,
+                null
+            ],
+            "Special": [
                 false,
                 0,
                 null
@@ -131,12 +136,7 @@
                 0,
                 251
             ],
-            "Gauntlet": [
-                false,
-                0,
-                null
-            ],
-            "Special": [
+            "Monster": [
                 false,
                 0,
                 null

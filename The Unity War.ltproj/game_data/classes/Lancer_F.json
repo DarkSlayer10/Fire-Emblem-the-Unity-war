@@ -30,15 +30,15 @@
         },
         "growths": {
             "HP": 75,
-            "STR": 35,
-            "MAG": 10,
-            "SKL": 43,
+            "STR": 44,
+            "MAG": 20,
+            "SKL": 45,
             "SPD": 28,
             "LCK": 30,
-            "DEF": 15,
+            "DEF": 20,
             "CON": 0,
             "MOV": 0,
-            "RES": 15,
+            "RES": 33,
             "LEAD": 0
         },
         "growth_bonus": {

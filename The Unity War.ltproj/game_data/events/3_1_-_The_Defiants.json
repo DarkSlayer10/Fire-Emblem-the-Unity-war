@@ -1,0 +1,40 @@
+[
+    {
+        "name": "1 - The Defiants",
+        "trigger": "turn_change",
+        "level_nid": "3",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_team;Nina;player",
+            "spawn_group;Defiants;south;Defiants",
+            "spawn_group;Defiants2;west;Defiants2",
+            "music;Mount Gale",
+            "flicker_cursor;Fernando",
+            "multi_add_portrait;Alexis;Right;Fernando;Left",
+            "speak;Fernando;\u2028And here we go!",
+            "bop_portrait;Fernando",
+            "speak;Fernando;\u2028Ha!",
+            "speak;Fernando;\u2028And not a soul saw us.{w}\u2028Who knew it'd be so simple?\u2028Easy pickings for us!",
+            "speak;Alexis;\u2028Alright, bandits, get ready to feel the\u2028power of The Defiants' brawler in action!",
+            "speak;Fernando;\u2028You really like to flex that you're\u2028our brawler, don't you, Alexis?",
+            "speak;Alexis;\u2028I'm just about the only one of\u2028us with anything to flex.",
+            "speak;Fernando;\u2028Yeah, yeah{tgm}...",
+            "speak;Fernando;\u2028Anyway, let's get moving.{w}\u2028We've no time to spare.",
+            "speak;Alexis;\u2028Hehe, I'm itching to punch\u2028an archer in the face!",
+            "multi_remove_portrait;Fernando;Alexis",
+            "flicker_cursor;Nina",
+            "multi_add_portrait;Sarah;Right;Nina;Left",
+            "speak;Nina;\u2028Sarah, Fernando and Alexis should\u2028be in place,{w} and our new friends\u2028should be out front.{w}\u2028We still going with the flank?",
+            "speak;Sarah;\u2028Yes, we are.",
+            "speak;Sarah;\u2028We brought our best gear, and no\u2028better opportunity will arise.{w}\u2028Once we finish the bandits,\u2028though,{w} I would like a\u2028word with our new friends.",
+            "speak;Nina;Sounds good.",
+            "bop_portrait;Nina",
+            "speak;Nina;\u2028Now, let's get this started!{w}\u2028Soon they'll find out why\u2028they call me the Lawbreaker!",
+            "multi_remove_portrait;Sarah;Nina"
+        ],
+        "nid": "3 1 - The Defiants"
+    }
+]
