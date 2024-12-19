@@ -95,7 +95,6 @@
     "2x_T_-_Emily",
     "2x_T_-_Caroline",
     "Global_Z_-_Level_End_Global",
-    "2x_T_-_Dinner_Setup",
     "Global_A_-_Shadowstep",
     "Global_A_-_Medica",
     "Global_A_-_Iaido",
@@ -123,5 +122,7 @@
     "3_M_-_Chest_3",
     "3_M_-_Chest_4",
     "3_2_-_Turn_4",
-    "3_2_-_Turn_6"
+    "3_2_-_Turn_6",
+    "3_M_-_North_Wall",
+    "3_M_-_South_Wall"
 ]

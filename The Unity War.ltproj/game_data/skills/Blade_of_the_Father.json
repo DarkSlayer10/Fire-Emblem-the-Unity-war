@@ -19,7 +19,7 @@
             ],
             [
                 "dynamic_attack_speed",
-                "999 if any([x for x in get_units_within_distance(unit2.position) and x.nid in ['Layla', 'Noelle']]) else 0"
+                "500 if any([x for x in get_units_within_distance(unit2.position) if x.nid in ['Layla', 'Noelle']]) else 0"
             ]
         ]
     }

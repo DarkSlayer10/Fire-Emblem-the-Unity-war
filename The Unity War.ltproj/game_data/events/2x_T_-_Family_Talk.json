@@ -3,9 +3,9 @@
         "name": "T - Family Talk",
         "trigger": "on_talk",
         "level_nid": "2x",
-        "condition": "v('night') and unit.nid in ['Emily', 'Caroline']",
+        "condition": "v('night') and unit2.nid in ['Emily', 'Caroline']",
         "commands": [],
-        "only_once": true,
+        "only_once": false,
         "priority": 20,
         "_source": [
             "add_portrait;Emma;Right",

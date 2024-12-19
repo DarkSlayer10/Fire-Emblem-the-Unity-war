@@ -9,6 +9,9 @@
         "priority": 20,
         "_source": [
             "change_team;Nina;player",
+            "change_party;Sarah;Emma",
+            "change_party;Fernando;Emma",
+            "change_party;Alexis;Emma",
             "spawn_group;Defiants;south;Defiants",
             "spawn_group;Defiants2;west;Defiants2",
             "music;Mount Gale",

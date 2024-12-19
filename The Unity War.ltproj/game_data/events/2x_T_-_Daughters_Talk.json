@@ -3,9 +3,9 @@
         "name": "T - Daughters Talk",
         "trigger": "on_talk",
         "level_nid": "2x",
-        "condition": "v('night') and unit.nid in ['Noah', 'Noelle', 'Layla']",
+        "condition": "v('night') and unit2.nid in ['Noah', 'Noelle', 'Layla']",
         "commands": [],
-        "only_once": true,
+        "only_once": false,
         "priority": 20,
         "_source": [
             "if;v('daughters_talk') >= 3",

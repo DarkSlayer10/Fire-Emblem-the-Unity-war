@@ -1,0 +1,16 @@
+[
+    {
+        "name": "M - South Wall",
+        "trigger": "unit_death",
+        "level_nid": "3",
+        "condition": "unit.nid == '143'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "sound;Wall Attack",
+            "show_layer;snag_bottom"
+        ],
+        "nid": "3 M - South Wall"
+    }
+]

@@ -4,6 +4,9 @@ I recommend updating this as we go
 
 - Have someone make a better Earth icon, probably
 - Palettes
+- Specifically Defiants palettes
+- Dawn tome anim
+- Death tome anim
 
 # Data
 
@@ -13,3 +16,5 @@ I recommend updating this as we go
 # Eventing
 
 - Death quotes
+- Specifically Defiants death quotes
+- Ch 3 boss battle quotes

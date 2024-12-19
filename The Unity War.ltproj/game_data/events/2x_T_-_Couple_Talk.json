@@ -3,9 +3,9 @@
         "name": "T - Couple Talk",
         "trigger": "on_talk",
         "level_nid": "2x",
-        "condition": "v('night') and unit.nid in ['Carson', 'Nicole']",
+        "condition": "v('night') and unit2.nid in ['Carson', 'Nicole']",
         "commands": [],
-        "only_once": true,
+        "only_once": false,
         "priority": 20,
         "_source": [
             "if;v('carson_nicole_camp')",

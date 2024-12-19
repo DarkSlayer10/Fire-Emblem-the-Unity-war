@@ -9,28 +9,8 @@
                     "Team",
                     "other"
                 ],
-                "view_range": -5,
+                "view_range": 0,
                 "invert_targeting": true,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": -5,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": -5,
-                "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -46,29 +26,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -3,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -84,29 +47,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -122,9 +68,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -4,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": "unit.get_hp() >= unit.get_max_hp() // 2"
@@ -142,9 +91,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -4,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -160,29 +112,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -198,9 +133,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -2,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -210,16 +148,6 @@
                 "target": "Position",
                 "target_spec": "Starting",
                 "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
@@ -236,9 +164,12 @@
             {
                 "action": "Support",
                 "target": "Ally",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -2,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -246,9 +177,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -2,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -274,9 +208,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -2,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": "unit.get_hp() >= unit.get_max_hp() // 2"
@@ -284,9 +221,12 @@
             {
                 "action": "Support",
                 "target": "Ally",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -1,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": "get_item(unit, 'Concoction')"
@@ -294,9 +234,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -2,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -322,9 +265,12 @@
             {
                 "action": "Support",
                 "target": "Ally",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -2,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -350,9 +296,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -2,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -362,16 +311,6 @@
                 "target": "Position",
                 "target_spec": "Starting",
                 "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
@@ -388,9 +327,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -2,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -416,9 +358,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -2,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -428,16 +373,6 @@
                 "target": "Position",
                 "target_spec": "Starting",
                 "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
@@ -454,29 +389,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -1,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -492,29 +410,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -1,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -530,9 +431,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -1,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": "unit.get_hp() >= unit.get_max_hp() // 2"
@@ -540,9 +444,12 @@
             {
                 "action": "Support",
                 "target": "Ally",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -1,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": "get_item(unit, 'Concoction')"
@@ -550,9 +457,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -1,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -568,9 +478,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -2,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -583,17 +496,7 @@
                     "Tile"
                 ],
                 "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -609,9 +512,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -2,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -629,9 +535,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -4,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -647,9 +556,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -2,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -666,57 +578,6 @@
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            }
-        ],
-        "priority": 15,
-        "offense_bias": 2.0,
-        "roam_ai": false
-    },
-    {
-        "nid": "FollowWagon",
-        "behaviours": [
-            {
-                "action": "Attack",
-                "target": "Enemy",
-                "target_spec": null,
-                "view_range": -2,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "Move_to",
-                "target": "Ally",
-                "target_spec": [
-                    "Class",
-                    "Wagon"
-                ],
-                "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
             }
         ],
         "priority": 15,
@@ -729,29 +590,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -767,9 +611,12 @@
             {
                 "action": "Support",
                 "target": "Ally",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -3,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -777,19 +624,12 @@
             {
                 "action": "Move_away_from",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -3,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -863,9 +703,12 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -2,
-                "invert_targeting": false,
+                "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
@@ -875,47 +718,6 @@
                 "target": "Event",
                 "target_spec": "Enemy_Seize",
                 "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            }
-        ],
-        "priority": 20,
-        "offense_bias": 2.0,
-        "roam_ai": false
-    },
-    {
-        "nid": "JoshuaDefend",
-        "behaviours": [
-            {
-                "action": "Attack",
-                "target": "Enemy",
-                "target_spec": [
-                    "ID",
-                    "Lily"
-                ],
-                "view_range": -2,
-                "invert_targeting": true,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "Move_to",
-                "target": "Position",
-                "target_spec": "Starting",
-                "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,

@@ -3,9 +3,9 @@
         "name": "T - Guards Talk",
         "trigger": "on_talk",
         "level_nid": "2x",
-        "condition": "v('night') and unit.nid in ['Sonia', 'Marica', 'Lily']",
+        "condition": "v('night') and unit2.nid in ['Sonia', 'Marica', 'Lily']",
         "commands": [],
-        "only_once": true,
+        "only_once": false,
         "priority": 20,
         "_source": [
             "if;v('guards_talk') >= 3",
