@@ -1,0 +1,22 @@
+[
+    {
+        "name": "M - Chest 2",
+        "trigger": "Chest",
+        "level_nid": "3",
+        "condition": "region.nid == 'Chest_2'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "if;unit.team == 'player'",
+            "    give_item;{unit};Torch_Staff",
+            "else",
+            "    give_item;{unit};Torch_Staff;;no_banner",
+            "    sound;ItemBreak",
+            "    alert;{e:unit.name} pilfered Torch staff!;Torch_Staff",
+            "end",
+            "show_layer;chest_closeleft"
+        ],
+        "nid": "3 M - Chest 2"
+    }
+]

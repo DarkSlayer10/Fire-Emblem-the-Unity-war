@@ -19,6 +19,7 @@
             "speak;Noah;\u2028We weren't totally defenseless, just\u2028taken off guard and had to scramble.{w}\u2028Since we drove them off thoroughly,{w}\u2028I had time to grab my special lance\u2028from my house before we left.",
             "multi_remove_portrait;Emma;Noah",
             "give_item;Emma;Holy_Lance",
+            "multi_add_portrait;Emma;Left;Noah;Right",
             "speak;Emma;\u2028Ooh, that does look cool{tgm}...",
             "speak;Noah;\u2028You should find someone in\u2028your group to give it to,{w}\u2028put it to some good use.",
             "speak;Emma;\u2028But, isn't this lance\u2028special to you?{w}\u2028It looks so fancy.",

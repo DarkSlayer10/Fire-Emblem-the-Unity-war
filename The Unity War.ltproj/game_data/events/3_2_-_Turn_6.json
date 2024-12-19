@@ -1,0 +1,23 @@
+[
+    {
+        "name": "2 - Turn 6",
+        "trigger": "turn_change",
+        "level_nid": "3",
+        "condition": "game.turncount == 6 and game.current_mode.nid == 'Hard'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_group;HM_Reinforcement;HM_Reinforcement;fade;closest",
+            "center_cursor;1,1",
+            "wait;400",
+            "center_cursor;19,1",
+            "wait;400",
+            "center_cursor;19,19",
+            "wait;400",
+            "center_cursor;1,19",
+            "wait;400"
+        ],
+        "nid": "3 2 - Turn 6"
+    }
+]

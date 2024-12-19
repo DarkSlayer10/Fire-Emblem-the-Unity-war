@@ -1,0 +1,17 @@
+[
+    {
+        "name": "2 - Turn 4",
+        "trigger": "turn_change",
+        "level_nid": "3",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "center_cursor;19,0",
+            "add_unit;144;19,0;;closest",
+            "wait;400"
+        ],
+        "nid": "3 2 - Turn 4"
+    }
+]
