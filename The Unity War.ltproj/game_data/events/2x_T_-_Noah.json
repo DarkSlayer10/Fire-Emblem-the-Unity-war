@@ -32,7 +32,7 @@
             "speak;Emma;\u2028I-I couldn't{tgm}...",
             "speak;Noah;...;no_talk",
             "speak;Noah;\u2028I'm sorry, Emma.{w} I would love to\u2028talk more on other topics, but{tgm}...{tgm}{w}\u2028I've got something to do real quick,\u2028a surprise for my daughter.{w}\u2028If you wanted to hear about old times,{w}\u2028maybe we could talk about it later.",
-            "speak;Noah;\u2028O-Okay.{w} See you later.",
+            "speak;Emma;\u2028O-Okay.{w} See you later.",
             "remove_portrait;Noah",
             "speak;Emma;Oh, Noah...;;;thought_bubble;no_talk",
             "speak;Emma;\u2028I wish I knew how to heal you, but...\u2028These aren't the sorts of scars that\u2028healing magic can handle...;;;thought_bubble;no_talk",

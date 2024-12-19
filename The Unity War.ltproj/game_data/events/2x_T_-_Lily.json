@@ -32,7 +32,14 @@
             "remove_talk;Emma;Lily",
             "move_unit;Lily;2,3",
             "inc_level_var;guards_talk",
-            "inc_level_var;dinner"
+            "inc_level_var;dinner",
+            "if;v('dinner') == 3",
+            "    add_portrait;Emma;Right",
+            "    speak;Emma;\u2028I bet Mom should be finishing\u2028up dinner soon...;;;thought_bubble;no_talk",
+            "    remove_portrait;Emma",
+            "    add_region;Escape;4,5;1,1;event;Escape",
+            "    flicker_cursor;4,5",
+            "end"
         ],
         "nid": "2x T - Lily"
     }

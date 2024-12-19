@@ -407,6 +407,68 @@
                         4
                     ]
                 }
+            },
+            {
+                "nid": "CampsiteB",
+                "units": [
+                    "Emma",
+                    "Emily",
+                    "Caroline",
+                    "Sonia",
+                    "Lily",
+                    "Marica",
+                    "Carson",
+                    "Nicole",
+                    "Noah",
+                    "Noelle",
+                    "Layla"
+                ],
+                "positions": {
+                    "Emma": [
+                        8,
+                        5
+                    ],
+                    "Emily": [
+                        2,
+                        4
+                    ],
+                    "Caroline": [
+                        1,
+                        3
+                    ],
+                    "Sonia": [
+                        13,
+                        3
+                    ],
+                    "Lily": [
+                        14,
+                        3
+                    ],
+                    "Marica": [
+                        15,
+                        2
+                    ],
+                    "Carson": [
+                        4,
+                        11
+                    ],
+                    "Nicole": [
+                        5,
+                        12
+                    ],
+                    "Noah": [
+                        17,
+                        6
+                    ],
+                    "Noelle": [
+                        16,
+                        7
+                    ],
+                    "Layla": [
+                        17,
+                        7
+                    ]
+                }
             }
         ],
         "ai_groups": []
