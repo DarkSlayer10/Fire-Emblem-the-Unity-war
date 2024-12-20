@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "if;unit2 and item_system.weapon_type(unit, item) == 'Staff'",
-            "    for;MEDICA;[x.nid for x in get_allies_within_distance(unit2.position, dist=2) if x.nid != unit2.nid and x.nid != unit.nid]",
+            "    for;MEDICA;[x.nid for x in get_allies_within_distance(unit2.position, dist=2) if x.nid != unit2.nid and x.nid != unit.nid and x.get_hp() < x.get_max_hp()]",
             "        sound;MapHeal",
             "        map_anim;MapSmallHealTrans;{MEDICA}",
             "        set_current_hp;{MEDICA};{e:u('{MEDICA}').get_hp() + u('{MEDICA}').get_max_hp() * 3 // 10}",

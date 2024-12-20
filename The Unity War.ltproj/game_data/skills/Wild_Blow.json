@@ -31,7 +31,7 @@
             ],
             [
                 "dynamic_defense_speed",
-                "3 if mode == 'attack' else -3"
+                "-3 if mode == 'attack' else 3"
             ]
         ]
     }
