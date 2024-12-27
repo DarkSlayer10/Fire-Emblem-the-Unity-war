@@ -3,7 +3,7 @@
         "nid": "Sonia",
         "name": "Sonia",
         "desc": "A guardsman who is reckless in battle.\nLoves traveling and fighting.",
-        "variant": "",
+        "variant": "Sonia",
         "level": 3,
         "klass": "Fighter_F",
         "tags": [
