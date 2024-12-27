@@ -9,7 +9,9 @@
         "priority": 20,
         "_source": [
             "sound;Unlock",
-            "show_layer;door_left"
+            "show_layer;door_left",
+            "change_ai;102;Pursue",
+            "change_ai;107;Pursue"
         ],
         "nid": "3 M - Door 1"
     }

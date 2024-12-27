@@ -9,7 +9,10 @@
         "priority": 20,
         "_source": [
             "sound;Unlock",
-            "show_layer;door_top"
+            "show_layer;door_top",
+            "for;DOOR_UNIT;['118', '130', '126', '105', '101', '115']",
+            "    change_ai;{DOOR_UNIT};Pursue",
+            "endf"
         ],
         "nid": "3 M - Door 2"
     }
