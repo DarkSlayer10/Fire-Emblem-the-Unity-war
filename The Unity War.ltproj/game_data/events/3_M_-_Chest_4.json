@@ -15,7 +15,8 @@
             "    sound;ItemBreak",
             "    alert;{e:unit.name} pilfered Wind tome!;Wind",
             "end",
-            "show_layer;chest_bottomright"
+            "show_layer;chest_bottomright",
+            "has_traded;{unit}"
         ],
         "nid": "3 M - Chest 4"
     }

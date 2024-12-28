@@ -12,7 +12,8 @@
             "show_layer;door_top",
             "for;DOOR_UNIT;['118', '130', '126', '105', '101', '115']",
             "    change_ai;{DOOR_UNIT};Pursue",
-            "endf"
+            "endf",
+            "has_traded;{unit}"
         ],
         "nid": "3 M - Door 2"
     }

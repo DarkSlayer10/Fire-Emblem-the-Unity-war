@@ -1,12 +1,13 @@
 I recommend updating this as we go
 
-# Graphical
+# Graphical/Audio
 
 - Have someone make a better Earth icon, probably
 - Palettes
-- Specifically Defiants palettes
 - Dawn tome anim
 - Death tome anim
+- Fix fire tome sounds
+- Fix Samurai sounds
 
 # Data
 

@@ -15,7 +15,8 @@
             "    sound;ItemBreak",
             "    alert;{e:unit.name} pilfered Axereaver!;Axereaver",
             "end",
-            "show_layer;chest_farleft"
+            "show_layer;chest_farleft",
+            "has_traded;{unit}"
         ],
         "nid": "3 M - Chest 1"
     }

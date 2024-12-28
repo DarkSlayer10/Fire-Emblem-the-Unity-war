@@ -9,7 +9,8 @@
         "priority": 20,
         "_source": [
             "sound;Unlock",
-            "show_layer;door_topright"
+            "show_layer;door_topright",
+            "has_traded;{unit}"
         ],
         "nid": "3 M - Door 3"
     }

@@ -73,7 +73,7 @@
             {
                 "nid": "Barret",
                 "team": "enemy",
-                "ai": "PursueVillage",
+                "ai": "GuardBoss",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -1518,6 +1518,10 @@
         "ai_groups": [
             {
                 "nid": "A",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

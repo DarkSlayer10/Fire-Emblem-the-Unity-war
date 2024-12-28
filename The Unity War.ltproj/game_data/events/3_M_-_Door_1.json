@@ -11,7 +11,8 @@
             "sound;Unlock",
             "show_layer;door_left",
             "change_ai;102;Pursue",
-            "change_ai;107;Pursue"
+            "change_ai;107;Pursue",
+            "has_traded;{unit}"
         ],
         "nid": "3 M - Door 1"
     }

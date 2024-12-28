@@ -15,7 +15,8 @@
             "    sound;ItemBreak",
             "    alert;{e:unit.name} pilfered Holy Axe!;Holy_Axe",
             "end",
-            "show_layer;chest_topright"
+            "show_layer;chest_topright",
+            "has_traded;{unit}"
         ],
         "nid": "3 M - Chest 3"
     }

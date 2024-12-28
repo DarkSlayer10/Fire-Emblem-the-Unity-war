@@ -15,7 +15,8 @@
             "    sound;ItemBreak",
             "    alert;{e:unit.name} pilfered Torch staff!;Torch_Staff",
             "end",
-            "show_layer;chest_closeleft"
+            "show_layer;chest_closeleft",
+            "has_traded;{unit}"
         ],
         "nid": "3 M - Chest 2"
     }
