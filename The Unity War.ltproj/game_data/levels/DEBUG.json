@@ -40,7 +40,7 @@
                 "generic": false
             },
             {
-                "nid": "Sonia",
+                "nid": "Natalia",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -97,6 +97,11 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

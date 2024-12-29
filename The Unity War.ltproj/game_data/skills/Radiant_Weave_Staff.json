@@ -11,7 +11,7 @@
         "components": [
             [
                 "eval_max_range",
-                "1 if item_system.weapon_type(unit, item) == 'Staff'"
+                "1 if item_system.weapon_type(unit, item) == 'Staff' else 0"
             ],
             [
                 "lost_on_end_chapter",

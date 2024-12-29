@@ -1,0 +1,22 @@
+[
+    {
+        "name": "B - Nina Barret",
+        "trigger": "combat_start",
+        "level_nid": "3",
+        "condition": "check_pair('Nina', 'Barret')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Barret;LeftCorner",
+            "speak;Barret;\u2028Is that{tgm}...{tgm}the Lawbreaker?{w}\u2028You're throwin' in with this\u2028do-gooder lot?",
+            "remove_portrait;Barret",
+            "add_portrait;Nina;RightCorner",
+            "speak;Nina;\u2028That's the funny thing about\u2028amassing too much power, friend.{w}\u2028Eventually, you become the law.{w}\u2028And now, be broken.",
+            "remove_portrait;Nina",
+            "show_combat_ui"
+        ],
+        "nid": "3 B - Nina Barret"
+    }
+]

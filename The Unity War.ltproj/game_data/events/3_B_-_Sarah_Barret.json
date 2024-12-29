@@ -1,0 +1,25 @@
+[
+    {
+        "name": "B - Sarah Barret",
+        "trigger": "combat_start",
+        "level_nid": "3",
+        "condition": "check_pair('Sarah', 'Barret')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Sarah;RightCorner",
+            "speak;Sarah;\u2028In the name of The Defiants,{w}\u2028your bandit group has been culled.{w}\u2028Any last words?",
+            "remove_portrait;Sarah",
+            "add_portrait;Barret;LeftCorner;;Smile",
+            "speak;Barret;\u2028You should take your mask off.{w}\u2028Maybe your hideous face'll scare\u2028me into fightin' poorly!",
+            "remove_portrait;Barret",
+            "add_portrait;Sarah;RightCorner",
+            "speak;Sarah;\u2028Let your legacy be naught\u2028but wasted air, then.",
+            "remove_portrait;Sarah",
+            "show_combat_ui"
+        ],
+        "nid": "3 B - Sarah Barret"
+    }
+]

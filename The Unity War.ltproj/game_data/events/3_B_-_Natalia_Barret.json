@@ -1,0 +1,25 @@
+[
+    {
+        "name": "B - Natalia Barret",
+        "trigger": "combat_start",
+        "level_nid": "3",
+        "condition": "check_pair('Natalia', 'Barret') and item_system.check_enemy(unit, unit2)",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Barret;LeftCorner",
+            "speak;Barret;\u2028Turning on me now, eh?{w}\u2028And you were soiling your\u2028knickers just a moment ago!",
+            "remove_portrait;Barret",
+            "add_portrait;Natalia;RightCorner",
+            "speak;Natalia;\u2028I didn't have the strength\u2028to avenge my sisters before.{w}\u2028Now, though...",
+            "remove_portrait;Natalia",
+            "add_portrait;Barret;LeftCorner",
+            "speak;Barret;\u2028These do-gooders?{w} Fine then.{w}\u2028I'll bury your bones in the\u2028same dung heap as theirs.",
+            "remove_portrait;Barret",
+            "show_combat_ui"
+        ],
+        "nid": "3 B - Natalia Barret"
+    }
+]

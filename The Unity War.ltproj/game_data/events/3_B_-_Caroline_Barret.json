@@ -1,0 +1,22 @@
+[
+    {
+        "name": "B - Caroline Barret",
+        "trigger": "combat_start",
+        "level_nid": "3",
+        "condition": "check_pair('Caroline', 'Barret')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Caroline;RightCorner",
+            "speak;Caroline;\u2028You chose the wrong safehouse\u2028to take over,{w} and that's the\u2028last mistake you'll ever make.",
+            "remove_portrait;Caroline",
+            "add_portrait;Barret;LeftCorner",
+            "speak;Barret;\u2028Bahaha, this was your base?{w}\u2028The more fool you for not\u2028checkin' in on it sooner.{w}\u2028Shame I'll have to evict you,\u2028bein' the new owner n' all.",
+            "remove_portrait;Barret",
+            "show_combat_ui"
+        ],
+        "nid": "3 B - Caroline Barret"
+    }
+]

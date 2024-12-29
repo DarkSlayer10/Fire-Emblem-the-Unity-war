@@ -9,8 +9,8 @@
         "priority": 20,
         "_source": [
             "give_money;1000;no_banner",
-            "set_fog_of_war;gba;1",
-            "enable_fog_of_war;t"
+            "#set_fog_of_war;gba;1",
+            "#enable_fog_of_war;t"
         ],
         "nid": "DEBUG Intro"
     }
