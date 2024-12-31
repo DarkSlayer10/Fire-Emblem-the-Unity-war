@@ -180,30 +180,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Maya",
-        "blinking_offset": [
-            32,
-            16
-        ],
-        "smiling_offset": [
-            32,
-            32
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Lilith",
-        "blinking_offset": [
-            24,
-            16
-        ],
-        "smiling_offset": [
-            24,
-            32
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Vargax",
         "blinking_offset": [
             16,
@@ -523,6 +499,42 @@
         ],
         "smiling_offset": [
             24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Maya",
+        "blinking_offset": [
+            32,
+            30
+        ],
+        "smiling_offset": [
+            32,
+            39
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Maya Casual",
+        "blinking_offset": [
+            32,
+            30
+        ],
+        "smiling_offset": [
+            32,
+            39
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lilith",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
             40
         ],
         "info_offset": 0
