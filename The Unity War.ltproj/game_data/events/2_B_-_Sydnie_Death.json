@@ -1,0 +1,21 @@
+[
+    {
+        "name": "B - Sydnie Death",
+        "trigger": "combat_death",
+        "level_nid": "2",
+        "condition": "unit.nid == 'Sydnie'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Sydnie;LeftCorner",
+            "speak;Sydnie;\u2028Guh{tgm}...{tgm}\u2028Can't believe{tgm}...{tgm}\u2028it ended like this{tgm}...",
+            "expression;Sydnie;CloseEyes",
+            "wait;200",
+            "remove_portrait;Sydnie",
+            "show_combat_ui"
+        ],
+        "nid": "2 B - Sydnie Death"
+    }
+]

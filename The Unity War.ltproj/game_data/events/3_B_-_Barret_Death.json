@@ -1,0 +1,21 @@
+[
+    {
+        "name": "B - Barret Death",
+        "trigger": "combat_death",
+        "level_nid": "3",
+        "condition": "unit.nid == 'Barret'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Barret;LeftCorner",
+            "speak;Barret;\u2028Ha{tgm}...{tgm}at least I die{tgm}...{tgm}\u2028filthy stinkin' rich{tgm}...",
+            "expression;Barret;CloseEyes",
+            "wait;200",
+            "remove_portrait;Barret",
+            "show_combat_ui"
+        ],
+        "nid": "3 B - Barret Death"
+    }
+]

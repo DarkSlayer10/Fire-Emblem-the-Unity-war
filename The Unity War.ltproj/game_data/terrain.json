@@ -105,6 +105,21 @@
         "status": null
     },
     {
+        "nid": "Deck",
+        "name": "Floor",
+        "color": [
+            107,
+            77,
+            43
+        ],
+        "minimap": "Floor",
+        "platform": "Floor",
+        "background": "combat_castle2",
+        "mtype": "Normal",
+        "opaque": false,
+        "status": null
+    },
+    {
         "nid": "7",
         "name": "Road",
         "color": [
@@ -150,12 +165,42 @@
         "status": null
     },
     {
+        "nid": "Mast",
+        "name": "Mast",
+        "color": [
+            65,
+            64,
+            83
+        ],
+        "minimap": "Wall",
+        "platform": "Wall",
+        "background": "combat_castle4",
+        "mtype": "Wall",
+        "opaque": true,
+        "status": null
+    },
+    {
         "nid": "Fence",
         "name": "Fence",
         "color": [
             64,
             40,
             40
+        ],
+        "minimap": "Wall",
+        "platform": "Wall",
+        "background": "combat_plains",
+        "mtype": "Fence",
+        "opaque": false,
+        "status": null
+    },
+    {
+        "nid": "Gunnel",
+        "name": "Gunnels",
+        "color": [
+            69,
+            84,
+            79
         ],
         "minimap": "Wall",
         "platform": "Wall",
@@ -278,6 +323,21 @@
             80
         ],
         "minimap": "House",
+        "platform": "House",
+        "background": "combat_village",
+        "mtype": "Normal",
+        "opaque": false,
+        "status": "Avoid10"
+    },
+    {
+        "nid": "Inn",
+        "name": "Inn",
+        "color": [
+            168,
+            88,
+            80
+        ],
+        "minimap": "Shop",
         "platform": "House",
         "background": "combat_village",
         "mtype": "Normal",

@@ -53,5 +53,10 @@
         "nid": "Mountainous",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Dawn Brigade Brigade",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
