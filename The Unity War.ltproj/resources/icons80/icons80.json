@@ -224,5 +224,9 @@
     {
         "nid": "HarpyCard",
         "subicon_dict": {}
+    },
+    {
+        "nid": "PhantomCard",
+        "subicon_dict": {}
     }
 ]

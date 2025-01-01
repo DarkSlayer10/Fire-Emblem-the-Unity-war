@@ -1,0 +1,15 @@
+[
+    {
+        "name": "A - Stay of Execution",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_skill;{unit};Stay_of_Execution_S;;no_banner"
+        ],
+        "nid": "Global A - Stay of Execution"
+    }
+]

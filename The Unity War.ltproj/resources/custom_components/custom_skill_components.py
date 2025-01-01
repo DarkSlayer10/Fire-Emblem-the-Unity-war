@@ -88,3 +88,14 @@ class EventAfterCombat(SkillComponent):
 
     def end_combat(self, playback, unit: UnitObject, item, target: UnitObject, item2, mode):
         game.events.trigger_specific_event(self.value, unit, target, unit.position, {'item': item, 'item2': item2, 'mode': mode})
+
+class EndstepEvent(SkillComponent):
+    nid = 'endstep_event'
+    desc = "Triggers the designated event at endstep"
+    tag = SkillTags.TIME
+
+    expose = ComponentType.Event
+    value = ''
+
+    def on_endstep(self, actions, playback, unit):
+        game.events.trigger_specific_event(self.value, unit, None, unit.position, local_args={})

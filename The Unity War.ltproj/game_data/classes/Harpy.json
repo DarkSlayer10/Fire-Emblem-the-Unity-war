@@ -4,7 +4,7 @@
         "name": "Harpy",
         "desc": "A half human, half bird hybrid that\nattacks with magic and claws.",
         "tier": 2,
-        "movement_group": "Regular",
+        "movement_group": "Fliers",
         "promotes_from": "Beastling",
         "turns_into": [],
         "tags": [
