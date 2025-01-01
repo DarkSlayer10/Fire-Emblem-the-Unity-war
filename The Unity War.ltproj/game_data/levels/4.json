@@ -414,6 +414,34 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 1,
+                "klass": "Harpy",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Sharp_Talons",
+                        false
+                    ],
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "PursueWait",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [

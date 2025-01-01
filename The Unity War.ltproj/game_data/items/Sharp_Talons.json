@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Sharp_Talons",
+        "name": "Sharp Talons",
+        "desc": "A harpy's lethal claw.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Monster"
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                9
+            ]
+        ]
+    }
+]
