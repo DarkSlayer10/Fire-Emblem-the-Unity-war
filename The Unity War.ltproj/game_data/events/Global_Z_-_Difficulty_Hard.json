@@ -69,6 +69,9 @@
             "    if;'Thief' in u('{ENEMY_UNIT}').klass",
             "        give_skill;{ENEMY_UNIT};Mug;;no_banner",
             "    end",
+            "    if;u('{ENEMY_UNIT}').klass in ['Harpy']",
+            "        give_skill;{ENEMY_UNIT};Flyby;;no_banner",
+            "    end",
             "endf"
         ],
         "nid": "Global Z - Difficulty Hard"
