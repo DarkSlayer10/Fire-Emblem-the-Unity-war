@@ -60,7 +60,7 @@
             "    if;u('{ENEMY_UNIT}').klass in ['Thug']",
             "        give_skill;{ENEMY_UNIT};Exploit;;no_banner",
             "    end",
-            "    if;'Mercenary' in u('{ENEMY_UNIT}').klass",
+            "    if;'Mercenary' in u('{ENEMY_UNIT}').klass or 'Hero' in u('{ENEMY_UNIT}').klass",
             "        give_skill;{ENEMY_UNIT};Wary_Stance;;no_banner",
             "    end",
             "    if;'Myrmidon' in u('{ENEMY_UNIT}').klass",

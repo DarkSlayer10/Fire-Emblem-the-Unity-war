@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Sharp_Talons",
-        "name": "Sharp Talons",
-        "desc": "A harpy's lethal claw.",
+        "nid": "Sharp_Claw",
+        "name": "Sharp Claw",
+        "desc": "A keen, flesh-tearing claw.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
-            9
+            7
         ],
         "components": [
             [
@@ -15,11 +15,11 @@
             ],
             [
                 "damage",
-                12
+                10
             ],
             [
                 "hit",
-                90
+                70
             ],
             [
                 "crit",
@@ -27,7 +27,7 @@
             ],
             [
                 "weight",
-                9
+                14
             ]
         ]
     }

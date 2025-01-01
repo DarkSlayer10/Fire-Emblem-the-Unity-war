@@ -2,7 +2,7 @@
     {
         "nid": "Poison_Axe",
         "name": "Poison Axe",
-        "desc": "Poisons on contact",
+        "desc": "Poisons on contact.\n(Lowers Def by 20%.)",
         "icon_nid": "Axe",
         "icon_index": [
             0,

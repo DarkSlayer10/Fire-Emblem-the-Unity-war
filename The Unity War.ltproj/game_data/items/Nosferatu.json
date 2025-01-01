@@ -2,7 +2,7 @@
     {
         "nid": "Nosferatu",
         "name": "Nosferatu",
-        "desc": "User recovers HP equal to damage dealt.",
+        "desc": "Drains enemy HP into caster.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -31,7 +31,7 @@
             ],
             [
                 "hit",
-                70
+                65
             ],
             [
                 "crit",
@@ -39,7 +39,7 @@
             ],
             [
                 "weight",
-                14
+                13
             ],
             [
                 "level_exp",
@@ -67,7 +67,7 @@
             ],
             [
                 "value",
-                3200
+                4500
             ],
             [
                 "uses",
