@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Poisontouch",
+        "name": "Poisontouch",
+        "desc": "Poisons foe after combat.\n(-20% Def.)",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "give_status_after_combat",
+                "Poisoned"
+            ]
+        ]
+    }
+]

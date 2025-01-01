@@ -228,5 +228,9 @@
     {
         "nid": "PhantomCard",
         "subicon_dict": {}
+    },
+    {
+        "nid": "BaelCard",
+        "subicon_dict": {}
     }
 ]

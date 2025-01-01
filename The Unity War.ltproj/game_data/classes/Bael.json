@@ -1,0 +1,144 @@
+[
+    {
+        "nid": "Bael",
+        "name": "Bael",
+        "desc": "Giant poisonous mountain spiders with\nvenom-filled fangs.",
+        "tier": 1,
+        "movement_group": "Bandits",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 25,
+            "STR": 7,
+            "SKL": 3,
+            "SPD": 3,
+            "DEF": 6,
+            "RES": 1,
+            "LCK": 0,
+            "MAG": 0,
+            "CON": 12,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 82,
+            "STR": 50,
+            "SKL": 30,
+            "SPD": 20,
+            "DEF": 18,
+            "RES": 13,
+            "LCK": 15,
+            "MAG": 0,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "RES": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "RES": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "RES": 20,
+            "LCK": 20,
+            "MAG": 20,
+            "CON": 25,
+            "MOV": 15,
+            "LEAD": 10
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Anima": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Gauntlet": [
+                false,
+                0,
+                null
+            ],
+            "Special": [
+                true,
+                1,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "BaelCard",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Bael",
+        "combat_anim_nid": "Bael",
+        "fields": []
+    }
+]
