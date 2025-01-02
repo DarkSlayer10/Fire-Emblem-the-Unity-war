@@ -10,6 +10,16 @@
         ]
     },
     {
+        "nid": "Bodyguard",
+        "name": "Bodyguard",
+        "desc": "Loyal hired hands that protect\nmerchants from harm.",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
         "nid": "Cutthroat",
         "name": "Cutthroat",
         "desc": "A member of Bazba's Bandits, who roam this region.",
@@ -22,7 +32,7 @@
     {
         "nid": "Bandit",
         "name": "Bandit",
-        "desc": "One of the bandits who have laid claim to the Carcino territories.",
+        "desc": "Bandits preying on the instability\nof the region.",
         "icon_nid": "NeutralEmblem",
         "icon_index": [
             0,
@@ -63,6 +73,16 @@
         "nid": "Mendhaven",
         "name": "Mendhaven",
         "desc": "Residents of the town of Mendhaven.",
+        "icon_nid": "NeutralEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Merchant",
+        "name": "Merchant",
+        "desc": "Entrepeneurs that make money\nthrough the trade of goods.",
         "icon_nid": "NeutralEmblem",
         "icon_index": [
             0,

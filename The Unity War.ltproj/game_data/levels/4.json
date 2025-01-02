@@ -1066,6 +1066,226 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "143",
+                "variant": null,
+                "level": 6,
+                "klass": "Troubadour_G",
+                "faction": "Bodyguard",
+                "starting_items": [
+                    [
+                        "Physic",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "DefendSupport",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "144",
+                "variant": null,
+                "level": 6,
+                "klass": "Troubadour_G",
+                "faction": "Bodyguard",
+                "starting_items": [
+                    [
+                        "Physic",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "DefendSupport",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "145",
+                "variant": null,
+                "level": 6,
+                "klass": "Mercenary",
+                "faction": "Bodyguard",
+                "starting_items": [
+                    [
+                        "Iron_Sword",
+                        false
+                    ],
+                    [
+                        "Concoction",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "GuardConcoction",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "146",
+                "variant": null,
+                "level": 6,
+                "klass": "Mercenary",
+                "faction": "Bodyguard",
+                "starting_items": [
+                    [
+                        "Iron_Sword",
+                        false
+                    ],
+                    [
+                        "Concoction",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "GuardConcoction",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "147",
+                "variant": null,
+                "level": 6,
+                "klass": "Mercenary",
+                "faction": "Bodyguard",
+                "starting_items": [
+                    [
+                        "Hand_Axe",
+                        false
+                    ],
+                    [
+                        "Concoction",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "GuardConcoction",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "148",
+                "variant": null,
+                "level": 6,
+                "klass": "Mercenary",
+                "faction": "Bodyguard",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ],
+                    [
+                        "Concoction",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "GuardConcoction",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "149",
+                "variant": null,
+                "level": 6,
+                "klass": "Archer_F",
+                "faction": "Bodyguard",
+                "starting_items": [
+                    [
+                        "Steel_Bow",
+                        false
+                    ],
+                    [
+                        "Concoction",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "DefendConcoction",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "150",
+                "variant": null,
+                "level": 6,
+                "klass": "Mage_F",
+                "faction": "Merchant",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ],
+                    [
+                        "Concoction",
+                        false
+                    ],
+                    [
+                        "Wind",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "DefendConcoction",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [

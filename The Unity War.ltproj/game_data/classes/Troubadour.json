@@ -16,27 +16,27 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 16,
-            "STR": 2,
-            "MAG": 0,
+            "HP": 23,
+            "STR": 1,
+            "MAG": 1,
             "SKL": 1,
-            "SPD": 0,
+            "SPD": 3,
             "LCK": 0,
             "DEF": 2,
-            "RES": 2,
-            "CON": 8,
+            "RES": 5,
+            "CON": 5,
             "MOV": 7,
             "LEAD": 0
         },
         "growths": {
             "HP": 60,
-            "STR": 50,
-            "MAG": 45,
-            "SKL": 45,
-            "SPD": 50,
-            "LCK": 40,
-            "DEF": 50,
-            "RES": 30,
+            "STR": 25,
+            "MAG": 50,
+            "SKL": 35,
+            "SPD": 55,
+            "LCK": 45,
+            "DEF": 25,
+            "RES": 40,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -109,7 +109,7 @@
             ],
             "Staff": [
                 true,
-                31,
+                71,
                 251
             ],
             "Anima": [
@@ -127,7 +127,12 @@
                 0,
                 251
             ],
-            "Monster": [
+            "Gauntlet": [
+                false,
+                0,
+                null
+            ],
+            "Special": [
                 false,
                 0,
                 null
@@ -137,12 +142,7 @@
                 0,
                 251
             ],
-            "Gauntlet": [
-                false,
-                0,
-                null
-            ],
-            "Special": [
+            "Monster": [
                 false,
                 0,
                 null
@@ -153,8 +153,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "Troubadour",
-        "combat_anim_nid": "Troubadour",
+        "map_sprite_nid": "TroubadourS",
+        "combat_anim_nid": "TroubadourNicole",
         "fields": []
     }
 ]
