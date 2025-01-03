@@ -40,7 +40,7 @@
                 "generic": false
             },
             {
-                "nid": "Natalia",
+                "nid": "Luna",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -72,6 +72,30 @@
                 "starting_position": [
                     5,
                     5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 1,
+                "klass": "Knight",
+                "faction": "Town_Guard",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true

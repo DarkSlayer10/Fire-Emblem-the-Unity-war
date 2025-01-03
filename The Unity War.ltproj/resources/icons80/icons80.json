@@ -232,5 +232,9 @@
     {
         "nid": "BaelCard",
         "subicon_dict": {}
+    },
+    {
+        "nid": "GriffinCard",
+        "subicon_dict": {}
     }
 ]

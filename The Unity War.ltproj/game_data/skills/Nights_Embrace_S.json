@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Nights_Embrace_S",
+        "name": "Night's Veil",
+        "desc": "Unit is less likely to be targeted.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            0,
+            29
+        ],
+        "components": [
+            [
+                "modify_ai_priority",
+                0.01
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

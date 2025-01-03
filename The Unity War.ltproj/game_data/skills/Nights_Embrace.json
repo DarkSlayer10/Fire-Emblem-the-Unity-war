@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Nights_Embrace",
+        "name": "Night's Embrace",
+        "desc": "When initiating, pierces defenses if\nMag > target's Mag. On kill, unit is\nless likely to be targeted for 1 turn.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            0,
+            29
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "0 if mode != 'attack' or unit.get_stat('MAG') <= unit2.get_stat('MAG') else unit2.get_stat('DEF') if item_system.resist_formula(unit, item) == 'DEFENSE' else unit2.get_stat('RES') if item_system.resist_formula(unit, item) == 'MAGIC_DEFENSE' else max(0, min(unit.get_stat('DEF'), unit.get_stat('RES'))) if item_system.resist_formula(unit, item) == 'WORSE_DEFENSE' else unit2.get_stat('DEF')"
+            ],
+            [
+                "gain_skill_after_active_kill",
+                "Nights_Embrace_S"
+            ]
+        ]
+    }
+]

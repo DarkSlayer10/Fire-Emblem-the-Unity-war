@@ -1,0 +1,69 @@
+[
+    {
+        "nid": "Luna",
+        "name": "Luna",
+        "desc": "Kate's younger sister. Learned pegasus\nriding to protect her sibling.",
+        "variant": null,
+        "level": 1,
+        "klass": "Fledgling",
+        "tags": [
+            "Female"
+        ],
+        "bases": {
+            "HP": 24,
+            "STR": 6,
+            "SKL": 6,
+            "SPD": 7,
+            "DEF": 5,
+            "RES": 4,
+            "LCK": 6,
+            "MAG": 3,
+            "CON": 9,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 35,
+            "SKL": 30,
+            "SPD": 40,
+            "DEF": 30,
+            "RES": 35,
+            "LCK": 40,
+            "MAG": 30
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Slim_Lance",
+                false
+            ],
+            [
+                "Javelin",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Nights_Embrace"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Luna",
+        "affinity": "Fire",
+        "fields": []
+    }
+]
