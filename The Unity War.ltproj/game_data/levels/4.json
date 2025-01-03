@@ -1286,202 +1286,25 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Emma",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
             {
-                "nid": "EscapeThief_1",
-                "region_type": "event",
-                "position": [
-                    0,
-                    0
-                ],
-                "size": [
-                    2,
-                    1
-                ],
-                "sub_nid": "EscapeThief",
-                "condition": "unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "EscapeThief_2",
-                "region_type": "event",
-                "position": [
-                    19,
-                    0
-                ],
-                "size": [
-                    2,
-                    1
-                ],
-                "sub_nid": "EscapeThief",
-                "condition": "unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "EscapeThief_3",
-                "region_type": "event",
-                "position": [
-                    19,
-                    20
-                ],
-                "size": [
-                    2,
-                    1
-                ],
-                "sub_nid": "EscapeThief",
-                "condition": "unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Chest_1",
-                "region_type": "event",
-                "position": [
-                    0,
-                    8
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Chest",
-                "condition": "unit.can_unlock(region)",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Chest_2",
-                "region_type": "event",
-                "position": [
-                    2,
-                    8
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Chest",
-                "condition": "unit.can_unlock(region)",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Chest_3",
-                "region_type": "event",
-                "position": [
-                    14,
-                    4
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Chest",
-                "condition": "unit.can_unlock(region)",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Chest_4",
-                "region_type": "event",
-                "position": [
-                    15,
-                    11
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Chest",
-                "condition": "unit.can_unlock(region)",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Door_1",
-                "region_type": "event",
-                "position": [
-                    1,
-                    9
-                ],
-                "size": [
-                    2,
-                    3
-                ],
-                "sub_nid": "Door",
-                "condition": "unit.can_unlock(region)",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Door_2",
-                "region_type": "event",
-                "position": [
-                    9,
-                    2
-                ],
-                "size": [
-                    1,
-                    3
-                ],
-                "sub_nid": "Door",
-                "condition": "unit.can_unlock(region)",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Door_3",
-                "region_type": "event",
-                "position": [
-                    15,
-                    5
-                ],
-                "size": [
-                    1,
-                    3
-                ],
-                "sub_nid": "Door",
-                "condition": "unit.can_unlock(region)",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Door_4",
-                "region_type": "event",
-                "position": [
-                    15,
-                    8
-                ],
-                "size": [
-                    2,
-                    3
-                ],
-                "sub_nid": "Door",
-                "condition": "unit.can_unlock(region)",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
                 "nid": "F_1",
                 "region_type": "formation",
                 "position": [
-                    9,
-                    18
+                    19,
+                    24
                 ],
                 "size": [
                     1,
@@ -1497,8 +1320,8 @@
                 "nid": "F_2",
                 "region_type": "formation",
                 "position": [
-                    10,
-                    19
+                    19,
+                    26
                 ],
                 "size": [
                     1,
@@ -1514,8 +1337,8 @@
                 "nid": "F_3",
                 "region_type": "formation",
                 "position": [
-                    7,
-                    18
+                    21,
+                    24
                 ],
                 "size": [
                     1,
@@ -1531,8 +1354,8 @@
                 "nid": "F_4",
                 "region_type": "formation",
                 "position": [
-                    11,
-                    18
+                    21,
+                    26
                 ],
                 "size": [
                     1,
@@ -1548,8 +1371,8 @@
                 "nid": "F_5",
                 "region_type": "formation",
                 "position": [
-                    6,
-                    19
+                    20,
+                    25
                 ],
                 "size": [
                     1,
@@ -1565,8 +1388,8 @@
                 "nid": "F_6",
                 "region_type": "formation",
                 "position": [
-                    8,
-                    19
+                    13,
+                    24
                 ],
                 "size": [
                     1,
@@ -1582,8 +1405,8 @@
                 "nid": "F_7",
                 "region_type": "formation",
                 "position": [
-                    12,
-                    19
+                    15,
+                    24
                 ],
                 "size": [
                     1,
@@ -1599,8 +1422,8 @@
                 "nid": "F_8",
                 "region_type": "formation",
                 "position": [
-                    7,
-                    20
+                    13,
+                    26
                 ],
                 "size": [
                     1,
@@ -1616,8 +1439,8 @@
                 "nid": "F_9",
                 "region_type": "formation",
                 "position": [
-                    9,
-                    20
+                    15,
+                    26
                 ],
                 "size": [
                     1,
@@ -1633,8 +1456,8 @@
                 "nid": "F_10",
                 "region_type": "formation",
                 "position": [
-                    11,
-                    20
+                    7,
+                    24
                 ],
                 "size": [
                     1,
@@ -1650,8 +1473,8 @@
                 "nid": "F_11",
                 "region_type": "formation",
                 "position": [
-                    13,
-                    20
+                    9,
+                    24
                 ],
                 "size": [
                     1,
@@ -1664,20 +1487,54 @@
                 "interrupt_move": false
             },
             {
-                "nid": "Seize",
-                "region_type": "event",
+                "nid": "F_12",
+                "region_type": "formation",
                 "position": [
-                    9,
-                    9
+                    8,
+                    25
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "Seize",
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "F_13",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    26
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "F_14",
+                "region_type": "formation",
+                "position": [
+                    9,
+                    26
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
                 "interrupt_move": false
             }
         ],

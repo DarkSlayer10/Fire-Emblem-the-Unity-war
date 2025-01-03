@@ -39,7 +39,15 @@
             "bop_portrait;Caroline",
             "speak;Caroline;\u2028I see flames at the port town!{w}\u2028Everyone, get down while we\u2028move in!{w} We don't want whoever\u2028is attacking to notice us!",
             "multi_remove_portrait;Caroline;Emma;Sarah",
-            "end_skip"
+            "end_skip",
+            "transition;close",
+            "add_weather;fire",
+            "change_background",
+            "center_cursor;11,17;immediate",
+            "transition;open",
+            "music;Tension",
+            "location_card;Gravesoll Port",
+            "center_cursor;11,23"
         ],
         "nid": "4 0 - Intro"
     }
