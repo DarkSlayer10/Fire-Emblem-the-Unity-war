@@ -27,7 +27,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Emma",
+                "nid": "Carlos",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -55,18 +55,16 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 1,
-                "klass": "Myrmidon",
+                "level": 5,
+                "klass": "Mage",
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Fire",
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "Arcane_Juggernaut"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
@@ -123,11 +121,6 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

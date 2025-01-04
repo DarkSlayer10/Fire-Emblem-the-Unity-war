@@ -16,6 +16,26 @@
             [
                 "personal_skill",
                 null
+            ],
+            [
+                "drain_charge",
+                2
+            ],
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "defense_proc_when_hit",
+                "Arcane_Juggernaut_S"
+            ],
+            [
+                "proc_rate",
+                "HUNDRED"
+            ],
+            [
+                "combat_condition",
+                "item_funcs.is_magic(unit2, item2, utils.calculate_distance(unit.position, target.position))"
             ]
         ]
     }

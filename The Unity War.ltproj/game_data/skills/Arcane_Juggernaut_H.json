@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Arcane_Juggernaut_H",
+        "name": "Arcane Juggernaut",
+        "desc": "",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            0,
+            36
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "condition",
+                "get_skill(unit, 'Arcane_Juggernaut').data.get('charge') > 0"
+            ]
+        ]
+    }
+]

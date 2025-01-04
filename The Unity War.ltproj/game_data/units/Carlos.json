@@ -54,7 +54,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Arcane_Juggernaut"
+            ],
+            [
+                1,
+                "Arcane_Juggernaut_H"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Lance": [
