@@ -40,7 +40,7 @@
                 "generic": false
             },
             {
-                "nid": "Luna",
+                "nid": "Kate",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -64,7 +64,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Forced_March"
+                ],
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
@@ -121,6 +123,11 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

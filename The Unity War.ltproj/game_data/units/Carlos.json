@@ -1,0 +1,86 @@
+[
+    {
+        "nid": "Carlos",
+        "name": "Carlos",
+        "desc": "The Dawn Brigade's tactician.\nAlways finds a way to disrespect\nKate's orders.",
+        "variant": null,
+        "level": 5,
+        "klass": "Knight",
+        "tags": [],
+        "bases": {
+            "HP": 28,
+            "STR": 9,
+            "MAG": 1,
+            "SKL": 11,
+            "SPD": 4,
+            "DEF": 9,
+            "RES": 5,
+            "LCK": 11,
+            "CON": 16,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "STR": 60,
+            "MAG": 15,
+            "SKL": 50,
+            "SPD": 30,
+            "DEF": 65,
+            "RES": 35,
+            "LCK": 5,
+            "CON": 0,
+            "HP": 90,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0
+        },
+        "starting_items": [
+            [
+                "Steel_Lance",
+                false
+            ],
+            [
+                "Steel_Sword",
+                false
+            ],
+            [
+                "Steel_Bow",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                71,
+                null
+            ],
+            "Sword": [
+                false,
+                31,
+                null
+            ],
+            "Axe": [
+                false,
+                31,
+                null
+            ],
+            "Bow": [
+                false,
+                31,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Carlos",
+        "affinity": "Anima",
+        "fields": []
+    }
+]

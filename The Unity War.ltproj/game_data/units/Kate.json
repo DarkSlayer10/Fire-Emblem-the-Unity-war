@@ -1,0 +1,92 @@
+[
+    {
+        "nid": "Kate",
+        "name": "Kate",
+        "desc": "Luna's older sister and the leader\nof the Dawn Brigade. Strict with Luna.",
+        "variant": null,
+        "level": 5,
+        "klass": "Griffin_Rider",
+        "tags": [
+            "Female"
+        ],
+        "bases": {
+            "HP": 30,
+            "STR": 9,
+            "SKL": 9,
+            "SPD": 9,
+            "DEF": 6,
+            "RES": 7,
+            "LCK": 6,
+            "MAG": 7,
+            "CON": 8,
+            "MOV": 7,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 45,
+            "SKL": 55,
+            "SPD": 40,
+            "DEF": 30,
+            "RES": 45,
+            "LCK": 40,
+            "MAG": 45,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "CON": 0,
+            "HP": 0,
+            "SKL": 0,
+            "STR": 0,
+            "LCK": 0,
+            "LEAD": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "RES": 0,
+            "DEF": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Holy_Bow",
+                false
+            ],
+            [
+                "Killer_Bow",
+                false
+            ],
+            [
+                "Short_Bow",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Rising_Flames"
+            ],
+            [
+                1,
+                "Rising_Flames_H"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Bow": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Kate",
+        "affinity": "Light",
+        "fields": []
+    }
+]

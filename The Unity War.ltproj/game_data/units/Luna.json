@@ -30,9 +30,24 @@
             "DEF": 30,
             "RES": 35,
             "LCK": 40,
-            "MAG": 30
+            "MAG": 30,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "CON": 0,
+            "HP": 0,
+            "SKL": 0,
+            "STR": 0,
+            "LCK": 0,
+            "LEAD": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "RES": 0,
+            "DEF": 0,
+            "MOV": 0
+        },
         "starting_items": [
             [
                 "Slim_Lance",

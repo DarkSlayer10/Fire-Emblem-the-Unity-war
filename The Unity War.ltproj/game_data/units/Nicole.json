@@ -3,7 +3,7 @@
         "nid": "Nicole",
         "name": "Nicole",
         "desc": "A mounted nurse and Carson's wife.\nA shy country girl with a kind heart.",
-        "variant": null,
+        "variant": "",
         "level": 3,
         "klass": "Troubadour",
         "tags": [],
@@ -17,7 +17,8 @@
             "LCK": 6,
             "MAG": 7,
             "CON": 7,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 55,
@@ -27,9 +28,24 @@
             "DEF": 20,
             "RES": 50,
             "LCK": 55,
-            "MAG": 65
+            "MAG": 65,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "CON": 0,
+            "HP": 0,
+            "SKL": 0,
+            "STR": 0,
+            "LCK": 0,
+            "LEAD": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "RES": 0,
+            "DEF": 0,
+            "MOV": 0
+        },
         "starting_items": [
             [
                 "Heal",

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "A - Rising Flames",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;get_skill(unit, 'Rising_Flames').data.get('charge') == 0",
+            "    sound;FireBall",
+            "    map_anim;AOE_Fireball;{unit}",
+            "    set_current_hp;{unit};{e:unit.get_max_hp() // 2}",
+            "    give_skill;{unit};Rising_Flames_S;;no_banner",
+            "    set_skill_data;{unit};Rising_Flames_H;charge;0",
+            "    wait;300",
+            "end"
+        ],
+        "nid": "Global A - Rising Flames"
+    }
+]

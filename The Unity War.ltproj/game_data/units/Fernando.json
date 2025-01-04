@@ -28,9 +28,24 @@
             "DEF": 55,
             "RES": 50,
             "LCK": 20,
-            "MAG": 50
+            "MAG": 50,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "CON": 0,
+            "HP": 0,
+            "SKL": 0,
+            "STR": 0,
+            "LCK": 0,
+            "LEAD": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "RES": 0,
+            "DEF": 0,
+            "MOV": 0
+        },
         "starting_items": [
             [
                 "Flux",

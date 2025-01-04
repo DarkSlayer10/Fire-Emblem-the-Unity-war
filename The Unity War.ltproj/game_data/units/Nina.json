@@ -19,7 +19,8 @@
             "LCK": 9,
             "MAG": 8,
             "CON": 9,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 50,
@@ -30,9 +31,23 @@
             "RES": 30,
             "LCK": 65,
             "MAG": 35,
-            "CON": 0
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "CON": 0,
+            "HP": 0,
+            "SKL": 0,
+            "STR": 0,
+            "LCK": 0,
+            "LEAD": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "RES": 0,
+            "DEF": 0,
+            "MOV": 0
+        },
         "starting_items": [
             [
                 "Shining_Bow",

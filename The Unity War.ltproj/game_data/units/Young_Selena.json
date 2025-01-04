@@ -17,7 +17,8 @@
             "LCK": 10,
             "MAG": 18,
             "CON": 7,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 70,
@@ -27,9 +28,24 @@
             "DEF": 45,
             "RES": 30,
             "LCK": 25,
-            "MAG": 55
+            "MAG": 55,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "CON": 0,
+            "HP": 0,
+            "SKL": 0,
+            "STR": 0,
+            "LCK": 0,
+            "LEAD": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "RES": 0,
+            "DEF": 0,
+            "MOV": 0
+        },
         "starting_items": [
             [
                 "Elfire",

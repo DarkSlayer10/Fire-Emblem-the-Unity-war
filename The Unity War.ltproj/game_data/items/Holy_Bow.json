@@ -1,0 +1,66 @@
+[
+    {
+        "nid": "Holy_Bow",
+        "name": "Holy Bow",
+        "desc": "A bow effective against demons.",
+        "icon_nid": "InHouse and Filler Icons",
+        "icon_index": [
+            12,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Bow"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "value",
+                1500
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying",
+                        "Monster"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    }
+]

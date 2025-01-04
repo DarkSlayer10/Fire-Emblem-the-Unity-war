@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Rising_Flames_H",
+        "name": "Rising Flames",
+        "desc": "",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            3,
+            12
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "drain_charge",
+                1
+            ],
+            [
+                "event_after_combat",
+                "Global A - Rising Flames"
+            ]
+        ]
+    }
+]

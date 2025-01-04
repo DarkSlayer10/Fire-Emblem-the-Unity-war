@@ -34,10 +34,6 @@
     "General0_GenericRed",
     "General0_Theo",
     "Lord0_GenericBlue",
-    "Knight0_GenericBlue",
-    "Knight0_GenericRed",
-    "Knight0_Harold",
-    "Knight0_Theo",
     "Dragoon0_GenericBlue",
     "Dragoon0_GenericRed",
     "Halberdier0_GenericBlue",
@@ -285,5 +281,6 @@
     "Bael",
     "TroubadourGreen",
     "Luna",
-    "Griffin"
+    "Griffin",
+    "Knight"
 ]
