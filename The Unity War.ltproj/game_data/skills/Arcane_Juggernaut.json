@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Arcane_Juggernaut",
+        "name": "Arcane Juggernaut",
+        "desc": "Reduce magic damage taken by half.\n+2 Mov while this skill has charges.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            0,
+            36
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ]
+        ]
+    }
+]
