@@ -17,7 +17,7 @@
             "DEF": 5,
             "RES": 4,
             "LCK": 6,
-            "MAG": 3,
+            "MAG": 4,
             "CON": 9,
             "MOV": 6,
             "LEAD": 0
@@ -30,7 +30,7 @@
             "DEF": 30,
             "RES": 35,
             "LCK": 40,
-            "MAG": 30,
+            "MAG": 55,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0

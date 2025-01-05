@@ -74,5 +74,9 @@
     {
         "nid": "Batima_Daggers",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{Zelix} FE11&13-style weapons",
+        "subicon_dict": {}
     }
 ]
