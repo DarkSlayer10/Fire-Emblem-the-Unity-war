@@ -6,6 +6,7 @@ I recommend updating this as we go
 - Palettes
 - Dawn tome anim
 - Death tome anim
+- Ice Shard tome anim
 - Fix fire tome sounds
 - Fix Samurai sounds
 
@@ -18,4 +19,4 @@ I recommend updating this as we go
 
 - Death quotes
 - Specifically Defiants death quotes
-- Ch 3 boss battle quotes
+- Also Dawn Brigade death quotes
