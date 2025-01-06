@@ -1,0 +1,25 @@
+[
+    {
+        "name": "M - Visit Center",
+        "trigger": "Visit",
+        "level_nid": "4",
+        "condition": "region.nid == 'Visit_Center'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;House",
+            "transition;open",
+            "multi_add_portrait;{unit};Left;Woman3;Right",
+            "speak;Woman3;\u2028These demons attacking our village{tgm}...{tgm}{w}\u2028I can't fight them, but you can!{w}\u2028Take this and teach them a lesson!",
+            "multi_remove_portrait;{unit};Woman3",
+            "transition;close",
+            "change_background",
+            "transition;open",
+            "give_item;{unit};Holy_Sword",
+            "has_attacked;{unit}"
+        ],
+        "nid": "4 M - Visit Center"
+    }
+]

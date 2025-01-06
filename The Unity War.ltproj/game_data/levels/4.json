@@ -61,7 +61,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "PursueWait",
+                "ai": "PursueVillageWait",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -485,7 +485,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "PursueWait",
+                "ai": "PursueVillageWait",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -805,7 +805,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "PursueWait",
+                "ai": "PursueVillageWait",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -981,7 +981,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "PursueWait",
+                "ai": "PursueVillageWait",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -1005,7 +1005,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "PursueVillageWait",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -1583,6 +1583,57 @@
                 "position": [
                     0,
                     15
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visit_Left",
+                "region_type": "event",
+                "position": [
+                    9,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visit_Bottom",
+                "region_type": "event",
+                "position": [
+                    25,
+                    22
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visit_Tavern",
+                "region_type": "event",
+                "position": [
+                    3,
+                    20
                 ],
                 "size": [
                     1,

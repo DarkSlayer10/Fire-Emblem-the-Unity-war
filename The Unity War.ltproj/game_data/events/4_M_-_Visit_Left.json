@@ -1,0 +1,26 @@
+[
+    {
+        "name": "M - Visit Left",
+        "trigger": "Visit",
+        "level_nid": "4",
+        "condition": "region.nid == 'Visit_Left'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;House",
+            "transition;open",
+            "multi_add_portrait;{unit};Left;Man1;Right",
+            "speak;Man1;\u2028Stars above, I never would've\u2028guessed demons would appear here{tgm}...{tgm}{w}\u2028I even heard rumors that the\u2028demon army is patrolling the seas.{w}\u2028Here, I've got this ice tome for you.{w}\u2028Use it on those damn demons and give\u2028'em hell{tgm}...{tgm}or heaven, I suppose.{w}\u2028Good luck out there.",
+            "multi_remove_portrait;{unit};Man1",
+            "transition;close",
+            "change_background",
+            "transition;open",
+            "give_item;{unit};Ice_Shard",
+            "give_exp;{unit};25",
+            "has_attacked;{unit}"
+        ],
+        "nid": "4 M - Visit Left"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "name": "M - Visit Tavern",
+        "trigger": "Visit",
+        "level_nid": "4",
+        "condition": "region.nid == 'Visit_Tavern'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;Tavern",
+            "transition;open",
+            "add_portrait;{unit};Left",
+            "speak;{unit};\u2028Looks like everyone cleared out\u2028when the fighting started{tgm}...{tgm}{w}\u2028Oh, someone left a lance behind.",
+            "remove_portrait;{unit}",
+            "transition;close",
+            "change_background",
+            "transition;open",
+            "give_item;{unit};Toxin_Lance",
+            "has_attacked;{unit}"
+        ],
+        "nid": "4 M - Visit Tavern"
+    }
+]
