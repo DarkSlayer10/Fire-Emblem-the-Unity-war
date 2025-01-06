@@ -6495,6 +6495,91 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "Visit_Carlos",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "0,15": "0"
+                },
+                "sprite_grid": {
+                    "0,15": [
+                        "Town Tileset",
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "Visit_Left",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "9,21": "0"
+                },
+                "sprite_grid": {
+                    "9,21": [
+                        "Town Tileset",
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "Visit_Center",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "22,16": "0"
+                },
+                "sprite_grid": {
+                    "22,16": [
+                        "Town Tileset",
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "Visit_Bottom",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "25,22": "0"
+                },
+                "sprite_grid": {
+                    "25,22": [
+                        "Town Tileset",
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "Visit_Top",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "28,9": "0"
+                },
+                "sprite_grid": {
+                    "28,9": [
+                        "Town Tileset",
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [

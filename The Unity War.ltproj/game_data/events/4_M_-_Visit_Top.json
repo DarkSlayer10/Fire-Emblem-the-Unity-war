@@ -1,9 +1,9 @@
 [
     {
-        "name": "M - Visit Center",
+        "name": "M - Visit Top",
         "trigger": "Visit",
         "level_nid": "4",
-        "condition": "region.nid == 'Visit_Center'",
+        "condition": "region.nid == 'Visit_Top'",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -11,16 +11,16 @@
             "transition;close",
             "change_background;House",
             "transition;open",
-            "multi_add_portrait;{unit};Left;Woman3;Right",
-            "speak;Woman3;\u2028These demons attacking our village{tgm}...{tgm}{w}\u2028I can't fight them, but you can!{w}\u2028Take this and teach them a lesson!",
-            "multi_remove_portrait;{unit};Woman3",
+            "multi_add_portrait;{unit};Left;Woman2;Right",
+            "speak;Woman2;\u2028You're her to help us?\u2028Our prayers have been answered!{w}\u2028Here, take what gold we can spare\u2028as compensation and arm yourselves!",
+            "multi_remove_portrait;{unit};Woman2",
             "transition;close",
             "change_background",
             "transition;open",
-            "give_item;{unit};Holy_Sword",
+            "give_money;5000",
             "has_attacked;{unit}",
             "show_layer;{e:region.nid}"
         ],
-        "nid": "4 M - Visit Center"
+        "nid": "4 M - Visit Top"
     }
 ]

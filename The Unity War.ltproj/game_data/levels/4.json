@@ -1612,6 +1612,40 @@
                 "interrupt_move": false
             },
             {
+                "nid": "Visit_Center",
+                "region_type": "event",
+                "position": [
+                    22,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visit_Top",
+                "region_type": "event",
+                "position": [
+                    28,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
                 "nid": "Visit_Bottom",
                 "region_type": "event",
                 "position": [
