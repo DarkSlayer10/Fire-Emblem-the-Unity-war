@@ -1,0 +1,43 @@
+[
+    {
+        "name": "M - Visit Carlos",
+        "trigger": "Visit",
+        "level_nid": "4",
+        "condition": "region.nid == 'Visit_Carlos'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;House",
+            "transition;open",
+            "if;unit.nid == 'Kate'",
+            "    multi_add_portrait;Carlos;Left;Kate;OffscreenRight",
+            "    speak;Kate;\u2028CARLOS!!!",
+            "    speak;Carlos;Oh no.",
+            "    speak;Carlos;\u2028Maybe I can sneak out\u2028the window before she-",
+            "    move_portrait;Kate;Right",
+            "    bop_portrait;Kate",
+            "    speak;Kate;\u2028You thought barricading the\u2028door could keep me out?!",
+            "    speak;Carlos;\u2028No, no, no, the barricade\u2028was for the monsters, I swear.",
+            "    speak;Kate;\u2028I'm sure it was.",
+            "    speak;Kate;\u2028How about we talk about how you let\u2028my little sister onto the battlefield?{w}\u2028The one I told you <bconvo>not</> to let her onto?",
+            "    speak;Carlos;\u2028Well, you see, she was so eager\u2028to get out there,{w} and who was I to\u2028crush a little girl's dreams like that-",
+            "    speak;Kate;\u2028If I had half a mind, I would throw\u2028you out into the harbor for that choice.{w}\u2028This is the last time I ever leave you\u2028in charge.",
+            "    speak;Carlos;\u2028You say that, but you\u2028know you need me.{w}\u2028I'm your tactician\u2028for a reason.{w}\u2028And we're such close\u2028friends, right?",
+            "    speak;Kate;\u2028Yeah, you're right{tgm}...{tgm}I do need you.{w}\u2028So get your armored ass out of the\u2028house and onto the battlefield.{w}\u2028If the little girl can do it,\u2028so can you.",
+            "    speak;Carlos;\u2028R-Right{tgm}...{tgm}\u2028Will do{tgm}...",
+            "    multi_remove_portrait;Kate;Carlos",
+            "else",
+            "end",
+            "transition;close",
+            "change_background",
+            "transition;open",
+            "has_attacked;{unit}",
+            "load_unit;Carlos;player;None",
+            "add_unit;Carlos;1,15;immediate;stack",
+            "move_unit;Carlos;1,16;normal;closest"
+        ],
+        "nid": "4 M - Visit Carlos"
+    }
+]
