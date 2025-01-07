@@ -1,0 +1,15 @@
+[
+    {
+        "name": "W - Seize",
+        "trigger": "Seize",
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "win_game"
+        ],
+        "nid": "4 W - Seize"
+    }
+]

@@ -67,7 +67,8 @@
             "load_unit;Carlos;player;None",
             "add_unit;Carlos;1,15;immediate;stack",
             "move_unit;Carlos;1,16;normal;closest",
-            "show_layer;{e:region.nid}"
+            "show_layer;{e:region.nid}",
+            "level_var;carlos;True"
         ],
         "nid": "4 M - Visit Carlos"
     }

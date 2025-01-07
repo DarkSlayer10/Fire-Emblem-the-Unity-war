@@ -1,0 +1,25 @@
+[
+    {
+        "name": "M - Visit Arena",
+        "trigger": "Visit",
+        "level_nid": "4",
+        "condition": "region.nid == 'Visit_Arena'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;close",
+            "change_background;Arena",
+            "transition;open",
+            "add_portrait;{unit};Left",
+            "speak;{unit};\u2028The arena's closed{tgm}...{tgm}\u2028I suppose that makes sense.{w}\u2028Wait, is this sign made out\u2028of a weapon?{w} I wonder{tgm}...",
+            "remove_portrait;{unit}",
+            "transition;close",
+            "change_background",
+            "transition;open",
+            "give_item;{unit};Iron_Greatlance",
+            "has_attacked;{unit}"
+        ],
+        "nid": "4 M - Visit Arena"
+    }
+]

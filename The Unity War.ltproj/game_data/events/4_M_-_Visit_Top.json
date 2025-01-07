@@ -19,7 +19,8 @@
             "transition;open",
             "give_money;5000",
             "has_attacked;{unit}",
-            "show_layer;{e:region.nid}"
+            "show_layer;{e:region.nid}",
+            "level_var;top;True"
         ],
         "nid": "4 M - Visit Top"
     }

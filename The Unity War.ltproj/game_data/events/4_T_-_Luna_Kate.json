@@ -1,0 +1,26 @@
+[
+    {
+        "name": "T - Luna Kate",
+        "trigger": "on_talk",
+        "level_nid": "4",
+        "condition": "check_pair('Luna', 'Kate')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Luna;Left;Kate;Right",
+            "bop_portrait;Kate",
+            "speak;Kate;\u2028Luna! Quick,\u2028get behind me!",
+            "speak;Luna;\u2028I don't need to run and hide, sis.{w}\u2028I've got a pegasus! And a weapon!",
+            "speak;Kate;\u2028There's demons and monsters everywhere.{w}\u2028I need you to stay behind me, just in case.",
+            "speak;Luna;\u2028How about instead of hiding\u2028behind you, I have your back?",
+            "speak;Kate;\u2028As long as you're\u2028out of harm's way.",
+            "speak;Luna;\u2028I'm glad you're so good\u2028at listening to me{tgm}...",
+            "multi_remove_portrait;Luna;Kate",
+            "remove_talk;Luna;Kate",
+            "remove_talk;Kate;Luna",
+            "give_exp;{unit};25"
+        ],
+        "nid": "4 T - Luna Kate"
+    }
+]

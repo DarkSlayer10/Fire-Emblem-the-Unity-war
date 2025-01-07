@@ -20,7 +20,8 @@
             "give_item;{unit};Halberd",
             "give_exp;{unit};25",
             "has_attacked;{unit}",
-            "show_layer;{e:region.nid}"
+            "show_layer;{e:region.nid}",
+            "level_var;bottom;True"
         ],
         "nid": "4 M - Visit Bottom"
     }

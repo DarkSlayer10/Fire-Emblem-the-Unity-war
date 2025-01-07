@@ -1,0 +1,15 @@
+[
+    {
+        "name": "W - Rout",
+        "trigger": "combat_end",
+        "level_nid": "4",
+        "condition": "len(game.get_enemy_units()) == 0",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "win_game"
+        ],
+        "nid": "4 W - Rout"
+    }
+]

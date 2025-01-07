@@ -20,7 +20,8 @@
             "give_item;{unit};Ice_Shard",
             "give_exp;{unit};25",
             "has_attacked;{unit}",
-            "show_layer;{e:region.nid}"
+            "show_layer;{e:region.nid}",
+            "level_var;left;True"
         ],
         "nid": "4 M - Visit Left"
     }

@@ -19,7 +19,8 @@
             "transition;open",
             "give_item;{unit};Holy_Sword",
             "has_attacked;{unit}",
-            "show_layer;{e:region.nid}"
+            "show_layer;{e:region.nid}",
+            "level_var;center;True"
         ],
         "nid": "4 M - Visit Center"
     }

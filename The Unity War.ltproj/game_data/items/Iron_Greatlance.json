@@ -1,0 +1,61 @@
+[
+    {
+        "nid": "Iron_Greatlance",
+        "name": "Iron Greatlance",
+        "desc": "A heavy lance. Shoves 1 tile.\nFoe fully attacks first.",
+        "icon_nid": "{Zelix} FE11&13-style weapons",
+        "icon_index": [
+            1,
+            5
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Lance"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "value",
+                700
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "shove_on_end_combat",
+                1
+            ],
+            [
+                "uses",
+                35
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "status_on_equip",
+                "Great"
+            ]
+        ]
+    }
+]
