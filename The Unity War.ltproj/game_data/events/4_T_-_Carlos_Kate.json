@@ -1,0 +1,29 @@
+[
+    {
+        "name": "T - Carlos Kate",
+        "trigger": "on_talk",
+        "level_nid": "4",
+        "condition": "check_pair('Carlos', 'Kate')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Carlos;Left;Kate;Right",
+            "speak;Kate;\u2028Carlos!",
+            "bop_portrait;Kate",
+            "speak;Kate;\u2028Stop running from me!",
+            "speak;Carlos;\u2028I'm not! I'm just{tgm}...{tgm}running\u2028towards the enemy!{w}\u2028Have to kill the\u2028demons and all that.",
+            "speak;Kate;\u2028Don't think you're going to get\u2028away with defying my orders.",
+            "speak;Carlos;\u2028Don't worry. I'm sure I'll be hearing\u2028about it for the rest of my life.",
+            "speak;Kate;\u2028Do away with the attitude,\u2028Mister Tactician.",
+            "speak;Carlos;\u2028Aye aye, Miss Dictator.",
+            "speak;Kate;\u2028What was that?",
+            "speak;Carlos;\u2028I said it's time to get back\u2028to the battle at hand!",
+            "multi_remove_portrait;Carlos;Kate",
+            "remove_talk;Carlos;Kate",
+            "remove_talk;Kate;Carlos",
+            "give_exp;{unit};25"
+        ],
+        "nid": "4 T - Carlos Kate"
+    }
+]
