@@ -1,0 +1,32 @@
+[
+    {
+        "name": "1 - Turn 2",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "center_cursor;14,0",
+            "spawn_group;Cutscene_2;north;Cutscene_2",
+            "music;Tension",
+            "flicker_cursor;Amon",
+            "add_portrait;Amon;Right",
+            "speak;Amon;\u2028So, the humans are fighting\u2028my father's soldiers?{w}\u2028It is only a matter of time\u2028before they lose{tgm}...{tgm}{w}\u2028Wait, I sense{tgm}...{tgm}{w}\u2028I sense something is off{tgm}...",
+            "multi_add_portrait;Maya;MidLeft;Lilith;FarLeft",
+            "speak;Maya;\u2028Ooh, humans to kill, my prince!{w}\u2028Might I join the slaughter?",
+            "bop_portrait;Amon",
+            "speak;Amon;\u2028No, don't!",
+            "speak;Amon;\u2028I want to see how this plays out{tgm}...{tgm}{w}\u2028The townspeople aren't acting\u2028like themselves.{w}\u2028There is powerful magic at play\u2028here. I can sense it.",
+            "speak;Lilith;\u2028Let's go watch the fighting\u2028from the top of the mountains.{w}\u2028We can observe from there and\u2028learn more about the humans.",
+            "speak;Amon;\u2028Good idea, Lilith.{w}\u2028Follow me!",
+            "multi_remove_portrait;Lily;Amon;Maya",
+            "remove_unit;Amon;fade;north",
+            "remove_unit;Lilith;fade;north",
+            "wait;500",
+            "remove_unit;Maya;fade;north"
+        ],
+        "nid": "4 1 - Turn 2"
+    }
+]

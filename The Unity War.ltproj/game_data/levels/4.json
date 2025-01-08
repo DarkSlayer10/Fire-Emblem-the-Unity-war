@@ -1336,6 +1336,36 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "Amon",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Lilith",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Maya",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -1855,8 +1885,35 @@
                         25
                     ]
                 }
+            },
+            {
+                "nid": "Cutscene_2",
+                "units": [
+                    "Amon",
+                    "Lilith",
+                    "Maya"
+                ],
+                "positions": {
+                    "Amon": [
+                        17,
+                        0
+                    ],
+                    "Lilith": [
+                        16,
+                        0
+                    ],
+                    "Maya": [
+                        18,
+                        0
+                    ]
+                }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
