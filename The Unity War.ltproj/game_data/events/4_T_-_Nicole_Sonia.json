@@ -1,0 +1,31 @@
+[
+    {
+        "name": "T - Nicole Sonia",
+        "trigger": "on_talk",
+        "level_nid": "4",
+        "condition": "check_pair('Nicole', 'Sonia')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Nicole;Left;Sonia;Right",
+            "bop_portrait;Sonia",
+            "speak;Sonia;\u2028Hey, careful there!",
+            "move_portrait;Nicole;FarLeft;no_block",
+            "move_portrait;Sonia;MidLeft",
+            "mirror_portrait;Sonia",
+            "bop_portrait;Nicole",
+            "speak;Nicole;\u2028Oh my!",
+            "speak;Nicole;\u2028Thank you there, darlin'.{w}\u2028More demons and undead{tgm}...{tgm}oh,\u2028it turns my stomach on its head!",
+            "speak;Sonia;\u2028Just stay behind me.{w}\u2028Your squishy body wasn't meant to\u2028take attacks from these monsters.",
+            "speak;Nicole;\u2028Oh honey, that's easy to say when\u2028you're as tall as the watchtowers,{w}\u2028with arms the size of tree trunks!",
+            "speak;Sonia;\u2028I don't know what you're\u2028talking about,{w} but you should\u2028just stay out of the action.",
+            "speak;Nicole;\u2028Trust me sugar, ain't nobody\u2028gotta tell me twice.{w}\u2028I'm n ot going belly up here.",
+            "multi_remove_portrait;Sonia;Nicole",
+            "remove_talk;Sonia;Nicole",
+            "remove_talk;Nicole;Sonia",
+            "give_exp;{unit};25"
+        ],
+        "nid": "4 T - Nicole Sonia"
+    }
+]

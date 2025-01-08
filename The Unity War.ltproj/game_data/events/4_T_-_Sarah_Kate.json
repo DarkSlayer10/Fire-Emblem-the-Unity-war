@@ -1,0 +1,28 @@
+[
+    {
+        "name": "T - Sarah Kate",
+        "trigger": "on_talk",
+        "level_nid": "4",
+        "condition": "check_pair('Sarah', 'Kate')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Sarah;Right;Kate;Left",
+            "bop_portrait;Sarah",
+            "speak;Sarah;\u2028Kate, wait! We have some\u2028business to discuss!",
+            "speak;Kate;\u2028I know you probably need\u2028Carlos for some plan,{w} but\u2028you're going to have to wait!",
+            "speak;Sarah;\u2028What? No, no, I\u2028don't need Carlos, I-",
+            "speak;Kate;\u2028Listen, I know you're not too\u2028confident in your leadership.{w}\u2028I get it.{w}\u2028This time, you can follow me,{w}\u2028and we can talk girl-to-girl about\u2028leadership strategies later.",
+            "speak;Sarah;\u2028Wh- <bconvo>NO!</>\u2028I'm here to discuss business!",
+            "speak;Kate;\u2028Oh, fine, we'll compare how successful\u2028we've been after the battle is done!{w}\u2028Come on, I don't want to waste any\u2028more time!",
+            "remove_portrait;Kate",
+            "speak;Sarah;\u2028Stars above, I forgot how competitigve\u2028she is with this group rivalry thing.",
+            "remove_portrait;Sarah",
+            "remove_talk;Sarah;Kate",
+            "remove_talk;Kate;Sarah",
+            "give_exp;{unit};25"
+        ],
+        "nid": "4 T - Sarah Kate"
+    }
+]

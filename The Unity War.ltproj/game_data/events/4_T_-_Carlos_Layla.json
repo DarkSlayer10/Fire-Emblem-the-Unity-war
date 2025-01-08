@@ -1,0 +1,29 @@
+[
+    {
+        "name": "T - Carlos Layla",
+        "trigger": "on_talk",
+        "level_nid": "4",
+        "condition": "check_pair('Carlos', 'Layla')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Layla;Left;Carlos;Right",
+            "speak;Carlos;\u2028Huh? Is this <bconvo>another</>\u2028little girl in our ranks?",
+            "speak;Layla;\u2028Who're you calling little there?!",
+            "speak;Carlos;Um, you.",
+            "speak;Carlos;Because you're small.",
+            "speak;Layla;\u2028I could banish you to a world of\u2028complete shadow and darkness!",
+            "speak;Carlos;\u2028I'm sure you can.{w}\u2028Listen, can you hold your\u2028own in a fight or not?",
+            "bop_portrait;Layla",
+            "speak;Layla;\u2028Of course I can, genius!",
+            "speak;Carlos;You're a snippy one.{w}\u2028How about you take out as\u2028many demons as you can,{w} and\u2028I'll give you some sweets.{w}\u2028Does that sound good?",
+            "speak;Layla;\u2028Grrr{tgm}...{tgm} I am not\u2028just a little girl{tgm}...",
+            "multi_remove_portrait;Carlos;Layla",
+            "remove_talk;Carlos;Layla",
+            "remove_talk;Layla;Carlos",
+            "give_exp;{unit};25"
+        ],
+        "nid": "4 T - Carlos Layla"
+    }
+]

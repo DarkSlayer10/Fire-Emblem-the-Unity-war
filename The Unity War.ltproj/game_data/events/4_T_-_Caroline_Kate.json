@@ -1,0 +1,25 @@
+[
+    {
+        "name": "T - Caroline Kate",
+        "trigger": "on_talk",
+        "level_nid": "4",
+        "condition": "check_pair('Caroline', 'Kate')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Caroline;Right;Kate;Left",
+            "speak;Caroline;\u2028You're Kate, right?{w}\u2028The leader of the Dawn Brigade?",
+            "speak;Kate;\u2028I do believe that's what I said.",
+            "speak;Caroline;\u2028After this is all done, I need a talk with\u2028you about merging our groups together.",
+            "speak;Kate;\u2028Then wait until it's <bconvo>all done</>.{w}\u2028What fool tries to negotiate\u2028in the middle of battle?{w}\u2028Just fight and save the\u2028talk for later!",
+            "remove_portrait;Kate",
+            "speak;Caroline;\u2028Great, this one has an\u2028attitude problem too.",
+            "remove_portrait;Caroline",
+            "remove_talk;Caroline;Kate",
+            "remove_talk;Kate;Caroline",
+            "give_exp;{unit};25"
+        ],
+        "nid": "4 T - Caroline Kate"
+    }
+]

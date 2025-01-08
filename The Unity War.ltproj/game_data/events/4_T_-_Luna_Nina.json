@@ -1,0 +1,35 @@
+[
+    {
+        "name": "T - Luna Nina",
+        "trigger": "on_talk",
+        "level_nid": "4",
+        "condition": "check_pair('Luna', 'Nina')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Luna;Right;Nina;Left",
+            "bop_portrait;Luna",
+            "speak;Luna;Hey!",
+            "bop_portrait;Luna",
+            "speak;Luna;\u2028Did you just steal a\u2028wedding ring off a corpse?",
+            "speak;Nina;Nope, you're seein' things.",
+            "speak;Luna;\u2028No, no, I definitely saw\u2028you take it!{w}\u2028You bent down and swiped\u2028it off a woman's hand!",
+            "speak;Nina;\u2028Hysteria makes people see lots\u2028of things that never happened.",
+            "speak;Luna;\u2028It{tgm}...{tgm} It does{tgm}...{tgm}?{w}\u2028But you're wearing\u2028the ring right now!",
+            "speak;Nina;\u2028I was wearing that earlier.",
+            "speak;Luna;\u2028But where-",
+            "speak;Nina;\u2028Stop accusing me of\u2028things you can't prove.{w}\u2028Don't you have some\u2028demons to kill?",
+            "speak;Luna;But-",
+            "speak;Nina;See you around, moon girl.",
+            "remove_portrait;Nina",
+            "speak;Luna;\u2028What{tgm}...{tgm}just happened?",
+            "remove_portrait;Luna",
+            "remove_talk;Luna;Nina",
+            "remove_talk;Nina;Luna",
+            "give_exp;{unit};25",
+            "give_item;Nina;Energy_Ring"
+        ],
+        "nid": "4 T - Luna Nina"
+    }
+]

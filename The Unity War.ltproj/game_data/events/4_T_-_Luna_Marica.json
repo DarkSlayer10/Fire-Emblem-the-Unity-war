@@ -1,0 +1,30 @@
+[
+    {
+        "name": "T - Luna Marica",
+        "trigger": "on_talk",
+        "level_nid": "4",
+        "condition": "check_pair('Luna', 'Marica')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Luna;Right;Marica;Left",
+            "speak;Luna;\u2028Woah, you look like a real soldier.\u2028Are you newly trained like me?",
+            "speak;Marica;\u2028I'm not newly trained, and\u2028I'm not some pegasus knight.{w}\u2028I'm a pikeman.",
+            "speak;Luna;\u2028Hm{tgm}...{tgm}you actually look more\u2028like a foot soldier with a lance.",
+            "bop_portrait;Marica",
+            "speak;Marica;\u2028That's what a-",
+            "expression;Luna;Smile",
+            "speak;Luna;\u2028Hehe, relax. I'm\u2028just joking around.",
+            "expression;Luna;NoSmile",
+            "speak;Marica;\u2028Since you're so funny, you can joke\u2028around with all the other little girls.{w}\u2028Come back to the battlefield when\u2028you're ready to be a real woman.",
+            "remove_portrait;Marica",
+            "speak;Luna;\u2028Hmph, who put spiders\u2028in her armor?",
+            "remove_portrait;Luna",
+            "remove_talk;Luna;Marica",
+            "remove_talk;Marica;Luna",
+            "give_exp;{unit};25"
+        ],
+        "nid": "4 T - Luna Marica"
+    }
+]

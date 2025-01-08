@@ -1,0 +1,26 @@
+[
+    {
+        "name": "T - Emily Carson",
+        "trigger": "on_talk",
+        "level_nid": "4",
+        "condition": "check_pair('Emily', 'Carson')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Emily;Left;Carson;Right",
+            "speak;Carson;\u2028Keep sharp, Emily.{w}\u2028These demons{tgm}...{tgm}\u2028they're not going to let up.",
+            "speak;Emily;\u2028Don't treat me like I don't know.{w}\u2028My town was destroyed by these\u2028abominations, remember?",
+            "speak;Carson;\u2028Oh, right{tgm}...{tgm}{w}\u2028Forgive me, I just wanted to\u2028make sure we're properly rallied.{w}\u2028Your arrows are too valuable\u2028to miss.",
+            "speak;Emily;\u2028My arrows will fly just fine.{w}\u2028Just stay out of my way,\u2028little man.",
+            "speak;Carson;\u2028I'm really not a little ma-",
+            "speak;Emily;\u2028Repair your ego some other time.{w}\u2028Just swing your sword at some\u2028damn monsters!",
+            "speak;Carson;...;no_talk",
+            "multi_remove_portrait;Carson;Emily",
+            "remove_talk;Emily;Carson",
+            "remove_talk;Carson;Emily",
+            "give_exp;{unit};25"
+        ],
+        "nid": "4 T - Emily Carson"
+    }
+]

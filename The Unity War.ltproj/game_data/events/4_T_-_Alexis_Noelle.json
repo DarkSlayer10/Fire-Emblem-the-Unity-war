@@ -1,0 +1,36 @@
+[
+    {
+        "name": "T - Alexis Noelle",
+        "trigger": "on_talk",
+        "level_nid": "4",
+        "condition": "check_pair('Alexis', 'Noelle')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Alexis;Left;Noelle;Right",
+            "speak;Noelle;\u2028Hey, hey!",
+            "bop_portrait;Noelle",
+            "speak;Noelle;\u2028We're not an enemy!!!",
+            "speak;Alexis;\u2028Oops! Sorry, my bad!{w}\u2028When I get pumped, I just look\u2028for the nearest thing and <bconvo>PUNCH!</>",
+            "speak;Noelle;\u2028Well, watch it{tgm}...{tgm} I don't\u2028want Grace getting hurt.",
+            "speak;Alexis;\u2028Huh? Grace?\u2028You mean your wyvern?",
+            "speak;Noelle;\u2028Of course! Why wouldn't\u2028she have a name?",
+            "speak;Alexis;\u2028Ah, it makes sense, I guess{tgm}...",
+            "bop_portrait;Alexis",
+            "speak;Alexis;\u2028Argh! I've paused too long!{w}\u2028The heat in my blood's\u2028cooled down!",
+            "speak;Noelle;\u2028Um{tgm}...{tgm} I'm sorry{tgm}...{tgm}?",
+            "bop_portrait;Alexis",
+            "speak;Alexis;\u2028I've got to go punch something\u2028to get my blood pumping again",
+            "bop_portrait;Alexis",
+            "speak;Alexis;\u2028See you when\u2028the fight's done!",
+            "remove_portrait;Alexis",
+            "speak;Noelle;\u2028Oh man{tgm}...{tgm}{w}\u2028Maybe I should've\u2028stayed back at home{tgm}...",
+            "multi_remove_portrait;Noelle;Alexis",
+            "remove_talk;Noelle;Alexis",
+            "remove_talk;Alexis;Noelle",
+            "give_exp;{unit};25"
+        ],
+        "nid": "4 T - Alexis Noelle"
+    }
+]
