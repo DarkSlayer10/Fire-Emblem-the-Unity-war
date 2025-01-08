@@ -16,6 +16,7 @@
     "Global_D_-_Emily_Death",
     "Global_D_-_Caroline_Death",
     "Global_D_-_Carson_Death",
+    "Global_D_-_Nicole_Death",
     "Global_L_-_Lord_Death",
     "0_1_-_Turn_2_Event",
     "0_1_-_Turn_4_Event",
@@ -159,5 +160,6 @@
     "4_M_-_Visit_Bottom",
     "4_M_-_Visit_Tavern",
     "4_M_-_Visit_Arena",
-    "4_W_-_Seize"
+    "4_W_-_Seize",
+    "Global_Z_-_Full_Remove"
 ]

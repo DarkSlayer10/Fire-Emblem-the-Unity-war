@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Z - Full Remove",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_unit;{e:guy1};immediate",
+            "for;PLAYER;[x.nid for x in game.get_player_units()]",
+            "    if;u('{PLAYER}').traveler == guy1",
+            "        separate;{PLAYER}",
+            "    end",
+            "endf",
+            "change_party;{e:guy1};Junk"
+        ],
+        "nid": "Global Z - Full Remove"
+    }
+]

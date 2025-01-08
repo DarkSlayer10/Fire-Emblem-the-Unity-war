@@ -1,0 +1,32 @@
+[
+    {
+        "name": "D - Nicole Death",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Nicole'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Nicole;RightCorner",
+            "speak;Nicole;\u2028That was{tgm}...{tgm}\u2028plumb stupid of me{tgm}...",
+            "remove_portrait;Nicole",
+            "add_portrait;Carson;RightCorner",
+            "speak;Carson;\u2028Nicole!{w}\u2028I'll get you\u2028out of there!",
+            "remove_portrait;Carson",
+            "add_portrait;Nicole;RightCorner",
+            "speak;Nicole;\u2028I-it might be a touch\u2028too late for me, darlin'{tgm}...",
+            "remove_portrait;Nicole",
+            "add_portrait;Carson;RightCorner",
+            "speak;Carson;\u2028Don't say that!{w}\u2028You have to live!{w}\u2028You{tgm}...{tgm}have to{tgm}...",
+            "remove_portrait;Nicole",
+            "add_portrait;Nicole;RightCorner",
+            "speak;Nicole;\u2028I'll{tgm}...{tgm}try to hang\u2028on, then, Carson.{w}\u2028Can't{tgm}...{tgm}be leavin' you\u2028alone just yet, I suppose{tgm}...",
+            "remove_portrait;Nicole",
+            "trigger_script_with_args;Global Z - Full Remove;guy1,Carson",
+            "show_combat_ui"
+        ],
+        "nid": "Global D - Nicole Death"
+    }
+]
