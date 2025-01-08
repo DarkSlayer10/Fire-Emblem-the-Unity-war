@@ -1,0 +1,20 @@
+[
+    {
+        "name": "D - Luna Death",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Luna'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Luna;RightCorner",
+            "speak;Luna;\u2028Kate{tgm}...{tgm}where are you?{w}\u2028I{tgm}...{tgm}still haven't{tgm}...{tgm}\u2028managed{tgm}...{tgm}to protect{tgm}...",
+            "expression;Luna;CloseEyes",
+            "remove_portrait;Luna",
+            "show_combat_ui"
+        ],
+        "nid": "Global D - Luna Death"
+    }
+]

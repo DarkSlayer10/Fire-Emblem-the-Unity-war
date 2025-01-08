@@ -1,0 +1,20 @@
+[
+    {
+        "name": "D - Carlos Death",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Carlos'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Carlos;RightCorner",
+            "speak;Carlos;\u2028Ngh{tgm}...{tgm}no, not now{tgm}...{tgm}{w}\u2028I never even{tgm}...{tgm}told Luna{tgm}...",
+            "expression;Carlos;CloseEyes",
+            "remove_portrait;Carlos",
+            "show_combat_ui"
+        ],
+        "nid": "Global D - Carlos Death"
+    }
+]

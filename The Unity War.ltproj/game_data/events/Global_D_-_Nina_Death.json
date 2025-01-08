@@ -1,0 +1,20 @@
+[
+    {
+        "name": "D - Nina Death",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Nina'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Nina;RightCorner",
+            "speak;Nina;\u2028Couldn't{tgm}...{tgm}break the\u2028law of{tgm}...{tgm}mortality{tgm}...",
+            "expression;Nina;CloseEyes",
+            "remove_portrait;Nina",
+            "show_combat_ui"
+        ],
+        "nid": "Global D - Nina Death"
+    }
+]
