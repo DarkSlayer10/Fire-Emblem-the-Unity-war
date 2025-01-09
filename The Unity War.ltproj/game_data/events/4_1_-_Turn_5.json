@@ -1,0 +1,15 @@
+[
+    {
+        "name": "1 - Turn 5",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_group;Reinf_2;Reinf_2;fade;closest"
+        ],
+        "nid": "4 1 - Turn 5"
+    }
+]

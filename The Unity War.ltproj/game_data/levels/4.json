@@ -1288,6 +1288,178 @@
                 "generic": true
             },
             {
+                "nid": "151",
+                "variant": null,
+                "level": 6,
+                "klass": "Sword_Bonewalker",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "152",
+                "variant": null,
+                "level": 6,
+                "klass": "Sword_Bonewalker",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Iron_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "153",
+                "variant": null,
+                "level": 6,
+                "klass": "Sword_Bonewalker",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "154",
+                "variant": null,
+                "level": 6,
+                "klass": "Sword_Bonewalker",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "155",
+                "variant": null,
+                "level": 6,
+                "klass": "Revenant",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Fetid_Claw",
+                        false
+                    ],
+                    [
+                        "Concoction",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "156",
+                "variant": null,
+                "level": 6,
+                "klass": "Revenant",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Rotten_Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "157",
+                "variant": null,
+                "level": 5,
+                "klass": "Revenant",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Rotten_Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "158",
+                "variant": null,
+                "level": 5,
+                "klass": "Revenant",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Rotten_Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "Emma",
                 "team": "player",
                 "ai": "None",
@@ -1905,6 +2077,60 @@
                     "Maya": [
                         18,
                         0
+                    ]
+                }
+            },
+            {
+                "nid": "Reinf_2",
+                "units": [
+                    "151",
+                    "152",
+                    "153",
+                    "154"
+                ],
+                "positions": {
+                    "151": [
+                        19,
+                        0
+                    ],
+                    "152": [
+                        0,
+                        23
+                    ],
+                    "153": [
+                        0,
+                        10
+                    ],
+                    "154": [
+                        29,
+                        11
+                    ]
+                }
+            },
+            {
+                "nid": "Reinf_1",
+                "units": [
+                    "155",
+                    "156",
+                    "157",
+                    "158"
+                ],
+                "positions": {
+                    "155": [
+                        0,
+                        12
+                    ],
+                    "156": [
+                        21,
+                        0
+                    ],
+                    "157": [
+                        17,
+                        0
+                    ],
+                    "158": [
+                        29,
+                        12
                     ]
                 }
             }
