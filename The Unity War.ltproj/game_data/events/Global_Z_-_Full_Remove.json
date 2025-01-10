@@ -14,6 +14,7 @@
             "        separate;{PLAYER}",
             "    end",
             "endf",
+            "kill_unit;{e:guy1};immediate",
             "change_party;{e:guy1};Junk"
         ],
         "nid": "Global Z - Full Remove"

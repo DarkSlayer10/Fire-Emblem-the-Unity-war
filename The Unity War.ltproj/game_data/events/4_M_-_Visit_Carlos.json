@@ -68,7 +68,13 @@
             "add_unit;Carlos;1,15;immediate;stack",
             "move_unit;Carlos;1,16;normal;closest",
             "show_layer;{e:region.nid}",
-            "level_var;carlos;True"
+            "level_var;carlos;True",
+            "add_talk;Carlos;Fernando",
+            "add_talk;Fernando;Carlos",
+            "add_talk;Carlos;Kate",
+            "add_talk;Kate;Carlos",
+            "add_talk;Carlos;Layla",
+            "add_talk;Layla;Carlos"
         ],
         "nid": "4 M - Visit Carlos"
     }

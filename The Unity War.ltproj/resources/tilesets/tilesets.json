@@ -58,5 +58,10 @@
         "nid": "Dawn Brigade Brigade",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Boat",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
