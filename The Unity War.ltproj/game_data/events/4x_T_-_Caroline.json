@@ -1,0 +1,30 @@
+[
+    {
+        "name": "T - Caroline",
+        "trigger": "on_talk",
+        "level_nid": "4x",
+        "condition": "unit2.nid == 'Emily'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Caroline;Left;Emma;Right",
+            "speak;Emma;\u2028Mom, you never told me how beautiful\u2028sailing is{tgm}...{tgm}{w}\u2028An endless stretch of sparking blue in\u2028every direction,{w} beautiful skies with\u2028fluffy clouds,{w} and such a unique\u2028salty smell on the breeze!{w}\u2028I've never experienced anything\u2028close to this!",
+            "speak;Caroline;\u2028Don't you run away and become\u2028a pirate, now.{w} Trust me, when\u2028you're at sea for months at a time,{w}\u2028the rocking boat and endless ocean\u2028can feel maddening.{w}\u2028Not to mention that if you run\u2028into trouble,{w} there's nobody\u2028around to help or even hear you.",
+            "speak;Emma;...;no_talk",
+            "bop_portrait;Emma",
+            "speak;Emma;\u2028Mom, why can't you just let\u2028me enjoy the experience?",
+            "speak;Caroline;\u2028Ah, sorry about that.\u2028Force of habit.",
+            "speak;Caroline;\u2028Anyway, when you're done messing around,\u2028get your gear ready for lookout.{w}\u2028We need someone up here to tell us whether\u2028we're heading towards land or another ship.",
+            "speak;Emma;\u2028Right{tgm}...{tgm}I'll let you\u2028know when I'm done.",
+            "speak;Caroline;\u2028Don't take all day.{w}\u2028My knees are getting tired\u2028and my eyes need a rest.",
+            "expression;Emma;Smile",
+            "speak;Emma;Old lady.",
+            "expression;Caroline;Smile",
+            "speak;Caroline;\u2028An old lady who can throw\u2028you over her shoulder.{w}\u2028Go chat with whoever you\u2028want,{w} but get your butt\u2028below deck to gear up soon.",
+            "multi_remove_portrait;Emma;Caroline",
+            "remove_talk;Emma;Caroline"
+        ],
+        "nid": "4x T - Caroline"
+    }
+]
