@@ -1,0 +1,37 @@
+[
+    {
+        "name": "T - Carson",
+        "trigger": "on_talk",
+        "level_nid": "4x",
+        "condition": "unit2.nid == 'Carson'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Emma;Right;Carson;Left",
+            "speak;Emma;\u2028Carson, we never got the chance to\u2028follow up on the incident with Nicole{tgm}...{tgm}{w}\u2028How is she doing now?",
+            "speak;Carson;\u2028She is doing better than she was before{tgm}...{tgm}{w}\u2028Nicole told me some details, but it's\u2028better to ask her yourself.{w}\u2028Family drama, only made worse that we're\u2028heading for Rosefall, where her mother is.",
+            "speak;Emma;\u2028I'll have to ask her later{tgm}...",
+            "speak;Emma;\u2028If I can get a bit personal, I actually\u2028wanted to ask why you're a thief.{w}\u2028Nicole describes you as such an honest man,\u2028and you sure seem like it, but{tgm}...{tgm}thief.",
+            "speak;Carson;\u2028Straight to the point, I see.{w}\u2028Back during the war, I was a\u2028pretty mediocre mercenary.{w}\u2028Eventually, my employers didn't\u2028see me as worth the gold,{w}\u2028and they tried to make me\u2028disappear, but{tgm}...{tgm}{w}\u2028I killed them before they\u2028got their hands on me.",
+            "bop_portrait;Emma",
+            "speak;Emma;\u2028They were going to kill you?!",
+            "bop_portrait;Emma",
+            "speak;Emma;\u2028For what reason?!{w}\u2028I can understand not being\u2028willing to pay, but{tgm}...{tgm}{w}\u2028<bconvo>that</> shouldn't be a\u2028reason to kill you!",
+            "speak;Carson;\u2028I won't like to you, Emma. I made\u2028a lot of enemies in that war.{w}\u2028So, after I tied up some loose\u2028ends of my own,{w} I ran away\u2028from the battlefield.{w}\u2028I disguised myself as a thief to\u2028give the air of a weak sapling,{w}\u2028and I'd overpower people by\u2028surprise to rob them blind.{w}\u2028That is, until I met my wife Nicole.{w}\u2028That's when everything changed.",
+            "speak;Emma;\u2028That answers my question about\u2028the shifty thief aesthetic...;;;thought_bubble;no_talk",
+            "speak;Emma;\u2028So, you said Nicole changed everything.{w}\u2028How did you two meet, anyway?",
+            "speak;Carson;\u2028It's a bit embarrassing to say,\u2028but we met by mistake.{w}\u2028A robbery gone wrong.{w}\u2028I thought the house was empty,{w}\u2028but it was only Nicole's mother\u2028who was gone.{w}\u2028All I wanted was to steal some food.{w}\u2028Nicole caught me red-handed, but{tgm}...{tgm}{w}\u2028Well, the poor girl was too terrified\u2028to stop me.{w}\u2028When I made my escape, though, she\u2028gave chase and cornered me.{w}\u2028You know what she did, though?{w}\u2028She split a couple pieces of bread\u2028between the two of us,{w} and we\u2028shared it in a dark alley.{w}\u2028Nicole said all she wanted to do\u2028was help me{tgm}...{tgm}{w}\u2028I still have no idea why she\u2028decided to pursue a thief like that.",
+            "expression;Emma;Smile",
+            "speak;Emma;\u2028So that's how you guys fell in\u2028love! It's such a cute story!",
+            "expression;Emma;NoSmile",
+            "speak;Emma;\u2028Well, minus the home invasion part.",
+            "speak;Carson;\u2028She changed my life for the better.{w}\u2028Thanks for listening to a young\u2028man's love story,{w} but you'd better\u2028get ready for lookout duty.{w}\u2028Your mother will be livid if you\u2028miss it.",
+            "speak;Emma;\u2028Oh, I know all too well{tgm}...{tgm}{w}\u2028I'll talk to you later!",
+            "multi_remove_portrait;Emma;Carson",
+            "remove_talk;Emma;Carson",
+            "level_var;carson;True"
+        ],
+        "nid": "4x T - Carson"
+    }
+]
