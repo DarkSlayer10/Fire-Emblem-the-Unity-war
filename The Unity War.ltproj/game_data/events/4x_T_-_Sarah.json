@@ -1,0 +1,39 @@
+[
+    {
+        "name": "T - Sarah",
+        "trigger": "on_talk",
+        "level_nid": "4x",
+        "condition": "unit2.nid == 'Sarah'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Sarah;Left;Emma;Right",
+            "speak;Emma;\u2028Hey, Sarah, do you know how much\u2028longer it'll be until we hit land?{w}\u2028I fear for my sister's health if\u2028we're at sea for too long.",
+            "speak;Sarah;\u2028Hm{tgm}...{tgm}{w} I think we're anywhere between{tgm}...{tgm}{w}\u2028three to fifteen days from land.",
+            "speak;Emma;...;no_talk",
+            "speak;Emma;\u2028Um, Sarah{tgm}...{tgm}\u2028That's a huge gap in time.",
+            "speak;Sarah;\u2028Er, well, admittedly, I'm\u2028not a great seafarer at all.{w}\u2028Maybe you could ask someone\u2028below deck, but I wouldn't know.",
+            "speak;Emma;\u2028How do you even know we're heading\u2028towards our destination, then?",
+            "speak;Sarah;...;no_talk",
+            "speak;Sarah;\u2028Emma, I'd appreciate it if you\u2028didn't waver my faith so much.",
+            "speak;Emma;Sorry{tgm}...",
+            "speak;Sarah;\u2028*Sigh* It's alright, I'm used to not\u2028feeling like the leader I need to be{tgm}...",
+            "bop_portrait;Emma",
+            "speak;Emma;\u2028How could you say that?!{w}\u2028If it weren't for you, we\u2028wouldn't all be together!",
+            "speak;Sarah;\u2028Pft, Emma, have you seriously\u2028not realized it yet?",
+            "speak;Emma;\u2028Huh? Realize what?",
+            "speak;Sarah;\u2028Emma, we're here because <bconvo>you</> came along.{w}\u2028Your ability to make allies, diffuse\u2028situations, issue commands{tgm}...{tgm}{w}\u2028Emma, you're already a better leader\u2028for The Defiants,{w} and you're only an\u2028acquaintance to some of these people.{w}\u2028Some people are just born leaders.",
+            "speak;Emma;\u2028But{tgm}...{tgm} I don't want to lead!",
+            "speak;Sarah;\u2028Most who are fit to\u2028lead don't want to.",
+            "speak;Emma;\u2028You're every bit the leader I am!{w}\u2028If you'd stop doubting yourself,{w}\u2028then maybe you'd get the confidence\u2028to lead everyone competently.",
+            "speak;Sarah;...;no_talk",
+            "speak;Emma;...;no_talk",
+            "speak;Emma;Sarah{tgm}...{tgm} I'm sorry, that wasn't-",
+            "speak;Sarah;\u2028No, no, don't apologize for truths.{w}\u2028Thank you, Emma.{w}\u2028Once again, you prove that I was right\u2028to ask you to be my right hand woman.",
+            "multi_remove_portrait;Emma;Sarah",
+            "remove_talk;Emma;Sarah"
+        ],
+        "nid": "4x T - Sarah"
+    }
+]
