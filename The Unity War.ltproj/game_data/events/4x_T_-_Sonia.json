@@ -1,0 +1,33 @@
+[
+    {
+        "name": "T - Sonia",
+        "trigger": "on_talk",
+        "level_nid": "4x",
+        "condition": "unit2.nid == 'Sonia'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Emma;Right;Sonia;Left",
+            "speak;Sonia;\u2028How're you enjoying the ride,\u2028Emma? Pretty neat, right?",
+            "speak;Emma;\u2028When you described the ocean back home,\u2028you never said it was so beautiful!",
+            "speak;Sonia;\u2028Ah, well, maybe I've just seen it too much.{w}\u2028You wouldn't describe the sky as special,{w}\u2028but I'm sure a person who was raised in\u2028a cave would beg to differ.",
+            "speak;Emma;\u2028I suppose that's true{tgm}...",
+            "speak;Emma;\u2028It's just one of the most beautiful\u2028things I've laid eyes on.",
+            "speak;Sonia;\u2028If you think this is beautiful,\u2028you haven't seen the half of it.{w}\u2028I've seen my fair share of\u2028beauties in the world.",
+            "bop_portrait;Emma",
+            "speak;Emma;Really?! like what?",
+            "speak;Sonia;\u2028Heh, well, if I told you, then it'd\u2028ruin the fun of finding them.",
+            "speak;Emma;\u2028Aw, but I want to see it all now!",
+            "bop_portrait;Sonia",
+            "expression;Sonia;Smile",
+            "speak;Sonia;\u2028Haha! Come back when you've\u2028been around like I have!{w}\u2028We'll trade tales.",
+            "speak;Emma;Hmph.",
+            "bop_portrait;Emma",
+            "speak;Emma;I will!",
+            "multi_remove_portrait;Emma;Sonia",
+            "remove_talk;Emma;Sonia"
+        ],
+        "nid": "4x T - Sonia"
+    }
+]

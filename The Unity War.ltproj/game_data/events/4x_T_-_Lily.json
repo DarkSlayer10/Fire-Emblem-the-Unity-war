@@ -1,0 +1,34 @@
+[
+    {
+        "name": "T - Lily",
+        "trigger": "on_talk",
+        "level_nid": "4x",
+        "condition": "unit2.nid == 'Lily'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Emma;Right;Lily;Left",
+            "speak;Lily;\u2028Look at how far we've come from\u2028just that little town in the countryside{tgm}...",
+            "speak;Lily;Freeing, isn't it?",
+            "speak;Emma;\u2028It is{tgm}...",
+            "speak;Emma;\u2028I wish Mom had taken me out\u2028of the village years ago!",
+            "speak;Lily;\u2028Your mother is a bit of a{tgm}...",
+            "speak;Emma;A hardass?",
+            "speak;Lily;...;no_talk",
+            "speak;Lily;\u2028I was going to say worrywort.",
+            "speak;Emma;\u2028Oh, uh, yeah.{w}\u2028That's accurate too.",
+            "speak;Lily;\u2028Your mother's a tough one\u2028and has lived through a lot.{w}\u2028I doubt either of us know all\u2028of what she's had to lose.",
+            "speak;Emma;\u2028She talks about Dad sometimes, but{tgm}...{tgm}{w}\u2028I don't want to open old wounds like that.",
+            "speak;Lily;\u2028you never know.{w}\u2028Sometimes, it is the hardest memories\u2028to face that propel us to greatness.{w}\u2028It's those emotions that I encourage\u2028you to channel into your magic.",
+            "speak;Emma;\u2028Speaking of which, when are you going\u2028to teach me some more powerful magic?{w}\u2028I've been practicing the same stuff\u2028for ages!",
+            "speak;Lily;\u2028I'll teach you new techniques when you have\u2028absolute mastery over the ones you know.",
+            "speak;Emma;\u2028Fiiiineeee.",
+            "speak;Emma;\u2028But you'll see one day.{w}\u2028I'll be more powerful than you\u2028could've ever dreamed of!",
+            "remove_portrait;Emma",
+            "speak;Lily;\u2028Oh, Emma, you don't even\u2028know how right you are{tgm}...{tgm}{w}\u2028I can just sense it{tgm}...",
+            "remove_portrait;Lily"
+        ],
+        "nid": "4x T - Lily"
+    }
+]

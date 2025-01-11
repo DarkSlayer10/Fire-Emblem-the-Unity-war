@@ -1,0 +1,26 @@
+[
+    {
+        "name": "T - Marica",
+        "trigger": "on_talk",
+        "level_nid": "4x",
+        "condition": "unit2.nid == 'Marica'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Marica;Right;Emma;Left",
+            "speak;Emma;\u2028Hey there, Marica!{w}\u2028Are you{tgm}...{tgm}alright?",
+            "speak;Marica;\u2028Never{tgm}...{tgm}better{tgm}...",
+            "speak;Emma;\u2028Ohhh, do you have sea\u2028sickness like my sister?",
+            "speak;Marica;\u2028No, I'm{tgm}...{tgm} My breakfast\u2028is just disagreeing{tgm}...",
+            "speak;Emma;Well, do you need-",
+            "speak;Marica;\u2028I need to be <bconvo>left alone</>.",
+            "speak;Emma;\u2028Alright, alright.",
+            "remove_portrait;Marica",
+            "speak;Emma;\u2028Well, <bconvo>someone's</> snippy{tgm}...",
+            "remove_portrait;Emma",
+            "remove_talk;Emma;Marica"
+        ],
+        "nid": "4x T - Marica"
+    }
+]
