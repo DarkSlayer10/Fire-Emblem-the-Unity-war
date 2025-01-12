@@ -3,7 +3,7 @@
         "name": "T - Caroline",
         "trigger": "on_talk",
         "level_nid": "4x",
-        "condition": "unit2.nid == 'Emily'",
+        "condition": "unit2.nid == 'Caroline'",
         "commands": [],
         "only_once": true,
         "priority": 20,

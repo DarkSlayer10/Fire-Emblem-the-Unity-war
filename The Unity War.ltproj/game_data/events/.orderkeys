@@ -116,12 +116,16 @@
     "2x_T_-_Emily",
     "4x_T_-_Emily",
     "4x_T_-_Sonia",
+    "4x_T_-_Kate",
+    "4x_T_-_Luna",
     "4x_T_-_Sarah",
+    "4x_T_-_Nina",
     "4x_T_-_Carson",
     "4x_T_-_Nicole",
     "4x_T_-_Lily",
     "4x_T_-_Marica",
     "4x_T_-_Caroline",
+    "4x_T_-_Carlos",
     "2x_T_-_Caroline",
     "Global_Z_-_Level_End_Global",
     "Global_A_-_Shadowstep",
@@ -183,5 +187,7 @@
     "4_1_-_Turn_2",
     "4_1_-_Turn_3",
     "4_1_-_Turn_5",
-    "4x_0_-_Intro"
+    "4x_0_-_Intro",
+    "4x_W_-_Prepare",
+    "4x_0_-_Outro"
 ]

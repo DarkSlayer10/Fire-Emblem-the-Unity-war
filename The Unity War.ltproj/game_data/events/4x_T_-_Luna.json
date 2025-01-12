@@ -1,0 +1,40 @@
+[
+    {
+        "name": "T - Luna",
+        "trigger": "on_talk",
+        "level_nid": "4x",
+        "condition": "unit2.nid == 'Luna'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Luna;Left;Emma;Right",
+            "speak;Emma;\u2028Hey Luna! How's the\u2028pegasus training going?",
+            "speak;Luna;\u2028It's tedious, but going well.{w}\u2028My sister wanted me to train with a\u2028pegasus before I try a griffin like her,{w}\u2028since pegasi are much gentler and won't\u2028try to rip your guts out.",
+            "speak;Emma;\u2028That's, er{tgm}...{tgm}definitely a perk of horses.{w}\u2028Speaking of, Luna, I wanted to\u2028get to know you a little better.",
+            "speak;Luna;\u2028Oh, well, I'd love to learn a bit\u2028about you too in return, if that's fine.",
+            "speak;Emma;\u2028Sounds liek a fair deal. So why\u2028learn how to ride a pegasus?",
+            "speak;Luna;\u2028I was actually on standard horsemanship\u2028before riding a pegasus, also like my sister.{w}\u2028I'm only 16, but until you came along,{w}\u2028I would've taken over if my sister fell in battle.{w}\u2028Pegasi can keep up with griffins much easier\u2028than a horse.",
+            "speak;Emma;\u2028Oh, well, that does make sense.",
+            "speak;Luna;\u2028If I train with this one, maybe Kate will also\u2028stop treating me like such a snowflake{tgm}...{tgm}{w}\u2028If you ask me, I don't think she's ever recovered\u2028from what happened to our village as kids.",
+            "speak;Emma;\u2028What happened, if you don't mind\u2028me asking, from your point of view?",
+            "speak;Luna;\u2028Well, my sister was on village patrol when\u2028these bandits stormed in without warning.{w}\u2028I was with my parents when a bandit rode in on\u2028horseback and dug an axe into my father.{w}\u2028Kate witnessed it from a distance and charged\u2028in on horseback to protect me,{w} while my\u2028mohter was killed trying to do so.{w}\u2028She was even hurt before grabbing me,{w}\u2028but we still managed to escape to a secret\u2028hideout we would play in when we were younger.{w}\u2028That's where the Dawn Brigade was born,\u2028and it was our primary base of operations.",
+            "speak;Emma;\u2028I suppose there isn't a\u2028nice way to spin that tale{tgm}...{tgm}{w}\u2028How did you both meet\u2028with Sarah, though?",
+            "expression;Luna;Smile",
+            "speak;Luna;\u2028Hehe, I'll keep that secret until\u2028next time.{w} That's a story I do love.",
+            "speak;Emma;\u2028Aw, no fun.",
+            "speak;Luna;Heh.",
+            "expression;Luna;NoSmile",
+            "speak;Luna;\u2028But I can tell you this: if I ever see Nolan\u2028again, he'll get what's coming to him.{w}\u2028Justice <bconvo>will</> catch up to him.",
+            "speak;Emma;Those intentions are{tgm}...{tgm}noble.",
+            "if;v('kate')",
+            "    speak;Emma;\u2028This is sounding disturbingly similar\u2028to Kate's more psychotic side,{w}\u2028disguised under righteous indignation...;;;thought_bubble;no_talk",
+            "else",
+            "    speak;Emma;\u2028Surprisingly, Luna can get as\u2028intense as her sister, it seems...;;;thought_bubble;no_talk",
+            "end",
+            "multi_remove_portrait;Emma;Luna",
+            "remove_talk;Emma;Luna"
+        ],
+        "nid": "4x T - Luna"
+    }
+]

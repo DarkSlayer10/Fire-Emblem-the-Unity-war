@@ -1,0 +1,15 @@
+[
+    {
+        "name": "0 - Outro",
+        "trigger": "level_end",
+        "level_nid": "4x",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "transition;close"
+        ],
+        "nid": "4x 0 - Outro"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "name": "W - Prepare",
+        "trigger": "Prepare",
+        "level_nid": "4x",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "choice;end_chapter;Prepare for lookout?;Yes,No;backable",
+            "if;v('end_chapter') != 'Yes'",
+            "    add_portrait;Emma;Left",
+            "    speak;Emma;\u2028Hm{tgm}...{tgm}I can spare a little more\u2028time to talk with my comrades.{w}\u2028After all, what's there to look out for\u2028in the middle of endless water?",
+            "    remove_portrait;Emma",
+            "    finish",
+            "end",
+            "add_portrait;Emma;Left",
+            "speak;Emma;\u2028I suppose I should stop putting it\u2028off or Mom might scold me again{tgm}...",
+            "remove_portrait;Emma",
+            "win_game"
+        ],
+        "nid": "4x W - Prepare"
+    }
+]

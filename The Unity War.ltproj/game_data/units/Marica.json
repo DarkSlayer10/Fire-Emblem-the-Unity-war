@@ -3,7 +3,7 @@
         "nid": "Marica",
         "name": "Marica",
         "desc": "A new recruit for the village guard.\nLikes teasing her friends but has \na kind spirit.",
-        "variant": null,
+        "variant": "",
         "level": 4,
         "klass": "Recruit",
         "tags": [],

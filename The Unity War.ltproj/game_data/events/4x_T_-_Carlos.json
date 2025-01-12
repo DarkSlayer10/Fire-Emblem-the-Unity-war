@@ -1,0 +1,30 @@
+[
+    {
+        "name": "T - Carlos",
+        "trigger": "on_talk",
+        "level_nid": "4x",
+        "condition": "unit2.nid == 'Carlos'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Carlos;Left;Emma;Right",
+            "speak;Emma;\u2028Carlos, can you believe\u2028how the sea shines?{w}\u2028Isn't it beautiful?",
+            "speak;Carlos;\u2028The salty smell of the sea isn't particularly\u2028for me,{w} but I guess I can see how it could\u2028appeal to someone like you.",
+            "speak;Emma;\u2028Someone{tgm}...{tgm}like me?{w}\u2028What do you mean?",
+            "speak;Carlos;\u2028You're{tgm}...{tgm}how do I say\u2028this in a gentle way?{w}\u2028Ah, wait, I've got it.{w}\u2028You're simple.{w}\u2028From what I can see,{w}\u2028it doesn't take much\u2028to impress you.",
+            "speak;Emma;\u2028Hey, that's mean!{w}\u2028I've never even seen\u2028the ocean before!",
+            "speak;Carlos;\u2028You've <bconvo>never</> seen the ocean?{w}\u2028Have you never left your\u2028village or something?",
+            "speak;Emma;...;no_talk",
+            "speak;Emma;\u2028You'll laugh at this, actually{tgm}...",
+            "speak;Carlos;\u2028Oh heavens above{tgm}...{tgm}{w}\u2028How did Sarah choose you\u2028to be a secondhand leader?{w}\u2028I've got my issues with Kate,{w}\u2028but at least she didn't delegate\u2028leadership to a newborn{tgm}...",
+            "bop_portrait;Emma",
+            "speak;Emma;\u2028I'm not a newborn!",
+            "speak;Carlos;\u2028That remains to be seen.",
+            "speak;Emma;\u2028To be proven wrong, you mean.",
+            "multi_remove_portrait;Carlos;Emma",
+            "remove_talk;Emma;Carlos"
+        ],
+        "nid": "4x T - Carlos"
+    }
+]
