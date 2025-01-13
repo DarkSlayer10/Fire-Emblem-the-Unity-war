@@ -63,5 +63,10 @@
         "nid": "Boat",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Boat Chapter",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

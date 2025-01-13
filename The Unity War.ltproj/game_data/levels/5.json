@@ -1,0 +1,65 @@
+[
+    {
+        "nid": "5",
+        "name": "Umbra's Seas",
+        "tilemap": "Umbra's Seas",
+        "bg_tilemap": null,
+        "party": "Emma",
+        "music": {},
+        "objective": {
+            "simple": "Defeat Pam",
+            "win": "Defeat Pam",
+            "loss": "Emma or Emily dies"
+        },
+        "roam": true,
+        "roam_unit": "Emma",
+        "go_to_overworld": false,
+        "should_record": false,
+        "tags": [],
+        "units": [],
+        "regions": [
+            {
+                "nid": "Escape",
+                "region_type": "event",
+                "position": [
+                    8,
+                    19
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Escape",
+                "condition": "False",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Prepare",
+                "region_type": "event",
+                "position": [
+                    8,
+                    19
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Prepare",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "Cutscene_A",
+                "units": [],
+                "positions": {}
+            }
+        ],
+        "ai_groups": []
+    }
+]

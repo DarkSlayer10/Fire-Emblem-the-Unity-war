@@ -1,0 +1,26 @@
+[
+    {
+        "name": "0 - Intro",
+        "trigger": "level_start",
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "chapter_title",
+            "change_background;BlackBackground",
+            "transition;close",
+            "change_background",
+            "center_cursor;22,20;immediate",
+            "transition;open",
+            "speak;;\u2028Lumshaw Ocean: the sea\u2028that encompasses the\u2028border between Sunder\u2028and Rosefall.{w}\u2028Sunderian ships that\u2028try to sail through are\u2028often sunk to splinters\u2028by patrolling Umbrans...;;;hint",
+            "transition;close",
+            "change_background;Ship",
+            "transition;open",
+            "music;Tension",
+            ""
+        ],
+        "nid": "5 0 - Intro"
+    }
+]
