@@ -1,0 +1,78 @@
+[
+    {
+        "nid": "Mia",
+        "name": "Mia",
+        "desc": "A pirate for hire. Rash and easily\nangered, but has a soft side.",
+        "variant": null,
+        "level": 6,
+        "klass": "Pirate_F",
+        "tags": [
+            "Female"
+        ],
+        "bases": {
+            "HP": 32,
+            "STR": 10,
+            "MAG": 8,
+            "SKL": 10,
+            "SPD": 10,
+            "DEF": 7,
+            "RES": 6,
+            "LCK": 8,
+            "CON": 11,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 60,
+            "MAG": 40,
+            "SKL": 60,
+            "SPD": 45,
+            "DEF": 45,
+            "RES": 40,
+            "LCK": 20,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0
+        },
+        "starting_items": [
+            [
+                "Killer_Axe",
+                false
+            ],
+            [
+                "Iron_Axe",
+                false
+            ],
+            [
+                "Bolt_Axe",
+                false
+            ],
+            [
+                "Slim_Axe",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Davy_Jones_Stare"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Mia",
+        "affinity": "Wind",
+        "fields": []
+    }
+]

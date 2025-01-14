@@ -1,0 +1,50 @@
+[
+    {
+        "nid": "Davy_Jones_Stare",
+        "name": "Davy Jones' Stare",
+        "desc": "Petrifies foe, or grants crit\nagainst that foe on miss.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            2,
+            3
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "alternate_accuracy_formula",
+                "FIFTY"
+            ],
+            [
+                "alternate_avoid_formula",
+                "BOSS_IMMUNE"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "exp",
+                15
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Petrified"
+            ],
+            [
+                "map_hit_sfx",
+                "StoneHit"
+            ]
+        ]
+    }
+]

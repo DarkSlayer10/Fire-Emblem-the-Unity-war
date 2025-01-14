@@ -1,0 +1,17 @@
+[
+    {
+        "name": "A - Davy Jones' Stare",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;not has_skill(unit2, 'Petrified')",
+            "    give_skill;{unit2};Crit_By_Mia_I_Guess;;no_banner",
+            "end"
+        ],
+        "nid": "Global A - Davy Jones' Stare"
+    }
+]

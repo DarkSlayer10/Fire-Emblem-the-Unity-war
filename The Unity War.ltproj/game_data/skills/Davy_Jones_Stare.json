@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Davy_Jones_Stare",
+        "name": "Davy Jones' Stare",
+        "desc": "May petrify target. If not, gain +30\ncrit against target until next turn.\n(Petrified units can't act for 1 turn.)",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            2,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "ability",
+                "Davy_Jones_Stare"
+            ],
+            [
+                "drain_charge",
+                3
+            ]
+        ]
+    }
+]

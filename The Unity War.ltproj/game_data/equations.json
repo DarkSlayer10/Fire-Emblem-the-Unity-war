@@ -118,5 +118,13 @@
     {
         "nid": "HUNDRED",
         "expression": "100"
+    },
+    {
+        "nid": "FIFTY",
+        "expression": "50"
+    },
+    {
+        "nid": "BOSS_IMMUNE",
+        "expression": "9999 if 'Boss' in unit.tags else 0"
     }
 ]

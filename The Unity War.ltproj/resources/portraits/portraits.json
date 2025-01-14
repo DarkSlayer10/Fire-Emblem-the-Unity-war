@@ -574,5 +574,17 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Mia",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            32,
+            32
+        ],
+        "info_offset": 0
     }
 ]
