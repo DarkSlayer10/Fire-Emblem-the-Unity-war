@@ -2,7 +2,7 @@
     {
         "nid": "Light_Brand",
         "name": "Light Brand",
-        "desc": "Uses MAG to determine damage.",
+        "desc": "Suffused with light magic.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -27,7 +27,7 @@
             ],
             [
                 "hit",
-                70
+                80
             ],
             [
                 "weapon_type",
@@ -39,7 +39,7 @@
             ],
             [
                 "uses",
-                25
+                30
             ],
             [
                 "uses_options",
@@ -50,11 +50,11 @@
             ],
             [
                 "weight",
-                9
+                8
             ],
             [
                 "value",
-                1250
+                900
             ],
             [
                 "min_range",
@@ -67,6 +67,10 @@
             [
                 "magic",
                 null
+            ],
+            [
+                "battle_cast_anim",
+                "Shine"
             ]
         ]
     }

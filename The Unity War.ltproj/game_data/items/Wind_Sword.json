@@ -2,7 +2,7 @@
     {
         "nid": "Wind_Sword",
         "name": "Wind Sword",
-        "desc": "Uses MAG to determine damage. Effective against fliers.",
+        "desc": "Capable of indirect attacks.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                9
+                8
             ],
             [
                 "hit",
-                70
+                80
             ],
             [
                 "weapon_type",
@@ -50,11 +50,11 @@
             ],
             [
                 "weight",
-                9
+                8
             ],
             [
                 "value",
-                8000
+                6000
             ],
             [
                 "min_range",
@@ -70,8 +70,8 @@
                     "effective_tags": [
                         "Flying"
                     ],
-                    "effective_multiplier": 1.0,
-                    "effective_bonus_damage": 18,
+                    "effective_multiplier": 3.0,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }

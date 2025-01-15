@@ -5,7 +5,6 @@
     "Ephraim_Lord",
     "Ephraim_Great_Lord",
     "Dancer",
-    "Myrmidon",
     "MyrmidonFemale",
     "Swordmaster",
     "Mercenary",
@@ -104,5 +103,6 @@
     "Bael",
     "TroubadourS",
     "Fledgling",
-    "GriffinRider"
+    "GriffinRider",
+    "Myrmidon"
 ]
