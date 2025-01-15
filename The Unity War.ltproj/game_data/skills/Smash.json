@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Smash",
+        "name": "<red>Smash</>",
+        "desc": "+2 damage, +10 hit, +10 crit.\nConsumes 2 durability per hit.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_art",
+                "Smash_P"
+            ],
+            [
+                "drain_charge",
+                13
+            ],
+            [
+                "cost_uses",
+                2
+            ],
+            [
+                "allowed_weapons",
+                "item_system.damage(unit, item) is not None"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "nid": "Pam",
+        "name": "Pam",
+        "desc": "An Umbra officer patrolling the seas.\nFeared because of her dark magic.",
+        "variant": null,
+        "level": 12,
+        "klass": "Mage_F",
+        "tags": [],
+        "bases": {
+            "HP": 34,
+            "STR": 10,
+            "MAG": 8,
+            "SKL": 11,
+            "SPD": 9,
+            "DEF": 6,
+            "RES": 7,
+            "LCK": 8,
+            "CON": 9,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 50,
+            "MAG": 5,
+            "SKL": 45,
+            "SPD": 45,
+            "DEF": 45,
+            "RES": 15,
+            "LCK": 30
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Nosferatu",
+                false
+            ],
+            [
+                "Thunder",
+                false
+            ],
+            [
+                "Torch_Staff",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Dark": [
+                false,
+                71,
+                null
+            ],
+            "Anima": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Pam",
+        "affinity": "Anima",
+        "fields": []
+    }
+]

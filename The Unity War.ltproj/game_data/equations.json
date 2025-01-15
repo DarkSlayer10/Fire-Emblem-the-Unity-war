@@ -126,5 +126,9 @@
     {
         "nid": "BOSS_IMMUNE",
         "expression": "9999 if 'Boss' in unit.tags else 0"
+    },
+    {
+        "nid": "DEVIL",
+        "expression": "31 - LCK"
     }
 ]

@@ -1,0 +1,23 @@
+[
+    {
+        "name": "A - Thunderclap Proc",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Condition should always be checked",
+            "if;(unit.team != 'player' or not skill_system.can_select(unit)) and unit.team == game.phase.get_current() and mode == 'attack'",
+            "    # Condition specific to combat art",
+            "    if;item.data.get('uses', 999) >= 5 and unit2.nid == 'Nelson'",
+            "        give_skill;{unit};Thunderclap_P;;no_banner",
+            "        set_skill_data;{unit};Thunderclap;charge;{e:int(get_skill(unit, 'Snipe').data.get('charge')) - 1}",
+            "        set_skill_data;{unit};Thunderclap;active;True",
+            "    end",
+            "end"
+        ],
+        "nid": "Global A - Thunderclap Proc"
+    }
+]

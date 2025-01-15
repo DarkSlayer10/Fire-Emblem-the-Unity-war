@@ -2,7 +2,7 @@
     {
         "nid": "Wyvern Rider",
         "name": "Wyvern Rider",
-        "desc": "High-flying knights vulnerable only to\nbows and magic. Equip: Lances, axes.",
+        "desc": "High-flying knights vulnerable only to\nbows and magic. Equip: Lances.",
         "tier": 1,
         "movement_group": "Fliers",
         "promotes_from": null,

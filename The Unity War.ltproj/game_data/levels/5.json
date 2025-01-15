@@ -16,7 +16,112 @@
         "go_to_overworld": false,
         "should_record": false,
         "tags": [],
-        "units": [],
+        "units": [
+            {
+                "nid": "Mia",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Nelson",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 6,
+                "klass": "Soldier",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Axereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 6,
+                "klass": "Soldier",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Axereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 1,
+                "klass": "Wyvern_Rider_F",
+                "faction": "Umbra",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 1,
+                "klass": "Wyvern Lord",
+                "faction": "Umbra",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Pam",
+                "team": "enemy",
+                "ai": "GuardBoss",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
         "regions": [
             {
                 "nid": "Escape",
@@ -56,10 +161,122 @@
         "unit_groups": [
             {
                 "nid": "Cutscene_A",
-                "units": [],
-                "positions": {}
+                "units": [
+                    "Mia",
+                    "Nelson"
+                ],
+                "positions": {
+                    "Mia": [
+                        24,
+                        21
+                    ],
+                    "Nelson": [
+                        24,
+                        21
+                    ]
+                }
+            },
+            {
+                "nid": "Cutscene_A_Move",
+                "units": [
+                    "Mia",
+                    "Nelson"
+                ],
+                "positions": {
+                    "Mia": [
+                        16,
+                        16
+                    ],
+                    "Nelson": [
+                        15,
+                        16
+                    ]
+                }
+            },
+            {
+                "nid": "Cutscene_B",
+                "units": [
+                    "101",
+                    "102"
+                ],
+                "positions": {
+                    "101": [
+                        24,
+                        21
+                    ],
+                    "102": [
+                        24,
+                        21
+                    ]
+                }
+            },
+            {
+                "nid": "Cutscene_B_Move",
+                "units": [
+                    "101",
+                    "102"
+                ],
+                "positions": {
+                    "101": [
+                        19,
+                        16
+                    ],
+                    "102": [
+                        19,
+                        17
+                    ]
+                }
+            },
+            {
+                "nid": "Cutscene_C_Move",
+                "units": [
+                    "Nelson",
+                    "101",
+                    "102"
+                ],
+                "positions": {
+                    "Nelson": [
+                        14,
+                        18
+                    ],
+                    "101": [
+                        14,
+                        18
+                    ],
+                    "102": [
+                        14,
+                        18
+                    ]
+                }
+            },
+            {
+                "nid": "Cutscene_D",
+                "units": [
+                    "103",
+                    "104",
+                    "Pam"
+                ],
+                "positions": {
+                    "103": [
+                        33,
+                        13
+                    ],
+                    "104": [
+                        33,
+                        12
+                    ],
+                    "Pam": [
+                        32,
+                        11
+                    ]
+                }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

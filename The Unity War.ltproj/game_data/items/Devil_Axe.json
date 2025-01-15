@@ -2,7 +2,7 @@
     {
         "nid": "Devil_Axe",
         "name": "Devil Axe",
-        "desc": "User may damage themselves",
+        "desc": "Might injure its wielder.\nPrevents foe's counters.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                18
+                16
             ],
             [
                 "hit",
-                55
+                100
             ],
             [
                 "weapon_type",
@@ -35,15 +35,15 @@
             ],
             [
                 "weapon_rank",
-                "D"
+                "E"
             ],
             [
                 "weight",
-                18
+                24
             ],
             [
                 "uses",
-                20
+                50
             ],
             [
                 "uses_options",
@@ -58,15 +58,15 @@
             ],
             [
                 "wexp",
-                8
+                4
             ],
             [
                 "status_on_equip",
-                "Fort"
+                "Devil"
             ],
             [
                 "value",
-                880
+                2250
             ],
             [
                 "min_range",
@@ -75,6 +75,10 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "cannot_be_countered",
+                null
             ]
         ]
     }

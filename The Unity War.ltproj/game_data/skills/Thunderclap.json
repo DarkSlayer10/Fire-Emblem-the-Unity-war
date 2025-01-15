@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Thunderclap",
+        "name": "<red>Thunderclap</>",
+        "desc": "Strike with +15 damage.\nConsumes 5 durability per hit.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            4,
+            35
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_art",
+                "Thunderclap_P"
+            ],
+            [
+                "drain_charge",
+                1
+            ],
+            [
+                "cost_uses",
+                5
+            ],
+            [
+                "allowed_weapons",
+                "item_system.damage(unit, item) is not None"
+            ],
+            [
+                "event_before_combat",
+                "Global A - Thunderclap Proc"
+            ]
+        ]
+    }
+]

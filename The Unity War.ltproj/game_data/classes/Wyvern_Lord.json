@@ -2,7 +2,7 @@
     {
         "nid": "Wyvern Lord",
         "name": "Wyvern Lord",
-        "desc": "",
+        "desc": "Wyvern-mounted knights of superior\nskill. Equip: Swords, lances.",
         "tier": 2,
         "movement_group": "Fliers",
         "promotes_from": "Wyvern Rider",
@@ -14,14 +14,14 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 20,
+            "HP": 25,
             "STR": 9,
             "MAG": 0,
-            "SKL": 7,
+            "SKL": 5,
             "SPD": 7,
             "LCK": 0,
             "DEF": 10,
-            "RES": 2,
+            "RES": 1,
             "CON": 11,
             "MOV": 8,
             "LEAD": 0
@@ -29,7 +29,7 @@
         "growths": {
             "HP": 75,
             "STR": 40,
-            "MAG": 10,
+            "MAG": 0,
             "SKL": 30,
             "SPD": 20,
             "LCK": 20,
@@ -53,14 +53,14 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 4,
-            "STR": 2,
+            "HP": 3,
+            "STR": 1,
             "MAG": 0,
-            "SKL": 2,
-            "SPD": 0,
+            "SKL": 1,
+            "SPD": 1,
             "LCK": 0,
-            "DEF": 2,
-            "RES": 0,
+            "DEF": 1,
+            "RES": 1,
             "CON": 1,
             "MOV": -99,
             "LEAD": 0
@@ -68,12 +68,12 @@
         "max_stats": {
             "HP": 60,
             "STR": 27,
-            "MAG": 22,
-            "SKL": 26,
-            "SPD": 24,
+            "MAG": 21,
+            "SKL": 25,
+            "SPD": 23,
             "LCK": 30,
             "DEF": 28,
-            "RES": 23,
+            "RES": 22,
             "CON": 25,
             "MOV": 15,
             "LEAD": 30
@@ -96,7 +96,7 @@
             ],
             "Lance": [
                 2,
-                40,
+                71,
                 251
             ],
             "Axe": [
@@ -114,12 +114,12 @@
                 0,
                 251
             ],
-            "Light": [
+            "Anima": [
                 false,
                 0,
                 251
             ],
-            "Anima": [
+            "Light": [
                 false,
                 0,
                 251
@@ -128,6 +128,16 @@
                 false,
                 0,
                 251
+            ],
+            "Gauntlet": [
+                false,
+                0,
+                null
+            ],
+            "Special": [
+                false,
+                0,
+                null
             ],
             "Default": [
                 false,

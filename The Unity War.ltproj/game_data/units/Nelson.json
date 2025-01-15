@@ -1,0 +1,67 @@
+[
+    {
+        "nid": "Nelson",
+        "name": "Nelson",
+        "desc": "A pirate and Umbran turncoat.\nSerious and graceful.",
+        "variant": null,
+        "level": 6,
+        "klass": "Pirate",
+        "tags": [],
+        "bases": {
+            "HP": 32,
+            "STR": 11,
+            "MAG": 2,
+            "SKL": 9,
+            "SPD": 11,
+            "DEF": 9,
+            "RES": 6,
+            "LCK": 2,
+            "CON": 10,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 60,
+            "MAG": 5,
+            "SKL": 35,
+            "SPD": 35,
+            "DEF": 65,
+            "RES": 20,
+            "LCK": 60,
+            "CON": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Iron_Axe",
+                false
+            ],
+            [
+                "Devil_Axe",
+                false
+            ],
+            [
+                "Short_Axe",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Nelson",
+        "affinity": "Ice",
+        "fields": []
+    }
+]

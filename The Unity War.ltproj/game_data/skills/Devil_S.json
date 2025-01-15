@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Devil_S",
+        "name": "Devil",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "hide_skill_icon_in_combat",
+                null
+            ],
+            [
+                "lifelink",
+                -1.0
+            ],
+            [
+                "aura",
+                "Devil_A"
+            ],
+            [
+                "aura_range",
+                99
+            ],
+            [
+                "aura_target",
+                "enemy"
+            ]
+        ]
+    }
+]

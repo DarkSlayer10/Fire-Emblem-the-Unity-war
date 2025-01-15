@@ -20,6 +20,16 @@
         ]
     },
     {
+        "nid": "Umbra",
+        "name": "Umbra",
+        "desc": "Soldiers of a kingdom renowned\nfor its fearsome military.",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
         "nid": "Cutthroat",
         "name": "Cutthroat",
         "desc": "A member of Bazba's Bandits, who roam this region.",
