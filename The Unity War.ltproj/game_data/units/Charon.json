@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Charon",
+        "name": "Charon",
+        "desc": "",
+        "variant": null,
+        "level": 5,
+        "klass": "Hero",
+        "tags": [],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Charon",
+        "affinity": null,
+        "fields": []
+    }
+]
