@@ -88,5 +88,145 @@
         "nid": "9",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "10",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "11",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "11_fog",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "10_1",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "10_fog",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "11_1",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "11x",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "12",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "13",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "14",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "15",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "16",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "17",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "18",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "19",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "20",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "22",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "23",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "24",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "25",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "26",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "27",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "28",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "29",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "31",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "30",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "22x",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "15x",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
