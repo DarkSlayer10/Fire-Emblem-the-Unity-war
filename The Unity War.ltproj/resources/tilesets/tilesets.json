@@ -68,5 +68,25 @@
         "nid": "Boat Chapter",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Great",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "7",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "8",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "9",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
