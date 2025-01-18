@@ -106,20 +106,30 @@
                 1,
                 251
             ],
-            "Light": [
-                true,
-                16,
-                251
-            ],
             "Anima": [
                 false,
                 0,
+                251
+            ],
+            "Light": [
+                true,
+                16,
                 251
             ],
             "Dark": [
                 false,
                 0,
                 251
+            ],
+            "Gauntlet": [
+                false,
+                0,
+                null
+            ],
+            "Special": [
+                false,
+                0,
+                null
             ],
             "Default": [
                 false,
