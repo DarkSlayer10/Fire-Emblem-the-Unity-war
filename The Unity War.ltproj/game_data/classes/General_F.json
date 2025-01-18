@@ -1,38 +1,38 @@
 [
     {
-        "nid": "Dark_Mage",
-        "name": "Dark Mage",
-        "desc": "A student of the dark arts.\nDefinitely not a shaman.",
-        "tier": 1,
-        "movement_group": "Mages",
-        "promotes_from": null,
+        "nid": "General_F",
+        "name": "General",
+        "desc": "",
+        "tier": 2,
+        "movement_group": "Armors",
+        "promotes_from": "Knight",
         "turns_into": [],
         "tags": [
-            "Female"
+            "Armor"
         ],
         "max_level": 20,
         "bases": {
-            "HP": 18,
-            "STR": 6,
-            "MAG": 1,
-            "SKL": 6,
-            "SPD": 7,
+            "HP": 21,
+            "STR": 8,
+            "MAG": 0,
+            "SKL": 5,
+            "SPD": 5,
             "LCK": 0,
-            "DEF": 6,
-            "RES": 0,
-            "CON": 8,
+            "DEF": 13,
+            "RES": 4,
+            "CON": 11,
             "MOV": 5,
             "LEAD": 0
         },
         "growths": {
-            "HP": 55,
-            "STR": 45,
-            "MAG": 10,
-            "SKL": 40,
-            "SPD": 45,
-            "LCK": 40,
-            "DEF": 15,
-            "RES": 15,
+            "HP": 75,
+            "STR": 30,
+            "MAG": 0,
+            "SKL": 25,
+            "SPD": 10,
+            "LCK": 20,
+            "DEF": 23,
+            "RES": 25,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -51,46 +51,46 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 1,
-            "STR": 0,
-            "MAG": 2,
-            "SKL": 0,
-            "SPD": 1,
+            "HP": 4,
+            "STR": 2,
+            "MAG": 0,
+            "SKL": 3,
+            "SPD": 3,
             "LCK": 0,
-            "DEF": 1,
-            "RES": 2,
+            "DEF": 3,
+            "RES": 3,
             "CON": 2,
             "MOV": -99,
             "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
+            "STR": 29,
+            "MAG": 22,
+            "SKL": 28,
+            "SPD": 25,
             "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
-            "CON": 20,
+            "DEF": 30,
+            "RES": 26,
+            "CON": 25,
             "MOV": 15,
             "LEAD": 30
         },
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
-                false,
-                0,
+                2,
+                1,
                 251
             ],
             "Lance": [
-                false,
-                0,
+                2,
+                40,
                 251
             ],
             "Axe": [
-                false,
-                0,
+                2,
+                1,
                 251
             ],
             "Bow": [
@@ -114,8 +114,8 @@
                 251
             ],
             "Dark": [
-                true,
-                74,
+                false,
+                0,
                 251
             ],
             "Gauntlet": [
@@ -132,20 +132,15 @@
                 false,
                 0,
                 251
-            ],
-            "Monster": [
-                false,
-                0,
-                null
             ]
         },
-        "icon_nid": "Generic_Portrait_Shaman",
+        "icon_nid": "Generic_Portrait_General",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "DarkMage",
-        "combat_anim_nid": "DarkMage",
+        "map_sprite_nid": "General",
+        "combat_anim_nid": "General",
         "fields": []
     }
 ]

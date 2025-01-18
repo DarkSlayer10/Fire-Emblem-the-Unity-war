@@ -1,38 +1,36 @@
 [
     {
-        "nid": "Dark_Mage",
-        "name": "Dark Mage",
-        "desc": "A student of the dark arts.\nDefinitely not a shaman.",
-        "tier": 1,
-        "movement_group": "Mages",
-        "promotes_from": null,
+        "nid": "Sniper_F",
+        "name": "Sniper",
+        "desc": "Devotees of the bow. Possess incredible range.",
+        "tier": 2,
+        "movement_group": "Light Foot",
+        "promotes_from": "Archer",
         "turns_into": [],
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 18,
-            "STR": 6,
-            "MAG": 1,
+            "HP": 21,
+            "STR": 7,
+            "MAG": 0,
             "SKL": 6,
             "SPD": 7,
             "LCK": 0,
-            "DEF": 6,
-            "RES": 0,
+            "DEF": 5,
+            "RES": 3,
             "CON": 8,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
-            "HP": 55,
-            "STR": 45,
-            "MAG": 10,
-            "SKL": 40,
-            "SPD": 45,
-            "LCK": 40,
+            "HP": 65,
+            "STR": 30,
+            "MAG": 0,
+            "SKL": 30,
+            "SPD": 20,
+            "LCK": 30,
             "DEF": 15,
-            "RES": 15,
+            "RES": 25,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -51,29 +49,29 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 1,
-            "STR": 0,
-            "MAG": 2,
-            "SKL": 0,
-            "SPD": 1,
+            "HP": 4,
+            "STR": 3,
+            "MAG": 0,
+            "SKL": 2,
+            "SPD": 2,
             "LCK": 0,
-            "DEF": 1,
-            "RES": 2,
-            "CON": 2,
+            "DEF": 2,
+            "RES": 3,
+            "CON": 1,
             "MOV": -99,
             "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
-            "STR": 20,
+            "STR": 25,
             "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
+            "SKL": 30,
+            "SPD": 29,
             "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
+            "DEF": 25,
+            "RES": 24,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 30,
             "LEAD": 30
         },
         "learned_skills": [],
@@ -94,8 +92,8 @@
                 251
             ],
             "Bow": [
-                false,
-                0,
+                true,
+                40,
                 251
             ],
             "Staff": [
@@ -114,8 +112,8 @@
                 251
             ],
             "Dark": [
-                true,
-                74,
+                false,
+                0,
                 251
             ],
             "Gauntlet": [
@@ -139,13 +137,13 @@
                 null
             ]
         },
-        "icon_nid": "Generic_Portrait_Shaman",
+        "icon_nid": "Generic_Portrait_Sniper",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "DarkMage",
-        "combat_anim_nid": "DarkMage",
+        "map_sprite_nid": "F",
+        "combat_anim_nid": "Sniper",
         "fields": []
     }
 ]

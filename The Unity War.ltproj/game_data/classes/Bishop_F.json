@@ -1,38 +1,36 @@
 [
     {
-        "nid": "Dark_Mage",
-        "name": "Dark Mage",
-        "desc": "A student of the dark arts.\nDefinitely not a shaman.",
-        "tier": 1,
+        "nid": "Bishop_F",
+        "name": "Bishop",
+        "desc": "Mages gifted with visions of the future.",
+        "tier": 2,
         "movement_group": "Mages",
-        "promotes_from": null,
+        "promotes_from": "Cleric",
         "turns_into": [],
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 18,
-            "STR": 6,
-            "MAG": 1,
-            "SKL": 6,
-            "SPD": 7,
+            "HP": 21,
+            "STR": 0,
+            "MAG": 4,
+            "SKL": 5,
+            "SPD": 4,
             "LCK": 0,
-            "DEF": 6,
-            "RES": 0,
-            "CON": 8,
-            "MOV": 5,
+            "DEF": 3,
+            "RES": 9,
+            "CON": 7,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
-            "HP": 55,
-            "STR": 45,
-            "MAG": 10,
-            "SKL": 40,
-            "SPD": 45,
+            "HP": 45,
+            "STR": 0,
+            "MAG": 35,
+            "SKL": 25,
+            "SPD": 22,
             "LCK": 40,
-            "DEF": 15,
-            "RES": 15,
+            "DEF": 8,
+            "RES": 50,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -51,13 +49,13 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 1,
+            "HP": 3,
             "STR": 0,
             "MAG": 2,
-            "SKL": 0,
+            "SKL": 2,
             "SPD": 1,
             "LCK": 0,
-            "DEF": 1,
+            "DEF": 3,
             "RES": 2,
             "CON": 2,
             "MOV": -99,
@@ -66,17 +64,22 @@
         "max_stats": {
             "HP": 60,
             "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
+            "MAG": 25,
+            "SKL": 26,
+            "SPD": 26,
             "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
+            "DEF": 22,
+            "RES": 30,
             "CON": 20,
             "MOV": 15,
             "LEAD": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Slayer"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -99,8 +102,8 @@
                 251
             ],
             "Staff": [
-                false,
-                0,
+                true,
+                1,
                 251
             ],
             "Anima": [
@@ -109,13 +112,13 @@
                 251
             ],
             "Light": [
-                false,
-                0,
+                true,
+                16,
                 251
             ],
             "Dark": [
-                true,
-                74,
+                false,
+                0,
                 251
             ],
             "Gauntlet": [
@@ -132,20 +135,15 @@
                 false,
                 0,
                 251
-            ],
-            "Monster": [
-                false,
-                0,
-                null
             ]
         },
-        "icon_nid": "Generic_Portrait_Shaman",
+        "icon_nid": "Generic_Portrait_Bishop",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "DarkMage",
-        "combat_anim_nid": "DarkMage",
+        "map_sprite_nid": "Bishop",
+        "combat_anim_nid": "Bishop",
         "fields": []
     }
 ]

@@ -221,7 +221,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 2,
-                "klass": "SoldierF",
+                "klass": "Soldier_F",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -705,7 +705,7 @@
                 "nid": "126",
                 "variant": null,
                 "level": 3,
-                "klass": "SoldierF",
+                "klass": "Soldier_F",
                 "faction": "Bandit",
                 "starting_items": [
                     [

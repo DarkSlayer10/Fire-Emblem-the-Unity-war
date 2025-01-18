@@ -1,14 +1,17 @@
 [
     {
-        "nid": "Dark_Mage",
-        "name": "Dark Mage",
-        "desc": "A student of the dark arts.\nDefinitely not a shaman.",
+        "nid": "Trickster",
+        "name": "Trickster",
+        "desc": "Talented thieves and lockbreakers\nwielding swords and bows.",
         "tier": 1,
-        "movement_group": "Mages",
+        "movement_group": "Light Foot",
         "promotes_from": null,
-        "turns_into": [],
+        "turns_into": [
+            "Assassin",
+            "Rogue"
+        ],
         "tags": [
-            "Female"
+            "Sword"
         ],
         "max_level": 20,
         "bases": {
@@ -20,15 +23,15 @@
             "LCK": 0,
             "DEF": 6,
             "RES": 0,
-            "CON": 8,
-            "MOV": 5,
+            "CON": 9,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
-            "HP": 55,
+            "HP": 90,
             "STR": 45,
             "MAG": 10,
-            "SKL": 40,
+            "SKL": 45,
             "SPD": 45,
             "LCK": 40,
             "DEF": 15,
@@ -51,16 +54,16 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 1,
+            "HP": 0,
             "STR": 0,
-            "MAG": 2,
+            "MAG": 0,
             "SKL": 0,
-            "SPD": 1,
+            "SPD": 0,
             "LCK": 0,
-            "DEF": 1,
-            "RES": 2,
-            "CON": 2,
-            "MOV": -99,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
             "LEAD": 0
         },
         "max_stats": {
@@ -76,11 +79,16 @@
             "MOV": 15,
             "LEAD": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Locktouch"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
-                false,
-                0,
+                true,
+                1,
                 251
             ],
             "Lance": [
@@ -94,8 +102,8 @@
                 251
             ],
             "Bow": [
-                false,
-                0,
+                true,
+                1,
                 251
             ],
             "Staff": [
@@ -114,8 +122,8 @@
                 251
             ],
             "Dark": [
-                true,
-                74,
+                false,
+                0,
                 251
             ],
             "Gauntlet": [
@@ -139,13 +147,13 @@
                 null
             ]
         },
-        "icon_nid": "Generic_Portrait_Shaman",
+        "icon_nid": "Generic_Portrait_Thief",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "DarkMage",
-        "combat_anim_nid": "DarkMage",
+        "map_sprite_nid": "Outlaw",
+        "combat_anim_nid": "Outlaw",
         "fields": []
     }
 ]

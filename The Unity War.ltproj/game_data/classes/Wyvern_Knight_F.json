@@ -1,38 +1,40 @@
 [
     {
-        "nid": "Dark_Mage",
-        "name": "Dark Mage",
-        "desc": "A student of the dark arts.\nDefinitely not a shaman.",
-        "tier": 1,
-        "movement_group": "Mages",
-        "promotes_from": null,
+        "nid": "Wyvern_Knight_F",
+        "name": "Wyvern Knight",
+        "desc": "",
+        "tier": 2,
+        "movement_group": "Fliers",
+        "promotes_from": "Wyvern Rider",
         "turns_into": [],
         "tags": [
-            "Female"
+            "Mounted",
+            "Dragon",
+            "Flying"
         ],
         "max_level": 20,
         "bases": {
-            "HP": 18,
-            "STR": 6,
-            "MAG": 1,
-            "SKL": 6,
-            "SPD": 7,
+            "HP": 20,
+            "STR": 7,
+            "MAG": 0,
+            "SKL": 8,
+            "SPD": 9,
             "LCK": 0,
-            "DEF": 6,
-            "RES": 0,
-            "CON": 8,
-            "MOV": 5,
+            "DEF": 7,
+            "RES": 2,
+            "CON": 9,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
-            "HP": 55,
-            "STR": 45,
-            "MAG": 10,
-            "SKL": 40,
-            "SPD": 45,
-            "LCK": 40,
+            "HP": 65,
+            "STR": 35,
+            "MAG": 5,
+            "SKL": 30,
+            "SPD": 30,
+            "LCK": 25,
             "DEF": 15,
-            "RES": 15,
+            "RES": 20,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -51,32 +53,41 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 1,
-            "STR": 0,
-            "MAG": 2,
-            "SKL": 0,
-            "SPD": 1,
+            "HP": 3,
+            "STR": 1,
+            "MAG": 0,
+            "SKL": 2,
+            "SPD": 3,
             "LCK": 0,
-            "DEF": 1,
-            "RES": 2,
-            "CON": 2,
+            "DEF": 0,
+            "RES": 1,
+            "CON": 0,
             "MOV": -99,
             "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
-            "STR": 20,
+            "STR": 25,
             "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
+            "SKL": 27,
+            "SPD": 29,
             "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
-            "CON": 20,
+            "DEF": 24,
+            "RES": 23,
+            "CON": 25,
             "MOV": 15,
             "LEAD": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Flying"
+            ],
+            [
+                1,
+                "Canto"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -84,8 +95,8 @@
                 251
             ],
             "Lance": [
-                false,
-                0,
+                2,
+                40,
                 251
             ],
             "Axe": [
@@ -114,8 +125,8 @@
                 251
             ],
             "Dark": [
-                true,
-                74,
+                false,
+                0,
                 251
             ],
             "Gauntlet": [
@@ -132,20 +143,15 @@
                 false,
                 0,
                 251
-            ],
-            "Monster": [
-                false,
-                0,
-                null
             ]
         },
-        "icon_nid": "Generic_Portrait_Shaman",
+        "icon_nid": "Generic_Portrait_Wyvern_Rider",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "DarkMage",
-        "combat_anim_nid": "DarkMage",
+        "map_sprite_nid": "WyvernKnight",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]
