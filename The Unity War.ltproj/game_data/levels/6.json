@@ -22,7 +22,113 @@
         "go_to_overworld": false,
         "should_record": true,
         "tags": [],
-        "units": [],
+        "units": [
+            {
+                "nid": "146",
+                "variant": null,
+                "level": 1,
+                "klass": "Pegasus_Knight",
+                "faction": "Town_Guard",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "147",
+                "variant": null,
+                "level": 1,
+                "klass": "Pegasus_Knight",
+                "faction": "Town_Guard",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "148",
+                "variant": null,
+                "level": 1,
+                "klass": "Pegasus_Knight",
+                "faction": "Town_Guard",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "149",
+                "variant": null,
+                "level": 1,
+                "klass": "Pegasus_Knight",
+                "faction": "Town_Guard",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "150",
+                "variant": null,
+                "level": 1,
+                "klass": "Pegasus_Knight",
+                "faction": "Town_Guard",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
         "regions": [
             {
                 "nid": "F_1",
@@ -520,26 +626,22 @@
         ],
         "unit_groups": [
             {
-                "nid": "Cutscene_1",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "Cutscene_2",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "Reinf_2",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "Reinf_1",
-                "units": [],
+                "nid": "New Group",
+                "units": [
+                    "146",
+                    "147",
+                    "148",
+                    "149",
+                    "150"
+                ],
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
