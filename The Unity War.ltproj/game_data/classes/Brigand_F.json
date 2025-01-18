@@ -1,43 +1,40 @@
 [
     {
-        "nid": "Myrmidon_F",
-        "name": "Myrmidon",
-        "desc": "Talented swordsmen skilled in swift\nkilling strokes. Equip: Swords.",
+        "nid": "Brigand_F",
+        "name": "Brigand",
+        "desc": "Mighty mercenaries who thrive\nin mountains. Equip: Axes.",
         "tier": 1,
-        "movement_group": "Light Foot",
+        "movement_group": "Bandits",
         "promotes_from": null,
         "turns_into": [
-            "Assassin",
-            "Swordmaster"
+            "Berserker"
         ],
-        "tags": [
-            "Sword"
-        ],
+        "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 18,
+            "HP": 25,
             "STR": 6,
-            "MAG": 1,
-            "SKL": 10,
-            "SPD": 11,
+            "MAG": 0,
+            "SKL": 4,
+            "SPD": 4,
             "LCK": 0,
-            "DEF": 1,
-            "CON": 4,
+            "DEF": 4,
+            "RES": 0,
+            "CON": 12,
             "MOV": 5,
-            "RES": 2,
             "LEAD": 0
         },
         "growths": {
-            "HP": 70,
-            "STR": 35,
-            "MAG": 15,
+            "HP": 95,
+            "STR": 54,
+            "MAG": 0,
             "SKL": 40,
-            "SPD": 40,
-            "LCK": 50,
-            "DEF": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 15,
+            "RES": 23,
             "CON": 0,
             "MOV": 0,
-            "RES": 35,
             "LEAD": 0
         },
         "growth_bonus": {
@@ -48,9 +45,9 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "RES": 0,
             "LEAD": 0
         },
         "promotion": {
@@ -61,9 +58,9 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "RES": 0,
             "LEAD": 0
         },
         "max_stats": {
@@ -74,16 +71,16 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
+            "RES": 20,
             "CON": 20,
             "MOV": 15,
-            "RES": 20,
             "LEAD": 30
         },
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
-                true,
-                31,
+                false,
+                0,
                 251
             ],
             "Lance": [
@@ -92,8 +89,8 @@
                 251
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                31,
                 251
             ],
             "Bow": [
@@ -142,13 +139,13 @@
                 null
             ]
         },
-        "icon_nid": "Portrait Editor Unity War.gba_234@EA Myrmidon_01C274A8",
+        "icon_nid": "Generic_Portrait_Brigand",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "MyrmidonFemale",
-        "combat_anim_nid": "MyrmidonFemale",
+        "map_sprite_nid": "Brigand",
+        "combat_anim_nid": "Brigand",
         "fields": []
     }
 ]

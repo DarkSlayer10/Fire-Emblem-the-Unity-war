@@ -1,43 +1,40 @@
 [
     {
-        "nid": "Myrmidon_F",
-        "name": "Myrmidon",
-        "desc": "Talented swordsmen skilled in swift\nkilling strokes. Equip: Swords.",
-        "tier": 1,
-        "movement_group": "Light Foot",
-        "promotes_from": null,
-        "turns_into": [
-            "Assassin",
-            "Swordmaster"
-        ],
+        "nid": "Mage_Knight_U",
+        "name": "Mage Knight",
+        "desc": "Mounted knights trained in\nall forms of magic and staves.",
+        "tier": 2,
+        "movement_group": "Light Cav",
+        "promotes_from": "Mage",
+        "turns_into": [],
         "tags": [
-            "Sword"
+            "Mounted"
         ],
         "max_level": 20,
         "bases": {
-            "HP": 18,
-            "STR": 6,
-            "MAG": 1,
-            "SKL": 10,
-            "SPD": 11,
+            "HP": 28,
+            "STR": 4,
+            "MAG": 8,
+            "SKL": 7,
+            "SPD": 8,
             "LCK": 0,
-            "DEF": 1,
-            "CON": 4,
-            "MOV": 5,
-            "RES": 2,
+            "DEF": 5,
+            "RES": 6,
+            "CON": 7,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
-            "HP": 70,
-            "STR": 35,
-            "MAG": 15,
-            "SKL": 40,
-            "SPD": 40,
-            "LCK": 50,
-            "DEF": 20,
+            "HP": 60,
+            "STR": 40,
+            "MAG": 60,
+            "SKL": 30,
+            "SPD": 50,
+            "LCK": 40,
+            "DEF": 35,
+            "RES": 40,
             "CON": 0,
             "MOV": 0,
-            "RES": 35,
             "LEAD": 0
         },
         "growth_bonus": {
@@ -48,42 +45,47 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
+            "RES": 0,
             "CON": 0,
             "MOV": 0,
-            "RES": 0,
             "LEAD": 0
         },
         "promotion": {
-            "HP": 0,
+            "HP": 4,
             "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
+            "MAG": 2,
+            "SKL": 1,
             "SPD": 0,
             "LCK": 0,
-            "DEF": 0,
-            "CON": 0,
-            "MOV": 0,
-            "RES": 0,
+            "DEF": 2,
+            "RES": 2,
+            "CON": 3,
+            "MOV": -99,
             "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
+            "STR": 26,
+            "MAG": 28,
+            "SKL": 24,
+            "SPD": 26,
             "LCK": 30,
-            "DEF": 20,
-            "CON": 20,
+            "DEF": 24,
+            "RES": 28,
+            "CON": 25,
             "MOV": 15,
-            "RES": 20,
             "LEAD": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
-                true,
-                31,
+                false,
+                0,
                 251
             ],
             "Lance": [
@@ -97,28 +99,28 @@
                 251
             ],
             "Bow": [
-                false,
+                0,
                 0,
                 251
             ],
             "Staff": [
-                false,
-                0,
+                2,
+                31,
                 251
             ],
             "Anima": [
-                false,
-                0,
+                2,
+                71,
                 251
             ],
             "Light": [
-                false,
-                0,
+                true,
+                71,
                 251
             ],
             "Dark": [
-                false,
-                0,
+                true,
+                71,
                 251
             ],
             "Gauntlet": [
@@ -142,13 +144,13 @@
                 null
             ]
         },
-        "icon_nid": "Portrait Editor Unity War.gba_234@EA Myrmidon_01C274A8",
+        "icon_nid": "MageKnightFCard",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "MyrmidonFemale",
-        "combat_anim_nid": "MyrmidonFemale",
+        "map_sprite_nid": "MageKnightF",
+        "combat_anim_nid": "MageKnightF",
         "fields": []
     }
 ]
