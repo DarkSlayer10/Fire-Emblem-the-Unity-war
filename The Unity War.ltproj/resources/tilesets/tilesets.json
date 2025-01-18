@@ -233,5 +233,10 @@
         "nid": "12_1",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "12_2",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
