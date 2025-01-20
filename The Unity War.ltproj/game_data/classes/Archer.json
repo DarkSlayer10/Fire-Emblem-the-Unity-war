@@ -7,8 +7,8 @@
         "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [
-            "Sniper",
-            "Ranger"
+            "Bow_Knight",
+            "Sniper"
         ],
         "tags": [],
         "max_level": 20,

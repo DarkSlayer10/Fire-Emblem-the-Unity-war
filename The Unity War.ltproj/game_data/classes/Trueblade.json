@@ -2,7 +2,7 @@
     {
         "nid": "Trueblade",
         "name": "Trueblade",
-        "desc": "",
+        "desc": "A sword master that mastered\nthe techinque of the blade",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -137,7 +137,7 @@
             0,
             0
         ],
-        "map_sprite_nid": null,
+        "map_sprite_nid": "K",
         "combat_anim_nid": null,
         "fields": []
     }

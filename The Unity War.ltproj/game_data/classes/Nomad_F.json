@@ -1,38 +1,41 @@
 [
     {
-        "nid": "Ronin",
-        "name": "Ronin",
-        "desc": "Masters of weaponry that can\nwield swords and lances alike.",
-        "tier": 2,
-        "movement_group": "Light Foot",
-        "promotes_from": "Myrmidon",
-        "turns_into": [],
+        "nid": "Nomad_F",
+        "name": "Nomad",
+        "desc": "A rider that can traverse the sands\nwith ease. Swift and skillful.",
+        "tier": 1,
+        "movement_group": "Light Cav",
+        "promotes_from": null,
+        "turns_into": [
+            "Apprentice"
+        ],
         "tags": [
-            "Sword"
+            "Horse",
+            "Mounted"
         ],
         "max_level": 20,
         "bases": {
-            "HP": 22,
-            "STR": 8,
-            "MAG": 7,
-            "SKL": 11,
-            "SPD": 12,
+            "HP": 18,
+            "STR": 6,
+            "MAG": 1,
+            "SKL": 6,
+            "SPD": 7,
             "LCK": 0,
-            "DEF": 4,
-            "RES": 3,
-            "CON": 7,
-            "MOV": 6,
+            "DEF": 6,
+            "RES": 0,
+            "CON": 8,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
-            "HP": 65,
-            "STR": 25,
+            "HP": 90,
+            "STR": 45,
             "MAG": 10,
-            "SKL": 30,
-            "SPD": 30,
-            "LCK": 25,
+            "SKL": 40,
+            "SPD": 45,
+            "LCK": 40,
             "DEF": 15,
-            "RES": 22,
+            "RES": 15,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -51,41 +54,46 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 5,
-            "STR": 2,
-            "MAG": 1,
-            "SKL": 1,
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
             "SPD": 0,
             "LCK": 0,
-            "DEF": 2,
-            "RES": 1,
-            "CON": 2,
-            "MOV": -99,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
             "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
-            "STR": 26,
+            "STR": 20,
             "MAG": 20,
-            "SKL": 29,
-            "SPD": 30,
+            "SKL": 20,
+            "SPD": 20,
             "LCK": 30,
-            "DEF": 22,
-            "RES": 25,
+            "DEF": 20,
+            "RES": 20,
             "CON": 20,
             "MOV": 15,
             "LEAD": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
-                2,
-                255,
+                false,
+                0,
                 251
             ],
             "Lance": [
-                true,
-                181,
+                false,
+                0,
                 251
             ],
             "Axe": [
@@ -94,8 +102,8 @@
                 251
             ],
             "Bow": [
-                false,
-                0,
+                true,
+                36,
                 251
             ],
             "Staff": [
@@ -139,13 +147,13 @@
                 null
             ]
         },
-        "icon_nid": "Generic_Portrait_Swordmaster",
+        "icon_nid": "Generic_Portrait_Archer",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "Hanshi",
-        "combat_anim_nid": "Hanshi",
+        "map_sprite_nid": "Nomad",
+        "combat_anim_nid": "Nomad",
         "fields": []
     }
 ]

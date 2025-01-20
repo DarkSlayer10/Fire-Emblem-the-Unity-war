@@ -137,8 +137,8 @@
             0,
             0
         ],
-        "map_sprite_nid": null,
-        "combat_anim_nid": null,
+        "map_sprite_nid": "C_1",
+        "combat_anim_nid": "Wolf_Knight",
         "fields": []
     }
 ]

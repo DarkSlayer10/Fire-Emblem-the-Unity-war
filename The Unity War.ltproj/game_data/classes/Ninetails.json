@@ -5,10 +5,12 @@
         "desc": "Learning the basics of magic and \nhealing, Uses anima and staves,",
         "tier": 1,
         "movement_group": "Light Foot",
-        "promotes_from": null,
+        "promotes_from": "Beastling",
         "turns_into": [],
         "tags": [
-            "Lord"
+            "Lord",
+            "Monster",
+            "Female"
         ],
         "max_level": 20,
         "bases": {

@@ -137,7 +137,7 @@
             0,
             0
         ],
-        "map_sprite_nid": null,
+        "map_sprite_nid": "H_1",
         "combat_anim_nid": null,
         "fields": []
     }

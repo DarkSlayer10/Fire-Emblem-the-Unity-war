@@ -3,11 +3,14 @@
         "nid": "Demon_Prince",
         "name": "Demon Prince",
         "desc": "",
-        "tier": 1,
+        "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Lord",
+            "Monster"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 0,
@@ -74,7 +77,12 @@
             "MOV": 15,
             "LEAD": 10
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Supply"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -137,7 +145,7 @@
             0,
             0
         ],
-        "map_sprite_nid": null,
+        "map_sprite_nid": "E1",
         "combat_anim_nid": null,
         "fields": []
     }

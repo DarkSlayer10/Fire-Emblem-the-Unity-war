@@ -6,8 +6,11 @@
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
-        "turns_into": [],
+        "turns_into": [
+            "Huntress"
+        ],
         "tags": [
+            "Lord",
             "Female"
         ],
         "max_level": 20,

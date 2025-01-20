@@ -3,11 +3,12 @@
         "nid": "Huntress",
         "name": "Huntress",
         "desc": "A hunter that uses a bow during combat.",
-        "tier": 1,
+        "tier": 2,
         "movement_group": "Light Foot",
-        "promotes_from": null,
+        "promotes_from": "Marksman",
         "turns_into": [],
         "tags": [
+            "Lord",
             "Female"
         ],
         "max_level": 20,
@@ -150,7 +151,7 @@
             0
         ],
         "map_sprite_nid": "C",
-        "combat_anim_nid": "Marksman",
+        "combat_anim_nid": "Huntress",
         "fields": []
     }
 ]
