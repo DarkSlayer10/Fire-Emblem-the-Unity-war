@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Lynstia",
+        "name": "Lynstia",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Templar",
+        "tags": [],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "None",
+        "fields": []
+    }
+]

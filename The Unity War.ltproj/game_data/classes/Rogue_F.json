@@ -1,6 +1,6 @@
 [
     {
-        "nid": "Rouge",
+        "nid": "Rogue_F",
         "name": "Rouge",
         "desc": "An innocent peasant lacking any\ncombat skills at all.",
         "tier": 0,
@@ -142,7 +142,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "R1",
+        "map_sprite_nid": "R",
         "combat_anim_nid": null,
         "fields": []
     }

@@ -1,120 +1,129 @@
 [
     {
-        "nid": "Rouge_F",
-        "name": "Rouge",
-        "desc": "An innocent peasant lacking any\ncombat skills at all.",
-        "tier": 0,
-        "movement_group": "Light Foot",
+        "nid": "Griffin_Knight",
+        "name": "Griffin Knight",
+        "desc": "Archers that loose arrows from\nthe skins from atop their steeds.",
+        "tier": 1,
+        "movement_group": "Fliers",
         "promotes_from": null,
         "turns_into": [],
         "tags": [],
-        "max_level": 10,
+        "max_level": 20,
         "bases": {
-            "HP": 10,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "CON": 5,
-            "MOV": 5,
+            "HP": 20,
+            "STR": 6,
+            "SKL": 4,
+            "SPD": 5,
+            "DEF": 3,
             "RES": 0,
+            "LCK": 0,
+            "MAG": 1,
+            "CON": 8,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
-            "HP": 65,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
+            "HP": 70,
+            "STR": 50,
+            "SKL": 50,
+            "SPD": 40,
+            "DEF": 28,
+            "RES": 14,
+            "LCK": 35,
+            "MAG": 10,
             "CON": 0,
             "MOV": 0,
-            "RES": 0,
             "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
             "STR": 0,
-            "MAG": 35,
             "SKL": 0,
             "SPD": 0,
-            "LCK": 0,
             "DEF": 0,
+            "RES": 0,
+            "LCK": 0,
+            "MAG": 0,
             "CON": 0,
             "MOV": 0,
-            "RES": 0,
             "LEAD": 0
         },
         "promotion": {
             "HP": 0,
             "STR": 0,
-            "MAG": 0,
             "SKL": 0,
             "SPD": 0,
-            "LCK": 0,
             "DEF": 0,
+            "RES": 0,
+            "LCK": 0,
+            "MAG": 0,
             "CON": 0,
             "MOV": 0,
-            "RES": 0,
             "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
             "STR": 20,
-            "MAG": 20,
             "SKL": 20,
             "SPD": 20,
-            "LCK": 30,
             "DEF": 20,
-            "CON": 20,
-            "MOV": 15,
             "RES": 20,
-            "LEAD": 30
+            "LCK": 20,
+            "MAG": 20,
+            "CON": 25,
+            "MOV": 15,
+            "LEAD": 10
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ],
+            [
+                1,
+                "Flying"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
+                false,
                 0,
-                0,
-                251
+                null
             ],
             "Lance": [
                 false,
                 0,
-                251
+                null
             ],
             "Axe": [
-                0,
-                0,
-                251
-            ],
-            "Bow": [
                 false,
                 0,
-                251
+                null
+            ],
+            "Bow": [
+                true,
+                71,
+                null
             ],
             "Staff": [
                 false,
                 0,
-                251
+                null
             ],
             "Anima": [
                 false,
                 0,
-                251
+                null
             ],
             "Light": [
                 false,
                 0,
-                251
+                null
             ],
             "Dark": [
                 false,
                 0,
-                251
+                null
             ],
             "Gauntlet": [
                 false,
@@ -129,21 +138,16 @@
             "Default": [
                 false,
                 0,
-                251
-            ],
-            "Monster": [
-                false,
-                0,
                 null
             ]
         },
-        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_nid": "GriffinCard",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "R",
-        "combat_anim_nid": null,
+        "map_sprite_nid": "GriffinRider",
+        "combat_anim_nid": "GriffinRider",
         "fields": []
     }
 ]
