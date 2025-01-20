@@ -1,42 +1,36 @@
 [
     {
-        "nid": "Pegasus_Knight",
-        "name": "Pegasus Kn.",
-        "desc": "Airborne knights who resist magic but\nare weak against bows. Equip: Lances.",
-        "tier": 1,
-        "movement_group": "Fliers",
-        "promotes_from": null,
-        "turns_into": [
-            "Wyvern Knight",
-            "Falcoknight"
-        ],
-        "tags": [
-            "Mounted",
-            "Flying"
-        ],
+        "nid": "Warrior_F",
+        "name": "Warrior",
+        "desc": "Determined fighters who relish battle.",
+        "tier": 2,
+        "movement_group": "Regular",
+        "promotes_from": "Fighter",
+        "turns_into": [],
+        "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 21,
-            "STR": 6,
-            "MAG": 1,
-            "SKL": 6,
-            "SPD": 9,
+            "HP": 28,
+            "STR": 8,
+            "MAG": 0,
+            "SKL": 5,
+            "SPD": 6,
             "LCK": 0,
-            "DEF": 2,
-            "RES": 2,
-            "CON": 6,
-            "MOV": 7,
+            "DEF": 5,
+            "RES": 0,
+            "CON": 13,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
-            "HP": 55,
-            "STR": 40,
-            "MAG": 10,
-            "SKL": 45,
-            "SPD": 35,
-            "LCK": 35,
-            "DEF": 20,
-            "RES": 30,
+            "HP": 80,
+            "STR": 45,
+            "MAG": 0,
+            "SKL": 25,
+            "SPD": 20,
+            "LCK": 15,
+            "DEF": 16,
+            "RES": 17,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -55,41 +49,32 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 0,
-            "STR": 0,
+            "HP": 3,
+            "STR": 1,
             "MAG": 0,
-            "SKL": 0,
+            "SKL": 2,
             "SPD": 0,
             "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
+            "DEF": 3,
+            "RES": 3,
+            "CON": 2,
+            "MOV": -99,
             "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
-            "STR": 20,
+            "STR": 30,
             "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
+            "SKL": 28,
+            "SPD": 26,
             "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
+            "DEF": 26,
+            "RES": 22,
             "CON": 25,
             "MOV": 15,
             "LEAD": 30
         },
-        "learned_skills": [
-            [
-                1,
-                "Flying"
-            ],
-            [
-                1,
-                "Canto"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -97,18 +82,18 @@
                 251
             ],
             "Lance": [
-                true,
-                31,
+                false,
+                0,
                 251
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                40,
                 251
             ],
             "Bow": [
-                false,
-                0,
+                true,
+                1,
                 251
             ],
             "Staff": [
@@ -147,13 +132,13 @@
                 251
             ]
         },
-        "icon_nid": "Generic_Portrait_Pegasus_Knight",
+        "icon_nid": "Generic_Portrait_Warrior",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "PegasusKnight",
-        "combat_anim_nid": null,
+        "map_sprite_nid": "Warrior",
+        "combat_anim_nid": "Warrior",
         "fields": []
     }
 ]

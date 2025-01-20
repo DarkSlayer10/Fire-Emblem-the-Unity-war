@@ -1,42 +1,40 @@
 [
     {
-        "nid": "Pegasus_Knight",
-        "name": "Pegasus Kn.",
-        "desc": "Airborne knights who resist magic but\nare weak against bows. Equip: Lances.",
+        "nid": "Great_Knight_F",
+        "name": "Great Knight",
+        "desc": "Veteran horse knights.",
         "tier": 1,
-        "movement_group": "Fliers",
-        "promotes_from": null,
-        "turns_into": [
-            "Wyvern Knight",
-            "Falcoknight"
-        ],
+        "movement_group": "Armors",
+        "promotes_from": "Lancer",
+        "turns_into": [],
         "tags": [
+            "Horse",
             "Mounted",
-            "Flying"
+            "Armor"
         ],
         "max_level": 20,
         "bases": {
             "HP": 21,
-            "STR": 6,
-            "MAG": 1,
+            "STR": 8,
+            "MAG": 4,
             "SKL": 6,
-            "SPD": 9,
+            "SPD": 7,
             "LCK": 0,
-            "DEF": 2,
-            "RES": 2,
-            "CON": 6,
-            "MOV": 7,
+            "DEF": 11,
+            "RES": 3,
+            "CON": 13,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
-            "HP": 55,
-            "STR": 40,
-            "MAG": 10,
-            "SKL": 45,
-            "SPD": 35,
-            "LCK": 35,
-            "DEF": 20,
-            "RES": 30,
+            "HP": 70,
+            "STR": 30,
+            "MAG": 15,
+            "SKL": 25,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 21,
+            "RES": 22,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -55,27 +53,27 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
+            "HP": 3,
+            "STR": 2,
+            "MAG": 1,
+            "SKL": 1,
+            "SPD": 2,
             "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
+            "DEF": 2,
+            "RES": 2,
+            "CON": 4,
+            "MOV": -99,
             "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
-            "STR": 20,
+            "STR": 28,
             "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
+            "SKL": 26,
+            "SPD": 25,
             "LCK": 30,
-            "DEF": 20,
-            "RES": 20,
+            "DEF": 29,
+            "RES": 26,
             "CON": 25,
             "MOV": 15,
             "LEAD": 30
@@ -83,27 +81,23 @@
         "learned_skills": [
             [
                 1,
-                "Flying"
-            ],
-            [
-                1,
                 "Canto"
             ]
         ],
         "wexp_gain": {
             "Sword": [
-                false,
-                0,
+                true,
+                1,
                 251
             ],
             "Lance": [
                 true,
-                31,
+                1,
                 251
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                31,
                 251
             ],
             "Bow": [
@@ -147,12 +141,12 @@
                 251
             ]
         },
-        "icon_nid": "Generic_Portrait_Pegasus_Knight",
+        "icon_nid": "Generic_Portrait_Great_Knight",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "PegasusKnight",
+        "map_sprite_nid": "Great_Knight",
         "combat_anim_nid": null,
         "fields": []
     }
