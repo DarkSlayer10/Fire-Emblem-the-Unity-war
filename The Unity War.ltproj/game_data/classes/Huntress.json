@@ -2,7 +2,7 @@
     {
         "nid": "Huntress",
         "name": "Huntress",
-        "desc": "A hunter that uses a bow during combat.",
+        "desc": "Master of the hunt, uses\nswords and bows to attack\nthere prey.",
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": "Marksman",
@@ -22,7 +22,7 @@
             "DEF": 6,
             "RES": 0,
             "CON": 8,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -52,16 +52,16 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 0,
-            "STR": 0,
+            "HP": 4,
+            "STR": 3,
             "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
+            "SKL": 4,
+            "SPD": 3,
             "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
-            "CON": 0,
-            "MOV": 0,
+            "DEF": 3,
+            "RES": 3,
+            "CON": 3,
+            "MOV": 1,
             "LEAD": 0
         },
         "max_stats": {
@@ -85,8 +85,8 @@
         ],
         "wexp_gain": {
             "Sword": [
-                false,
-                0,
+                true,
+                71,
                 null
             ],
             "Lance": [

@@ -2,7 +2,7 @@
     {
         "nid": "Beastling",
         "name": "Beastling",
-        "desc": "An heir to the throne.\nUses bows and fangs.",
+        "desc": "A Heir to the throne.\nuses bows and fangs",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -104,7 +104,7 @@
             ],
             "Bow": [
                 true,
-                36,
+                31,
                 null
             ],
             "Staff": [

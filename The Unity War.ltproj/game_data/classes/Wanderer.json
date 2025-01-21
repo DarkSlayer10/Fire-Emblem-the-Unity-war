@@ -2,7 +2,7 @@
     {
         "nid": "Wanderer",
         "name": "Wanderer",
-        "desc": "",
+        "desc": "A Traveler with a wolf.\nAttacks with magic and swords.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -137,8 +137,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "A",
-        "combat_anim_nid": "Wanderer",
+        "map_sprite_nid": "WWWWW",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]

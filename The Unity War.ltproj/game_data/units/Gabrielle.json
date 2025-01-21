@@ -1,11 +1,11 @@
 [
     {
-        "nid": "Lynstia",
-        "name": "Lynstia",
-        "desc": "",
+        "nid": "Gabrielle",
+        "name": "Gabrielle",
+        "desc": "A umbra general that wants to\nprove herself but uses cowardly\ntactics to win.",
         "variant": null,
         "level": 1,
-        "klass": "Templar",
+        "klass": "Shaman_F",
         "tags": [],
         "bases": {},
         "growths": {},
@@ -15,8 +15,8 @@
         "unit_notes": [],
         "wexp_gain": {},
         "alternate_classes": [],
-        "portrait_nid": "Lyn",
-        "affinity": "None",
+        "portrait_nid": "Portrait Editor Fe Unity War 10-21-25.emulator.gba_54@36 Gabrielle_01C260F8",
+        "affinity": null,
         "fields": []
     }
 ]

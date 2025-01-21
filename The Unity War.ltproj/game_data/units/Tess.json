@@ -1,11 +1,11 @@
 [
     {
-        "nid": "Lynstia",
-        "name": "Lynstia",
+        "nid": "Tess",
+        "name": "Tess",
         "desc": "",
         "variant": null,
         "level": 1,
-        "klass": "Templar",
+        "klass": "Outlaw",
         "tags": [],
         "bases": {},
         "growths": {},
@@ -13,9 +13,15 @@
         "starting_items": [],
         "learned_skills": [],
         "unit_notes": [],
-        "wexp_gain": {},
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71,
+                null
+            ]
+        },
         "alternate_classes": [],
-        "portrait_nid": "Lyn",
+        "portrait_nid": "Tess",
         "affinity": "None",
         "fields": []
     }

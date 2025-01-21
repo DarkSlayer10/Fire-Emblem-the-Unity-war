@@ -2,7 +2,7 @@
     {
         "nid": "Dancer",
         "name": "Dancer",
-        "desc": "??",
+        "desc": "A graceful performer who lifts the spirits of their allies",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
