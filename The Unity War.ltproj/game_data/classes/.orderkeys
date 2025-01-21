@@ -31,6 +31,7 @@
     "Soldier",
     "Soldier_F",
     "Centurion",
+    "Centurion_F",
     "Knight",
     "Knight_F",
     "General",
@@ -63,6 +64,7 @@
     "Trueblade",
     "Dread_Fighter",
     "Ninja",
+    "Clone",
     "Archer",
     "Archer_F",
     "Sniper",
@@ -169,6 +171,5 @@
     "Civilian",
     "Civilian_1",
     "Civilian_2",
-    "Civilian_3",
-    "Clone"
+    "Civilian_3"
 ]

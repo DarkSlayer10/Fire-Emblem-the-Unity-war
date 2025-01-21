@@ -2,7 +2,7 @@
     {
         "nid": "Bow_Knight",
         "name": "Bow Knight",
-        "desc": "Devotees of the bow. Possess incredible range.",
+        "desc": "A horse rider that mastered the \nsword and bow. Can traverse sands.",
         "tier": 2,
         "movement_group": "Light Cav",
         "promotes_from": "Archer",
@@ -145,7 +145,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Ranger",
+        "map_sprite_nid": "200",
         "combat_anim_nid": null,
         "fields": []
     }

@@ -147,13 +147,13 @@
                 null
             ]
         },
-        "icon_nid": "Generic_Portrait_Archer",
+        "icon_nid": "Generic_Portrait_Ranger",
         "icon_index": [
             0,
             0
         ],
         "map_sprite_nid": "Nomad",
-        "combat_anim_nid": "Nomad",
+        "combat_anim_nid": "Nomad_F",
         "fields": []
     }
 ]

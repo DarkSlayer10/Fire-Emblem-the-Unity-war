@@ -2,7 +2,7 @@
     {
         "nid": "Kistune_Sage",
         "name": "Kistune Sage",
-        "desc": "",
+        "desc": "A Kistune sage that uses magic instead\nof fangs and bows to fight.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
