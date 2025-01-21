@@ -67,7 +67,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Knight",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
                         "Javelin",
@@ -91,7 +91,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Knight",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
                         "Steel_Lance",
@@ -115,7 +115,7 @@
                 "variant": null,
                 "level": 6,
                 "klass": "Knight",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
                         "Steel_Lance",
@@ -172,7 +172,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -196,7 +196,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -220,7 +220,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -244,7 +244,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -272,7 +272,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -293,7 +293,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -317,7 +317,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -338,7 +338,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -359,7 +359,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -383,7 +383,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -404,7 +404,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -428,7 +428,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -449,7 +449,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -462,7 +462,7 @@
             {
                 "nid": "117",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Archer_F",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -473,7 +473,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -486,7 +486,7 @@
             {
                 "nid": "118",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Archer_F",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -497,7 +497,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -510,7 +510,7 @@
             {
                 "nid": "142",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Archer_F",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -521,7 +521,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -534,7 +534,7 @@
             {
                 "nid": "119",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Archer_F",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -545,7 +545,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -558,7 +558,7 @@
             {
                 "nid": "120",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Archer_F",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -569,7 +569,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -582,7 +582,7 @@
             {
                 "nid": "131",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Archer_F",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -593,7 +593,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -606,7 +606,7 @@
             {
                 "nid": "132",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Archer_F",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -617,7 +617,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -641,7 +641,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -651,18 +651,18 @@
             {
                 "nid": "121",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Archer_F",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Steel_Bow",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -690,7 +690,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -714,7 +714,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -738,7 +738,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -751,7 +751,7 @@
             {
                 "nid": "123",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Wyvern Rider",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -762,7 +762,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -786,7 +786,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -807,7 +807,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -817,7 +817,7 @@
             {
                 "nid": "126",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Wyvern Rider",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -828,7 +828,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -841,7 +841,7 @@
             {
                 "nid": "127",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Wyvern Rider",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -852,7 +852,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -865,7 +865,7 @@
             {
                 "nid": "128",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Wyvern Rider",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -876,7 +876,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -900,7 +900,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -921,7 +921,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -931,7 +931,7 @@
             {
                 "nid": "135",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Scout",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -942,7 +942,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -955,7 +955,7 @@
             {
                 "nid": "140",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Lancer",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -966,7 +966,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -979,7 +979,7 @@
             {
                 "nid": "136",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Brawler",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -990,7 +990,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -1003,7 +1003,7 @@
             {
                 "nid": "137",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Mercenary_F",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -1014,7 +1014,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -1027,7 +1027,7 @@
             {
                 "nid": "138",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Pirate",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -1038,7 +1038,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -1051,7 +1051,7 @@
             {
                 "nid": "141",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Pirate",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -1062,7 +1062,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -1075,7 +1075,7 @@
             {
                 "nid": "139",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Fighter",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -1086,7 +1086,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
