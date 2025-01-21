@@ -142,3 +142,21 @@ class SuperEclipse(ItemComponent):
         if true_damage == 0:
             playback.append(pb.HitSound('No Damage'))
             playback.append(pb.HitAnim('MapNoDamage', target))
+            
+class StealValuable(Steal):
+    nid = 'steal_valuable'
+    desc = "Steal unequipped items if Con > Wt and value >= 3000"
+    tag = ItemTags.SPECIAL
+
+    def item_restrict(self, unit, item, defender, def_item) -> bool:
+        if unit.get_stat('SPD') <= defender.get_stat('SPD'):
+            return False
+        if item_system.unstealable(defender, def_item):
+            return False
+        if item_funcs.inventory_full(unit, def_item):
+            return False
+        if defender and defender.get_weapon() and def_item.uid == defender.get_weapon().uid:
+            return False
+        if item_system.is_weapon(defender, def_item) or item_system.is_spell(defender, def_item):
+            return not def_item.weight or unit.get_stat('CON') >= def_item.weight.value
+        return item_system.full_price(defender, def_item) >= 3000

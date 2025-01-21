@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Z - Refresh",
+        "trigger": "unit_wait",
+        "level_nid": null,
+        "condition": "has_skill(unit, 'Refresh')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_skill;{unit};Refresh;no_banner",
+            "reset;{unit}"
+        ],
+        "nid": "Global Z - Refresh"
+    }
+]

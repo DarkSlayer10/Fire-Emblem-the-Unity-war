@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "Good_As_Gold",
+        "name": "Good As Gold",
+        "desc": "Steal unequipped item\nworth at least 3000G.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            4,
+            45
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "exp",
+                15
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "self_status_on_hit",
+                "Refresh"
+            ],
+            [
+                "steal_valuable",
+                null
+            ],
+            [
+                "map_hit_sfx",
+                "Unsheathe"
+            ]
+        ]
+    }
+]

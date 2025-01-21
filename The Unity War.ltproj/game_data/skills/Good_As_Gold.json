@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Good_As_Gold",
+        "name": "Good As Gold",
+        "desc": "Once per turn, can steal an item worth\nat least 3000G, then take another turn.\n(For weapons, only if Con > Wt.)",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            4,
+            45
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "ability",
+                "Good_As_Gold"
+            ],
+            [
+                "drain_charge",
+                1
+            ],
+            [
+                "upkeep_charge_increase",
+                1
+            ]
+        ]
+    }
+]
