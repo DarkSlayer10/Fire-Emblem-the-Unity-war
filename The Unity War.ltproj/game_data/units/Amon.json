@@ -4,7 +4,7 @@
         "name": "Amon",
         "desc": "The Demon Prince. He is kind\nand loves exploring new places.",
         "variant": "",
-        "level": 1,
+        "level": 10,
         "klass": "Slayer",
         "tags": [
             "Lord"
@@ -48,7 +48,24 @@
             "MAG": 0,
             "LEAD": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Killer_Axe",
+                false
+            ],
+            [
+                "Short_Axe",
+                false
+            ],
+            [
+                "Light_Brand",
+                false
+            ],
+            [
+                "Doomblade",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

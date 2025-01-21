@@ -69,7 +69,12 @@
     },
     {
         "nid": "InHouse and Filler Icons",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "InHouse and Filler Icons 13, 0": [
+                13,
+                0
+            ]
+        }
     },
     {
         "nid": "Batima_Daggers",
@@ -77,6 +82,10 @@
     },
     {
         "nid": "{Zelix} FE11&13-style weapons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Item Icons Fe Unity War 10-21-25.emulator.gba_203@CB_0145CA64",
         "subicon_dict": {}
     }
 ]

@@ -46,7 +46,24 @@
             "MAG": 0,
             "LEAD": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Dire_Thunder",
+                false
+            ],
+            [
+                "Thoron",
+                false
+            ],
+            [
+                "Killing_Edge",
+                false
+            ],
+            [
+                "Mend",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

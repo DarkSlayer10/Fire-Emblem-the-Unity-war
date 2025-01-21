@@ -65,18 +65,18 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Knight",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Javelin",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -89,18 +89,18 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Knight",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Steel_Lance",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -113,18 +113,18 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Knight",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Steel_Lance",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -137,7 +137,7 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Knight",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -148,7 +148,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -161,12 +161,12 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Mage",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Ice_Shard",
                         false
                     ]
                 ],
@@ -185,12 +185,12 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 1,
-                "klass": "Mage",
+                "level": 5,
+                "klass": "Mage_F",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Fire",
                         false
                     ]
                 ],
@@ -209,12 +209,12 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 1,
-                "klass": "Mage",
+                "level": 6,
+                "klass": "Mage_F",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Thunder",
                         false
                     ]
                 ],
@@ -233,12 +233,12 @@
             {
                 "nid": "134",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Shaman",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Flux",
                         false
                     ]
                 ],
@@ -257,12 +257,16 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 1,
-                "klass": "Mage",
+                "level": 6,
+                "klass": "Mage_F",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Dire_Thunder",
+                        false
+                    ],
+                    [
+                        "Icicles",
                         false
                     ]
                 ],
@@ -278,12 +282,12 @@
             {
                 "nid": "109",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Mage",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Fire",
                         false
                     ]
                 ],
@@ -302,12 +306,12 @@
             {
                 "nid": "110",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Mercenary",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Sword",
                         false
                     ]
                 ],
@@ -323,12 +327,12 @@
             {
                 "nid": "111",
                 "variant": null,
-                "level": 1,
+                "level": 4,
                 "klass": "Mercenary",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Sword",
                         false
                     ]
                 ],
@@ -344,12 +348,12 @@
             {
                 "nid": "112",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Mercenary",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Sword",
                         false
                     ]
                 ],
@@ -368,12 +372,12 @@
             {
                 "nid": "113",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Myrmidon_F",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Sword",
                         false
                     ]
                 ],
@@ -389,12 +393,12 @@
             {
                 "nid": "114",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Myrmidon_F",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Sword",
                         false
                     ]
                 ],
@@ -413,12 +417,12 @@
             {
                 "nid": "115",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Myrmidon_F",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Sword",
                         false
                     ]
                 ],
@@ -434,12 +438,12 @@
             {
                 "nid": "116",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Archer_F",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Bow",
                         false
                     ]
                 ],
@@ -463,7 +467,7 @@
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Bow",
                         false
                     ]
                 ],
@@ -487,7 +491,7 @@
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Bow",
                         false
                     ]
                 ],
@@ -511,7 +515,7 @@
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Poison_Bow",
                         false
                     ]
                 ],
@@ -535,7 +539,7 @@
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Steel_Bow",
                         false
                     ]
                 ],
@@ -559,7 +563,7 @@
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Steel_Bow",
                         false
                     ]
                 ],
@@ -583,7 +587,7 @@
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Bow",
                         false
                     ]
                 ],
@@ -607,7 +611,7 @@
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Bow",
                         false
                     ]
                 ],
@@ -626,12 +630,12 @@
             {
                 "nid": "133",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Archer_F",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Shining_Bow",
                         false
                     ]
                 ],
@@ -676,7 +680,11 @@
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Steel_Axe",
+                        false
+                    ],
+                    [
+                        "Javelin",
                         false
                     ]
                 ],
@@ -700,7 +708,7 @@
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Sword",
                         false
                     ]
                 ],
@@ -767,12 +775,12 @@
             {
                 "nid": "124",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Wyvern Rider",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Javelin",
                         false
                     ]
                 ],
@@ -788,12 +796,12 @@
             {
                 "nid": "125",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Wyvern Rider",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Javelin",
                         false
                     ]
                 ],
@@ -881,12 +889,12 @@
             {
                 "nid": "129",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Brigand",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Poison_Axe",
                         false
                     ]
                 ],
@@ -902,7 +910,7 @@
             {
                 "nid": "130",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Lancer",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -924,11 +932,11 @@
                 "nid": "135",
                 "variant": null,
                 "level": 1,
-                "klass": "Lancer",
+                "klass": "Scout",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Sword",
                         false
                     ]
                 ],
@@ -976,7 +984,7 @@
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Claws",
                         false
                     ]
                 ],
@@ -1000,7 +1008,7 @@
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Sword",
                         false
                     ]
                 ],
@@ -1024,7 +1032,7 @@
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Axe",
                         false
                     ]
                 ],
@@ -1048,7 +1056,7 @@
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Axe",
                         false
                     ]
                 ],
@@ -1072,7 +1080,7 @@
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Steel_Axe",
                         false
                     ]
                 ],
@@ -1091,7 +1099,7 @@
             {
                 "nid": "Charon",
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -1104,18 +1112,22 @@
             {
                 "nid": "145",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Mercenary_F",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Short_Axe",
+                        false
+                    ],
+                    [
+                        "Iron_Sword",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -1125,18 +1137,18 @@
             {
                 "nid": "148",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Archer_F",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Steel_Bow",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -1146,18 +1158,18 @@
             {
                 "nid": "146",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Fighter",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Steel_Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -1167,18 +1179,18 @@
             {
                 "nid": "147",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Tarvos",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Hand_Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -1774,6 +1786,11 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

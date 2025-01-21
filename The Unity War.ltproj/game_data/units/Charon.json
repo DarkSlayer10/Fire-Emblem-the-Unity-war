@@ -10,13 +10,33 @@
         "bases": {},
         "growths": {},
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Steel_Blade",
+                false
+            ],
+            [
+                "Hand_Axe",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
-        "wexp_gain": {},
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181,
+                null
+            ],
+            "Axe": [
+                false,
+                181,
+                null
+            ]
+        },
         "alternate_classes": [],
         "portrait_nid": "Charon",
-        "affinity": null,
+        "affinity": "Fire",
         "fields": []
     }
 ]

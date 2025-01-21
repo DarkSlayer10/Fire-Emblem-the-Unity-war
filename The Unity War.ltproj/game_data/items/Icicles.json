@@ -1,0 +1,65 @@
+[
+    {
+        "nid": "Icicles",
+        "name": "Ice Shard",
+        "desc": "Basic ice magic. Chills on hit.\n(-4 Spd after combat.)",
+        "icon_nid": "InHouse and Filler Icons",
+        "icon_index": [
+            13,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Anima"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "value",
+                1600
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    93,
+                    175,
+                    193
+                ]
+            ],
+            [
+                "status_after_combat_on_hit",
+                "Chilled"
+            ]
+        ]
+    }
+]

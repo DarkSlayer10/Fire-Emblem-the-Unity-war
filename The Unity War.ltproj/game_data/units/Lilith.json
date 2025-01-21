@@ -46,7 +46,24 @@
             "MAG": 0,
             "LEAD": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Armorslayer",
+                false
+            ],
+            [
+                "Flux",
+                false
+            ],
+            [
+                "Nosferatu",
+                false
+            ],
+            [
+                "Physic",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

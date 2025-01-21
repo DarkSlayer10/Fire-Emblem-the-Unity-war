@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Doomblade",
+        "name": "Doomblade",
+        "desc": "",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": []
+    }
+]
