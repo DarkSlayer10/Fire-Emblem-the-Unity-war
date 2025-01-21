@@ -200,7 +200,20 @@
             "change_team;Nelson;player",
             "give_money;900",
             "arrange_formation",
-            "prep;t;Preparations"
+            "end_skip",
+            "prep;t;Preparations",
+            "center_cursor;Mia",
+            "flicker_cursor;Mia",
+            "multi_add_portrait;SoldierRed;Left;Mia;Right",
+            "speak;SoldierRed;\u2028You there, pirate!{w}\u2028Make yourself useful and go grab\u2028that turncoat who jumped ships.{w}\u2028Special orders from Captain Pam!",
+            "speak;Mia;\u2028Listen buddy{tgm}...",
+            "speak;Mia;\u2028I had a rough day, so I ain't in the mood to\u2028get bossed around by some buckethead.{w}\u2028I didn't sign up to spend months at sea with\u2028the most insufferable crew imaginable!{w}\u2028I'd better get a raise for this, or my axe'll\u2028be going places other than the enemy's face!",
+            "speak;SoldierRed;I-",
+            "bop_portrait;SoldierRed",
+            "speak;SoldierRed;\u2028I'm reporting you to the captain!{w}\u2028You'll be lucky if she just\u2028docks your pay!{w}\u2028Don't forget, you can be replaced in\u2028the blink of an eye, filthy sellsword!",
+            "remove_portrait;SoldierRed",
+            "speak;Mia;\u2028Really now? A deadly pirate\u2028like me getting replaced?{w}\u2028Bah, I'd like to see you try.{w}\u2028I'm worth ten of anything\u2028you'll ever be.{w}{c:expression;Mia;Smile}\u2028Your luck's run dry, Goldilocks.{w}\u2028Mia's coming to get you!",
+            "remove_portrait;Mia"
         ],
         "nid": "5 0 - Intro"
     }
