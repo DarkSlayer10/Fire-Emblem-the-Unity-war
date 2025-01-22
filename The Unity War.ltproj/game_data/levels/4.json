@@ -2133,6 +2133,38 @@
                         12
                     ]
                 }
+            },
+            {
+                "nid": "Endscene_1",
+                "units": [
+                    "Emma",
+                    "Caroline",
+                    "Sarah",
+                    "Kate",
+                    "Luna"
+                ],
+                "positions": {
+                    "Emma": [
+                        11,
+                        7
+                    ],
+                    "Caroline": [
+                        12,
+                        7
+                    ],
+                    "Sarah": [
+                        13,
+                        10
+                    ],
+                    "Kate": [
+                        12,
+                        10
+                    ],
+                    "Luna": [
+                        11,
+                        11
+                    ]
+                }
             }
         ],
         "ai_groups": []

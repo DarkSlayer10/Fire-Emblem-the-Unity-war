@@ -69,6 +69,7 @@
             "move_unit;Carlos;1,16;normal;closest",
             "show_layer;{e:region.nid}",
             "level_var;carlos;True",
+            "level_var;carlos_recruit;True",
             "add_talk;Carlos;Fernando",
             "add_talk;Fernando;Carlos",
             "add_talk;Carlos;Kate",
