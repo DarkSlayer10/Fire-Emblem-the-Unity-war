@@ -1,0 +1,15 @@
+[
+    {
+        "name": "2 - Thiefn't",
+        "trigger": "EscapeThief",
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_unit;{unit}"
+        ],
+        "nid": "5 2 - Thiefn't"
+    }
+]
