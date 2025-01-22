@@ -8975,6 +8975,51 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "chest_left",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "2,22": [
+                        "Town Tileset",
+                        [
+                            0,
+                            2
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "chest_center",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "22,11": [
+                        "Town Tileset",
+                        [
+                            0,
+                            2
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "chest_right",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "31,7": [
+                        "Town Tileset",
+                        [
+                            0,
+                            2
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [

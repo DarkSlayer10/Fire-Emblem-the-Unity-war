@@ -1,0 +1,15 @@
+[
+    {
+        "name": "1 - Reinf Turn 6-7",
+        "trigger": "turn_change",
+        "level_nid": "5",
+        "condition": "game.turncount in [6,7]",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_group;Reinf_6;Reinf_6;immediate;closest;create"
+        ],
+        "nid": "5 1 - Reinf Turn 6-7"
+    }
+]

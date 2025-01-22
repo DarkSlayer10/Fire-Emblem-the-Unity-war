@@ -1,0 +1,18 @@
+[
+    {
+        "name": "M - Right Chest",
+        "trigger": "Chest",
+        "level_nid": "5",
+        "condition": "region.nid == 'chest_right'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "give_item;{unit};Longbow",
+            "show_layer;chest_right",
+            "has_traded;{unit}"
+        ],
+        "nid": "5 M - Right Chest"
+    }
+]

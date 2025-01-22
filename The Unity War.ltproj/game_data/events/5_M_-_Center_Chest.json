@@ -1,0 +1,18 @@
+[
+    {
+        "name": "M - Center Chest",
+        "trigger": "Chest",
+        "level_nid": "5",
+        "condition": "region.nid == 'chest_center'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "give_item;{unit};Holy_Lance",
+            "show_layer;chest_center",
+            "has_traded;{unit}"
+        ],
+        "nid": "5 M - Center Chest"
+    }
+]

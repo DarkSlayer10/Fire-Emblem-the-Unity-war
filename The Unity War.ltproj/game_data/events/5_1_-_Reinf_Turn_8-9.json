@@ -1,0 +1,15 @@
+[
+    {
+        "name": "1 - Reinf Turn 8-9",
+        "trigger": "turn_change",
+        "level_nid": "5",
+        "condition": "game.turncount in [8,9]",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_group;Reinf_8;Reinf_8;immediate;giveup;create"
+        ],
+        "nid": "5 1 - Reinf Turn 8-9"
+    }
+]

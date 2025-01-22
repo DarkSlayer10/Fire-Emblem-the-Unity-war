@@ -1,0 +1,16 @@
+[
+    {
+        "name": "1 - Reinf Turn 2",
+        "trigger": "turn_change",
+        "level_nid": "5",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_group;Reinf_2;Reinf_2;immediate;stack",
+            "move_group;Reinf_2_Move;Reinf_2_Move;normal;closest"
+        ],
+        "nid": "5 1 - Reinf Turn 2"
+    }
+]
