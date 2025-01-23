@@ -150,7 +150,7 @@
             "move_portrait;Caroline;Right",
             "bop_portrait;Emma",
             "speak;Emma;\u2028Mother, look!{w}\u2028A ship is passing us by!{w}\u2028With such a detailed\u2028dragon crest on its sail{tgm}...",
-            "speak;Caroline;\u2028That's an Umbra ship{tgm}...{tgm}and\u2028they don't look like diplomats.{w}\u2028Everyone, brace yourselves!{w}\u2028We've got demon forces coming\u2028up on our three and nine!{w}\u2028Prepare to be boarded!",
+            "speak;Caroline;\u2028That's an Umbra ship{tgm}...{tgm}and\u2028they don't look like diplomats.{w}\u2028Everyone, brace yourselves!{w}\u2028We've got demon forces coming\u2028up on our two and ten!{w}\u2028Prepare to be boarded!",
             "multi_remove_portrait;Caroline;Emma",
             "transition;close",
             "add_group;Cutscene_F;starting",

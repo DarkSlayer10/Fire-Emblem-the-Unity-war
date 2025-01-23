@@ -1296,16 +1296,16 @@
                 "nid": "150",
                 "variant": null,
                 "level": 6,
-                "klass": "Wyvern Rider",
+                "klass": "Mogall",
                 "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Javelin",
+                        "Ghost_Wail",
                         false
                     ]
                 ],
                 "starting_skills": [],
-                "team": "enemy",
+                "team": "enemy2",
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
@@ -1316,17 +1316,21 @@
             {
                 "nid": "151",
                 "variant": null,
-                "level": 7,
-                "klass": "Pegasus_Knight",
+                "level": 1,
+                "klass": "Harpy",
                 "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Horseslayer",
+                        "Sharp_Talons",
+                        false
+                    ],
+                    [
+                        "Flux",
                         false
                     ]
                 ],
                 "starting_skills": [],
-                "team": "enemy",
+                "team": "enemy2",
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
@@ -1338,20 +1342,116 @@
                 "nid": "152",
                 "variant": null,
                 "level": 6,
-                "klass": "Griffin_Rider",
+                "klass": "Mogall",
                 "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Hunting_Bow",
+                        "Ghost_Wail",
                         false
                     ]
                 ],
                 "starting_skills": [],
-                "team": "enemy",
+                "team": "enemy2",
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "153",
+                "variant": null,
+                "level": 6,
+                "klass": "Mogall",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "154",
+                "variant": null,
+                "level": 6,
+                "klass": "Mogall",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "155",
+                "variant": null,
+                "level": 6,
+                "klass": "Mogall",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "156",
+                "variant": null,
+                "level": 6,
+                "klass": "Mogall",
+                "faction": "Demon",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    10
+                ],
                 "starting_traveler": null,
                 "generic": true
             }
@@ -2021,6 +2121,11 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
