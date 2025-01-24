@@ -2165,6 +2165,28 @@
                         11
                     ]
                 }
+            },
+            {
+                "nid": "Endscene_2_Move",
+                "units": [
+                    "Emma",
+                    "Kate",
+                    "Luna"
+                ],
+                "positions": {
+                    "Emma": [
+                        12,
+                        10
+                    ],
+                    "Kate": [
+                        0,
+                        16
+                    ],
+                    "Luna": [
+                        0,
+                        16
+                    ]
+                }
             }
         ],
         "ai_groups": []
