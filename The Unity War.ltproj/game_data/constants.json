@@ -325,7 +325,7 @@
     ],
     [
         "gexp_max",
-        30
+        20.0
     ],
     [
         "gexp_min",
@@ -333,7 +333,7 @@
     ],
     [
         "gexp_slope",
-        0.25
+        0.15
     ],
     [
         "gexp_intercept",
@@ -341,7 +341,7 @@
     ],
     [
         "exp_formula",
-        "standard"
+        "gompertz"
     ],
     [
         "kill_multiplier",
