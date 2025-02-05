@@ -120,30 +120,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Emily",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Emma",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Darkslayer",
         "blinking_offset": [
             24,
@@ -685,6 +661,30 @@
     },
     {
         "nid": "Portrait Editor Fe Unity War 10-21-25.emulator.gba_54@36 Gabrielle_01C260F8",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Emily",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Emma",
         "blinking_offset": [
             24,
             24
