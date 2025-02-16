@@ -8,8 +8,32 @@
         "only_once": true,
         "priority": 20,
         "_source": [
+            "give_skill;Aurora;Cutscene_Movement;;no_banner",
+            "add_unit;Aurora;13,9",
+            "remove_skill;Aurora;Cutscene_Movement;no_banner",
+            "flicker_cursor;Aurora",
+            "",
             "add_group;Reinf_2;Reinf_2;immediate;stack",
-            "move_group;Reinf_2_Move;Reinf_2_Move;normal;closest"
+            "move_group;Reinf_2_Move;Reinf_2_Move;normal;closest",
+            "add_portrait;Aurora;Right",
+            "speak;Aurora;\u2028Huh{tgm}...{tgm}? What's happening?{w}\u2028I fall asleep in a barrel for a couple\u2028hours and this is what happens{tgm}...",
+            "add_portrait;Emma;Left",
+            "speak;Emma;\u2028Wait, who are you?\u2028And how did you get on board?",
+            "expression;Aurora;Smile",
+            "speak;Aurora;\u2028My name is Aurora, and\u2028this is my bird, Sora.{w}\u2028I was in the village when the demons\u2028attacked, and I hid in this ship.{w}\u2028When I heard you all taking off,\u2028I stowed away{tgm}...{tgm}{w}\u2028I hope it's not too much trouble.",
+            "speak;Emma;\u2028Well, if you're going to come with\u2028us, help us fight off these Umbra.",
+            "speak;Aurora;\u2028I suppose that settles it.{w}{c:expression;Aurora;NoSmile}\u2028I'll be your fortune teller from\u2028this day on,{w} so be honored to\u2028have my mystic expertise.",
+            "speak;Emma;\u2028Um{tgm}...{tgm} Thanks.{w}\u2028I hope you can do more\u2028than that on the battlefield.",
+            "speak;Aurora;\u2028Well{tgm}...{tgm}it seems like you have\u2028some latent talent within you.{w}\u2028Being a fortune teller allows me\u2028to see your untapped potential,{w}\u2028and it seems yours could be\u2028unlocked with just a small prod.{w}\u2028Try to envision yourself splitting\u2028your magic into multiple parts.",
+            "speak;Emma;\u2028Um{tgm}...",
+            "speak;Aurora;\u2028Cast as if each plume of flame\u2028would become three at once.",
+            "expression;Emma;CloseEyes",
+            "speak;Emma;...;no_talk",
+            "give_skill;Emma;Magic_Missile",
+            "speak;Emma;...!;no_talk",
+            "speak;Emma;\u2028I{tgm}...{tgm}I think I understand\u2028what you mean all of a sudden.",
+            "speak;Aurora;\u2028Proved my worth, have I?{w}\u2028Come on Sora, I've got a\u2028vision coming on{tgm}...{tgm}{w}\u2028and it looks like us\u2028celebrating in victory!",
+            "multi_remove_portrait;Aurora;Emma"
         ],
         "nid": "5 1 - Reinf Turn 2"
     }
