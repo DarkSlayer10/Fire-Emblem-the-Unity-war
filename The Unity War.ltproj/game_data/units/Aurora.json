@@ -1,0 +1,73 @@
+[
+    {
+        "nid": "Aurora",
+        "name": "Aurora",
+        "desc": "A pirate and Umbran turncoat.\nUnserious but graceful.",
+        "variant": null,
+        "level": 6,
+        "klass": "Diviner",
+        "tags": [],
+        "bases": {
+            "HP": 29,
+            "STR": 6,
+            "MAG": 8,
+            "SKL": 10,
+            "SPD": 10,
+            "DEF": 8,
+            "RES": 6,
+            "LCK": 5,
+            "CON": 8,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 45,
+            "MAG": 60,
+            "SKL": 40,
+            "SPD": 60,
+            "DEF": 25,
+            "RES": 35,
+            "LCK": 50,
+            "CON": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Thunder",
+                false
+            ],
+            [
+                "Wind",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Anima": [
+                false,
+                71,
+                null
+            ],
+            "Dark": [
+                false,
+                31,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Aurora",
+        "affinity": "Dark",
+        "fields": []
+    }
+]

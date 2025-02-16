@@ -2,26 +2,23 @@
     {
         "nid": "Diviner",
         "name": "Diviner",
-        "desc": "Curious practioners of anima magic.",
+        "desc": "A fortuneteller that attacks their\ntarget with anima and dark scrolls.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
-        "turns_into": [
-            "Sage",
-            "Mage_Knight"
-        ],
+        "turns_into": [],
         "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 20,
-            "STR": 1,
-            "MAG": 5,
-            "SKL": 4,
-            "SPD": 3,
+            "HP": 18,
+            "STR": 6,
+            "MAG": 1,
+            "SKL": 6,
+            "SPD": 7,
             "LCK": 0,
-            "DEF": 2,
-            "RES": 3,
-            "CON": 7,
+            "DEF": 3,
+            "RES": 6,
+            "CON": 8,
             "MOV": 5,
             "LEAD": 0
         },
@@ -115,8 +112,8 @@
                 251
             ],
             "Dark": [
-                false,
-                0,
+                true,
+                1,
                 251
             ],
             "Gauntlet": [
@@ -146,7 +143,7 @@
             0
         ],
         "map_sprite_nid": "F_2",
-        "combat_anim_nid": "MageFemale",
+        "combat_anim_nid": "Diviner",
         "fields": []
     }
 ]
