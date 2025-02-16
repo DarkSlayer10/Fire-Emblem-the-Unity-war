@@ -1,0 +1,37 @@
+[
+    {
+        "name": "T - Nelson Mia",
+        "trigger": "on_talk",
+        "level_nid": "5",
+        "condition": "check_pair('Nelson', 'Mia')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Nelson;Left;Mia;Right",
+            "expression;Nelson;Smile",
+            "speak;Nelson;\u2028So we meet again, lady-",
+            "bop_portrait;Nelson",
+            "expression;Nelson;NoSmile",
+            "speak;Nelson;\u2028WHOA watch the axe!{w}\u2028You could've hit me!",
+            "speak;Mia;\u2028That's the idea, you money grubbing thief!{w}\u2028IT TOOK ME THREE MONTHS TO GAIN THEIR TRUST\u2028and YOU ruined my chances to get any pay!!!",
+            "speak;Nelson;\u2028Well, sorry for being more smarter.{w}\u2028Since they don't have the money to\u2028pay you,{w} can you stop trying to split\u2028my head open like a watermelon?{w}\u2028You won't even get money for it!",
+            "speak;Mia;\u2028Maybe I should crack your skull open anyway and\u2028see how smart that brain looks for myself.",
+            "speak;Nelson;\u2028Hmm...words clearly\u2028aren't her language.{w}\u2028Alright, I got an idea.;;;thought_bubble;no_talk",
+            "speak;Nelson;\u2028Well, seeing as how I'm the one\u2028with the coin purse,{w} how about\u2028I pay you to fight them with us?{w}\u2028You get paid, and I stay alive.",
+            "speak;Mia;\u2028Hm{tgm}...",
+            "music;Mount Gale",
+            "speak;Mia;\u2028Fine, but you pay me up front.{w}\u2028You're nto going to pull one over\u2028on me, but I don't care who hires me.",
+            "bop_portrait;Nelson",
+            "speak;Nelson;\u2028Seriously?!",
+            "speak;Nelson;Wow, that was fast!;;;thought_bubble;no_talk",
+            "speak;Mia;\u2028Would you rather I kill you and take\u2028the gold out of your cold, dead hands?{w}\u2028Actually, I like the sound of that{tgm}...",
+            "speak;Nelson;\u2028No, no, that's fine{tgm}...{tgm}\u2028Welcome aboard, Miss{tgm}...?",
+            "speak;Mia;\u2028Mia. My name is Mia.",
+            "speak;Nelson;\u2028The name's Nelson!{w}\u2028Now, let's fight those Umbra\u2028and cut down some demons!",
+            "multi_remove_portrait;Nelson;Mia",
+            "music_fade_back"
+        ],
+        "nid": "5 T - Nelson Mia"
+    }
+]
