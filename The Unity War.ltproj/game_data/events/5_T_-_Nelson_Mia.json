@@ -32,7 +32,11 @@
             "multi_remove_portrait;Nelson;Mia",
             "change_team;Mia;player",
             "music_fade_back",
-            "remove_talk;Nelson;Mia"
+            "remove_talk;Nelson;Mia",
+            "add_talk;Mia;Sonia",
+            "add_talk;Sonia;Mia",
+            "add_talk;Mia;Noelle",
+            "add_talk;Noelle;Mia"
         ],
         "nid": "5 T - Nelson Mia"
     }

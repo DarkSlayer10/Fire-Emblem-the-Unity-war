@@ -1,0 +1,27 @@
+[
+    {
+        "name": "T - Sonia Mia",
+        "trigger": "on_talk",
+        "level_nid": "5",
+        "condition": "check_pair('Sonia', 'Mia')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Mia;Left;Sonia;Right",
+            "speak;Sonia;\u2028Hey, I know your kind.\u2028Pirate, right?",
+            "speak;Mia;\u2028Aye, I am.",
+            "speak;Sonia;\u2028Seems odd you're not\u2028with a pirate crew, though.{w}\u2028Were you captured?",
+            "expression;Mia;Smile",
+            "bop_portrait;Mia",
+            "speak;Mia;\u2028Hah! As if these metalheads\u2028could restrain me!{w}\u2028I'm a bit of a naval\u2028freelancer nowadays.",
+            "speak;Sonia;I see{tgm}...",
+            "speak;Sonia;\u2028I'm glad to have you\u2028on board with us now!{w}\u2028Surely you can sail us\u2028to Rosefall with ease!",
+            "speak;Mia;\u2028Heh, bet yer ass I could!{w}\u2028Say, maybe I could make a pirating\u2028comeback{tgm}...{tgm}with you all as my crew!{w}\u2028Hahaha! I like the sound of that!",
+            "multi_remove_portrait;Sonia;Mia",
+            "remove_talk;Sonia;Mia",
+            "remove_talk;Mia;Sonia"
+        ],
+        "nid": "5 T - Sonia Mia"
+    }
+]

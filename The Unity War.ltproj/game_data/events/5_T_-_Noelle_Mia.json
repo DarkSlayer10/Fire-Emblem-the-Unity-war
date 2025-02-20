@@ -1,0 +1,23 @@
+[
+    {
+        "name": "T - Noelle Mia",
+        "trigger": "on_talk",
+        "level_nid": "5",
+        "condition": "check_pair('Noelle', 'Mia')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Mia;Left;Noelle;Right",
+            "speak;Mia;\u2028Holy smokes{tgm}...{tgm}{w}\u2028That's one hell of a\u2028wyvern you've got there.",
+            "speak;Noelle;\u2028Hm? Oh, you mean Grace?{w}\u2028Yeah, she's the best\u2028wyvern in the whole world.",
+            "speak;Mia;\u2028A spectacular beast, I say{tgm}...{tgm}{w}\u2028I've had wyvern on a stick before, but\u2028no living one's let me get this close{tgm}...",
+            "speak;Noelle;\u2028Um{tgm}...",
+            "speak;Noelle;\u2028On second thought, maybe\u2028step away, if you don't mind{tgm}...",
+            "multi_remove_portrait;Mia;Noelle",
+            "remove_talk;Mia;Noelle",
+            "remove_talk;Noelle;Mia"
+        ],
+        "nid": "5 T - Noelle Mia"
+    }
+]
