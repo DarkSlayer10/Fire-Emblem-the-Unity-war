@@ -222,7 +222,9 @@
             "add_talk;Nelson;Noah",
             "add_talk;Noah;Nelson",
             "add_talk;Aurora;Nicole",
-            "add_talk;Nicole;Aurora"
+            "add_talk;Nicole;Aurora",
+            "add_talk;Lily;Natalia",
+            "add_talk;Natalia;Lily"
         ],
         "nid": "5 0 - Intro"
     }

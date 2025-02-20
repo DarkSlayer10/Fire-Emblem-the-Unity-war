@@ -1,0 +1,27 @@
+[
+    {
+        "name": "T - Lily Natalia",
+        "trigger": "on_talk",
+        "level_nid": "5",
+        "condition": "check_pair('Lily', 'Natalia')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Natalia;Left;Lily;Right",
+            "speak;Natalia;\u2028Wow Lily, your magic's so strong{tgm}...{tgm}{w}\u2028You remind me of some of my\u2028sisters at the church back home.",
+            "speak;Lily;\u2028You said your town was\u2028destroyed by bandits, right?",
+            "speak;Natalia;\u2028Yeah{tgm}...{tgm} They came one\u2028day without warning.{w}\u2028They didn't even demand\u2028anything or give us a choice.{w}\u2028They just took what they wanted\u2028and destroyed the rest.{w}\u2028My fellow sisters resisted, so{tgm}...{tgm}{w}\u2028The bandits didn't want them anymore.",
+            "speak;Lily;\u2028Oh heavens{tgm}...{tgm}\u2028That sounds like torture{tgm}...{tgm}{w}\u2028My own town was razed by demons,{w}\u2028and I had to watch my friends and fellow clerics\u2028turn into grotesque shadows of themselves.",
+            "speak;Natalia;\u2028The world's been plunged\u2028into such despair{tgm}...{tgm}{w}\u2028Sometimes I wonder if there's still\u2028a shred of salvation for this world{tgm}...",
+            "speak;Lily;\u2028If there's something I've learned,{w}\u2028it's that you can't worry about\u2028what you think.{w}\u2028You've just got to believe that\u2028there's still a better tomorrow.{w}\u2028Heh, maybe after all this time,\u2028Emma's rubbed off on me after all.",
+            "speak;Natalia;\u2028I just don't understand how you could think so\u2028happily you've lived through hell{tgm}...",
+            "speak;Lily;\u2028Dwelling on the past\u2028just opens old wounds{tgm}...{tgm}{w}\u2028Let's focus on helping our\u2028friends we have with us right now.",
+            "speak;Natalia;R-Right{tgm}...",
+            "multi_remove_portrait;Lily;Natalia",
+            "remove_talk;Lily;Natalia",
+            "remove_talk;Natalia;Lily"
+        ],
+        "nid": "5 T - Lily Natalia"
+    }
+]

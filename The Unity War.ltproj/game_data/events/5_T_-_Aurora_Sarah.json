@@ -1,0 +1,32 @@
+[
+    {
+        "name": "T - Aurora Sarah",
+        "trigger": "on_talk",
+        "level_nid": "5",
+        "condition": "check_pair('Aurora', 'Sarah')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Aurora;Left;Sarah;Right",
+            "speak;Sarah;\u2028Excuse me, but{tgm}...{tgm}you mentioned\u2028you're a fortune teller, right?",
+            "speak;Aurora;\u2028Right as rain!{w}\u2028Ask me anything and I\u2028can tell you your destiny.",
+            "speak;Sarah;Destiny{tgm}...",
+            "speak;Sarah;\u2028I've hardly even given a thought\u2028to destiny and fate and all that.",
+            "speak;Aurora;Perhaps it's time to start now.",
+            "speak;Sarah;\u2028Please, tell me, do I lead my friends to victory,\u2028or am I not meant to walk the path of a leader?",
+            "expression;Aurora;CloseEyes",
+            "speak;Aurora;...;no_talk",
+            "speak;Sarah;What's-",
+            "expression;Aurora;NormalBlink",
+            "speak;Aurora;\u2028The spirits are indecisive.{w}\u2028I think you will have to\u2028ask again later.",
+            "speak;Sarah;But what-",
+            "bop_portrait;Aurora",
+            "speak;Aurora;Not right now!",
+            "multi_remove_portrait;Aurora;Sarah",
+            "remove_talk;Aurora;Sarah",
+            "remove_talk;Sarah;Aurora"
+        ],
+        "nid": "5 T - Aurora Sarah"
+    }
+]
