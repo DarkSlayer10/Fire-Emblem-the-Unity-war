@@ -30,7 +30,9 @@
             "speak;Mia;\u2028Mia. My name is Mia.",
             "speak;Nelson;\u2028The name's Nelson!{w}\u2028Now, let's fight those Umbra\u2028and cut down some demons!",
             "multi_remove_portrait;Nelson;Mia",
-            "music_fade_back"
+            "change_team;Mia;player",
+            "music_fade_back",
+            "remove_talk;Nelson;Mia"
         ],
         "nid": "5 T - Nelson Mia"
     }

@@ -1,0 +1,30 @@
+[
+    {
+        "name": "T - Nelson Nina",
+        "trigger": "on_talk",
+        "level_nid": "5",
+        "condition": "check_pair('Nelson', 'Nina')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Nelson;Left;Nina;Right",
+            "speak;Nina;\u2028Hey! You're that thief that stole all\u2028the gold off that Umbran ship, right?",
+            "speak;Nelson;\u2028Hmph, yeah, I did it. Were\u2028you also hired to kill me?",
+            "speak;Nina;\u2028No, I just like to praise a job well done.{w}\u2028A skilled thief like me appreciates someone\u2028who pulls off an impressive job.{w}\u2028Though, getting away with it is the only\u2028thing I can say you did poorly.",
+            "speak;Nelson;\u2028Pft, yeah right.{w}\u2028Who do you think you are\u2028to talk down to me like that?{w}\u2028How skilled of a thief do\u2028you think you are?",
+            "speak;Nina;\u2028Who do I think I am?{w}\u2028Ever heard of <red>The Lawbreaker</>\u2028where you come from?",
+            "bop_portrait;Nelson",
+            "speak;Nelson;\u2028!!!;no_talk",
+            "speak;Nelson;\u2028You're{tgm}...{tgm}\u2028You're The Lawbreaker?",
+            "expression;Nina;Smile",
+            "speak;Nina;\u2028The one and only!{w}\u2028So watch who you're\u2028talking to next time!",
+            "speak;Nelson;\u2028You're{tgm}...{tgm}You're famous!{w}\u2028You're supposed to be the thief\u2028who can steal anything{tgm}...{tgm}{w}\u2028Thieves and rogues dream\u2028of becoming you!",
+            "speak;Nina;\u2028Well, not everyone can be as cunning\u2028and skilled as me,{w} but keep watching\u2028and maybe you'll pick up a thing or two.",
+            "multi_remove_portrait;Nelson;Nina",
+            "remove_talk;Nelson;Nina",
+            "remove_talk;Nina;Nelson"
+        ],
+        "nid": "5 T - Nelson Nina"
+    }
+]

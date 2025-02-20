@@ -1,0 +1,30 @@
+[
+    {
+        "name": "T - Nelson Carson",
+        "trigger": "on_talk",
+        "level_nid": "5",
+        "condition": "check_pair('Nelson', 'Carson')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Nelson;Left;Carson;Right",
+            "expression;Nelson;Smile",
+            "speak;Nelson;\u2028Hey man, do you\u2028have a minute?",
+            "expression;Carson;Smile",
+            "speak;Carson;\u2028A minute for what?",
+            "expression;Nelson;NoSmile",
+            "speak;Nelson;\u2028How would you like to help me escape\u2028this boat and steal these fools' gold?{w}\u2028I can see you're a fellow thief.",
+            "expression;Carson;NoSmile",
+            "speak;Carson;\u2028Get your senses together!",
+            "bop_portrait;Carson",
+            "speak;Carson;\u2028These are my friends.{w}\u2028I'm not going to rob them\u2028blind and run away!{w}\u2028My <bconvo>wife</> is one of them!",
+            "bop_portrait;Nelson",
+            "speak;Nelson;\u2028Sorry, sorry!{w}\u2028I can see you're a bit\u2028touchy about that, clearly{tgm}...",
+            "multi_remove_portrait;Nelson;Carson",
+            "remove_talk;Nelson;Carson",
+            "remove_talk;Carson;Nelson"
+        ],
+        "nid": "5 T - Nelson Carson"
+    }
+]

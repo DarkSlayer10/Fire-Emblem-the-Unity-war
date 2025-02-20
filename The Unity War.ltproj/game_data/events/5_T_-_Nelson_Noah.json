@@ -1,0 +1,37 @@
+[
+    {
+        "name": "T - Nelson Noah",
+        "trigger": "on_talk",
+        "level_nid": "5",
+        "condition": "check_pair('Nelson', 'Noah')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Nelson;Left;Noah;Right",
+            "bop_portrait;Noah",
+            "speak;Noah;\u2028Stop right there!",
+            "bop_portrait;Nelson",
+            "speak;Nelson;\u2028Gah! The tax collector!{w}\u2028How did you find me\u2028all the way out here?!",
+            "speak;Noah;\u2028Wh- I'm not tax collector,{c:bop_portrait;Noah}\u2028I'm a retired knight!{w}\u2028I can see from a mile away\u2028that you're some thug,{w} so\u2028I'm making a citizen's arrest!",
+            "expression;Nelson;Smile",
+            "speak;Nelson;\u2028Oh thank heavens. I thought you\u2028were a part of the government.{w}\u2028Don't bother asking which one.\u2028I owe them all money by now.",
+            "expression;Nelson;NoSmile",
+            "speak;Noah;\u2028I overheard your confession to\u2028Emma about stealing that coin{tgm}...{tgm}{w}\u2028I can't allow it, even if you're\u2028stealing from our enemy.",
+            "bop_portrait;Noah",
+            "speak;Noah;\u2028A thief is a thief!",
+            "speak;Nelson;\u2028You see, I think it's more a\u2028matter of perspective, and-",
+            "speak;Noah;\u2028Save the silver tongue\u2028for someone who cares.",
+            "speak;Nelson;\u2028I don't suppose you'll accept\u2028money to leave me alone, will you?",
+            "speak;Noah;\u2028You're a shameful blight.",
+            "speak;Nelson;\u2028How about you watch over me while\u2028I hope you all,{w} so you can make\u2028sure I don't pull any funny business?{w}\u2028And under your close watch, I can{tgm}...{tgm}\u2028reform. Or something like that.",
+            "speak;Noah;\u2028Hm{tgm}...",
+            "speak;Noah;\u2028Fine, but my eyes are\u2028going to be glued to you.{w}\u2028And stay away from\u2028my daughters.",
+            "speak;Nelson;\u2028Why does everyone want me to\u2028stay away from their daughters?{w}\u2028And why can't I find any sane\u2028people as of late?;;;thought_bubble;no_talk",
+            "multi_remove_portrait;Noah;Nelson",
+            "remove_talk;Nelson;Noah",
+            "remove_talk;Noah;Nelson"
+        ],
+        "nid": "5 T - Nelson Noah"
+    }
+]

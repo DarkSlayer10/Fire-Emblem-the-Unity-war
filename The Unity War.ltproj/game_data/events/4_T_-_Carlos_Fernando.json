@@ -14,7 +14,7 @@
             "speak;Carlos;\u2028I wish I could say I'm better{tgm}...{tgm}{w}\u2028I think Kate is going to make a throw rug with\u2028my skin for letting Luna fight these monsters.",
             "speak;Fernando;\u2028Ah, best of luck.{w}\u2028I wouldn't want to be you.",
             "speak;Carlos;\u2028How optimistic{tgm}...{tgm}{w}\u2028How's the rest of\u2028The Defiants, anyway?",
-            "speak;Fernando;\u2028They're fine.{w}\u2028Nina's still stealing.{w}\u2028Alexis is sitll punching.{w}\u2028Sarah is still doubting herself.{tgm}...{tgm}{w}\u2028So nothing's changed.",
+            "speak;Fernando;\u2028They're fine.{w}\u2028Nina's still stealing.{w}\u2028Alexis is still punching.{w}\u2028Sarah is still doubting herself.{tgm}...{tgm}{w}\u2028So nothing's changed.",
             "speak;Carlos;\u2028Ha, consistency is comfort.{w}\u2028Let's catch up some more later.\u2028We've got some demons to kill!",
             "speak;Fernando;Well said!",
             "multi_remove_portrait;Carlos;Fernando",
