@@ -2,7 +2,7 @@
     {
         "nid": "Aurora",
         "name": "Aurora",
-        "desc": "A pirate and Umbran turncoat.\nUnserious but graceful.",
+        "desc": "A stowaway fortune teller.\nCarries scrolls everywhere.\nLoves her pet bird.",
         "variant": null,
         "level": 6,
         "klass": "Diviner",
@@ -46,7 +46,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Spellflux"
+            ],
+            [
+                1,
+                "Birds_Eye_View"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Axe": [

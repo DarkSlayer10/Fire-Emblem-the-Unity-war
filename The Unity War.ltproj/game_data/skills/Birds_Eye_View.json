@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Birds_Eye_View",
+        "name": "Bird's Eye View",
+        "desc": "+2 vision in fog of war.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            2,
+            23
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "sight_range_bonus",
+                2
+            ]
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Spellflux_Anima",
+        "name": "Anima Flow",
+        "desc": "+3 Spd using Dark",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            9,
+            40
+        ],
+        "components": [
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "SPD",
+                        "3 if item_system.weapon_type(unit, item) == 'Dark' else 0"
+                    ]
+                ]
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

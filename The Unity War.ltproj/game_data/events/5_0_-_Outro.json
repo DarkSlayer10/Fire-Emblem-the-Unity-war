@@ -1,0 +1,17 @@
+[
+    {
+        "name": "0 - Outro",
+        "trigger": "level_end",
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Pam;Right",
+            "speak;Pam;\u2028Grr, everyone, let's hit\u2028the seas and retreat!{w}\u2028I'm sorry to disappoint\u2028you, my thirsty magic{tgm}...",
+            "remove_portrait;Pam"
+        ],
+        "nid": "5 0 - Outro"
+    }
+]

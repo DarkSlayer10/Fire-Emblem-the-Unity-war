@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Spellflux",
+        "name": "Spellflux",
+        "desc": "After using Dark, +3 Mag with Anima.\nAfter using Anima, +3 Spd with Dark.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            9,
+            40
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "event_after_combat",
+                "Global A - Spellflux"
+            ]
+        ]
+    }
+]

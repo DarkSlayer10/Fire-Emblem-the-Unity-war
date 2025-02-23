@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Spellflux_Dark",
+        "name": "Dark Flow",
+        "desc": "+3 Mag using Anima.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            9,
+            40
+        ],
+        "components": [
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "MAG",
+                        "3 if item_system.weapon_type(unit, item) == 'Anima' else 0"
+                    ]
+                ]
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]
