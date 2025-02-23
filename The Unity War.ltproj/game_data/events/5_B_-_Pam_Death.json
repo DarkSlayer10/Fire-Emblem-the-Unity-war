@@ -1,0 +1,19 @@
+[
+    {
+        "name": "B - Pam Death",
+        "trigger": "combat_death",
+        "level_nid": "5",
+        "condition": "unit.nid == 'Pam'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Pam;LeftCorner",
+            "speak;Pam;\u2028Yes, yes, this is it{tgm}...{tgm}!{w}\u2028Ah, but, I have my\u2028duties to perform.{w}\u2028I can't indulge any\u2028further, I suppose.",
+            "remove_portrait;Pam",
+            "show_combat_ui"
+        ],
+        "nid": "5 B - Pam Death"
+    }
+]
