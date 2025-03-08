@@ -1,7 +1,7 @@
 [
     {
         "name": "0 - Outro",
-        "trigger": "level_start",
+        "trigger": "level_end",
         "level_nid": "4",
         "condition": "True",
         "commands": [],
