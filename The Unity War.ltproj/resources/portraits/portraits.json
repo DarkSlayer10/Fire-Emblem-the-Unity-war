@@ -288,18 +288,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Nicole",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Sydnie",
         "blinking_offset": [
             24,
@@ -704,6 +692,18 @@
         "smiling_offset": [
             24,
             40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Nicole",
+        "blinking_offset": [
+            19,
+            25
+        ],
+        "smiling_offset": [
+            19,
+            41
         ],
         "info_offset": 0
     }
