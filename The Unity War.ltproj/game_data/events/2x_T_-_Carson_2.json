@@ -40,6 +40,7 @@
             "speak;Emma;...;no_talk",
             "speak;Emma;\u2028Oh, Nicole...you seem so nice.{w}\u2028You deserve so much better.;;;thought_bubble;no_talk",
             "multi_remove_portrait;Carson;Emma;Nicole",
+            "remove_unit;Carson",
             "remove_talk;Emma;Carson",
             "inc_level_var;carson_nicole_camp"
         ],

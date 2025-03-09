@@ -13,7 +13,7 @@
             "boss_battle": "Boss Battle"
         },
         "objective": {
-            "simple": "Seize the throne",
+            "simple": "Seize throne",
             "win": "Seize",
             "loss": "Emma or Emily dies"
         },

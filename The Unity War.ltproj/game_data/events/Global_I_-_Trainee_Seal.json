@@ -1,0 +1,16 @@
+[
+    {
+        "name": "I - Trainee Seal",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.nid == 'Marica'",
+            "end"
+        ],
+        "nid": "Global I - Trainee Seal"
+    }
+]

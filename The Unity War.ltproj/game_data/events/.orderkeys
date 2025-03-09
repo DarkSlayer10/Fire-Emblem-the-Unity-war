@@ -184,7 +184,6 @@
     "2_B_-_Sydnie_Death",
     "3_B_-_Barret_Death",
     "5_B_-_Pam_Death",
-    "3_W_-_Defeat_Boss",
     "Global_A_-_Stay_of_Execution",
     "Global_A_-_Rising_Flames",
     "4_M_-_Visit_Carlos",
@@ -215,5 +214,7 @@
     "5_2_-_Thiefn't",
     "5_1_-_Reinf_Turn_5",
     "Global_A_-_Spellflux",
-    "5_W_-_Defeat_Boss"
+    "5_W_-_Defeat_Boss",
+    "Global_I_-_Trainee_Seal",
+    "3_W_-_Seize"
 ]

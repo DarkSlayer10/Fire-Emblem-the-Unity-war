@@ -20,6 +20,12 @@
             [
                 "hidden",
                 null
+            ],
+            [
+                "has_tags",
+                [
+                    "Flying"
+                ]
             ]
         ]
     }
