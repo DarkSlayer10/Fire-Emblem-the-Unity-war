@@ -108,7 +108,8 @@
             "add_talk;Emily;Caroline",
             "add_talk;Caroline;Emma",
             "add_talk;Caroline;Emily",
-            "add_region;Escape;17,16;2,1;event;Escape"
+            "add_region;Escape;17,16;2,1;event;Escape",
+            "change_stats;101;SPD,-3;immediate"
         ],
         "nid": "0 0 - Intro"
     }
