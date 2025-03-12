@@ -20,7 +20,7 @@
             "speak;Sonia;\u2028Just stay behind me.{w}\u2028Your squishy body wasn't meant to\u2028take attacks from these monsters.",
             "speak;Nicole;\u2028Oh honey, that's easy to say when\u2028you're as tall as the watchtowers,{w}\u2028with arms the size of tree trunks!",
             "speak;Sonia;\u2028I don't know what you're\u2028talking about,{w} but you should\u2028just stay out of the action.",
-            "speak;Nicole;\u2028Trust me sugar, ain't nobody\u2028gotta tell me twice.{w}\u2028I'm n ot going belly up here.",
+            "speak;Nicole;\u2028Trust me sugar, ain't nobody\u2028gotta tell me twice.{w}\u2028I'm not going belly up here.",
             "multi_remove_portrait;Sonia;Nicole",
             "remove_talk;Sonia;Nicole",
             "remove_talk;Nicole;Sonia",

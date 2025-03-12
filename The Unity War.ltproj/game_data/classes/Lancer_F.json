@@ -55,15 +55,15 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 0,
-            "STR": 0,
+            "HP": 2,
+            "STR": 1,
             "MAG": 0,
-            "SKL": 0,
+            "SKL": 2,
             "SPD": 0,
             "LCK": 0,
-            "DEF": 0,
+            "DEF": 1,
             "CON": 0,
-            "MOV": 0,
+            "MOV": -97,
             "RES": 0,
             "LEAD": 0
         },

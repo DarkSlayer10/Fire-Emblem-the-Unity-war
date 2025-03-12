@@ -49,14 +49,14 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
+            "HP": 3,
+            "STR": 1,
+            "MAG": 1,
+            "SKL": 1,
+            "SPD": 1,
             "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
+            "DEF": 1,
+            "RES": 1,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0

@@ -8,8 +8,8 @@
         "promotes_from": null,
         "turns_into": [
             "Lancer",
-            "Knight",
-            "Pegasus_Knight"
+            "Soldier_F",
+            "Knight"
         ],
         "tags": [],
         "max_level": 10,

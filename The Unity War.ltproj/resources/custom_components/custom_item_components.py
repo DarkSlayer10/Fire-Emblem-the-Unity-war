@@ -11,6 +11,7 @@ from app.utilities import utils, static_random
 
 from app.engine.item_components.hit_components import Steal
 from app.engine.combat import playback as pb
+from app.utilities import utils
 
 
 class DoNothing(ItemComponent):
@@ -20,6 +21,19 @@ class DoNothing(ItemComponent):
 
     expose = ComponentType.Int
     value = 1
+    
+def ai_status_priority(unit, target, item, move, status_nid) -> float:
+    if target and status_nid not in [skill.nid for skill in target.skills]:
+        accuracy_term = utils.clamp(combat_calcs.compute_hit(unit, target, item, target.get_weapon(), "attack", (0, 0))/100., 0, 1)
+        num_attacks = combat_calcs.outspeed(unit, target, item, target.get_weapon(), "attack", (0, 0))
+        accuracy_term *= num_attacks
+        # Tries to maximize distance from target
+        distance_term = 0.01 * utils.calculate_distance(move, target.position)
+        if skill_system.check_enemy(unit, target):
+            return 0.5 * accuracy_term + distance_term
+        else:
+            return -0.5 * accuracy_term
+    return 0
 
 class StatusAfterCombat(ItemComponent):
     nid = 'status_after_combat'

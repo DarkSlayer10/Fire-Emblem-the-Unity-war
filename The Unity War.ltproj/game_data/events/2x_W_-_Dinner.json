@@ -29,7 +29,7 @@
             "multi_add_portrait;Emily;Left;Emma;Right",
             "speak;Emily;\u2028How is everyone?{w}\u2028It looks like you were\u2028pretty chatty before dinner.",
             "speak;Emma;\u2028I was just checking up on everyone.{w}\u2028Seems like they were mostly alright.{w}\u2028Everyone's tired, though.",
-            "speak;Emma;\u2028Listen, I'll be with Mom, so come over\u2028if you want to watch the stars with us.",
+            "speak;Emily;\u2028Listen, I'll be with Mom, so come over\u2028if you want to watch the stars with us.",
             "bop_portrait;Emma",
             "speak;Emma;\u2028Alright, I'll see you later!",
             "multi_remove_portrait;Emma;Emily",

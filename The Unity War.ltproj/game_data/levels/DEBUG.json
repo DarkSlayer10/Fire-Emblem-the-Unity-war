@@ -56,17 +56,21 @@
                 "nid": "101",
                 "variant": null,
                 "level": 5,
-                "klass": "Mage",
+                "klass": "Queen_Bael",
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Fire",
+                        "Sharp_Claw",
+                        false
+                    ],
+                    [
+                        "Ghost_Wail",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [

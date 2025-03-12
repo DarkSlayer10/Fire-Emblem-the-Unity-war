@@ -10,7 +10,9 @@
             "enemy_phase": "Bandit Phase",
             "player_battle": "Battle",
             "enemy_battle": "Enemy Battle",
-            "boss_battle": "Boss Battle"
+            "boss_battle": "Boss Battle",
+            "other_phase": "Dawn Brigade",
+            "other_battle": "Battle"
         },
         "objective": {
             "simple": "Seize the throne",
