@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Sisterly_Rivalry",
+        "name": "Sisterly Rivalry",
+        "desc": "+3 Str/Mag/Spd for 1 turn\nafter Emma defeats a foe.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            13,
+            42
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ]
+        ]
+    }
+]

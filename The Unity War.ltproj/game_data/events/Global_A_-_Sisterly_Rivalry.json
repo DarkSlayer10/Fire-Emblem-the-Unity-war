@@ -1,0 +1,15 @@
+[
+    {
+        "name": "A - Sisterly Rivalry",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit2.nid == 'Emma'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_skill;Emily;Sisterly_Rivalry_S;;no_banner"
+        ],
+        "nid": "Global A - Sisterly Rivalry"
+    }
+]
