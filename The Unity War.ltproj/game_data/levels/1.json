@@ -548,7 +548,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_BottomLeft",
@@ -565,7 +566,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_Center",
@@ -582,7 +584,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_TopRight",
@@ -599,7 +602,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_Clinic",
@@ -616,7 +620,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_Armory",
@@ -633,7 +638,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             }
         ],
         "unit_groups": [

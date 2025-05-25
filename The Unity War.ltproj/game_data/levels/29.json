@@ -39,7 +39,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_2",
@@ -56,7 +57,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_3",
@@ -73,7 +75,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_4",
@@ -90,7 +93,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_5",
@@ -107,7 +111,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_6",
@@ -124,7 +129,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_7",
@@ -141,7 +147,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_8",
@@ -158,7 +165,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_9",
@@ -175,7 +183,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_10",
@@ -192,7 +201,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_11",
@@ -209,7 +219,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_12",
@@ -226,7 +237,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_13",
@@ -243,7 +255,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_14",
@@ -260,7 +273,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_Carlos",
@@ -277,7 +291,8 @@
                 "condition": "not v('carlos')",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_Left",
@@ -294,7 +309,8 @@
                 "condition": "not v('left')",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_Center",
@@ -311,7 +327,8 @@
                 "condition": "not v('center')",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_Top",
@@ -328,7 +345,8 @@
                 "condition": "not v('top')",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_Bottom",
@@ -345,7 +363,8 @@
                 "condition": "not v('bottom')",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "bottom",
@@ -362,7 +381,8 @@
                 "condition": "not v('bottom') and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "carlos",
@@ -379,7 +399,8 @@
                 "condition": "not v('carlos') and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "center",
@@ -396,7 +417,8 @@
                 "condition": "not v('center') and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "top",
@@ -413,7 +435,8 @@
                 "condition": "not v('top') and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "left",
@@ -430,7 +453,8 @@
                 "condition": "not v('left') and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_Tavern",
@@ -447,7 +471,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_Arena",
@@ -464,7 +489,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "door",
@@ -481,7 +507,8 @@
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "DUMMY",
@@ -498,7 +525,8 @@
                 "condition": "False",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Seize",
@@ -515,7 +543,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             }
         ],
         "unit_groups": [

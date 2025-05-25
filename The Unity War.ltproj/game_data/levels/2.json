@@ -1074,7 +1074,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_2",
@@ -1091,7 +1092,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_3",
@@ -1108,7 +1110,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_4",
@@ -1125,7 +1128,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_5",
@@ -1142,7 +1146,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_6",
@@ -1159,7 +1164,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "F_7",
@@ -1176,7 +1182,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "topleft",
@@ -1193,7 +1200,8 @@
                 "condition": "not v('topleft') and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "farleft",
@@ -1210,7 +1218,8 @@
                 "condition": "not v('farleft') and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "centerleft",
@@ -1227,7 +1236,8 @@
                 "condition": "not v('centerleft') and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "centerright",
@@ -1244,7 +1254,8 @@
                 "condition": "not v('centerright') and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "bottomright",
@@ -1261,7 +1272,8 @@
                 "condition": "not v('bottomright') and unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_TopLeft",
@@ -1278,7 +1290,8 @@
                 "condition": "not v('topleft')",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_FarLeft",
@@ -1295,7 +1308,8 @@
                 "condition": "not v('farleft')",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_CenterLeft",
@@ -1312,7 +1326,8 @@
                 "condition": "not v('centerleft')",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_CenterRight",
@@ -1329,7 +1344,8 @@
                 "condition": "not v('centerright')",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Visit_BottomRight",
@@ -1346,7 +1362,8 @@
                 "condition": "not v('bottomright')",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Armory",
@@ -1363,7 +1380,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             },
             {
                 "nid": "Vendor",
@@ -1380,7 +1398,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             }
         ],
         "unit_groups": [

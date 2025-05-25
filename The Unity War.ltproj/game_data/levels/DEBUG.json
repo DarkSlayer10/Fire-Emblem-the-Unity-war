@@ -121,7 +121,8 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false
+                "interrupt_move": false,
+                "hide_time": false
             }
         ],
         "unit_groups": [],
