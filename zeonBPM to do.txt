@@ -1,0 +1,40 @@
+Add missing animations
+fix wrong background animations
+
+finish items, most statuses are set to FORT
+
+finish classes, some are placeholders, need stats and skills
+
+Some units lack items or stats/skills
+
+
+complete lack of supports and lore
+
+Class Skills
+Darkbearer	Shadowgift	redundant
+Wanderer	Deadly strikes	crit+15
+Necromancer	Summon Phantom	Change?
+Windrunner	Outdoor Fighter	+10hit/avo outdoors
+Arch Knight	Darting Blow	+5AS on attack
+Wolf Knight	Fierce			+15hit/avo the not at max hp
+							daggers
+Centurion	+15 crit(should not have, this is intended for single weapon classes, centurion gains swords)	pavise	skl% of ignore damage
+
+
+
+
+Promotions
+??? > Wanderer		no clue
+Nomad > ???			
+??? > Arch Knight	needs promo stats
+??? > Wolf Knight	needs promo stats	
+
+
+Tags
+Tarvos 	add horse tag?
+Wolf Knight	armored?horse?
+
+
+
+Items
+Actually add daggers, and make them work as intended, will have to compromise on animations

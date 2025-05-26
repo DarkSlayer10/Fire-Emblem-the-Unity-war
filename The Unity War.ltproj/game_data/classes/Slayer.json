@@ -6,7 +6,9 @@
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
-        "turns_into": [],
+        "turns_into": [
+            "Demon_Prince"
+        ],
         "tags": [
             "Lord",
             "Monster"
@@ -66,13 +68,13 @@
         },
         "max_stats": {
             "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
+            "STR": 22,
+            "MAG": 22,
+            "SKL": 22,
+            "SPD": 22,
             "LCK": 20,
-            "DEF": 20,
-            "RES": 20,
+            "DEF": 22,
+            "RES": 22,
             "CON": 25,
             "MOV": 15,
             "LEAD": 30
@@ -101,7 +103,7 @@
             ],
             "Bow": [
                 false,
-                31,
+                0,
                 null
             ],
             "Staff": [

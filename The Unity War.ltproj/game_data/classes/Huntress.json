@@ -65,14 +65,14 @@
             "LEAD": 0
         },
         "max_stats": {
-            "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 20,
-            "DEF": 20,
-            "RES": 20,
+            "HP": 80,
+            "STR": 28,
+            "MAG": 26,
+            "SKL": 30,
+            "SPD": 28,
+            "LCK": 30,
+            "DEF": 26,
+            "RES": 26,
             "CON": 25,
             "MOV": 15,
             "LEAD": 30

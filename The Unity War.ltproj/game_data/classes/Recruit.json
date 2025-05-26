@@ -11,19 +11,21 @@
             "Soldier_F",
             "Knight"
         ],
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "max_level": 10,
         "bases": {
-            "HP": 23,
-            "STR": 6,
+            "HP": 13,
+            "STR": 3,
             "MAG": 0,
-            "SKL": 6,
-            "SPD": 11,
+            "SKL": 0,
+            "SPD": 1,
             "LCK": 0,
-            "DEF": 7,
-            "RES": 6,
+            "DEF": 0,
+            "RES": 1,
             "CON": 6,
-            "MOV": 5,
+            "MOV": 4,
             "LEAD": 0
         },
         "growths": {
@@ -67,13 +69,13 @@
         },
         "max_stats": {
             "HP": 60,
-            "STR": 23,
-            "MAG": 23,
-            "SKL": 30,
-            "SPD": 29,
-            "LCK": 30,
-            "DEF": 22,
-            "RES": 26,
+            "STR": 60,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "RES": 20,
             "CON": 20,
             "MOV": 15,
             "LEAD": 30

@@ -66,14 +66,14 @@
             "LEAD": 0
         },
         "max_stats": {
-            "HP": 60,
-            "STR": 0,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 20,
-            "DEF": 20,
-            "RES": 20,
+            "HP": 80,
+            "STR": 27,
+            "MAG": 24,
+            "SKL": 26,
+            "SPD": 24,
+            "LCK": 30,
+            "DEF": 25,
+            "RES": 23,
             "CON": 25,
             "MOV": 15,
             "LEAD": 30
@@ -82,6 +82,10 @@
             [
                 1,
                 "Supply"
+            ],
+            [
+                1,
+                "Canto"
             ]
         ],
         "wexp_gain": {

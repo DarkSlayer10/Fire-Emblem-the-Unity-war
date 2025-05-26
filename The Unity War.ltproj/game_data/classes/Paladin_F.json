@@ -9,7 +9,8 @@
         "turns_into": [],
         "tags": [
             "Horse",
-            "Mounted"
+            "Mounted",
+            "Female"
         ],
         "max_level": 20,
         "bases": {
@@ -95,8 +96,8 @@
                 251
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                30,
                 251
             ],
             "Bow": [

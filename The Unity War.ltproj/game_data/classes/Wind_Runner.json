@@ -5,7 +5,7 @@
         "desc": "Female centaurs that focus on support.\nUses swords, staves, and magic.",
         "tier": 2,
         "movement_group": "Light Cav",
-        "promotes_from": null,
+        "promotes_from": "Templar",
         "turns_into": [],
         "tags": [
             "Mounted",
@@ -53,14 +53,14 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
+            "HP": 3,
+            "STR": 2,
+            "MAG": 4,
             "SKL": 0,
-            "SPD": 0,
+            "SPD": 2,
             "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
+            "DEF": 2,
+            "RES": 2,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0

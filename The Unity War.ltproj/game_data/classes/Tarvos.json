@@ -2,35 +2,38 @@
     {
         "nid": "Tarvos",
         "name": "Travos",
-        "desc": "",
+        "desc": "Vile man-beasts who thunder into\ncombat with colossal axes.",
         "tier": 1,
-        "movement_group": "Light Foot",
-        "promotes_from": null,
+        "movement_group": "Light Cav",
+        "promotes_from": "Khan",
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Mounted",
+            "Monster"
+        ],
         "max_level": 20,
         "bases": {
-            "HP": 0,
-            "STR": 0,
+            "HP": 21,
+            "STR": 6,
             "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
+            "SKL": 2,
+            "SPD": 5,
+            "DEF": 7,
             "RES": 0,
             "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
+            "CON": 10,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
+            "HP": 80,
+            "STR": 35,
             "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
-            "LCK": 0,
+            "SKL": 40,
+            "SPD": 28,
+            "DEF": 15,
+            "RES": 15,
+            "LCK": 10,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -63,16 +66,16 @@
         },
         "max_stats": {
             "HP": 60,
-            "STR": 30,
-            "MAG": 30,
-            "SKL": 30,
-            "SPD": 30,
-            "DEF": 30,
-            "RES": 30,
-            "LCK": 30,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 20,
+            "RES": 20,
+            "LCK": 20,
             "CON": 25,
             "MOV": 15,
-            "LEAD": 10
+            "LEAD": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -87,8 +90,8 @@
                 null
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                71,
                 null
             ],
             "Bow": [

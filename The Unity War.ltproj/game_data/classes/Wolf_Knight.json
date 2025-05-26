@@ -2,36 +2,38 @@
     {
         "nid": "Wolf_Knight",
         "name": "Wolf Knight",
-        "desc": "",
-        "tier": 1,
-        "movement_group": "Light Foot",
+        "desc": "A speed knight riding a wolf,\nWelds daggers, swords and axes.",
+        "tier": 2,
+        "movement_group": "Light Cav",
         "promotes_from": null,
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Mounted"
+        ],
         "max_level": 20,
         "bases": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
+            "HP": 22,
+            "STR": 6,
+            "MAG": 1,
+            "SKL": 8,
+            "SPD": 8,
+            "DEF": 4,
+            "RES": 2,
             "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
+            "CON": 8,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
+            "HP": 55,
+            "STR": 60,
             "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
+            "SKL": 50,
+            "SPD": 60,
+            "DEF": 15,
+            "RES": 10,
+            "LCK": 40,
+            "CON": 10,
             "MOV": 0,
             "LEAD": 0
         },
@@ -58,27 +60,32 @@
             "RES": 0,
             "LCK": 0,
             "CON": 0,
-            "MOV": 0,
+            "MOV": 1,
             "LEAD": 0
         },
         "max_stats": {
-            "HP": 60,
-            "STR": 30,
-            "MAG": 30,
-            "SKL": 30,
-            "SPD": 30,
-            "DEF": 30,
-            "RES": 30,
+            "HP": 80,
+            "STR": 27,
+            "MAG": 20,
+            "SKL": 28,
+            "SPD": 28,
+            "DEF": 26,
+            "RES": 26,
             "LCK": 30,
             "CON": 25,
             "MOV": 15,
             "LEAD": 10
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
-                false,
-                0,
+                true,
+                71,
                 null
             ],
             "Lance": [
@@ -87,8 +94,8 @@
                 null
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                71,
                 null
             ],
             "Bow": [
