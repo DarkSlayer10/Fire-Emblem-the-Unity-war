@@ -2,7 +2,7 @@
     {
         "nid": "Outlaw",
         "name": "Outlaw",
-        "desc": "Talented thieves and lockbreakers\nwielding swords and bows.",
+        "desc": "A treasure hunter that uses bows\ninstead of swords.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -11,7 +11,8 @@
             "Rogue"
         ],
         "tags": [
-            "Sword"
+            "Sword",
+            "Female"
         ],
         "max_level": 20,
         "bases": {
@@ -31,7 +32,7 @@
             "HP": 90,
             "STR": 45,
             "MAG": 10,
-            "SKL": 45,
+            "SKL": 40,
             "SPD": 45,
             "LCK": 40,
             "DEF": 15,
@@ -72,7 +73,7 @@
             "MAG": 20,
             "SKL": 20,
             "SPD": 20,
-            "LCK": 30,
+            "LCK": 20,
             "DEF": 20,
             "RES": 20,
             "CON": 20,
@@ -87,8 +88,8 @@
         ],
         "wexp_gain": {
             "Sword": [
-                true,
-                1,
+                false,
+                31,
                 251
             ],
             "Lance": [
@@ -103,7 +104,7 @@
             ],
             "Bow": [
                 true,
-                1,
+                31,
                 251
             ],
             "Staff": [

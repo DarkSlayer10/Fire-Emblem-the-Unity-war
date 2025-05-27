@@ -2,7 +2,7 @@
     {
         "nid": "General_F",
         "name": "General",
-        "desc": "",
+        "desc": "Knights of great skill. Equip: Swords,\nlances, axes. ",
         "tier": 2,
         "movement_group": "Armors",
         "promotes_from": "Knight",
@@ -64,7 +64,7 @@
             "LEAD": 0
         },
         "max_stats": {
-            "HP": 60,
+            "HP": 80,
             "STR": 29,
             "MAG": 22,
             "SKL": 28,
@@ -95,7 +95,7 @@
             ],
             "Bow": [
                 false,
-                0,
+                1,
                 251
             ],
             "Staff": [

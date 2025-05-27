@@ -7,11 +7,11 @@
         "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [
-            "Apprentice",
             "Hero"
         ],
         "tags": [
-            "Sword"
+            "Sword",
+            "Female"
         ],
         "max_level": 20,
         "bases": {

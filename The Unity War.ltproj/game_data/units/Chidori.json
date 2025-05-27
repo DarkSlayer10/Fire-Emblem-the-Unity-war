@@ -20,7 +20,7 @@
             "RES": 15,
             "CON": 7,
             "MOV": 6,
-            "LEAD": 0
+            "LEAD": 3
         },
         "growths": {
             "HP": 75,

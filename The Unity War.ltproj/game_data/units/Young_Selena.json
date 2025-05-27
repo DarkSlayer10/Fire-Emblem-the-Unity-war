@@ -18,7 +18,7 @@
             "MAG": 18,
             "CON": 7,
             "MOV": 7,
-            "LEAD": 0
+            "LEAD": 3
         },
         "growths": {
             "HP": 70,

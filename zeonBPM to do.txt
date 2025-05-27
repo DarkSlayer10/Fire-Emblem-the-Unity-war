@@ -19,7 +19,18 @@ Arch Knight	Darting Blow	+5AS on attack
 Wolf Knight	Fierce			+15hit/avo the not at max hp
 							daggers
 Centurion	+15 crit(should not have, this is intended for single weapon classes, centurion gains swords)	pavise	skl% of ignore damage
-
+Knight		check for bow animation
+General		check for bow animation		triangle adept	X2 effects
+Great knight	check for bow animation
+Outlaw		can use scimitars?
+Trickster		needs new animation	Arcane Blade	on attack at 1 range, add 3+1/2MAG to hit and crit	Silencer/Lethality	crit +15	should probably give a MAG growth bonus
+Stalker	Killer instinct, crit is based in SKL*1.5	Ballista?	Lethality
+Assassin	+15crit	Lethality	scimitar?
+Rogue	Heavy Blade	+4dmg-2spd when CON>enemy CON	Pass 	Lord?	monster weapons?
+Thief classes in general,		need a guide on what to do with them, they are all a copy paste and i have no clue what promotes into what 
+Sellsword	Paragon	trainee		why C rank swords tho? looks like a copypaste from another class, needs to be remade
+Thug		Lord?	Monster wpn?	
+Hero		Pragmatic	when enemy not at full hp	+3dmg -1 damage taken
 
 
 
@@ -38,3 +49,8 @@ Wolf Knight	armored?horse?
 
 Items
 Actually add daggers, and make them work as intended, will have to compromise on animations
+
+
+units
+Azumi		3Lead
+Charlotte
