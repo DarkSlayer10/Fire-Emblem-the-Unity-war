@@ -6,7 +6,10 @@
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
-        "turns_into": [],
+        "turns_into": [
+            "Dark_Knight",
+            "Druid"
+        ],
         "tags": [],
         "max_level": 20,
         "bases": {

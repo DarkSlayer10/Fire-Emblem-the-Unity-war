@@ -7,6 +7,7 @@
         "movement_group": "Armors",
         "promotes_from": null,
         "turns_into": [
+            "Centurion_F",
             "General",
             "Great_Knight"
         ],

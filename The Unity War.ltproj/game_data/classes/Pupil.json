@@ -7,8 +7,7 @@
         "movement_group": "Mages",
         "promotes_from": null,
         "turns_into": [
-            "Sage",
-            "Mage_Knight"
+            "Mage"
         ],
         "tags": [],
         "max_level": 20,

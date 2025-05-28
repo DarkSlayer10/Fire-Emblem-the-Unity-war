@@ -7,6 +7,8 @@
         "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [
+            "Paladin_F",
+            "Arch_Knight",
             "Centurion_F"
         ],
         "tags": [],

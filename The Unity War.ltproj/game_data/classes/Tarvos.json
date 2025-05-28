@@ -5,8 +5,10 @@
         "desc": "Vile man-beasts who thunder into\ncombat with colossal axes.",
         "tier": 1,
         "movement_group": "Light Cav",
-        "promotes_from": "Khan",
-        "turns_into": [],
+        "promotes_from": null,
+        "turns_into": [
+            "Khan"
+        ],
         "tags": [
             "Mounted",
             "Monster"

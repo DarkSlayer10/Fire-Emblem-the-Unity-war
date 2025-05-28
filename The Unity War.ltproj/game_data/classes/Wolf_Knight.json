@@ -5,7 +5,7 @@
         "desc": "A speed knight riding a wolf,\nWelds daggers, swords and axes.",
         "tier": 2,
         "movement_group": "Light Cav",
-        "promotes_from": null,
+        "promotes_from": "Raider",
         "turns_into": [],
         "tags": [
             "Mounted"

@@ -1,7 +1,7 @@
 [
     {
         "nid": "Bishop_F",
-        "name": "Bishop",
+        "name": "Priestess",
         "desc": "Mages gifted with visions of the future.",
         "tier": 2,
         "movement_group": "Mages",

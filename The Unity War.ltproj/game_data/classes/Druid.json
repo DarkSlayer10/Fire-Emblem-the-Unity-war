@@ -5,7 +5,7 @@
         "desc": "Wielders of magic who are stronger,\nbut slower, than mages. Equip: Dark.",
         "tier": 1,
         "movement_group": "Mages",
-        "promotes_from": null,
+        "promotes_from": "Shaman",
         "turns_into": [],
         "tags": [],
         "max_level": 20,

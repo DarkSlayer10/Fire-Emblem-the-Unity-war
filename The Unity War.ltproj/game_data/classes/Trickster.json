@@ -6,13 +6,9 @@
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": null,
-        "turns_into": [
-            "Assassin",
-            "Rogue"
-        ],
+        "turns_into": [],
         "tags": [
-            "Sword",
-            "Female"
+            "Sword"
         ],
         "max_level": 20,
         "bases": {

@@ -7,8 +7,8 @@
         "movement_group": "Regular",
         "promotes_from": null,
         "turns_into": [
-            "Hero",
-            "Warrior"
+            "Warrior",
+            "Berserker"
         ],
         "tags": [],
         "max_level": 20,

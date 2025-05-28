@@ -1,79 +1,19 @@
 [
     {
-        "nid": "Witch",
-        "name": "Witch",
+        "nid": "War_Master",
+        "name": "War Master",
         "desc": "",
-        "tier": 2,
+        "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [],
         "tags": [],
         "max_level": 20,
-        "bases": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
-        },
-        "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
-        },
-        "growth_bonus": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
-        },
-        "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 30,
-            "MAG": 30,
-            "SKL": 30,
-            "SPD": 30,
-            "DEF": 30,
-            "RES": 30,
-            "LCK": 30,
-            "CON": 25,
-            "MOV": 15,
-            "LEAD": 10
-        },
+        "bases": {},
+        "growths": {},
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {},
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
@@ -137,7 +77,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Q_1",
+        "map_sprite_nid": null,
         "combat_anim_nid": null,
         "fields": []
     }

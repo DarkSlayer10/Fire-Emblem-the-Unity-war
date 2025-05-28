@@ -8,6 +8,7 @@
         "promotes_from": null,
         "turns_into": [
             "Paladin",
+            "Arch_Knight",
             "Great_Knight"
         ],
         "tags": [

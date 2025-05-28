@@ -7,8 +7,9 @@
         "movement_group": "Fliers",
         "promotes_from": null,
         "turns_into": [
-            "Wyvern Lord",
-            "Wyvern Knight"
+            "Wyvern_Lord_F",
+            "Wyvern_Knight_F",
+            "Malig_Knight"
         ],
         "tags": [
             "Mounted",

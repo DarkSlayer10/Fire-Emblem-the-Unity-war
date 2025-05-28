@@ -15,10 +15,10 @@ Darkbearer	Shadowgift	redundant
 Wanderer	Deadly strikes	crit+15
 Necromancer	Summon Phantom	Change?
 Windrunner	Outdoor Fighter	+10hit/avo outdoors
-Arch Knight	Darting Blow	+5AS on attack
+Arch Knight	Darting Blow	+5AS on attack	check for bow animation
 Wolf Knight	Fierce			+15hit/avo the not at max hp
 							daggers
-Centurion	+15 crit(should not have, this is intended for single weapon classes, centurion gains swords)	pavise	skl% of ignore damage
+Centurion	+15 crit(should not have, this is intended for single weapon classes, centurion gains swords)	pavise	skl% of ignore damage	check for bow animation
 Knight		check for bow animation
 General		check for bow animation		triangle adept	X2 effects
 Great knight	check for bow animation
@@ -32,13 +32,66 @@ Sellsword	Paragon	trainee		why C rank swords tho? looks like a copypaste from an
 Thug		Lord?	Monster wpn?	
 Hero		Pragmatic	when enemy not at full hp	+3dmg -1 damage taken
 
+Fighter		had hero promotion
+
+Ronin = Hanshi??
+
+
+Why does Mage Knight U even exist?
 
 
 Promotions
+Lancer has 3 branches while scout and raider have 2
 ??? > Wanderer		no clue
+??? > Necromancer
 Nomad > ???			
 ??? > Arch Knight	needs promo stats
 ??? > Wolf Knight	needs promo stats	
+??? > Stalker > ???
+Sellsword > ??? > ???
+Thug > ???
+Maiden > ???	
+Dragoness > ???
+Mistress > ???
+??? > Hanshi
+??? > Trueblade
+Adventurer > ???
+Fledgling > Pegasus + ??? + ???(Trainees tend to have 3 branches)
+Harrier > ???
+Falon Sage > ???
+??? > Griffin Rider
+Pupil > Mage + ??? + ???
+Diviner > ???
+??? > Oni Chieftain
+??? > Kitsune Sage
+??? > Dark Knight
+Saint > ???
+Maid > ???
+Trouvadour G > ???	i assume this is exclusive to someone
+??? > Summoner
+??? > Sorcerer
+Sentinel > ???
+Pirate > Berserker + ???
+Mogall > Arch mogall + ???(Watcher is not set, and it may no be available to all mogalls)
+Queen Bael/Bael Queen	Rename one
+??? > Cyclops
+Succubus > ???
+Warbird > ???
+Harpy > ???
+Manakete > ???
+Gorgon > ???
+Dryad > ???
+Lamia > ???
+Harbringer > ???
+??? > Mermaid
+
+
+
+
+
+
+
+
 
 
 Tags

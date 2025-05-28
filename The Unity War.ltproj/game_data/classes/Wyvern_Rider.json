@@ -8,7 +8,8 @@
         "promotes_from": null,
         "turns_into": [
             "Wyvern Lord",
-            "Wyvern Knight"
+            "Wyvern Knight",
+            "Malig_Knight"
         ],
         "tags": [
             "Mounted",

@@ -7,7 +7,9 @@
         "movement_group": "Mages",
         "promotes_from": null,
         "turns_into": [
-            "Bishop"
+            "Battle_Sage",
+            "Bishop_F",
+            "War_Cleric"
         ],
         "tags": [],
         "max_level": 20,

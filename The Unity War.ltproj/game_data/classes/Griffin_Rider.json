@@ -6,7 +6,9 @@
         "tier": 1,
         "movement_group": "Fliers",
         "promotes_from": null,
-        "turns_into": [],
+        "turns_into": [
+            "Griffin_Knight"
+        ],
         "tags": [],
         "max_level": 20,
         "bases": {

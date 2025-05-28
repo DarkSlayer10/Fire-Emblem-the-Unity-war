@@ -5,7 +5,7 @@
         "desc": "Devotees of the axe. Relentless savages that deliver devastating stikes.",
         "tier": 2,
         "movement_group": "Pirates",
-        "promotes_from": "Pirate",
+        "promotes_from": "Pirate_F",
         "turns_into": [],
         "tags": [],
         "max_level": 20,
