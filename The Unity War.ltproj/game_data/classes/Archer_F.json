@@ -10,7 +10,9 @@
             "Bow_Knight_F",
             "Sniper_F"
         ],
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 20,

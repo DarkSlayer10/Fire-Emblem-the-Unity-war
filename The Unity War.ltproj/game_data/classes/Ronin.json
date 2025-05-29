@@ -3,13 +3,15 @@
         "nid": "Ronin",
         "name": "Ronin",
         "desc": "",
-        "tier": 1,
+        "tier": 2,
         "movement_group": null,
         "promotes_from": null,
         "turns_into": [],
         "tags": [],
         "max_level": 20,
-        "bases": {},
+        "bases": {
+            "HP": 0
+        },
         "growths": {},
         "growth_bonus": {},
         "promotion": {},
@@ -17,13 +19,13 @@
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
-                false,
-                0,
+                true,
+                200,
                 null
             ],
             "Lance": [
                 false,
-                0,
+                71,
                 null
             ],
             "Axe": [

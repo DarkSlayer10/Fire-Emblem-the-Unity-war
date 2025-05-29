@@ -2,7 +2,7 @@
     {
         "nid": "Wyvern Knight",
         "name": "Wyvern Knight",
-        "desc": "",
+        "desc": "Wyvern riders who can pierce enemy\ndefenses. Equip: Lances. Skill: Pierce.",
         "tier": 2,
         "movement_group": "Fliers",
         "promotes_from": "Wyvern Rider",

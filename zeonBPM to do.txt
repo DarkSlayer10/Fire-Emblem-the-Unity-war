@@ -10,7 +10,7 @@ Some units lack items or stats/skills
 
 complete lack of supports and lore
 
-Class Skills
+Classes
 Darkbearer	Shadowgift	redundant
 Wanderer	Deadly strikes	crit+15
 Necromancer	Summon Phantom	Change?
@@ -31,10 +31,19 @@ Thief classes in general,		need a guide on what to do with them, they are all a 
 Sellsword	Paragon	trainee		why C rank swords tho? looks like a copypaste from another class, needs to be remade
 Thug		Lord?	Monster wpn?	
 Hero		Pragmatic	when enemy not at full hp	+3dmg -1 damage taken
+Mistress		canto	monster weapons
 
 Fighter		had hero promotion
 
-Ronin = Hanshi??
+Ronin = Hanshi??		+15 crit	crit boost
+Swordmaster		crit boost
+Trueblade		crit boost		silencer
+Dread Fighter		crit boost
+Ninja			killer instinct
+Archer			ballista
+Sniper			Deadly strikes	ballista	crit boost
+Adventurer		Vantage		mounted rescue?
+Wyvern Knigth		Pierce
 
 
 Why does Mage Knight U even exist?
@@ -50,9 +59,8 @@ Nomad > ???
 ??? > Stalker > ???
 Sellsword > ??? > ???
 Thug > ???
-Maiden > ???	
-Dragoness > ???
-Mistress > ???
+
+??? > Mistress
 ??? > Hanshi
 ??? > Trueblade
 Adventurer > ???

@@ -5,7 +5,7 @@
         "desc": "Masters of weaponry that can\nwield swords and lances alike.",
         "tier": 2,
         "movement_group": "Light Foot",
-        "promotes_from": "Myrmidon",
+        "promotes_from": "Samurai",
         "turns_into": [],
         "tags": [
             "Sword"
@@ -64,7 +64,7 @@
             "LEAD": 0
         },
         "max_stats": {
-            "HP": 60,
+            "HP": 80,
             "STR": 26,
             "MAG": 20,
             "SKL": 29,
@@ -80,7 +80,7 @@
         "wexp_gain": {
             "Sword": [
                 2,
-                255,
+                251,
                 251
             ],
             "Lance": [
