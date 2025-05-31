@@ -8,7 +8,8 @@
         "promotes_from": "Mage",
         "turns_into": [],
         "tags": [
-            "Mounted"
+            "Mounted",
+            "Female"
         ],
         "max_level": 20,
         "bases": {

@@ -2,10 +2,10 @@
     {
         "nid": "Oni_Chieftain",
         "name": "Oni Chieftain",
-        "desc": "Curious practioners of anima magic.",
-        "tier": 1,
+        "desc": "A diviner releasing its full strength\nwith the oni gods. Uses axes, dark\nand anima magic",
+        "tier": 2,
         "movement_group": "Mages",
-        "promotes_from": null,
+        "promotes_from": "Diviner",
         "turns_into": [],
         "tags": [],
         "max_level": 20,
@@ -19,7 +19,7 @@
             "DEF": 2,
             "RES": 3,
             "CON": 7,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -50,7 +50,7 @@
         },
         "promotion": {
             "HP": 1,
-            "STR": 0,
+            "STR": 4,
             "MAG": 0,
             "SKL": 1,
             "SPD": 2,
@@ -87,8 +87,8 @@
                 251
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                31,
                 251
             ],
             "Bow": [
@@ -103,7 +103,7 @@
             ],
             "Anima": [
                 true,
-                31,
+                71,
                 251
             ],
             "Light": [
@@ -112,8 +112,8 @@
                 251
             ],
             "Dark": [
-                false,
-                0,
+                true,
+                71,
                 251
             ],
             "Gauntlet": [

@@ -2,12 +2,15 @@
     {
         "nid": "Griffin_Knight",
         "name": "Griffin Knight",
-        "desc": "Archers that loose arrows from\nthe skins from atop their steeds.",
+        "desc": "A terror in the skies that wields bows and lances\non a griffin.",
         "tier": 1,
         "movement_group": "Fliers",
         "promotes_from": "Griffin_Rider",
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Mounted",
+            "Flying"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 20,
@@ -91,8 +94,8 @@
                 null
             ],
             "Lance": [
-                false,
-                0,
+                true,
+                71,
                 null
             ],
             "Axe": [

@@ -6,8 +6,13 @@
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
-        "turns_into": [],
-        "tags": [],
+        "turns_into": [
+            "Oni_Chieftain",
+            "War_Cleric"
+        ],
+        "tags": [
+            "Female"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 18,

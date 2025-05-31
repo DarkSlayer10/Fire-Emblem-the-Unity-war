@@ -2,14 +2,17 @@
     {
         "nid": "Griffin_Rider",
         "name": "Griffin Rider",
-        "desc": "Archers that loose arrows from\nthe skins from atop their steeds.",
+        "desc": "A flyer that uses griffins instead\nof pegasus. uses bows.",
         "tier": 1,
         "movement_group": "Fliers",
         "promotes_from": null,
         "turns_into": [
             "Griffin_Knight"
         ],
-        "tags": [],
+        "tags": [
+            "Mounted",
+            "Flying"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 20,

@@ -1,36 +1,36 @@
 [
     {
-        "nid": "Sellsword",
-        "name": "Sellsword",
-        "desc": "A villager that fights out of\nthere own will. has potential\nto be strong",
-        "tier": 0,
-        "movement_group": "Light Foot",
+        "nid": "Falcon_Sage",
+        "name": "Falcon Sage",
+        "desc": "Mages that took into the skies\nto rain down magic. weak to \nbows now.",
+        "tier": 2,
+        "movement_group": "Fliers",
         "promotes_from": null,
         "turns_into": [],
         "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 18,
-            "STR": 6,
-            "MAG": 1,
-            "SKL": 6,
-            "SPD": 7,
-            "DEF": 6,
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
             "RES": 0,
             "LCK": 0,
-            "CON": 8,
-            "MOV": 5,
+            "CON": 0,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
-            "HP": 90,
-            "STR": 45,
-            "MAG": 10,
-            "SKL": 40,
-            "SPD": 45,
-            "DEF": 15,
-            "RES": 15,
-            "LCK": 40,
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "RES": 0,
+            "LCK": 0,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -58,7 +58,7 @@
             "RES": 0,
             "LCK": 0,
             "CON": 0,
-            "MOV": 0,
+            "MOV": -99,
             "LEAD": 0
         },
         "max_stats": {
@@ -74,11 +74,20 @@
             "MOV": 15,
             "LEAD": 10
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ],
+            [
+                1,
+                "Flying"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
-                true,
-                71,
+                false,
+                0,
                 null
             ],
             "Lance": [
@@ -92,8 +101,8 @@
                 null
             ],
             "Bow": [
-                false,
-                0,
+                true,
+                36,
                 null
             ],
             "Staff": [
@@ -137,7 +146,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "E",
+        "map_sprite_nid": "B_1",
         "combat_anim_nid": null,
         "fields": []
     }

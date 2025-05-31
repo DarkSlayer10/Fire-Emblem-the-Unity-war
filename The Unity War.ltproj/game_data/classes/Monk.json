@@ -2,12 +2,13 @@
     {
         "nid": "Monk",
         "name": "Monk",
-        "desc": "Kind-hearted healers.",
+        "desc": "Users of light magic with high\nresistance. Equip: Light.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
         "turns_into": [
-            "Bishop"
+            "Bishop",
+            "Saint"
         ],
         "tags": [],
         "max_level": 20,

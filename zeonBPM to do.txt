@@ -44,6 +44,21 @@ Archer			ballista
 Sniper			Deadly strikes	ballista	crit boost
 Adventurer		Vantage		mounted rescue?
 Wyvern Knigth		Pierce
+Falcoknight		Vanity	+2dmg+10hit at 2 range
+Harrier			Quick Draw	+4dmg when initiating
+Falcon Sage		monster weapons
+Griffin Knight		Sure Shot	SKL% to deal 1.5 dmg
+Pupil			Paragon
+Oni Chieftain		Heavy Strikes	+wpn weight to crit chance
+Sage			Tantivy		+10hit/avo when alone within 3 tiles
+Kitsune Sage		Vanity	crit boost
+Dark Knight		Arcane Blade	when initiating at 1 range add 3+mag/2 to hit and crit(should probably switch this to only work with swords instead of 1 range)
+Saint			Imbue	Heal hp equal to MAG per round
+	
+
+
+
+
 
 
 Why does Mage Knight U even exist?
@@ -56,21 +71,20 @@ Lancer has 3 branches while scout and raider have 2
 Nomad > ???			
 ??? > Arch Knight	needs promo stats
 ??? > Wolf Knight	needs promo stats	
-??? > Stalker > ???
-Sellsword > ??? > ???
+
 Thug > ???
 
 ??? > Mistress
 ??? > Hanshi
-??? > Trueblade
+
 Adventurer > ???
-Fledgling > Pegasus + ??? + ???(Trainees tend to have 3 branches)
-Harrier > ???
-Falon Sage > ???
-??? > Griffin Rider
+Fledgling > Pegasus + ??? + ???(Trainees tend to have 3 branches, i assume the others are griffin and wyvern)
+
+
+
 Pupil > Mage + ??? + ???
 Diviner > ???
-??? > Oni Chieftain
+
 ??? > Kitsune Sage
 ??? > Dark Knight
 Saint > ???

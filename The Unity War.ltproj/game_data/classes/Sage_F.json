@@ -2,12 +2,14 @@
     {
         "nid": "Sage_F",
         "name": "Sage",
-        "desc": "Advanced scholars of magical codices.\nEquip: Anima, light, staves and swords,",
+        "desc": "Advanced scholars of magical codices.\nEquip: Anima, light, staves and dark,",
         "tier": 2,
         "movement_group": "Mages",
         "promotes_from": "Mage_F",
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 27,
@@ -77,7 +79,7 @@
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
-                true,
+                false,
                 31,
                 251
             ],
@@ -112,8 +114,8 @@
                 251
             ],
             "Dark": [
-                false,
-                0,
+                true,
+                31,
                 251
             ],
             "Gauntlet": [

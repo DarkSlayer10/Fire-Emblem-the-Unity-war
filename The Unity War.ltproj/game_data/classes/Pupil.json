@@ -3,14 +3,14 @@
         "nid": "Pupil",
         "name": "Pupil",
         "desc": "Curious practioners of anima magic.",
-        "tier": 1,
+        "tier": 0,
         "movement_group": "Mages",
         "promotes_from": null,
         "turns_into": [
             "Mage"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 10,
         "bases": {
             "HP": 16,
             "STR": 0,
@@ -76,7 +76,12 @@
             "MOV": 15,
             "LEAD": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Fort"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -105,7 +110,7 @@
             ],
             "Anima": [
                 true,
-                31,
+                1,
                 251
             ],
             "Light": [

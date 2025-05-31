@@ -2,9 +2,9 @@
     {
         "nid": "Falcoknight",
         "name": "Falcoknight",
-        "desc": "Veteran pegasus knights.",
+        "desc": "Swift sky warriors who shrug off\nmagic attacks. Equip: Swords, lances.",
         "tier": 2,
-        "movement_group": "Light Cav",
+        "movement_group": "Fliers",
         "promotes_from": "Pegasus_Knight",
         "turns_into": [],
         "tags": [
