@@ -55,6 +55,14 @@
             [
                 "all_allies_except_self_aoe",
                 null
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     }

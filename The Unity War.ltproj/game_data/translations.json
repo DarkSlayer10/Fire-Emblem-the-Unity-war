@@ -398,5 +398,9 @@
     {
         "nid": "Hard_desc",
         "text": "A little bit more of a bite."
+    },
+    {
+        "nid": "Spells",
+        "text": "Staff"
     }
 ]
