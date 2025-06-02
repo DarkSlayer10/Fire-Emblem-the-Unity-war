@@ -7,7 +7,9 @@
         "movement_group": "Pirates",
         "promotes_from": "Pirate_F",
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 24,

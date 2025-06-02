@@ -7,7 +7,7 @@
         "movement_group": "Pirates",
         "promotes_from": null,
         "turns_into": [
-            "Berserker",
+            "Berserker_F",
             "Pirate_Queen"
         ],
         "tags": [

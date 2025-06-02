@@ -7,7 +7,9 @@
         "movement_group": "Regular",
         "promotes_from": "Warrior_F",
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 28,

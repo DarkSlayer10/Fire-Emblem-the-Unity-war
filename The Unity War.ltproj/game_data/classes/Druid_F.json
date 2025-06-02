@@ -2,35 +2,35 @@
     {
         "nid": "Druid_F",
         "name": "Druid",
-        "desc": "Wielders of magic who are stronger,\nbut slower, than mages. Equip: Dark.",
-        "tier": 1,
+        "desc": "Wielders of deep and ancient magic.\nEquip: Dark, anima, staves.",
+        "tier": 2,
         "movement_group": "Mages",
         "promotes_from": "Shaman_F",
         "turns_into": [],
         "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 20,
-            "STR": 2,
-            "MAG": 4,
+            "HP": 26,
+            "STR": 0,
+            "MAG": 5,
             "SKL": 5,
-            "SPD": 2,
-            "LCK": 0,
-            "DEF": 2,
-            "RES": 2,
+            "SPD": 6,
+            "LCK": 1,
+            "DEF": 6,
+            "RES": 8,
             "CON": 8,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
-            "HP": 70,
-            "STR": 50,
+            "HP": 65,
+            "STR": 55,
             "MAG": 50,
-            "SKL": 55,
-            "SPD": 35,
+            "SKL": 30,
+            "SPD": 400,
             "LCK": 20,
-            "DEF": 35,
-            "RES": 35,
+            "DEF": 40,
+            "RES": 45,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -49,13 +49,13 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 1,
+            "HP": 4,
             "STR": 0,
             "MAG": 2,
             "SKL": 0,
-            "SPD": 1,
+            "SPD": 3,
             "LCK": 0,
-            "DEF": 1,
+            "DEF": 2,
             "RES": 2,
             "CON": 2,
             "MOV": -99,
@@ -97,13 +97,13 @@
                 251
             ],
             "Staff": [
-                false,
-                0,
+                true,
+                1,
                 251
             ],
             "Anima": [
-                false,
-                0,
+                true,
+                31,
                 251
             ],
             "Light": [
@@ -113,7 +113,7 @@
             ],
             "Dark": [
                 true,
-                31,
+                71,
                 251
             ],
             "Gauntlet": [

@@ -9,28 +9,29 @@
         "turns_into": [],
         "tags": [
             "Horse",
-            "Mounted"
+            "Mounted",
+            "Female"
         ],
         "max_level": 20,
         "bases": {
-            "HP": 20,
-            "STR": 0,
-            "MAG": 4,
+            "HP": 24,
+            "STR": 4,
+            "MAG": 8,
             "SKL": 3,
-            "SPD": 5,
+            "SPD": 7,
             "LCK": 0,
             "DEF": 4,
             "RES": 8,
             "CON": 6,
-            "MOV": 7,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
-            "HP": 45,
-            "STR": 0,
-            "MAG": 35,
+            "HP": 60,
+            "STR": 20,
+            "MAG": 60,
             "SKL": 25,
-            "SPD": 45,
+            "SPD": 50,
             "LCK": 40,
             "DEF": 10,
             "RES": 40,
@@ -52,16 +53,16 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
+            "HP": 3,
+            "STR": 2,
+            "MAG": 2,
+            "SKL": 1,
             "SPD": 0,
             "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
+            "DEF": 2,
+            "RES": 3,
             "CON": 0,
-            "MOV": 0,
+            "MOV": -99,
             "LEAD": 0
         },
         "max_stats": {
@@ -115,8 +116,8 @@
                 251
             ],
             "Light": [
-                false,
-                0,
+                true,
+                31,
                 251
             ],
             "Dark": [

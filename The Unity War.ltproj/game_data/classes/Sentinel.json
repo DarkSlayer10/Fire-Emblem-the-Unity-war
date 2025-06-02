@@ -2,8 +2,8 @@
     {
         "nid": "Sentinel",
         "name": "Sentinel",
-        "desc": "",
-        "tier": 1,
+        "desc": "A axe welder that carries a scythe\nto harvest souls to become powerful.",
+        "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [],
@@ -23,15 +23,15 @@
             "LEAD": 0
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
-            "LCK": 0,
-            "CON": 0,
+            "HP": 65,
+            "STR": 50,
+            "MAG": 10,
+            "SKL": 35,
+            "SPD": 35,
+            "DEF": 15,
+            "RES": 15,
+            "LCK": 25,
+            "CON": 1,
             "MOV": 0,
             "LEAD": 0
         },
@@ -87,8 +87,8 @@
                 null
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                71,
                 null
             ],
             "Bow": [

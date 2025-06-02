@@ -54,8 +54,14 @@ Sage			Tantivy		+10hit/avo when alone within 3 tiles
 Kitsune Sage		Vanity	crit boost
 Dark Knight		Arcane Blade	when initiating at 1 range add 3+mag/2 to hit and crit(should probably switch this to only work with swords instead of 1 range)
 Saint			Imbue	Heal hp equal to MAG per round
-	
-
+Maid			Daggers
+Druid			Malefic Aura	enemies within 2 tiles receive +2 magic dmg
+Summoner		Summon(phantoms?)
+Sorcerer			Black Magic	SKL% to inflict a random status(need list for which ones)	monster weapons
+Witch			Counter Magic	magic damage taken at 1-2 range is reflected
+Sentinel			Wrath		+50 crit when below 50%hp
+Warrior		Ready Stance	+4SPD and DEF when defending
+Berserker	Deadly strikes	Crit Boost
 
 
 
@@ -87,12 +93,12 @@ Diviner > ???
 
 ??? > Kitsune Sage
 ??? > Dark Knight
-Saint > ???
-Maid > ???
+
+??? > Maid
 Trouvadour G > ???	i assume this is exclusive to someone
-??? > Summoner
-??? > Sorcerer
-Sentinel > ???
+
+
+??? > Sentinel
 Pirate > Berserker + ???
 Mogall > Arch mogall + ???(Watcher is not set, and it may no be available to all mogalls)
 Queen Bael/Bael Queen	Rename one
