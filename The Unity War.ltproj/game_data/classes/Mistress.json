@@ -138,7 +138,7 @@
             0
         ],
         "map_sprite_nid": "J",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Mistress",
         "fields": []
     }
 ]

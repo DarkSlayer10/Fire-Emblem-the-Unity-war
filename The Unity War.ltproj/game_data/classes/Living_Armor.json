@@ -1,0 +1,87 @@
+[
+    {
+        "nid": "Living_Armor",
+        "name": "Living Armor",
+        "desc": "",
+        "tier": 2,
+        "movement_group": "Armors",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Armor",
+            "Monster"
+        ],
+        "max_level": 20,
+        "bases": {},
+        "growths": {},
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {},
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                121,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                true,
+                121,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Anima": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Gauntlet": [
+                false,
+                0,
+                null
+            ],
+            "Special": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Living Armor Red Flame",
+        "combat_anim_nid": "Living_Armor",
+        "fields": []
+    }
+]

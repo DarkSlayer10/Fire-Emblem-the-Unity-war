@@ -80,7 +80,7 @@
             0
         ],
         "map_sprite_nid": null,
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Soldier_Mage_DS",
         "fields": []
     }
 ]

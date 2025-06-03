@@ -1,0 +1,135 @@
+[
+    {
+        "nid": "Fiend",
+        "name": "Fiend",
+        "desc": "",
+        "tier": 2,
+        "movement_group": "Armors",
+        "promotes_from": "Knight",
+        "turns_into": [],
+        "tags": [
+            "Armor",
+            "Monster"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 28,
+            "STR": 11,
+            "SKL": 9,
+            "SPD": 5,
+            "DEF": 13,
+            "RES": 8,
+            "LCK": 0,
+            "CON": 11,
+            "MAG": 8,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 30,
+            "SKL": 25,
+            "SPD": 10,
+            "DEF": 23,
+            "RES": 55,
+            "LCK": 20,
+            "CON": 0,
+            "MAG": 35,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "growth_bonus": {},
+        "promotion": {
+            "HP": 4,
+            "STR": 2,
+            "SKL": 3,
+            "SPD": 3,
+            "DEF": 3,
+            "RES": 3,
+            "LCK": 0,
+            "CON": 2,
+            "MAG": 0,
+            "MOV": -99,
+            "LEAD": 0
+        },
+        "max_stats": {
+            "HP": 80,
+            "STR": 29,
+            "SKL": 28,
+            "SPD": 25,
+            "DEF": 30,
+            "RES": 26,
+            "LCK": 30,
+            "CON": 25,
+            "MAG": 22,
+            "MOV": 15,
+            "LEAD": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                true,
+                251,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Anima": [
+                true,
+                121,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                true,
+                181,
+                null
+            ],
+            "Gauntlet": [
+                false,
+                0,
+                null
+            ],
+            "Special": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Fiend",
+        "combat_anim_nid": "Fiend",
+        "fields": []
+    }
+]
