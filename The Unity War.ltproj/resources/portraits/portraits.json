@@ -1462,5 +1462,41 @@
             56
         ],
         "info_offset": 8
+    },
+    {
+        "nid": "MaleElf",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "PinkSuccubus",
+        "blinking_offset": [
+            40,
+            48
+        ],
+        "smiling_offset": [
+            32,
+            64
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "MagentaSuccubus",
+        "blinking_offset": [
+            32,
+            40
+        ],
+        "smiling_offset": [
+            32,
+            56
+        ],
+        "info_offset": 0
     }
 ]
