@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Fierce",
+        "name": "Fierce",
+        "desc": "+15hit/avo the not at max hp",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_avoid",
+                "15 if unit.get_max_hp() < unit.get_hp()else 0"
+            ],
+            [
+                "dynamic_accuracy",
+                "15 if unit.get_max_hp() < unit.get_hp()else 0"
+            ]
+        ]
+    }
+]

@@ -130,5 +130,13 @@
     {
         "nid": "DEVIL",
         "expression": "31 - LCK"
+    },
+    {
+        "nid": "SKLCRIT",
+        "expression": "SKL*1.5"
+    },
+    {
+        "nid": "SKLPROC",
+        "expression": "SKL"
     }
 ]

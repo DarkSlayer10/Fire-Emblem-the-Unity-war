@@ -2,35 +2,37 @@
     {
         "nid": "Gorgon",
         "name": "Gorgon",
-        "desc": "",
-        "tier": 1,
-        "movement_group": "Light Foot",
+        "desc": "Comely and cursed, these creatures\nturn all who behold them into stone.",
+        "tier": 2,
+        "movement_group": "Mages",
         "promotes_from": null,
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Monster"
+        ],
         "max_level": 20,
         "bases": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
+            "HP": 26,
+            "STR": 8,
+            "MAG": 8,
+            "SKL": 3,
+            "SPD": 4,
+            "DEF": 5,
+            "RES": 7,
             "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
+            "CON": 11,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
-            "LCK": 0,
+            "HP": 60,
+            "STR": 45,
+            "MAG": 60,
+            "SKL": 30,
+            "SPD": 25,
+            "DEF": 10,
+            "RES": 40,
+            "LCK": 30,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -58,7 +60,7 @@
             "RES": 0,
             "LCK": 0,
             "CON": 0,
-            "MOV": 0,
+            "MOV": -99,
             "LEAD": 0
         },
         "max_stats": {
@@ -112,8 +114,8 @@
                 null
             ],
             "Dark": [
-                false,
-                0,
+                true,
+                181,
                 null
             ],
             "Gauntlet": [
@@ -122,7 +124,7 @@
                 null
             ],
             "Special": [
-                false,
+                true,
                 0,
                 null
             ],

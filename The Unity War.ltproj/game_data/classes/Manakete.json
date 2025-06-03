@@ -2,7 +2,7 @@
     {
         "nid": "Manakete",
         "name": "Manakete",
-        "desc": "",
+        "desc": "Mysterious tribesmen who can turn\ninto dragons. Equip: Dragonstone.",
         "tier": 1,
         "movement_group": "Regular",
         "promotes_from": null,
@@ -12,9 +12,9 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 20,
+            "HP": 12,
             "STR": 0,
-            "MAG": 0,
+            "MAG": 2,
             "SKL": 0,
             "SPD": 2,
             "LCK": 0,

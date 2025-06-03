@@ -6,8 +6,13 @@
         "tier": 1,
         "movement_group": "Bandits",
         "promotes_from": null,
-        "turns_into": [],
-        "tags": [],
+        "turns_into": [
+            "Queen_Bael",
+            "Bael_Queen"
+        ],
+        "tags": [
+            "Monster"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 25,

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Wrath",
+        "name": "Wrath",
+        "desc": "+50 crit when below 50%hp",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "crit",
+                50
+            ],
+            [
+                "condition",
+                "unit.get_hp() >= 0.5*unit.get_max_hp()"
+            ],
+            [
+                "grey_if_inactive",
+                null
+            ]
+        ]
+    }
+]

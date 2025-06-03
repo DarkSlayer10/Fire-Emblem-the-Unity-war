@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Deadly_Strikes",
+        "name": "Deadly Strikes",
+        "desc": "+15 Crit",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "crit",
+                15
+            ]
+        ]
+    }
+]

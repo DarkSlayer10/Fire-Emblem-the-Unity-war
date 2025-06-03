@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Quick_Draw",
+        "name": "Quick Draw",
+        "desc": "+4 dmg when initiating",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "1 if mode == 'attack' else 0"
+            ]
+        ]
+    }
+]

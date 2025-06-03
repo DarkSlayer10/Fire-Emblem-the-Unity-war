@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Pursuit",
+        "name": "Pursuit",
+        "desc": "+2 SPD when defending(Should be a stacking buff after combat?)",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

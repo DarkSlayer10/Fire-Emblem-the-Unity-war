@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Paragon",
+        "name": "Paragon",
+        "desc": "X2 xp gain, removed on promotion",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "exp_multiplier",
+                2.0
+            ]
+        ]
+    }
+]

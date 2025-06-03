@@ -2,35 +2,39 @@
     {
         "nid": "Warbird",
         "name": "Warbird",
-        "desc": "",
-        "tier": 1,
-        "movement_group": "Light Foot",
+        "desc": "Animals that scout the skies.\nUses swords and magic to fight.",
+        "tier": 2,
+        "movement_group": "Fliers",
         "promotes_from": null,
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Flying",
+            "Monster",
+            "Female"
+        ],
         "max_level": 20,
         "bases": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
+            "HP": 25,
+            "STR": 6,
+            "MAG": 6,
+            "SKL": 6,
+            "SPD": 8,
+            "DEF": 4,
+            "RES": 4,
             "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
+            "CON": 9,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
-            "LCK": 0,
+            "HP": 54,
+            "STR": 35,
+            "MAG": 35,
+            "SKL": 50,
+            "SPD": 35,
+            "DEF": 30,
+            "RES": 10,
+            "LCK": 55,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -58,7 +62,7 @@
             "RES": 0,
             "LCK": 0,
             "CON": 0,
-            "MOV": 0,
+            "MOV": -99,
             "LEAD": 0
         },
         "max_stats": {
@@ -74,10 +78,19 @@
             "MOV": 15,
             "LEAD": 10
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ],
+            [
+                1,
+                "Flying"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
-                false,
+                true,
                 0,
                 null
             ],
@@ -102,12 +115,12 @@
                 null
             ],
             "Anima": [
-                false,
+                true,
                 0,
                 null
             ],
             "Light": [
-                false,
+                true,
                 0,
                 null
             ],

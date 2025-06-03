@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Sure_Shot",
+        "name": "Sure Shot",
+        "desc": "SKL% to deal 1.5 dmg",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "proc_rate",
+                "SKLPROC"
+            ],
+            [
+                "attack_proc",
+                "Fort"
+            ],
+            [
+                "defense_proc",
+                "Fort"
+            ]
+        ]
+    }
+]

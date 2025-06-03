@@ -4,7 +4,7 @@
         "name": "Cyclops",
         "desc": "One-eyed giants who use their\nstrength to wield huge axes.",
         "tier": 2,
-        "movement_group": "Regular",
+        "movement_group": "Armors",
         "promotes_from": "Knight",
         "turns_into": [],
         "tags": [

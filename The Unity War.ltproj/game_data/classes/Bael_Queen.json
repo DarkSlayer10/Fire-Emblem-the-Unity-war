@@ -5,7 +5,7 @@
         "desc": "A variant Bael Queen species.\nHas access to swords and magic.",
         "tier": 2,
         "movement_group": "Regular",
-        "promotes_from": null,
+        "promotes_from": "Bael",
         "turns_into": [],
         "tags": [
             "Monster",

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Pragmatic",
+        "name": "Pragmatic",
+        "desc": "when enemy not at full hp\t+3dmg -1 damage taken",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "3 if target.get_max_hp() < target.get_hp()else 0"
+            ],
+            [
+                "dynamic_resist",
+                "1 if target.get_max_hp() < target.get_hp()else 0"
+            ],
+            [
+                "combat_condition",
+                "add enemy unit check"
+            ]
+        ]
+    }
+]

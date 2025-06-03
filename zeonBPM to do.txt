@@ -62,6 +62,20 @@ Witch			Counter Magic	magic damage taken at 1-2 range is reflected
 Sentinel			Wrath		+50 crit when below 50%hp
 Warrior		Ready Stance	+4SPD and DEF when defending
 Berserker	Deadly strikes	Crit Boost
+Pirate Queen	Think Twice	Phys dmg taken at 1-2 range is reflected	crit boost
+Grappler		Killer Instinct
+Gwyllgi		Pursuit	+2 SPD when defending(Should be a stacking buff after combat?)
+Watcher		Insight	+20hit
+Queen Bael	Pursuit
+Cyclops		Full Metal Body	immune to all seal skills(why does the cyclops have this?)
+Succubus	Charm	Allies within 2 tiles deal +2dmg
+Warbird		Fierce	+15 hit/avo when not at max hp
+Harpy		Elbow Room	+3dmg when not in terrain
+Phantom		traitionally, they have only 1hp, should that be the case here?
+Deathgoyle	Quick Draw	+4dmg when initiating
+Lamia		Live to serve	when healing other, also heal self
+Necrodragon	Imbue		Heal MAG per round
+Dancer		Needs dance
 
 
 
@@ -103,13 +117,13 @@ Pirate > Berserker + ???
 Mogall > Arch mogall + ???(Watcher is not set, and it may no be available to all mogalls)
 Queen Bael/Bael Queen	Rename one
 ??? > Cyclops
-Succubus > ???
-Warbird > ???
-Harpy > ???
+??? > Succubus
+??? > Warbird	both Warbird and Harpy are set as T2
+??? > Harpy
 Manakete > ???
-Gorgon > ???
+??? > Gorgon	both Gorgon and Lamia are set as T2
 Dryad > ???
-Lamia > ???
+??? > Lamia
 Harbringer > ???
 ??? > Mermaid
 

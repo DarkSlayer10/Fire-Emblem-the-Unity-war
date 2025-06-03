@@ -2,35 +2,37 @@
     {
         "nid": "Grappler",
         "name": "Grappler",
-        "desc": "",
-        "tier": 1,
+        "desc": "Heavy hitting female brawlers\nthat has more strength and speed.\n",
+        "tier": 2,
         "movement_group": "Light Foot",
-        "promotes_from": null,
+        "promotes_from": "Brawler",
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "max_level": 20,
         "bases": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
+            "HP": 26,
+            "STR": 10,
+            "MAG": 1,
+            "SKL": 9,
+            "SPD": 9,
+            "DEF": 8,
+            "RES": 6,
             "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
+            "CON": 11,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
-            "LCK": 0,
+            "HP": 60,
+            "STR": 35,
+            "MAG": 10,
+            "SKL": 35,
+            "SPD": 300,
+            "DEF": 20,
+            "RES": 15,
+            "LCK": 25,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -49,16 +51,16 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 0,
-            "STR": 0,
+            "HP": 3,
+            "STR": 2,
             "MAG": 0,
             "SKL": 0,
-            "SPD": 0,
+            "SPD": 3,
             "DEF": 0,
             "RES": 0,
             "LCK": 0,
             "CON": 0,
-            "MOV": 0,
+            "MOV": -99,
             "LEAD": 0
         },
         "max_stats": {
@@ -117,8 +119,8 @@
                 null
             ],
             "Gauntlet": [
-                false,
-                0,
+                true,
+                31,
                 null
             ],
             "Special": [

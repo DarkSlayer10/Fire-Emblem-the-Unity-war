@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Outdoor_Fighter",
+        "name": "Outdoor Fighter",
+        "desc": "+10hit/avo when not in terrain",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hit",
+                15
+            ],
+            [
+                "avoid",
+                20
+            ],
+            [
+                "condition",
+                ""
+            ]
+        ]
+    }
+]

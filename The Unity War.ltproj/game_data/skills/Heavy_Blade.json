@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Heavy_Blade",
+        "name": "Heavy Blade",
+        "desc": "+4dmg-2spd when CON>enemy CON",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]
