@@ -3,10 +3,12 @@
         "nid": "Wanderer",
         "name": "Wanderer",
         "desc": "A Traveler with a wolf.\nAttacks with magic and swords.",
-        "tier": 2,
+        "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
-        "turns_into": [],
+        "turns_into": [
+            "Mistress"
+        ],
         "tags": [],
         "max_level": 20,
         "bases": {
@@ -143,7 +145,7 @@
             0
         ],
         "map_sprite_nid": "WWWWW",
-        "combat_anim_nid": "Wanderer",
+        "combat_anim_nid": "Wanderer_1",
         "fields": []
     }
 ]

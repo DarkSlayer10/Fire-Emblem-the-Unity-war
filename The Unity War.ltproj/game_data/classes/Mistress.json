@@ -5,7 +5,7 @@
         "desc": "A vampire that regained her memories.\nUses Swords and magic.",
         "tier": 2,
         "movement_group": "Light Foot",
-        "promotes_from": null,
+        "promotes_from": "Wanderer",
         "turns_into": [],
         "tags": [],
         "max_level": 20,
@@ -77,7 +77,7 @@
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
-                false,
+                true,
                 0,
                 null
             ],
@@ -102,17 +102,17 @@
                 null
             ],
             "Anima": [
-                false,
+                true,
                 0,
                 null
             ],
             "Light": [
-                false,
+                true,
                 0,
                 null
             ],
             "Dark": [
-                false,
+                true,
                 0,
                 null
             ],
@@ -138,7 +138,7 @@
             0
         ],
         "map_sprite_nid": "J",
-        "combat_anim_nid": "Mistress",
+        "combat_anim_nid": "Mistress2",
         "fields": []
     }
 ]
