@@ -1498,5 +1498,53 @@
             56
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "TallGreenWoman",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "PromoAlexis",
+        "blinking_offset": [
+            24,
+            40
+        ],
+        "smiling_offset": [
+            24,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "PinkHairSkullBandana",
+        "blinking_offset": [
+            39,
+            38
+        ],
+        "smiling_offset": [
+            39,
+            54
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "WhiteHairRedShirtNoChestplate",
+        "blinking_offset": [
+            48,
+            40
+        ],
+        "smiling_offset": [
+            48,
+            48
+        ],
+        "info_offset": 0
     }
 ]
