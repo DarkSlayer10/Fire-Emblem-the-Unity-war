@@ -76,7 +76,12 @@
             "MOV": 15,
             "LEAD": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Full_Metal_Body"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

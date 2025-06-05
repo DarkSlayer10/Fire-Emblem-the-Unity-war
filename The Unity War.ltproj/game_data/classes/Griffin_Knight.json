@@ -3,7 +3,7 @@
         "nid": "Griffin_Knight",
         "name": "Griffin Knight",
         "desc": "A terror in the skies that wields bows and lances\non a griffin.",
-        "tier": 1,
+        "tier": 2,
         "movement_group": "Fliers",
         "promotes_from": "Griffin_Rider",
         "turns_into": [],
@@ -85,6 +85,10 @@
             [
                 1,
                 "Flying"
+            ],
+            [
+                1,
+                "Sure_Shot"
             ]
         ],
         "wexp_gain": {

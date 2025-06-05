@@ -16,7 +16,12 @@
         "growth_bonus": {},
         "promotion": {},
         "max_stats": {},
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Deadly_Strikes"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,

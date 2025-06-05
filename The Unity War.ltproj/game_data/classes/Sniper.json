@@ -74,7 +74,12 @@
             "MOV": 30,
             "LEAD": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Deadly_Strikes"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

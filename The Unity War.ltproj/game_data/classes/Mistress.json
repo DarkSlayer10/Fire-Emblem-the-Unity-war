@@ -74,7 +74,12 @@
             "MOV": 15,
             "LEAD": 10
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,

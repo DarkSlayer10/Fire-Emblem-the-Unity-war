@@ -77,7 +77,16 @@
             "RES": 24,
             "LEAD": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Heavy_Blade"
+            ],
+            [
+                1,
+                "Pass"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,

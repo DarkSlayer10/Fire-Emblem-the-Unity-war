@@ -80,6 +80,22 @@
             [
                 1,
                 "Locktouch"
+            ],
+            [
+                1,
+                "Arcane_Blade"
+            ],
+            [
+                1,
+                "Silencer"
+            ],
+            [
+                1,
+                "Deadly_Strikes"
+            ],
+            [
+                1,
+                "Class Skills_1"
             ]
         ],
         "wexp_gain": {

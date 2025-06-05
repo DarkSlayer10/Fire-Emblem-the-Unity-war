@@ -4,7 +4,7 @@
         "name": "Malig_Knight",
         "desc": "A fearsome wyvern knight that uses\naxes, lances and magic",
         "tier": 2,
-        "movement_group": "Light Foot",
+        "movement_group": "Fliers",
         "promotes_from": "Wyvern Rider",
         "turns_into": [],
         "tags": [
@@ -78,7 +78,16 @@
             "MOV": 15,
             "LEAD": 10
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ],
+            [
+                1,
+                "Flying"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

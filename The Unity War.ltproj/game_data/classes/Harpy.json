@@ -82,6 +82,10 @@
             [
                 1,
                 "Flying"
+            ],
+            [
+                1,
+                "Elbow_Room"
             ]
         ],
         "wexp_gain": {

@@ -76,7 +76,12 @@
             "MOV": 15,
             "LEAD": 10
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Imbue"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
