@@ -19,7 +19,7 @@
             ],
             [
                 "combat_condition",
-                "add enemy unit check"
+                "target.team == 'enemy'"
             ]
         ]
     }

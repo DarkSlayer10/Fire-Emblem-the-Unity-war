@@ -1,6 +1,6 @@
 [
     {
-        "nid": "Silencer",
+        "nid": "Silencer_PROC",
         "name": "Silencer",
         "desc": "",
         "icon_nid": null,
@@ -10,12 +10,8 @@
         ],
         "components": [
             [
-                "attack_proc",
-                "Silencer_PROC"
-            ],
-            [
-                "proc_rate",
-                "SKLPROC"
+                "dynamic_damage",
+                "99999"
             ]
         ]
     }

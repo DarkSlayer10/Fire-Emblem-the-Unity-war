@@ -2,7 +2,7 @@
     {
         "nid": "Imbue",
         "name": "Imbue",
-        "desc": "Heal hp equal to MAG per round",
+        "desc": "Heal hp equal to MAG per round\n\nneed eval heal component",
         "icon_nid": null,
         "icon_index": [
             0,

@@ -8,6 +8,19 @@
             0,
             0
         ],
-        "components": []
+        "components": [
+            [
+                "combat_condition",
+                "\nunit_funcs.check_focus(unit, 3) == 0"
+            ],
+            [
+                "dynamic_accuracy",
+                "10"
+            ],
+            [
+                "dynamic_avoid",
+                "10"
+            ]
+        ]
     }
 ]

@@ -2,7 +2,7 @@
     {
         "nid": "Counter_Magic",
         "name": "Counter Magic",
-        "desc": "magic damage taken at 1-2 range is reflected",
+        "desc": "magic damage taken at 1-2 range is reflected\ndont remember how to do this, probably need a new component",
         "icon_nid": null,
         "icon_index": [
             0,

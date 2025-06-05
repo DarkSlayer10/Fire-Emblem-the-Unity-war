@@ -8,6 +8,11 @@
             0,
             0
         ],
-        "components": []
+        "components": [
+            [
+                "item_override",
+                "OR_Triangle_Expert"
+            ]
+        ]
     }
 ]

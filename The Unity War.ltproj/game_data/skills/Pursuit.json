@@ -8,6 +8,11 @@
             0,
             0
         ],
-        "components": []
+        "components": [
+            [
+                "defense_speed",
+                2
+            ]
+        ]
     }
 ]

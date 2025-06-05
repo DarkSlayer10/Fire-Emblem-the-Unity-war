@@ -8,6 +8,19 @@
             0,
             0
         ],
-        "components": []
+        "components": [
+            [
+                "combat_condition",
+                "unit.position and (utils.calculate_distance(unit.position, unit2.position) = 2)"
+            ],
+            [
+                "dynamic_damage",
+                "2"
+            ],
+            [
+                "dynamic_accuracy",
+                "10"
+            ]
+        ]
     }
 ]

@@ -8,6 +8,15 @@
             0,
             0
         ],
-        "components": []
+        "components": [
+            [
+                "dynamic_resist",
+                "-2"
+            ],
+            [
+                "combat_condition",
+                "item_funcs.is_magic(target, target.get_weapon())"
+            ]
+        ]
     }
 ]

@@ -11,15 +11,15 @@
         "components": [
             [
                 "hit",
-                15
+                10
             ],
             [
                 "avoid",
-                20
+                10
             ],
             [
                 "condition",
-                ""
+                "game.tilemap.get_terrain(unit.position) in ('0' , '1' , '4' , '5' , '6' , 'Dexk' , 'Village Ruins' , '7' , '9' , 'Mast' , 'Fence'  ,'Gunnel' , '25' , '36' , '37' , '39' , '12' , '22')"
             ]
         ]
     }
