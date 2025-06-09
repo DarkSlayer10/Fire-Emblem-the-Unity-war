@@ -2,7 +2,7 @@
     {
         "nid": "Paragon",
         "name": "Paragon",
-        "desc": "X2 xp gain, removed on promotion",
+        "desc": "X2 xp gain, removed on promotion(need event for removal)",
         "icon_nid": null,
         "icon_index": [
             0,

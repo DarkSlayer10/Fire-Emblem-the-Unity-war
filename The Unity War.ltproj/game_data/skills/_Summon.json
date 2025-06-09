@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Summon",
-        "name": "Summon",
+        "nid": "_Summon",
+        "name": " Summon",
         "desc": "placeholder for all summon skills, need to know what to do with each one",
         "icon_nid": null,
         "icon_index": [

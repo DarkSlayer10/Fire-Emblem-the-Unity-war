@@ -2,12 +2,17 @@
     {
         "nid": "Imbue",
         "name": "Imbue",
-        "desc": "Heal hp equal to MAG per round\n\nneed eval heal component",
+        "desc": "Heal hp equal to MAG per round\n\nwould be better with an eval heal component",
         "icon_nid": null,
         "icon_index": [
             0,
             0
         ],
-        "components": []
+        "components": [
+            [
+                "upkeep_event",
+                "Global A - Imbue"
+            ]
+        ]
     }
 ]

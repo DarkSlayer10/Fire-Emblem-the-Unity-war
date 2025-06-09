@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Full_Metal_Body",
-        "name": "Full Metal Body",
+        "nid": "_Full_Metal_Body",
+        "name": " Full Metal Body",
         "desc": "immune to all seal skills",
         "icon_nid": null,
         "icon_index": [

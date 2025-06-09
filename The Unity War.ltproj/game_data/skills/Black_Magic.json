@@ -10,14 +10,6 @@
         ],
         "components": [
             [
-                "attack_proc",
-                "Fort"
-            ],
-            [
-                "defense_proc",
-                "Fort"
-            ],
-            [
                 "proc_rate",
                 "SKLPROC"
             ]

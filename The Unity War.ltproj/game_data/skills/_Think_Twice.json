@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Think_Twice",
-        "name": "Think Twice",
+        "nid": "_Think_Twice",
+        "name": " Think Twice",
         "desc": "Phys dmg taken at 1-2 range is reflected",
         "icon_nid": null,
         "icon_index": [

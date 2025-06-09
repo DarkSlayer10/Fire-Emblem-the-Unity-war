@@ -1,0 +1,19 @@
+[
+    {
+        "nid": "New Credit",
+        "sub_nid": "Useful tools",
+        "credit_type": "List",
+        "category": "Resources",
+        "icon_index": [],
+        "contrib": [
+            [
+                "rainlash",
+                "Lex Talionis Game Engine"
+            ],
+            [
+                "Klokinator",
+                "Fire Emblem Graphics Repository"
+            ]
+        ]
+    }
+]

@@ -1,6 +1,6 @@
 [
     {
-        "nid": "Black_Magic_1",
+        "nid": "_Black_Magic_Status",
         "name": "Black Magic",
         "desc": "SKL% to inflict a random status(need list for which ones)\nNeeds an event on hit component",
         "icon_nid": null,
@@ -8,6 +8,11 @@
             0,
             0
         ],
-        "components": []
+        "components": [
+            [
+                "event_before_combat",
+                "Global D - Emma Death"
+            ]
+        ]
     }
 ]
