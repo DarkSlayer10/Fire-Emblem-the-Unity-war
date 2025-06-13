@@ -1,10 +1,10 @@
 [
     {
         "nid": "Necromancer",
-        "name": "Necromancer",
+        "name": "Gem Bearer",
         "desc": "A nercomancer that caused chaos\naround the land with reanimated corpses.",
         "tier": 2,
-        "movement_group": "Light Foot",
+        "movement_group": "Mages",
         "promotes_from": "Shaman",
         "turns_into": [],
         "tags": [],

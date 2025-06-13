@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Royalty_bond",
+        "name": "Royalty bond",
+        "desc": "Demon Prince( change it to ravager.) Royalty bond If Lilith and Maya are deployed gains healing and exp bonus by 20%",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

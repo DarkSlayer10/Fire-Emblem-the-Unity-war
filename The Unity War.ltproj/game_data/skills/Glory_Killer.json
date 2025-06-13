@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Glory_Killer",
+        "name": "Glory Killer",
+        "desc": "Khan- Glory killer- when defending a foe +1 to all stats for a turn Paladin-Pavise takes half damage from physical weapons",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

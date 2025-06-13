@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Ninja_Clone_Yukimaru",
+        "name": "Ninja Clone Yukimaru",
+        "desc": "copy her stats but 0LCK",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Vampire_Spirit",
+        "name": "Vampire Spirit",
+        "desc": "Mistress- Vampire Spirit- Attacking an enemy gains 10% hp back after the attack",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]
