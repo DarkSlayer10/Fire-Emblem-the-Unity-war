@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Holy_Fire",
+        "name": "Holy Fire",
+        "desc": "reaver",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

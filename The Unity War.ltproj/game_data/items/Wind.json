@@ -2,7 +2,7 @@
     {
         "nid": "Wind",
         "name": "Wind",
-        "desc": "Basic wind magic.",
+        "desc": "Basic wind magic.\nEffective vs flying",
         "icon_nid": "InHouse and Filler Icons",
         "icon_index": [
             9,

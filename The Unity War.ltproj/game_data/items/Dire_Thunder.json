@@ -2,7 +2,7 @@
     {
         "nid": "Dire_Thunder",
         "name": "Dire Thunder",
-        "desc": "Intermidate thunder magic.",
+        "desc": "Intermidate thunder magic.\nbrave",
         "icon_nid": "Anima",
         "icon_index": [
             0,

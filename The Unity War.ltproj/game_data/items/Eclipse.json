@@ -65,15 +65,15 @@
                 10
             ],
             [
-                "status_on_hit",
-                "Fort"
-            ],
-            [
                 "siege_weapon",
                 null
             ],
             [
                 "no_double",
+                null
+            ],
+            [
+                "eclipse",
                 null
             ]
         ]

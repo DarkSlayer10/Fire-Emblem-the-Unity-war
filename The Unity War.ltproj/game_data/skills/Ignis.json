@@ -2,7 +2,7 @@
     {
         "nid": "Ignis",
         "name": "Ignis",
-        "desc": "Mage Knight",
+        "desc": "Mage Knight\nadd half str to magic, add half mag to weapons",
         "icon_nid": null,
         "icon_index": [
             0,

@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Respiratory",
+        "name": "Respiratory",
+        "desc": "ranged restore",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

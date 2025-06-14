@@ -2,7 +2,7 @@
     {
         "nid": "Icicles",
         "name": "Ice Shard",
-        "desc": "Basic ice magic. Chills on hit.\n(-4 Spd after combat.)",
+        "desc": "Basic ice magic. Chills on hit.\n(-4 Spd after combat.)\nneeds new effect, probably just make it C rank",
         "icon_nid": "InHouse and Filler Icons",
         "icon_index": [
             13,

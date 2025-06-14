@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Great",
-        "name": "Great",
+        "nid": "Heavy",
+        "name": "Heavy",
         "desc": "Goes second, foe has desperation.",
         "icon_nid": null,
         "icon_index": [
@@ -16,14 +16,14 @@
             [
                 "skill_before_combat",
                 {
-                    "skill": "Great_S",
+                    "skill": "Heavy_S",
                     "recipient": "target",
                     "allegiance": "enemy"
                 }
             ],
             [
                 "condition",
-                "'Great' in item.nid"
+                "'Heavy' in item.tags"
             ]
         ]
     }

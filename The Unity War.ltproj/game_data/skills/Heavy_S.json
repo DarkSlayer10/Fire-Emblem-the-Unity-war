@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Great_S",
-        "name": "Great",
+        "nid": "Heavy_S",
+        "name": "Heavy S",
         "desc": "",
         "icon_nid": null,
         "icon_index": [
@@ -29,6 +29,10 @@
             [
                 "hide_skill_icon_in_combat",
                 null
+            ],
+            [
+                "item_override",
+                "OR_Shove"
             ]
         ]
     }

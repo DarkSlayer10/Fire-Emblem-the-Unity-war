@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Laguz_Dagger",
+        "name": "Laguz Dagger",
+        "desc": "effective against rosefal",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

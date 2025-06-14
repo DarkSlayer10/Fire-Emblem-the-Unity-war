@@ -2,7 +2,7 @@
     {
         "nid": "Thoron",
         "name": "Thoron",
-        "desc": "Intermidate thunder magic.",
+        "desc": "Intermidate thunder magic.\nkiller",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -39,7 +39,7 @@
             ],
             [
                 "crit",
-                0
+                30
             ],
             [
                 "weight",

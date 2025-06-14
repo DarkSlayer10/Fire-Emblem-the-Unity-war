@@ -614,7 +614,7 @@
                 "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Steel_Claws",
+                        "Steel_Gauntlets",
                         false
                     ]
                 ],
@@ -694,7 +694,7 @@
                 "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Claws",
+                        "Iron_Gauntlets",
                         false
                     ]
                 ],
@@ -1082,7 +1082,7 @@
                 "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Steel_Claws",
+                        "Steel_Gauntlets",
                         false
                     ]
                 ],

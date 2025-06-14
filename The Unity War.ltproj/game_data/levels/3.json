@@ -425,11 +425,11 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron_Claws",
+                        "Iron_Gauntlets",
                         false
                     ],
                     [
-                        "Steel_Claws",
+                        "Steel_Gauntlets",
                         false
                     ]
                 ],
@@ -581,7 +581,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron_Claws",
+                        "Iron_Gauntlets",
                         false
                     ]
                 ],
@@ -605,7 +605,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron_Claws",
+                        "Iron_Gauntlets",
                         false
                     ]
                 ],
@@ -809,7 +809,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Steel_Claws",
+                        "Steel_Gauntlets",
                         false
                     ],
                     [

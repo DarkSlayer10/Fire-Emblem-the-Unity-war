@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Stiletto",
+        "name": "Stiletto",
+        "desc": "killer dagger",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

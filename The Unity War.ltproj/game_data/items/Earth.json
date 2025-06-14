@@ -2,7 +2,7 @@
     {
         "nid": "Earth",
         "name": "Earth ",
-        "desc": "Emma only. Hits Def.",
+        "desc": "Hits Def.",
         "icon_nid": "InHouse and Filler Icons",
         "icon_index": [
             0,
@@ -47,12 +47,6 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
-            ],
-            [
-                "prf_unit",
-                [
-                    "Emma"
-                ]
             ]
         ]
     }

@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Laguz_Sword",
+        "name": "Laguz Sword",
+        "desc": "effective against rosefall units.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

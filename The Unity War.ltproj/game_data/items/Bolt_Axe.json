@@ -2,7 +2,7 @@
     {
         "nid": "Bolt_Axe",
         "name": "Bolt Axe",
-        "desc": "A axe infused with thunder magic,",
+        "desc": "A axe infused with thunder magic,\nshould it do something else?",
         "icon_nid": "InHouse and Filler Icons",
         "icon_index": [
             15,

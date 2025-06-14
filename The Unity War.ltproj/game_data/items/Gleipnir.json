@@ -2,7 +2,7 @@
     {
         "nid": "Gleipnir",
         "name": "Gleipnir",
-        "desc": "",
+        "desc": "A Sacred Twin tome. Skill +5.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -62,7 +62,7 @@
             ],
             [
                 "status_on_equip",
-                "Fort"
+                "Skill5"
             ],
             [
                 "wexp",

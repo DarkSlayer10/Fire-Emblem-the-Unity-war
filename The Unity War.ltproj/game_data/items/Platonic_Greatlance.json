@@ -1,0 +1,44 @@
+[
+    {
+        "nid": "Platonic_Greatlance",
+        "name": "Platonic Greatlance",
+        "desc": "",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "item_tags",
+                [
+                    "Heavy"
+                ]
+            ]
+        ]
+    }
+]

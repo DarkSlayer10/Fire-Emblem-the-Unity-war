@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Hexing_Rod",
+        "name": "Hexing Rod",
+        "desc": "debuff staves -4 to all stats for 2 turns.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Lightning",
-        "name": "Lightning",
+        "nid": "Light",
+        "name": "Light",
         "desc": "A holy tome that shoots light magic.",
         "icon_nid": "Light",
         "icon_index": [

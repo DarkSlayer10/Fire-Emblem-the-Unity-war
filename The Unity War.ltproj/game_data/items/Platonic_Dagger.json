@@ -1,0 +1,44 @@
+[
+    {
+        "nid": "Platonic_Dagger",
+        "name": "Platonic Dagger",
+        "desc": "",
+        "icon_nid": "Batima_Daggers",
+        "icon_index": [
+            3,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "prf_tags",
+                [
+                    "Dagger"
+                ]
+            ]
+        ]
+    }
+]

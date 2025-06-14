@@ -2,7 +2,7 @@
     {
         "nid": "Divine",
         "name": "Divine",
-        "desc": "Heavier light magic.",
+        "desc": "Heavier light magic.\neff vs monster",
         "icon_nid": "Light",
         "icon_index": [
             0,
