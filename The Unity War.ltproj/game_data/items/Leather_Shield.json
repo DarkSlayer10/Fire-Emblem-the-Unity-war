@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "Leather_Shield",
+        "name": "Leather Shield",
+        "desc": "gives +2 DEF -1SPD, 3 uses per chapter",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "item_tags",
+                [
+                    "Shield"
+                ]
+            ],
+            [
+                "status_on_equip",
+                "Leather_Shield_skill"
+            ],
+            [
+                "accessory",
+                null
+            ],
+            [
+                "c_uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ]
+        ]
+    }
+]

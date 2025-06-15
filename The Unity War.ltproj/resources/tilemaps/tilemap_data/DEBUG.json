@@ -184,32 +184,32 @@
                     "3,4": "1",
                     "2,4": "1",
                     "9,0": "1",
-                    "12,1": "Village Ruins",
+                    "12,1": "Village_Ruins",
                     "14,4": "1",
                     "13,4": "1",
                     "9,8": "1",
-                    "11,2": "Village Ruins",
+                    "11,2": "Village_Ruins",
                     "12,5": "1",
                     "10,8": "1",
-                    "12,2": "Village Ruins",
+                    "12,2": "Village_Ruins",
                     "14,5": "1",
-                    "13,3": "Village Ruins",
+                    "13,3": "Village_Ruins",
                     "12,6": "1",
                     "13,7": "1",
-                    "11,1": "Village Ruins",
+                    "11,1": "Village_Ruins",
                     "10,9": "1",
-                    "12,3": "Village Ruins",
+                    "12,3": "Village_Ruins",
                     "11,4": "1",
-                    "13,2": "Village Ruins",
+                    "13,2": "Village_Ruins",
                     "12,7": "1",
                     "14,6": "1",
                     "13,6": "1",
                     "11,7": "1",
-                    "13,1": "Village Ruins",
+                    "13,1": "Village_Ruins",
                     "11,8": "1",
                     "13,5": "1",
                     "9,9": "1",
-                    "11,3": "Village Ruins",
+                    "11,3": "Village_Ruins",
                     "12,4": "1",
                     "14,3": "1",
                     "0,14": "1",
@@ -1812,357 +1812,6 @@
                         [
                             14,
                             8
-                        ]
-                    ]
-                }
-            },
-            {
-                "nid": "Village1",
-                "visible": false,
-                "foreground": false,
-                "terrain_grid": {
-                    "4,2": "0"
-                },
-                "sprite_grid": {}
-            },
-            {
-                "nid": "Village2",
-                "visible": false,
-                "foreground": false,
-                "terrain_grid": {
-                    "7,2": "0"
-                },
-                "sprite_grid": {}
-            },
-            {
-                "nid": "Village3",
-                "visible": false,
-                "foreground": false,
-                "terrain_grid": {
-                    "1,12": "0"
-                },
-                "sprite_grid": {}
-            },
-            {
-                "nid": "Ruin1",
-                "visible": false,
-                "foreground": false,
-                "terrain_grid": {
-                    "3,0": "Village Ruins",
-                    "3,1": "Village Ruins",
-                    "3,2": "Village Ruins",
-                    "4,2": "Village Ruins",
-                    "5,2": "Village Ruins",
-                    "5,1": "Village Ruins",
-                    "5,0": "Village Ruins",
-                    "4,0": "Village Ruins",
-                    "4,1": "Village Ruins"
-                },
-                "sprite_grid": {
-                    "4,1": [
-                        "DEBUG",
-                        [
-                            12,
-                            2
-                        ]
-                    ],
-                    "5,0": [
-                        "DEBUG",
-                        [
-                            13,
-                            1
-                        ]
-                    ],
-                    "4,0": [
-                        "DEBUG",
-                        [
-                            12,
-                            1
-                        ]
-                    ],
-                    "5,1": [
-                        "DEBUG",
-                        [
-                            13,
-                            2
-                        ]
-                    ],
-                    "5,2": [
-                        "DEBUG",
-                        [
-                            13,
-                            3
-                        ]
-                    ],
-                    "3,1": [
-                        "DEBUG",
-                        [
-                            11,
-                            2
-                        ]
-                    ],
-                    "3,2": [
-                        "DEBUG",
-                        [
-                            11,
-                            3
-                        ]
-                    ],
-                    "3,0": [
-                        "DEBUG",
-                        [
-                            11,
-                            1
-                        ]
-                    ],
-                    "4,2": [
-                        "DEBUG",
-                        [
-                            12,
-                            3
-                        ]
-                    ]
-                }
-            },
-            {
-                "nid": "Ruin2",
-                "visible": false,
-                "foreground": false,
-                "terrain_grid": {
-                    "6,0": "Village Ruins",
-                    "6,1": "Village Ruins",
-                    "6,2": "Village Ruins",
-                    "7,2": "Village Ruins",
-                    "8,2": "Village Ruins",
-                    "8,1": "Village Ruins",
-                    "8,0": "Village Ruins",
-                    "7,0": "Village Ruins",
-                    "7,1": "Village Ruins"
-                },
-                "sprite_grid": {
-                    "7,1": [
-                        "DEBUG",
-                        [
-                            12,
-                            2
-                        ]
-                    ],
-                    "8,0": [
-                        "DEBUG",
-                        [
-                            13,
-                            1
-                        ]
-                    ],
-                    "7,0": [
-                        "DEBUG",
-                        [
-                            12,
-                            1
-                        ]
-                    ],
-                    "8,1": [
-                        "DEBUG",
-                        [
-                            13,
-                            2
-                        ]
-                    ],
-                    "8,2": [
-                        "DEBUG",
-                        [
-                            13,
-                            3
-                        ]
-                    ],
-                    "6,1": [
-                        "DEBUG",
-                        [
-                            11,
-                            2
-                        ]
-                    ],
-                    "6,2": [
-                        "DEBUG",
-                        [
-                            11,
-                            3
-                        ]
-                    ],
-                    "6,0": [
-                        "DEBUG",
-                        [
-                            11,
-                            1
-                        ]
-                    ],
-                    "7,2": [
-                        "DEBUG",
-                        [
-                            12,
-                            3
-                        ]
-                    ]
-                }
-            },
-            {
-                "nid": "Ruin3",
-                "visible": false,
-                "foreground": false,
-                "terrain_grid": {
-                    "0,10": "Village Ruins",
-                    "0,11": "Village Ruins",
-                    "0,12": "Village Ruins",
-                    "1,12": "Village Ruins",
-                    "2,12": "Village Ruins",
-                    "2,11": "Village Ruins",
-                    "2,10": "Village Ruins",
-                    "1,11": "Village Ruins",
-                    "1,10": "Village Ruins"
-                },
-                "sprite_grid": {
-                    "1,11": [
-                        "DEBUG",
-                        [
-                            12,
-                            2
-                        ]
-                    ],
-                    "2,10": [
-                        "DEBUG",
-                        [
-                            13,
-                            1
-                        ]
-                    ],
-                    "1,10": [
-                        "DEBUG",
-                        [
-                            12,
-                            1
-                        ]
-                    ],
-                    "2,11": [
-                        "DEBUG",
-                        [
-                            13,
-                            2
-                        ]
-                    ],
-                    "2,12": [
-                        "DEBUG",
-                        [
-                            13,
-                            3
-                        ]
-                    ],
-                    "0,11": [
-                        "DEBUG",
-                        [
-                            11,
-                            2
-                        ]
-                    ],
-                    "0,12": [
-                        "DEBUG",
-                        [
-                            11,
-                            3
-                        ]
-                    ],
-                    "0,10": [
-                        "DEBUG",
-                        [
-                            11,
-                            1
-                        ]
-                    ],
-                    "1,12": [
-                        "DEBUG",
-                        [
-                            12,
-                            3
-                        ]
-                    ]
-                }
-            },
-            {
-                "nid": "PrevVillage",
-                "visible": true,
-                "foreground": false,
-                "terrain_grid": {
-                    "11,3": "0",
-                    "11,2": "0",
-                    "11,1": "0",
-                    "12,1": "0",
-                    "13,1": "0",
-                    "13,2": "0",
-                    "13,3": "0",
-                    "12,2": "0",
-                    "12,3": "35"
-                },
-                "sprite_grid": {
-                    "11,3": [
-                        "DEBUG",
-                        [
-                            3,
-                            2
-                        ]
-                    ],
-                    "13,2": [
-                        "DEBUG",
-                        [
-                            5,
-                            1
-                        ]
-                    ],
-                    "11,1": [
-                        "DEBUG",
-                        [
-                            3,
-                            0
-                        ]
-                    ],
-                    "11,2": [
-                        "DEBUG",
-                        [
-                            3,
-                            1
-                        ]
-                    ],
-                    "13,3": [
-                        "DEBUG",
-                        [
-                            5,
-                            2
-                        ]
-                    ],
-                    "13,1": [
-                        "DEBUG",
-                        [
-                            5,
-                            0
-                        ]
-                    ],
-                    "12,3": [
-                        "DEBUG",
-                        [
-                            4,
-                            2
-                        ]
-                    ],
-                    "12,2": [
-                        "DEBUG",
-                        [
-                            4,
-                            1
-                        ]
-                    ],
-                    "12,1": [
-                        "DEBUG",
-                        [
-                            4,
-                            0
                         ]
                     ]
                 }

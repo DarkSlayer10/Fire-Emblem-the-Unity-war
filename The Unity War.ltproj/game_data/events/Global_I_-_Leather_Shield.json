@@ -1,0 +1,18 @@
+[
+    {
+        "name": "I - Leather Shield",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "for;I;[x.nid for x in unit.items if 'Shield' in x.tags]",
+            "    set_item_uses;{unit};{I};-1;additive",
+            "endf",
+            ""
+        ],
+        "nid": "Global I - Leather Shield"
+    }
+]

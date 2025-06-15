@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "Iron_Shield",
+        "name": "Iron Shield",
+        "desc": "gives +4 def -2SPD, 6 uses per chapter",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Iron_Shield_skill"
+            ],
+            [
+                "item_tags",
+                [
+                    "Shield"
+                ]
+            ],
+            [
+                "c_uses",
+                6
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "accessory",
+                null
+            ]
+        ]
+    }
+]

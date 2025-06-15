@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "OR_Black_Magic",
+        "name": "OR Black Magic",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_on_hit",
+                "Global D - Emma Death"
+            ]
+        ]
+    }
+]

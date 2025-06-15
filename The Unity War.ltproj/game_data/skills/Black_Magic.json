@@ -12,6 +12,14 @@
             [
                 "proc_rate",
                 "SKLPROC"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "attack_proc",
+                "_Black_Magic_Status"
             ]
         ]
     }

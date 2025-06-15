@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Silver_Shield_skill",
+        "name": "Silver Shield skill",
+        "desc": "currently uses charges per combat, should probably fix it",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        6
+                    ],
+                    [
+                        "SPD",
+                        -3
+                    ]
+                ]
+            ],
+            [
+                "event_stack_on_take_hit",
+                "Global I - Leather Shield"
+            ]
+        ]
+    }
+]

@@ -10,8 +10,8 @@
         ],
         "components": [
             [
-                "event_before_combat",
-                "Global D - Emma Death"
+                "item_override",
+                "Iron_Sword"
             ]
         ]
     }

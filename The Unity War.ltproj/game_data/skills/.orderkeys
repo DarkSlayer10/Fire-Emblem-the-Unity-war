@@ -148,10 +148,12 @@
     "_Summon",
     "Black_Magic",
     "_Black_Magic_Status",
-    "_Counter_Magic",
+    "Counter_Magic",
+    "Counter_Magic_skill",
     "Wrath",
     "Ready_Stance",
-    "_Think_Twice",
+    "Think_Twice",
+    "Think_Twice_skill",
     "Pursuit",
     "Insight",
     "_Full_Metal_Body",
@@ -182,5 +184,9 @@
     "Deadly_Blow",
     "Spur_Defense",
     "Dreagon_Fury",
-    "Vampire_Spirit"
+    "Vampire_Spirit",
+    "Leather_Shield_skill",
+    "Iron_Shield_skill",
+    "Steel_Shield_skill",
+    "Silver_Shield_skill"
 ]

@@ -188,6 +188,7 @@
     "Iron_Gauntlets",
     "Steel_Gauntlets",
     "Silver_Gauntlets",
+    "Killer_Gauntlets",
     "Dragon_Claws",
     "Beast_Claws",
     "Magic_Gauntlets",
@@ -198,6 +199,10 @@
     "Fetid_Claw",
     "Sharp_Claw",
     "Sharp_Talons",
+    "Leather_Shield",
+    "Iron_Shield",
+    "Steel_Shield",
+    "Silver_Shield",
     "Concoction",
     "Elixir",
     "Pure_Water",
@@ -262,5 +267,6 @@
     "OR_Brave",
     "OR_Shove",
     "OR_Triangle_Expert",
-    "Bomb"
+    "Bomb",
+    "OR_Black_Magic"
 ]
