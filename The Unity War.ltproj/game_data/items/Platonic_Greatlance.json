@@ -38,6 +38,14 @@
                 [
                     "Heavy"
                 ]
+            ],
+            [
+                "status_on_hold",
+                "Heavy"
+            ],
+            [
+                "shove_flex_stops",
+                1
             ]
         ]
     }

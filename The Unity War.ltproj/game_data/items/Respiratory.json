@@ -8,6 +8,34 @@
             0,
             0
         ],
-        "components": []
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Staff"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "value",
+                0
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ]
+        ]
     }
 ]

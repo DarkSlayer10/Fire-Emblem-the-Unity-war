@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Silver_Shield",
-        "name": "Silver Shield",
-        "desc": "gives +8 DEF -4 SPD, 12 uses per chapter",
+        "nid": "Ward_Shield",
+        "name": "Ward Shield",
+        "desc": "gives +6 RES -3 SPD, 9 uses per chapter",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -11,7 +11,7 @@
         "components": [
             [
                 "status_on_hold",
-                "Silver_Shield_skill"
+                "Ward_Shield_skill"
             ],
             [
                 "item_tags",
@@ -21,7 +21,7 @@
             ],
             [
                 "c_uses",
-                12
+                9
             ],
             [
                 "uses_options",

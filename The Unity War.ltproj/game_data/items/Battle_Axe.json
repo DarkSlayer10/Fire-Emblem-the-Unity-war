@@ -67,6 +67,10 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "item_prefab",
+                "Platonic_Greataxe"
             ]
         ]
     }

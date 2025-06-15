@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Silver_Shield_skill",
-        "name": "Silver Shield skill",
+        "nid": "Ward_Shield_skill",
+        "name": "Ward Shield skill",
         "desc": "currently uses charges per combat, should probably fix it",
         "icon_nid": "Boosters",
         "icon_index": [
@@ -13,12 +13,12 @@
                 "stat_change",
                 [
                     [
-                        "DEF",
-                        8
+                        "RES",
+                        6
                     ],
                     [
                         "SPD",
-                        -4
+                        -3
                     ]
                 ]
             ],

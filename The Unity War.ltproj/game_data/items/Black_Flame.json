@@ -8,6 +8,11 @@
             0,
             0
         ],
-        "components": []
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Anima"
+            ]
+        ]
     }
 ]
