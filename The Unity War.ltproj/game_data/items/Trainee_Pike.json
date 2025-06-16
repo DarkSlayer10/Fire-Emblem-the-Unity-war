@@ -30,17 +30,6 @@
                 6
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "prf_unit",
                 [
                     "Marica"
@@ -58,6 +47,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "c_uses",
+                10
             ]
         ]
     }

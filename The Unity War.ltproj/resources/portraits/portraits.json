@@ -706,5 +706,17 @@
             41
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "dark_test_portrait2",
+        "blinking_offset": [
+            56,
+            40
+        ],
+        "smiling_offset": [
+            56,
+            56
+        ],
+        "info_offset": 0
     }
 ]

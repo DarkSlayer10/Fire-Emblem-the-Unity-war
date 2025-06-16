@@ -2,7 +2,7 @@
     {
         "nid": "Wind_Sword",
         "name": "Wind Sword",
-        "desc": "Capable of indirect attacks.",
+        "desc": "Capable of indirect attacks.\neff vs flying, physical dmg",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -75,6 +75,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "crit",
+                0
             ]
         ]
     }

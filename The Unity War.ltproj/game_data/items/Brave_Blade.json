@@ -23,7 +23,7 @@
             ],
             [
                 "hit",
-                75
+                55
             ],
             [
                 "crit",
@@ -31,7 +31,7 @@
             ],
             [
                 "weight",
-                0
+                16
             ],
             [
                 "uses",
@@ -43,6 +43,10 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "damage",
+                13
             ]
         ]
     }

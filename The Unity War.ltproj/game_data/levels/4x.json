@@ -203,8 +203,7 @@
                 "condition": "False",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "Prepare",
@@ -221,8 +220,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             }
         ],
         "unit_groups": [

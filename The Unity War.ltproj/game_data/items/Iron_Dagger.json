@@ -11,11 +11,11 @@
         "components": [
             [
                 "item_prefab",
-                "Platonic_Sword"
+                "Platonic_Dagger"
             ],
             [
                 "weapon_rank",
-                "E"
+                "D"
             ],
             [
                 "value",
@@ -27,23 +27,23 @@
             ],
             [
                 "damage",
-                3
+                4
             ],
             [
                 "hit",
-                90
+                100
             ],
             [
                 "crit",
-                0
+                10
             ],
             [
                 "weight",
-                6
+                3
             ],
             [
                 "uses",
-                40
+                45
             ],
             [
                 "uses_options",

@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Slim_Sword",
-        "name": "Slim Sword",
-        "desc": "A sword that's weak but accurate.",
+        "nid": "Bronze_Sword",
+        "name": "Bronze Sword",
+        "desc": "A sword that's weak but accurate.\n",
         "icon_nid": "Sword",
         "icon_index": [
             0,

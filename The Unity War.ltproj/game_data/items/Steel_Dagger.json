@@ -15,7 +15,7 @@
             ],
             [
                 "weapon_rank",
-                "D"
+                "C"
             ],
             [
                 "value",
@@ -23,23 +23,23 @@
             ],
             [
                 "damage",
-                0
+                7
             ],
             [
                 "hit",
-                75
+                90
             ],
             [
                 "crit",
-                0
+                15
             ],
             [
                 "weight",
-                0
+                7
             ],
             [
                 "uses",
-                1
+                30
             ],
             [
                 "uses_options",

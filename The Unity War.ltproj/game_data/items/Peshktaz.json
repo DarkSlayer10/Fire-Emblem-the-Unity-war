@@ -15,7 +15,7 @@
             ],
             [
                 "weapon_rank",
-                "S"
+                "A"
             ],
             [
                 "value",
@@ -23,23 +23,23 @@
             ],
             [
                 "damage",
-                0
+                11
             ],
             [
                 "hit",
-                75
+                85
             ],
             [
                 "crit",
-                0
+                30
             ],
             [
                 "weight",
-                0
+                9
             ],
             [
                 "uses",
-                1
+                20
             ],
             [
                 "uses_options",
@@ -47,6 +47,14 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "shove_flex_stops",
+                1
             ]
         ]
     }

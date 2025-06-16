@@ -2,7 +2,7 @@
     {
         "nid": "Poison",
         "name": "Poison",
-        "desc": "Makes the unit take twwo more damage per stack, max 3 stacks",
+        "desc": "Makes the unit take two more damage per stack, max 3 stacks",
         "icon_nid": null,
         "icon_index": [
             0,

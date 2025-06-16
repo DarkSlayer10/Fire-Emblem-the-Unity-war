@@ -2,7 +2,7 @@
     {
         "nid": "Holy_Dagger",
         "name": "Holy Dagger",
-        "desc": "",
+        "desc": "eff vs demon",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -23,29 +23,41 @@
             ],
             [
                 "damage",
-                0
+                6
             ],
             [
                 "hit",
-                75
+                90
             ],
             [
                 "crit",
-                0
+                10
             ],
             [
                 "weight",
-                0
+                4
             ],
             [
                 "uses",
-                1
+                40
             ],
             [
                 "uses_options",
                 {
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
+                }
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
                 }
             ]
         ]

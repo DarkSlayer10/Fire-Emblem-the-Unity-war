@@ -2,7 +2,7 @@
     {
         "nid": "Runesword",
         "name": "Runesword",
-        "desc": "Imbued with dark magic.",
+        "desc": "Imbued with dark magic.\nheal on hit",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -75,6 +75,10 @@
             [
                 "battle_cast_anim",
                 "Nosferatu"
+            ],
+            [
+                "crit",
+                0
             ]
         ]
     }

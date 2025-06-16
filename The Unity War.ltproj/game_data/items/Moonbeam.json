@@ -42,17 +42,6 @@
                 10
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "prf_unit",
                 [
                     "Luna"
@@ -61,6 +50,10 @@
             [
                 "battle_cast_anim",
                 "Flux"
+            ],
+            [
+                "c_uses",
+                10
             ]
         ]
     }

@@ -23,23 +23,23 @@
             ],
             [
                 "damage",
-                0
+                4
             ],
             [
                 "hit",
-                75
+                125
             ],
             [
                 "crit",
-                0
+                10
             ],
             [
                 "weight",
-                0
+                3
             ],
             [
                 "uses",
-                1
+                25
             ],
             [
                 "uses_options",

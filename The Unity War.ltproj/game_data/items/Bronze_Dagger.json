@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Slim_Dagger",
-        "name": "Slim Dagger",
+        "nid": "Bronze_Dagger",
+        "name": "Bronze Dagger",
         "desc": "",
         "icon_nid": null,
         "icon_index": [
@@ -23,23 +23,23 @@
             ],
             [
                 "damage",
-                0
+                2
             ],
             [
                 "hit",
-                75
+                110
             ],
             [
                 "crit",
-                0
+                10
             ],
             [
                 "weight",
-                0
+                2
             ],
             [
                 "uses",
-                1
+                40
             ],
             [
                 "uses_options",

@@ -1147,7 +1147,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Slim_Sword",
+                        "Bronze_Sword",
                         false
                     ]
                 ],
@@ -1439,8 +1439,7 @@
                 "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "EscapeThief_2",
@@ -1457,8 +1456,7 @@
                 "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "EscapeThief_3",
@@ -1475,8 +1473,7 @@
                 "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "Chest_1",
@@ -1493,8 +1490,7 @@
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "Chest_2",
@@ -1511,8 +1507,7 @@
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "Chest_3",
@@ -1529,8 +1524,7 @@
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "Chest_4",
@@ -1547,8 +1541,7 @@
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "Door_1",
@@ -1565,8 +1558,7 @@
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "Door_2",
@@ -1583,8 +1575,7 @@
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "Door_3",
@@ -1601,8 +1592,7 @@
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "Door_4",
@@ -1619,8 +1609,7 @@
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_1",
@@ -1637,8 +1626,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_2",
@@ -1655,8 +1643,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_3",
@@ -1673,8 +1660,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_4",
@@ -1691,8 +1677,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_5",
@@ -1709,8 +1694,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_6",
@@ -1727,8 +1711,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_7",
@@ -1745,8 +1728,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_8",
@@ -1763,8 +1745,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_9",
@@ -1781,8 +1762,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_10",
@@ -1799,8 +1779,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_11",
@@ -1817,8 +1796,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "Seize",
@@ -1835,8 +1813,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             }
         ],
         "unit_groups": [

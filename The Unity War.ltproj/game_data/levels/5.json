@@ -1482,8 +1482,7 @@
                 "condition": "False",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "Prepare",
@@ -1500,8 +1499,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_1",
@@ -1518,8 +1516,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_2",
@@ -1536,8 +1533,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_3",
@@ -1554,8 +1550,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_4",
@@ -1572,8 +1567,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_5",
@@ -1590,8 +1584,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_6",
@@ -1608,8 +1601,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_7",
@@ -1626,8 +1618,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_8",
@@ -1644,8 +1635,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_9",
@@ -1662,8 +1652,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_10",
@@ -1680,8 +1669,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_11",
@@ -1698,8 +1686,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "F_12",
@@ -1716,8 +1703,7 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "chest_left",
@@ -1734,8 +1720,7 @@
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "chest_center",
@@ -1752,8 +1737,7 @@
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "chest_right",
@@ -1770,8 +1754,7 @@
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "ethief_1",
@@ -1788,8 +1771,7 @@
                 "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "ethief_2",
@@ -1806,8 +1788,7 @@
                 "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "ethief_3",
@@ -1824,8 +1805,7 @@
                 "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "ethief_4",
@@ -1842,8 +1822,7 @@
                 "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             },
             {
                 "nid": "ethief_5",
@@ -1860,8 +1839,7 @@
                 "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
+                "interrupt_move": false
             }
         ],
         "unit_groups": [

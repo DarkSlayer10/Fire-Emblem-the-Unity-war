@@ -38,6 +38,14 @@
                 [
                     "Dagger"
                 ]
+            ],
+            [
+                "status_on_hit",
+                "Poison"
+            ],
+            [
+                "crit",
+                10
             ]
         ]
     }

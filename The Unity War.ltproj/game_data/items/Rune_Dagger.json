@@ -12,6 +12,29 @@
             [
                 "item_prefab",
                 "Iron_Sword"
+            ],
+            [
+                "damage",
+                0
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "c_uses",
+                12
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     }
