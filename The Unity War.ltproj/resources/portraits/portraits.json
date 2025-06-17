@@ -696,14 +696,854 @@
         "info_offset": 0
     },
     {
-        "nid": "Nicole",
+        "nid": "ArielPurple",
         "blinking_offset": [
-            19,
-            25
+            40,
+            40
         ],
         "smiling_offset": [
-            19,
+            40,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "image-447",
+        "blinking_offset": [
+            40,
+            32
+        ],
+        "smiling_offset": [
+            40,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "image-511",
+        "blinking_offset": [
+            29,
+            40
+        ],
+        "smiling_offset": [
+            29,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "brawler blonde",
+        "blinking_offset": [
+            32,
+            40
+        ],
+        "smiling_offset": [
+            32,
+            56
+        ],
+        "info_offset": 7
+    },
+    {
+        "nid": "CatProbably-1",
+        "blinking_offset": [
+            40,
+            48
+        ],
+        "smiling_offset": [
+            40,
+            64
+        ],
+        "info_offset": 10
+    },
+    {
+        "nid": "greengirl",
+        "blinking_offset": [
+            35,
             41
+        ],
+        "smiling_offset": [
+            35,
+            57
+        ],
+        "info_offset": 13
+    },
+    {
+        "nid": "Harpy_Clawless-1",
+        "blinking_offset": [
+            30,
+            48
+        ],
+        "smiling_offset": [
+            38,
+            56
+        ],
+        "info_offset": 13
+    },
+    {
+        "nid": "hero",
+        "blinking_offset": [
+            48,
+            40
+        ],
+        "smiling_offset": [
+            48,
+            56
+        ],
+        "info_offset": 9
+    },
+    {
+        "nid": "image-118",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 7
+    },
+    {
+        "nid": "image-102-1",
+        "blinking_offset": [
+            32,
+            40
+        ],
+        "smiling_offset": [
+            32,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "image-245",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 13
+    },
+    {
+        "nid": "image-233-1",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 13
+    },
+    {
+        "nid": "image-255",
+        "blinking_offset": [
+            40,
+            48
+        ],
+        "smiling_offset": [
+            40,
+            64
+        ],
+        "info_offset": 12
+    },
+    {
+        "nid": "image-271",
+        "blinking_offset": [
+            48,
+            40
+        ],
+        "smiling_offset": [
+            48,
+            56
+        ],
+        "info_offset": 13
+    },
+    {
+        "nid": "image-274-1",
+        "blinking_offset": [
+            39,
+            42
+        ],
+        "smiling_offset": [
+            39,
+            58
+        ],
+        "info_offset": 11
+    },
+    {
+        "nid": "image-293",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 18
+    },
+    {
+        "nid": "image-346-1",
+        "blinking_offset": [
+            47,
+            38
+        ],
+        "smiling_offset": [
+            47,
+            54
+        ],
+        "info_offset": 11
+    },
+    {
+        "nid": "image-355",
+        "blinking_offset": [
+            40,
+            48
+        ],
+        "smiling_offset": [
+            40,
+            64
+        ],
+        "info_offset": 16
+    },
+    {
+        "nid": "Sarah_1",
+        "blinking_offset": [
+            30,
+            40
+        ],
+        "smiling_offset": [
+            30,
+            56
+        ],
+        "info_offset": 2
+    },
+    {
+        "nid": "image-386",
+        "blinking_offset": [
+            32,
+            40
+        ],
+        "smiling_offset": [
+            32,
+            56
+        ],
+        "info_offset": 15
+    },
+    {
+        "nid": "image-388",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 11
+    },
+    {
+        "nid": "image-425",
+        "blinking_offset": [
+            30,
+            40
+        ],
+        "smiling_offset": [
+            30,
+            56
+        ],
+        "info_offset": 2
+    },
+    {
+        "nid": "image-436",
+        "blinking_offset": [
+            38,
+            40
+        ],
+        "smiling_offset": [
+            38,
+            56
+        ],
+        "info_offset": 11
+    },
+    {
+        "nid": "image-444",
+        "blinking_offset": [
+            48,
+            40
+        ],
+        "smiling_offset": [
+            48,
+            56
+        ],
+        "info_offset": 15
+    },
+    {
+        "nid": "image-446",
+        "blinking_offset": [
+            29,
+            40
+        ],
+        "smiling_offset": [
+            29,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "image-449",
+        "blinking_offset": [
+            38,
+            40
+        ],
+        "smiling_offset": [
+            38,
+            56
+        ],
+        "info_offset": 5
+    },
+    {
+        "nid": "Kate_Base",
+        "blinking_offset": [
+            48,
+            40
+        ],
+        "smiling_offset": [
+            48,
+            56
+        ],
+        "info_offset": 16
+    },
+    {
+        "nid": "Kate_Promo",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 21
+    },
+    {
+        "nid": "Luna_Base",
+        "blinking_offset": [
+            40,
+            48
+        ],
+        "smiling_offset": [
+            40,
+            64
+        ],
+        "info_offset": 13
+    },
+    {
+        "nid": "Lily_1",
+        "blinking_offset": [
+            40,
+            48
+        ],
+        "smiling_offset": [
+            40,
+            64
+        ],
+        "info_offset": 12
+    },
+    {
+        "nid": "Luna_Promo",
+        "blinking_offset": [
+            40,
+            48
+        ],
+        "smiling_offset": [
+            40,
+            64
+        ],
+        "info_offset": 17
+    },
+    {
+        "nid": "Maid_2",
+        "blinking_offset": [
+            40,
+            48
+        ],
+        "smiling_offset": [
+            48,
+            64
+        ],
+        "info_offset": 24
+    },
+    {
+        "nid": "Marica_Base",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 20
+    },
+    {
+        "nid": "Marica_Promo",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 19
+    },
+    {
+        "nid": "Noelle_Promo-1",
+        "blinking_offset": [
+            45,
+            40
+        ],
+        "smiling_offset": [
+            45,
+            56
+        ],
+        "info_offset": 20
+    },
+    {
+        "nid": "Portrait_Editor_UW_Update_9-27-24.emulator.gba_187BB_Noelle_01C26F84-1-1",
+        "blinking_offset": [
+            37,
+            40
+        ],
+        "smiling_offset": [
+            37,
+            56
+        ],
+        "info_offset": 20
+    },
+    {
+        "nid": "Portrait_Editor_UW_Update_9-27-24.emulator.gba_909_Layla_01C25C0C-1",
+        "blinking_offset": [
+            40,
+            48
+        ],
+        "smiling_offset": [
+            40,
+            64
+        ],
+        "info_offset": 12
+    },
+    {
+        "nid": "PromoNatalia-1",
+        "blinking_offset": [
+            46,
+            40
+        ],
+        "smiling_offset": [
+            46,
+            56
+        ],
+        "info_offset": 11
+    },
+    {
+        "nid": "PromoNataliaCracked-1",
+        "blinking_offset": [
+            46,
+            40
+        ],
+        "smiling_offset": [
+            46,
+            56
+        ],
+        "info_offset": 11
+    },
+    {
+        "nid": "ribbon work lady",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 10
+    },
+    {
+        "nid": "Sonia2-2",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 8
+    },
+    {
+        "nid": "Sonia2-2_Promo",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 8
+    },
+    {
+        "nid": "succubus1verison2",
+        "blinking_offset": [
+            40,
+            48
+        ],
+        "smiling_offset": [
+            32,
+            64
+        ],
+        "info_offset": 8
+    },
+    {
+        "nid": "succubus2",
+        "blinking_offset": [
+            37,
+            48
+        ],
+        "smiling_offset": [
+            29,
+            64
+        ],
+        "info_offset": 11
+    },
+    {
+        "nid": "succubus3",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 8
+    },
+    {
+        "nid": "TrinityCrazyFrames",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 8
+    },
+    {
+        "nid": "TrinityFrames",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 8
+    },
+    {
+        "nid": "Wolf2",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 8
+    },
+    {
+        "nid": "BrownHairRedCloak",
+        "blinking_offset": [
+            32,
+            40
+        ],
+        "smiling_offset": [
+            32,
+            56
+        ],
+        "info_offset": 5
+    },
+    {
+        "nid": "BrownHairRedCloakDarkEyes",
+        "blinking_offset": [
+            32,
+            40
+        ],
+        "smiling_offset": [
+            32,
+            56
+        ],
+        "info_offset": 5
+    },
+    {
+        "nid": "BlackHairHarpy",
+        "blinking_offset": [
+            41,
+            40
+        ],
+        "smiling_offset": [
+            41,
+            56
+        ],
+        "info_offset": 5
+    },
+    {
+        "nid": "OrangeBatHuman",
+        "blinking_offset": [
+            32,
+            48
+        ],
+        "smiling_offset": [
+            32,
+            64
+        ],
+        "info_offset": 5
+    },
+    {
+        "nid": "OrangeBatHumanAlt",
+        "blinking_offset": [
+            32,
+            48
+        ],
+        "smiling_offset": [
+            32,
+            64
+        ],
+        "info_offset": 5
+    },
+    {
+        "nid": "Emily_1",
+        "blinking_offset": [
+            32,
+            48
+        ],
+        "smiling_offset": [
+            32,
+            64
+        ],
+        "info_offset": 5
+    },
+    {
+        "nid": "Nina_1",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 7
+    },
+    {
+        "nid": "WhiteHairRedShirt",
+        "blinking_offset": [
+            48,
+            40
+        ],
+        "smiling_offset": [
+            48,
+            48
+        ],
+        "info_offset": 6
+    },
+    {
+        "nid": "PurplePonytail",
+        "blinking_offset": [
+            32,
+            48
+        ],
+        "smiling_offset": [
+            32,
+            64
+        ],
+        "info_offset": 5
+    },
+    {
+        "nid": "TurquoiseWoman",
+        "blinking_offset": [
+            40,
+            48
+        ],
+        "smiling_offset": [
+            40,
+            64
+        ],
+        "info_offset": 5
+    },
+    {
+        "nid": "TurquoiseMermain",
+        "blinking_offset": [
+            40,
+            48
+        ],
+        "smiling_offset": [
+            40,
+            64
+        ],
+        "info_offset": 5
+    },
+    {
+        "nid": "BlondeArcher",
+        "blinking_offset": [
+            48,
+            48
+        ],
+        "smiling_offset": [
+            48,
+            64
+        ],
+        "info_offset": 8
+    },
+    {
+        "nid": "BlondeArcherPromo",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 8
+    },
+    {
+        "nid": "BlackHairBat",
+        "blinking_offset": [
+            32,
+            40
+        ],
+        "smiling_offset": [
+            32,
+            56
+        ],
+        "info_offset": 8
+    },
+    {
+        "nid": "BandanaArcher",
+        "blinking_offset": [
+            32,
+            40
+        ],
+        "smiling_offset": [
+            32,
+            56
+        ],
+        "info_offset": 8
+    },
+    {
+        "nid": "RedCatGirl",
+        "blinking_offset": [
+            32,
+            40
+        ],
+        "smiling_offset": [
+            32,
+            56
+        ],
+        "info_offset": 8
+    },
+    {
+        "nid": "MaleElf",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "PinkSuccubus",
+        "blinking_offset": [
+            40,
+            48
+        ],
+        "smiling_offset": [
+            32,
+            64
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "MagentaSuccubus",
+        "blinking_offset": [
+            32,
+            40
+        ],
+        "smiling_offset": [
+            32,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TallGreenWoman",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "PromoAlexis",
+        "blinking_offset": [
+            24,
+            40
+        ],
+        "smiling_offset": [
+            24,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "PinkHairSkullBandana",
+        "blinking_offset": [
+            39,
+            38
+        ],
+        "smiling_offset": [
+            39,
+            54
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "WhiteHairRedShirtNoChestplate",
+        "blinking_offset": [
+            48,
+            40
+        ],
+        "smiling_offset": [
+            48,
+            48
         ],
         "info_offset": 0
     },
