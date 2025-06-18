@@ -72,13 +72,17 @@
             [
                 "uses_options",
                 {
-                    "lose_uses_on_miss": false,
+                    "lose_uses_on_miss": true,
                     "one_loss_per_combat": false
                 }
             ],
             [
                 "siege_weapon",
                 null
+            ],
+            [
+                "status_on_hit",
+                "Paralyzed"
             ]
         ]
     }

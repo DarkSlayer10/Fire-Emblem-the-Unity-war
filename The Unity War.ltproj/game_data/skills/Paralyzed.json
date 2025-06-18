@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Paralyzed",
+        "name": "Paralyzed",
+        "desc": "-1 MOV for 1 round",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -1
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    }
+]

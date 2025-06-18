@@ -62,18 +62,11 @@
             ],
             [
                 "weapon_rank",
-                "E"
+                "D"
             ],
             [
                 "siege_weapon",
                 null
-            ],
-            [
-                "prf_class",
-                [
-                    "Archer",
-                    "Sniper"
-                ]
             ],
             [
                 "effective_damage",
@@ -86,6 +79,12 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "prf_tags",
+                [
+                    "Ballista"
+                ]
             ]
         ]
     }

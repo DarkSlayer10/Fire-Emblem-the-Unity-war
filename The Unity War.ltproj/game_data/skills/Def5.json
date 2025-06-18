@@ -1,0 +1,23 @@
+[
+    {
+        "nid": "Def5",
+        "name": "Defense +5",
+        "desc": "DEF + 5",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    }
+]

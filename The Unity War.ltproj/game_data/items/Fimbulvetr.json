@@ -48,7 +48,7 @@
             [
                 "uses_options",
                 {
-                    "lose_uses_on_miss": false,
+                    "lose_uses_on_miss": true,
                     "one_loss_per_combat": false
                 }
             ],
@@ -71,6 +71,10 @@
             [
                 "max_range",
                 2
+            ],
+            [
+                "status_on_hit",
+                "Chilled"
             ]
         ]
     }

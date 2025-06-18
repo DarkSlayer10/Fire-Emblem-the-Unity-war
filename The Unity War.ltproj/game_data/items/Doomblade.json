@@ -12,17 +12,6 @@
             [
                 "item_prefab",
                 "Iron_Sword"
-            ],
-            [
-                "c_uses",
-                10
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ]
         ]
     }

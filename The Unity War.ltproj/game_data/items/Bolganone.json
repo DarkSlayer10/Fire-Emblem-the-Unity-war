@@ -2,7 +2,7 @@
     {
         "nid": "Bolganone",
         "name": "Bolganone",
-        "desc": "",
+        "desc": "res+5",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                0
+                20
             ],
             [
                 "hit",
-                75
+                80
             ],
             [
                 "crit",
@@ -35,18 +35,22 @@
             ],
             [
                 "weight",
-                0
+                15
             ],
             [
                 "uses",
-                1
+                20
             ],
             [
                 "uses_options",
                 {
-                    "lose_uses_on_miss": false,
+                    "lose_uses_on_miss": true,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "status_on_equip",
+                "Res5"
             ]
         ]
     }

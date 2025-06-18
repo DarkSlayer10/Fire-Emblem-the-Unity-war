@@ -2,7 +2,7 @@
     {
         "nid": "Bronze_Bow",
         "name": "Bronze Bow",
-        "desc": "A training bow.",
+        "desc": "A training bow, cannot crit.",
         "icon_nid": "{Zelix} FE11&13-style weapons",
         "icon_index": [
             0,

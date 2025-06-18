@@ -2,7 +2,7 @@
     {
         "nid": "Meteor",
         "name": "Meteor",
-        "desc": "3-10 range aoe",
+        "desc": "3-10 range aoe, 2 size, affects allies",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                0
+                7
             ],
             [
                 "hit",
@@ -35,18 +35,34 @@
             ],
             [
                 "weight",
-                0
+                10
             ],
             [
                 "uses",
-                1
+                5
             ],
             [
                 "uses_options",
                 {
-                    "lose_uses_on_miss": false,
+                    "lose_uses_on_miss": true,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "blast_aoe",
+                1
             ]
         ]
     }

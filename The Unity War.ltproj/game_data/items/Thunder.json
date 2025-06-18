@@ -2,7 +2,7 @@
     {
         "nid": "Thunder",
         "name": "Thunder",
-        "desc": "Intermidate thunder magic.",
+        "desc": "Intermidate thunder magic.\nadd paralysis",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -76,9 +76,13 @@
             [
                 "uses_options",
                 {
-                    "lose_uses_on_miss": false,
+                    "lose_uses_on_miss": true,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "status_on_hit",
+                "Paralyzed"
             ]
         ]
     }

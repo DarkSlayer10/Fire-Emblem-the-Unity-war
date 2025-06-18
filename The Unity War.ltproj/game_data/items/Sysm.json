@@ -1,9 +1,9 @@
 [
     {
-        "nid": "Icestorm",
-        "name": "Icestorm",
-        "desc": "LCK+5",
-        "icon_nid": null,
+        "nid": "Sysm",
+        "name": "Sysm",
+        "desc": "Hits Def.ignores w triangle",
+        "icon_nid": "InHouse and Filler Icons",
         "icon_index": [
             0,
             0
@@ -15,31 +15,31 @@
             ],
             [
                 "weapon_rank",
-                "S"
-            ],
-            [
-                "value",
-                0
-            ],
-            [
-                "damage",
-                25
+                "A"
             ],
             [
                 "hit",
-                65
+                75
+            ],
+            [
+                "damage",
+                18
             ],
             [
                 "crit",
-                10
+                5
             ],
             [
                 "weight",
-                25
+                8
+            ],
+            [
+                "alternate_resist_formula",
+                "DEFENSE"
             ],
             [
                 "uses",
-                1
+                25
             ],
             [
                 "uses_options",
@@ -49,8 +49,12 @@
                 }
             ],
             [
-                "status_on_equip",
-                "Lck5"
+                "ignore_weapon_advantage",
+                null
+            ],
+            [
+                "ignore_weapon_disadvantage",
+                null
             ]
         ]
     }
