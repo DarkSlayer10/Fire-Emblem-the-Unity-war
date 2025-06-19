@@ -63,6 +63,10 @@
             [
                 "blast_aoe",
                 1
+            ],
+            [
+                "no_double",
+                null
             ]
         ]
     }

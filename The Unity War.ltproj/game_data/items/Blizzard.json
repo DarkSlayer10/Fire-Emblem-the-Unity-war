@@ -59,6 +59,10 @@
             [
                 "siege_weapon",
                 null
+            ],
+            [
+                "no_double",
+                null
             ]
         ]
     }

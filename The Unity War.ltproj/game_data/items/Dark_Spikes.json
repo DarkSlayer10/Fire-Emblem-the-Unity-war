@@ -2,7 +2,7 @@
     {
         "nid": "Dark_Spikes",
         "name": "Dark Spikes",
-        "desc": "",
+        "desc": "2 aoe,  2-2 range",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -11,7 +11,7 @@
         "components": [
             [
                 "weapon_rank",
-                "E"
+                "B"
             ],
             [
                 "item_prefab",
@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                0
+                9
             ],
             [
                 "hit",
@@ -35,17 +35,41 @@
             ],
             [
                 "weight",
-                0
+                9
             ],
             [
                 "uses",
-                1
+                10
             ],
             [
                 "uses_options",
                 {
                     "lose_uses_on_miss": true,
                     "one_loss_per_combat": false
+                }
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "enemy_blast_aoe",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Horse"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
                 }
             ]
         ]

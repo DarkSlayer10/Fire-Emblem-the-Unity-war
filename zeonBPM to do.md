@@ -244,13 +244,14 @@ Changed all PRF to be chapter uses instead of breakable, can be reversed if need
     divided into 5 main elements
 
     Excalibur S rank, will probably make wind or smt
-    Holy Fire   Reaver  add to fire? fire has enough already
+    Holy Fire   Reaver arcfire
+    All S tomes gives +5 in a stat, matching Excalibur, wind tome is +10avo instead
 ### Fire
     fire magic has nothing special for it, but so far its good enough
+    made scorch into a short range high damage tome
+    meteor does friendly fire(i find it fitting)
 ### Thunder
-    thunder has the more tomes of all tipes, it would be better to move one too earth
-    other than that it has nothing special
-    they are lower hit but higher mt than fire
+    they paralyze(-1 MOV)
 ### Wind
     eff vs flying
     wind magic is good as is currently
@@ -258,21 +259,23 @@ Changed all PRF to be chapter uses instead of breakable, can be reversed if need
     ice debuffs spd
     it could have another spell but not totally neccesary
 ### Earth
+
     hits DEF
-    has only 4 tomes, should add a 5ft one
+    added an A rank tome that ignores triangle
+
 ### PRF
     dawnfire    emma
-    black flame counts as dark for magic triangle
+    black flame counts as dark for magic triangle, E wind stats
 
 ## Light
-has lots of duplicate spells, will change effect of those
+~~has lots of duplicate spells, will change effect of those~~ done
 ### Standard
 
 ### Special
 
 
 ## Dark
-has a fuckton of spells, will have to think of new effect for variety
+has a fuckton of spells, will have to think of new effects for variety
 ### Standard 
 
 ### Special
@@ -281,6 +284,7 @@ has a fuckton of spells, will have to think of new effect for variety
 ## Fist
     9 total fists, should probably add an S one, and maybe a PRF one
     all are brave
+    made them heavy and hard hitting, will probably brutally maul everyone you put them against
 
 ## Monster
     should probably merge this with fists to have less headaches in the future

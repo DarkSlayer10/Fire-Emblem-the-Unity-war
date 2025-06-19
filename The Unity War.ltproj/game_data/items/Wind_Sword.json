@@ -2,7 +2,7 @@
     {
         "nid": "Wind_Sword",
         "name": "Wind Sword",
-        "desc": "Capable of indirect attacks.\neff vs flying, physical dmg",
+        "desc": "Capable of indirect attacks.\neff vs flying, magical",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                8
+                11
             ],
             [
                 "hit",
@@ -79,6 +79,10 @@
             [
                 "crit",
                 0
+            ],
+            [
+                "magic",
+                null
             ]
         ]
     }

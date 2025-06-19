@@ -2,7 +2,7 @@
     {
         "nid": "Levin_Sword",
         "name": "Levin Sword",
-        "desc": "upgraded light brand\nmagical",
+        "desc": "upgraded light brand\nmagical, paralysis on hit",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -55,6 +55,10 @@
             [
                 "max_range",
                 2
+            ],
+            [
+                "status_on_hit",
+                "Paralyzed"
             ]
         ]
     }

@@ -83,6 +83,10 @@
             [
                 "status_on_hit",
                 "Paralyzed"
+            ],
+            [
+                "no_double",
+                null
             ]
         ]
     }

@@ -2,7 +2,7 @@
     {
         "nid": "Ivaldi",
         "name": "Ivaldi",
-        "desc": "Defense +5. Effective against monsters",
+        "desc": "Defense +5. Effective against demons",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -62,7 +62,7 @@
             ],
             [
                 "status_on_equip",
-                "Fort"
+                "Def5"
             ],
             [
                 "value",

@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                0
+                13
             ],
             [
                 "hit",
-                75
+                80
             ],
             [
                 "crit",
@@ -35,17 +35,29 @@
             ],
             [
                 "weight",
-                0
+                9
             ],
             [
                 "uses",
-                1
+                30
             ],
             [
                 "uses_options",
                 {
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
+                }
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Dragon"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
                 }
             ]
         ]
