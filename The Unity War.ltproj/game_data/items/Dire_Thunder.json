@@ -3,10 +3,10 @@
         "nid": "Dire_Thunder",
         "name": "Dire Thunder",
         "desc": "Intermidate thunder magic.\nbrave",
-        "icon_nid": "Anima",
+        "icon_nid": "{Beansy} AnimaSheet",
         "icon_index": [
             0,
-            1
+            0
         ],
         "components": [
             [

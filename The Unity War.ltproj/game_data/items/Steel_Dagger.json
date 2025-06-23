@@ -3,9 +3,9 @@
         "nid": "Steel_Dagger",
         "name": "Steel Dagger",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "Batima_Daggers",
         "icon_index": [
-            0,
+            2,
             0
         ],
         "components": [

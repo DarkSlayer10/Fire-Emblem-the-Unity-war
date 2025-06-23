@@ -3,9 +3,9 @@
         "nid": "Killer_Gauntlets",
         "name": "Killer Gauntlets",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "Gauntlets UW",
         "icon_index": [
-            0,
+            5,
             0
         ],
         "components": [

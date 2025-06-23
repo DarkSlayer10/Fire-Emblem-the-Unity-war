@@ -3,10 +3,10 @@
         "nid": "Sysm",
         "name": "Sysm",
         "desc": "Hits Def.ignores w triangle",
-        "icon_nid": "InHouse and Filler Icons",
+        "icon_nid": "{LordGlenn} {ArchaneaIconProject} 2019",
         "icon_index": [
-            0,
-            0
+            17,
+            4
         ],
         "components": [
             [

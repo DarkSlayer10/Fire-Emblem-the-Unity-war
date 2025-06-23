@@ -3,10 +3,10 @@
         "nid": "Silver_Greatlance",
         "name": "new_1",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "{Beansy} {Lances} All Icons",
         "icon_index": [
-            0,
-            0
+            3,
+            6
         ],
         "components": [
             [

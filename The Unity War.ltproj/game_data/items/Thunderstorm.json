@@ -3,10 +3,10 @@
         "nid": "Thunderstorm",
         "name": "Thunderstorm",
         "desc": "skl+5",
-        "icon_nid": null,
+        "icon_nid": "Anima",
         "icon_index": [
             0,
-            0
+            3
         ],
         "components": [
             [

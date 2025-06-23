@@ -3,9 +3,9 @@
         "nid": "Steel_Gauntlets",
         "name": "Steel Gauntlets",
         "desc": "Strikes twice consecutively.",
-        "icon_nid": "InHouse and Filler Icons",
+        "icon_nid": "Gauntlets UW",
         "icon_index": [
-            5,
+            4,
             0
         ],
         "components": [

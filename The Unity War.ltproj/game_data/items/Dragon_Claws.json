@@ -3,9 +3,9 @@
         "nid": "Dragon_Claws",
         "name": "Dragon Claws",
         "desc": "eff vs dragon",
-        "icon_nid": null,
+        "icon_nid": "Gauntlets UW",
         "icon_index": [
-            0,
+            2,
             0
         ],
         "components": [

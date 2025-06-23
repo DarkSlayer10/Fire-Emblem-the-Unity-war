@@ -3,10 +3,10 @@
         "nid": "Steel_Greatlance",
         "name": "Steel Greatlance",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "{Beansy} {Lances} All Icons",
         "icon_index": [
-            0,
-            0
+            1,
+            6
         ],
         "components": [
             [

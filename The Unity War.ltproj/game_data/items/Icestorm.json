@@ -3,10 +3,10 @@
         "nid": "Icestorm",
         "name": "Icestorm",
         "desc": "LCK+5",
-        "icon_nid": null,
+        "icon_nid": "{Beansy} AnimaSheet",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [

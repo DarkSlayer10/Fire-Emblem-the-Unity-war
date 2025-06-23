@@ -3,9 +3,9 @@
         "nid": "Spook",
         "name": "Spook",
         "desc": "slim",
-        "icon_nid": null,
+        "icon_nid": "{Beansy} DarkSheet",
         "icon_index": [
-            0,
+            2,
             0
         ],
         "components": [

@@ -3,9 +3,9 @@
         "nid": "Steel_Greataxe",
         "name": "Steel Greataxe",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "{Beansy} {Axes} All Icons",
         "icon_index": [
-            0,
+            2,
             0
         ],
         "components": [

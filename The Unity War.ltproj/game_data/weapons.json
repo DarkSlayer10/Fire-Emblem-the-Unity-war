@@ -421,10 +421,10 @@
                 "defense_speed": 0
             }
         ],
-        "icon_nid": "wexp_icons",
+        "icon_nid": "Wexp UW",
         "icon_index": [
-            0,
-            8
+            1,
+            0
         ]
     },
     {

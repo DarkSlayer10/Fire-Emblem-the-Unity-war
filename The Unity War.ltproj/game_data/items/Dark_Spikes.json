@@ -3,9 +3,9 @@
         "nid": "Dark_Spikes",
         "name": "Dark Spikes",
         "desc": "2 aoe,  2-2 range",
-        "icon_nid": null,
+        "icon_nid": "{Beansy} DarkSheet",
         "icon_index": [
-            0,
+            1,
             0
         ],
         "components": [

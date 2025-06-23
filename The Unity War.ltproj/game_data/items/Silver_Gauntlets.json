@@ -3,9 +3,9 @@
         "nid": "Silver_Gauntlets",
         "name": "Silver Gauntlets",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "Gauntlets UW",
         "icon_index": [
-            0,
+            6,
             0
         ],
         "components": [

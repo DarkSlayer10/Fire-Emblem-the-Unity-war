@@ -207,7 +207,7 @@ Changed all PRF to be chapter uses instead of breakable, can be reversed if need
 
 ### Standard
 
-### Greatlances(should think of a better name)
+### Greatlances(should rename to pikes)
     all attack last and shove
 
 ### Javelins
@@ -279,7 +279,7 @@ has a fuckton of spells, will have to think of new effects for variety
 ### Standard 
 
 ### Special
-
+dark spikes is a 2 range 2 aoe
 
 ## Fist
     9 total fists, should probably add an S one, and maybe a PRF one

@@ -3,10 +3,10 @@
         "nid": "Wao_Dao",
         "name": "Wao Dao",
         "desc": "more crit then killing edge but less mt",
-        "icon_nid": null,
+        "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
             0,
-            0
+            6
         ],
         "components": [
             [

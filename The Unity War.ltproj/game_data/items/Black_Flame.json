@@ -3,10 +3,10 @@
         "nid": "Black_flame",
         "name": "Black Flame",
         "desc": "Emma starting tome, counts as dark for w triangle",
-        "icon_nid": "Dark",
+        "icon_nid": "{Beansy} AnimaSheet",
         "icon_index": [
             0,
-            0
+            2
         ],
         "components": [
             [

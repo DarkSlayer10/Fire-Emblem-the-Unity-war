@@ -3,10 +3,10 @@
         "nid": "Tornado",
         "name": "Tornado",
         "desc": "3-10 range aoe, 3 size",
-        "icon_nid": null,
+        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
         "icon_index": [
-            0,
-            0
+            15,
+            5
         ],
         "components": [
             [

@@ -3,9 +3,9 @@
         "nid": "Bolting",
         "name": "Bolting",
         "desc": "Siege weapon",
-        "icon_nid": "Anima",
+        "icon_nid": "{LordGlenn} {ArchaneaIconProject} 2019",
         "icon_index": [
-            0,
+            29,
             3
         ],
         "components": [

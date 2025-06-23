@@ -3,9 +3,9 @@
         "nid": "Silver_Dagger",
         "name": "Silver Dagger",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "Batima_Daggers",
         "icon_index": [
-            0,
+            1,
             0
         ],
         "components": [

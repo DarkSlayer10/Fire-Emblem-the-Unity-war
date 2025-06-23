@@ -3,10 +3,10 @@
         "nid": "Iron_Greatlance",
         "name": "Iron Greatlance",
         "desc": "A heavy lance. Shoves 1 tile.\nFoe fully attacks first.",
-        "icon_nid": "{Zelix} FE11&13-style weapons",
+        "icon_nid": "{Beansy} {Lances} All Icons",
         "icon_index": [
-            1,
-            5
+            3,
+            1
         ],
         "components": [
             [

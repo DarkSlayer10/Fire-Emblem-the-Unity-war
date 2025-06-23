@@ -3,10 +3,10 @@
         "nid": "Laguz_Sword",
         "name": "Laguz Sword",
         "desc": "effective against rosefall units.",
-        "icon_nid": null,
+        "icon_nid": "{Beansy} {Swords} All Icons",
         "icon_index": [
             0,
-            0
+            4
         ],
         "components": [
             [

@@ -2,16 +2,16 @@
     {
         "nid": "Exorcism",
         "name": "Exorcism",
-        "desc": "",
-        "icon_nid": null,
+        "desc": "eff vs demons",
+        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
         "icon_index": [
-            0,
-            0
+            10,
+            7
         ],
         "components": [
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "item_prefab",
@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                10
+                12
             ],
             [
                 "hit",
@@ -31,7 +31,7 @@
             ],
             [
                 "crit",
-                5
+                10
             ],
             [
                 "weight",

@@ -3,10 +3,10 @@
         "nid": "Meteor",
         "name": "Meteor",
         "desc": "3-10 range aoe, 2 size, affects allies",
-        "icon_nid": null,
+        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
         "icon_index": [
-            0,
-            0
+            7,
+            5
         ],
         "components": [
             [

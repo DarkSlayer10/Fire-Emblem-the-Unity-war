@@ -3,10 +3,10 @@
         "nid": "Flame_Sword",
         "name": "Flame Sword",
         "desc": "upgraded levin \nmagical, eff vs horses",
-        "icon_nid": null,
+        "icon_nid": "{LordGlenn} {ArchaneaIconProject} 2019",
         "icon_index": [
-            0,
-            0
+            36,
+            1
         ],
         "components": [
             [

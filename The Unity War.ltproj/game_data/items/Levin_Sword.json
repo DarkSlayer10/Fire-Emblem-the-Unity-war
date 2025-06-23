@@ -3,10 +3,10 @@
         "nid": "Levin_Sword",
         "name": "Levin Sword",
         "desc": "upgraded light brand\nmagical, paralysis on hit",
-        "icon_nid": null,
+        "icon_nid": "{Zelix} FE11&13-style weapons",
         "icon_index": [
-            0,
-            0
+            7,
+            4
         ],
         "components": [
             [

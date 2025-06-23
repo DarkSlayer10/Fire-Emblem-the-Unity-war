@@ -1,11 +1,11 @@
 [
     {
-        "nid": "Magic_Gauntlets",
-        "name": "Magic Gauntlets",
+        "nid": "Aura_Gloves",
+        "name": "Aura Gloves",
         "desc": "magic dmg",
-        "icon_nid": null,
+        "icon_nid": "Gauntlets UW",
         "icon_index": [
-            0,
+            3,
             0
         ],
         "components": [

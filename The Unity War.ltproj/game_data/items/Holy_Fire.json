@@ -3,10 +3,10 @@
         "nid": "Holy_Fire",
         "name": "Holy Fire",
         "desc": "reaver",
-        "icon_nid": null,
+        "icon_nid": "{Beansy} AnimaSheet",
         "icon_index": [
-            0,
-            0
+            1,
+            2
         ],
         "components": [
             [

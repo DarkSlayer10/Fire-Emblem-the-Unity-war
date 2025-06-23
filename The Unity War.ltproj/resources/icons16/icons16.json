@@ -87,5 +87,53 @@
     {
         "nid": "Item Icons Fe Unity War 10-21-25.emulator.gba_203@CB_0145CA64",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} {Axes} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} {Bows} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} {Lances} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} {Swords} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} AnimaSheet",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} DarkSheet",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} LightSheet",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Cardcafe} {FE15} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} {ArchaneaIconProject} 2019",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} All Icons LordGlenn Pack 1",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Gauntlets UW",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Wexp UW",
+        "subicon_dict": {}
     }
 ]

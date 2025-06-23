@@ -3,10 +3,10 @@
         "nid": "Nightfall",
         "name": "Nightfall",
         "desc": "reaver",
-        "icon_nid": null,
+        "icon_nid": "{Beansy} LightSheet",
         "icon_index": [
-            0,
-            0
+            2,
+            2
         ],
         "components": [
             [

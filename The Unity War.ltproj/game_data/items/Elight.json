@@ -3,10 +3,10 @@
         "nid": "Elight",
         "name": "Elight",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "Light",
         "icon_index": [
             0,
-            0
+            2
         ],
         "components": [
             [

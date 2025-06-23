@@ -3,10 +3,10 @@
         "nid": "Arcthunder",
         "name": "Arcthunder",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
         "icon_index": [
-            0,
-            0
+            9,
+            5
         ],
         "components": [
             [

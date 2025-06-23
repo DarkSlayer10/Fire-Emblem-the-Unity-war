@@ -3,10 +3,10 @@
         "nid": "Thoron",
         "name": "Thoron",
         "desc": "Intermidate thunder magic.\nkiller",
-        "icon_nid": "Anima",
+        "icon_nid": "{Beansy} AnimaSheet",
         "icon_index": [
-            0,
-            1
+            2,
+            2
         ],
         "components": [
             [

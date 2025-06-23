@@ -3,10 +3,10 @@
         "nid": "Scimitar",
         "name": "Scimitar",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "Sword",
         "icon_index": [
             0,
-            0
+            10
         ],
         "components": [
             [
