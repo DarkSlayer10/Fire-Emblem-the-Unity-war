@@ -1,125 +1,120 @@
 [
     {
-        "nid": "Bishop_F",
-        "name": "Bishop",
-        "desc": "Mages gifted with visions of the future.",
-        "tier": 2,
-        "movement_group": "Mages",
-        "promotes_from": "Cleric",
+        "nid": "TestDummy",
+        "name": "TestDummy",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
         "turns_into": [],
         "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 21,
-            "STR": 0,
-            "MAG": 4,
-            "SKL": 5,
-            "SPD": 4,
-            "LCK": 0,
-            "DEF": 3,
-            "RES": 9,
-            "CON": 7,
-            "MOV": 6,
+            "HP": 10,
+            "STR": 10,
+            "SKL": 10,
+            "SPD": 10,
+            "DEF": 10,
+            "RES": 10,
+            "LCK": 10,
+            "CON": 10,
+            "MAG": 10,
+            "MOV": 10,
             "LEAD": 0
         },
         "growths": {
-            "HP": 45,
+            "HP": 0,
             "STR": 0,
-            "MAG": 35,
-            "SKL": 25,
-            "SPD": 22,
-            "LCK": 40,
-            "DEF": 8,
-            "RES": 50,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "RES": 0,
+            "LCK": 0,
             "CON": 0,
+            "MAG": 0,
             "MOV": 0,
             "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
             "STR": 0,
-            "MAG": 0,
             "SKL": 0,
             "SPD": 0,
-            "LCK": 0,
             "DEF": 0,
             "RES": 0,
+            "LCK": 0,
             "CON": 0,
+            "MAG": 0,
             "MOV": 0,
             "LEAD": 0
         },
         "promotion": {
-            "HP": 3,
+            "HP": 0,
             "STR": 0,
-            "MAG": 2,
-            "SKL": 2,
-            "SPD": 1,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "RES": 0,
             "LCK": 0,
-            "DEF": 3,
-            "RES": 2,
-            "CON": 2,
-            "MOV": -99,
+            "CON": 0,
+            "MAG": 0,
+            "MOV": 0,
             "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
-            "STR": 20,
-            "MAG": 25,
-            "SKL": 26,
-            "SPD": 26,
-            "LCK": 30,
-            "DEF": 22,
+            "STR": 30,
+            "SKL": 30,
+            "SPD": 30,
+            "DEF": 30,
             "RES": 30,
-            "CON": 20,
+            "LCK": 30,
+            "CON": 25,
+            "MAG": 30,
             "MOV": 15,
-            "LEAD": 30
+            "LEAD": 10
         },
-        "learned_skills": [
-            [
-                1,
-                "Slayer"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
-                false,
-                0,
-                251
+                true,
+                251,
+                null
             ],
             "Lance": [
                 false,
                 0,
-                251
+                null
             ],
             "Axe": [
                 false,
                 0,
-                251
+                null
             ],
             "Bow": [
                 false,
                 0,
-                251
+                null
             ],
             "Staff": [
-                true,
-                1,
-                251
+                false,
+                0,
+                null
             ],
             "Anima": [
                 false,
                 0,
-                251
+                null
             ],
             "Light": [
-                true,
-                16,
-                251
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
                 0,
-                251
+                null
             ],
             "Gauntlet": [
                 false,
@@ -134,16 +129,16 @@
             "Default": [
                 false,
                 0,
-                251
+                null
             ]
         },
-        "icon_nid": "Generic_Portrait_Bishop",
+        "icon_nid": null,
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "Bishop",
-        "combat_anim_nid": "Bishop",
+        "map_sprite_nid": "Mercenary",
+        "combat_anim_nid": "Mercenary",
         "fields": []
     }
 ]

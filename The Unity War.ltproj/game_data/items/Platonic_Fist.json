@@ -3,10 +3,10 @@
         "nid": "Platonic_Fist",
         "name": "Platonic Fist",
         "desc": "",
-        "icon_nid": "Neutral",
+        "icon_nid": "Gauntlets UW",
         "icon_index": [
-            0,
-            12
+            1,
+            0
         ],
         "components": [
             [

@@ -3,10 +3,10 @@
         "nid": "Illuminate",
         "name": "Illuminate",
         "desc": "new torch staff",
-        "icon_nid": null,
+        "icon_nid": "{LordGlenn} {ArchaneaIconProject} 2019",
         "icon_index": [
-            0,
-            0
+            20,
+            3
         ],
         "components": [
             [

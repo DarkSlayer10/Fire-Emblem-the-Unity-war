@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Swordplay",
-        "name": "Swordplay",
+        "nid": "_Swordplay",
+        "name": " Swordplay",
         "desc": "Swordmaster- Swordsplay- grants +15 crit and +5 damage when using sword",
         "icon_nid": null,
         "icon_index": [

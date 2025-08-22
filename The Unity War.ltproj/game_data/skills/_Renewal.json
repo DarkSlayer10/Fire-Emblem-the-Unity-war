@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "_Renewal",
+        "name": " Renewal",
+        "desc": "War Cleric",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "regeneration",
+                0.3
+            ]
+        ]
+    }
+]

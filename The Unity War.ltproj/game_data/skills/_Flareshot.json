@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "_Flareshot",
+        "name": " Flareshot",
+        "desc": "Malig Knight- Flare Shot- grants the user flare and add a debuff into the enemy( 50/50 hit rate shit for the debuff working or not)",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "proc_rate",
+                "HITPOINTS"
+            ],
+            [
+                "attack_proc_enemy",
+                "Fort"
+            ]
+        ]
+    }
+]

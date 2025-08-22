@@ -3,10 +3,10 @@
         "nid": "Platonic_Greatlance",
         "name": "Platonic Greatlance",
         "desc": "",
-        "icon_nid": "Lance",
+        "icon_nid": "{Beansy} {Lances} All Icons",
         "icon_index": [
-            0,
-            0
+            3,
+            3
         ],
         "components": [
             [

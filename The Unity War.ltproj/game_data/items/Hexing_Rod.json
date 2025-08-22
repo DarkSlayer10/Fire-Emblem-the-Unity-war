@@ -2,11 +2,11 @@
     {
         "nid": "Hexing_Rod",
         "name": "Hexing Rod",
-        "desc": "debuff staves -4 to all stats for 2 turns.",
-        "icon_nid": null,
+        "desc": "-4 DEF/RES",
+        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
         "icon_index": [
-            0,
-            0
+            15,
+            8
         ],
         "components": [
             [

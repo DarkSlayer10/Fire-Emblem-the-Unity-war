@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Darkness_call",
-        "name": "Darkness call",
+        "nid": "_Darkness_call",
+        "name": " Darkness call",
         "desc": "Darkbearer- Darkness Call( After hitting the enemy, enemy loses there hit rate for 1 turn, \nIt could just be a heavy debuff based on their distance\n[19:21]\nlike -1 to all stats per tile",
         "icon_nid": null,
         "icon_index": [

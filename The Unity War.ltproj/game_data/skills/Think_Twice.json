@@ -10,10 +10,6 @@
         ],
         "components": [
             [
-                "condition",
-                "utils.calculate_distance(unit.position, target.position))<= 2"
-            ],
-            [
                 "skill_before_combat",
                 {
                     "skill": "Think_Twice_skill",
@@ -28,6 +24,10 @@
             [
                 "class_skill",
                 null
+            ],
+            [
+                "combat_condition",
+                "utils.calculate_distance(unit.position, target.position))<= 2"
             ]
         ]
     }

@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Light_Calling",
-        "name": "Light Calling",
+        "nid": "_Light_Calling",
+        "name": " Light Calling",
         "desc": "Huntress-Light calling( Grants Emily miracle and takes a hit for Emma. Negates the -10 hp cost on Emma skill.)",
         "icon_nid": null,
         "icon_index": [

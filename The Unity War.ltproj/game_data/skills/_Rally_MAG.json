@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "_Rally_MAG",
+        "name": " Rally MAG",
+        "desc": "Valkirye",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "Platonic_Sword"
+            ],
+            [
+                "build_charge",
+                4
+            ],
+            [
+                "upkeep_charge_increase",
+                1
+            ]
+        ]
+    }
+]

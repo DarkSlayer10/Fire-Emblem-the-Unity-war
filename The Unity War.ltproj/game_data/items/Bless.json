@@ -1,11 +1,11 @@
 [
     {
-        "nid": "Respiratory",
-        "name": "Respiratory",
-        "desc": "ranged restore",
+        "nid": "Bless",
+        "name": "Bless",
+        "desc": "+7 DEF(same as barrier)",
         "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
         "icon_index": [
-            13,
+            8,
             8
         ],
         "components": [

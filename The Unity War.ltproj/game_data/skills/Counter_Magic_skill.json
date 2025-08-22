@@ -10,12 +10,12 @@
         ],
         "components": [
             [
-                "condition",
-                "item_funcs.is_magic(unit, unit.get_weapon())"
+                "lifelink",
+                -1.0
             ],
             [
-                "shitty_lifelink",
-                -1.0
+                "condition",
+                "item_funcs.is_magic(unit, unit.get_weapon())"
             ]
         ]
     }
