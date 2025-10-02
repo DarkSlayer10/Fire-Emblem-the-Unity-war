@@ -35,6 +35,10 @@
             [
                 "resist_formula_override",
                 "ZERO"
+            ],
+            [
+                "target_enemy",
+                null
             ]
         ]
     }
