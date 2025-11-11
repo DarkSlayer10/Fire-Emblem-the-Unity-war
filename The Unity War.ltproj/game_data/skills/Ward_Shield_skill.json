@@ -3,10 +3,10 @@
         "nid": "Ward_Shield_skill",
         "name": "Ward Shield skill",
         "desc": "currently uses charges per combat, should probably fix it",
-        "icon_nid": "Boosters",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
-            0,
-            5
+            5,
+            3
         ],
         "components": [
             [

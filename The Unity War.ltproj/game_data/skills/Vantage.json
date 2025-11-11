@@ -3,10 +3,10 @@
         "nid": "Vantage",
         "name": "Vantage",
         "desc": "attack first when at high hp",
-        "icon_nid": null,
+        "icon_nid": "ZessDynamiteSkillsys",
         "icon_index": [
             0,
-            0
+            71
         ],
         "components": [
             [

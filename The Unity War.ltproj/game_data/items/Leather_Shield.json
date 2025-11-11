@@ -3,10 +3,10 @@
         "nid": "Leather_Shield",
         "name": "Leather Shield",
         "desc": "gives +2 DEF -1SPD, 3 uses per chapter",
-        "icon_nid": "Boosters",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
-            0,
-            5
+            10,
+            2
         ],
         "components": [
             [

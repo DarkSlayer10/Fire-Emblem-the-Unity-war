@@ -2,12 +2,25 @@
     {
         "nid": "Arcane_Blade",
         "name": "Arcane Blade",
-        "desc": "on attack at 1 range, add 3+MAG /2 to hit and crit\n(should probably switch this to only work with swords instead of 1 range)",
-        "icon_nid": null,
+        "desc": "add 3+MAG /2 to hit and crit with swords",
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            10,
+            37
         ],
-        "components": []
+        "components": [
+            [
+                "dynamic_accuracy",
+                "3+(unit.get_stat('MAG')//2)"
+            ],
+            [
+                "dynamic_crit_accuracy",
+                "3+(unit.get_stat('MAG')//2)"
+            ],
+            [
+                "combat_condition",
+                "item_system.weapon_type(unit, item) == 'Sword'"
+            ]
+        ]
     }
 ]

@@ -2,11 +2,11 @@
     {
         "nid": "Silencer",
         "name": "Silencer",
-        "desc": "",
-        "icon_nid": null,
+        "desc": "SKL% to instakill(add +99999 dmg)",
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            10,
+            36
         ],
         "components": [
             [

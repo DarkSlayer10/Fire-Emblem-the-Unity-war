@@ -3,10 +3,10 @@
         "nid": "Pragmatic",
         "name": "Pragmatic",
         "desc": "when enemy not at full hp\t+3dmg -1 damage taken",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            10,
+            43
         ],
         "components": [
             [

@@ -1,12 +1,12 @@
 [
     {
-        "nid": "_Glory_Killer_buff",
+        "nid": "Glory_Killer_buff",
         "name": " Glory Killer",
         "desc": "Khan- Glory killer- when defending a foe +1 to all stats for a turn",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            4,
+            46
         ],
         "components": [
             [
@@ -49,6 +49,10 @@
             [
                 "time",
                 1
+            ],
+            [
+                "lost_on_end_chapter",
+                null
             ]
         ]
     }

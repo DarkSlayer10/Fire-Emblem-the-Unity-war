@@ -1,21 +1,21 @@
 [
     {
-        "nid": "Stiletto",
-        "name": "Stiletto",
-        "desc": "killer dagger\nmaybe change some crit into crit dmg",
-        "icon_nid": "Batima_Daggers",
+        "nid": "Brawling_Horn",
+        "name": "Brawling Horn",
+        "desc": "",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
-            0,
-            0
+            4,
+            4
         ],
         "components": [
             [
                 "item_prefab",
-                "Platonic_Dagger"
+                "Platonic_Fist"
             ],
             [
                 "weapon_rank",
-                "C"
+                "S"
             ],
             [
                 "value",
@@ -23,23 +23,23 @@
             ],
             [
                 "damage",
-                6
+                17
             ],
             [
                 "hit",
-                75
+                90
             ],
             [
                 "crit",
-                60
+                10
             ],
             [
                 "weight",
-                7
+                25
             ],
             [
                 "uses",
-                10
+                30
             ],
             [
                 "uses_options",
@@ -47,10 +47,6 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
-            ],
-            [
-                "max_range",
-                1
             ]
         ]
     }

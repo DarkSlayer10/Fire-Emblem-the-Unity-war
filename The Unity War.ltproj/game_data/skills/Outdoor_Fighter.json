@@ -3,10 +3,10 @@
         "nid": "Outdoor_Fighter",
         "name": "Outdoor Fighter",
         "desc": "+10hit/avo when not in terrain",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            2,
+            33
         ],
         "components": [
             [

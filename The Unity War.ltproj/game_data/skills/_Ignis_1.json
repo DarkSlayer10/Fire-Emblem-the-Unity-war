@@ -1,17 +1,17 @@
 [
     {
-        "nid": "Charm_Buff",
-        "name": "Charm",
-        "desc": "Allies within 2 tiles deal +2dmg",
+        "nid": "_Ignis_1",
+        "name": " Ignis",
+        "desc": "Mage Knight\nadd half str to magic, add half mag to weapons",
         "icon_nid": "skill_icons",
         "icon_index": [
-            14,
+            10,
             32
         ],
         "components": [
             [
                 "dynamic_damage",
-                "2"
+                ""
             ]
         ]
     }

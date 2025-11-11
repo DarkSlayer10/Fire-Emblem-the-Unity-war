@@ -3,10 +3,10 @@
         "nid": "Silencer_PROC",
         "name": "Silencer",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            10,
+            36
         ],
         "components": [
             [

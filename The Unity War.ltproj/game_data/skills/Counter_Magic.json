@@ -3,10 +3,10 @@
         "nid": "Counter_Magic",
         "name": "Counter Magic",
         "desc": "magic damage taken at 1-2 range is reflected\n",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            4,
+            22
         ],
         "components": [
             [
@@ -18,11 +18,11 @@
                 }
             ],
             [
-                "class_skill",
+                "grey_if_inactive",
                 null
             ],
             [
-                "grey_if_inactive",
+                "class_skill",
                 null
             ],
             [

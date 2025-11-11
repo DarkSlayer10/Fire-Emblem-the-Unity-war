@@ -3,10 +3,10 @@
         "nid": "_Vampire_Spirit",
         "name": " Vampire Spirit",
         "desc": "Mistress- Vampire Spirit- Attacking an enemy gains 10% hp back after the attack",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            13,
+            38
         ],
         "components": [
             [

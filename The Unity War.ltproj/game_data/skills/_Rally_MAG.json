@@ -3,10 +3,10 @@
         "nid": "_Rally_MAG",
         "name": " Rally MAG",
         "desc": "Valkirye",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            13,
+            24
         ],
         "components": [
             [

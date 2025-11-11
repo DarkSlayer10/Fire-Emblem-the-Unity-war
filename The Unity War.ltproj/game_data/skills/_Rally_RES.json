@@ -3,10 +3,10 @@
         "nid": "_Rally_RES",
         "name": " Rally RES",
         "desc": "Falcon Sage- Rally Res- allies within 2 tiles gains +4 res for a turn ",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            14,
+            24
         ],
         "components": [
             [

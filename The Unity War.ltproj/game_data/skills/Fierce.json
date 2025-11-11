@@ -3,10 +3,10 @@
         "nid": "Fierce",
         "name": "Fierce",
         "desc": "+15hit/avo the not at max hp",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            8,
+            18
         ],
         "components": [
             [

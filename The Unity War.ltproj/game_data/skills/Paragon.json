@@ -3,10 +3,10 @@
         "nid": "Paragon",
         "name": "Paragon",
         "desc": "X2 xp gain, removed on promotion(need event for removal)",
-        "icon_nid": null,
+        "icon_nid": "Skills",
         "icon_index": [
-            0,
-            0
+            1,
+            9
         ],
         "components": [
             [

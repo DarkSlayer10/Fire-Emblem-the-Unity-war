@@ -3,10 +3,10 @@
         "nid": "Iron_Shield",
         "name": "Iron Shield",
         "desc": "gives +4 def -2SPD, 6 uses per chapter",
-        "icon_nid": "Boosters",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
             0,
-            5
+            3
         ],
         "components": [
             [

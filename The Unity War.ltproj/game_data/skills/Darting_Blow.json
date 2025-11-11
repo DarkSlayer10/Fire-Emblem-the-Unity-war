@@ -3,10 +3,10 @@
         "nid": "Darting_Blow",
         "name": "Darting Blow",
         "desc": "+5AS on attack",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            3,
+            18
         ],
         "components": [
             [

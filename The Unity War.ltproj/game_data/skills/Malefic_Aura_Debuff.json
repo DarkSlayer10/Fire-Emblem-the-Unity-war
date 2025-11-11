@@ -3,10 +3,10 @@
         "nid": "Malefic_Aura_Debuff",
         "name": "Malefic Aura",
         "desc": "enemies within 2 tiles receive +2 magic dmg",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            9,
+            37
         ],
         "components": [
             [

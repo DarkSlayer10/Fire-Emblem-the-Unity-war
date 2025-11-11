@@ -1,12 +1,12 @@
 [
     {
-        "nid": "_Renewal",
-        "name": " Renewal",
+        "nid": "Renewal",
+        "name": "Renewal",
         "desc": "War Cleric",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            11,
+            23
         ],
         "components": [
             [

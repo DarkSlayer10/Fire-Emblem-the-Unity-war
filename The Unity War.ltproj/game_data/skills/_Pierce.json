@@ -2,11 +2,11 @@
     {
         "nid": "_Pierce",
         "name": " Pierce",
-        "desc": "luna",
-        "icon_nid": null,
+        "desc": "luna\nSKL% to ignore defense",
+        "icon_nid": "Skills",
         "icon_index": [
-            0,
-            0
+            4,
+            3
         ],
         "components": []
     }

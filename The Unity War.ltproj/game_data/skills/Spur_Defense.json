@@ -1,21 +1,21 @@
 [
     {
-        "nid": "Charm",
-        "name": "Charm",
-        "desc": "Allies within 2 tiles deal +2dmg",
-        "icon_nid": "skill_icons",
+        "nid": "Spur_Defense",
+        "name": "Spur Defense",
+        "desc": "Great Knight- Spur defense-allies adjacent to unit gains +4 defense \n",
+        "icon_nid": null,
         "icon_index": [
-            14,
-            32
+            0,
+            0
         ],
         "components": [
             [
                 "aura",
-                "Charm_Buff"
+                "Spur_Defense_child"
             ],
             [
                 "aura_range",
-                2
+                1
             ],
             [
                 "aura_target",

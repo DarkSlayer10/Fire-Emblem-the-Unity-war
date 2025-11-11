@@ -3,10 +3,10 @@
         "nid": "Black_Magic",
         "name": "Black Magic",
         "desc": "SKL% to inflict a random status(need list for which ones)\nNeeds an event on hit component",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            4,
+            28
         ],
         "components": [
             [

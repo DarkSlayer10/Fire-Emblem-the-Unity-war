@@ -3,10 +3,10 @@
         "nid": "Steel_Shield",
         "name": "Steel Shield",
         "desc": "gives +6 DEF -3 SPD, 9 uses per chapter",
-        "icon_nid": "Boosters",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
-            0,
-            5
+            1,
+            3
         ],
         "components": [
             [

@@ -3,10 +3,10 @@
         "nid": "Steel_Gauntlets",
         "name": "Steel Gauntlets",
         "desc": "Strikes twice consecutively.",
-        "icon_nid": "Gauntlets UW",
+        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
         "icon_index": [
-            4,
-            0
+            5,
+            9
         ],
         "components": [
             [

@@ -3,10 +3,10 @@
         "nid": "Tantivy",
         "name": "Tantivy",
         "desc": "+10hit/avo when alone within 3 tiles",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            6,
+            33
         ],
         "components": [
             [

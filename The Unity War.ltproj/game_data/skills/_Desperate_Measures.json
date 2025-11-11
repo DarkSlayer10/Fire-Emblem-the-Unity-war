@@ -3,10 +3,10 @@
         "nid": "_Desperate_Measures",
         "name": " Desperate Measures",
         "desc": "Ninetails- Desperate measures( Claws does effective damage to beast, horses, and demons.)",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            15,
+            41
         ],
         "components": [
             [

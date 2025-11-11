@@ -3,10 +3,10 @@
         "nid": "Elbow_Room",
         "name": "Elbow Room",
         "desc": "+3dmg when not in terrain",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            1,
+            33
         ],
         "components": [
             [

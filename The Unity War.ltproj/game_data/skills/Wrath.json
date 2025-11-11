@@ -3,10 +3,10 @@
         "nid": "Wrath",
         "name": "Wrath",
         "desc": "+50 crit when below 50%hp",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            2,
+            35
         ],
         "components": [
             [

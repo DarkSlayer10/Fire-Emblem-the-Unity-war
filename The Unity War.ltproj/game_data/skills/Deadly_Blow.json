@@ -1,17 +1,17 @@
 [
     {
-        "nid": "_Deadly_Blow",
-        "name": " Deadly Blow",
+        "nid": "Deadly_Blow",
+        "name": "Deadly Blow",
         "desc": "Warmaster grants +6 strength, spd and gains +10 crit if unit is under 30% hp",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            7,
+            43
         ],
         "components": [
             [
                 "condition",
-                "False"
+                "unit.get_hp() <= 0.30*unit.get_max_hp()"
             ],
             [
                 "stat_change",

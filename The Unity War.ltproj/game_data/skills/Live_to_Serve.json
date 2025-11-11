@@ -3,19 +3,19 @@
         "nid": "Live_to_Serve",
         "name": "Live to Serve",
         "desc": "when healing other, also heal self",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            2,
+            52
         ],
         "components": [
             [
-                "lifetaker",
-                0.5
-            ],
-            [
                 "combat_condition",
                 "item_system.weapon_type(unit, item) == 'Staff'"
+            ],
+            [
+                "live_to_serve",
+                1.0
             ]
         ]
     }

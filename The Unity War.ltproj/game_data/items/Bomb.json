@@ -3,10 +3,10 @@
         "nid": "Bomb",
         "name": "Bomb",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            4,
+            42
         ],
         "components": [
             [

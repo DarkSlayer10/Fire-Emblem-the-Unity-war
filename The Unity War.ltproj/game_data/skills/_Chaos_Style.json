@@ -3,10 +3,10 @@
         "nid": "_Chaos_Style",
         "name": " Chaos Style",
         "desc": "Dread Fighter- Chaos style- grants plus 3 strength using swords while grants +3 magic when using magic( including magic swords.)",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            3,
+            42
         ],
         "components": []
     }

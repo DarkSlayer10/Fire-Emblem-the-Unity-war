@@ -2,11 +2,11 @@
     {
         "nid": "_Colossus",
         "name": " Colossus",
-        "desc": "Berserker",
-        "icon_nid": null,
+        "desc": "Berserker\tSTR X2 if CON> enemy CON",
+        "icon_nid": "skill_icons",
         "icon_index": [
             0,
-            0
+            50
         ],
         "components": []
     }

@@ -3,10 +3,10 @@
         "nid": "Silver_Shield",
         "name": "Silver Shield",
         "desc": "gives +8 DEF -4 SPD, 12 uses per chapter",
-        "icon_nid": "Boosters",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
-            0,
-            5
+            4,
+            3
         ],
         "components": [
             [

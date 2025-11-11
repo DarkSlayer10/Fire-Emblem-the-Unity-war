@@ -3,10 +3,10 @@
         "nid": "Triangle_Adept",
         "name": "Triangle Adept",
         "desc": "X2 w triangle effects",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            13,
+            33
         ],
         "components": [
             [

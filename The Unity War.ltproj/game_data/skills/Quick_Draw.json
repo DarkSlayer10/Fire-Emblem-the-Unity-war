@@ -3,15 +3,15 @@
         "nid": "Quick_Draw",
         "name": "Quick Draw",
         "desc": "+4 dmg when initiating",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            4,
+            39
         ],
         "components": [
             [
                 "dynamic_damage",
-                "1 if mode == 'attack' else 0"
+                "4 if mode == 'attack' or 'splash' else 0"
             ]
         ]
     }

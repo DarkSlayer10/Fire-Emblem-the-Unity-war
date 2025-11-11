@@ -3,10 +3,10 @@
         "nid": "Ward_Shield",
         "name": "Ward Shield",
         "desc": "gives +6 RES -3 SPD, 9 uses per chapter",
-        "icon_nid": "Boosters",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
-            0,
-            5
+            5,
+            3
         ],
         "components": [
             [

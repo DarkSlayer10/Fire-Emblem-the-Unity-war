@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                9
+                14
             ],
             [
                 "hit",
@@ -54,11 +54,7 @@
             ],
             [
                 "max_range",
-                2
-            ],
-            [
-                "enemy_blast_aoe",
-                2
+                3
             ],
             [
                 "effective_damage",
