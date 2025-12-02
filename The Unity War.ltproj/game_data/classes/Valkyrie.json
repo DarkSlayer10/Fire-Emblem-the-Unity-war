@@ -82,6 +82,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Rally_MAG"
             ]
         ],
         "wexp_gain": {

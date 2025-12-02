@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "Rally_RES",
+        "name": "Rally RES",
+        "desc": "",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            14,
+            24
+        ],
+        "components": [
+            [
+                "ally_blast_aoe",
+                2
+            ],
+            [
+                "status_on_hit",
+                "RES4"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "StatUpSpark"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    255
+                ]
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "SkillActivate"
+            ]
+        ]
+    }
+]

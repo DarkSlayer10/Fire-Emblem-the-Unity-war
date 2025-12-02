@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "Rally_LCK",
+        "name": "Rally LCK",
+        "desc": "",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            10,
+            24
+        ],
+        "components": [
+            [
+                "ally_blast_aoe",
+                2
+            ],
+            [
+                "status_on_hit",
+                "LCK4"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "StatUpSpark"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "SkillActivate"
+            ]
+        ]
+    }
+]

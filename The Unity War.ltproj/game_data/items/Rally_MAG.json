@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "Rally_MAG",
+        "name": "Rally MAG",
+        "desc": "",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            13,
+            24
+        ],
+        "components": [
+            [
+                "ally_blast_aoe",
+                2
+            ],
+            [
+                "status_on_hit",
+                "MAG4"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "StatUpSpark"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    0,
+                    255
+                ]
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "SkillActivate"
+            ]
+        ]
+    }
+]

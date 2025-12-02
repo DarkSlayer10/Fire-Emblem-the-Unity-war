@@ -3,10 +3,10 @@
         "nid": "Killer_Instinct",
         "name": "Killer Instinct",
         "desc": "crit is based in SKL*1.5",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            4,
+            43
         ],
         "components": [
             [

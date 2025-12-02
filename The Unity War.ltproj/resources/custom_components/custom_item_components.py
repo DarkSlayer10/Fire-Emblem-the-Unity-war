@@ -2388,28 +2388,6 @@ class RestoreNoRestriction(ItemComponent):
                 actions.append(action.RemoveSkill(target, skill))
                 playback.append(pb.RestoreHit(unit, item, target))
 
-class MultiDescSkill(ItemComponent):
-    nid = 'multi_desc_skill'
-    desc = "Define a list of Skill NIDs whose info boxes should be attached to this skill's multi desc info box."
-    tag = ItemTags.UTILITY
-    author = 'Eretein'
-    
-    expose = (ComponentType.List, ComponentType.Skill)
-    
-    def multi_desc(self, unit, skill) ->  tuple[list[str], ComponentType]:
-        return self.value, self.expose[1]
-
-class MultiDescItem(ItemComponent):
-    nid = 'multi_desc_item'
-    desc = "Define a list of Item NIDs whose info boxes should be attached to this skill's multi desc info box."
-    tag = ItemTags.UTILITY
-    
-    author = "Eretein"
-    
-    expose = (ComponentType.List, ComponentType.Item)
-    
-    def multi_desc(self, unit, skill) ->  tuple[list[str], ComponentType]:
-        return self.value, self.expose[1]
            
 class StealPlus(Steal):
     nid = 'steal_plus'
@@ -2556,12 +2534,6 @@ class StealValuable(Steal):
 
 
 
-
-# this component should define a list of weapon types where each is checked via the available hook, if a unit can use it
-# should return whatever true weapon type you want for the weapon_type hook
-# probably doesn't matter cause you'll override it anyway - but matters for convoy/storage
-
-
 class WeaponTypes(ItemComponent):
     nid = 'weapon_types'
     desc = "Defines a list of weapon types, item is usable if the unit can use at least one of them."
@@ -2606,10 +2578,7 @@ class WeaponTypes(ItemComponent):
         return False
 
 
-#class EvalWeaponTriangleOverride:
-# should check what eligible weapon type the unit is using to access the spell and return that type through the weapon_triangle_override hook
-# complicated - because what if unit has access to all eligible weapon types?
-# how to resolve?
+
 
 
 

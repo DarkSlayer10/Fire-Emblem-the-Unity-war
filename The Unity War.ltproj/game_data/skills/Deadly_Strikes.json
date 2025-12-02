@@ -3,10 +3,10 @@
         "nid": "Deadly_Strikes",
         "name": "Deadly Strikes",
         "desc": "+15 Crit",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            2,
+            12
         ],
         "components": [
             [

@@ -3,10 +3,10 @@
         "nid": "Ready_Stance",
         "name": "Ready Stance",
         "desc": "+4SPD and DEF when defending",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            10,
+            38
         ],
         "components": [
             [

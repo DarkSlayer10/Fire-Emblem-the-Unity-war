@@ -1,8 +1,8 @@
 [
     {
         "nid": "Silver_Shield_skill",
-        "name": "Silver Shield skill",
-        "desc": "currently uses charges per combat, should probably fix it",
+        "name": "Silver Shield",
+        "desc": "+8 DEF -4 SPD",
         "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
             4,
@@ -21,10 +21,6 @@
                         -4
                     ]
                 ]
-            ],
-            [
-                "event_stack_on_take_hit",
-                "Global I - Leather Shield"
             ]
         ]
     }

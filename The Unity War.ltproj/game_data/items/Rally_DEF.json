@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "Rally_DEF",
+        "name": "Rally DEF",
+        "desc": "",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            12,
+            24
+        ],
+        "components": [
+            [
+                "ally_blast_aoe",
+                2
+            ],
+            [
+                "status_on_hit",
+                "DEF4"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "StatUpSpark"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    255,
+                    255
+                ]
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "SkillActivate"
+            ]
+        ]
+    }
+]

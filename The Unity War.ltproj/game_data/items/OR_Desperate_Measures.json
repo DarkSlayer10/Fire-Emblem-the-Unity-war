@@ -1,0 +1,28 @@
+[
+    {
+        "nid": "OR_Desperate_Measures",
+        "name": "OR Desperate Measures",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Mounted",
+                        "Horse",
+                        "Monster"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 5,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    }
+]

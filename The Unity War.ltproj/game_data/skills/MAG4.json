@@ -1,22 +1,26 @@
 [
     {
-        "nid": "Spur_Defense_child",
-        "name": " Spur Defense",
-        "desc": "Great Knight- Spur defense-allies adjacent to unit gains +4 defense \n",
+        "nid": "MAG4",
+        "name": "MAG +4",
+        "desc": "MAG + 4",
         "icon_nid": "skill_icons",
         "icon_index": [
-            4,
-            19
+            3,
+            2
         ],
         "components": [
             [
                 "stat_change",
                 [
                     [
-                        "DEF",
+                        "MAG",
                         4
                     ]
                 ]
+            ],
+            [
+                "time",
+                1
             ]
         ]
     }

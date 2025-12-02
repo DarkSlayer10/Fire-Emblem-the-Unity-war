@@ -1,8 +1,8 @@
 [
     {
         "nid": "Ward_Shield_skill",
-        "name": "Ward Shield skill",
-        "desc": "currently uses charges per combat, should probably fix it",
+        "name": "Ward Shield",
+        "desc": "+6 RES -3 SPD",
         "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
             5,
@@ -21,10 +21,6 @@
                         -3
                     ]
                 ]
-            ],
-            [
-                "event_stack_on_take_hit",
-                "Global I - Leather Shield"
             ]
         ]
     }

@@ -1,17 +1,17 @@
 [
     {
-        "nid": "_Rally_MAG",
-        "name": " Rally MAG",
-        "desc": "Valkirye",
+        "nid": "Rally_RES",
+        "name": "Rally RES",
+        "desc": "Allies within 2 tiles gains +4 res for a turn. 4 turn CD",
         "icon_nid": "skill_icons",
         "icon_index": [
-            13,
+            14,
             24
         ],
         "components": [
             [
                 "ability",
-                "Platonic_Sword"
+                "Rally_RES"
             ],
             [
                 "build_charge",

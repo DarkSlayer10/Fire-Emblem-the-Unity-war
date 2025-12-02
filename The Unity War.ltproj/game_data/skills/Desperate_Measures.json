@@ -1,7 +1,7 @@
 [
     {
-        "nid": "_Desperate_Measures",
-        "name": " Desperate Measures",
+        "nid": "Desperate_Measures",
+        "name": "Desperate Measures",
         "desc": "Ninetails- Desperate measures( Claws does effective damage to beast, horses, and demons.)",
         "icon_nid": "skill_icons",
         "icon_index": [
@@ -11,11 +11,11 @@
         "components": [
             [
                 "item_override",
-                "Platonic_Sword"
+                "OR_Desperate_Measures"
             ],
             [
                 "condition",
-                "False"
+                "unit.get_weapon() and item_system.weapon_type(unit, item) == 'Gauntlet'"
             ]
         ]
     }

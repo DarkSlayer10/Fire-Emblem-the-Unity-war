@@ -265,6 +265,13 @@
     "Shadowstep",
     "Davy_Jones_Stare",
     "Good_As_Gold",
+    "Rally_STR",
+    "Rally_MAG",
+    "Rally_SKL",
+    "Rally_SPD",
+    "Rally_DEF",
+    "Rally_RES",
+    "Rally_LCK",
     "OR_Uncounterable",
     "OR_Rulebreaker",
     "OR_Luna",
@@ -273,6 +280,7 @@
     "OR_Brave",
     "OR_Shove",
     "OR_Triangle_Expert",
+    "OR_Desperate_Measures",
     "Bomb",
     "OR_Black_Magic"
 ]

@@ -3,10 +3,10 @@
         "nid": "Heavy_Strikes",
         "name": "Heavy Strikes",
         "desc": "+wpn weight to crit chance",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            6,
+            39
         ],
         "components": [
             [

@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Lck5",
-        "name": "Luck +5",
-        "desc": "LCK + 5",
+        "nid": "LCK4",
+        "name": "LCK +4",
+        "desc": "LCL + 4",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -14,9 +14,13 @@
                 [
                     [
                         "LCK",
-                        5
+                        4
                     ]
                 ]
+            ],
+            [
+                "time",
+                1
             ]
         ]
     }

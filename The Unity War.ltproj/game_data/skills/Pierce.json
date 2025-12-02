@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Sure_Shot",
-        "name": "Sure Shot",
-        "desc": "SKL% to deal 1.5 dmg",
-        "icon_nid": "skill_icons",
+        "nid": "Pierce",
+        "name": "Pierce",
+        "desc": "luna\nSKL% to ignore defense",
+        "icon_nid": "Skills",
         "icon_index": [
-            8,
-            48
+            4,
+            3
         ],
         "components": [
             [
@@ -15,11 +15,11 @@
             ],
             [
                 "attack_proc",
-                "Sure_Shot_PROC"
+                "Pierce_s"
             ],
             [
                 "defense_proc",
-                "Sure_Shot_PROC"
+                "Pierce_s"
             ]
         ]
     }

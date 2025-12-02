@@ -3,10 +3,10 @@
         "nid": "Vanity",
         "name": "Vanity",
         "desc": "+2dmg+10hit at 2 range",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            4,
+            50
         ],
         "components": [
             [

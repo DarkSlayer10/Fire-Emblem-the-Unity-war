@@ -82,6 +82,10 @@
             [
                 1,
                 "Flying"
+            ],
+            [
+                1,
+                "Rally_RES"
             ]
         ],
         "wexp_gain": {

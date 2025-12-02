@@ -3,10 +3,10 @@
         "nid": "Dragon_Fury",
         "name": "Dragon Fury",
         "desc": "Dragoness- Dragons Fury- When under 50% hp negates effective damage and crit",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            6,
+            35
         ],
         "components": [
             [

@@ -1,8 +1,8 @@
 [
     {
         "nid": "Leather_Shield_skill",
-        "name": "Leather Shield skill",
-        "desc": "currently uses charges per combat, should probably fix it",
+        "name": "Leather Shield",
+        "desc": "+2 DEF -1 SPD",
         "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
             10,
@@ -21,10 +21,6 @@
                         -1
                     ]
                 ]
-            ],
-            [
-                "event_stack_on_take_hit",
-                "Global I - Leather Shield"
             ]
         ]
     }
