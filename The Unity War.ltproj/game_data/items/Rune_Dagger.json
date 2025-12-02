@@ -3,15 +3,15 @@
         "nid": "Rune_Dagger",
         "name": "Rune Dagger",
         "desc": "Ariel prf if promo to kistune sage",
-        "icon_nid": null,
+        "icon_nid": "Daggers Unity War",
         "icon_index": [
-            0,
-            0
+            2,
+            1
         ],
         "components": [
             [
                 "item_prefab",
-                "Iron_Sword"
+                "Platonic_Dagger"
             ],
             [
                 "damage",

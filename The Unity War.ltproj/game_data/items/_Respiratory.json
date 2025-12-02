@@ -1,11 +1,11 @@
 [
     {
-        "nid": "Malediction",
-        "name": "Malediction",
-        "desc": "-4 STR/MAG",
+        "nid": "_Respiratory",
+        "name": " Respiratory",
+        "desc": "ranged restore",
         "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
         "icon_index": [
-            5,
+            13,
             8
         ],
         "components": [

@@ -3,9 +3,9 @@
         "nid": "Brave_Dagger",
         "name": "Brave Dagger",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "Daggers Unity War",
         "icon_index": [
-            0,
+            1,
             0
         ],
         "components": [

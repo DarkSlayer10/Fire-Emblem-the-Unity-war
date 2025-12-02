@@ -3,9 +3,9 @@
         "nid": "Wyrm_Dagger",
         "name": "Wyrm Dagger",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "Daggers Unity War",
         "icon_index": [
-            0,
+            3,
             0
         ],
         "components": [

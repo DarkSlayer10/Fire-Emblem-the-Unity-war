@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Hexing_Rod",
-        "name": "Hexing Rod",
+        "nid": "_Hexing_Rod",
+        "name": " Hexing Rod",
         "desc": "-4 DEF/RES",
         "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
         "icon_index": [
@@ -35,6 +35,10 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "status_on_hit",
+                "Fort"
             ]
         ]
     }

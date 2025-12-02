@@ -1,16 +1,20 @@
 [
     {
-        "nid": "Sleep",
-        "name": "Sleep",
-        "desc": "Enemy cannot move or attack.",
+        "nid": "_Barrier",
+        "name": " Barrier",
+        "desc": "Raises ally's resistance.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
-            7
+            14
         ],
         "components": [
             [
                 "spell",
+                null
+            ],
+            [
+                "target_ally",
                 null
             ],
             [
@@ -19,7 +23,7 @@
             ],
             [
                 "weapon_rank",
-                "B"
+                "C"
             ],
             [
                 "magic",
@@ -27,7 +31,7 @@
             ],
             [
                 "uses",
-                3
+                15
             ],
             [
                 "uses_options",
@@ -37,32 +41,28 @@
                 }
             ],
             [
+                "status_on_hit",
+                "Fort"
+            ],
+            [
                 "wexp",
-                5
+                4
             ],
             [
                 "exp",
-                35
+                17
             ],
             [
                 "value",
-                1500
+                2250
             ],
             [
                 "min_range",
                 1
             ],
             [
-                "status_on_hit",
-                "Fort"
-            ],
-            [
-                "max_equation_range",
-                "MAGIC_RANGE"
-            ],
-            [
-                "target_enemy",
-                null
+                "max_range",
+                1
             ],
             [
                 "no_map_hp_display",

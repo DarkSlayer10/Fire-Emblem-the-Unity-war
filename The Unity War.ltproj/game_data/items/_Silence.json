@@ -1,20 +1,16 @@
 [
     {
-        "nid": "Barrier",
-        "name": "Barrier",
-        "desc": "Raises ally's resistance.",
+        "nid": "_Silence",
+        "name": " Silence",
+        "desc": "Enemy is rendered unable to use magic.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
-            14
+            6
         ],
         "components": [
             [
                 "spell",
-                null
-            ],
-            [
-                "target_ally",
                 null
             ],
             [
@@ -23,7 +19,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "magic",
@@ -31,7 +27,7 @@
             ],
             [
                 "uses",
-                15
+                3
             ],
             [
                 "uses_options",
@@ -41,28 +37,36 @@
                 }
             ],
             [
-                "status_on_hit",
-                "Fort"
-            ],
-            [
                 "wexp",
-                4
+                5
             ],
             [
                 "exp",
-                17
+                30
             ],
             [
                 "value",
-                2250
+                1200
             ],
             [
                 "min_range",
                 1
             ],
             [
-                "max_range",
-                1
+                "status_on_hit",
+                "Fort"
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "eval_target_restrict_2",
+                "target.wexp['Light'] or target.wexp['Anima'] or target.wexp['Dark'] or target.wexp['Staff']"
             ],
             [
                 "no_map_hp_display",

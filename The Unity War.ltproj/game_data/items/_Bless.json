@@ -1,16 +1,20 @@
 [
     {
-        "nid": "Silence",
-        "name": "Silence",
-        "desc": "Enemy is rendered unable to use magic.",
-        "icon_nid": "Staff",
+        "nid": "_Bless",
+        "name": " Bless",
+        "desc": "Raises ally's defense.\n+7 DEF(same as barrier)",
+        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
         "icon_index": [
-            0,
-            6
+            8,
+            8
         ],
         "components": [
             [
                 "spell",
+                null
+            ],
+            [
+                "target_ally",
                 null
             ],
             [
@@ -19,7 +23,7 @@
             ],
             [
                 "weapon_rank",
-                "B"
+                "C"
             ],
             [
                 "magic",
@@ -27,7 +31,7 @@
             ],
             [
                 "uses",
-                3
+                15
             ],
             [
                 "uses_options",
@@ -37,36 +41,28 @@
                 }
             ],
             [
+                "status_on_hit",
+                "Fort"
+            ],
+            [
                 "wexp",
-                5
+                4
             ],
             [
                 "exp",
-                30
+                17
             ],
             [
                 "value",
-                1200
+                2250
             ],
             [
                 "min_range",
                 1
             ],
             [
-                "status_on_hit",
-                "Fort"
-            ],
-            [
-                "max_equation_range",
-                "MAGIC_RANGE"
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "eval_target_restrict_2",
-                "target.wexp['Light'] or target.wexp['Anima'] or target.wexp['Dark'] or target.wexp['Staff']"
+                "max_range",
+                1
             ],
             [
                 "no_map_hp_display",

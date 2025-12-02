@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Torch_Staff",
-        "name": "Illuminate",
-        "desc": "Lights an area.",
+        "nid": "_Sleep",
+        "name": " Sleep",
+        "desc": "Enemy cannot move or attack.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
-            11
+            7
         ],
         "components": [
             [
@@ -14,32 +14,20 @@
                 null
             ],
             [
-                "target_tile",
-                null
-            ],
-            [
-                "value",
-                3000
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_equation_range",
-                "MAGIC_RANGE"
-            ],
-            [
                 "weapon_type",
                 "Staff"
             ],
             [
                 "weapon_rank",
-                "E"
+                "B"
+            ],
+            [
+                "magic",
+                null
             ],
             [
                 "uses",
-                10
+                3
             ],
             [
                 "uses_options",
@@ -49,31 +37,39 @@
                 }
             ],
             [
-                "exp",
-                15
-            ],
-            [
                 "wexp",
-                4
+                5
             ],
             [
-                "event_on_hit",
-                "Global I - Torch"
+                "exp",
+                35
             ],
             [
-                "never_use_battle_animation",
-                null
+                "value",
+                1500
             ],
             [
-                "map_hit_sfx",
-                "Torch"
+                "min_range",
+                1
             ],
             [
-                "ignore_fog_of_war",
+                "status_on_hit",
+                "Fort"
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_enemy",
                 null
             ],
             [
                 "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_pose",
                 null
             ]
         ]

@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Berserk",
-        "name": "Berserk",
+        "nid": "_Berserk",
+        "name": " Berserk",
         "desc": "Enemy becomes berserk.",
         "icon_nid": "Staff",
         "icon_index": [
