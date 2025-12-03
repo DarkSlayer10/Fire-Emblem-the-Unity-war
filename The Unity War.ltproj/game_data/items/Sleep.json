@@ -1,12 +1,12 @@
 [
     {
-        "nid": "_Silence",
-        "name": " Silence",
-        "desc": "Enemy is rendered unable to use magic.",
+        "nid": "Sleep",
+        "name": "Sleep",
+        "desc": "Enemy cannot move or attack.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
-            6
+            7
         ],
         "components": [
             [
@@ -42,11 +42,11 @@
             ],
             [
                 "exp",
-                30
+                35
             ],
             [
                 "value",
-                1200
+                1500
             ],
             [
                 "min_range",
@@ -54,7 +54,7 @@
             ],
             [
                 "status_on_hit",
-                "Fort"
+                "Sleep"
             ],
             [
                 "max_equation_range",
@@ -63,10 +63,6 @@
             [
                 "target_enemy",
                 null
-            ],
-            [
-                "eval_target_restrict_2",
-                "target.wexp['Light'] or target.wexp['Anima'] or target.wexp['Dark'] or target.wexp['Staff']"
             ],
             [
                 "no_map_hp_display",

@@ -1,12 +1,12 @@
 [
     {
-        "nid": "_Barrier",
-        "name": " Barrier",
-        "desc": "Raises ally's resistance.",
-        "icon_nid": "Staff",
+        "nid": "Respiratory",
+        "name": "Respiratory",
+        "desc": "Removes all temporary statuses at range.",
+        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
         "icon_index": [
-            0,
-            14
+            13,
+            8
         ],
         "components": [
             [
@@ -23,7 +23,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "magic",
@@ -31,7 +31,7 @@
             ],
             [
                 "uses",
-                15
+                8
             ],
             [
                 "uses_options",
@@ -41,28 +41,24 @@
                 }
             ],
             [
-                "status_on_hit",
-                "Fort"
-            ],
-            [
                 "wexp",
-                4
+                3
             ],
             [
                 "exp",
-                17
+                20
             ],
             [
                 "value",
-                2250
+                4000
             ],
             [
                 "min_range",
                 1
             ],
             [
-                "max_range",
-                1
+                "restore",
+                null
             ],
             [
                 "no_map_hp_display",
@@ -71,6 +67,10 @@
             [
                 "map_cast_pose",
                 null
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
             ]
         ]
     }

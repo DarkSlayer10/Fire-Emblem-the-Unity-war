@@ -1,12 +1,12 @@
 [
     {
-        "nid": "_Sleep",
-        "name": " Sleep",
-        "desc": "Enemy cannot move or attack.",
+        "nid": "Berserk",
+        "name": "Berserk",
+        "desc": "Enemy becomes berserk.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
-            7
+            8
         ],
         "components": [
             [
@@ -42,11 +42,11 @@
             ],
             [
                 "exp",
-                35
+                40
             ],
             [
                 "value",
-                1500
+                1800
             ],
             [
                 "min_range",
@@ -54,7 +54,7 @@
             ],
             [
                 "status_on_hit",
-                "Fort"
+                "Berserk"
             ],
             [
                 "max_equation_range",

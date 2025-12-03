@@ -2,7 +2,7 @@
     {
         "nid": "Pure_Water",
         "name": "Pure Water",
-        "desc": "Res is buffed by 7.\n(Diminishes 1/turn.)",
+        "desc": "Res is buffed by 7.\n(Diminishes 1/turn.)\n",
         "icon_nid": "Consumable",
         "icon_index": [
             0,

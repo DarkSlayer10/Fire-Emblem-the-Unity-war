@@ -1,12 +1,12 @@
 [
     {
-        "nid": "_Bless",
-        "name": " Bless",
-        "desc": "Raises ally's defense.\n+7 DEF(same as barrier)",
-        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
+        "nid": "Barrier",
+        "name": "Barrier",
+        "desc": "Raises ally's resistance by 7, disminishes by 1 per round.",
+        "icon_nid": "Staff",
         "icon_index": [
-            8,
-            8
+            0,
+            14
         ],
         "components": [
             [
@@ -42,7 +42,7 @@
             ],
             [
                 "status_on_hit",
-                "Fort"
+                "Barrier"
             ],
             [
                 "wexp",
@@ -57,20 +57,24 @@
                 2250
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
                 "no_map_hp_display",
                 null
             ],
             [
                 "map_cast_pose",
                 null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "eval_target_restrict_2",
+                "Not \"Full_Metal_Body\" in target.skills"
             ]
         ]
     }

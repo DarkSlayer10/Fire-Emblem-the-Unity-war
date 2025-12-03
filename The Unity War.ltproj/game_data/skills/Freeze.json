@@ -1,0 +1,47 @@
+[
+    {
+        "nid": "Freeze",
+        "name": "Freeze",
+        "desc": "-4 SKL/SPD",
+        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "time",
+                2
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "condition",
+                "not has_skill(unit, 'Full_Metal_Body')"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        -4
+                    ],
+                    [
+                        "SPD",
+                        -4
+                    ]
+                ]
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

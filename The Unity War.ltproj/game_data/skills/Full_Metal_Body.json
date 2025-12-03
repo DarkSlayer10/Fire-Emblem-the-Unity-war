@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Full_Metal_Body",
+        "name": "Full Metal Body",
+        "desc": "Immune to all seal skills\n",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            13,
+            48
+        ],
+        "components": []
+    }
+]

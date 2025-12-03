@@ -1,11 +1,11 @@
 [
     {
-        "nid": "_Translocate",
-        "name": " Translocate",
-        "desc": "swap with allies at range",
+        "nid": "Freeze",
+        "name": "Freeze",
+        "desc": "-4 SKL/SPD",
         "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
         "icon_index": [
-            14,
+            0,
             8
         ],
         "components": [
@@ -15,19 +15,15 @@
             ],
             [
                 "weapon_rank",
-                "E"
+                "C"
             ],
             [
                 "value",
-                0
-            ],
-            [
-                "crit",
-                0
+                1500
             ],
             [
                 "uses",
-                1
+                10
             ],
             [
                 "uses_options",
@@ -35,6 +31,26 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "status_on_hit",
+                "Freeze"
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "exp",
+                15
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
             ]
         ]
     }
