@@ -12,6 +12,10 @@
             [
                 "hit",
                 20
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

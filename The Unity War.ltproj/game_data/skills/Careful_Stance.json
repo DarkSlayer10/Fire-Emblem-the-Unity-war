@@ -24,6 +24,10 @@
             [
                 "dynamic_attack_speed",
                 "2 if unit.get_weapon()and item_system.weapon_type(unit, item) == 'Sword' and mode == 'defense' else 0"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

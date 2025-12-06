@@ -2,12 +2,37 @@
     {
         "nid": "_Light_Calling",
         "name": " Light Calling",
-        "desc": "Huntress-Light calling( Grants Emily miracle and takes a hit for Emma. Negates the -10 hp cost on Emma skill.)",
+        "desc": "Huntress-Light calling( Grants Emily miracle and takes a hit for Emma when within 3 range. Negates the -10 hp cost on Emma skill\n*** not sure which skill costs hp\twill turn off after miracle triggers\tsavior skills are not doable without hacking currently, squid made one so i can get a solution if really needed",
         "icon_nid": "skill_icons",
         "icon_index": [
             10,
             19
         ],
-        "components": []
+        "components": [
+            [
+                "aura",
+                "Light_Calling_status"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "drain_charge",
+                1
+            ],
+            [
+                "miracle",
+                null
+            ]
+        ]
     }
 ]

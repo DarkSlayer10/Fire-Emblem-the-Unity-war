@@ -36,6 +36,10 @@
                     0,
                     65
                 ]
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
             ]
         ]
     }

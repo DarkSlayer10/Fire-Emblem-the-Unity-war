@@ -12,6 +12,10 @@
             [
                 "upkeep_event",
                 "Global A - Imbue"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

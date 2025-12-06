@@ -16,6 +16,10 @@
             [
                 "damage",
                 5
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

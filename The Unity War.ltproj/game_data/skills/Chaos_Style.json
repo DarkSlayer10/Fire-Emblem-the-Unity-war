@@ -15,6 +15,10 @@
                     "Chaos_Style_S",
                     "Chaos_Style_M"
                 ]
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

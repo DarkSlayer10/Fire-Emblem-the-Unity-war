@@ -20,6 +20,10 @@
             [
                 "combat_condition",
                 "item_system.weapon_type(unit, item) == 'Sword'"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

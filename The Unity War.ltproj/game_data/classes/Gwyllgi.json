@@ -3,7 +3,7 @@
         "nid": "Gwyllgi",
         "name": "Gwyllgi",
         "desc": "Savage, three-headed hellhounds.\nTheir fangs are cruel death dealers.",
-        "tier": 1,
+        "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": "Mauthe_Doog",
         "turns_into": [],

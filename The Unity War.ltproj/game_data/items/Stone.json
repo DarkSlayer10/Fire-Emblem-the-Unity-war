@@ -51,6 +51,18 @@
             [
                 "alternate_resist_formula",
                 "DEFENSE"
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    0
+                ]
             ]
         ]
     }

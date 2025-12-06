@@ -16,6 +16,10 @@
             [
                 "dynamic_attack_speed",
                 "-2 if unit.get_stat('CON') > target.get_stat('CON') else 0"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

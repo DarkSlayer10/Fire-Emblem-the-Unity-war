@@ -20,6 +20,10 @@
             [
                 "dynamic_accuracy",
                 "10"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

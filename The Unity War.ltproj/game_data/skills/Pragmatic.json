@@ -20,6 +20,10 @@
             [
                 "combat_condition",
                 "target.team == 'enemy'"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

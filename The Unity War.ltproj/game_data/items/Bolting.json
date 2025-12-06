@@ -87,6 +87,10 @@
             [
                 "no_double",
                 null
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
             ]
         ]
     }

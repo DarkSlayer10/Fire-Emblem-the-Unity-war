@@ -20,6 +20,10 @@
             [
                 "upkeep_charge_increase",
                 1
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

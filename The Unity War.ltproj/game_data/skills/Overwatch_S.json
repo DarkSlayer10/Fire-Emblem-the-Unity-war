@@ -31,7 +31,8 @@
                     "lost_on_self": true,
                     "lost_on_ally": true,
                     "lost_on_enemy": true,
-                    "lost_on_splash": true
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
                 }
             ],
             [

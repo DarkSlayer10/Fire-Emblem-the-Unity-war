@@ -20,6 +20,10 @@
             [
                 "defense_proc",
                 "Pierce_s"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

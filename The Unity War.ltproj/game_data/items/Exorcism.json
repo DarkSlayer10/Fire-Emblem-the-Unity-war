@@ -59,6 +59,18 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    85,
+                    0,
+                    127
+                ]
             ]
         ]
     }

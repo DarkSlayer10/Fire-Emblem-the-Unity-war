@@ -14,7 +14,9 @@
         },
         "growths": {},
         "growth_bonus": {},
-        "promotion": {},
+        "promotion": {
+            "MOV": -99
+        },
         "max_stats": {},
         "learned_skills": [
             [

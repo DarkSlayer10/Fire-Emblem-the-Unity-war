@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Darkness_call_Inflict",
+        "name": "Darkness call",
+        "desc": "Darkbearer- Darkness Call( After hitting the enemy, enemy loses there hit rate for 1 turn, \nIt could just be a heavy debuff based on their distance\nlike -1 to all stats per tile",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            15,
+            19
+        ],
+        "components": [
+            [
+                "give_status_after_hit",
+                "Darkness_call_Status"
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.team == 'enemy'"
+            ]
+        ]
+    }
+]

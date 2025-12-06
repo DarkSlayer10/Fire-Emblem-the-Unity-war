@@ -79,6 +79,10 @@
                     "lose_uses_on_miss": true,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
             ]
         ]
     }

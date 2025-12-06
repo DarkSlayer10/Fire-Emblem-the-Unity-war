@@ -16,6 +16,10 @@
             [
                 "proc_rate",
                 "SKLPROC"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

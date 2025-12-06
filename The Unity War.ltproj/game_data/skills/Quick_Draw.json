@@ -12,6 +12,10 @@
             [
                 "dynamic_damage",
                 "4 if mode == 'attack' or 'splash' else 0"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

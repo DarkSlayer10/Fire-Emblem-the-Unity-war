@@ -16,6 +16,10 @@
             [
                 "dynamic_damage",
                 "3"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

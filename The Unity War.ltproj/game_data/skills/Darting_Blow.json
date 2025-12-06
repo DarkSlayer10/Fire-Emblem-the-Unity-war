@@ -12,6 +12,10 @@
             [
                 "dynamic_attack_speed",
                 "5 if mode == 'attack' else 0"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

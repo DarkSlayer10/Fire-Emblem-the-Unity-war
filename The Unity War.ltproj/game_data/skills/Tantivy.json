@@ -20,6 +20,10 @@
             [
                 "dynamic_avoid",
                 "10"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

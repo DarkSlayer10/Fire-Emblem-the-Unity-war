@@ -12,6 +12,10 @@
             [
                 "ability",
                 "Platonic_Sword"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

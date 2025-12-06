@@ -12,6 +12,10 @@
             [
                 "item_override",
                 "OR_Triangle_Expert"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

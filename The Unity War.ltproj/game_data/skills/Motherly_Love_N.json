@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Motherly_Love_N",
+        "name": "Motherly Love",
+        "desc": "Nathalia secret class Gremory- Motherly Love- Trinity and Nathalia gains a +10 crit avoid and 10 crit if both are deployed and within 3 tiles",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            1,
+            24
+        ],
+        "components": [
+            [
+                "crit",
+                10
+            ],
+            [
+                "crit_avoid",
+                10
+            ],
+            [
+                "condition",
+                "(u.nid == 'Trinity' or u.nid == 'Nathalia') if game.get_unit('Trinity').position and game.get_unit('Nathalia').position"
+            ],
+            [
+                "grey_if_inactive",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

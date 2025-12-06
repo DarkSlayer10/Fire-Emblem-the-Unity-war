@@ -21,6 +21,10 @@
                         "4 if mode != 'attack' else 0"
                     ]
                 ]
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

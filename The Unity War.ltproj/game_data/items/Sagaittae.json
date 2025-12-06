@@ -51,6 +51,18 @@
             [
                 "max_range",
                 3
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    127
+                ]
             ]
         ]
     }

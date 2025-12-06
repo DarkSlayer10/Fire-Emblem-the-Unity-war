@@ -12,6 +12,10 @@
             [
                 "defense_speed",
                 2
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

@@ -51,6 +51,18 @@
             [
                 "status_on_hit",
                 "Cursed_Spirits"
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    85,
+                    0,
+                    127
+                ]
             ]
         ]
     }

@@ -12,6 +12,10 @@
             [
                 "alternate_crit_accuracy_formula",
                 "SKLCRIT"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

@@ -3,7 +3,7 @@
         "nid": "Gorgon",
         "name": "Gorgon",
         "desc": "Comely and cursed, these creatures\nturn all who behold them into stone.",
-        "tier": 2,
+        "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
         "turns_into": [],

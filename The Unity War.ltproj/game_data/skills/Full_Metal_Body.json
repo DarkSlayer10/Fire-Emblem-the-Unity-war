@@ -2,12 +2,17 @@
     {
         "nid": "Full_Metal_Body",
         "name": "Full Metal Body",
-        "desc": "Immune to all seal skills\n",
+        "desc": "Immune to all seal skills\nDid immunity to stat lowering ones, as there are no actual seal skills",
         "icon_nid": "skill_icons",
         "icon_index": [
             13,
             48
         ],
-        "components": []
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
     }
 ]

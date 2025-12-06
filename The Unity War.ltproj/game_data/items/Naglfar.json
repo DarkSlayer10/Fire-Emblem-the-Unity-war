@@ -67,6 +67,18 @@
                     "lose_uses_on_miss": true,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    85,
+                    0,
+                    127
+                ]
             ]
         ]
     }

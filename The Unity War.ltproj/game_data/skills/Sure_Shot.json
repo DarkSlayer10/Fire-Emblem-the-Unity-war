@@ -20,6 +20,10 @@
             [
                 "defense_proc",
                 "Sure_Shot_PROC"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

@@ -51,6 +51,18 @@
             [
                 "status_on_equip",
                 "STR4"
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    255,
+                    255
+                ]
             ]
         ]
     }

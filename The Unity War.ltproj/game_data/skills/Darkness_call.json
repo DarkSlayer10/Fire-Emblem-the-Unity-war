@@ -1,0 +1,61 @@
+[
+    {
+        "nid": "Darkness_call",
+        "name": "Darkness call",
+        "desc": "Darkbearer\nAfter hitting an enemy, reduce their hit by 20 for 1 round.\nReduce all stats by 1 per tile away from Emily.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            15,
+            19
+        ],
+        "components": [
+            [
+                "multi_skill",
+                [
+                    "Darkness_call_Inflict"
+                ]
+            ],
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "STR",
+                        "-1*(utils.calculate_distance(unit.position,game.get_unit('Emily').position))+1"
+                    ],
+                    [
+                        "SKL",
+                        "-1*(utils.calculate_distance(unit.position,game.get_unit('Emily').position))+1"
+                    ],
+                    [
+                        "SPD",
+                        "-1*(utils.calculate_distance(unit.position,game.get_unit('Emily').position))+1"
+                    ],
+                    [
+                        "DEF",
+                        "-1*(utils.calculate_distance(unit.position,game.get_unit('Emily').position))+1"
+                    ],
+                    [
+                        "RES",
+                        "-1*(utils.calculate_distance(unit.position,game.get_unit('Emily').position))+1"
+                    ],
+                    [
+                        "LCK",
+                        "-1*(utils.calculate_distance(unit.position,game.get_unit('Emily').position))+1"
+                    ],
+                    [
+                        "MAG",
+                        "-1*(utils.calculate_distance(unit.position,game.get_unit('Emily').position))+1"
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "grey_if_inactive",
+                null
+            ]
+        ]
+    }
+]

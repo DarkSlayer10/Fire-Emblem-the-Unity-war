@@ -2,7 +2,7 @@
     {
         "nid": "Def_Down",
         "name": "Def Down",
-        "desc": "Def is debuffed by 4.\n(Recovers 1/turn.)",
+        "desc": "Def is debuffed by 4.\n(Recovers 1/turn.)\n",
         "icon_nid": "skill_icons",
         "icon_index": [
             11,

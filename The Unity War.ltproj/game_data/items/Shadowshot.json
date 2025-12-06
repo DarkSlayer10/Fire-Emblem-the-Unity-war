@@ -63,6 +63,18 @@
             [
                 "no_double",
                 null
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    85,
+                    0,
+                    127
+                ]
             ]
         ]
     }

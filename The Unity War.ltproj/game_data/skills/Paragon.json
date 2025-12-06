@@ -12,6 +12,10 @@
             [
                 "exp_multiplier",
                 2.0
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

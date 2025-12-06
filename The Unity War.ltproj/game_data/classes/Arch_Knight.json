@@ -62,7 +62,7 @@
             "RES": 2,
             "LCK": 0,
             "CON": 0,
-            "MOV": 1,
+            "MOV": -99,
             "LEAD": 0
         },
         "max_stats": {

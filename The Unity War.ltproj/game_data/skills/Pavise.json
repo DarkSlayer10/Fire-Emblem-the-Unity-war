@@ -20,6 +20,10 @@
             [
                 "defense_proc",
                 "Pavise_Proc"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

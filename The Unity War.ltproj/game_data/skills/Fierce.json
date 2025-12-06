@@ -16,6 +16,10 @@
             [
                 "dynamic_accuracy",
                 "15 if unit.get_max_hp() < unit.get_hp()else 0"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

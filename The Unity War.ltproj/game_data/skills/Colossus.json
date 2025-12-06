@@ -21,6 +21,10 @@
             [
                 "combat_condition",
                 "unit.get_stat('CON') > unit2.get_stat('CON')"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

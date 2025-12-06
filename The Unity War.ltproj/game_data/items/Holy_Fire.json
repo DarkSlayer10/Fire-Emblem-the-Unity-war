@@ -51,6 +51,18 @@
             [
                 "reaver",
                 null
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    170,
+                    127
+                ]
             ]
         ]
     }

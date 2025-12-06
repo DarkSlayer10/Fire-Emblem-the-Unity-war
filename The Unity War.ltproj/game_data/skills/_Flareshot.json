@@ -16,6 +16,10 @@
             [
                 "attack_proc_enemy",
                 "Fort"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

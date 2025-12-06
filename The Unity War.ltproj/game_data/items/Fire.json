@@ -55,6 +55,10 @@
                     96,
                     0
                 ]
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
             ]
         ]
     }

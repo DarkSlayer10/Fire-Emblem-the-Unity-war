@@ -75,6 +75,18 @@
             [
                 "status_on_hit",
                 "Chilled"
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    255,
+                    255
+                ]
             ]
         ]
     }

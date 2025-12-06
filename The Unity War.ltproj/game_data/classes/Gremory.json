@@ -12,9 +12,16 @@
         "bases": {},
         "growths": {},
         "growth_bonus": {},
-        "promotion": {},
+        "promotion": {
+            "MOV": -99
+        },
         "max_stats": {},
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Motherly_Love_N"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

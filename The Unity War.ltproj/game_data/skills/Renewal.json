@@ -12,6 +12,10 @@
             [
                 "regeneration",
                 0.3
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

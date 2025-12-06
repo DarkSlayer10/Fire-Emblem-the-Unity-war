@@ -1,6 +1,9 @@
 # Bugs or unfinished 
 ```
 Add missing animations
+
+need to port all spell animations... that will be a chore
+
 fix wrong background animations
 
 finish items, most statuses are set to FORT

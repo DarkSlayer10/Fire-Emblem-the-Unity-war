@@ -2,7 +2,7 @@
     {
         "nid": "Dark_Spikes",
         "name": "Dark Spikes",
-        "desc": "2 aoe,  2-2 range",
+        "desc": "",
         "icon_nid": "{Beansy} DarkSheet",
         "icon_index": [
             1,
@@ -67,6 +67,18 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    85,
+                    0,
+                    127
+                ]
             ]
         ]
     }

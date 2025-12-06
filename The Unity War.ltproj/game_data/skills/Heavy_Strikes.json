@@ -12,6 +12,10 @@
             [
                 "dynamic_crit_accuracy",
                 "unit.get_weapon().weight.value"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

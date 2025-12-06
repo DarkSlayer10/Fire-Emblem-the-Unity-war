@@ -16,6 +16,10 @@
             [
                 "live_to_serve",
                 1.0
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

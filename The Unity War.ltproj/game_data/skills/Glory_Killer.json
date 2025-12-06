@@ -12,6 +12,10 @@
             [
                 "gain_skill_after_kill",
                 "Glory_Killer_buff"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

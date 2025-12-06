@@ -45,14 +45,6 @@
                 }
             ],
             [
-                "map_hit_add_blend",
-                [
-                    77,
-                    77,
-                    77
-                ]
-            ],
-            [
                 "prf_unit",
                 [
                     "Emma"
@@ -61,6 +53,18 @@
             [
                 "weapon_triangle_override",
                 "Dark"
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
+            ],
+            [
+                "map_hit_sub_blend",
+                [
+                    85,
+                    0,
+                    0
+                ]
             ]
         ]
     }

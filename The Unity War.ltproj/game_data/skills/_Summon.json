@@ -8,6 +8,11 @@
             9,
             0
         ],
-        "components": []
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
     }
 ]

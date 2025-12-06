@@ -83,6 +83,10 @@
             [
                 "status_on_hit",
                 "Paralyzed"
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
             ]
         ]
     }

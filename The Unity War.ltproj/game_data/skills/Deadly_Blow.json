@@ -29,6 +29,10 @@
             [
                 "crit",
                 10
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

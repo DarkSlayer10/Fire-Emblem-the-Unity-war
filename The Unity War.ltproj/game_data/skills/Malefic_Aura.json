@@ -20,6 +20,10 @@
             [
                 "aura_target",
                 "enemy"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

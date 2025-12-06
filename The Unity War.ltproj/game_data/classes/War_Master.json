@@ -12,7 +12,9 @@
         "bases": {},
         "growths": {},
         "growth_bonus": {},
-        "promotion": {},
+        "promotion": {
+            "MOV": -99
+        },
         "max_stats": {},
         "learned_skills": [],
         "wexp_gain": {
@@ -27,7 +29,7 @@
                 null
             ],
             "Axe": [
-                false,
+                true,
                 0,
                 null
             ],
@@ -57,7 +59,7 @@
                 null
             ],
             "Gauntlet": [
-                false,
+                true,
                 0,
                 null
             ],

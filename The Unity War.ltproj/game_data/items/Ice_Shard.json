@@ -59,6 +59,10 @@
             [
                 "status_after_combat_on_hit",
                 "Chilled"
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
             ]
         ]
     }

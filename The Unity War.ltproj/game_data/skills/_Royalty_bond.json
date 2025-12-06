@@ -19,7 +19,15 @@
             ],
             [
                 "condition",
-                "False"
+                "game.get_unit('Lilith').position and game.get_unit('Maya').position"
+            ],
+            [
+                "grey_if_inactive",
+                null
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

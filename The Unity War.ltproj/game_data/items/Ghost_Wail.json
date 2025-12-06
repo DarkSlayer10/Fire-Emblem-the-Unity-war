@@ -59,6 +59,10 @@
             [
                 "status_after_combat",
                 "Def_Down"
+            ],
+            [
+                "battle_cast_anim",
+                "Arrow"
             ]
         ]
     }
