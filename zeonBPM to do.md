@@ -1,3 +1,14 @@
+# ch7
+
+111 and 144 and 145 changes AI to pursue after 2 turns
+
+need Adam unit boss, currently a generic
+
+119 and 120  are supposed to attack a village, there is no village	change to pursue after 2 rounds as compromise
+
+
+
+
 # Bugs or unfinished 
 ```
 Add missing animations
