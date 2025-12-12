@@ -1,0 +1,50 @@
+[
+    {
+        "nid": "Kaylee",
+        "name": "Kaylee",
+        "desc": "duelist blow skill\nA old veteran that was hired\nby Sasha to fight Umbra",
+        "variant": null,
+        "level": 10,
+        "klass": "Brawler",
+        "tags": [],
+        "bases": {
+            "HP": 30,
+            "STR": 10,
+            "SKL": 8,
+            "SPD": 12,
+            "DEF": 10,
+            "RES": 8,
+            "LCK": 13,
+            "CON": 7,
+            "MAG": 12,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 55,
+            "SKL": 45,
+            "SPD": 50,
+            "DEF": 35,
+            "RES": 35,
+            "LCK": 35,
+            "CON": 0,
+            "MAG": 35
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Gauntlet": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "None",
+        "fields": []
+    }
+]

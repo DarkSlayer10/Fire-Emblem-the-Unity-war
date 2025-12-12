@@ -1,0 +1,57 @@
+[
+    {
+        "nid": "Trinity",
+        "name": "Trinity",
+        "desc": "fiery blood skill\nA heretic and general in Umbra's army.\nShe's also known as Blood Rose.",
+        "variant": null,
+        "level": 16,
+        "klass": "Malig_Knight",
+        "tags": [],
+        "bases": {
+            "HP": 55,
+            "STR": 18,
+            "SKL": 25,
+            "SPD": 24,
+            "DEF": 20,
+            "RES": 18,
+            "LCK": 10,
+            "CON": 10,
+            "MAG": 18,
+            "MOV": 8,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 45,
+            "SKL": 50,
+            "SPD": 40,
+            "DEF": 20,
+            "RES": 45,
+            "LCK": 15,
+            "CON": 0,
+            "MAG": 45
+        },
+        "stat_cap_modifiers": {
+            "HP": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                251,
+                null
+            ],
+            "Dark": [
+                false,
+                251,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "TrinityFrames",
+        "affinity": "Dark",
+        "fields": []
+    }
+]

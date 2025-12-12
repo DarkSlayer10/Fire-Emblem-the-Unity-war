@@ -1,0 +1,60 @@
+[
+    {
+        "nid": "Ariel",
+        "name": "Ariel",
+        "desc": "perfectionist skill\nNaoki's younger sister, She\nresearches magic on her off time,\nLoves her older sister but is childish.",
+        "variant": null,
+        "level": 3,
+        "klass": "Kistune_Sage",
+        "tags": [],
+        "bases": {
+            "HP": 30,
+            "STR": 0,
+            "SKL": 11,
+            "SPD": 9,
+            "DEF": 1,
+            "RES": 10,
+            "LCK": 9,
+            "CON": 5,
+            "MAG": 8,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 40,
+            "STR": 5,
+            "SKL": 70,
+            "SPD": 50,
+            "DEF": 20,
+            "RES": 60,
+            "LCK": 15,
+            "CON": 0,
+            "MAG": 65
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Staff": [
+                false,
+                71,
+                null
+            ],
+            "Anima": [
+                false,
+                181,
+                null
+            ],
+            "Light": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Anima",
+        "fields": []
+    }
+]

@@ -1,0 +1,69 @@
+[
+    {
+        "nid": "Alice",
+        "name": "Alice",
+        "desc": "brutality skill\nneed young portrait\nA Girl that forgot her memory.\nShe is shy but nice.\n",
+        "variant": null,
+        "level": 4,
+        "klass": "Wanderer",
+        "tags": [
+            "Monster",
+            "Sword",
+            "Female"
+        ],
+        "bases": {
+            "HP": 39,
+            "STR": 13,
+            "SKL": 10,
+            "SPD": 9,
+            "DEF": 10,
+            "RES": 14,
+            "LCK": 15,
+            "CON": 5,
+            "MAG": 14,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 60,
+            "SKL": 50,
+            "SPD": 45,
+            "DEF": 30,
+            "RES": 20,
+            "LCK": 35,
+            "CON": 6,
+            "MAG": 65
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                90,
+                null
+            ],
+            "Anima": [
+                false,
+                90,
+                null
+            ],
+            "Light": [
+                false,
+                90,
+                null
+            ],
+            "Dark": [
+                false,
+                90,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Wind",
+        "fields": []
+    }
+]

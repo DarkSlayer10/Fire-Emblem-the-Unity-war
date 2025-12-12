@@ -1,0 +1,65 @@
+[
+    {
+        "nid": "James",
+        "name": "James",
+        "desc": "need portrait\nA king that when missing years\nago, Became a experiment vessel\nfor the demons.",
+        "variant": null,
+        "level": 11,
+        "klass": "Harbringer",
+        "tags": [],
+        "bases": {
+            "HP": 35,
+            "STR": 14,
+            "SKL": 16,
+            "SPD": 16,
+            "DEF": 16,
+            "RES": 14,
+            "LCK": 19,
+            "CON": 8,
+            "MAG": 13,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 55,
+            "SKL": 40,
+            "SPD": 30,
+            "DEF": 45,
+            "RES": 25,
+            "LCK": 25,
+            "CON": 0,
+            "MAG": 5
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181,
+                null
+            ],
+            "Lance": [
+                false,
+                181,
+                null
+            ],
+            "Axe": [
+                false,
+                181,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Fire",
+        "fields": []
+    }
+]

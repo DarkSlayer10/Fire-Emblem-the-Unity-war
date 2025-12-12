@@ -1,0 +1,64 @@
+[
+    {
+        "nid": "Darcy",
+        "name": "Darcy",
+        "desc": "not sure if she is actually supposed to have lance rank,  changed it to magic\nneed portrait\ncharm skill\nA general in Umbra army. This cruel\nWoman is also known as Bloodcutter.",
+        "variant": null,
+        "level": 13,
+        "klass": "Sage_F",
+        "tags": [],
+        "bases": {
+            "HP": 45,
+            "STR": 1,
+            "SKL": 22,
+            "SPD": 20,
+            "DEF": 17,
+            "RES": 15,
+            "LCK": 5,
+            "CON": 6,
+            "MAG": 20,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 10,
+            "SKL": 55,
+            "SPD": 50,
+            "DEF": 40,
+            "RES": 35,
+            "LCK": 15,
+            "CON": 0,
+            "MAG": 60
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Anima": [
+                false,
+                251,
+                null
+            ],
+            "Staff": [
+                false,
+                181,
+                null
+            ],
+            "Light": [
+                false,
+                181,
+                null
+            ],
+            "Dark": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": null,
+        "fields": []
+    }
+]

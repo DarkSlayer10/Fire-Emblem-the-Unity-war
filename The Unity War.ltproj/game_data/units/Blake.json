@@ -1,0 +1,49 @@
+[
+    {
+        "nid": "Blake",
+        "name": "Blake",
+        "desc": "vigilance skill\nA young boy that had a rough\nchildhood. He knows how \nto talk roughly.\n",
+        "variant": null,
+        "level": 10,
+        "klass": "Mercenary",
+        "tags": [],
+        "bases": {
+            "HP": 31,
+            "STR": 5,
+            "SKL": 4,
+            "SPD": 7,
+            "DEF": 6,
+            "RES": 6,
+            "LCK": 9,
+            "CON": 8,
+            "MAG": 3,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 45,
+            "SKL": 50,
+            "SPD": 55,
+            "DEF": 45,
+            "RES": 25,
+            "LCK": 55,
+            "CON": 0,
+            "MAG": 10
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Fire",
+        "fields": []
+    }
+]

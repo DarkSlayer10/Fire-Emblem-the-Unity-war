@@ -1,0 +1,52 @@
+[
+    {
+        "nid": "Tarzkal",
+        "name": "Tar'zkal",
+        "desc": "charge skill\nneed portrait\nA young oni who has proved himself\ndirectly under Lynstia's command.\n",
+        "variant": null,
+        "level": 12,
+        "klass": "Wyvern Rider",
+        "tags": [
+            "Dragon",
+            "Monster"
+        ],
+        "bases": {
+            "HP": 34,
+            "STR": 9,
+            "SKL": 11,
+            "SPD": 11,
+            "DEF": 14,
+            "RES": 4,
+            "LCK": 15,
+            "CON": 7,
+            "MAG": 4,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 60,
+            "SKL": 55,
+            "SPD": 60,
+            "DEF": 70,
+            "RES": 5,
+            "LCK": 35,
+            "CON": 0,
+            "MAG": 5
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Fire",
+        "fields": []
+    }
+]

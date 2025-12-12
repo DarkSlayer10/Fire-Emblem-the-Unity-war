@@ -1,0 +1,58 @@
+[
+    {
+        "nid": "Miriam",
+        "name": "Miriam",
+        "desc": "Sister of Evelyn. Corporal in \nUmbra's Army, Worried about her\nsister going through mental health issues.",
+        "variant": null,
+        "level": 16,
+        "klass": "Raider_F",
+        "tags": [
+            "Horse",
+            "Mounted",
+            "Female"
+        ],
+        "bases": {
+            "HP": 35,
+            "STR": 12,
+            "SKL": 10,
+            "SPD": 12,
+            "DEF": 12,
+            "RES": 8,
+            "LCK": 9,
+            "CON": 8,
+            "MAG": 5,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 40,
+            "SKL": 70,
+            "SPD": 65,
+            "DEF": 30,
+            "RES": 10,
+            "LCK": 50,
+            "CON": 0,
+            "MAG": 5
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "Colossus"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Mirian",
+        "affinity": "Thunder",
+        "fields": []
+    }
+]

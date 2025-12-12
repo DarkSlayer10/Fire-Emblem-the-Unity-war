@@ -1,0 +1,58 @@
+[
+    {
+        "nid": "Sasha",
+        "name": "Sasha",
+        "desc": "Leader of the Umbra's mercenaries.\nA Dragon that is caring and brazen.",
+        "variant": null,
+        "level": 1,
+        "klass": "Sentinel",
+        "tags": [
+            "Dragon",
+            "Monster",
+            "Female"
+        ],
+        "bases": {
+            "HP": 40,
+            "STR": 15,
+            "SKL": 10,
+            "SPD": 11,
+            "DEF": 9,
+            "RES": 8,
+            "LCK": 12,
+            "CON": 5,
+            "MAG": 6,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 120,
+            "STR": 60,
+            "SKL": 55,
+            "SPD": 45,
+            "DEF": 50,
+            "RES": 15,
+            "LCK": 50,
+            "CON": 0,
+            "MAG": 5
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "Heavy_Strikes"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "BlackHairBat",
+        "affinity": "None",
+        "fields": []
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "nid": "Charlotte",
+        "name": "Charlotte",
+        "desc": "night tide skill\nA mermaid stationed at rosefall\noutpost. She loves singing and\ndancing, doesn't need water to live.\n",
+        "variant": null,
+        "level": 13,
+        "klass": "Soldier_C",
+        "tags": [
+            "Female"
+        ],
+        "bases": {
+            "HP": 24,
+            "STR": 10,
+            "SKL": 19,
+            "SPD": 11,
+            "DEF": 7,
+            "RES": 7,
+            "LCK": 11,
+            "CON": 9,
+            "MAG": 9,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 35,
+            "SKL": 40,
+            "SPD": 55,
+            "DEF": 40,
+            "RES": 45,
+            "LCK": 50,
+            "CON": 6,
+            "MAG": 60
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "Fort"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "image-293",
+        "affinity": "Wind",
+        "fields": []
+    }
+]

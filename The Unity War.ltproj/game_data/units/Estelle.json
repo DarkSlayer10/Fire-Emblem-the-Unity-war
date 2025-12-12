@@ -1,0 +1,69 @@
+[
+    {
+        "nid": "Estelle",
+        "name": "Estelle",
+        "desc": "Drive magic skill\nCaptian of the harrier brigade\nin Sundar and the queens retainer.\nHonest and a worries alot.",
+        "variant": null,
+        "level": 9,
+        "klass": "Harrier",
+        "tags": [
+            "Mounted",
+            "Flying",
+            "Female"
+        ],
+        "bases": {
+            "HP": 37,
+            "STR": 14,
+            "SKL": 14,
+            "SPD": 18,
+            "DEF": 12,
+            "RES": 18,
+            "LCK": 26,
+            "CON": 6,
+            "MAG": 10,
+            "MOV": 8,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 40,
+            "SKL": 50,
+            "SPD": 60,
+            "DEF": 40,
+            "RES": 30,
+            "LCK": 25,
+            "CON": 0,
+            "MAG": 60
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                121,
+                null
+            ],
+            "Lance": [
+                false,
+                121,
+                null
+            ],
+            "Anima": [
+                false,
+                121,
+                null
+            ],
+            "Dark": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Thunder",
+        "fields": []
+    }
+]

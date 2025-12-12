@@ -1,0 +1,55 @@
+[
+    {
+        "nid": "Dylan",
+        "name": "Dylan",
+        "desc": "need portrait\nAn ambitious general in Rosefall army.\nHe's better known as Tiger Eye.\nSwitched to wrisiam side.",
+        "variant": null,
+        "level": 12,
+        "klass": "Hero",
+        "tags": [],
+        "bases": {
+            "HP": 50,
+            "STR": 23,
+            "SKL": 15,
+            "SPD": 14,
+            "DEF": 14,
+            "RES": 12,
+            "LCK": 13,
+            "CON": 12,
+            "MAG": 7,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "STR": 50,
+            "HP": 85,
+            "SKL": 45,
+            "SPD": 45,
+            "DEF": 30,
+            "RES": 20,
+            "LCK": 20,
+            "CON": 0,
+            "MAG": 5
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181,
+                null
+            ],
+            "Axe": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Thunder",
+        "fields": []
+    }
+]

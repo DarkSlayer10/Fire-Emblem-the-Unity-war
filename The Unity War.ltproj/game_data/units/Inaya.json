@@ -1,0 +1,70 @@
+[
+    {
+        "nid": "Inaya",
+        "name": "Inaya",
+        "desc": "powerstaff skill\nRosefall doctor, She has\na crush on a human. Willing\nto save a person live for her own.",
+        "variant": null,
+        "level": 4,
+        "klass": "Lamia",
+        "tags": [],
+        "bases": {
+            "HP": 40,
+            "STR": 2,
+            "SKL": 14,
+            "SPD": 18,
+            "DEF": 13,
+            "RES": 15,
+            "LCK": 16,
+            "CON": 8,
+            "MAG": 22,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 5,
+            "SKL": 45,
+            "SPD": 60,
+            "DEF": 40,
+            "RES": 50,
+            "LCK": 35,
+            "CON": 0,
+            "MAG": 60
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Staff": [
+                false,
+                150,
+                null
+            ],
+            "Anima": [
+                false,
+                200,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                150,
+                null
+            ],
+            "Gauntlet": [
+                false,
+                0,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Ice",
+        "fields": []
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "nid": "Azumi",
+        "name": "Azumi",
+        "desc": "galeforce skill\nA Wolf Samurai general for Umbra.\nbetrayed her kingdom for revenge,\nDeadly with her weapons.\n",
+        "variant": null,
+        "level": 4,
+        "klass": "Ronin",
+        "tags": [
+            "Sword",
+            "Female"
+        ],
+        "bases": {
+            "HP": 44,
+            "STR": 18,
+            "SKL": 18,
+            "SPD": 19,
+            "DEF": 15,
+            "RES": 18,
+            "LCK": 19,
+            "CON": 7,
+            "MAG": 16,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 65,
+            "SKL": 55,
+            "SPD": 65,
+            "DEF": 45,
+            "RES": 25,
+            "LCK": 30,
+            "CON": 40
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181,
+                null
+            ],
+            "Lance": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Wolf2",
+        "affinity": "Anima",
+        "fields": []
+    }
+]

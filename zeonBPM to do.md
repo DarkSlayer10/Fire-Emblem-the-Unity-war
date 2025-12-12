@@ -11,6 +11,8 @@ need Adam unit boss, currently a generic
 
 # Bugs or unfinished 
 ```
+Need to assing personal skills to all units
+
 Add missing animations
 
 need to port all spell animations... that will be a chore

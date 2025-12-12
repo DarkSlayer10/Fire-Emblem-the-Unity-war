@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Sango",
+        "name": "Sango",
+        "desc": "Who tf is this man? looks placeholdery\nA cavalier of Renais. He's a devoted\nhusband and a serene and quiet man.\n",
+        "variant": null,
+        "level": 1,
+        "klass": "Paladin",
+        "tags": [],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181,
+                null
+            ],
+            "Lance": [
+                false,
+                181,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "None",
+        "fields": []
+    }
+]

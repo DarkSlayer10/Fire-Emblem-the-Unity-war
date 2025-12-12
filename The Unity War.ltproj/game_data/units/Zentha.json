@@ -1,0 +1,60 @@
+[
+    {
+        "nid": "Zentha",
+        "name": "Zentha",
+        "desc": "needs base portrait, only has promotion\nA former enemy of Sasha. She a Rival\nand co-leader of umbra's mercenaries.\nA Dragon from another tribe.",
+        "variant": null,
+        "level": 10,
+        "klass": "Maiden",
+        "tags": [
+            "Dragon",
+            "Monster",
+            "Sword",
+            "Female"
+        ],
+        "bases": {
+            "HP": 34,
+            "STR": 15,
+            "SKL": 14,
+            "SPD": 14,
+            "DEF": 14,
+            "RES": 13,
+            "LCK": 15,
+            "CON": 10,
+            "MAG": 16,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 45,
+            "SKL": 45,
+            "SPD": 60,
+            "DEF": 30,
+            "RES": 30,
+            "LCK": 40,
+            "CON": 0,
+            "MAG": 50
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "Arcane_Blade"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Ice",
+        "fields": []
+    }
+]
