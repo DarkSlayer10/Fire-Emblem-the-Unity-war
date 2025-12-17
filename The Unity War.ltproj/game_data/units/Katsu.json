@@ -1,0 +1,49 @@
+[
+    {
+        "nid": "Katsu",
+        "name": "Katsu",
+        "desc": "colossus skill\nNaoki older brother. He\nis a mothers boy that listens\nto her mothers word.",
+        "variant": null,
+        "level": 5,
+        "klass": "Hero",
+        "tags": [],
+        "bases": {
+            "HP": 60,
+            "STR": 17,
+            "SKL": 14,
+            "SPD": 14,
+            "DEF": 16,
+            "RES": 12,
+            "LCK": 8,
+            "MAG": 9,
+            "CON": 12,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 50,
+            "SKL": 40,
+            "SPD": 50,
+            "DEF": 35,
+            "RES": 15,
+            "LCK": 30,
+            "MAG": 5
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "None",
+        "fields": []
+    }
+]

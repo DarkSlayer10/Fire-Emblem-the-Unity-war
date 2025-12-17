@@ -1,0 +1,58 @@
+[
+    {
+        "nid": "Sabrina",
+        "name": "Sabrina",
+        "desc": "sturdy stance skill\nWrisiam finest Witch. Deadly\nCommander of Wrisiam.",
+        "variant": null,
+        "level": 1,
+        "klass": "Witch",
+        "tags": [],
+        "bases": {
+            "HP": 47,
+            "STR": 4,
+            "SKL": 15,
+            "SPD": 18,
+            "DEF": 12,
+            "RES": 16,
+            "LCK": 13,
+            "MAG": 23,
+            "CON": 12,
+            "MOV": 7,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 20,
+            "SKL": 30,
+            "SPD": 35,
+            "DEF": 15,
+            "RES": 15,
+            "LCK": 25
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Anima": [
+                false,
+                181,
+                null
+            ],
+            "Light": [
+                false,
+                181,
+                null
+            ],
+            "Dark": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Thunder",
+        "fields": []
+    }
+]

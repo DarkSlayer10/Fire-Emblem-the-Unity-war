@@ -1,0 +1,59 @@
+[
+    {
+        "nid": "Michael",
+        "name": "Michael",
+        "desc": "Umbra general turned demon\nby forced. Wants to be free \nfrom the demon curse.",
+        "variant": null,
+        "level": 10,
+        "klass": "Hero",
+        "tags": [],
+        "bases": {
+            "HP": 57,
+            "STR": 25,
+            "SKL": 23,
+            "SPD": 23,
+            "DEF": 20,
+            "RES": 21,
+            "LCK": 22,
+            "MAG": 22,
+            "CON": 14,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 50,
+            "SKL": 10,
+            "SPD": 10,
+            "DEF": 10,
+            "RES": 15,
+            "LCK": 30,
+            "MAG": 5
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                121,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Thunder",
+        "fields": []
+    }
+]

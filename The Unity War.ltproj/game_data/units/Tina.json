@@ -1,0 +1,51 @@
+[
+    {
+        "nid": "Tina",
+        "name": "Tina",
+        "desc": "swift stace skill\nSister to Kaylee trying to find her. \nLoves trying to make new friends.",
+        "variant": null,
+        "level": 10,
+        "klass": "Raider_F",
+        "tags": [],
+        "bases": {
+            "HP": 34,
+            "STR": 12,
+            "SKL": 10,
+            "SPD": 11,
+            "DEF": 10,
+            "RES": 8,
+            "LCK": 11,
+            "MAG": 6,
+            "CON": 12,
+            "MOV": 7,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 55,
+            "SKL": 50,
+            "SPD": 50,
+            "DEF": 40,
+            "RES": 30,
+            "LCK": 80,
+            "MAG": 5,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Fire",
+        "fields": []
+    }
+]

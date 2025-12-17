@@ -1,0 +1,49 @@
+[
+    {
+        "nid": "Linda",
+        "name": "Linda",
+        "desc": "canto+ skill\nSister to Kaylee trying to find her. \nLoves trying to make new friends.",
+        "variant": null,
+        "level": 10,
+        "klass": "Nomad_F",
+        "tags": [],
+        "bases": {
+            "HP": 34,
+            "STR": 12,
+            "SKL": 12,
+            "SPD": 12,
+            "DEF": 9,
+            "RES": 7,
+            "LCK": 10,
+            "MAG": 2,
+            "CON": 10,
+            "MOV": 7,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 60,
+            "SKL": 50,
+            "SPD": 50,
+            "DEF": 35,
+            "RES": 25,
+            "LCK": 40,
+            "MAG": 25
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Bow": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Fire",
+        "fields": []
+    }
+]

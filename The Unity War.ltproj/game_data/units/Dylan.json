@@ -2,22 +2,22 @@
     {
         "nid": "Dylan",
         "name": "Dylan",
-        "desc": "need portrait\nAn ambitious general in Rosefall army.\nHe's better known as Tiger Eye.\nSwitched to wrisiam side.",
+        "desc": "wawry fighter skill\nAn ambitious general in Rosefall army.\nHe's better known as Tiger Eye.\nSwitched to wrisiam side.",
         "variant": null,
         "level": 12,
-        "klass": "Hero",
+        "klass": "Khan",
         "tags": [],
         "bases": {
-            "HP": 50,
-            "STR": 23,
-            "SKL": 15,
-            "SPD": 14,
-            "DEF": 14,
-            "RES": 12,
-            "LCK": 13,
-            "CON": 12,
-            "MAG": 7,
-            "MOV": 6,
+            "HP": 44,
+            "STR": 18,
+            "SKL": 14,
+            "SPD": 16,
+            "DEF": 15,
+            "RES": 14,
+            "LCK": 14,
+            "CON": 14,
+            "MAG": 1,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
@@ -29,19 +29,38 @@
             "RES": 20,
             "LCK": 20,
             "CON": 0,
-            "MAG": 5
+            "MAG": 5,
+            "MOV": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "CON": 0,
+            "STR": 0,
+            "SPD": 0,
+            "HP": 0,
+            "MOV": 0,
+            "LEAD": 0,
+            "SKL": 0,
+            "RES": 0
+        },
         "starting_items": [],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
                 false,
-                181,
+                0,
                 null
             ],
             "Axe": [
+                false,
+                251,
+                null
+            ],
+            "Bow": [
                 false,
                 181,
                 null

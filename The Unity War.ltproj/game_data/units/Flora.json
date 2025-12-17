@@ -1,0 +1,54 @@
+[
+    {
+        "nid": "Flora",
+        "name": "Flora",
+        "desc": "Amon mother retainer. She took\ncare of amon when he was young.\nLoyal and Reasonable.",
+        "variant": null,
+        "level": 14,
+        "klass": "Maid",
+        "tags": [],
+        "bases": {
+            "HP": 50,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 23,
+            "DEF": 23,
+            "RES": 22,
+            "LCK": 20,
+            "MAG": 22,
+            "CON": 12,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 55,
+            "SKL": 40,
+            "SPD": 45,
+            "DEF": 30,
+            "RES": 30,
+            "LCK": 40,
+            "MAG": 60
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Staff": [
+                false,
+                181,
+                null
+            ],
+            "Sword": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Anima",
+        "fields": []
+    }
+]

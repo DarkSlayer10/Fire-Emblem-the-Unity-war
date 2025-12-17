@@ -1,0 +1,52 @@
+[
+    {
+        "nid": "Annie",
+        "name": "Annie",
+        "desc": "darting blow skill\nNicole mother and queen retainer.\nShe wants to make amends for\nher past.",
+        "variant": null,
+        "level": 1,
+        "klass": "Arch_Knight",
+        "tags": [],
+        "bases": {
+            "HP": 45,
+            "STR": 15,
+            "SKL": 15,
+            "SPD": 15,
+            "DEF": 12,
+            "RES": 14,
+            "LCK": 10,
+            "MAG": 9,
+            "CON": 9,
+            "MOV": 8
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 50,
+            "SKL": 25,
+            "SPD": 35,
+            "DEF": 15,
+            "RES": 15,
+            "LCK": 30
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                121,
+                null
+            ],
+            "Lance": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Ice",
+        "fields": []
+    }
+]

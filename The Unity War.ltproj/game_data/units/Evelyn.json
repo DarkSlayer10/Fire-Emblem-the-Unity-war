@@ -1,0 +1,54 @@
+[
+    {
+        "nid": "Evelyn",
+        "name": "Evelyn",
+        "desc": "colossus skill\nA general in Umbra's army. betrayed \nUmbra to save her sister",
+        "variant": null,
+        "level": 1,
+        "klass": "Warrior_F",
+        "tags": [],
+        "bases": {
+            "HP": 45,
+            "STR": 19,
+            "SKL": 20,
+            "SPD": 15,
+            "DEF": 14,
+            "RES": 10,
+            "LCK": 12,
+            "MAG": 3,
+            "CON": 13,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 50,
+            "SKL": 40,
+            "SPD": 45,
+            "DEF": 55,
+            "RES": 25,
+            "LCK": 40,
+            "MAG": 5
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                121,
+                null
+            ],
+            "Bow": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Wind",
+        "fields": []
+    }
+]

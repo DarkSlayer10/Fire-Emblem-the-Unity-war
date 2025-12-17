@@ -1,35 +1,35 @@
 [
     {
-        "nid": "Blake",
-        "name": "Blake",
-        "desc": "vigilance skill\nA young boy that had a rough\nchildhood. He knows how \nto talk roughly.\n",
+        "nid": "Alex",
+        "name": "Alex",
+        "desc": "tactics master skill(nihil, will probably not add it to the game)\nThe deadiest assassin to walk the earth.\nHired to kill the Princesses.",
         "variant": null,
-        "level": 10,
-        "klass": "Mercenary",
+        "level": 1,
+        "klass": "Assassin_F",
         "tags": [],
         "bases": {
-            "HP": 31,
-            "STR": 11,
-            "SKL": 9,
-            "SPD": 11,
-            "DEF": 9,
-            "RES": 6,
-            "LCK": 9,
-            "CON": 13,
-            "MAG": 3,
-            "MOV": 5,
+            "HP": 44,
+            "STR": 24,
+            "SKL": 15,
+            "SPD": 19,
+            "DEF": 24,
+            "RES": 18,
+            "LCK": 8,
+            "CON": 6,
+            "MAG": 15,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
             "HP": 70,
-            "STR": 45,
+            "STR": 55,
             "SKL": 50,
-            "SPD": 55,
-            "DEF": 45,
-            "RES": 25,
-            "LCK": 55,
+            "SPD": 70,
+            "DEF": 50,
+            "RES": 40,
+            "LCK": 30,
             "CON": 0,
-            "MAG": 10,
+            "MAG": 50,
             "MOV": 0,
             "LEAD": 0
         },
@@ -52,13 +52,13 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                71,
+                200,
                 null
             ]
         },
         "alternate_classes": [],
         "portrait_nid": "",
-        "affinity": "Fire",
+        "affinity": "Wind",
         "fields": []
     }
 ]

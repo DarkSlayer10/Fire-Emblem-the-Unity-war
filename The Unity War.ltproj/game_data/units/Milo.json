@@ -1,0 +1,49 @@
+[
+    {
+        "nid": "Milo",
+        "name": "Milo",
+        "desc": "aether skill\nLinda Brother, Castle\nguard, loves to tease his\nsister.",
+        "variant": null,
+        "level": 12,
+        "klass": "Myrmidon",
+        "tags": [],
+        "bases": {
+            "HP": 34,
+            "STR": 14,
+            "SKL": 12,
+            "SPD": 14,
+            "DEF": 8,
+            "RES": 5,
+            "LCK": 10,
+            "MAG": 2,
+            "CON": 9,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 70,
+            "SKL": 40,
+            "SPD": 45,
+            "DEF": 40,
+            "RES": 20,
+            "LCK": 40,
+            "MAG": 5
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Fire",
+        "fields": []
+    }
+]

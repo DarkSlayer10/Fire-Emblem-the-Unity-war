@@ -1,0 +1,74 @@
+[
+    {
+        "nid": "Dark",
+        "name": "Dark",
+        "desc": "The Developer of the mod\nand narrator.",
+        "variant": null,
+        "level": 1,
+        "klass": "Trickster",
+        "tags": [],
+        "bases": {
+            "HP": 37,
+            "STR": 17,
+            "SKL": 15,
+            "SPD": 17,
+            "DEF": 14,
+            "RES": 13,
+            "LCK": 12,
+            "MAG": 7,
+            "CON": 8,
+            "MOV": 7,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 60,
+            "SKL": 55,
+            "SPD": 70,
+            "DEF": 50,
+            "RES": 50,
+            "LCK": 45,
+            "MAG": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                200,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                200,
+                null
+            ],
+            "Staff": [
+                false,
+                200,
+                null
+            ],
+            "Anima": [
+                false,
+                200,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Darkslayer",
+        "affinity": "Thunder",
+        "fields": []
+    }
+]

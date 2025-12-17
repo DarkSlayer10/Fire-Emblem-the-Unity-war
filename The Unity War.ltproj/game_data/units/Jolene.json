@@ -1,0 +1,49 @@
+[
+    {
+        "nid": "Jolene",
+        "name": "Jolene",
+        "desc": "arcane blade skill\nA mermaid girl that loves fashion,\nA friend to Charlotte and Mimosa.\nCute and warmhearted.",
+        "variant": null,
+        "level": 13,
+        "klass": "Myrmidon_F",
+        "tags": [],
+        "bases": {
+            "HP": 36,
+            "STR": 14,
+            "SKL": 14,
+            "SPD": 16,
+            "DEF": 11,
+            "RES": 10,
+            "LCK": 12,
+            "MAG": 13,
+            "CON": 10,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 30,
+            "SKL": 50,
+            "SPD": 55,
+            "DEF": 35,
+            "RES": 35,
+            "LCK": 30,
+            "MAG": 60
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Ice",
+        "fields": []
+    }
+]

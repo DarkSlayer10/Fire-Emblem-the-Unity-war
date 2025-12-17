@@ -13,15 +13,15 @@
             "Female"
         ],
         "bases": {
-            "HP": 34,
-            "STR": 15,
-            "SKL": 14,
-            "SPD": 14,
+            "HP": 32,
+            "STR": 11,
+            "SKL": 11,
+            "SPD": 11,
             "DEF": 14,
-            "RES": 13,
-            "LCK": 15,
-            "CON": 10,
-            "MAG": 16,
+            "RES": 10,
+            "LCK": 10,
+            "CON": 8,
+            "MAG": 11,
             "MOV": 5,
             "LEAD": 0
         },
@@ -34,9 +34,23 @@
             "RES": 30,
             "LCK": 40,
             "CON": 0,
-            "MAG": 50
+            "MAG": 50,
+            "MOV": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "CON": 0,
+            "STR": 0,
+            "SPD": 0,
+            "HP": 0,
+            "MOV": 0,
+            "LEAD": 0,
+            "SKL": 0,
+            "RES": 0
+        },
         "starting_items": [],
         "learned_skills": [
             [

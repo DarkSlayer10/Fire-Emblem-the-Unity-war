@@ -1,0 +1,49 @@
+[
+    {
+        "nid": "Daniella",
+        "name": "Daniella",
+        "desc": "drive speed skill\nWrisiam commander that is tasked\nto keep watch of the docks. ",
+        "variant": null,
+        "level": 11,
+        "klass": "Dark_Knight_F",
+        "tags": [],
+        "bases": {
+            "HP": 50,
+            "STR": 16,
+            "SKL": 15,
+            "SPD": 18,
+            "DEF": 14,
+            "RES": 14,
+            "LCK": 15,
+            "MAG": 20,
+            "CON": 8,
+            "MOV": 8,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 65,
+            "SKL": 10,
+            "SPD": 10,
+            "DEF": 20,
+            "RES": 20,
+            "LCK": 30,
+            "MAG": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Fire",
+        "fields": []
+    }
+]

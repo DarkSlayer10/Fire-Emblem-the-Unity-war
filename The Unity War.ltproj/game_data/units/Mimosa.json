@@ -1,0 +1,49 @@
+[
+    {
+        "nid": "Mimosa",
+        "name": "Mimosa",
+        "desc": "insight skill\nCharlotte younger sister, Wants\nto train to be like her father. Kind\nbut bashful",
+        "variant": null,
+        "level": 1,
+        "klass": "Pupil",
+        "tags": [],
+        "bases": {
+            "HP": 28,
+            "STR": 6,
+            "SKL": 7,
+            "SPD": 8,
+            "DEF": 7,
+            "RES": 10,
+            "LCK": 9,
+            "MAG": 8,
+            "CON": 5,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 40,
+            "STR": 35,
+            "SKL": 40,
+            "SPD": 40,
+            "DEF": 35,
+            "RES": 30,
+            "LCK": 40,
+            "MAG": 45
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Anima": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Fire",
+        "fields": []
+    }
+]

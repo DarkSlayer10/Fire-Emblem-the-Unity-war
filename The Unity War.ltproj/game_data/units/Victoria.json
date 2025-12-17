@@ -1,0 +1,49 @@
+[
+    {
+        "nid": "Victoria",
+        "name": "Victoria",
+        "desc": "canto+ skill\nKatherine's friend and traveler.\nShe might look happy but\nloves to be evil at parts.",
+        "variant": null,
+        "level": 1,
+        "klass": "Succubus",
+        "tags": [],
+        "bases": {
+            "HP": 38,
+            "STR": 16,
+            "SKL": 15,
+            "SPD": 15,
+            "DEF": 14,
+            "RES": 10,
+            "LCK": 10,
+            "MAG": 4,
+            "CON": 12,
+            "MOV": 8,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 60,
+            "SKL": 45,
+            "SPD": 60,
+            "DEF": 60,
+            "RES": 20,
+            "LCK": 60,
+            "MAG": 5
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Dark",
+        "fields": []
+    }
+]

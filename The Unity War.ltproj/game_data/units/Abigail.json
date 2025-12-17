@@ -1,0 +1,59 @@
+[
+    {
+        "nid": "Abigail",
+        "name": "Abigail",
+        "desc": "quick draw skill\nA umbra general that used\nto be a jail warden. Nice and lazy\nbut acts tough to be ruthless.",
+        "variant": null,
+        "level": 1,
+        "klass": "Hero_F",
+        "tags": [],
+        "bases": {
+            "HP": 50,
+            "STR": 21,
+            "SKL": 21,
+            "SPD": 22,
+            "DEF": 16,
+            "RES": 16,
+            "LCK": 16,
+            "MAG": 18,
+            "CON": 12,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 50,
+            "SKL": 40,
+            "SPD": 40,
+            "DEF": 60,
+            "RES": 15,
+            "LCK": 45,
+            "MAG": 30
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Anima",
+        "fields": []
+    }
+]

@@ -56,19 +56,19 @@
         "growth_colors": false
     },
     {
-        "nid": "CON",
-        "name": "Con",
-        "maximum": 25,
-        "desc": "Constitution. Affects how well the unit can wield heavier weapons.",
-        "position": "right",
-        "growth_colors": false
-    },
-    {
         "nid": "MAG",
         "name": "Mag",
         "maximum": 30,
         "desc": "Magical power. Increases spell and staff effectiveness.",
         "position": "left",
+        "growth_colors": false
+    },
+    {
+        "nid": "CON",
+        "name": "Con",
+        "maximum": 25,
+        "desc": "Constitution. Affects how well the unit can wield heavier weapons.",
+        "position": "right",
         "growth_colors": false
     },
     {

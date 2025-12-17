@@ -1,37 +1,35 @@
 [
     {
-        "nid": "Urma",
-        "name": "Urma",
-        "desc": "perfectionist\tskill\nneed to make a T2 dancer class\nA beautiful and charming dancer\nShe gives her people motivation.\n",
+        "nid": "Katherine",
+        "name": "Katherine",
+        "desc": "aegis skill\nA succubus that loves traveling. \nShe doesn't like the demon region.\nused to be a solider.",
         "variant": null,
         "level": 1,
-        "klass": "Dancer",
-        "tags": [
-            "Female"
-        ],
+        "klass": "Succubus",
+        "tags": [],
         "bases": {
-            "HP": 34,
-            "STR": 12,
-            "SKL": 10,
-            "SPD": 13,
-            "DEF": 9,
-            "RES": 11,
-            "LCK": 11,
-            "CON": 5,
-            "MAG": 8,
-            "MOV": 6,
+            "HP": 36,
+            "STR": 14,
+            "SKL": 12,
+            "SPD": 14,
+            "DEF": 10,
+            "RES": 14,
+            "LCK": 14,
+            "CON": 7,
+            "MAG": 12,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
-            "HP": 60,
+            "HP": 70,
             "STR": 45,
-            "SKL": 40,
-            "SPD": 65,
-            "DEF": 40,
-            "RES": 25,
-            "LCK": 60,
+            "SKL": 65,
+            "SPD": 55,
+            "DEF": 25,
+            "RES": 65,
+            "LCK": 0,
             "CON": 0,
-            "MAG": 20,
+            "MAG": 45,
             "MOV": 0,
             "LEAD": 0
         },
@@ -52,20 +50,20 @@
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
-            "Sword": [
+            "Anima": [
                 false,
-                31,
+                74,
                 null
             ],
-            "Staff": [
+            "Dark": [
                 false,
-                31,
+                121,
                 null
             ]
         },
         "alternate_classes": [],
         "portrait_nid": "",
-        "affinity": "Fire",
+        "affinity": "Dark",
         "fields": []
     }
 ]

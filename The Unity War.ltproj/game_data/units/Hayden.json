@@ -1,0 +1,25 @@
+[
+    {
+        "nid": "Hayden",
+        "name": "Hayden",
+        "desc": "needs class?\n\nThe king of Frelia. He's a good friend\nto both Emma and Emily.",
+        "variant": null,
+        "level": 1,
+        "klass": "Civilian",
+        "tags": [],
+        "bases": {
+            "HP": 1,
+            "CON": 1
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Anima",
+        "fields": []
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "nid": "Kaden",
+        "name": "Kaden",
+        "desc": "bowfaire skill\nLeader of a the border partol. betrayed\nNaoki for his family safety.",
+        "variant": null,
+        "level": 4,
+        "klass": "Warrior",
+        "tags": [],
+        "bases": {
+            "HP": 34,
+            "STR": 12,
+            "SKL": 16,
+            "SPD": 9,
+            "DEF": 9,
+            "RES": 5,
+            "LCK": 6,
+            "MAG": 1,
+            "CON": 13,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 50,
+            "SKL": 20,
+            "SPD": 20,
+            "DEF": 10,
+            "RES": 15,
+            "LCK": 30,
+            "MAG": 10
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                121,
+                null
+            ],
+            "Bow": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Dark",
+        "fields": []
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "nid": "Yukimaru",
+        "name": "Yukimaru",
+        "desc": "summon skill\nA Ninja that follows Azumi orders.\nShe doesn't speak much,\n but likes to draw.",
+        "variant": null,
+        "level": 1,
+        "klass": "Ninja",
+        "tags": [],
+        "bases": {
+            "HP": 36,
+            "STR": 14,
+            "SKL": 13,
+            "SPD": 16,
+            "DEF": 13,
+            "RES": 13,
+            "LCK": 9,
+            "MAG": 1,
+            "CON": 9,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 55,
+            "SKL": 50,
+            "SPD": 65,
+            "DEF": 50,
+            "RES": 30,
+            "LCK": 40,
+            "MAG": 5
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Fire",
+        "fields": []
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "nid": "Adam",
+        "name": "Adam",
+        "desc": "life and death skill\nA umbra general that wants to show\nhis royalty.",
+        "variant": null,
+        "level": 1,
+        "klass": "General",
+        "tags": [],
+        "bases": {
+            "HP": 36,
+            "STR": 14,
+            "SKL": 16,
+            "SPD": 9,
+            "DEF": 6,
+            "RES": 4,
+            "LCK": 8,
+            "MAG": 2,
+            "CON": 17,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 50,
+            "SKL": 10,
+            "SPD": 10,
+            "DEF": 10,
+            "RES": 15,
+            "LCK": 30,
+            "MAG": 5
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71,
+                null
+            ],
+            "Lance": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Light",
+        "fields": []
+    }
+]

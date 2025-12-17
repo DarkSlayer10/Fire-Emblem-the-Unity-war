@@ -2,36 +2,36 @@
     {
         "nid": "Tess",
         "name": "Tess",
-        "desc": "",
+        "desc": "pass skill\nAn outlaw that has an attutide.\nShe used to be in a guild.\nHarsh but reasonable",
         "variant": null,
-        "level": 1,
+        "level": 7,
         "klass": "Outlaw",
         "tags": [],
         "bases": {
-            "RES": 0,
-            "STR": 0,
-            "HP": 0,
-            "DEF": 0,
-            "CON": 0,
+            "RES": 7,
+            "STR": 10,
+            "HP": 30,
+            "DEF": 7,
+            "CON": 9,
             "LEAD": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "MOV": 0,
-            "SPD": 0,
-            "LCK": 0
+            "MAG": 7,
+            "SKL": 10,
+            "MOV": 6,
+            "SPD": 11,
+            "LCK": 9
         },
         "growths": {
-            "RES": 0,
-            "STR": 0,
-            "HP": 0,
-            "DEF": 0,
+            "RES": 35,
+            "STR": 45,
+            "HP": 60,
+            "DEF": 45,
             "CON": 0,
             "LEAD": 0,
-            "MAG": 0,
-            "SKL": 0,
+            "MAG": 30,
+            "SKL": 40,
             "MOV": 0,
-            "SPD": 0,
-            "LCK": 0
+            "SPD": 65,
+            "LCK": 55
         },
         "stat_cap_modifiers": {
             "RES": 0,
@@ -58,7 +58,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Tess",
-        "affinity": "None",
+        "affinity": "Ice",
         "fields": []
     }
 ]

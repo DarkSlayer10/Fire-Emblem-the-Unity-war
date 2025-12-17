@@ -1,0 +1,64 @@
+[
+    {
+        "nid": "Selena",
+        "name": "Selena",
+        "desc": "countermagic skill\t\nEmma and Emily's Mother.\nThe queen of Sundar, She\nwants to take back her land.",
+        "variant": null,
+        "level": 4,
+        "klass": "Mage_Knight_F",
+        "tags": [],
+        "bases": {
+            "HP": 42,
+            "STR": 4,
+            "SKL": 17,
+            "SPD": 19,
+            "DEF": 15,
+            "RES": 16,
+            "LCK": 15,
+            "MAG": 18,
+            "CON": 7,
+            "MOV": 7,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 10,
+            "SKL": 55,
+            "SPD": 50,
+            "DEF": 35,
+            "RES": 50,
+            "LCK": 35,
+            "MAG": 60
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Staff": [
+                false,
+                121,
+                null
+            ],
+            "Anima": [
+                false,
+                121,
+                null
+            ],
+            "Light": [
+                false,
+                71,
+                null
+            ],
+            "Dark": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Thunder",
+        "fields": []
+    }
+]

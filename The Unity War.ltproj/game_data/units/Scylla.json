@@ -1,0 +1,54 @@
+[
+    {
+        "nid": "Scylla",
+        "name": "Scylla",
+        "desc": "quick burn skill\nA wyvern lord general\nthat serves Wrisiam army.\nLow rank demon",
+        "variant": null,
+        "level": 10,
+        "klass": "Wyvern_Lord_F",
+        "tags": [],
+        "bases": {
+            "HP": 58,
+            "STR": 25,
+            "SKL": 24,
+            "SPD": 26,
+            "DEF": 26,
+            "RES": 24,
+            "LCK": 20,
+            "MAG": 24,
+            "CON": 10,
+            "MOV": 8,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 30,
+            "SKL": 30,
+            "SPD": 35,
+            "DEF": 15,
+            "RES": 15,
+            "LCK": 25,
+            "MAG": 35
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181,
+                null
+            ],
+            "Lance": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Dark",
+        "fields": []
+    }
+]

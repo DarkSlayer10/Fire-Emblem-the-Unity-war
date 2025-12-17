@@ -1,0 +1,59 @@
+[
+    {
+        "nid": "Primrose",
+        "name": "Primrose",
+        "desc": "Drive Strenght skill\nNaoki mother maid, She takes\ncare of the queen and her daughter.\nShe is a tomboy and loves creativity.",
+        "variant": null,
+        "level": 1,
+        "klass": "Maid",
+        "tags": [],
+        "bases": {
+            "HP": 36,
+            "STR": 15,
+            "SKL": 14,
+            "SPD": 16,
+            "DEF": 14,
+            "RES": 14,
+            "LCK": 11,
+            "MAG": 12,
+            "CON": 8,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 50,
+            "SKL": 45,
+            "SPD": 55,
+            "DEF": 45,
+            "RES": 15,
+            "LCK": 30,
+            "MAG": 45,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71,
+                null
+            ],
+            "Staff": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Fire",
+        "fields": []
+    }
+]

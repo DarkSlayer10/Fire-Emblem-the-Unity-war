@@ -1,0 +1,56 @@
+[
+    {
+        "nid": "Daphne",
+        "name": "Daphne",
+        "desc": "lethality skill\nSelena Royal maid, She was\nan assassin in her old life in a\nclan called whispering shadows.",
+        "variant": null,
+        "level": 1,
+        "klass": "Maid",
+        "tags": [],
+        "bases": {
+            "HP": 38,
+            "STR": 15,
+            "SKL": 14,
+            "SPD": 18,
+            "DEF": 14,
+            "RES": 12,
+            "LCK": 14,
+            "MAG": 15,
+            "CON": 8,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 50,
+            "SKL": 50,
+            "SPD": 55,
+            "DEF": 35,
+            "RES": 30,
+            "LCK": 30,
+            "MAG": 55
+        },
+        "stat_cap_modifiers": {
+            "HP": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71,
+                null
+            ],
+            "Staff": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "Wind",
+        "fields": []
+    }
+]
