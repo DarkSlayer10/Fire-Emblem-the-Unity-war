@@ -155,7 +155,12 @@
     },
     {
         "nid": "{Beansy} {Bows} All Icons",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{Beansy} {Bows} All Icons 2, 2": [
+                2,
+                2
+            ]
+        }
     },
     {
         "nid": "{Beansy} {Lances} All Icons",
@@ -163,7 +168,12 @@
     },
     {
         "nid": "{Beansy} {Swords} All Icons",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{Beansy} {Swords} All Icons 1, 7": [
+                1,
+                7
+            ]
+        }
     },
     {
         "nid": "{Beansy} AnimaSheet",

@@ -31,7 +31,20 @@
             "MAG": 30
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Steel_Blade",
+                false
+            ],
+            [
+                "Steel_Axe",
+                false
+            ],
+            [
+                "Master_Seal",
+                true
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

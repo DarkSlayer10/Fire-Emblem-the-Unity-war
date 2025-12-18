@@ -46,7 +46,24 @@
             "SKL": 0,
             "RES": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Zanbato",
+                false
+            ],
+            [
+                "Killing_Edge",
+                false
+            ],
+            [
+                "Steel_Sword",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

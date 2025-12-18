@@ -2,7 +2,7 @@
     {
         "nid": "Silencer",
         "name": "Silencer",
-        "desc": "SKL% to instakill(add +99999 dmg)",
+        "desc": "SKL/2% to instakill(add +99999 dmg)",
         "icon_nid": "skill_icons",
         "icon_index": [
             10,
@@ -15,7 +15,7 @@
             ],
             [
                 "proc_rate",
-                "SKLPROC"
+                "CRIT_HIT"
             ],
             [
                 "class_skill",

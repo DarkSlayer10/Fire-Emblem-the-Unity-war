@@ -48,7 +48,28 @@
             "SKL": 0,
             "RES": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Icicles",
+                false
+            ],
+            [
+                "Heavy_Spear",
+                false
+            ],
+            [
+                "Thoron",
+                false
+            ],
+            [
+                "Javelin",
+                false
+            ],
+            [
+                "Master_Seal",
+                false
+            ]
+        ],
         "learned_skills": [
             [
                 1,
@@ -58,6 +79,11 @@
         "unit_notes": [],
         "wexp_gain": {
             "Lance": [
+                false,
+                31,
+                null
+            ],
+            "Anima": [
                 false,
                 71,
                 null

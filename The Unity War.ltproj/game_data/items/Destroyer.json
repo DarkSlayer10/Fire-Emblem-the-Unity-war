@@ -1,0 +1,52 @@
+[
+    {
+        "nid": "Destroyer",
+        "name": "Destroyer",
+        "desc": "Victoria personal javelin\nSKL/2% to proc Silencer",
+        "icon_nid": "{Beansy} {Lances} All Icons",
+        "icon_index": [
+            2,
+            3
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Javelin"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Victoria"
+                ]
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                15
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "status_on_equip",
+                "Silencer"
+            ]
+        ]
+    }
+]

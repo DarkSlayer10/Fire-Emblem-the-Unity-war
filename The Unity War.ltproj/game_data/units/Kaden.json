@@ -31,7 +31,20 @@
             "MAG": 10
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Longbow",
+                false
+            ],
+            [
+                "Steel_Axe",
+                false
+            ],
+            [
+                "Master_Seal",
+                true
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

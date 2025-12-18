@@ -43,6 +43,8 @@
     "Dawn_Bringer": "Bows/Prfs",
     "Dawnkeeper": "Anima/Prfs",
     "Death": "Dark",
+    "Desecrater": "Dark",
+    "Destroyer": "Lances/Prfs",
     "Devil_Axe": "Axes/Standard",
     "Dire_Thunder": "Anima/Thunder",
     "Divine": "Light",
@@ -140,6 +142,7 @@
     "Long_Ballista": "Bows/Ballista",
     "Longbow": "Bows/Standard",
     "Luna": "Dark",
+    "Maiden_Sword": "Swords/Prfs",
     "Malediction": "Staves",
     "Master_Seal": "Items",
     "Mend": "Staves",
@@ -274,11 +277,13 @@
     "Warp": "Staves",
     "Warp1": "Staves",
     "Warp2": "Staves",
+    "Whisperwind": "Bows/Prfs",
     "White_Gem": "Items",
     "Wind": "Anima/Wind",
     "Wind_Sword": "Swords/Standard",
     "Wyrm_Dagger": "Swords/Dagger",
     "Wyrmslayer": "Swords/Standard",
     "Zanbato": "Swords/Standard",
-    "_Respiratory": "Staves"
+    "_Bashkir": "Bows/Prfs",
+    "_Orcus": "Axes/Prfs"
 }

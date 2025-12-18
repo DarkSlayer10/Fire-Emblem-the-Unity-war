@@ -31,13 +31,26 @@
             "MAG": 5
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Flame_Sword",
+                false
+            ],
+            [
+                "Stiletto",
+                false
+            ],
+            [
+                "Killing_Edge",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
                 false,
-                121,
+                181,
                 null
             ]
         },

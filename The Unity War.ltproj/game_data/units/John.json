@@ -46,7 +46,24 @@
             "MAG": 0,
             "LEAD": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Longbow",
+                false
+            ],
+            [
+                "Killer_Bow",
+                false
+            ],
+            [
+                "Silver_Axe",
+                false
+            ],
+            [
+                "Short_Axe",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

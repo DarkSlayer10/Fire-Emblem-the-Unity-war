@@ -1,0 +1,71 @@
+[
+    {
+        "nid": "Whisperwind",
+        "name": "Whisperwind",
+        "desc": "Naoki Personal Bow. \nEffective on Calvary ",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Bow"
+            ],
+            [
+                "damage",
+                11
+            ],
+            [
+                "uses",
+                60
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "hit",
+                110
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "crit",
+                25
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Naoki"
+                ]
+            ]
+        ]
+    }
+]

@@ -7,7 +7,8 @@
         "level": 1,
         "klass": "Dancer",
         "tags": [
-            "Female"
+            "Female",
+            "Dagger"
         ],
         "bases": {
             "HP": 34,
@@ -48,13 +49,30 @@
             "SKL": 0,
             "RES": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Steel_Dagger",
+                false
+            ],
+            [
+                "Mend",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ],
+            [
+                "Holy_Dagger",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
                 false,
-                31,
+                71,
                 null
             ],
             "Staff": [

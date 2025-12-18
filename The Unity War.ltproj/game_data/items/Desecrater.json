@@ -1,0 +1,50 @@
+[
+    {
+        "nid": "Desecrater",
+        "name": "Desecrater",
+        "desc": "Katherine's Sycthe\nCounts as dark magic\nSKL% chance to proc Astra\n",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Sword"
+            ],
+            [
+                "prf_unit",
+                []
+            ],
+            [
+                "damage",
+                0
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "weight",
+                0
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "status_on_hold",
+                "Desecrate_p"
+            ]
+        ]
+    }
+]

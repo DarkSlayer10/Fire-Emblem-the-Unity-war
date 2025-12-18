@@ -1,0 +1,79 @@
+[
+    {
+        "nid": "_Bashkir",
+        "name": " Bashkir",
+        "desc": "Linda personal bow\nGrants Specialist(do i actually add this? she doesnt have proc skills)\n",
+        "icon_nid": "{Beansy} {Bows} All Icons",
+        "icon_index": [
+            2,
+            2
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Bow"
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "uses",
+                45
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "hit",
+                115
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Linda"
+                ]
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_equip",
+                "Fort"
+            ]
+        ]
+    }
+]

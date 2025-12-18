@@ -50,7 +50,24 @@
             "SKL": 0,
             "RES": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Swordreaver",
+                false
+            ],
+            [
+                "Hammer",
+                false
+            ],
+            [
+                "Hand_Axe",
+                false
+            ],
+            [
+                "_Orcus",
+                false
+            ]
+        ],
         "learned_skills": [
             [
                 1,

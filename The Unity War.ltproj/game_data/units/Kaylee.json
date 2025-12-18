@@ -46,7 +46,20 @@
             "SKL": 0,
             "RES": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Steel_Gauntlets",
+                false
+            ],
+            [
+                "Killer_Gauntlets",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

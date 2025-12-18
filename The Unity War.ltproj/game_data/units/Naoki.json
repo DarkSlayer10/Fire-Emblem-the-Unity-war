@@ -46,7 +46,24 @@
             "MAG": 0,
             "LEAD": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Iron_Bow",
+                false
+            ],
+            [
+                "Hellfang",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ],
+            [
+                "Whisperwind",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

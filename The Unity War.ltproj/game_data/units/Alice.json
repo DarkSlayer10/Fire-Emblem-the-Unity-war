@@ -50,7 +50,24 @@
             "SKL": 0,
             "RES": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Dire_Thunder",
+                false
+            ],
+            [
+                "Scimitar",
+                false
+            ],
+            [
+                "Speedwing",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

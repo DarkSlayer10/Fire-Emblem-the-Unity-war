@@ -46,7 +46,20 @@
             "SPD": 0,
             "LCK": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Zanbato",
+                false
+            ],
+            [
+                "Light_Brand",
+                false
+            ],
+            [
+                "Steel_Dagger",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

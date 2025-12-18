@@ -46,7 +46,20 @@
             "SKL": 0,
             "RES": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Scimitar",
+                false
+            ],
+            [
+                "Brave_Sword",
+                false
+            ],
+            [
+                "Levin_Sword",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

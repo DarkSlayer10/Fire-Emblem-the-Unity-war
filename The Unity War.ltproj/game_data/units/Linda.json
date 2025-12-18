@@ -31,7 +31,24 @@
             "MAG": 25
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Killer_Bow",
+                false
+            ],
+            [
+                "Steel_Bow",
+                false
+            ],
+            [
+                "Shining_Bow",
+                false
+            ],
+            [
+                "_Bashkir",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

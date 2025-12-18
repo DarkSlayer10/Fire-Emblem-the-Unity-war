@@ -29,7 +29,24 @@
             "LCK": 30
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Levin_Sword",
+                false
+            ],
+            [
+                "Silver_Lance",
+                false
+            ],
+            [
+                "Short_Spear",
+                false
+            ],
+            [
+                "Master_Seal",
+                true
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
@@ -40,7 +57,7 @@
             ],
             "Lance": [
                 false,
-                71,
+                181,
                 null
             ]
         },

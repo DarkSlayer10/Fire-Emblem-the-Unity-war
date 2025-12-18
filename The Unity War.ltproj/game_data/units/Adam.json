@@ -30,7 +30,24 @@
             "MAG": 5
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Short_Spear",
+                false
+            ],
+            [
+                "Steel_Sword",
+                false
+            ],
+            [
+                "Steel_Axe",
+                false
+            ],
+            [
+                "Master_Seal",
+                true
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
@@ -43,10 +60,15 @@
                 false,
                 121,
                 null
+            ],
+            "Axe": [
+                false,
+                71,
+                null
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "",
+        "portrait_nid": "Mercenary1",
         "affinity": "Light",
         "fields": []
     }

@@ -138,5 +138,9 @@
     {
         "nid": "SKLPROC",
         "expression": "SKL"
+    },
+    {
+        "nid": "ORCUS",
+        "expression": "DEF*0.66"
     }
 ]

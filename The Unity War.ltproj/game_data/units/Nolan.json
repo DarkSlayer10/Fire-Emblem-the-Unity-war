@@ -31,7 +31,24 @@
             "MAG": 5
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Battle_Axe",
+                false
+            ],
+            [
+                "Hammer",
+                false
+            ],
+            [
+                "Hunting_Bow",
+                false
+            ],
+            [
+                "Master_Seal",
+                true
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

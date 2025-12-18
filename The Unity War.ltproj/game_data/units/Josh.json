@@ -46,7 +46,24 @@
             "MAG": 0,
             "LEAD": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Short_Bow",
+                false
+            ],
+            [
+                "Killer_Bow",
+                false
+            ],
+            [
+                "Iron_Bow",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

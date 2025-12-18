@@ -221,5 +221,7 @@
     "Iron_Shield_skill",
     "Steel_Shield_skill",
     "Silver_Shield_skill",
-    "Ward_Shield_skill"
+    "Ward_Shield_skill",
+    "Desecrate_p",
+    "Desecrate_s"
 ]

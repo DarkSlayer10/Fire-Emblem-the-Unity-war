@@ -1,0 +1,92 @@
+[
+    {
+        "nid": "Maiden_Sword",
+        "name": "Maiden Sword",
+        "desc": "Nayzua personal sword.\nReaver effect and effective\nagainst calvary.\n+2 STR/DEF/RES\n",
+        "icon_nid": "{Beansy} {Swords} All Icons",
+        "icon_index": [
+            1,
+            7
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Sword"
+            ],
+            [
+                "uses",
+                40
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "weight",
+                6
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "reaver",
+                null
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Mounted"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 5,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Nayzua"
+                ]
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "DEF",
+                        2
+                    ],
+                    [
+                        "RES",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

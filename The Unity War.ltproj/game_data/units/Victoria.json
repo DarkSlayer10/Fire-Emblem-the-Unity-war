@@ -31,7 +31,20 @@
             "MAG": 5
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Destroyer",
+                false
+            ],
+            [
+                "Axereaver",
+                false
+            ],
+            [
+                "Horseslayer",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
