@@ -40,6 +40,14 @@
             [
                 "map_cast_sfx",
                 "SkillActivate"
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
             ]
         ]
     }
