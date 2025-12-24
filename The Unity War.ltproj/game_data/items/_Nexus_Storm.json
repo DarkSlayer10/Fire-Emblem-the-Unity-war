@@ -1,0 +1,55 @@
+[
+    {
+        "nid": "_Nexus_Storm",
+        "name": " Nexus Storm",
+        "desc": "This is set to droppable in GBA, but is a prf. can switch it to another lock if needed\nVargax personal tome. Brave and\nNos effect. Procs Luna and \nnegates crit",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Dark"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Vargax"
+                ]
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "lifelink",
+                0.5
+            ],
+            [
+                "multi_status_on_equip",
+                [
+                    "Hoplon_Guard",
+                    "Pierce"
+                ]
+            ],
+            [
+                "brave",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "nid": "Blood_Cuttter",
+        "name": "Blood Cuttter",
+        "desc": "Darcy tome. A heavy\nbrave fire tome. procs Glacies",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "prf_unit",
+                [
+                    "Darcy"
+                ]
+            ],
+            [
+                "item_prefab",
+                "Platonic_Sword"
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "status_on_equip",
+                "Glacies_P"
+            ],
+            [
+                "brave",
+                null
+            ],
+            [
+                "item_tags",
+                [
+                    "Heavy"
+                ]
+            ]
+        ]
+    }
+]

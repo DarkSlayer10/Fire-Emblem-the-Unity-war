@@ -1,0 +1,55 @@
+[
+    {
+        "nid": "Ebon_Fury",
+        "name": "Ebon Fury",
+        "desc": "Wrisiam royalty tome passed\ndown through generations.\nReaver effect. negates Crit.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Sword"
+            ],
+            [
+                "damage",
+                14
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "reaver",
+                null
+            ],
+            [
+                "status_on_equip",
+                "Hoplon_Guard"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        3
+                    ],
+                    [
+                        "MAG",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    }
+]

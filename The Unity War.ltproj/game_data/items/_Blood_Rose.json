@@ -1,0 +1,67 @@
+[
+    {
+        "nid": "_Blood_Rose",
+        "name": " Blood Rose",
+        "desc": "not sure if i should add watchful effect\nTrinity Axe, covered with\nblood, rose petals and poison.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Handaxe"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Trinity"
+                ]
+            ],
+            [
+                "damage",
+                14
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "weight",
+                14
+            ],
+            [
+                "crit",
+                30
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Poison"
+            ],
+            [
+                "status_on_equip",
+                "Fort"
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ]
+        ]
+    }
+]

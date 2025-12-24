@@ -46,7 +46,20 @@
             "SKL": 0,
             "RES": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Blood_Cuttter",
+                false
+            ],
+            [
+                "Bolting",
+                false
+            ],
+            [
+                "Thoron",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

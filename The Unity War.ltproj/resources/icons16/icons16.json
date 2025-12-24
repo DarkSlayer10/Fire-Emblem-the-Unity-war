@@ -210,5 +210,14 @@
     {
         "nid": "Daggers Unity War",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Item Icons Fe Unity War 1-3-25v.2.emulator.gba_227@E3_0145D664",
+        "subicon_dict": {
+            "Item Icons Fe Unity War 1-3-25v.2.emulator.gba_227@E3_0145D664 0, 0": [
+                0,
+                0
+            ]
+        }
     }
 ]

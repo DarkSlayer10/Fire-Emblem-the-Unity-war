@@ -31,7 +31,16 @@
             "MAG": 60
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Fenrir",
+                false
+            ],
+            [
+                "Nosferatu",
+                true
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

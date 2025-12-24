@@ -46,7 +46,24 @@
             "MAG": 0,
             "LEAD": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Ebon_Fury",
+                false
+            ],
+            [
+                "Venom_Hex",
+                false
+            ],
+            [
+                "Physic",
+                false
+            ],
+            [
+                "Nightmare",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

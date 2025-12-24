@@ -30,7 +30,20 @@
             "LCK": 25
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Brave_Axe",
+                false
+            ],
+            [
+                "Killer_Axe",
+                false
+            ],
+            [
+                "Tomahawk",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

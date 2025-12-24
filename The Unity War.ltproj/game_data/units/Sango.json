@@ -46,7 +46,20 @@
             "SKL": 0,
             "RES": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Stiletto",
+                false
+            ],
+            [
+                "Runesword",
+                false
+            ],
+            [
+                "Silver_Dagger",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

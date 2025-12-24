@@ -50,7 +50,24 @@
             "MOV": 0,
             "LEAD": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Sharp_Talons",
+                false
+            ],
+            [
+                "Death",
+                false
+            ],
+            [
+                "Dark_Spikes",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

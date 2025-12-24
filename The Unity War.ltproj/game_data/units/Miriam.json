@@ -50,7 +50,24 @@
             "SKL": 0,
             "RES": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Swordreaver",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ],
+            [
+                "Short_Axe",
+                false
+            ],
+            [
+                "Master_Seal",
+                false
+            ]
+        ],
         "learned_skills": [
             [
                 1,

@@ -49,7 +49,24 @@
             "SKL": 0,
             "RES": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Dark_Desire",
+                false
+            ],
+            [
+                "Silver_Sword",
+                false
+            ],
+            [
+                "Short_Spear",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

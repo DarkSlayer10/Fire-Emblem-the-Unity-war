@@ -46,7 +46,20 @@
             "SKL": 0,
             "RES": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Brave_Bow",
+                false
+            ],
+            [
+                "Brave_Axe",
+                false
+            ],
+            [
+                "Tomahawk",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

@@ -31,7 +31,24 @@
             "MAG": 5
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Swordreaver",
+                false
+            ],
+            [
+                "Killer_Bow",
+                false
+            ],
+            [
+                "Concoction",
+                false
+            ],
+            [
+                "Short_Axe",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

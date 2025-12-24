@@ -31,7 +31,24 @@
             "MAG": 5
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Steel_Blade",
+                false
+            ],
+            [
+                "Silver_Axe",
+                false
+            ],
+            [
+                "Short_Axe",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

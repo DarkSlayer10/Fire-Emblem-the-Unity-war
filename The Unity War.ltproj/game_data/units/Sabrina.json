@@ -30,7 +30,24 @@
             "LCK": 25
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Dark_Spikes",
+                false
+            ],
+            [
+                "Aura",
+                false
+            ],
+            [
+                "Nosferatu",
+                false
+            ],
+            [
+                "Fili_Shield",
+                true
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

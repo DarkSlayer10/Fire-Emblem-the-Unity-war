@@ -1,0 +1,52 @@
+[
+    {
+        "nid": "Dark_Desire",
+        "name": "Dark Desire",
+        "desc": "Azumi Cursed Katana.\nDevil effect for both user and enemy",
+        "icon_nid": "Item Icons Fe Unity War 1-3-25v.2.emulator.gba_227@E3_0145D664",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Sword"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Azumi"
+                ]
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "crit",
+                40
+            ],
+            [
+                "status_on_equip",
+                "Devils_Whim"
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ]
+        ]
+    }
+]

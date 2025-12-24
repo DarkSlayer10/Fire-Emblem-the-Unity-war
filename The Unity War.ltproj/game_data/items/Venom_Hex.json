@@ -1,0 +1,65 @@
+[
+    {
+        "nid": "Venom_Hex",
+        "name": "Venom Hex",
+        "desc": "Isabelle tome. Brave weapon,\npoison, Wrisiam royalty tome.\n",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Dark"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Isabelle"
+                ]
+            ],
+            [
+                "damage",
+                16
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "weight",
+                14
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "brave",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Poison"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        5
+                    ],
+                    [
+                        "MAG",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    }
+]

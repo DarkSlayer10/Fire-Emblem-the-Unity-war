@@ -46,7 +46,24 @@
             "SKL": 0,
             "RES": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Icicles",
+                false
+            ],
+            [
+                "Elfire",
+                false
+            ],
+            [
+                "Divine",
+                false
+            ],
+            [
+                "Physic",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

@@ -31,7 +31,20 @@
             "MAG": 5
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Runesword",
+                false
+            ],
+            [
+                "Silver_Axe",
+                false
+            ],
+            [
+                "Tomahawk",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

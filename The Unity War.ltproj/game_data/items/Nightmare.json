@@ -1,0 +1,54 @@
+[
+    {
+        "nid": "Nightmare",
+        "name": "Nightmare",
+        "desc": "Lulls all enemies within range\ninto a deep slumber.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Staff"
+            ],
+            [
+                "c_uses",
+                1
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "enemy_blast_aoe",
+                3
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Sleep"
+            ]
+        ]
+    }
+]

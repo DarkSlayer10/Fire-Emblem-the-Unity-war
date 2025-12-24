@@ -31,7 +31,16 @@
             "MAG": 35
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Silver_Sword",
+                false
+            ],
+            [
+                "Brave_Lance",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

@@ -31,7 +31,24 @@
             "MAG": 60
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Flame_Sword",
+                false
+            ],
+            [
+                "Brave_Dagger",
+                false
+            ],
+            [
+                "Stiletto",
+                false
+            ],
+            [
+                "Physic",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

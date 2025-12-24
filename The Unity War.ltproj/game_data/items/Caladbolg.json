@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "Caladbolg",
+        "name": "Caladbolg",
+        "desc": "Rosefall royalty sword,\nProcs Astra and magic at range.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Sword"
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "magic_at_range",
+                null
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "status_on_equip",
+                "Astra_P"
+            ]
+        ]
+    }
+]

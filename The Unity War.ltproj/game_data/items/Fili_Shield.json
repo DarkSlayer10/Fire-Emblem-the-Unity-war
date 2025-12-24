@@ -2,7 +2,7 @@
     {
         "nid": "Fili_Shield",
         "name": "Fili Shield",
-        "desc": "Negates effective bonus of bows and wind magic toward user.",
+        "desc": "Negates effective bonus of bows and wind magic toward fliers.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -15,7 +15,7 @@
             ],
             [
                 "status_on_hold",
-                "Fort"
+                "Fili_Shield"
             ]
         ]
     }

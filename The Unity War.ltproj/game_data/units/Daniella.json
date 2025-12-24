@@ -31,7 +31,20 @@
             "MAG": 0
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Runesword",
+                false
+            ],
+            [
+                "Nosferatu",
+                false
+            ],
+            [
+                "Fenrir",
+                true
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

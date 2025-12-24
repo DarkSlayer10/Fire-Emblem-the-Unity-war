@@ -46,7 +46,24 @@
             "SKL": 0,
             "RES": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Shadowshot",
+                false
+            ],
+            [
+                "Bolt_Axe",
+                false
+            ],
+            [
+                "Thoron",
+                false
+            ],
+            [
+                "Fili_Shield",
+                true
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

@@ -2,20 +2,20 @@
     {
         "nid": "Hoplon_Guard",
         "name": "Hoplon Guard",
-        "desc": "User is immune to critical attacks.",
-        "icon_nid": "Boosters",
+        "desc": "",
+        "icon_nid": null,
         "icon_index": [
             0,
-            18
+            0
         ],
         "components": [
             [
-                "value",
-                5000
+                "crit_avoid",
+                10
             ],
             [
-                "status_on_hold",
-                "Hoplon_Guard"
+                "hidden",
+                null
             ]
         ]
     }
