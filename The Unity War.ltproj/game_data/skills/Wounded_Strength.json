@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Wounded_Strength",
+        "name": "Wounded Strength",
+        "desc": "For every 5 HP missing, +1 damage.\nUpdates mid-combat.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            9,
+            27
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "eval_damage",
+                "(unit.get_max_hp() - unit.get_hp()) // 5"
+            ]
+        ]
+    }
+]

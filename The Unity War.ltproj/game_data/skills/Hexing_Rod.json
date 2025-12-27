@@ -1,0 +1,47 @@
+[
+    {
+        "nid": "Hexing_Rod",
+        "name": "Hexing Rod",
+        "desc": "-4 DEF/RES",
+        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
+        "icon_index": [
+            15,
+            8
+        ],
+        "components": [
+            [
+                "time",
+                2
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "condition",
+                "not has_skill(unit, 'Full_Metal_Body')"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        -4
+                    ],
+                    [
+                        "RES",
+                        -4
+                    ]
+                ]
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

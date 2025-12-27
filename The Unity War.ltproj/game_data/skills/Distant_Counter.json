@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "Distant_Counter",
+        "name": "<blue>Distant Counter</>",
+        "desc": "Counterattack at any range.\nConsumes 4 durability.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            8,
+            46
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "reactive_art",
+                null
+            ],
+            [
+                "display_skill_icon_in_combat",
+                null
+            ],
+            [
+                "drain_charge",
+                3
+            ],
+            [
+                "strike_trigger",
+                null
+            ],
+            [
+                "cost_uses_always_on",
+                4
+            ],
+            [
+                "distant_counter",
+                null
+            ],
+            [
+                "combat_condition",
+                "item and (utils.calculate_distance(unit.position, target.position) < item_system.minimum_range(unit, item) or utils.calculate_distance(unit.position, target.position) > item_system.maximum_range(unit, item))"
+            ]
+        ]
+    }
+]

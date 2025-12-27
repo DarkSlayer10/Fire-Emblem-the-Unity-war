@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Triangle_Adept",
+        "name": "Triangle Adept",
+        "desc": "X2 w triangle effects",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            13,
+            33
+        ],
+        "components": [
+            [
+                "item_override",
+                "OR_Triangle_Expert"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

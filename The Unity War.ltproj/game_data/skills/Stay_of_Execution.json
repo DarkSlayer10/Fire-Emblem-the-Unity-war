@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Stay_of_Execution",
+        "name": "Stay of Execution",
+        "desc": "Gain +10 stacking crit after turn.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            7,
+            7
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "endstep_event",
+                "Global A - Stay of Execution"
+            ]
+        ]
+    }
+]

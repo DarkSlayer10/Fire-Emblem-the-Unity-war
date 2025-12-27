@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Malefic_Aura_Debuff",
+        "name": "Malefic Aura",
+        "desc": "enemies within 2 tiles receive +2 magic dmg",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            9,
+            37
+        ],
+        "components": [
+            [
+                "dynamic_resist",
+                "-2"
+            ],
+            [
+                "combat_condition",
+                "item_funcs.is_magic(target, target.get_weapon())"
+            ]
+        ]
+    }
+]

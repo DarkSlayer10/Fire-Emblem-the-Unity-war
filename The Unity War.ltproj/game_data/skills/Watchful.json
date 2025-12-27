@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Watchful",
+        "name": "Watchful",
+        "desc": "This unit cannot be\ncaptured or stolen from.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

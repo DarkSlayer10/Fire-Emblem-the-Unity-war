@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Pump_Up",
+        "name": "Pump Up",
+        "desc": "+4 damage dealt/+20 hit\nwhen initiating combat.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "4 if mode == 'attack' else 0"
+            ],
+            [
+                "dynamic_accuracy",
+                "20 if mode == 'attack' else 0"
+            ]
+        ]
+    }
+]

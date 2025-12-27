@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Snipe",
+        "name": "<red>Snipe</>",
+        "desc": "Cannot miss or be countered.\nBow only. Consumes 3 durability.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            13,
+            40
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_art",
+                "Snipe_P"
+            ],
+            [
+                "drain_charge",
+                2
+            ],
+            [
+                "cost_uses",
+                4
+            ],
+            [
+                "allowed_weapons",
+                "item_system.weapon_type(unit, item) == 'Bow'"
+            ],
+            [
+                "event_before_combat",
+                "Global A - Snipe Proc"
+            ]
+        ]
+    }
+]

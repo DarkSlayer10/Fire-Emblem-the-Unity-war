@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "Stand_United",
+        "name": "Stand United",
+        "desc": "+1 to STR/SKL/SPD/DEF for each\nally with Stand United within 3 tiles.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            9,
+            50
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "STR",
+                        "len([x for x in get_units_within_distance(unit.position, dist=3, team=unit.team) if x.nid != unit.nid and has_skill(x, 'Stand_United')])"
+                    ],
+                    [
+                        "SKL",
+                        "len([x for x in get_units_within_distance(unit.position, dist=3, team=unit.team) if x.nid != unit.nid and has_skill(x, 'Stand_United')])"
+                    ],
+                    [
+                        "SPD",
+                        "len([x for x in get_units_within_distance(unit.position, dist=3, team=unit.team) if x.nid != unit.nid and has_skill(x, 'Stand_United')])"
+                    ],
+                    [
+                        "DEF",
+                        "len([x for x in get_units_within_distance(unit.position, dist=3, team=unit.team) if x.nid != unit.nid and has_skill(x, 'Stand_United')])"
+                    ]
+                ]
+            ]
+        ]
+    }
+]

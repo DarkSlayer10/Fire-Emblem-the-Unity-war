@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Torch",
+        "name": "Torch",
+        "desc": "+7 vision range.\n(Diminishes 1/turn.)",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "decreasing_sight_range_bonus",
+                7
+            ],
+            [
+                "time",
+                7
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

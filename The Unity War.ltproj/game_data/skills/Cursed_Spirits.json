@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "Cursed_Spirits",
+        "name": "Cursed Spirits",
+        "desc": "-4 LCK",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "LCK",
+                        -4
+                    ]
+                ]
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                1
+            ],
+            [
+                "stack",
+                999
+            ]
+        ]
+    }
+]

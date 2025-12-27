@@ -1,0 +1,44 @@
+[
+    {
+        "nid": "Barrier",
+        "name": "Barrier",
+        "desc": "",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "upkeep_stat_change",
+                [
+                    [
+                        "RES",
+                        -1
+                    ]
+                ]
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        7
+                    ]
+                ]
+            ],
+            [
+                "time",
+                7
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

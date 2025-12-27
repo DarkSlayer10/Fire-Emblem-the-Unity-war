@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Heavy_Strikes",
+        "name": "Heavy Strikes",
+        "desc": "+wpn weight to crit chance",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            6,
+            39
+        ],
+        "components": [
+            [
+                "dynamic_crit_accuracy",
+                "unit.get_weapon().weight.value"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

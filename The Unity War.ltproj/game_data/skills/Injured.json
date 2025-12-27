@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Injured",
+        "name": "Injured",
+        "desc": "This unit has suffered a critical\ninjury and can no longer fight.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": []
+    }
+]

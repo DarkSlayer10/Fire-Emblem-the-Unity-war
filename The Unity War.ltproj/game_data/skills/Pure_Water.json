@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Pure_Water",
+        "name": "Pure Water",
+        "desc": "Res is buffed by 7.\n(Diminishes 1/turn.)\n",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "RES",
+                        "get_skill(unit, 'Pure_Water').data.get('turns')"
+                    ]
+                ]
+            ],
+            [
+                "time",
+                7
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Black_Magic",
+        "name": "Black Magic",
+        "desc": "SKL% to inflict a random status(need list for which ones)\nNeeds an event on hit component",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            4,
+            28
+        ],
+        "components": [
+            [
+                "proc_rate",
+                "SKLPROC"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "attack_proc",
+                "_Black_Magic_Status"
+            ]
+        ]
+    }
+]

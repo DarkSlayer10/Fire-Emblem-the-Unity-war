@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "SKL4",
+        "name": "SKL +4",
+        "desc": "SKL + 4",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            3,
+            3
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        4
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

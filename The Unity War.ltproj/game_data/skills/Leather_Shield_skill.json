@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Leather_Shield_skill",
+        "name": "Leather Shield",
+        "desc": "+2 DEF -1 SPD",
+        "icon_nid": "{Cardcafe} {FE15} All Icons",
+        "icon_index": [
+            10,
+            2
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        2
+                    ],
+                    [
+                        "SPD",
+                        -1
+                    ]
+                ]
+            ]
+        ]
+    }
+]

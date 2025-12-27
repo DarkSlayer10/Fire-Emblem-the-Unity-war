@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Elbow_Room",
+        "name": "Elbow Room",
+        "desc": "+3dmg when not in terrain",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            1,
+            33
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "game.tilemap.get_terrain(unit.position) in ('0' , '1' , '4' , '5' , '6' , 'Dexk' , 'Village Ruins' , '7' , '9' , 'Mast' , 'Fence'  ,'Gunnel' , '25' , '36' , '37' , '39' , '12' , '22')"
+            ],
+            [
+                "dynamic_damage",
+                "3"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

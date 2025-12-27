@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Charm_Buff",
+        "name": "Charm",
+        "desc": "Allies within 2 tiles deal +2dmg",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            14,
+            32
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "2"
+            ]
+        ]
+    }
+]

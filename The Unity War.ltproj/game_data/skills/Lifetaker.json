@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Lifetaker",
+        "name": "Lifetaker",
+        "desc": "Heal 25% max hp on kill.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            3,
+            26
+        ],
+        "components": [
+            [
+                "lifetaker",
+                0.25
+            ]
+        ]
+    }
+]

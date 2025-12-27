@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Rally_RES",
+        "name": "Rally RES",
+        "desc": "Allies within 2 tiles gains +4 res for a turn. 4 turn CD",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            14,
+            24
+        ],
+        "components": [
+            [
+                "ability",
+                "Rally_RES"
+            ],
+            [
+                "build_charge",
+                4
+            ],
+            [
+                "upkeep_charge_increase",
+                1
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

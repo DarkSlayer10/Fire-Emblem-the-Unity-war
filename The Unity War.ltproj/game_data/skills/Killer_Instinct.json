@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Killer_Instinct",
+        "name": "Killer Instinct",
+        "desc": "crit is based in SKL*1.5",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            4,
+            43
+        ],
+        "components": [
+            [
+                "alternate_crit_accuracy_formula",
+                "SKLCRIT"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

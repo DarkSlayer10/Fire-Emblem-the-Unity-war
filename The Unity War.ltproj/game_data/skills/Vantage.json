@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Vantage",
+        "name": "Vantage",
+        "desc": "attack first when at high hp",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            0,
+            71
+        ],
+        "components": [
+            [
+                "condition",
+                "unit.get_hp() >= 0.75*unit.get_max_hp()"
+            ],
+            [
+                "vantage",
+                null
+            ],
+            [
+                "grey_if_inactive",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

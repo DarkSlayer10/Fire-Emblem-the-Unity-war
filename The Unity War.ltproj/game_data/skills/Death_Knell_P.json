@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Death_Knell_P",
+        "name": "Death Knell",
+        "desc": "",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            5,
+            17
+        ],
+        "components": [
+            [
+                "display_skill_icon_in_combat",
+                null
+            ],
+            [
+                "item_override",
+                "OR_Death_Knell"
+            ],
+            [
+                "attack_speed",
+                -999
+            ]
+        ]
+    }
+]

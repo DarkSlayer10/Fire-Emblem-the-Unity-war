@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Devils_Whim",
+        "name": "Devil's Whim",
+        "desc": "This unit is cursed, but\nthe curse spreads to the enemy as well.\n(31-Luck % chance of Devil Reversal).\n",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            15,
+            43
+        ],
+        "components": [
+            [
+                "skill_before_combat",
+                {
+                    "skill": "Devils_Whim_P",
+                    "recipient": "both",
+                    "allegiance": "both"
+                }
+            ]
+        ]
+    }
+]

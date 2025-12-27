@@ -1,0 +1,36 @@
+[
+    {
+        "nid": "Dragon_Fury",
+        "name": "Dragon Fury",
+        "desc": "Dragoness- Dragons Fury- When under 50% hp negates effective damage and crit",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            6,
+            35
+        ],
+        "components": [
+            [
+                "condition",
+                "unit.get_hp() <= 0.50*unit.get_max_hp()"
+            ],
+            [
+                "negate_tags",
+                [
+                    "Dragon"
+                ]
+            ],
+            [
+                "crit_avoid",
+                999
+            ],
+            [
+                "grey_if_inactive",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

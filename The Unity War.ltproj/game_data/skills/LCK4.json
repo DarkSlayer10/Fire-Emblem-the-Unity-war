@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "LCK4",
+        "name": "LCK +4",
+        "desc": "LCL + 4",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "LCK",
+                        4
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

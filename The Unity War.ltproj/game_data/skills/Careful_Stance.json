@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Careful_Stance",
+        "name": "Careful Stance",
+        "desc": "Bow Knight- Careful stance- +10 and +10 hit avoid when using bows when defending and +2 str and speed when using swords when attacking",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            9,
+            38
+        ],
+        "components": [
+            [
+                "dynamic_accuracy",
+                "10 if unit.get_weapon() and item_system.weapon_type(unit, item) == 'Bow' and mode == 'attack' else 0"
+            ],
+            [
+                "dynamic_avoid",
+                "10 if unit.get_weapon() and item_system.weapon_type(unit, item) == 'Bow' and mode == 'attack' else 0"
+            ],
+            [
+                "dynamic_damage",
+                "2 if unit.get_weapon() and item_system.weapon_type(unit, item) == 'Sword' and mode == 'defense' else 0"
+            ],
+            [
+                "dynamic_attack_speed",
+                "2 if unit.get_weapon()and item_system.weapon_type(unit, item) == 'Sword' and mode == 'defense' else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

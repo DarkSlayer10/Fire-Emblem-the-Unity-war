@@ -1,0 +1,25 @@
+[
+    {
+        "nid": "Ignis",
+        "name": "Ignis",
+        "desc": "Mage Knight\nadd half str to magic, add half mag to weapons",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            10,
+            32
+        ],
+        "components": [
+            [
+                "multi_skill",
+                [
+                    "IgnisM",
+                    "IgnisW"
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Tantivy",
+        "name": "Tantivy",
+        "desc": "+10hit/avo when alone within 3 tiles",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            6,
+            33
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "\nunit_funcs.check_focus(unit, 3) == 0"
+            ],
+            [
+                "dynamic_accuracy",
+                "10"
+            ],
+            [
+                "dynamic_avoid",
+                "10"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Rally_MAG",
+        "name": "Rally MAG",
+        "desc": "Allies within 2 tiles get +4MAG for 1 turn. 4 turn CD.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            13,
+            24
+        ],
+        "components": [
+            [
+                "ability",
+                "Rally_MAG"
+            ],
+            [
+                "build_charge",
+                4
+            ],
+            [
+                "upkeep_charge_increase",
+                1
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

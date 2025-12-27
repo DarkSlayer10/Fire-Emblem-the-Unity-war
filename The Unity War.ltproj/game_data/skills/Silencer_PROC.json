@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Silencer_PROC",
+        "name": "Silencer",
+        "desc": "",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            10,
+            36
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "99999"
+            ]
+        ]
+    }
+]

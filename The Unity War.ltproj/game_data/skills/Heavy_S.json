@@ -1,0 +1,36 @@
+[
+    {
+        "nid": "Heavy_S",
+        "name": "Heavy S",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "vantage",
+                null
+            ],
+            [
+                "desperation",
+                null
+            ],
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": true,
+                    "lost_on_ally": true,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": true,
+                    "only_if_initiated": false
+                }
+            ],
+            [
+                "hide_skill_icon_in_combat",
+                null
+            ]
+        ]
+    }
+]

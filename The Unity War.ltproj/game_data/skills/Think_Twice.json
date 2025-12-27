@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Think_Twice",
+        "name": "Think Twice",
+        "desc": "Phys dmg taken at 1-2 range is reflected",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            0,
+            22
+        ],
+        "components": [
+            [
+                "skill_before_combat",
+                {
+                    "skill": "Think_Twice_skill",
+                    "recipient": "target",
+                    "allegiance": "enemy"
+                }
+            ],
+            [
+                "grey_if_inactive",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "(utils.calculate_distance(unit.position, target.position))<= 2"
+            ]
+        ]
+    }
+]

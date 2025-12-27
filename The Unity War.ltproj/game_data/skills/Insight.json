@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Insight",
+        "name": "Insight",
+        "desc": "+20 hit",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            2,
+            19
+        ],
+        "components": [
+            [
+                "hit",
+                20
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

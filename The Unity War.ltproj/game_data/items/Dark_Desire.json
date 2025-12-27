@@ -46,6 +46,12 @@
             [
                 "unstealable",
                 null
+            ],
+            [
+                "item_tags",
+                [
+                    "Devil"
+                ]
             ]
         ]
     }

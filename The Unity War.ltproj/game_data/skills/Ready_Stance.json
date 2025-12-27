@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Ready_Stance",
+        "name": "Ready Stance",
+        "desc": "+4SPD and DEF when defending",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            10,
+            38
+        ],
+        "components": [
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "SPD",
+                        "4 if mode != 'attack' else 0"
+                    ],
+                    [
+                        "DEF",
+                        "4 if mode != 'attack' else 0"
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

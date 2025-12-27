@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Axefaire",
+        "name": "Axefaire",
+        "desc": "Wyvern Lord- Axe Faire- +5 damage using axes",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            10,
+            28
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "item_system.weapon_type(unit, item) == 'Axe'"
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

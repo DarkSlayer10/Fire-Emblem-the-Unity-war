@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "DEF4",
+        "name": "DEF +4",
+        "desc": "DEF + 4",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            3,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        4
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

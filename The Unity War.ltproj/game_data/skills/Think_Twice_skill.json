@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Think_Twice_skill",
+        "name": " Think Twice",
+        "desc": "Phys dmg taken at 1-2 range is reflected",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            0,
+            22
+        ],
+        "components": [
+            [
+                "shitty_lifelink",
+                -1.0
+            ],
+            [
+                "condition",
+                "not item_funcs.is_magic(unit, unit.get_weapon())"
+            ]
+        ]
+    }
+]

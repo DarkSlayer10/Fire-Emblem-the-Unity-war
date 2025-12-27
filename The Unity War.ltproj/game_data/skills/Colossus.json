@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Colossus",
+        "name": "Colossus",
+        "desc": "Berserker\tSTR X2 if CON> enemy CON",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            0,
+            50
+        ],
+        "components": [
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "STR",
+                        2.0
+                    ]
+                ]
+            ],
+            [
+                "combat_condition",
+                "unit.get_stat('CON') > unit2.get_stat('CON')"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

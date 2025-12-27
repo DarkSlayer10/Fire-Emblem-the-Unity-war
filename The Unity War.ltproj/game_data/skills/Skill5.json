@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Skill5",
+        "name": "Skill +5",
+        "desc": "SKL + 5",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        5
+                    ]
+                ]
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

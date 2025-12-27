@@ -1,0 +1,47 @@
+[
+    {
+        "nid": "Petrified",
+        "name": "Petrified",
+        "desc": "Cannot move or act.\n-30 crit avoid.",
+        "icon_nid": "ZessDynamiteSkillsys",
+        "icon_index": [
+            0,
+            26
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "change_ai",
+                "None"
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "MOV",
+                        0
+                    ]
+                ]
+            ],
+            [
+                "crit_avoid",
+                -30
+            ],
+            [
+                "combined_time",
+                1
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

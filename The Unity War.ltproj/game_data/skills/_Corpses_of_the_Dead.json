@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "_Corpses_of_the_Dead",
+        "name": " Corpses of the Dead",
+        "desc": "Necromancer- Corpses of the dead- summons the corspes of your allies to fight you",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            11,
+            49
+        ],
+        "components": [
+            [
+                "ability",
+                "Platonic_Sword"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Desecrate_p",
+        "name": "Desecrate p",
+        "desc": "Desecrater weapon skill",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "attack_proc",
+                "Desecrate_s"
+            ],
+            [
+                "proc_rate",
+                "SKLPROC"
+            ]
+        ]
+    }
+]

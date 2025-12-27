@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Res5",
+        "name": "Resistance +5",
+        "desc": "RES + 5",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        5
+                    ]
+                ]
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

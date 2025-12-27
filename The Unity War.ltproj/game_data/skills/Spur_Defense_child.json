@@ -1,0 +1,23 @@
+[
+    {
+        "nid": "Spur_Defense_child",
+        "name": " Spur Defense",
+        "desc": "Great Knight- Spur defense-allies adjacent to unit gains +4 defense \n",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            4,
+            19
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        4
+                    ]
+                ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Imbue",
+        "name": "Imbue",
+        "desc": "Heal hp equal to MAG per round\n\nwould be better with an eval heal component",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            14,
+            23
+        ],
+        "components": [
+            [
+                "upkeep_event",
+                "Global A - Imbue"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]
