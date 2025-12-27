@@ -142,5 +142,9 @@
     {
         "nid": "ORCUS",
         "expression": "DEF*0.66"
+    },
+    {
+        "nid": "DOOMBLADE",
+        "expression": "DEF*0.33"
     }
 ]

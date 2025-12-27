@@ -1,52 +1,39 @@
 [
     {
-        "nid": "Holy_Axe",
-        "name": "Holy Axe",
-        "desc": "Effective vs. Demons.",
-        "icon_nid": "InHouse and Filler Icons",
+        "nid": "Divine_Claws",
+        "name": "Divine Claws",
+        "desc": "The power of the ninetails\nthat naoki awakens to. \nEffective against demons.",
+        "icon_nid": null,
         "icon_index": [
-            10,
+            0,
             0
         ],
         "components": [
             [
                 "item_prefab",
-                "Platonic_Axe"
+                "Platonic_Fist"
             ],
             [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "value",
-                1000
+                "prf_unit",
+                [
+                    "Naoki"
+                ]
             ],
             [
                 "damage",
-                10
+                7
             ],
             [
                 "hit",
-                90
-            ],
-            [
-                "crit",
-                0
+                85
             ],
             [
                 "weight",
-                10
+                5
             ],
             [
-                "uses",
-                40
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
+                "crit",
+                5
             ],
             [
                 "effective_damage",
@@ -59,6 +46,14 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "unstealable",
+                null
             ]
         ]
     }

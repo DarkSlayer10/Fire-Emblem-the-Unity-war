@@ -2,7 +2,7 @@
     {
         "nid": "Flame_Dagger",
         "name": "Flame Dagger",
-        "desc": "magic\neff vs beasts",
+        "desc": "A dagger infused with magic\neff vs beasts",
         "icon_nid": "Daggers Unity War",
         "icon_index": [
             0,
@@ -19,7 +19,7 @@
             ],
             [
                 "value",
-                0
+                3000
             ],
             [
                 "damage",
@@ -61,7 +61,7 @@
                 }
             ],
             [
-                "magic",
+                "magic_at_range",
                 null
             ]
         ]

@@ -2,7 +2,7 @@
     {
         "nid": "Icicles",
         "name": "Ice Shard",
-        "desc": "Basic ice magic. Chills on hit.\n(-4 Spd after combat.)\nneeds new effect, probably just make it C rank",
+        "desc": "Basic ice magic. Chills on hit.\n(-4 Spd after combat.)\n",
         "icon_nid": "{Beansy} AnimaSheet",
         "icon_index": [
             0,

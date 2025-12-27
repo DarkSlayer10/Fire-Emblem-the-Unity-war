@@ -1,21 +1,27 @@
 [
     {
-        "nid": "Nightmare",
-        "name": "Nightmare",
-        "desc": "Lulls all enemies within range\ninto a deep slumber.",
-        "icon_nid": "Neutral",
+        "nid": "Fathers_Love",
+        "name": "Father's Love",
+        "desc": "Mimosa dad tome, grants ready\nstance. Mimosa only, brave effect, Glacies.",
+        "icon_nid": null,
         "icon_index": [
             0,
-            2
+            0
         ],
         "components": [
             [
                 "item_prefab",
-                "Platonic_Staff"
+                "Platonic_Anima"
             ],
             [
-                "c_uses",
-                1
+                "prf_unit",
+                [
+                    "Mimosa"
+                ]
+            ],
+            [
+                "uses",
+                45
             ],
             [
                 "uses_options",
@@ -26,35 +32,31 @@
             ],
             [
                 "hit",
-                70
+                85
+            ],
+            [
+                "damage",
+                9
             ],
             [
                 "weight",
-                8
-            ],
-            [
-                "min_range",
-                0
+                6
             ],
             [
                 "max_range",
-                0
+                1
             ],
             [
-                "enemy_blast_aoe",
-                3
-            ],
-            [
-                "target_tile",
+                "brave",
                 null
             ],
             [
-                "no_double",
-                null
+                "status_on_equip",
+                "Glacies_P"
             ],
             [
-                "status_on_hit",
-                "Sleep"
+                "crit",
+                5
             ]
         ]
     }

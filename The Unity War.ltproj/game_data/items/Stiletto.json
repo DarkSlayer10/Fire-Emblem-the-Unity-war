@@ -2,7 +2,7 @@
     {
         "nid": "Stiletto",
         "name": "Stiletto",
-        "desc": "killer dagger\nmaybe change some crit into crit dmg",
+        "desc": "killer dagger\n",
         "icon_nid": "Batima_Daggers",
         "icon_index": [
             0,
@@ -19,7 +19,7 @@
             ],
             [
                 "value",
-                0
+                1260
             ],
             [
                 "damage",
@@ -31,7 +31,7 @@
             ],
             [
                 "crit",
-                60
+                50
             ],
             [
                 "weight",

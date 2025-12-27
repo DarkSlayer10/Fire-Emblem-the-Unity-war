@@ -2,7 +2,7 @@
     {
         "nid": "Doomblade",
         "name": "Doomblade",
-        "desc": "",
+        "desc": "Amon Personal weapon grants Lifetaker\nIgnores 66% defense",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -12,6 +12,43 @@
             [
                 "item_prefab",
                 "Platonic_Sword"
+            ],
+            [
+                "uses",
+                60
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "weight",
+                0
+            ],
+            [
+                "prf_unit",
+                [
+                    "Amon"
+                ]
+            ],
+            [
+                "alternate_resist_formula",
+                "DOOMBLADE"
+            ],
+            [
+                "status_on_equip",
+                "Lifetaker"
             ]
         ]
     }

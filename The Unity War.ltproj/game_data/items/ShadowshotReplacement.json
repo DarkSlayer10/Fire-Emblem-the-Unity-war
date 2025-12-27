@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "ShadowshotReplacement",
+        "name": "ShadowshotReplacement",
+        "desc": "shadowshot is a dark tome now, probably need a new monster weapon",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

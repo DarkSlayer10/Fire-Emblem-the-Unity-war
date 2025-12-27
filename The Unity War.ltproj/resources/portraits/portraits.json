@@ -1558,5 +1558,29 @@
             56
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "image-68",
+        "blinking_offset": [
+            40,
+            48
+        ],
+        "smiling_offset": [
+            40,
+            64
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "image-53",
+        "blinking_offset": [
+            40,
+            40
+        ],
+        "smiling_offset": [
+            40,
+            56
+        ],
+        "info_offset": 0
     }
 ]

@@ -1,45 +1,45 @@
 [
     {
-        "nid": "Holy_Axe",
-        "name": "Holy Axe",
-        "desc": "Effective vs. Demons.",
-        "icon_nid": "InHouse and Filler Icons",
+        "nid": "Flame_Lance",
+        "name": "Flame Lance",
+        "desc": "A lance infused by fire magic.\nMagic at range, effective vs beasts",
+        "icon_nid": "{LordGlenn} {ArchaneaIconProject} 2019",
         "icon_index": [
-            10,
-            0
+            29,
+            2
         ],
         "components": [
             [
                 "item_prefab",
-                "Platonic_Axe"
-            ],
-            [
-                "weapon_rank",
-                "D"
-            ],
-            [
-                "value",
-                1000
+                "Platonic_Lance"
             ],
             [
                 "damage",
-                10
+                12
             ],
             [
                 "hit",
-                90
-            ],
-            [
-                "crit",
-                0
+                80
             ],
             [
                 "weight",
                 10
             ],
             [
+                "crit",
+                0
+            ],
+            [
+                "magic_at_range",
+                null
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
                 "uses",
-                40
+                30
             ],
             [
                 "uses_options",
@@ -49,16 +49,24 @@
                 }
             ],
             [
+                "value",
+                3000
+            ],
+            [
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Monster"
+                        "Horse"
                     ],
                     "effective_multiplier": 3,
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "weapon_rank",
+                "A"
             ]
         ]
     }
