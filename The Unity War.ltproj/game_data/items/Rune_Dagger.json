@@ -15,14 +15,32 @@
             ],
             [
                 "damage",
-                0
+                6
             ],
             [
                 "hit",
-                75
+                85
             ],
             [
                 "magic",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Ariel"
+                ]
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "unstealable",
                 null
             ]
         ]
