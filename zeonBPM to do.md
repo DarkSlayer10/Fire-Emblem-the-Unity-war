@@ -55,13 +55,13 @@ Malig Knight
 Falcon Sage
 Mage Knight
 Battle Sage(no info of the class)
-Gremory(no info of the class)
+Gremory
 Maid
 War Cleric
 Valkyrie
 Summoner(probably summon, but which kind?)
 Berserker
-War Master(no info of the class)
+War Master
 
 
 Revenant
@@ -72,10 +72,10 @@ Bael Queen(not to be confused with Queen Bael, that does have a skill)
 Gorgon
 Dryad(no info of the class)
 Mermaid
-Harbringer(no info of the class)
-Imp(little info)
-Doll(no info)
-Living Armor(no info)
+Harbringer(no info of the class, i think it was the king class)
+Imp
+Doll
+Living Armor
 Fiend
 
 ```
@@ -318,14 +318,177 @@ Charlotte
 
 
 
+# Map sprites
+
+missing/broken map sprites
+
+Battle Sage
+
+Gremory
+
+Warmaster
+
+Grappler		uses brawler sprite
+
+Soldier C
+
+Priestess
+
+Shrine Maiden
 
 
 
+# Animations
 
+missing/broken animations
 
+even the ones that say DONE need palettes
 
+Ninetails
 
+Slayer	uses mercenary, should probably have a custom one
 
+Necromancer		used a female one, i think she had a custom one but cant find it
+
+Nomad Female			done
+
+Bow Knight			needs sword
+Bow Knight Female		uses male(looks fine imo)
+
+Tarvos				done
+	
+Arch Knight			done
+
+Wolf Knight			done
+
+Centurion
+Centurion F
+
+Great Knight			done
+Great Knight F			uses male
+
+Trickster		has T1 thief animation
+
+Assassin Female		uses male animation
+
+Rogue			done
+Rogue Female		done
+
+Maiden
+
+Dragoness
+
+Swordmaster F		uses male animation
+
+Dread Fighter		done
+
+Ninja			done
+ninja clone
+
+Sniper F		uses male animation
+
+Adventurer		done
+Adventurer F		done
+
+Wyvern Knight		done
+Wyvern Knight F		uses same
+
+Malig knight		done
+
+Pegasus Knight		how tf is this one missing, its in default
+
+Falcoknight		done
+
+Harrier			done
+
+Falcon Sage
+
+Griffin Knight		done
+
+Pupil			done
+
+Oni Chieftain		done
+
+Kitsune Sage
+
+Mage Knight U	uses F animation	(why do we have this class? does not seem needed)
+
+Dark Knight		done
+Dark Knight F		uses same
+
+Battle Sage
+
+Gremory
+
+Bishop F			done
+
+Saint
+
+Maid
+
+War Cleric		done
+
+Valkyrie			done
+
+Shaman F		uses male animation
+
+Druid			done
+Druid F			done
+
+Summoner
+SummonerF
+
+Witch
+
+Journeyman
+
+Sentinel
+
+BerserkerF		uses male animation
+
+Pirate Queen
+
+Brigand F		uses male animation
+
+Warmaster
+
+Grappler
+
+Entombed
+
+Sword Wight
+
+Bow Wigth
+
+Gwyllgi
+
+Arch Mogall
+
+Succubus
+
+Warbird
+
+Gorgon
+
+Mermaid
+
+Lamia
+
+Gargoyle
+
+Deathgoyle
+
+Dryad
+
+Harbringer
+
+Necrodragon
+
+Dancer
+
+Priestess
+
+Shrine Maiden
 
 
 

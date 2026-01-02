@@ -4,7 +4,7 @@
         "name": "Pirate_Queen",
         "desc": "Queen of the pirate. they\nhave high strength,speed and \ndefense.",
         "tier": 2,
-        "movement_group": "Light Foot",
+        "movement_group": "Pirates",
         "promotes_from": "Pirate_F",
         "turns_into": [],
         "tags": [
@@ -12,15 +12,15 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 18,
-            "STR": 6,
-            "MAG": 1,
+            "HP": 24,
+            "STR": 7,
+            "MAG": 0,
             "SKL": 6,
             "SPD": 7,
             "DEF": 6,
             "RES": 0,
             "LCK": 0,
-            "CON": 8,
+            "CON": 13,
             "MOV": 6,
             "LEAD": 0
         },

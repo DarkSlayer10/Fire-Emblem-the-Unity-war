@@ -154,7 +154,7 @@
             0
         ],
         "map_sprite_nid": "Rogue",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Rogue",
         "fields": []
     }
 ]

@@ -13,7 +13,7 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 20,
+            "HP": 27,
             "STR": 6,
             "SKL": 4,
             "SPD": 5,
@@ -52,12 +52,12 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "SKL": 0,
-            "SPD": 0,
+            "HP": 3,
+            "STR": 1,
+            "SKL": 2,
+            "SPD": 3,
             "DEF": 0,
-            "RES": 0,
+            "RES": 1,
             "LCK": 0,
             "MAG": 0,
             "CON": 0,
@@ -66,11 +66,11 @@
         },
         "max_stats": {
             "HP": 60,
-            "STR": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "DEF": 20,
-            "RES": 20,
+            "STR": 27,
+            "SKL": 26,
+            "SPD": 28,
+            "DEF": 28,
+            "RES": 24,
             "LCK": 20,
             "MAG": 20,
             "CON": 25,
@@ -154,7 +154,7 @@
             0
         ],
         "map_sprite_nid": "C_3",
-        "combat_anim_nid": "GriffinRider",
+        "combat_anim_nid": "GriffonKnight",
         "fields": []
     }
 ]

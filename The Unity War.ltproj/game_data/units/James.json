@@ -5,7 +5,7 @@
         "desc": "need portrait\nA king that when missing years\nago, Became a experiment vessel\nfor the demons.",
         "variant": null,
         "level": 11,
-        "klass": "Harbringer",
+        "klass": "_Harbringer",
         "tags": [],
         "bases": {
             "HP": 70,

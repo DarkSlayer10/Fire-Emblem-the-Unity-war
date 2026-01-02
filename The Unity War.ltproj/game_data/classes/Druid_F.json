@@ -27,7 +27,7 @@
             "STR": 55,
             "MAG": 50,
             "SKL": 30,
-            "SPD": 400,
+            "SPD": 40,
             "LCK": 20,
             "DEF": 40,
             "RES": 45,
@@ -148,7 +148,7 @@
             0
         ],
         "map_sprite_nid": "K_1",
-        "combat_anim_nid": "Shaman",
+        "combat_anim_nid": "WarlockFemale",
         "fields": []
     }
 ]

@@ -140,7 +140,7 @@
             0
         ],
         "map_sprite_nid": "G_1",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Warmonk",
         "fields": []
     }
 ]

@@ -17,16 +17,16 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 18,
+            "HP": 20,
             "STR": 6,
             "MAG": 1,
-            "SKL": 6,
-            "SPD": 7,
+            "SKL": 10,
+            "SPD": 10,
             "LCK": 0,
-            "DEF": 6,
-            "CON": 8,
+            "DEF": 1,
+            "CON": 6,
             "MOV": 5,
-            "RES": 0,
+            "RES": 2,
             "LEAD": 0
         },
         "growths": {

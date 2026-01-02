@@ -5,7 +5,7 @@
         "desc": "Savage, three-headed hellhounds.\nTheir fangs are cruel death dealers.",
         "tier": 2,
         "movement_group": "Light Foot",
-        "promotes_from": "Mauthe_Doog",
+        "promotes_from": "Mauthe_Dog",
         "turns_into": [],
         "tags": [
             "Monster"

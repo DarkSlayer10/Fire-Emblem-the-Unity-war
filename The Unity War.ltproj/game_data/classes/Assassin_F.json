@@ -146,7 +146,7 @@
             0
         ],
         "map_sprite_nid": "H",
-        "combat_anim_nid": "Assassin",
+        "combat_anim_nid": "AssassinFemale",
         "fields": []
     }
 ]

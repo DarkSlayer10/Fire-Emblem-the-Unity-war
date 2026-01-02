@@ -25,14 +25,14 @@
             "LEAD": 0
         },
         "growths": {
-            "HP": 60,
-            "STR": 35,
+            "HP": 70,
+            "STR": 60,
             "MAG": 10,
-            "SKL": 35,
-            "SPD": 300,
-            "DEF": 20,
-            "RES": 15,
-            "LCK": 25,
+            "SKL": 45,
+            "SPD": 20,
+            "DEF": 30,
+            "RES": 30,
+            "LCK": 40,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0

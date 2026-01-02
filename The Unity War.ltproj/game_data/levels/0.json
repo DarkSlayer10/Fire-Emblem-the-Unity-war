@@ -505,7 +505,7 @@
                 "nid": "120",
                 "variant": null,
                 "level": 3,
-                "klass": "Mauthe_Doog",
+                "klass": "Mauthe_Dog",
                 "faction": "Demon",
                 "starting_items": [
                     [
@@ -723,7 +723,7 @@
                 "nid": "130",
                 "variant": null,
                 "level": 18,
-                "klass": "Mauthe_Doog",
+                "klass": "Mauthe_Dog",
                 "faction": "Demon",
                 "starting_items": [
                     [
@@ -744,7 +744,7 @@
                 "nid": "131",
                 "variant": null,
                 "level": 18,
-                "klass": "Mauthe_Doog",
+                "klass": "Mauthe_Dog",
                 "faction": "Demon",
                 "starting_items": [
                     [

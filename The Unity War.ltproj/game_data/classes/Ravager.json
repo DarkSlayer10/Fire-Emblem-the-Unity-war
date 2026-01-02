@@ -4,7 +4,7 @@
         "name": "Ravager",
         "desc": "A Demon Inheirted the\nThrone, Wields Axes and swords",
         "tier": 2,
-        "movement_group": "Light Foot",
+        "movement_group": "Regular",
         "promotes_from": "Slayer",
         "turns_into": [],
         "tags": [

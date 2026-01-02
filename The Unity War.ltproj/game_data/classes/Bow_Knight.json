@@ -146,7 +146,7 @@
             0
         ],
         "map_sprite_nid": "200",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Bow_Knight",
         "fields": []
     }
 ]

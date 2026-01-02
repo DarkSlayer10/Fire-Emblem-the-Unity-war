@@ -5,7 +5,7 @@
         "desc": "Half human, half snake hybrid \nthat can use staffs and magic.",
         "tier": 2,
         "movement_group": "Light Foot",
-        "promotes_from": null,
+        "promotes_from": "Gorgon",
         "turns_into": [],
         "tags": [
             "Monster",

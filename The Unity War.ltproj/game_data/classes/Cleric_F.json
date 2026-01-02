@@ -7,7 +7,7 @@
         "movement_group": "Mages",
         "promotes_from": null,
         "turns_into": [
-            "Battle_Sage",
+            "_Battle_Sage",
             "Bishop_F",
             "War_Cleric"
         ],

@@ -150,7 +150,7 @@
             0
         ],
         "map_sprite_nid": "Q",
-        "combat_anim_nid": "Swordmaster",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]

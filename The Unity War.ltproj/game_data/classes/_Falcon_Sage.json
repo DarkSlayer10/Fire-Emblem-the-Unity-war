@@ -1,36 +1,36 @@
 [
     {
-        "nid": "Harbringer",
-        "name": "Harbringer",
-        "desc": "",
-        "tier": 1,
-        "movement_group": "Light Foot",
-        "promotes_from": null,
+        "nid": "_Falcon_Sage",
+        "name": "Falcon Sage",
+        "desc": "Mages that took into the skies\nto rain down magic. weak to \nbows now.",
+        "tier": 2,
+        "movement_group": "Fliers",
+        "promotes_from": "Mage_F",
         "turns_into": [],
         "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
+            "HP": 24,
+            "STR": 6,
+            "MAG": 8,
+            "SKL": 6,
+            "SPD": 7,
+            "DEF": 6,
+            "RES": 9,
             "LCK": 0,
-            "CON": 0,
-            "MOV": 0,
+            "CON": 8,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
-            "LCK": 0,
+            "HP": 50,
+            "STR": 20,
+            "MAG": 60,
+            "SKL": 40,
+            "SPD": 55,
+            "DEF": 15,
+            "RES": 80,
+            "LCK": 40,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -49,15 +49,15 @@
             "LEAD": 0
         },
         "promotion": {
-            "HP": 0,
+            "HP": 2,
             "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
+            "MAG": 2,
+            "SKL": 2,
+            "SPD": 3,
+            "DEF": 2,
+            "RES": 3,
             "LCK": 0,
-            "CON": 0,
+            "CON": 2,
             "MOV": -99,
             "LEAD": 0
         },
@@ -74,7 +74,20 @@
             "MOV": 15,
             "LEAD": 10
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ],
+            [
+                1,
+                "Flying"
+            ],
+            [
+                1,
+                "Rally_RES"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -92,8 +105,8 @@
                 null
             ],
             "Bow": [
-                false,
-                0,
+                true,
+                36,
                 null
             ],
             "Staff": [
@@ -102,7 +115,7 @@
                 null
             ],
             "Anima": [
-                false,
+                true,
                 0,
                 null
             ],
@@ -137,7 +150,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "K_2",
+        "map_sprite_nid": "B_1",
         "combat_anim_nid": null,
         "fields": []
     }

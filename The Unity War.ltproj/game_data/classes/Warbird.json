@@ -5,7 +5,7 @@
         "desc": "Animals that scout the skies.\nUses swords and magic to fight.",
         "tier": 2,
         "movement_group": "Fliers",
-        "promotes_from": null,
+        "promotes_from": "Beastling",
         "turns_into": [],
         "tags": [
             "Flying",

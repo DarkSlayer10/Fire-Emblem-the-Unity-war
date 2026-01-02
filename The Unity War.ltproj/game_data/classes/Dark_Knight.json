@@ -145,7 +145,7 @@
             0
         ],
         "map_sprite_nid": "D_2",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Dark_Knight",
         "fields": []
     }
 ]

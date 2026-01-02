@@ -153,7 +153,7 @@
             0
         ],
         "map_sprite_nid": "PegasusKnight",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "PegasusKnight",
         "fields": []
     }
 ]

@@ -14,7 +14,7 @@
         "max_level": 20,
         "bases": {
             "HP": 22,
-            "STR": 6,
+            "STR": 4,
             "MAG": 8,
             "SKL": 6,
             "SPD": 7,

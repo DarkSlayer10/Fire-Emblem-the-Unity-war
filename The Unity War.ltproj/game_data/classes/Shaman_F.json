@@ -146,7 +146,7 @@
             0
         ],
         "map_sprite_nid": "Shaman",
-        "combat_anim_nid": "Shaman",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]

@@ -5,7 +5,7 @@
         "desc": "Humble servants to royalty.\nUses daggers and staves\nto fight and heal.",
         "tier": 2,
         "movement_group": "Light Foot",
-        "promotes_from": null,
+        "promotes_from": "Thief",
         "turns_into": [],
         "tags": [
             "Female"

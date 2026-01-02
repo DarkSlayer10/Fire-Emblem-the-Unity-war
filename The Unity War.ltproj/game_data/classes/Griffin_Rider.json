@@ -5,7 +5,7 @@
         "desc": "A flyer that uses griffins instead\nof pegasus. uses bows.",
         "tier": 1,
         "movement_group": "Fliers",
-        "promotes_from": null,
+        "promotes_from": "Griffin_Knight",
         "turns_into": [
             "Griffin_Knight"
         ],

@@ -1,36 +1,40 @@
 [
     {
-        "nid": "Falcon_Sage",
-        "name": "Falcon Sage",
-        "desc": "Mages that took into the skies\nto rain down magic. weak to \nbows now.",
-        "tier": 2,
-        "movement_group": "Fliers",
+        "nid": "Mauthe_Dog",
+        "name": "Mauthe Dog",
+        "desc": "Blood-hungry demon dogs that attack\nwith keen-edged fangs.",
+        "tier": 1,
+        "movement_group": "Light Foot",
         "promotes_from": null,
-        "turns_into": [],
-        "tags": [],
+        "turns_into": [
+            "Gwyllgi"
+        ],
+        "tags": [
+            "Monster"
+        ],
         "max_level": 20,
         "bases": {
-            "HP": 0,
-            "STR": 0,
+            "HP": 23,
+            "STR": 6,
             "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
+            "SKL": 10,
+            "SPD": 10,
             "LCK": 0,
-            "CON": 0,
-            "MOV": 8,
+            "DEF": 2,
+            "RES": 0,
+            "CON": 6,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
+            "HP": 60,
+            "STR": 45,
             "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "RES": 0,
-            "LCK": 0,
+            "SKL": 40,
+            "SPD": 45,
+            "LCK": 25,
+            "DEF": 15,
+            "RES": 20,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -41,9 +45,9 @@
             "MAG": 0,
             "SKL": 0,
             "SPD": 0,
+            "LCK": 0,
             "DEF": 0,
             "RES": 0,
-            "LCK": 0,
             "CON": 0,
             "MOV": 0,
             "LEAD": 0
@@ -54,80 +58,67 @@
             "MAG": 0,
             "SKL": 0,
             "SPD": 0,
+            "LCK": 0,
             "DEF": 0,
             "RES": 0,
-            "LCK": 0,
             "CON": 0,
-            "MOV": -99,
+            "MOV": 0,
             "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
-            "STR": 30,
-            "MAG": 30,
-            "SKL": 30,
-            "SPD": 30,
-            "DEF": 30,
-            "RES": 30,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
             "LCK": 30,
-            "CON": 25,
+            "DEF": 20,
+            "RES": 20,
+            "CON": 20,
             "MOV": 15,
-            "LEAD": 10
+            "LEAD": 30
         },
-        "learned_skills": [
-            [
-                1,
-                "Canto"
-            ],
-            [
-                1,
-                "Flying"
-            ],
-            [
-                1,
-                "Rally_RES"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
                 false,
-                0,
-                null
+                71,
+                251
             ],
             "Lance": [
                 false,
-                0,
-                null
+                71,
+                251
             ],
             "Axe": [
                 false,
                 0,
-                null
+                251
             ],
             "Bow": [
-                true,
-                36,
-                null
+                false,
+                0,
+                251
             ],
             "Staff": [
                 false,
                 0,
-                null
+                251
             ],
             "Anima": [
                 false,
                 0,
-                null
+                251
             ],
             "Light": [
                 false,
                 0,
-                null
+                251
             ],
             "Dark": [
                 false,
                 0,
-                null
+                251
             ],
             "Gauntlet": [
                 false,
@@ -135,23 +126,28 @@
                 null
             ],
             "Special": [
-                false,
-                0,
+                true,
+                31,
                 null
             ],
             "Default": [
                 false,
                 0,
+                251
+            ],
+            "Monster": [
+                true,
+                31,
                 null
             ]
         },
-        "icon_nid": null,
+        "icon_nid": "DoogCard",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "B_1",
-        "combat_anim_nid": null,
+        "map_sprite_nid": "MautheDoog",
+        "combat_anim_nid": "MautheDoog",
         "fields": []
     }
 ]

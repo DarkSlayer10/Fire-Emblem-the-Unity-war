@@ -4,7 +4,7 @@
         "name": "Slayer",
         "desc": "A Demon fighting for his kingdom.",
         "tier": 1,
-        "movement_group": "Light Foot",
+        "movement_group": "Regular",
         "promotes_from": null,
         "turns_into": [
             "Ravager"

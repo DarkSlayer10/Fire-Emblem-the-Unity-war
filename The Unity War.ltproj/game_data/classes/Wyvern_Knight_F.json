@@ -156,7 +156,7 @@
             0
         ],
         "map_sprite_nid": "WyvernKnight",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Wyvern_Knight",
         "fields": []
     }
 ]

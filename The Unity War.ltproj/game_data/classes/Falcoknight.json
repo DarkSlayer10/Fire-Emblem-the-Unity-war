@@ -154,7 +154,7 @@
             0
         ],
         "map_sprite_nid": "Falcoknight",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "FalcoKnight",
         "fields": []
     }
 ]
