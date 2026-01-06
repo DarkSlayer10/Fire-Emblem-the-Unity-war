@@ -140,7 +140,7 @@
             0
         ],
         "map_sprite_nid": "Entombed",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Entombed",
         "fields": []
     }
 ]

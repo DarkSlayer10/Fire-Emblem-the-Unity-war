@@ -145,7 +145,7 @@
             0
         ],
         "map_sprite_nid": "Q_1",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "WitchLayla",
         "fields": []
     }
 ]

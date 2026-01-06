@@ -143,7 +143,7 @@
             0
         ],
         "map_sprite_nid": null,
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Gremory",
         "fields": []
     }
 ]

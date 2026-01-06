@@ -435,14 +435,14 @@ Shaman F		uses male animation
 Druid			done
 Druid F			done
 
-Summoner
-SummonerF
+Summoner		done
+SummonerF		done
 
-Witch
+Witch			done
 
-Journeyman
+Journeyman		done
 
-Sentinel
+Sentinel			
 
 BerserkerF		uses male animation
 
@@ -454,27 +454,27 @@ Warmaster
 
 Grappler
 
-Entombed
+Entombed		done
 
-Sword Wight
+Sword Wight		done
 
-Bow Wigth
+Bow Wigth		done
 
-Gwyllgi
+Gwyllgi			done
 
-Arch Mogall
+Arch Mogall		done
 
-Succubus
+Succubus		done
 
 Warbird
 
-Gorgon
+Gorgon			done
 
-Mermaid
+Mermaid			done
 
-Lamia
-
-Gargoyle
+Lamia			done
+	
+Gargoyle			done
 
 Deathgoyle
 

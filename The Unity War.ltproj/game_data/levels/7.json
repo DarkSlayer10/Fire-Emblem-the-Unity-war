@@ -460,42 +460,6 @@
                 "generic": true
             },
             {
-                "nid": "999",
-                "variant": null,
-                "level": 1,
-                "klass": "General",
-                "faction": "Umbra",
-                "starting_items": [
-                    [
-                        "Short_Spear",
-                        false
-                    ],
-                    [
-                        "Steel_Blade",
-                        false
-                    ],
-                    [
-                        "Steel_Axe",
-                        false
-                    ],
-                    [
-                        "Master_Seal",
-                        true
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "GuardBoss",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    10,
-                    1
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "117",
                 "variant": null,
                 "level": 8,
@@ -1631,6 +1595,19 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Adam",
+                "team": "enemy",
+                "ai": "GuardBoss",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -2171,6 +2148,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

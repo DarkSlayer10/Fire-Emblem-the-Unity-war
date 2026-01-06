@@ -148,7 +148,7 @@
             0
         ],
         "map_sprite_nid": "H4",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Gargoyle",
         "fields": []
     }
 ]

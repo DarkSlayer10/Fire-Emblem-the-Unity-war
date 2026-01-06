@@ -145,7 +145,7 @@
             0
         ],
         "map_sprite_nid": "o",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Gwyllgi",
         "fields": []
     }
 ]

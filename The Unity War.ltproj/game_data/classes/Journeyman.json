@@ -141,7 +141,7 @@
             0
         ],
         "map_sprite_nid": "Journeyman",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Journeyman",
         "fields": []
     }
 ]

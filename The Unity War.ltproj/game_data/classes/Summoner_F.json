@@ -140,7 +140,7 @@
             0
         ],
         "map_sprite_nid": "J_2",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "SummonerFemale",
         "fields": []
     }
 ]
