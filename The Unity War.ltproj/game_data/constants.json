@@ -325,19 +325,19 @@
     ],
     [
         "gexp_max",
-        20.0
+        30.0
     ],
     [
         "gexp_min",
-        1
+        5.0
     ],
     [
         "gexp_slope",
-        0.15
+        0.1499999999999999
     ],
     [
         "gexp_intercept",
-        5.5
+        19.0
     ],
     [
         "exp_formula",
@@ -349,7 +349,7 @@
     ],
     [
         "boss_bonus",
-        30
+        50
     ],
     [
         "min_exp",
@@ -357,7 +357,7 @@
     ],
     [
         "default_exp",
-        11
+        10
     ],
     [
         "heal_curve",
@@ -365,7 +365,7 @@
     ],
     [
         "heal_magnitude",
-        0
+        1
     ],
     [
         "heal_offset",
