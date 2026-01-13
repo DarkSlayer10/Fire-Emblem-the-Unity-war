@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Riveted_Saddle",
+        "name": "Riveted Saddle",
+        "desc": "cancels dragon weakness",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

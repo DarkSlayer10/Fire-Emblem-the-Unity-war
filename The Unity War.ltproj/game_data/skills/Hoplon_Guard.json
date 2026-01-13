@@ -11,7 +11,7 @@
         "components": [
             [
                 "crit_avoid",
-                10
+                999
             ],
             [
                 "hidden",

@@ -2,7 +2,7 @@
     {
         "nid": "Iron_Shield",
         "name": "Iron Shield",
-        "desc": "gives +4 def -2SPD, 6 uses per chapter",
+        "desc": "gives +4 def -2SPD",
         "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
             0,
@@ -18,17 +18,6 @@
                 [
                     "Shield"
                 ]
-            ],
-            [
-                "c_uses",
-                6
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": true
-                }
             ],
             [
                 "accessory",

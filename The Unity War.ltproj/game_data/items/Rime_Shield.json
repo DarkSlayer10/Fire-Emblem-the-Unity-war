@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Rime_Shield",
+        "name": "Rime Shield",
+        "desc": "take less ice damage",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

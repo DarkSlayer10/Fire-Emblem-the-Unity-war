@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Aegis",
+        "name": "Aegis",
+        "desc": "+10 DEF/RES\t-10 SPD",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

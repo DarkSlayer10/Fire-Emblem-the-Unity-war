@@ -2,696 +2,696 @@
     {
         "nid": "Mercenary1",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            16,
-            40
+            40,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Bandit1",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            16,
-            40
+            40,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Man1",
         "blinking_offset": [
-            24,
-            32
+            48,
+            48
         ],
         "smiling_offset": [
-            16,
-            48
+            40,
+            64
         ],
         "info_offset": 0
     },
     {
         "nid": "Man2",
         "blinking_offset": [
-            24,
-            32
+            48,
+            48
         ],
         "smiling_offset": [
-            16,
-            48
+            40,
+            64
         ],
         "info_offset": 0
     },
     {
         "nid": "Man3",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            16,
-            40
+            40,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Woman1",
         "blinking_offset": [
-            24,
-            32
+            48,
+            48
         ],
         "smiling_offset": [
-            16,
-            48
+            40,
+            64
         ],
         "info_offset": 0
     },
     {
         "nid": "Woman2",
         "blinking_offset": [
-            24,
-            32
+            48,
+            48
         ],
         "smiling_offset": [
-            16,
-            48
+            40,
+            64
         ],
         "info_offset": 0
     },
     {
         "nid": "OldMan1",
         "blinking_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "smiling_offset": [
-            16,
-            56
+            40,
+            72
         ],
         "info_offset": 0
     },
     {
         "nid": "SoldierBlue",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            16,
-            40
+            40,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "SoldierRed",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            16,
-            40
+            40,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Darkslayer",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Amon",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Isabelle",
         "blinking_offset": [
-            24,
-            16
+            48,
+            32
         ],
         "smiling_offset": [
-            25,
-            32
+            49,
+            48
         ],
         "info_offset": 0
     },
     {
         "nid": "Vargax",
         "blinking_offset": [
-            16,
-            24
+            40,
+            40
         ],
         "smiling_offset": [
-            16,
-            40
+            40,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Naoki",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Josh",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Nayzua",
         "blinking_offset": [
-            24,
-            32
+            48,
+            48
         ],
         "smiling_offset": [
-            24,
-            48
+            48,
+            64
         ],
         "info_offset": 0
     },
     {
         "nid": "John",
         "blinking_offset": [
-            24,
-            16
+            48,
+            32
         ],
         "smiling_offset": [
-            24,
-            32
+            48,
+            48
         ],
         "info_offset": 0
     },
     {
         "nid": "Lily",
         "blinking_offset": [
-            24,
-            32
+            48,
+            48
         ],
         "smiling_offset": [
-            24,
-            48
+            48,
+            64
         ],
         "info_offset": 0
     },
     {
         "nid": "Chidori",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Sonia",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Marica",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Caroline",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Carson",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Sydnie",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Barret",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Layla",
         "blinking_offset": [
-            24,
-            32
+            48,
+            48
         ],
         "smiling_offset": [
-            24,
-            48
+            48,
+            64
         ],
         "info_offset": 0
     },
     {
         "nid": "Noah",
         "blinking_offset": [
-            24,
-            16
+            48,
+            32
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Noelle",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Selena",
         "blinking_offset": [
-            16,
-            24
+            40,
+            40
         ],
         "smiling_offset": [
-            16,
-            40
+            40,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Woman3",
         "blinking_offset": [
-            24,
-            32
+            48,
+            48
         ],
         "smiling_offset": [
-            16,
-            48
+            40,
+            64
         ],
         "info_offset": 0
     },
     {
         "nid": "Man4",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            16,
-            40
+            40,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Young Emily",
         "blinking_offset": [
-            32,
-            40
+            56,
+            56
         ],
         "smiling_offset": [
-            32,
-            56
+            56,
+            72
         ],
         "info_offset": 0
     },
     {
         "nid": "Young Emma",
         "blinking_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "smiling_offset": [
-            24,
-            56
+            48,
+            72
         ],
         "info_offset": 0
     },
     {
         "nid": "Fernando",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            32,
-            40
+            56,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Nina",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Sarah",
         "blinking_offset": [
-            16,
-            24
+            40,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Alexis",
         "blinking_offset": [
-            16,
-            24
+            40,
+            40
         ],
         "smiling_offset": [
-            16,
-            40
+            40,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Natalia",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Maya",
         "blinking_offset": [
-            32,
-            30
+            56,
+            46
         ],
         "smiling_offset": [
-            32,
-            39
+            56,
+            55
         ],
         "info_offset": 0
     },
     {
         "nid": "Maya Casual",
         "blinking_offset": [
-            32,
-            30
+            56,
+            46
         ],
         "smiling_offset": [
-            32,
-            39
+            56,
+            55
         ],
         "info_offset": 0
     },
     {
         "nid": "Lilith",
         "blinking_offset": [
-            16,
-            24
+            40,
+            40
         ],
         "smiling_offset": [
-            16,
-            40
+            40,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Luna",
         "blinking_offset": [
-            24,
-            32
+            48,
+            48
         ],
         "smiling_offset": [
-            24,
-            48
+            48,
+            64
         ],
         "info_offset": 0
     },
     {
         "nid": "Kate",
         "blinking_offset": [
-            32,
-            24
+            56,
+            40
         ],
         "smiling_offset": [
-            32,
-            40
+            56,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Carlos",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Mia",
         "blinking_offset": [
-            24,
-            16
+            48,
+            32
         ],
         "smiling_offset": [
-            32,
-            32
+            56,
+            48
         ],
         "info_offset": 0
     },
     {
         "nid": "Nelson",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Katsu",
         "blinking_offset": [
-            24,
-            16
+            48,
+            32
         ],
         "smiling_offset": [
-            24,
-            32
+            48,
+            48
         ],
         "info_offset": 0
     },
     {
         "nid": "Mirian",
         "blinking_offset": [
-            24,
-            32
+            48,
+            48
         ],
         "smiling_offset": [
-            24,
-            48
+            48,
+            64
         ],
         "info_offset": 0
     },
     {
         "nid": "Pam",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            32,
-            40
+            56,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Evelyn",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Charon",
         "blinking_offset": [
-            16,
-            24
+            40,
+            40
         ],
         "smiling_offset": [
-            16,
-            40
+            40,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Tess",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Lyn",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Gabrielle",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Emily",
         "blinking_offset": [
-            24,
-            32
+            48,
+            48
         ],
         "smiling_offset": [
-            24,
-            48
+            48,
+            64
         ],
         "info_offset": 0
     },
     {
         "nid": "Emma",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },
     {
         "nid": "Aurora",
         "blinking_offset": [
-            24,
-            24
+            48,
+            40
         ],
         "smiling_offset": [
-            24,
-            40
+            48,
+            56
         ],
         "info_offset": 0
     },

@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Hardscale",
+        "name": "Hardscale",
+        "desc": "cancels beast/rosefall weakness",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

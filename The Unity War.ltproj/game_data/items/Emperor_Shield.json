@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Emperor_Shield",
+        "name": "Emperor Shield",
+        "desc": "take a bit less damage from all elements",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

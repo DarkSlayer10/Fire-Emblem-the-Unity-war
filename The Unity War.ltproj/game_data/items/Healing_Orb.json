@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Healing_Orb",
+        "name": "Healing Orb",
+        "desc": "+ staff healing",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

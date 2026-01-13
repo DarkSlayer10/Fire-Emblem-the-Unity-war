@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Plague_Idol",
+        "name": "Plague Idol",
+        "desc": "all nearby units(including self and allies) will take damage each turn",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

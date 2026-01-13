@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Armored_Pauldrons",
+        "name": "Armored Pauldrons",
+        "desc": "take less damage from long range attacks",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

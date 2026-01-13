@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Blaze_Shield",
+        "name": "Blaze Shield",
+        "desc": "take less fire damage",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

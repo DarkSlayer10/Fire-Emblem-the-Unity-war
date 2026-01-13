@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Chalice",
+        "name": "Chalice",
+        "desc": "global counter, not sure what to make this, but it will be for bosses",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

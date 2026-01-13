@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "High_Quality_Whetstone",
+        "name": "High Quality Whetstone",
+        "desc": "grants armsthrift",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

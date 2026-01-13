@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Voodoo_Doll",
+        "name": "Voodoo Doll",
+        "desc": "- crit avoid to adjacent enemies",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

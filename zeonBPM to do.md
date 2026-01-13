@@ -13,17 +13,19 @@ need Adam unit boss, currently a generic
 ```
 Need to assing personal skills to all units
 
-Add missing animations
+Add missing animations				halfway done
 
 need to port all spell animations... that will be a chore
 
 fix wrong background animations
 
-finish items, most statuses are set to FORT
+finish items, most statuses are set to FORT			done, i think
 
-finish classes, some are placeholders, need stats and skills
+finish classes, some are placeholders, need stats and skills	done, technically. some will probably be remade
 
-Some units lack items or stats/skills
+Some units lack items or stats/skills			done
+
+Nelson portrait has some wrong pixels
 
 
 complete lack of supports and lore
@@ -492,6 +494,101 @@ Shrine Maiden
 
 
 
+
+
+
+
+
+# Accesories
+added
+
+Shields
+Leather Shield	+2DEF -1SPD
+Iron Shield	+4DEF -2SPD
+Steel Shield	+6DEF -3SPD
+Silver Shield	+8DEF -4SPD
+Ward Shield	+6RES -3SPD
+
+
+
+planned
+
+Demon General Armor
+	given to all Umbra generals, effect pending
+
+Miracle Locket		need better name
+	grants miracle once. breaks after use.
+
+Voodoo Doll
+	-40 crit avoid to adjacent enemies
+
+Rallying standart
+	when used casts a random rally
+
+Crown of madness
+	+5 damage dealt and taken
+
+Vial of Poison
+	attacks inflict poison on hit(doesnt work for magic), might add a few of these ones
+
+Invisibility cloak
+	enemies will not prioritize attacking this unit
+
+Target mark
+	enemies will prioritize attacking this unit
+
+High quality whetstone
+	grants armsthrift
+
+Demon Crown
+	nullifies demon weakness	(this would be a single item in the world)
+
+Plague Idol
+	all units(including self and allies) around the holder take damage each turn
+
+Elite Soldier Insignia
+	+2 to some stats		will use this as a soft way to make minibosses or such, player will not get any
+
+
+
+
+
+3H items, up for debate on what to add and how
+
+Talisman Shield
+	will add as is, same stats as the iron shield 
+
+Aegis Shield
+	probably renamed, add as a mixed shield, both DEF and RES
+
+Seiros Shield	resistance vs monsters is a nice effect, we can make a holy symbol or something for this
+
+Kadmos Shield	will add as another item
+Lampos Shield	will add as another item
+Accuracy Ring	yes, probably renamed
+Critical Ring	yes, probably renamed
+Evasion Ring	yes, probably renamed
+Speed Ring	not sure this one is a good idea, id rather not have raw stat boosts
+March Ring	this one is fine as is
+Goddess Ring	a simple regen item will do, renamed
+Prayer Ring	will add a miracle item with no regen
+Magic Staff	cannot have actual staff accesories since we have them as a weapon type, but maybe an orb?
+Healing Staff	same
+Caduceus Staff	same, but will do only for 1 type of magic
+Thyrsus		same as last one
+Rafail Gem		this one is just 3 other items combined, will not add
+Experience Gem		not sure yet, maybe
+Knowledge Gem		yes, probably renamed training manual
+
+Armored Soldier Shield	add it as resistance vs short range attacks
+Armored Knight Shield	add it as resistance vs long range attacks
+Fortress Soldier Shield	add it as resistance vs siege range attacks
+
+Flame Shield	resistance vs fire? im thinking of making one for each element
+Emperor Shield		lower resistance than elemental shields, but vs all elements
+
+Chalice of Beginnings	global counter accesory is something i would give to some specific bosses, not sure what the item would be tho
+Fetters of Dromi		canto# is a good effect for an item, not sure what it would be
 
 
 

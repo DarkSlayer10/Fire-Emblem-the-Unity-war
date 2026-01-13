@@ -2,7 +2,7 @@
     {
         "nid": "Leather_Shield",
         "name": "Leather Shield",
-        "desc": "gives +2 DEF -1SPD, 3 uses per chapter",
+        "desc": "gives +2 DEF -1SPD",
         "icon_nid": "{Cardcafe} {FE15} All Icons",
         "icon_index": [
             10,
@@ -16,23 +16,8 @@
                 ]
             ],
             [
-                "status_on_equip",
-                "Leather_Shield_skill"
-            ],
-            [
                 "accessory",
                 null
-            ],
-            [
-                "c_uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": true
-                }
             ]
         ]
     }

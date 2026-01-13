@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Slate_Shield",
+        "name": "Slate Shield",
+        "desc": "take less damage from earth",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

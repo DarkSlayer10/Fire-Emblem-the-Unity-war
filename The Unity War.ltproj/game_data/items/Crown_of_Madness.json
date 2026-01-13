@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Crown_of_Madness",
+        "name": "Crown of Madness",
+        "desc": "+5 damage dealt and taken",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

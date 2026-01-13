@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Invisibility_Cloak",
+        "name": "Invisibility Cloak",
+        "desc": "enemies will not prioritize attacking this unit",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Experience_Gem",
+        "name": "Experience Gem",
+        "desc": "gain more xp",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Magic_Orb",
+        "name": "Magic Orb",
+        "desc": "+ spell dmg",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]
