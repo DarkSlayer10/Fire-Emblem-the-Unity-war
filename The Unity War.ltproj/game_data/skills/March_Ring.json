@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "March_Ring",
+        "name": "March Ring",
+        "desc": "mov +1",
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
+        "icon_index": [
+            13,
+            10
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        1
+                    ]
+                ]
+            ]
+        ]
+    }
+]

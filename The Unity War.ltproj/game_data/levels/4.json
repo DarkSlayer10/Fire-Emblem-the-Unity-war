@@ -235,6 +235,10 @@
                     [
                         "Hand_Axe",
                         false
+                    ],
+                    [
+                        "Iron_Shield",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -330,6 +334,10 @@
                 "starting_items": [
                     [
                         "Iron_Axe",
+                        false
+                    ],
+                    [
+                        "Leather_Shield",
                         false
                     ]
                 ],
@@ -630,6 +638,10 @@
                 "starting_items": [
                     [
                         "Lancereaver",
+                        false
+                    ],
+                    [
+                        "Elite_Soldier_Insignia",
                         false
                     ]
                 ],
@@ -1054,6 +1066,10 @@
                     ],
                     [
                         "Steel_Sword",
+                        false
+                    ],
+                    [
+                        "Blaze_Shield",
                         false
                     ]
                 ],

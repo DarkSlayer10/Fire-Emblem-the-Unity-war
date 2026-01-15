@@ -71,6 +71,12 @@
             [
                 "battle_cast_anim",
                 "Arrow"
+            ],
+            [
+                "item_tags",
+                [
+                    "Wind"
+                ]
             ]
         ]
     }

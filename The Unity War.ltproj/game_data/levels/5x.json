@@ -686,6 +686,10 @@
                     [
                         "Javelin",
                         false
+                    ],
+                    [
+                        "Blessed_Tear",
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -710,6 +714,10 @@
                     [
                         "Iron_Sword",
                         false
+                    ],
+                    [
+                        "Blessed_Tear",
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -733,6 +741,10 @@
                 "starting_items": [
                     [
                         "Iron_Lance",
+                        false
+                    ],
+                    [
+                        "Blessed_Tear",
                         false
                     ]
                 ],

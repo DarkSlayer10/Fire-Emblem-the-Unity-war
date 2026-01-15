@@ -26,18 +26,22 @@
             {
                 "nid": "146",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Pegasus_Knight",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
                         "Iron_Lance",
+                        false
+                    ],
+                    [
+                        "Axereaver",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -50,18 +54,22 @@
             {
                 "nid": "147",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Pegasus_Knight",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Steel_Lance",
+                        false
+                    ],
+                    [
+                        "Javelin",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -146,18 +154,22 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Knight",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Steel_Lance",
+                        false
+                    ],
+                    [
+                        "Javelin",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -194,18 +206,22 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Knight",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Horseslayer",
+                        false
+                    ],
+                    [
+                        "Javelin",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -218,18 +234,22 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Knight",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Axereaver",
+                        false
+                    ],
+                    [
+                        "Javelin",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -314,18 +334,18 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Mage_F",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Fire",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -362,18 +382,18 @@
             {
                 "nid": "110",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Mage_F",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Ice_Shard",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -506,18 +526,22 @@
             {
                 "nid": "115",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Mercenary",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
                         "Iron_Sword",
+                        true
+                    ],
+                    [
+                        "Hand_Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -530,18 +554,18 @@
             {
                 "nid": "116",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Mercenary",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Armorslayer",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -554,18 +578,20 @@
             {
                 "nid": "121",
                 "variant": null,
-                "level": 1,
+                "level": 8,
                 "klass": "Myrmidon",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Iron_Dagger",
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Knife_Use"
+                ],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -602,18 +628,22 @@
             {
                 "nid": "119",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Fighter",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Poison_Axe",
+                        false
+                    ],
+                    [
+                        "Hand_Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -650,18 +680,22 @@
             {
                 "nid": "122",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Lancer_F",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Javelin",
+                        false
+                    ],
+                    [
+                        "Iron_Lance",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -722,18 +756,22 @@
             {
                 "nid": "125",
                 "variant": null,
-                "level": 1,
-                "klass": "Lancer_F",
-                "faction": "Town_Guard",
+                "level": 5,
+                "klass": "Lancer",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Javelin",
+                        false
+                    ],
+                    [
+                        "Iron_Lance",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -770,18 +808,18 @@
             {
                 "nid": "127",
                 "variant": null,
-                "level": 1,
-                "klass": "Lancer_F",
-                "faction": "Town_Guard",
+                "level": 6,
+                "klass": "Scout_F",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Steel_Sword",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -794,18 +832,24 @@
             {
                 "nid": "128",
                 "variant": null,
-                "level": 1,
-                "klass": "Lancer_F",
-                "faction": "Town_Guard",
+                "level": 5,
+                "klass": "Scout_F",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Steel_Sword",
                         false
+                    ],
+                    [
+                        "Iron_Dagger",
+                        true
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Knife_Use"
+                ],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -818,18 +862,22 @@
             {
                 "nid": "129",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Cleric_F",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Heal",
+                        false
+                    ],
+                    [
+                        "Physic",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Support",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -938,18 +986,22 @@
             {
                 "nid": "136",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Troubadour_G",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Mend",
                         false
+                    ],
+                    [
+                        "Torch_Staff",
+                        true
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Support",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -1029,6 +1081,30 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "137",
+                "variant": null,
+                "level": 7,
+                "klass": "Mercenary",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Iron_Blade",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [

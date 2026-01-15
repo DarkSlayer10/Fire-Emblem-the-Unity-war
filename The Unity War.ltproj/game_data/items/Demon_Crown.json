@@ -8,6 +8,15 @@
             0,
             0
         ],
-        "components": []
+        "components": [
+            [
+                "status_on_equip",
+                "Demon_Crown"
+            ],
+            [
+                "accessory",
+                null
+            ]
+        ]
     }
 ]

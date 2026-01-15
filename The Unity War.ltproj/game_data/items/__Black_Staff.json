@@ -1,8 +1,8 @@
 [
     {
-        "nid": "White_Staff",
-        "name": "White Staff",
-        "desc": "+1 range for light magic",
+        "nid": "__Black_Staff",
+        "name": "  Black Staff",
+        "desc": "+1 range for dark magic",
         "icon_nid": null,
         "icon_index": [
             0,

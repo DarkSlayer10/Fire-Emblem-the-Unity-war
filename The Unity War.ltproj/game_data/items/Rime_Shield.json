@@ -3,11 +3,20 @@
         "nid": "Rime_Shield",
         "name": "Rime Shield",
         "desc": "take less ice damage",
-        "icon_nid": null,
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
         "icon_index": [
-            0,
-            0
+            1,
+            1
         ],
-        "components": []
+        "components": [
+            [
+                "status_on_equip",
+                "Rime_Shield"
+            ],
+            [
+                "accessory",
+                null
+            ]
+        ]
     }
 ]

@@ -1,0 +1,25 @@
+[
+    {
+        "nid": "Hardscale",
+        "name": "Hardscale",
+        "desc": "cancel beast weakness",
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
+        "icon_index": [
+            15,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "negate_tags",
+                [
+                    "Horse",
+                    "Rosefall"
+                ]
+            ]
+        ]
+    }
+]

@@ -67,6 +67,12 @@
             [
                 "magic",
                 null
+            ],
+            [
+                "item_tags",
+                [
+                    "Fire"
+                ]
             ]
         ]
     }

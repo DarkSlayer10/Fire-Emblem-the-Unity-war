@@ -59,6 +59,12 @@
             [
                 "status_on_hit",
                 "Paralyzed"
+            ],
+            [
+                "item_tags",
+                [
+                    "Thunder"
+                ]
             ]
         ]
     }

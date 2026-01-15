@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Armored_Pauldrons",
-        "name": "Armored Pauldrons",
+        "nid": "__Armored_Pauldrons",
+        "name": "  Armored Pauldrons",
         "desc": "take less damage from long range attacks",
         "icon_nid": null,
         "icon_index": [

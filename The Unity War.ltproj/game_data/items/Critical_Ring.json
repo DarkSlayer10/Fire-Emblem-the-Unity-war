@@ -3,11 +3,20 @@
         "nid": "Critical_Ring",
         "name": "Critical Ring",
         "desc": "+10 crit",
-        "icon_nid": null,
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
         "icon_index": [
-            0,
-            0
+            4,
+            10
         ],
-        "components": []
+        "components": [
+            [
+                "status_on_equip",
+                "Critical_Ring"
+            ],
+            [
+                "accessory",
+                null
+            ]
+        ]
     }
 ]

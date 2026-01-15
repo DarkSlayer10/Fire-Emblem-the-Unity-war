@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Demon_General_Armor",
+        "name": "Demon General Armor",
+        "desc": "",
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "display_skill_icon_on_condition",
+                "False"
+            ]
+        ]
+    }
+]

@@ -3,11 +3,20 @@
         "nid": "Demon_General_Armor",
         "name": "Demon General Armor",
         "desc": "given to all umbra generals",
-        "icon_nid": null,
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
         "icon_index": [
             0,
-            0
+            5
         ],
-        "components": []
+        "components": [
+            [
+                "status_on_equip",
+                "Demon_General_Armor"
+            ],
+            [
+                "accessory",
+                null
+            ]
+        ]
     }
 ]

@@ -1,0 +1,24 @@
+[
+    {
+        "nid": "Redstone_Barding",
+        "name": "Redstone Barding",
+        "desc": "cancel dragon weakness",
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
+        "icon_index": [
+            0,
+            15
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "negate_tags",
+                [
+                    "Dragon"
+                ]
+            ]
+        ]
+    }
+]

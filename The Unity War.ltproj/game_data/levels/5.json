@@ -304,6 +304,10 @@
                     [
                         "Energy_Ring",
                         true
+                    ],
+                    [
+                        "Gale_Shield",
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -488,6 +492,10 @@
                     [
                         "Wind_Sword",
                         true
+                    ],
+                    [
+                        "Fulgur_Shield",
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -796,6 +804,10 @@
                     [
                         "Javelin",
                         false
+                    ],
+                    [
+                        "Gale_Shield",
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -927,6 +939,10 @@
                     ],
                     [
                         "Iron_Axe",
+                        false
+                    ],
+                    [
+                        "Blaze_Shield",
                         false
                     ]
                 ],

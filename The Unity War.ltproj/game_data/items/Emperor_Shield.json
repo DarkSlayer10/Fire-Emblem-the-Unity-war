@@ -3,11 +3,20 @@
         "nid": "Emperor_Shield",
         "name": "Emperor Shield",
         "desc": "take a bit less damage from all elements",
-        "icon_nid": null,
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
         "icon_index": [
-            0,
-            0
+            2,
+            1
         ],
-        "components": []
+        "components": [
+            [
+                "status_on_equip",
+                "Emperor_Shield"
+            ],
+            [
+                "accessory",
+                null
+            ]
+        ]
     }
 ]

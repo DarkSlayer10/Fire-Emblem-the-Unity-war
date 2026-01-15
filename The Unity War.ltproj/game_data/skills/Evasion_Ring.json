@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Evasion_Ring",
+        "name": "Evasion Ring",
+        "desc": "eva +10",
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
+        "icon_index": [
+            12,
+            10
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                10
+            ]
+        ]
+    }
+]

@@ -1,8 +1,8 @@
 [
     {
-        "nid": "High_Quality_Whetstone",
-        "name": "High Quality Whetstone",
-        "desc": "grants armsthrift",
+        "nid": "__Training_Manual",
+        "name": "  Training Manual",
+        "desc": "gain more wexp",
         "icon_nid": null,
         "icon_index": [
             0,

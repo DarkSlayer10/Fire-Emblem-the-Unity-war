@@ -63,6 +63,12 @@
             [
                 "magic_at_range",
                 null
+            ],
+            [
+                "item_tags",
+                [
+                    "Fire"
+                ]
             ]
         ]
     }

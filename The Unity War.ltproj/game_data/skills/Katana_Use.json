@@ -1,0 +1,24 @@
+[
+    {
+        "nid": "Katana_Use",
+        "name": "Katana Use",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Katana"
+                ]
+            ]
+        ]
+    }
+]

@@ -3,11 +3,20 @@
         "nid": "Padded_Gambeson",
         "name": "Padded Gambeson",
         "desc": "cancels armor weakness",
-        "icon_nid": null,
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
         "icon_index": [
-            0,
-            0
+            9,
+            4
         ],
-        "components": []
+        "components": [
+            [
+                "status_on_equip",
+                "Padded_Gambeson"
+            ],
+            [
+                "accessory",
+                null
+            ]
+        ]
     }
 ]

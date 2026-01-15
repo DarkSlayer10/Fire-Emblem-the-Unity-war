@@ -9,7 +9,7 @@
             40,
             56
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "Bandit1",
@@ -21,7 +21,7 @@
             40,
             56
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "Man1",
@@ -33,7 +33,7 @@
             40,
             64
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "Man2",
@@ -45,7 +45,7 @@
             40,
             64
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "Man3",
@@ -57,7 +57,7 @@
             40,
             56
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "Woman1",
@@ -69,7 +69,7 @@
             40,
             64
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "Woman2",
@@ -81,7 +81,7 @@
             40,
             64
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "OldMan1",
@@ -93,7 +93,7 @@
             40,
             72
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "SoldierBlue",
@@ -105,7 +105,7 @@
             40,
             56
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "SoldierRed",
@@ -117,7 +117,7 @@
             40,
             56
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "Darkslayer",
@@ -129,7 +129,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "Amon",
@@ -141,7 +141,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "Isabelle",
@@ -153,7 +153,7 @@
             49,
             48
         ],
-        "info_offset": 0
+        "info_offset": 12
     },
     {
         "nid": "Vargax",
@@ -165,7 +165,7 @@
             40,
             56
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "Naoki",
@@ -177,7 +177,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "Josh",
@@ -189,7 +189,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "Nayzua",
@@ -201,7 +201,7 @@
             48,
             64
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "John",
@@ -213,7 +213,7 @@
             48,
             48
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "Lily",
@@ -225,7 +225,7 @@
             48,
             64
         ],
-        "info_offset": 0
+        "info_offset": 14
     },
     {
         "nid": "Chidori",
@@ -237,7 +237,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "Sonia",
@@ -249,7 +249,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 12
     },
     {
         "nid": "Marica",
@@ -261,7 +261,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "Caroline",
@@ -273,7 +273,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "Carson",
@@ -285,7 +285,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 14
     },
     {
         "nid": "Sydnie",
@@ -297,7 +297,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "Barret",
@@ -309,7 +309,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 12
     },
     {
         "nid": "Layla",
@@ -321,7 +321,7 @@
             48,
             64
         ],
-        "info_offset": 0
+        "info_offset": 14
     },
     {
         "nid": "Noah",
@@ -333,7 +333,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 12
     },
     {
         "nid": "Noelle",
@@ -345,7 +345,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 18
     },
     {
         "nid": "Selena",
@@ -357,7 +357,7 @@
             40,
             56
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "Woman3",
@@ -369,7 +369,7 @@
             40,
             64
         ],
-        "info_offset": 0
+        "info_offset": 20
     },
     {
         "nid": "Man4",
@@ -381,7 +381,7 @@
             40,
             56
         ],
-        "info_offset": 0
+        "info_offset": 20
     },
     {
         "nid": "Young Emily",
@@ -393,7 +393,7 @@
             56,
             72
         ],
-        "info_offset": 0
+        "info_offset": 30
     },
     {
         "nid": "Young Emma",
@@ -405,7 +405,7 @@
             48,
             72
         ],
-        "info_offset": 0
+        "info_offset": 30
     },
     {
         "nid": "Fernando",
@@ -417,7 +417,7 @@
             56,
             56
         ],
-        "info_offset": 0
+        "info_offset": 14
     },
     {
         "nid": "Nina",
@@ -429,7 +429,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "Sarah",
@@ -441,7 +441,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 12
     },
     {
         "nid": "Alexis",
@@ -453,7 +453,7 @@
             40,
             56
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "Natalia",
@@ -465,7 +465,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "Maya",
@@ -477,7 +477,7 @@
             56,
             55
         ],
-        "info_offset": 0
+        "info_offset": 12
     },
     {
         "nid": "Maya Casual",
@@ -489,7 +489,7 @@
             56,
             55
         ],
-        "info_offset": 0
+        "info_offset": 12
     },
     {
         "nid": "Lilith",
@@ -501,7 +501,7 @@
             40,
             56
         ],
-        "info_offset": 0
+        "info_offset": 15
     },
     {
         "nid": "Luna",
@@ -513,7 +513,7 @@
             48,
             64
         ],
-        "info_offset": 0
+        "info_offset": 14
     },
     {
         "nid": "Kate",
@@ -525,7 +525,7 @@
             56,
             56
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "Carlos",
@@ -537,7 +537,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 16
     },
     {
         "nid": "Mia",
@@ -549,7 +549,7 @@
             56,
             48
         ],
-        "info_offset": 0
+        "info_offset": 14
     },
     {
         "nid": "Nelson",
@@ -561,7 +561,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 14
     },
     {
         "nid": "Katsu",
@@ -573,7 +573,7 @@
             48,
             48
         ],
-        "info_offset": 0
+        "info_offset": 14
     },
     {
         "nid": "Mirian",
@@ -585,7 +585,7 @@
             48,
             64
         ],
-        "info_offset": 0
+        "info_offset": 14
     },
     {
         "nid": "Pam",
@@ -597,7 +597,7 @@
             56,
             56
         ],
-        "info_offset": 0
+        "info_offset": 14
     },
     {
         "nid": "Evelyn",
@@ -609,7 +609,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 14
     },
     {
         "nid": "Charon",
@@ -621,7 +621,7 @@
             40,
             56
         ],
-        "info_offset": 0
+        "info_offset": 14
     },
     {
         "nid": "Tess",
@@ -633,7 +633,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 15
     },
     {
         "nid": "Lyn",
@@ -645,7 +645,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "Gabrielle",
@@ -657,7 +657,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 14
     },
     {
         "nid": "Emily",
@@ -669,7 +669,7 @@
             48,
             64
         ],
-        "info_offset": 0
+        "info_offset": 18
     },
     {
         "nid": "Emma",
@@ -681,7 +681,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 18
     },
     {
         "nid": "Aurora",
@@ -693,7 +693,7 @@
             48,
             56
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "ArielPurple",
@@ -705,7 +705,7 @@
             40,
             56
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "image-447",
@@ -717,7 +717,7 @@
             40,
             48
         ],
-        "info_offset": 0
+        "info_offset": 6
     },
     {
         "nid": "image-511",
@@ -1473,7 +1473,7 @@
             40,
             56
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "PinkSuccubus",
@@ -1485,7 +1485,7 @@
             32,
             64
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "MagentaSuccubus",
@@ -1497,7 +1497,7 @@
             32,
             56
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "TallGreenWoman",
@@ -1509,7 +1509,7 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 7
     },
     {
         "nid": "PromoAlexis",
@@ -1521,7 +1521,7 @@
             24,
             56
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "PinkHairSkullBandana",
@@ -1533,7 +1533,7 @@
             39,
             54
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "WhiteHairRedShirtNoChestplate",
@@ -1545,7 +1545,7 @@
             48,
             48
         ],
-        "info_offset": 0
+        "info_offset": 8
     },
     {
         "nid": "dark_test_portrait2",
@@ -1557,7 +1557,7 @@
             56,
             56
         ],
-        "info_offset": 0
+        "info_offset": 4
     },
     {
         "nid": "image-68",
@@ -1569,7 +1569,7 @@
             40,
             64
         ],
-        "info_offset": 0
+        "info_offset": 10
     },
     {
         "nid": "image-53",
@@ -1581,6 +1581,6 @@
             40,
             56
         ],
-        "info_offset": 0
+        "info_offset": 10
     }
 ]

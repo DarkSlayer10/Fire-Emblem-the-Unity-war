@@ -3,11 +3,31 @@
         "nid": "Miracle_Locket",
         "name": "Miracle Locket",
         "desc": "grants miracle once, then breaks.",
-        "icon_nid": null,
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
         "icon_index": [
             0,
-            0
+            14
         ],
-        "components": []
+        "components": [
+            [
+                "status_on_equip",
+                "Miracle_Locket"
+            ],
+            [
+                "accessory",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ]
+        ]
     }
 ]

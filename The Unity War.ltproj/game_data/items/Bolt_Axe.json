@@ -55,6 +55,12 @@
             [
                 "battle_cast_anim",
                 "Thunder"
+            ],
+            [
+                "item_tags",
+                [
+                    "Thunder"
+                ]
             ]
         ]
     }

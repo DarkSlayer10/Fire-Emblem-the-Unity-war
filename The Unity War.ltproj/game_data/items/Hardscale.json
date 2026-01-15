@@ -3,11 +3,20 @@
         "nid": "Hardscale",
         "name": "Hardscale",
         "desc": "cancels beast/rosefall weakness",
-        "icon_nid": null,
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
         "icon_index": [
-            0,
+            15,
             0
         ],
-        "components": []
+        "components": [
+            [
+                "status_on_equip",
+                "Hardscale"
+            ],
+            [
+                "accessory",
+                null
+            ]
+        ]
     }
 ]

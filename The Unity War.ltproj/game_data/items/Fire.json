@@ -59,6 +59,12 @@
             [
                 "battle_cast_anim",
                 "Fire"
+            ],
+            [
+                "item_tags",
+                [
+                    "Fire"
+                ]
             ]
         ]
     }

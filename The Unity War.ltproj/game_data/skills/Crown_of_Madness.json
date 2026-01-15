@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Crown_of_Madness",
+        "name": "Crown of Madness",
+        "desc": "",
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
+        "icon_index": [
+            5,
+            2
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "resist",
+                -5
+            ]
+        ]
+    }
+]

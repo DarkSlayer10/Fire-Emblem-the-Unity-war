@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Gale_Shield",
+        "name": "Gale Shield",
+        "desc": "",
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "display_skill_icon_on_condition",
+                "False"
+            ],
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "combat_condition",
+                "'Wind' in target.get_weapon().tags"
+            ]
+        ]
+    }
+]

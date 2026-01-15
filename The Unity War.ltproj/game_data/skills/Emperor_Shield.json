@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Emperor_Shield",
+        "name": "Emperor Shield",
+        "desc": "",
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
+        "icon_index": [
+            2,
+            1
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "display_skill_icon_on_condition",
+                "False"
+            ],
+            [
+                "resist_multiplier",
+                0.8
+            ],
+            [
+                "combat_condition",
+                "'Fire' in target.get_weapon().tags or 'Thunder' in target.get_weapon().tags or 'Wind' in target.get_weapon().tags or 'Ice' in target.get_weapon().tags or 'Earth' in target.get_weapon().tags"
+            ]
+        ]
+    }
+]

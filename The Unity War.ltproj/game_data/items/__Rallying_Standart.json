@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Training_Manual",
-        "name": "Training Manual",
-        "desc": "gain more wexp",
+        "nid": "__Rallying_Standart",
+        "name": "  Rallying Standart",
+        "desc": "casts a random rally when used",
         "icon_nid": null,
         "icon_index": [
             0,

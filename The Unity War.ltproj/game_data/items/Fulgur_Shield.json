@@ -3,11 +3,20 @@
         "nid": "Fulgur_Shield",
         "name": "Fulgur Shield",
         "desc": "take less lightning damage",
-        "icon_nid": null,
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
         "icon_index": [
-            0,
+            14,
             0
         ],
-        "components": []
+        "components": [
+            [
+                "status_on_equip",
+                "Fulgur_Shield"
+            ],
+            [
+                "accessory",
+                null
+            ]
+        ]
     }
 ]

@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Blaze_Shield",
+        "name": "Blaze Shield",
+        "desc": "",
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "display_skill_icon_on_condition",
+                "False"
+            ],
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "combat_condition",
+                "'Fire' in target.get_weapon().tags"
+            ]
+        ]
+    }
+]

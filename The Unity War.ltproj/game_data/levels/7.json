@@ -1056,6 +1056,10 @@
                     ],
                     [
                         "Pure_Water",
+                        false
+                    ],
+                    [
+                        "Blessed_Tear",
                         true
                     ]
                 ],

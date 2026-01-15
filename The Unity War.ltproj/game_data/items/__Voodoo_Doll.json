@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Voodoo_Doll",
-        "name": "Voodoo Doll",
+        "nid": "__Voodoo_Doll",
+        "name": "  Voodoo Doll",
         "desc": "- crit avoid to adjacent enemies",
         "icon_nid": null,
         "icon_index": [

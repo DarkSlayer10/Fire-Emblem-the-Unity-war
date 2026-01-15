@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Blessed_Tear",
+        "name": "Blessed Tear",
+        "desc": "10% hp regen",
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
+        "icon_index": [
+            4,
+            12
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "regeneration",
+                0.1
+            ]
+        ]
+    }
+]

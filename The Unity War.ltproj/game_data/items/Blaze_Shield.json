@@ -3,11 +3,20 @@
         "nid": "Blaze_Shield",
         "name": "Blaze Shield",
         "desc": "take less fire damage",
-        "icon_nid": null,
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
         "icon_index": [
             0,
-            0
+            1
         ],
-        "components": []
+        "components": [
+            [
+                "status_on_equip",
+                "Blaze_Shield"
+            ],
+            [
+                "accessory",
+                null
+            ]
+        ]
     }
 ]

@@ -3,10 +3,10 @@
         "nid": "Hoplon_Guard",
         "name": "Hoplon Guard",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "Boosters",
         "icon_index": [
             0,
-            0
+            18
         ],
         "components": [
             [

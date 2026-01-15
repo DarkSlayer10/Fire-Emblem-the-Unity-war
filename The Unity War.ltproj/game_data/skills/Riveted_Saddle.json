@@ -1,0 +1,24 @@
+[
+    {
+        "nid": "Riveted_Saddle",
+        "name": "Riveted Saddle",
+        "desc": "cancel mounted weakness",
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
+        "icon_index": [
+            4,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "negate_tags",
+                [
+                    "Mounted"
+                ]
+            ]
+        ]
+    }
+]

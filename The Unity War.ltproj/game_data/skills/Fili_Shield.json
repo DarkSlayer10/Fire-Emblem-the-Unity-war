@@ -3,10 +3,10 @@
         "nid": "Fili_Shield",
         "name": "Fili Shield",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "Boosters",
         "icon_index": [
             0,
-            0
+            20
         ],
         "components": [
             [

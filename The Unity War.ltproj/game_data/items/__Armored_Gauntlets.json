@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Armored_Gauntlets",
-        "name": "Armored Gauntlets",
+        "nid": "__Armored_Gauntlets",
+        "name": "  Armored Gauntlets",
         "desc": "take less damage from melee range attacks",
         "icon_nid": null,
         "icon_index": [

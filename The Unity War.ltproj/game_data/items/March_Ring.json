@@ -3,11 +3,20 @@
         "nid": "March_Ring",
         "name": "March Ring",
         "desc": "+1 MOV",
-        "icon_nid": null,
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
         "icon_index": [
-            0,
-            0
+            13,
+            10
         ],
-        "components": []
+        "components": [
+            [
+                "status_on_equip",
+                "March_Ring"
+            ],
+            [
+                "accessory",
+                null
+            ]
+        ]
     }
 ]

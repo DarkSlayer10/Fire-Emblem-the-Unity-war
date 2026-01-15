@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Miracle_Locket",
+        "name": "Miracle Locket",
+        "desc": "",
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "True_Miracle_Event",
+                "Global D - Emma Death"
+            ]
+        ]
+    }
+]

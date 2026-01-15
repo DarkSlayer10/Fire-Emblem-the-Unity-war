@@ -1,3 +1,14 @@
+# ch6
+enemies dont have inventories or levels or AI
+
+135 146 148 150		change ai to pursue at turn 2
+
+147* 152*	151 153* 154	spawn turn 4 and change ai to pursue 1 turn after spawning(if marked)
+
+107 123* 126* 139 140 113* 149	spawn turn 6 change ai to pursue 1 turn after spawning(if marked)
+
+no events
+
 # ch7
 
 111 and 144 and 145 changes AI to pursue after 2 turns
@@ -6,7 +17,7 @@ need Adam unit boss, currently a generic
 
 119 and 120  are supposed to attack a village, there is no village	change to pursue after 2 rounds as compromise
 
-
+no events
 
 
 # Bugs or unfinished 
@@ -509,15 +520,46 @@ Steel Shield	+6DEF -3SPD
 Silver Shield	+8DEF -4SPD
 Ward Shield	+6RES -3SPD
 
+Blessed Tear		hp regen
 
+Padded gambeson		cancel armor weakness
+riveted saddle		cancel mounted weakness
+redstone barding		cancel dragon weakness
+hardscale 		cancel beast/rosefall weakness
 
-planned
+critical ring		+crit
+evasion ring		+avo
+march ring		+mov
+
+blaze shield
+fulgur shield
+gale shield
+rime shield
+slate shield
+emperor shield
 
 Demon General Armor
 	given to all Umbra generals, effect pending
 
 Miracle Locket		need better name
 	grants miracle once. breaks after use.
+Crown of madness
+	+5 damage dealt and taken
+
+
+Demon Crown
+	nullifies demon weakness	(this would be a single item in the world)
+
+Elite Soldier Insignia
+	+2 to some stats		will use this as a soft way to make minibosses or such, player will not get any
+
+
+
+
+
+planned
+
+
 
 Voodoo Doll
 	-40 crit avoid to adjacent enemies
@@ -525,8 +567,7 @@ Voodoo Doll
 Rallying standart
 	when used casts a random rally
 
-Crown of madness
-	+5 damage dealt and taken
+
 
 Vial of Poison
 	attacks inflict poison on hit(doesnt work for magic), might add a few of these ones
@@ -540,14 +581,13 @@ Target mark
 High quality whetstone
 	grants armsthrift
 
-Demon Crown
-	nullifies demon weakness	(this would be a single item in the world)
 
 Plague Idol
 	all units(including self and allies) around the holder take damage each turn
 
-Elite Soldier Insignia
-	+2 to some stats		will use this as a soft way to make minibosses or such, player will not get any
+
+Art of War
+	gives +1 leadership star
 
 
 
@@ -563,15 +603,11 @@ Aegis Shield
 
 Seiros Shield	resistance vs monsters is a nice effect, we can make a holy symbol or something for this
 
-Kadmos Shield	will add as another item
-Lampos Shield	will add as another item
-Accuracy Ring	yes, probably renamed
-Critical Ring	yes, probably renamed
-Evasion Ring	yes, probably renamed
+
+
 Speed Ring	not sure this one is a good idea, id rather not have raw stat boosts
-March Ring	this one is fine as is
-Goddess Ring	a simple regen item will do, renamed
-Prayer Ring	will add a miracle item with no regen
+
+
 Magic Staff	cannot have actual staff accesories since we have them as a weapon type, but maybe an orb?
 Healing Staff	same
 Caduceus Staff	same, but will do only for 1 type of magic
@@ -584,8 +620,7 @@ Armored Soldier Shield	add it as resistance vs short range attacks
 Armored Knight Shield	add it as resistance vs long range attacks
 Fortress Soldier Shield	add it as resistance vs siege range attacks
 
-Flame Shield	resistance vs fire? im thinking of making one for each element
-Emperor Shield		lower resistance than elemental shields, but vs all elements
+
 
 Chalice of Beginnings	global counter accesory is something i would give to some specific bosses, not sure what the item would be tho
 Fetters of Dromi		canto# is a good effect for an item, not sure what it would be

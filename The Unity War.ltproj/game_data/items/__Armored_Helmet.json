@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "__Armored_Helmet",
+        "name": "  Armored Helmet",
+        "desc": "take less damage from siege range attacks",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

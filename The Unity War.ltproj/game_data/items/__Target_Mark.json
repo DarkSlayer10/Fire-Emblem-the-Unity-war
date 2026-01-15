@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Target_Mark",
-        "name": "Target Mark",
+        "nid": "__Target_Mark",
+        "name": "  Target Mark",
         "desc": "enemies will prioritize attacking this unit\n",
         "icon_nid": null,
         "icon_index": [

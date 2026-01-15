@@ -2,12 +2,21 @@
     {
         "nid": "Riveted_Saddle",
         "name": "Riveted Saddle",
-        "desc": "cancels dragon weakness",
-        "icon_nid": null,
+        "desc": "cancels mounted weakness",
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
         "icon_index": [
-            0,
+            4,
             0
         ],
-        "components": []
+        "components": [
+            [
+                "status_on_equip",
+                "Riveted_Saddle"
+            ],
+            [
+                "accessory",
+                null
+            ]
+        ]
     }
 ]

@@ -83,6 +83,12 @@
             [
                 "magic",
                 null
+            ],
+            [
+                "item_tags",
+                [
+                    "Wind"
+                ]
             ]
         ]
     }

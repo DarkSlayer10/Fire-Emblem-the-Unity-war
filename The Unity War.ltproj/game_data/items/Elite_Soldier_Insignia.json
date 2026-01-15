@@ -3,11 +3,20 @@
         "nid": "Elite_Soldier_Insignia",
         "name": "Elite Soldier Insignia",
         "desc": "+2 to all stats",
-        "icon_nid": null,
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
         "icon_index": [
-            0,
-            0
+            15,
+            12
         ],
-        "components": []
+        "components": [
+            [
+                "status_on_equip",
+                "Elite_Soldier_Insignia"
+            ],
+            [
+                "accessory",
+                null
+            ]
+        ]
     }
 ]

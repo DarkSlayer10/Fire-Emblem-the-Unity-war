@@ -28,6 +28,12 @@
             [
                 "weight",
                 5
+            ],
+            [
+                "item_tags",
+                [
+                    "Fire"
+                ]
             ]
         ]
     }

@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "__Vial_of_Poison",
+        "name": "  Vial of Poison",
+        "desc": "attacks inflict poison on hit(except magic)",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

@@ -299,6 +299,10 @@
                     [
                         "Iron_Lance",
                         false
+                    ],
+                    [
+                        "Elite_Soldier_Insignia",
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -326,6 +330,10 @@
                     ],
                     [
                         "Concoction",
+                        true
+                    ],
+                    [
+                        "Elite_Soldier_Insignia",
                         false
                     ]
                 ],
@@ -378,6 +386,10 @@
                 "starting_items": [
                     [
                         "Iron_Lance",
+                        false
+                    ],
+                    [
+                        "Elite_Soldier_Insignia",
                         false
                     ]
                 ],
@@ -583,6 +595,10 @@
                     [
                         "Iron_Gauntlets",
                         false
+                    ],
+                    [
+                        "Evasion_Ring",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -631,6 +647,10 @@
                     [
                         "Javelin",
                         false
+                    ],
+                    [
+                        "Steel_Shield",
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -654,6 +674,10 @@
                 "starting_items": [
                     [
                         "Javelin",
+                        false
+                    ],
+                    [
+                        "Ward_Shield",
                         false
                     ]
                 ],
@@ -734,6 +758,10 @@
                 "starting_items": [
                     [
                         "Iron_Axe",
+                        false
+                    ],
+                    [
+                        "Elite_Soldier_Insignia",
                         false
                     ]
                 ],

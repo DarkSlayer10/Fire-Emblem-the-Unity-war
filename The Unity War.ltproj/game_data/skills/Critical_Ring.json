@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Critical_Ring",
+        "name": "Critical Ring",
+        "desc": "crit +10",
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 2",
+        "icon_index": [
+            4,
+            10
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "crit",
+                10
+            ]
+        ]
+    }
+]
