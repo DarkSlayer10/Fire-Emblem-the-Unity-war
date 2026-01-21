@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Vendor",
+        "trigger": "Vendor",
+        "level_nid": "6",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "shop;{unit};\u2028Wind,Thunder,Thoron,Elfire,Ice_Shard,Shine,Divine,Nosferatu,Ghost_Wail,Mend,Restore,Physic,Torch\u2028;Vendor",
+            ""
+        ],
+        "nid": "6 Vendor"
+    }
+]

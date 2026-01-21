@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Village1",
+        "trigger": "Visit",
+        "level_nid": "6",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "background house",
+            "",
+            "civilian blonde kid",
+            "",
+            "NEED TO REDO DIALOGUE SO IT MAKES SENSE",
+            "",
+            "",
+            "",
+            "",
+            "[ToggleSmile][OpenMidLeft][LoadFace][0x15E][OpenMidRight][LoadFace][0xFFFF][OpenMidLeft]I heard there are monstrous spiders[.]",
+            "living in the mountains to the east.[A]",
+            "",
+            "They're said to be poisonous, so I",
+            "stocked up on antitoxins[ToggleMouthMove]...[.][ToggleMouthMove][A]",
+            "",
+            "This antitoxin's strong stuff. No need",
+            "to worry about poison with this around.[.][A]",
+            "",
+            "Hey! Why don't you go ahead and take",
+            "one. Go on, you may need it.[A]",
+            "",
+            "They might still eat you, but at least",
+            "they won't be able to poison you![.][A]",
+            "",
+            "#give a pysich staff",
+            "",
+            "show_layer;village1"
+        ],
+        "nid": "6 Village1"
+    }
+]

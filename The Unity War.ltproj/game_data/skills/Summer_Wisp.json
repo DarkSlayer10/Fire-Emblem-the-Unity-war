@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Summer_Wisp",
+        "name": "Summer Wisp",
+        "desc": "",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            14,
+            34
+        ],
+        "components": [
+            [
+                "ability",
+                "Summon_FireSprite"
+            ],
+            [
+                "build_charge",
+                1
+            ],
+            [
+                "upkeep_charge_increase",
+                1
+            ],
+            [
+                "condition",
+                "not game.check_alive('wispS_' + unit.nid)"
+            ]
+        ]
+    }
+]

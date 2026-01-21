@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Call of the Pyre",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "game.check_dead('wispS') == True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "",
+            "",
+            "kill_unit;{unit}",
+            ""
+        ],
+        "nid": "Global Call of the Pyre"
+    }
+]

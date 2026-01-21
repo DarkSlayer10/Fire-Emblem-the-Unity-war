@@ -1,0 +1,62 @@
+[
+    {
+        "nid": "Summon_FireSprite",
+        "name": "Summon Summer Sprite",
+        "desc": "summons a flaming sphere of doom and anihilation",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            14,
+            34
+        ],
+        "components": [
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "empty_tile_target_restrict",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "event_on_hit",
+                "Global Summon - Wisp Fire"
+            ],
+            [
+                "map_cast_sfx",
+                "FireBall"
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Wyrmsfire"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_hit_sub_blend",
+                [
+                    255,
+                    85,
+                    0
+                ]
+            ],
+            [
+                "no_double",
+                null
+            ]
+        ]
+    }
+]

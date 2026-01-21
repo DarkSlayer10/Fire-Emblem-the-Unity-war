@@ -1,0 +1,21 @@
+[
+    {
+        "name": "ChestR",
+        "trigger": "Chest",
+        "level_nid": "6",
+        "condition": "region.nid == 'ChestR'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "give_item;{unit};Death",
+            "show_layer;chest_right",
+            "has_traded;{unit}",
+            "",
+            "",
+            ""
+        ],
+        "nid": "6 ChestR"
+    }
+]

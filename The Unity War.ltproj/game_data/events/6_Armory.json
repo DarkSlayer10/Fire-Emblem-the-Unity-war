@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Armory",
+        "trigger": "Armory",
+        "level_nid": "6",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "shop;{unit};\u2028Lancereaver,Steel_Blade,Light_Brand,Steel_Dagger,Steel_Gauntlets,Steel_Bow,Hammer,Steel_Greatlance,Short_Spear,Steel_Greataxe,Axereaver,Steel_Axe,Steel_Sword,Steel_Lance,Toxin_Lance,Poison_Sword,Poison_Bow,Poison_Axe;armory",
+            ""
+        ],
+        "nid": "6 Armory"
+    }
+]

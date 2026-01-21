@@ -69,7 +69,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -80,14 +80,126 @@
                 "generic": true
             },
             {
+                "nid": "151",
+                "variant": null,
+                "level": 7,
+                "klass": "Pegasus_Knight",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Lance",
+                        false
+                    ],
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "152",
+                "variant": null,
+                "level": 7,
+                "klass": "Pegasus_Knight",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Lance",
+                        false
+                    ],
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "153",
+                "variant": null,
+                "level": 7,
+                "klass": "Pegasus_Knight",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Lance",
+                        false
+                    ],
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    24,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "154",
+                "variant": null,
+                "level": 7,
+                "klass": "Pegasus_Knight",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Lance",
+                        false
+                    ],
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    24,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "148",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Pegasus_Knight",
                 "faction": "Town_Guard",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Axereaver",
                         false
                     ]
                 ],
@@ -106,23 +218,29 @@
             {
                 "nid": "149",
                 "variant": null,
-                "level": 1,
-                "klass": "Pegasus_Knight",
-                "faction": "Town_Guard",
+                "level": 6,
+                "klass": "Scout",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Iron_Sword",
+                        false
+                    ],
+                    [
+                        "Iron_Dagger",
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Knife_Use"
+                ],
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     0,
-                    11
+                    1
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -130,7 +248,7 @@
             {
                 "nid": "150",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Pegasus_Knight",
                 "faction": "Town_Guard",
                 "starting_items": [
@@ -182,18 +300,22 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Knight",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Iron_Greatlance",
+                        true
+                    ],
+                    [
+                        "Javelin",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -262,18 +384,18 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Pirate_F",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Steel_Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -286,18 +408,22 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Pirate_F",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Hand_Axe",
+                        false
+                    ],
+                    [
+                        "Swordreaver",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -310,18 +436,18 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Pirate_F",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Iron_Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -358,18 +484,18 @@
             {
                 "nid": "109",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Mage_F",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Thunder",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -406,18 +532,18 @@
             {
                 "nid": "111",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Mage_F",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Thunder",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -430,18 +556,26 @@
             {
                 "nid": "112",
                 "variant": null,
-                "level": 1,
+                "level": 10,
                 "klass": "Soldier",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Toxin_Lance",
+                        false
+                    ],
+                    [
+                        "Javelin",
+                        false
+                    ],
+                    [
+                        "Elite_Soldier_Insignia",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -454,18 +588,22 @@
             {
                 "nid": "117",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Soldier",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Iron_Lance",
+                        false
+                    ],
+                    [
+                        "Javelin",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -478,9 +616,9 @@
             {
                 "nid": "113",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Mercenary",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
                         "Iron_Sword",
@@ -502,18 +640,26 @@
             {
                 "nid": "114",
                 "variant": null,
-                "level": 1,
+                "level": 12,
                 "klass": "Mercenary",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Wind_Sword",
+                        true
+                    ],
+                    [
+                        "Elite_Soldier_Insignia",
+                        false
+                    ],
+                    [
+                        "Fulgur_Shield",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -604,18 +750,22 @@
             {
                 "nid": "118",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Fighter",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Iron_Axe",
                         false
+                    ],
+                    [
+                        "Halberd",
+                        true
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -656,18 +806,22 @@
             {
                 "nid": "120",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Fighter",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Steel_Axe",
+                        false
+                    ],
+                    [
+                        "Hand_Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -732,18 +886,34 @@
             {
                 "nid": "124",
                 "variant": null,
-                "level": 1,
+                "level": 10,
                 "klass": "Lancer_F",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Steel_Lance",
+                        false
+                    ],
+                    [
+                        "Javelin",
+                        false
+                    ],
+                    [
+                        "Axereaver",
+                        false
+                    ],
+                    [
+                        "Blue_Gem",
+                        true
+                    ],
+                    [
+                        "Elite_Soldier_Insignia",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -784,12 +954,12 @@
             {
                 "nid": "126",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Lancer_F",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Iron_Lance",
                         false
                     ]
                 ],
@@ -890,18 +1060,22 @@
             {
                 "nid": "130",
                 "variant": null,
-                "level": 1,
+                "level": 7,
                 "klass": "Brawler",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Steel_Gauntlets",
+                        false
+                    ],
+                    [
+                        "Hardscale",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -914,18 +1088,18 @@
             {
                 "nid": "131",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Brawler",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Steel_Gauntlets",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -938,18 +1112,18 @@
             {
                 "nid": "132",
                 "variant": null,
-                "level": 1,
+                "level": 6,
                 "klass": "Nomad",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Iron_Bow",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -962,12 +1136,12 @@
             {
                 "nid": "135",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Nomad",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Iron_Bow",
                         false
                     ]
                 ],
@@ -1014,18 +1188,18 @@
             {
                 "nid": "133",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Archer",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Steel_Bow",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -1036,20 +1210,44 @@
                 "generic": true
             },
             {
-                "nid": "134",
+                "nid": "138",
                 "variant": null,
-                "level": 1,
-                "klass": "Shaman",
-                "faction": "Town_Guard",
+                "level": 7,
+                "klass": "Archer",
+                "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Iron_Sword",
+                        "Iron_Bow",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "134",
+                "variant": null,
+                "level": 6,
+                "klass": "Shaman",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -1105,6 +1303,67 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Emma",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "139",
+                "variant": null,
+                "level": 6,
+                "klass": "Archer",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Iron_Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "140",
+                "variant": null,
+                "level": 6,
+                "klass": "Pirate",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1112,8 +1371,8 @@
                 "nid": "F_1",
                 "region_type": "formation",
                 "position": [
-                    19,
-                    24
+                    11,
+                    15
                 ],
                 "size": [
                     1,
@@ -1129,8 +1388,8 @@
                 "nid": "F_2",
                 "region_type": "formation",
                 "position": [
-                    19,
-                    26
+                    10,
+                    16
                 ],
                 "size": [
                     1,
@@ -1146,8 +1405,8 @@
                 "nid": "F_3",
                 "region_type": "formation",
                 "position": [
-                    21,
-                    24
+                    9,
+                    17
                 ],
                 "size": [
                     1,
@@ -1163,8 +1422,8 @@
                 "nid": "F_4",
                 "region_type": "formation",
                 "position": [
-                    21,
-                    26
+                    12,
+                    17
                 ],
                 "size": [
                     1,
@@ -1180,8 +1439,8 @@
                 "nid": "F_5",
                 "region_type": "formation",
                 "position": [
-                    20,
-                    25
+                    10,
+                    18
                 ],
                 "size": [
                     1,
@@ -1197,8 +1456,8 @@
                 "nid": "F_6",
                 "region_type": "formation",
                 "position": [
-                    13,
-                    24
+                    11,
+                    18
                 ],
                 "size": [
                     1,
@@ -1214,8 +1473,8 @@
                 "nid": "F_7",
                 "region_type": "formation",
                 "position": [
-                    15,
-                    24
+                    9,
+                    19
                 ],
                 "size": [
                     1,
@@ -1231,8 +1490,8 @@
                 "nid": "F_8",
                 "region_type": "formation",
                 "position": [
-                    13,
-                    26
+                    12,
+                    19
                 ],
                 "size": [
                     1,
@@ -1248,8 +1507,8 @@
                 "nid": "F_9",
                 "region_type": "formation",
                 "position": [
-                    15,
-                    26
+                    12,
+                    21
                 ],
                 "size": [
                     1,
@@ -1265,8 +1524,8 @@
                 "nid": "F_10",
                 "region_type": "formation",
                 "position": [
-                    7,
-                    24
+                    9,
+                    21
                 ],
                 "size": [
                     1,
@@ -1282,8 +1541,8 @@
                 "nid": "F_11",
                 "region_type": "formation",
                 "position": [
-                    9,
-                    24
+                    10,
+                    22
                 ],
                 "size": [
                     1,
@@ -1299,8 +1558,8 @@
                 "nid": "F_12",
                 "region_type": "formation",
                 "position": [
-                    8,
-                    25
+                    11,
+                    22
                 ],
                 "size": [
                     1,
@@ -1316,8 +1575,8 @@
                 "nid": "F_13",
                 "region_type": "formation",
                 "position": [
-                    7,
-                    26
+                    9,
+                    23
                 ],
                 "size": [
                     1,
@@ -1333,8 +1592,8 @@
                 "nid": "F_14",
                 "region_type": "formation",
                 "position": [
-                    9,
-                    26
+                    11,
+                    23
                 ],
                 "size": [
                     1,
@@ -1347,274 +1606,153 @@
                 "interrupt_move": false
             },
             {
-                "nid": "Visit_Carlos",
+                "nid": "VisitHouse",
                 "region_type": "event",
                 "position": [
-                    0,
-                    15
+                    21,
+                    5
                 ],
                 "size": [
                     1,
                     1
                 ],
                 "sub_nid": "Visit",
-                "condition": "not v('carlos')",
+                "condition": "",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
             },
             {
-                "nid": "Visit_Left",
+                "nid": "Armory",
                 "region_type": "event",
                 "position": [
-                    9,
-                    21
+                    7,
+                    5
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
-                "condition": "not v('left')",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Visit_Center",
-                "region_type": "event",
-                "position": [
-                    22,
-                    16
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "not v('center')",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Visit_Top",
-                "region_type": "event",
-                "position": [
-                    28,
-                    9
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "not v('top')",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Visit_Bottom",
-                "region_type": "event",
-                "position": [
-                    25,
-                    22
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "condition": "not v('bottom')",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "bottom",
-                "region_type": "event",
-                "position": [
-                    25,
-                    22
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Wreck",
-                "condition": "not v('bottom') and unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "carlos",
-                "region_type": "event",
-                "position": [
-                    0,
-                    15
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Wreck",
-                "condition": "not v('carlos') and unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "center",
-                "region_type": "event",
-                "position": [
-                    22,
-                    16
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Wreck",
-                "condition": "not v('center') and unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "top",
-                "region_type": "event",
-                "position": [
-                    28,
-                    9
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Wreck",
-                "condition": "not v('top') and unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "left",
-                "region_type": "event",
-                "position": [
-                    9,
-                    21
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Wreck",
-                "condition": "not v('left') and unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Visit_Tavern",
-                "region_type": "event",
-                "position": [
-                    3,
-                    20
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
+                "sub_nid": "Armory",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
             },
             {
-                "nid": "Visit_Arena",
+                "nid": "Vendor",
                 "region_type": "event",
                 "position": [
-                    27,
-                    17
+                    23,
+                    2
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
+                "sub_nid": "Vendor",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
             },
             {
-                "nid": "door",
+                "nid": "ChestL",
                 "region_type": "event",
                 "position": [
-                    18,
-                    17
+                    0,
+                    25
                 ],
                 "size": [
                     1,
-                    3
+                    1
                 ],
-                "sub_nid": "Door",
+                "sub_nid": "Chest",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
-                "only_once": false,
+                "only_once": true,
                 "interrupt_move": false
             },
             {
-                "nid": "DUMMY",
+                "nid": "ChestR",
                 "region_type": "event",
                 "position": [
-                    10,
-                    6
+                    24,
+                    16
                 ],
                 "size": [
-                    4,
-                    2
+                    1,
+                    1
                 ],
-                "sub_nid": "Escape",
-                "condition": "False",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Seize",
-                "region_type": "event",
-                "position": [
-                    10,
-                    6
-                ],
-                "size": [
-                    4,
-                    2
-                ],
-                "sub_nid": "Seize",
-                "condition": "True",
+                "sub_nid": "Chest",
+                "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Escape",
+                "region_type": "normal",
+                "position": [
+                    17,
+                    0
+                ],
+                "size": [
+                    4,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "New Region_1",
+                "region_type": "normal",
+                "position": null,
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
                 "interrupt_move": false
             }
         ],
         "unit_groups": [
             {
-                "nid": "New Group",
+                "nid": "turn4",
                 "units": [
-                    "146",
                     "147",
-                    "148",
+                    "152",
+                    "151",
+                    "153",
+                    "154"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "turn6",
+                "units": [
+                    "107",
+                    "123",
+                    "126",
+                    "113",
                     "149",
-                    "150"
+                    "139",
+                    "140"
                 ],
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

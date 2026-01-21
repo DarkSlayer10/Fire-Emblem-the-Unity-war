@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Mia/Tess",
+        "trigger": "on_talk",
+        "level_nid": "6",
+        "condition": "check_pair('Mia', 'Tess')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "mia tess",
+            "",
+            "[OpenMidRight][LoadFace][0x1D7][OpenMidRight]MOVE IT SLOW POKE![A]",
+            "",
+            "[OpenMidLeft][LoadFace][0x12A][OpenMidLeft]YOU BITCH!! *Throws bolt axe*[A][OpenMidRight]Whoa easy lady! you were just in",
+            "my way no hard feelings.[A]",
+            "",
+            "[OpenMidLeft]You are so lucky that i am in combat",
+            "otherwise i would just kill you with[A]",
+            "",
+            "my axe.[A][OpenMidRight]I like your way of combat... I think",
+            "i can learn a tactic or two from you.[A]",
+            "",
+            "[OpenMidLeft]Didn't you just hear what i just said.",
+            "Alright fine you can come train with me.[A]",
+            "",
+            "But remember this... If you fucking do that",
+            "again, I will kill you. GOT IT![A]",
+            "",
+            "[OpenMidRight]Y-Yes! (She is scary but this",
+            "could help me get more money.)[A]",
+            "",
+            "recruit tess"
+        ],
+        "nid": "6 Mia/Tess"
+    }
+]

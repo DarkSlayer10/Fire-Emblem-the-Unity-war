@@ -50,12 +50,16 @@
             [
                 "Iron_Sword",
                 false
+            ],
+            [
+                "Platonic_Sword",
+                false
             ]
         ],
         "learned_skills": [
             [
                 1,
-                "Counter_Magic"
+                "Summer_Wisp"
             ]
         ],
         "unit_notes": [],

@@ -82,53 +82,53 @@
                 null
             ],
             "Lance": [
-                false,
-                0,
+                true,
+                251,
                 null
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                251,
                 null
             ],
             "Bow": [
-                false,
-                0,
+                true,
+                251,
                 null
             ],
             "Staff": [
-                false,
-                0,
+                true,
+                251,
                 null
             ],
             "Anima": [
-                false,
-                0,
+                true,
+                251,
                 null
             ],
             "Light": [
-                false,
-                0,
+                true,
+                251,
                 null
             ],
             "Dark": [
-                false,
-                0,
+                true,
+                251,
                 null
             ],
             "Gauntlet": [
-                false,
-                0,
+                true,
+                251,
                 null
             ],
             "Special": [
-                false,
-                0,
+                true,
+                251,
                 null
             ],
             "Default": [
-                false,
-                0,
+                true,
+                251,
                 null
             ]
         },

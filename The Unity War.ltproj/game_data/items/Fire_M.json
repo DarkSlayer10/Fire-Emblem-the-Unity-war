@@ -1,0 +1,75 @@
+[
+    {
+        "nid": "Fire_M",
+        "name": "Fire",
+        "desc": "A spell that shoots fire.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_prefab",
+                "Platonic_Anima"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                6
+            ],
+            [
+                "uses",
+                45
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": true,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    224,
+                    96,
+                    0
+                ]
+            ],
+            [
+                "battle_cast_anim",
+                "Fire"
+            ],
+            [
+                "item_tags",
+                [
+                    "Fire"
+                ]
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Call_of_the_Pyre",
+        "name": "Call of the Pyre",
+        "desc": "Unit will explode upon death, damaging all nearby units.\nCan be activated early.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            9,
+            18
+        ],
+        "components": [
+            [
+                "ability",
+                "Call_of_the_Pyre"
+            ],
+            [
+                "event_after_combat",
+                "Global Call of the Pyre"
+            ]
+        ]
+    }
+]

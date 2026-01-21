@@ -1,0 +1,19 @@
+[
+    {
+        "name": "ChestL",
+        "trigger": "Chest",
+        "level_nid": "6",
+        "condition": "region.nid == 'ChestL'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "give_item;{unit};Goddess_Icon",
+            "show_layer;chest_left",
+            "has_traded;{unit}",
+            ""
+        ],
+        "nid": "6 ChestL"
+    }
+]

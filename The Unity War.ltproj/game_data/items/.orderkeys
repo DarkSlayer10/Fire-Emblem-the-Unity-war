@@ -244,6 +244,7 @@
     "ShadowshotReplacement",
     "Crimson_eye",
     "_BloodSucker",
+    "Fire_M",
     "Leather_Shield",
     "Iron_Shield",
     "Steel_Shield",
@@ -345,5 +346,7 @@
     "__Healing_Orb",
     "__Magic_Orb",
     "__Aegis",
-    "__Talisman_Shield"
+    "__Talisman_Shield",
+    "Summon_FireSprite",
+    "Call_of_the_Pyre"
 ]

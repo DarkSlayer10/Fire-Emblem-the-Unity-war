@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Summon - Wisp Fire",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.check_dead('wispS_' + unit.nid)",
+            "    resurrect;wispS_{e:unit.nid}",
+            "    autolevel_to;wispS_{e:unit.nid};{e:unit.level}",
+            "    for;item;u('wispS_' + unit.nid).items",
+            "        remove_item;wispS_{e:unit.nid};{item};no_banner",
+            "    endf",
+            "else",
+            "    make_generic;wispS_{e:unit.nid};Summer_Wisp;{e:unit.level};player",
+            "    give_wexp;wispS_{e:unit.nid};Anima;200;no_banner",
+            "end",
+            "give_item;wispS_{e:unit.nid};Fire_M;no_banner",
+            "",
+            "",
+            "add_unit;wispS_{e:unit.nid};{e:target_pos};warp",
+            "wait;200",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "#if;game.get_unit(Phantom)",
+            "#    resurrect;Phantom",
+            "#    remove_unit;Phantom;warp",
+            "#    autolevel_to;Phantom;{e:unit.level}",
+            "#else",
+            "#    make_generic;Phantom;Phantom;{e:unit.level};player;;Monster;;Iron_Axe",
+            "#end",
+            "#add_unit;Phantom;{eval:target_pos};warp",
+            "#wait;200"
+        ],
+        "nid": "Global Summon - Wisp Fire"
+    }
+]

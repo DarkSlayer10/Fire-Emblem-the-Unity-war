@@ -3,6 +3,7 @@
     "Darkbearer",
     "Marksman",
     "Huntress",
+    "TestDummy",
     "Beastling",
     "Ninetails",
     "Slayer",
@@ -177,7 +178,7 @@
     "Doll",
     "Living_Armor",
     "Fiend",
-    "TestDummy",
     "Priestess",
-    "Shrine_Maiden"
+    "Shrine_Maiden",
+    "Summer_Wisp"
 ]

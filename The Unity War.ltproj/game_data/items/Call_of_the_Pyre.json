@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "Call_of_the_Pyre",
+        "name": "Call of the Pyre",
+        "desc": "",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            9,
+            18
+        ],
+        "components": [
+            [
+                "event_on_hit",
+                "Global Call of the Pyre"
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "blast_aoe",
+                3
+            ],
+            [
+                "magic",
+                null
+            ]
+        ]
+    }
+]

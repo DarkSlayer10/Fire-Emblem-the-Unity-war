@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Emily/Tess",
+        "trigger": "on_talk",
+        "level_nid": "6",
+        "condition": "check_pair('Emily', 'Tess')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "",
+            "emily tess",
+            "",
+            "[OpenMidLeft][LoadFace][0x106][OpenMidLeft]HEY LADY!!! WAIT!!![A]",
+            "",
+            "[OpenMidRight][LoadFace][0x1D7][OpenMidRight]What? can't you see i am trying to",
+            "get my money worth? I better be moving[A]",
+            "",
+            "now![A]",
+            "",
+            "[OpenMidLeft]I said wait... *shoots arrow*[A][OpenMidRight]Whoa lady easy now ok! Listen i",
+            "need this money for a reason.[A]",
+            "",
+            "[OpenMidLeft]Why not join us! we can give you the",
+            "money you need for your needs.[A]",
+            "",
+            "[OpenMidRight]Alright fine i do it... ( rather",
+            "be living then getting shot in[A]",
+            "",
+            "the face by a crazy chick.)[A]",
+            "",
+            "recruit tess"
+        ],
+        "nid": "6 Emily/Tess"
+    }
+]

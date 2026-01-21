@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Nina/Tess",
+        "trigger": "on_talk",
+        "level_nid": "6",
+        "condition": "check_pair('Nina', 'Tess')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "",
+            "",
+            "add_portrait;Tess;Right;;;mirror;",
+            "add_portrait;Nina;Left",
+            "wait;100",
+            "",
+            "speak;Nina;\u2028You're fast, it would be shame to see that talent go to waste...{w}",
+            "",
+            "wait;100",
+            "mirror_portrait;Tess",
+            "",
+            "speak;Tess;\u2028I ain't that fast lady...{w} I saw the way you fight in battle when I was running.",
+            "",
+            "speak;Nina;\u2028Nonsense! Everyone has their own way to be fast.|\u2028How about this? {w}I can train you to be faster.|\u2028Maybe the way of the bow? All you got to do is join us.{w}",
+            "",
+            "speak;Tess;You have yourself a deal!|\u2028(Learning her ways will help my family.){w}",
+            "",
+            "change_team;Tess;player",
+            "remove_talk;Nina;Tess",
+            "change_ai;Tess;None",
+            "multi_remove_portrait;Tess;Nina",
+            "music_fade_back"
+        ],
+        "nid": "6 Nina/Tess"
+    }
+]
