@@ -8,7 +8,14 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "background house",
+            "transition;open",
+            "change_background;House",
+            "",
+            "s;;This house dialogue was a leftover from vanilla, need a new one.|But hey! you get a physic for the trouble.;;;hint",
+            "",
+            "",
+            "",
+            "give_item;{unit};Physic;\u2028\u2028\u2028background house",
             "",
             "civilian blonde kid",
             "",
@@ -34,7 +41,9 @@
             "",
             "#give a pysich staff",
             "",
-            "show_layer;village1"
+            "show_layer;village1",
+            "transition;close",
+            "change_background"
         ],
         "nid": "6 Village1"
     }

@@ -73,7 +73,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
+                    3,
                     0
                 ],
                 "starting_traveler": null,
@@ -1310,10 +1310,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    11,
-                    15
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -1364,6 +1361,26 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Emily",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Caroline",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -1371,8 +1388,8 @@
                 "nid": "F_1",
                 "region_type": "formation",
                 "position": [
-                    11,
-                    15
+                    12,
+                    16
                 ],
                 "size": [
                     1,
@@ -1732,7 +1749,28 @@
                     "153",
                     "154"
                 ],
-                "positions": {}
+                "positions": {
+                    "147": [
+                        0,
+                        10
+                    ],
+                    "152": [
+                        24,
+                        10
+                    ],
+                    "151": [
+                        24,
+                        26
+                    ],
+                    "153": [
+                        3,
+                        26
+                    ],
+                    "154": [
+                        5,
+                        0
+                    ]
+                }
             },
             {
                 "nid": "turn6",
@@ -1745,7 +1783,114 @@
                     "139",
                     "140"
                 ],
+                "positions": {
+                    "107": [
+                        16,
+                        26
+                    ],
+                    "123": [
+                        24,
+                        5
+                    ],
+                    "126": [
+                        0,
+                        6
+                    ],
+                    "113": [
+                        6,
+                        26
+                    ],
+                    "149": [
+                        0,
+                        2
+                    ],
+                    "139": [
+                        24,
+                        7
+                    ],
+                    "140": [
+                        19,
+                        26
+                    ]
+                }
+            },
+            {
+                "nid": "Start",
+                "units": [
+                    "Gabrielle",
+                    "146",
+                    "147",
+                    "151",
+                    "152",
+                    "153",
+                    "154",
+                    "148",
+                    "149",
+                    "150",
+                    "101",
+                    "102",
+                    "103",
+                    "104",
+                    "105",
+                    "106",
+                    "107",
+                    "108",
+                    "109",
+                    "110",
+                    "111",
+                    "112",
+                    "117",
+                    "113",
+                    "114",
+                    "115",
+                    "116",
+                    "121",
+                    "118",
+                    "119",
+                    "120",
+                    "122",
+                    "123",
+                    "124",
+                    "125",
+                    "126",
+                    "127",
+                    "128",
+                    "129",
+                    "130",
+                    "131",
+                    "132",
+                    "135",
+                    "136",
+                    "133",
+                    "138",
+                    "134",
+                    "137",
+                    "139",
+                    "140"
+                ],
                 "positions": {}
+            },
+            {
+                "nid": "Buddies",
+                "units": [
+                    "Emma",
+                    "Emily",
+                    "Caroline"
+                ],
+                "positions": {
+                    "Emma": [
+                        10,
+                        22
+                    ],
+                    "Emily": [
+                        11,
+                        22
+                    ],
+                    "Caroline": [
+                        9,
+                        22
+                    ]
+                }
             }
         ],
         "ai_groups": []
