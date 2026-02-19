@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Reinforcements6",
+        "trigger": null,
+        "level_nid": "6",
+        "condition": "game.turncount == 6",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_group;turn4;turn4;immediate;closest"
+        ],
+        "nid": "6 Reinforcements6"
+    }
+]

@@ -1582,5 +1582,17 @@
             56
         ],
         "info_offset": 10
+    },
+    {
+        "nid": "ArielRedo-1",
+        "blinking_offset": [
+            48,
+            40
+        ],
+        "smiling_offset": [
+            48,
+            56
+        ],
+        "info_offset": 10
     }
 ]
