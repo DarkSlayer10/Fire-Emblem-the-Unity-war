@@ -14,8 +14,12 @@
                 "Call_of_the_Pyre"
             ],
             [
-                "event_after_combat",
-                "Global Call of the Pyre"
+                "skill_before_combat",
+                {
+                    "skill": "Call_of_the_Pyre_S",
+                    "recipient": "target",
+                    "allegiance": "enemy"
+                }
             ]
         ]
     }

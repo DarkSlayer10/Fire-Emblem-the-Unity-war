@@ -1,0 +1,18 @@
+[
+    {
+        "name": "turn2",
+        "trigger": "turn_change",
+        "level_nid": "6",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_ai;135;Pursue",
+            "change_ai;146;Pursue",
+            "change_ai;148;Pursue",
+            "change_ai;150;Pursue"
+        ],
+        "nid": "6 turn2"
+    }
+]

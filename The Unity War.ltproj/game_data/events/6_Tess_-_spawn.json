@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Tess - spawn",
+        "trigger": null,
+        "level_nid": "6",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_group;Tesss;Tesss;immediate;push"
+        ],
+        "nid": "6 Tess - spawn"
+    }
+]

@@ -1,19 +1,19 @@
 # ch6
-enemies dont have inventories or levels or AI
+		enemies dont have inventories or levels or AI
 
-135 146 148 150		change ai to pursue at turn 2
+		135 146 148 150		change ai to pursue at turn 2
 
-147* 152*	151 153* 154	spawn turn 4 and change ai to pursue 1 turn after spawning(if marked)
+		147* 152*	151 153* 154	spawn turn 4 and change ai to pursue 1 turn after spawning(if marked)
 
-107 123* 126* 139 140 113* 149	spawn turn 6 change ai to pursue 1 turn after spawning(if marked)
+		107 123* 126* 139 140 113* 149	spawn turn 6 change ai to pursue 1 turn after spawning(if marked)
 
-no events
+		no events
 
 # ch7
 
 111 and 144 and 145 changes AI to pursue after 2 turns
 
-need Adam unit boss, currently a generic
+		need Adam unit boss, currently a generic
 
 119 and 120  are supposed to attack a village, there is no village	change to pursue after 2 rounds as compromise
 
