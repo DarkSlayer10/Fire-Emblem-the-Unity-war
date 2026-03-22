@@ -38,10 +38,6 @@
                 13
             ],
             [
-                "shove_on_end_combat",
-                1
-            ],
-            [
                 "uses",
                 35
             ],
@@ -51,10 +47,6 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
-            ],
-            [
-                "status_on_equip",
-                "Heavy"
             ]
         ]
     }

@@ -3,10 +3,10 @@
         "nid": "Def5",
         "name": "Defense +5",
         "desc": "DEF + 5",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            4,
+            6
         ],
         "components": [
             [

@@ -42,6 +42,7 @@
             "#give a pysich staff",
             "",
             "show_layer;village1",
+            "has_attacked;{unit}",
             "transition;close",
             "change_background"
         ],

@@ -1,7 +1,7 @@
 [
     {
         "nid": "Silver_Greatlance",
-        "name": "new_1",
+        "name": "Silver_Greatlance",
         "desc": "",
         "icon_nid": "{Beansy} {Lances} All Icons",
         "icon_index": [
@@ -27,7 +27,7 @@
             ],
             [
                 "hit",
-                100
+                65
             ],
             [
                 "crit",
@@ -35,11 +35,11 @@
             ],
             [
                 "weight",
-                14
+                18
             ],
             [
                 "uses",
-                1
+                30
             ],
             [
                 "uses_options",

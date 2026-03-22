@@ -15,7 +15,7 @@
             ],
             [
                 "combat_condition",
-                "unit.get_weapon() and item_system.weapon_type(unit, item) == 'Sword'and not item_funcs.is_magic(unit, unit.get_weapon())\n"
+                "unit.get_weapon() and item_system.weapon_type(unit, item) == 'Sword' and not item_funcs.is_magic(unit, unit.get_weapon())\n"
             ],
             [
                 "stat_change_expression",

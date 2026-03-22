@@ -3,10 +3,10 @@
         "nid": "Poison",
         "name": "Poison",
         "desc": "Makes the unit take two more damage per stack, max 3 stacks",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            9,
+            30
         ],
         "components": [
             [

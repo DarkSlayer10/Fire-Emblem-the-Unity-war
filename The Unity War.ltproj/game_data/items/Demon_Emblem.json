@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Demon_Emblem",
+        "name": "Demon Emblem",
+        "desc": "nullifies demon weakness",
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 3",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Demon_Badge"
+            ],
+            [
+                "accessory",
+                null
+            ]
+        ]
+    }
+]

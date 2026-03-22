@@ -48,11 +48,23 @@
         },
         "starting_items": [
             [
-                "Iron_Sword",
+                "Recurve_Dagger",
                 false
             ],
             [
-                "Platonic_Sword",
+                "Poison_Sword",
+                false
+            ],
+            [
+                "Killing_Edge",
+                false
+            ],
+            [
+                "Lancereaver",
+                false
+            ],
+            [
+                "Iron_Shield",
                 false
             ]
         ],

@@ -3,10 +3,10 @@
         "nid": "Cursed_Spirits",
         "name": "Cursed Spirits",
         "desc": "-4 LCK",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            11,
+            5
         ],
         "components": [
             [

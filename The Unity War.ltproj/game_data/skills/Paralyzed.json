@@ -2,11 +2,11 @@
     {
         "nid": "Paralyzed",
         "name": "Paralyzed",
-        "desc": "-1 MOV for 1 round",
-        "icon_nid": null,
+        "desc": "-2 MOV for 1 round",
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            2,
+            35
         ],
         "components": [
             [
@@ -14,7 +14,7 @@
                 [
                     [
                         "MOV",
-                        -1
+                        -2
                     ]
                 ]
             ],

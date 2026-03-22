@@ -3,10 +3,10 @@
         "nid": "Res5",
         "name": "Resistance +5",
         "desc": "RES + 5",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            4,
+            7
         ],
         "components": [
             [

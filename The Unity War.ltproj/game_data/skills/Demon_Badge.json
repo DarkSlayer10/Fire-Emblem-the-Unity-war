@@ -1,0 +1,24 @@
+[
+    {
+        "nid": "Demon_Badge",
+        "name": "Demon Badge",
+        "desc": "",
+        "icon_nid": "{EldritchA, Serebii01} Tactics Ogre LUCT Icon Sheet 3",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "negate_tags",
+                [
+                    "Monster"
+                ]
+            ]
+        ]
+    }
+]

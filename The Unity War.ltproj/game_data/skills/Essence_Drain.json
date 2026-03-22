@@ -1,0 +1,55 @@
+[
+    {
+        "nid": "Essence_Drain",
+        "name": "Essence Drain",
+        "desc": "+1 to all stats, lasts the whole chapter, stacks.",
+        "icon_nid": "skill_icons",
+        "icon_index": [
+            13,
+            38
+        ],
+        "components": [
+            [
+                "stack",
+                999
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        1
+                    ],
+                    [
+                        "SKL",
+                        1
+                    ],
+                    [
+                        "SPD",
+                        1
+                    ],
+                    [
+                        "DEF",
+                        1
+                    ],
+                    [
+                        "RES",
+                        1
+                    ],
+                    [
+                        "LCK",
+                        1
+                    ],
+                    [
+                        "MAG",
+                        1
+                    ]
+                ]
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

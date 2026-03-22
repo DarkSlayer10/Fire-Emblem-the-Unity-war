@@ -3,10 +3,10 @@
         "nid": "Refresh",
         "name": "Refresh",
         "desc": "Generic skill that refreshes unit\nupon end of turn.",
-        "icon_nid": null,
+        "icon_nid": "skill_icons",
         "icon_index": [
-            0,
-            0
+            7,
+            51
         ],
         "components": [
             [
