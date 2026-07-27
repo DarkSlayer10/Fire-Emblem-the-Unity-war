@@ -1059,6 +1059,70 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Abigail",
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "40",
+                "variant": null,
+                "level": 8,
+                "klass": "Soldier",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Greatlance",
+                        false
+                    ],
+                    [
+                        "Elite_Soldier_Insignia",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Knife_Use"
+                ],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "41",
+                "variant": null,
+                "level": 8,
+                "klass": "Soldier",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Greatlance",
+                        false
+                    ],
+                    [
+                        "Elite_Soldier_Insignia",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Knife_Use"
+                ],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1066,8 +1130,8 @@
                 "nid": "F_1",
                 "region_type": "formation",
                 "position": [
-                    19,
-                    24
+                    11,
+                    23
                 ],
                 "size": [
                     1,
@@ -1083,8 +1147,8 @@
                 "nid": "F_2",
                 "region_type": "formation",
                 "position": [
-                    19,
-                    26
+                    12,
+                    23
                 ],
                 "size": [
                     1,
@@ -1100,8 +1164,8 @@
                 "nid": "F_3",
                 "region_type": "formation",
                 "position": [
-                    21,
-                    24
+                    14,
+                    23
                 ],
                 "size": [
                     1,
@@ -1117,8 +1181,8 @@
                 "nid": "F_4",
                 "region_type": "formation",
                 "position": [
-                    21,
-                    26
+                    15,
+                    23
                 ],
                 "size": [
                     1,
@@ -1134,7 +1198,7 @@
                 "nid": "F_5",
                 "region_type": "formation",
                 "position": [
-                    20,
+                    11,
                     25
                 ],
                 "size": [
@@ -1152,7 +1216,7 @@
                 "region_type": "formation",
                 "position": [
                     13,
-                    24
+                    25
                 ],
                 "size": [
                     1,
@@ -1169,7 +1233,7 @@
                 "region_type": "formation",
                 "position": [
                     15,
-                    24
+                    25
                 ],
                 "size": [
                     1,
@@ -1185,7 +1249,7 @@
                 "nid": "F_8",
                 "region_type": "formation",
                 "position": [
-                    13,
+                    10,
                     26
                 ],
                 "size": [
@@ -1202,7 +1266,7 @@
                 "nid": "F_9",
                 "region_type": "formation",
                 "position": [
-                    15,
+                    12,
                     26
                 ],
                 "size": [
@@ -1219,8 +1283,8 @@
                 "nid": "F_10",
                 "region_type": "formation",
                 "position": [
-                    7,
-                    24
+                    14,
+                    26
                 ],
                 "size": [
                     1,
@@ -1236,8 +1300,8 @@
                 "nid": "F_11",
                 "region_type": "formation",
                 "position": [
-                    9,
-                    24
+                    16,
+                    26
                 ],
                 "size": [
                     1,
@@ -1253,8 +1317,8 @@
                 "nid": "F_12",
                 "region_type": "formation",
                 "position": [
-                    8,
-                    25
+                    11,
+                    27
                 ],
                 "size": [
                     1,
@@ -1270,8 +1334,8 @@
                 "nid": "F_13",
                 "region_type": "formation",
                 "position": [
-                    7,
-                    26
+                    13,
+                    27
                 ],
                 "size": [
                     1,
@@ -1287,8 +1351,8 @@
                 "nid": "F_14",
                 "region_type": "formation",
                 "position": [
-                    9,
-                    26
+                    15,
+                    27
                 ],
                 "size": [
                     1,
@@ -1850,6 +1914,28 @@
                     "34": [
                         0,
                         6
+                    ]
+                }
+            },
+            {
+                "nid": "enemy_abigail",
+                "units": [
+                    "41",
+                    "40",
+                    "Abigail"
+                ],
+                "positions": {
+                    "Abigail": [
+                        13,
+                        19
+                    ],
+                    "40": [
+                        11,
+                        19
+                    ],
+                    "41": [
+                        15,
+                        19
                     ]
                 }
             }
