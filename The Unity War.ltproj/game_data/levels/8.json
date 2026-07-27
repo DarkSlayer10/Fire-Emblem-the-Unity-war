@@ -399,7 +399,7 @@
                 "variant": null,
                 "level": 20,
                 "klass": "Assassin_F",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
                         "Scimitar",
@@ -428,7 +428,7 @@
                 "variant": null,
                 "level": 20,
                 "klass": "Assassin_F",
-                "faction": "Town_Guard",
+                "faction": "Umbra",
                 "starting_items": [
                     [
                         "Scimitar",
@@ -440,6 +440,328 @@
                     ],
                     [
                         "Light_Brand",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "13",
+                "variant": null,
+                "level": 7,
+                "klass": "Knight",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "14",
+                "variant": null,
+                "level": 7,
+                "klass": "Knight",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Horseslayer",
+                        true
+                    ],
+                    [
+                        "Steel_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "15",
+                "variant": null,
+                "level": 7,
+                "klass": "Knight",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "16",
+                "variant": null,
+                "level": 7,
+                "klass": "Lancer_F",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ],
+                    [
+                        "Steel_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Demolish",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "17",
+                "variant": null,
+                "level": 7,
+                "klass": "Lancer_F",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ],
+                    [
+                        "Steel_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Demolish",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "18",
+                "variant": null,
+                "level": 10,
+                "klass": "Knight",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Axe",
+                        false
+                    ],
+                    [
+                        "Steel_Sword",
+                        true
+                    ],
+                    [
+                        "Steel_Lance",
+                        false
+                    ],
+                    [
+                        "Elite_Soldier_Insignia",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "19",
+                "variant": null,
+                "level": 10,
+                "klass": "Knight",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ],
+                    [
+                        "Hand_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "20",
+                "variant": null,
+                "level": 10,
+                "klass": "Brigand",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Swordreaver",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "21",
+                "variant": null,
+                "level": 10,
+                "klass": "Archer",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "22",
+                "variant": null,
+                "level": 10,
+                "klass": "Archer_F",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "23",
+                "variant": null,
+                "level": 10,
+                "klass": "Myrmidon_F",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "24",
+                "variant": null,
+                "level": 10,
+                "klass": "Myrmidon",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Light_Brand",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "25",
+                "variant": null,
+                "level": 10,
+                "klass": "Archer",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Iron_Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "26",
+                "variant": null,
+                "level": 10,
+                "klass": "Archer",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Bow",
                         false
                     ]
                 ],
@@ -1083,9 +1405,81 @@
                 }
             },
             {
-                "nid": "New Group",
-                "units": [],
-                "positions": {}
+                "nid": "enemy_2",
+                "units": [
+                    "26",
+                    "25",
+                    "24",
+                    "23",
+                    "22",
+                    "21",
+                    "20",
+                    "19",
+                    "18",
+                    "17",
+                    "16",
+                    "15",
+                    "14",
+                    "13"
+                ],
+                "positions": {
+                    "26": [
+                        2,
+                        16
+                    ],
+                    "25": [
+                        25,
+                        1
+                    ],
+                    "24": [
+                        25,
+                        19
+                    ],
+                    "23": [
+                        0,
+                        19
+                    ],
+                    "22": [
+                        1,
+                        26
+                    ],
+                    "21": [
+                        25,
+                        26
+                    ],
+                    "20": [
+                        18,
+                        27
+                    ],
+                    "19": [
+                        0,
+                        2
+                    ],
+                    "18": [
+                        5,
+                        2
+                    ],
+                    "17": [
+                        0,
+                        5
+                    ],
+                    "16": [
+                        25,
+                        20
+                    ],
+                    "15": [
+                        25,
+                        5
+                    ],
+                    "14": [
+                        0,
+                        20
+                    ],
+                    "13": [
+                        0,
+                        6
+                    ]
+                }
             }
         ],
         "ai_groups": [
