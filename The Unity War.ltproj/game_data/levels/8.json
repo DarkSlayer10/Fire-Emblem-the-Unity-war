@@ -909,6 +909,156 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "34",
+                "variant": null,
+                "level": 6,
+                "klass": "Lancer_F",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ],
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Demolish",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "35",
+                "variant": null,
+                "level": 6,
+                "klass": "Soldier_F",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ],
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Demolish",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "36",
+                "variant": null,
+                "level": 6,
+                "klass": "Scout_F",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Iron_Dagger",
+                        false
+                    ],
+                    [
+                        "Iron_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Knife_Use"
+                ],
+                "team": "enemy",
+                "ai": "Demolish",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "37",
+                "variant": null,
+                "level": 6,
+                "klass": "Soldier",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ],
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Knife_Use"
+                ],
+                "team": "enemy",
+                "ai": "Demolish",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "38",
+                "variant": null,
+                "level": 6,
+                "klass": "Mercenary",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Knife_Use"
+                ],
+                "team": "enemy",
+                "ai": "Demolish",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "39",
+                "variant": null,
+                "level": 6,
+                "klass": "Mercenary_F",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Knife_Use"
+                ],
+                "team": "enemy",
+                "ai": "Demolish",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1663,6 +1813,43 @@
                     "31": [
                         1,
                         0
+                    ]
+                }
+            },
+            {
+                "nid": "enemy_demolish",
+                "units": [
+                    "39",
+                    "38",
+                    "37",
+                    "36",
+                    "35",
+                    "34"
+                ],
+                "positions": {
+                    "39": [
+                        0,
+                        27
+                    ],
+                    "38": [
+                        25,
+                        27
+                    ],
+                    "37": [
+                        25,
+                        0
+                    ],
+                    "36": [
+                        0,
+                        5
+                    ],
+                    "35": [
+                        25,
+                        1
+                    ],
+                    "34": [
+                        0,
+                        6
                     ]
                 }
             }
