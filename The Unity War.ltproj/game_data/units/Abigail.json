@@ -4,7 +4,7 @@
         "name": "Abigail",
         "desc": "quick draw skill\nA umbra general that used\nto be a jail warden. Nice and lazy\nbut acts tough to be ruthless.",
         "variant": null,
-        "level": 1,
+        "level": 5,
         "klass": "Hero_F",
         "tags": [],
         "bases": {

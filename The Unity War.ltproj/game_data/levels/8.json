@@ -22,7 +22,437 @@
         "go_to_overworld": false,
         "should_record": true,
         "tags": [],
-        "units": [],
+        "units": [
+            {
+                "nid": "Naoki",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 7,
+                "klass": "Pirate",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 7,
+                "klass": "Mage",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 7,
+                "klass": "Myrmidon_F",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Iron_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 7,
+                "klass": "Mage",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 7,
+                "klass": "Myrmidon",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Iron_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 6,
+                "klass": "Scout",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 6,
+                "klass": "Scout_F",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 6,
+                "klass": "Lancer",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ],
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 6,
+                "klass": "Lancer_F",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Steel_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 6,
+                "klass": "Mage",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 6,
+                "klass": "Mage",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 6,
+                "klass": "Wyvern Rider",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ],
+                    [
+                        "Steel_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 6,
+                "klass": "Mage_F",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 6,
+                "klass": "Mage_F",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 6,
+                "klass": "Mercenary",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Iron_Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 6,
+                "klass": "Wyvern_Rider_F",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ],
+                    [
+                        "Steel_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Alex",
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "11",
+                "variant": null,
+                "level": 20,
+                "klass": "Assassin_F",
+                "faction": "Town_Guard",
+                "starting_items": [
+                    [
+                        "Scimitar",
+                        false
+                    ],
+                    [
+                        "Brave_Sword",
+                        false
+                    ],
+                    [
+                        "Stiletto",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "12",
+                "variant": null,
+                "level": 20,
+                "klass": "Assassin_F",
+                "faction": "Town_Guard",
+                "starting_items": [
+                    [
+                        "Scimitar",
+                        false
+                    ],
+                    [
+                        "Brave_Dagger",
+                        false
+                    ],
+                    [
+                        "Light_Brand",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
         "regions": [
             {
                 "nid": "F_1",
@@ -530,16 +960,139 @@
                 "positions": {}
             },
             {
-                "nid": "Reinf_2",
-                "units": [],
-                "positions": {}
+                "nid": "Reinf_5",
+                "units": [
+                    "106",
+                    "108",
+                    "107",
+                    "109"
+                ],
+                "positions": {
+                    "106": [
+                        25,
+                        5
+                    ],
+                    "108": [
+                        25,
+                        19
+                    ],
+                    "107": [
+                        0,
+                        5
+                    ],
+                    "109": [
+                        0,
+                        19
+                    ]
+                }
             },
             {
                 "nid": "Reinf_1",
+                "units": [
+                    "101",
+                    "102",
+                    "103",
+                    "104",
+                    "105"
+                ],
+                "positions": {
+                    "101": [
+                        16,
+                        14
+                    ],
+                    "102": [
+                        25,
+                        6
+                    ],
+                    "104": [
+                        0,
+                        6
+                    ],
+                    "103": [
+                        25,
+                        20
+                    ],
+                    "105": [
+                        0,
+                        20
+                    ]
+                }
+            },
+            {
+                "nid": "enemy_1",
+                "units": [
+                    "116",
+                    "115",
+                    "114",
+                    "113",
+                    "112",
+                    "111",
+                    "110"
+                ],
+                "positions": {
+                    "116": [
+                        20,
+                        2
+                    ],
+                    "115": [
+                        8,
+                        17
+                    ],
+                    "114": [
+                        6,
+                        17
+                    ],
+                    "113": [
+                        20,
+                        17
+                    ],
+                    "112": [
+                        1,
+                        11
+                    ],
+                    "111": [
+                        18,
+                        17
+                    ],
+                    "110": [
+                        23,
+                        1
+                    ]
+                }
+            },
+            {
+                "nid": "enemy_alex",
+                "units": [
+                    "12",
+                    "11",
+                    "Alex"
+                ],
+                "positions": {
+                    "Alex": [
+                        23,
+                        6
+                    ],
+                    "12": [
+                        24,
+                        5
+                    ],
+                    "11": [
+                        24,
+                        6
+                    ]
+                }
+            },
+            {
+                "nid": "New Group",
                 "units": [],
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
