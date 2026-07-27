@@ -88,6 +88,10 @@
                     [
                         "Iron_Sword",
                         false
+                    ],
+                    [
+                        "Leather_Shield",
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -237,7 +241,7 @@
                 "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Thunder",
+                        "Scorch",
                         false
                     ]
                 ],
@@ -259,6 +263,10 @@
                 "starting_items": [
                     [
                         "Thunder",
+                        false
+                    ],
+                    [
+                        "Evasion_Ring",
                         false
                     ]
                 ],
@@ -325,7 +333,7 @@
                 "faction": "Umbra",
                 "starting_items": [
                     [
-                        "Thunder",
+                        "Scorch",
                         false
                     ]
                 ],
@@ -373,6 +381,10 @@
                     [
                         "Steel_Lance",
                         false
+                    ],
+                    [
+                        "Door_Key",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -412,6 +424,10 @@
                     [
                         "Stiletto",
                         false
+                    ],
+                    [
+                        "Critical_Ring",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -440,6 +456,10 @@
                     ],
                     [
                         "Light_Brand",
+                        false
+                    ],
+                    [
+                        "Critical_Ring",
                         false
                     ]
                 ],
@@ -572,8 +592,8 @@
             {
                 "nid": "18",
                 "variant": null,
-                "level": 10,
-                "klass": "Knight",
+                "level": 1,
+                "klass": "General",
                 "faction": "Umbra",
                 "starting_items": [
                     [
@@ -721,6 +741,10 @@
                     [
                         "Light_Brand",
                         false
+                    ],
+                    [
+                        "Chest_Key",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -973,6 +997,10 @@
                     ],
                     [
                         "Iron_Sword",
+                        false
+                    ],
+                    [
+                        "Leather_Shield",
                         false
                     ]
                 ],
@@ -1632,7 +1660,7 @@
                 "positions": {}
             },
             {
-                "nid": "Reinf_5",
+                "nid": "Reinf_5_10_15",
                 "units": [
                     "106",
                     "108",
@@ -1659,7 +1687,7 @@
                 }
             },
             {
-                "nid": "Reinf_1",
+                "nid": "Reinf_2",
                 "units": [
                     "101",
                     "102",
