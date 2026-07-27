@@ -773,6 +773,94 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "27",
+                "variant": null,
+                "level": 6,
+                "klass": "Soldier",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "28",
+                "variant": null,
+                "level": 6,
+                "klass": "Soldier",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "29",
+                "variant": null,
+                "level": 6,
+                "klass": "Soldier",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "30",
+                "variant": null,
+                "level": 6,
+                "klass": "Soldier",
+                "faction": "Umbra",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ],
+                    [
+                        "Torch",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1478,6 +1566,33 @@
                     "13": [
                         0,
                         6
+                    ]
+                }
+            },
+            {
+                "nid": "enemy_bridge",
+                "units": [
+                    "30",
+                    "29",
+                    "28",
+                    "27"
+                ],
+                "positions": {
+                    "30": [
+                        20,
+                        14
+                    ],
+                    "29": [
+                        18,
+                        14
+                    ],
+                    "28": [
+                        8,
+                        14
+                    ],
+                    "27": [
+                        6,
+                        14
                     ]
                 }
             }
