@@ -244,5 +244,15 @@
     "6_turn7",
     "7_reinforcement_turn_4",
     "7_reinforcement_turn_8",
-    "7_reinforcement_turn_10"
+    "7_reinforcement_turn_6",
+    "7_reinforcement_turn_10",
+    "7_Seize",
+    "7_Visit_BL",
+    "7_Visit_TL",
+    "7_Visit_BR",
+    "7_Visit_TR",
+    "7_Intro",
+    "7_Outro",
+    "8_Intro",
+    "8_Outro"
 ]

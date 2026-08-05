@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "8",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_group;enemy_1;starting;;closest",
+            "add_group;enemy_2;starting;;closest",
+            "arrange_formation",
+            "prep;t;Preparations"
+        ],
+        "nid": "8 Intro"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Visit BL",
+        "trigger": "Visit",
+        "level_nid": "7",
+        "condition": "region.nid == 'Visit_BottomLeft'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};Killer_Axe",
+            "has_attacked;{unit}"
+        ],
+        "nid": "7 Visit BL"
+    }
+]

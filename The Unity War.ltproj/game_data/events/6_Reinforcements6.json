@@ -1,7 +1,7 @@
 [
     {
         "name": "Reinforcements6",
-        "trigger": null,
+        "trigger": "turn_change",
         "level_nid": "6",
         "condition": "game.turncount == 6",
         "commands": [],

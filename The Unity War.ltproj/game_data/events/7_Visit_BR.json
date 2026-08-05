@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Visit_BR",
+        "trigger": "Visit",
+        "level_nid": "7",
+        "condition": "region.nid == 'Visit_BottomRight'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};Heavy_Spear",
+            "has_attacked;{unit}"
+        ],
+        "nid": "7 Visit_BR"
+    }
+]

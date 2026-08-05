@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Visit_TR",
+        "trigger": "Visit",
+        "level_nid": "7",
+        "condition": "region.nid == 'Visit_TopLeft'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};Stiletto",
+            "has_attacked;{unit}"
+        ],
+        "nid": "7 Visit_TR"
+    }
+]

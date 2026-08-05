@@ -51,6 +51,19 @@
                     "Tag",
                     "Tile"
                 ],
+                "view_range": -2,
+                "invert_targeting": true,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Enemy",
+                "target_spec": [
+                    "Tag",
+                    "Tile"
+                ],
                 "view_range": -4,
                 "invert_targeting": true,
                 "roam_speed": 100,
@@ -311,9 +324,9 @@
             },
             {
                 "action": "Move_to",
-                "target": "Position",
+                "target": "Ally",
                 "target_spec": null,
-                "view_range": -4,
+                "view_range": -2,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,

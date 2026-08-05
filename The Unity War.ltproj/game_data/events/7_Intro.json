@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "7",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "arrange_formation",
+            "",
+            "",
+            "prep;t;Preparations",
+            "",
+            ""
+        ],
+        "nid": "7 Intro"
+    }
+]
