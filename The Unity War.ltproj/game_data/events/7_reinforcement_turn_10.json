@@ -1,0 +1,15 @@
+[
+    {
+        "name": "reinforcement turn 10",
+        "trigger": "turn_change",
+        "level_nid": "7",
+        "condition": "game.turncount == 10",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_group;Reinf_t10;Reinf_t10;;closest"
+        ],
+        "nid": "7 reinforcement turn 10"
+    }
+]

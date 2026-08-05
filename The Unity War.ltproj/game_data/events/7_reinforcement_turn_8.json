@@ -1,0 +1,15 @@
+[
+    {
+        "name": "reinforcement turn 8",
+        "trigger": "turn_change",
+        "level_nid": "7",
+        "condition": "game.turncount == 8",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_group;Reinf_t8;Reinf_t8;;closest"
+        ],
+        "nid": "7 reinforcement turn 8"
+    }
+]

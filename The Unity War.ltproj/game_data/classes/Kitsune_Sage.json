@@ -1,11 +1,11 @@
 [
     {
-        "nid": "Kistune_Sage",
-        "name": "Kistune Sage",
+        "nid": "Kitsune_Sage",
+        "name": "Kitsune Sage",
         "desc": "A Kistune sage that uses magic instead\nof fangs and bows to fight.",
         "tier": 2,
         "movement_group": "Mages",
-        "promotes_from": null,
+        "promotes_from": "Mage",
         "turns_into": [],
         "tags": [
             "Female"
@@ -148,7 +148,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "C_2",
+        "map_sprite_nid": "Kitsune Sage Stand",
         "combat_anim_nid": null,
         "fields": []
     }

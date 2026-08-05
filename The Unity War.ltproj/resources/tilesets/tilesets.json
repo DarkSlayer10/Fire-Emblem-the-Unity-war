@@ -260,5 +260,10 @@
             "22,16": 0,
             "22,17": 0
         }
+    },
+    {
+        "nid": "PrisonComm ch 7A",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

@@ -5,7 +5,7 @@
         "desc": "perfectionist skill\nNaoki's younger sister, She\nresearches magic on her off time,\nLoves her older sister but is childish.",
         "variant": null,
         "level": 3,
-        "klass": "Kistune_Sage",
+        "klass": "Kitsune_Sage",
         "tags": [],
         "bases": {
             "HP": 48,
